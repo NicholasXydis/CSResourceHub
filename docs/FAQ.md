@@ -2,7 +2,7 @@
 
 ## What is CS Resource Hub?
 
-An open dataset of resources, opportunities, and tools for CS students. Anyone can contribute.
+An open dataset of North American Computer Science student resources. Anyone can contribute.
 
 ## How do I add a resource?
 

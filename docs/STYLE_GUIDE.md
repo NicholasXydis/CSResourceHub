@@ -30,11 +30,26 @@ Bad: `"PicoCTF"`, `"google summer of code"`, `"mlh_fellowship"`
 
 - Always include `https://`
 - No trailing slashes
+- No tracking parameters such as `utm_source`
 - Link to the most specific relevant page
 
 Good: `"https://picoctf.org"`
 
 Bad: `"picoctf.org"`, `"https://picoctf.org/"`
+
+## Metadata
+
+- `last_verified` is required for every resource
+- `type` must come from `data/types.json`
+- `language` must come from `data/languages.json`
+- `tags` must come from `data/tags.json`
+
+## Regions
+
+- Use `North-America` for resources broadly relevant across North America
+- Use `Canada` for Canada-specific resources
+- Use `USA` for United States-specific resources
+- Use `global` only when the resource is broadly useful to North American students
 
 ## Names
 

@@ -2,15 +2,15 @@
 
 ## Learning & Development
 
-- **learning-resources** — Websites, courses, tutorials, and books for learning CS topics
-- **communities** — Online communities, forums, and groups for CS students
-- **clubs** — University and online clubs for CS students
+- **learning-resources** — Websites, courses, tutorials, and books for learning Computer Science topics
+- **communities** — Online communities, forums, and groups for North American Computer Science students
+- **clubs** — University and online clubs for North American Computer Science students
 
 ## Experience & Involvement
 
 - **volunteer** — Volunteer and non-profit opportunities in tech
 - **ctfs** — Capture The Flag competitions for security practice
-- **competitions** — Coding and CS competitions
+- **competitions** — Coding and Computer Science competitions
 - **hackathons** — Hackathon events and platforms
 - **game-jams** — Game development jams and competitions
 
@@ -23,14 +23,14 @@
 ## Academic & Professional Growth
 
 - **research** — Research opportunities, labs, and programs
-- **conferences** — CS conferences for students
+- **conferences** — Computer Science conferences for students
 - **fellowships** — Fellowships and student programs
 
 ## Networking & Opportunities
 
 - **online-events** — Virtual events, webinars, and meetups
 - **career-fairs** — Career fairs and recruiting events
-- **scholarships** — Scholarships for CS students
+- **scholarships** — Scholarships for North American Computer Science students
 - **startup-programs** — Startup incubators and accelerators for students
 - **freelance** — Platforms and resources for freelancing
 

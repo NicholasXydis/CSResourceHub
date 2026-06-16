@@ -9,7 +9,7 @@ authors:
     orcid: ""
 repository-code: https://github.com/NicholasXydis/CSResourceHub
 url: https://github.com/NicholasXydis/CSResourceHub
-abstract: "A curated open dataset of resources, opportunities, and tools for CS students."
+abstract: "A curated dataset of North American Computer Science student resources."
 license: CC-BY-4.0
 version: 1.0.0
 date-released: "2026-06-15"
