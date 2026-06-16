@@ -1,14 +1,8 @@
 {
   "regions": [
     "global",
-    "USA",
+    "North-America",
     "Canada",
-    "UK",
-    "Europe",
-    "Asia",
-    "Australia",
-    "Africa",
-    "Latin-America",
-    "Middle-East"
+    "USA"
   ]
 }
