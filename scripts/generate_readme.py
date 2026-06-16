@@ -1,5 +1,5 @@
 from collections import defaultdict
-from utils import load_all_resources, load_json, log, ROOT, GENERATED_DIR
+from utils import load_all_resources, load_json, save_json, log, ROOT, GENERATED_DIR
 from datetime import date
 
 CATEGORY_LABELS = {
