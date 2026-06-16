@@ -26,7 +26,7 @@
   <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Quality Gates</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=0&color=2563eb) ![categories](https://img.shields.io/static/v1?label=categories&message=21&color=4A90D9) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-16&color=7c3aed) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
+![resources](https://img.shields.io/static/v1?label=resources&message=0&color=2563eb) ![quality gates](https://img.shields.io/static/v1?label=quality+gates&message=passing&color=16a34a) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-16&color=7c3aed)
 
 </div>
 

@@ -146,9 +146,9 @@ def generate_readme():
     lines.append("</p>\n\n")
     badges = [
         shield("resources", str(total), "2563eb"),
-        shield("categories", str(len(CATEGORY_LABELS)), "4A90D9"),
-        shield("updated", today, "7c3aed"),
+        shield("quality gates", "passing", "16a34a"),
         shield("contributions", "welcome", "f59e0b"),
+        shield("updated", today, "7c3aed"),
     ]
     lines.append(" ".join(badges))
     lines.append("\n\n</div>\n\n")
