@@ -23,7 +23,7 @@ make add
 - Description must be one sentence ending with a period
 - URL must include `https://`
 - `id` must be unique across all files, lowercase, hyphens only
-- `quality` must be honestly rated 1-5
+- Do not set `quality`; maintainers set it during review
 - Check [STYLE_GUIDE.md](./STYLE_GUIDE.md) before writing descriptions
 
 ## Not Sure Which Category?

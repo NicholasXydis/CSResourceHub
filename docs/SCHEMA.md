@@ -16,7 +16,6 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | `cost`        | string  | `free`, `freemium`, or `paid`                | `"free"`                            |
 | `status`      | string  | `active`, `paused`, or `archived`            | `"active"`                          |
 | `region`      | array   | List of regions from `data/regions.json`     | `["global"]`                        |
-| `quality`     | integer | 1-5 rating of resource quality               | `5`                                 |
 | `source`      | string  | Where you found it                           | `"official-website"`                |
 | `date_added`  | string  | ISO date YYYY-MM-DD                          | `"2026-06-15"`                      |
 
@@ -24,6 +23,7 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 
 | Field           | Type   | Description                              | Example        |
 | --------------- | ------ | ---------------------------------------- | -------------- |
+| `quality`       | integer | 1-5 maintainer rating                    | `5`            |
 | `deadline`      | string | Month name, for time-sensitive resources | `"March"`      |
 | `last_verified` | string | ISO date last URL was confirmed active   | `"2026-06-15"` |
 
@@ -39,7 +39,6 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
   "cost": "free",
   "status": "active",
   "region": ["global"],
-  "quality": 5,
   "source": "official-website",
   "date_added": "2026-06-15",
   "last_verified": "2026-06-15"
