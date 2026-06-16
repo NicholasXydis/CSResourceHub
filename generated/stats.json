@@ -1,0 +1,80 @@
+{
+  "generated": "2026-06-16",
+  "total": 0,
+  "categories": {
+    "learning-resources": 0,
+    "communities": 0,
+    "clubs": 0,
+    "volunteer": 0,
+    "ctfs": 0,
+    "competitions": 0,
+    "hackathons": 0,
+    "game-jams": 0,
+    "projects": 0,
+    "repositories": 0,
+    "open-source-help": 0,
+    "research": 0,
+    "conferences": 0,
+    "fellowships": 0,
+    "online-events": 0,
+    "career-fairs": 0,
+    "scholarships": 0,
+    "startup-programs": 0,
+    "freelance": 0,
+    "certifications": 0,
+    "free-benefits": 0
+  },
+  "groups": {
+    "Learning & Development": {
+      "total": 0,
+      "categories": {
+        "learning-resources": 0,
+        "communities": 0,
+        "clubs": 0
+      }
+    },
+    "Experience & Involvement": {
+      "total": 0,
+      "categories": {
+        "volunteer": 0,
+        "ctfs": 0,
+        "competitions": 0,
+        "hackathons": 0,
+        "game-jams": 0
+      }
+    },
+    "Building & Open Source": {
+      "total": 0,
+      "categories": {
+        "projects": 0,
+        "repositories": 0,
+        "open-source-help": 0
+      }
+    },
+    "Academic & Professional": {
+      "total": 0,
+      "categories": {
+        "research": 0,
+        "conferences": 0,
+        "fellowships": 0
+      }
+    },
+    "Networking & Opportunities": {
+      "total": 0,
+      "categories": {
+        "online-events": 0,
+        "career-fairs": 0,
+        "scholarships": 0,
+        "startup-programs": 0,
+        "freelance": 0
+      }
+    },
+    "Credentials & Perks": {
+      "total": 0,
+      "categories": {
+        "certifications": 0,
+        "free-benefits": 0
+      }
+    }
+  }
+}
