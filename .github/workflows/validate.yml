@@ -13,6 +13,4 @@ jobs:
         with:
           python-version: "3.14"
       - run: pip install jsonschema
-      - run: python scripts/validate.py
-      - run: python scripts/check_duplicates.py
-      - run: python scripts/check_tags.py
+      - run: python scripts/validate_all.py

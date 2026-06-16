@@ -13,12 +13,15 @@ jobs:
         with:
           python-version: "3.14"
       - run: pip install jsonschema requests
+      - run: python scripts/sort_resources.py
       - run: python scripts/generate_readme.py
       - run: python scripts/generate_combined.py
       - run: python scripts/generate_site_json.py
+      - run: python scripts/generate_stats_json.py
+      - run: python scripts/export_csv.py
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md generated/
+          git add README.md data/ generated/
           git diff --staged --quiet || git commit -m "chore: regenerate outputs [skip ci]"
           git push

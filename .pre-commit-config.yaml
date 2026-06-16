@@ -20,7 +20,7 @@ repos:
   - repo: local
     hooks:
       - id: validate-json
-        name: Validate JSON schemas
-        entry: python scripts/validate.py
+        name: Validate dataset
+        entry: python scripts/validate_all.py
         language: python
         pass_filenames: false
