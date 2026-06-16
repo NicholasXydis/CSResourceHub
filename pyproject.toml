@@ -1,0 +1,25 @@
+[project]
+name = "cs-resource-hub"
+version = "1.0.0"
+description = "A curated open dataset of resources for CS students."
+authors = [{ name = "Nicholas Xydis", email = "NicholasXydis@outlook.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.31.0",
+    "jsonschema>=4.21.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.4.0",
+    "pre-commit>=3.7.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = []
