@@ -33,4 +33,4 @@ See [docs/SCHEMA.md](./docs/SCHEMA.md) for full field documentation.
 
 ## Questions
 
-Open an [Issue](https://github.com/NicholasXydis/CSResourceHub/issues) or see [SUPPORT.md](./SUPPORT.md).
+Use [Discussions](https://github.com/NicholasXydis/CSResourceHub/discussions) or see [SUPPORT.md](./SUPPORT.md).
