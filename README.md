@@ -33,7 +33,7 @@
 <br>
 
 <div align="center">
-  <img src="docs/data-pipeline.svg" alt="CS Resource Hub data pipeline" width="100%">
+  <img src="docs/data-pipeline.svg" alt="CS Resource Hub data pipeline" width="85%">
 </div>
 
 <br>
@@ -44,14 +44,13 @@ Browse resources by focus area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | 📚 [Learning Resources](#learning-resources) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💬 [Communities](#communities) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🎓 [Clubs](#clubs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
-| 🏆 Experience & Involvement | ❤️ [Volunteer & Non-Profit](#volunteer) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🔐 [CTFs](#ctfs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🏆 [Competitions](#competitions) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💻 [Hackathons](#hackathons) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🎮 [Game Jams](#game-jams) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
-| 🧩 Building & Open Source | 🧩 [Projects](#projects) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>📦 [Repositories](#repositories) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🤝 [Open Source Help](#open-source-help) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
-| 🔬 Academic & Professional | 🔬 [Research](#research) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>📢 [Conferences](#conferences) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🌟 [Fellowships & Student Programs](#fellowships) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
-| 💼 Networking & Opportunities | 🌐 [Online Events](#online-events) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💼 [Career Fairs](#career-fairs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💰 [Scholarships](#scholarships) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🚀 [Startup Programs](#startup-programs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💸 [Freelance](#freelance) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
-| 🏅 Credentials & Perks | 🏅 [Certifications](#certifications) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🎁 [Free Benefits](#free-benefits) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
+| 📚 Learning & Development | 📚 [Learning Resources](#learning-resources) (0)<br>💬 [Communities](#communities) (0)<br>🎓 [Clubs](#clubs) (0) |
+| 🏆 Experience & Involvement | ❤️ [Volunteer & Non-Profit](#volunteer) (0)<br>🔐 [CTFs](#ctfs) (0)<br>🏆 [Competitions](#competitions) (0)<br>💻 [Hackathons](#hackathons) (0)<br>🎮 [Game Jams](#game-jams) (0) |
+| 🧩 Building & Open Source | 🧩 [Projects](#projects) (0)<br>📦 [Repositories](#repositories) (0)<br>🤝 [Open Source Help](#open-source-help) (0) |
+| 🔬 Academic & Professional | 🔬 [Research](#research) (0)<br>📢 [Conferences](#conferences) (0)<br>🌟 [Fellowships & Student Programs](#fellowships) (0) |
+| 💼 Networking & Opportunities | 🌐 [Online Events](#online-events) (0)<br>💼 [Career Fairs](#career-fairs) (0)<br>💰 [Scholarships](#scholarships) (0)<br>🚀 [Startup Programs](#startup-programs) (0)<br>💸 [Freelance](#freelance) (0) |
+| 🏅 Credentials & Perks | 🏅 [Certifications](#certifications) (0)<br>🎁 [Free Benefits](#free-benefits) (0) |
 
----
 
 <a id="learning-resources"></a>
 
@@ -221,8 +220,6 @@ Browse resources by focus area and category.
 
 > No resources yet. Contributions are welcome.
 
----
-
 ## Contributing
 
 Contributions keep this dataset useful and current.
@@ -237,8 +234,6 @@ Contributions keep this dataset useful and current.
 
 - Code and scripts: [MIT](./LICENSE)
 - Dataset/content: [CC BY 4.0](./LICENSE-CC-BY)
-
----
 
 <div align="center">
 

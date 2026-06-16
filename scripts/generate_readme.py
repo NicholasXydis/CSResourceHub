@@ -83,10 +83,7 @@ def shield(label: str, message: str, color: str) -> str:
 
 
 def count_badge(count: int) -> str:
-    return (
-        f'<img src="https://img.shields.io/static/v1?label=&message={count}'
-        '&color=2563eb&style=flat-square" alt="" height="18">'
-    )
+    return f"({count})"
 
 
 def typing_svg(lines: list[str]) -> str:
@@ -159,7 +156,7 @@ def generate_readme():
     lines.append('<div align="center">\n')
     lines.append(
         '  <img src="docs/data-pipeline.svg" '
-        'alt="CS Resource Hub data pipeline" width="100%">\n'
+        'alt="CS Resource Hub data pipeline" width="85%">\n'
     )
     lines.append("</div>\n\n")
     lines.append("<br>\n\n")
@@ -180,7 +177,7 @@ def generate_readme():
         joined_links = "<br>".join(category_links)
         lines.append(f"| {GROUP_ICONS[group]} {group} | {joined_links} |\n")
 
-    lines.append("\n---\n")
+    lines.append("\n")
 
     for category, label in CATEGORY_LABELS.items():
         cat_resources = sorted(
@@ -202,7 +199,7 @@ def generate_readme():
         else:
             lines.append("> No resources yet. Contributions are welcome.\n")
 
-    lines.append("\n---\n\n")
+    lines.append("\n")
     lines.append("## Contributing\n\n")
     lines.append("Contributions keep this dataset useful and current.\n\n")
     lines.append(
@@ -219,7 +216,7 @@ def generate_readme():
     lines.append("\n## License\n\n")
     lines.append("- Code and scripts: [MIT](./LICENSE)\n")
     lines.append("- Dataset/content: [CC BY 4.0](./LICENSE-CC-BY)\n")
-    lines.append("\n---\n\n")
+    lines.append("\n")
     lines.append('<div align="center">\n\n')
     lines.append(
         "Built for North American Computer Science students who want one reliable "
