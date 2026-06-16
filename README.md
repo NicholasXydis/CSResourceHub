@@ -19,4 +19,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) to add a resource.
 
 ## License
 
-Scripts: [MIT](./LICENSE-MIT) — Data: [CC BY 4.0](./LICENSE-CC-BY)
+Scripts: [MIT](./LICENSE) — Data: [CC BY 4.0](./LICENSE-CC-BY)
