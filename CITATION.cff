@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: CS Resource Hub
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+authors:
+  - family-names: Xydis
+    given-names: Nicholas
+    email: NicholasXydis@outlook.com
+    orcid: ""
+repository-code: https://github.com/NicholasXydis/CSResourceHub
+url: https://github.com/NicholasXydis/CSResourceHub
+abstract: "A curated open dataset of resources, opportunities, and tools for CS students."
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2026-06-15"
