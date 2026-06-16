@@ -57,10 +57,25 @@ def add_resource():
         "category": category,
         "cost": prompt("Cost (free/freemium/paid)"),
         "status": "active",
-        "region": prompt("Region (e.g. global, Canada)").split(","),
+        "region": prompt("Region (e.g. North-America, Canada, USA)").split(","),
         "source": prompt("Source (official-website/community/research/social-media)"),
         "date_added": str(date.today()),
+        "last_verified": str(date.today()),
     }
+
+    tags = prompt("Tags (comma-separated, optional)", required=False)
+    if tags:
+        resource["tags"] = [tag.strip() for tag in tags.split(",") if tag.strip()]
+
+    resource_type = prompt("Type (optional)", required=False)
+    if resource_type:
+        resource["type"] = resource_type
+
+    language = prompt("Language (comma-separated, optional)", required=False)
+    if language:
+        resource["language"] = [
+            lang.strip() for lang in language.split(",") if lang.strip()
+        ]
 
     quality = prompt("Quality (1-5, maintainer only, optional)", required=False)
     if quality:

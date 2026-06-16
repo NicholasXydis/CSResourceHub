@@ -7,6 +7,66 @@ DATA_DIR = ROOT / "data"
 SCHEMA_FILE = ROOT / "schema" / "resource.schema.json"
 GENERATED_DIR = ROOT / "generated"
 
+CATEGORY_LABELS = {
+    "learning-resources": "Learning Resources",
+    "communities": "Communities",
+    "clubs": "Clubs",
+    "volunteer": "Volunteer & Non-Profit",
+    "ctfs": "CTFs",
+    "competitions": "Competitions",
+    "hackathons": "Hackathons",
+    "game-jams": "Game Jams",
+    "projects": "Projects",
+    "repositories": "Repositories",
+    "open-source-help": "Open Source Help",
+    "research": "Research",
+    "conferences": "Conferences",
+    "fellowships": "Fellowships & Student Programs",
+    "online-events": "Online Events",
+    "career-fairs": "Career Fairs",
+    "scholarships": "Scholarships",
+    "startup-programs": "Startup Programs",
+    "freelance": "Freelance",
+    "certifications": "Certifications",
+    "free-benefits": "Free Benefits",
+}
+
+CATEGORY_GROUPS = {
+    "Learning & Development": [
+        "learning-resources",
+        "communities",
+        "clubs",
+    ],
+    "Experience & Involvement": [
+        "volunteer",
+        "ctfs",
+        "competitions",
+        "hackathons",
+        "game-jams",
+    ],
+    "Building & Open Source": [
+        "projects",
+        "repositories",
+        "open-source-help",
+    ],
+    "Academic & Professional": [
+        "research",
+        "conferences",
+        "fellowships",
+    ],
+    "Networking & Opportunities": [
+        "online-events",
+        "career-fairs",
+        "scholarships",
+        "startup-programs",
+        "freelance",
+    ],
+    "Credentials & Perks": [
+        "certifications",
+        "free-benefits",
+    ],
+}
+
 
 def load_json(path: Path) -> dict:
     with open(path, "r", encoding="utf-8") as f:
@@ -37,6 +97,10 @@ def load_all_resources() -> list[dict]:
         data = load_json(path)
         resources.extend(data.get("resources", []))
     return resources
+
+
+def get_category_from_path(path: Path) -> str:
+    return path.stem
 
 
 def log(msg: str) -> None:
