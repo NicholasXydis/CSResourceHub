@@ -1,0 +1,23 @@
+{
+  "types": [
+    "course",
+    "book",
+    "video",
+    "platform",
+    "tool",
+    "community",
+    "club",
+    "event",
+    "competition",
+    "program",
+    "scholarship",
+    "repository",
+    "project",
+    "article",
+    "newsletter",
+    "conference",
+    "certification",
+    "benefit",
+    "service"
+  ]
+}
