@@ -9,6 +9,7 @@ What resource(s) does this PR add or change?
 - [ ] My entry follows the schema in `schema/resource.schema.json`
 - [ ] I ran `make validate` and it passed
 - [ ] I ran `make check-duplicates` and it passed
-- [ ] The URL is active and starts with `https://`
+- [ ] The URL is active, starts with `https://`, and has no tracking parameters
 - [ ] The description is one sentence ending with a period
+- [ ] I included `last_verified`
 - [ ] I did not set the `quality` field (maintainer sets this on review)

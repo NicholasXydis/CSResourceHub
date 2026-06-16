@@ -6,7 +6,8 @@
 *.yml text eol=lf
 *.yaml text eol=lf
 *.toml text eol=lf
+*.csv text eol=lf
 *.sh text eol=lf
 *.cff text eol=lf
 
-generated/ linguist-generated=true
+generated/** linguist-generated=true
