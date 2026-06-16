@@ -1,0 +1,9 @@
+title: "[Showcase] "
+labels: ["showcase"]
+body:
+  - type: textarea
+    id: showcase
+    attributes:
+      label: What did you build or use from this dataset?
+    validations:
+      required: true
