@@ -15,17 +15,20 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | `category`    | string  | Must match folder name                       | `"ctfs"`                            |
 | `cost`        | string  | `free`, `freemium`, or `paid`                | `"free"`                            |
 | `status`      | string  | `active`, `paused`, or `archived`            | `"active"`                          |
-| `region`      | array   | List of regions from `data/regions.json`     | `["global"]`                        |
+| `region`      | array   | List of regions from `data/regions.json`     | `["North-America"]`                 |
 | `source`      | string  | Where you found it                           | `"official-website"`                |
 | `date_added`  | string  | ISO date YYYY-MM-DD                          | `"2026-06-15"`                      |
+| `last_verified` | string | ISO date last URL was confirmed active     | `"2026-06-15"`                      |
 
 ### Optional
 
 | Field           | Type   | Description                              | Example        |
 | --------------- | ------ | ---------------------------------------- | -------------- |
 | `quality`       | integer | 1-5 maintainer rating                    | `5`            |
+| `tags`          | array  | Tags from `data/tags.json`               | `["security"]` |
+| `type`          | string | Resource type from `data/types.json`     | `"platform"`   |
+| `language`      | array  | Languages from `data/languages.json`     | `["english"]`  |
 | `deadline`      | string | Month name, for time-sensitive resources | `"March"`      |
-| `last_verified` | string | ISO date last URL was confirmed active   | `"2026-06-15"` |
 
 ## Example Entry
 
@@ -38,7 +41,7 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
   "category": "ctfs",
   "cost": "free",
   "status": "active",
-  "region": ["global"],
+  "region": ["North-America"],
   "source": "official-website",
   "date_added": "2026-06-15",
   "last_verified": "2026-06-15"

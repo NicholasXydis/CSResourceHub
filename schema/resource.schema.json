@@ -13,7 +13,8 @@
     "status",
     "region",
     "source",
-    "date_added"
+    "date_added",
+    "last_verified"
   ],
   "additionalProperties": false,
   "properties": {
@@ -75,6 +76,45 @@
         "type": "string"
       },
       "minItems": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "course",
+        "book",
+        "video",
+        "platform",
+        "tool",
+        "community",
+        "club",
+        "event",
+        "competition",
+        "program",
+        "scholarship",
+        "repository",
+        "project",
+        "article",
+        "newsletter",
+        "conference",
+        "certification",
+        "benefit",
+        "service"
+      ]
+    },
+    "language": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["english", "french", "spanish", "multilingual"]
+      },
+      "uniqueItems": true
     },
     "quality": {
       "type": "integer",
