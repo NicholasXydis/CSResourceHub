@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="210" viewBox="0 0 1180 210" role="img" aria-labelledby="title desc">
+  <title id="title">CS Resource Hub data pipeline</title>
+  <desc id="desc">Resource JSON is validated, checked for quality, and used to generate README, CSV, and site-ready JSON exports. Failed quality checks block output.</desc>
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .box { fill: #161b22; stroke: #30363d; stroke-width: 3; }
+      .box-blue { fill: #101827; stroke: #2f81f7; stroke-width: 3; }
+      .box-green { fill: #0f2419; stroke: #16a34a; stroke-width: 3; }
+      .box-red { fill: #2a1214; stroke: #ef4444; stroke-width: 3; }
+      .title { fill: #f0f6fc; font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 700; text-anchor: middle; }
+      .sub { fill: #f0f6fc; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 600; text-anchor: middle; }
+      .arrow { fill: #2f81f7; }
+      .red { fill: #ef4444; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1180" height="210"/>
+
+  <g>
+    <rect class="box" x="55" y="58" width="160" height="58" rx="10"/>
+    <text class="title" x="135" y="84">Add Resource</text>
+    <text class="sub" x="135" y="101">JSON in data/</text>
+  </g>
+
+  <rect class="arrow" x="215" y="83" width="34" height="8"/>
+  <polygon class="arrow" points="249,70 285,87 249,104"/>
+
+  <g>
+    <rect class="box-blue" x="300" y="58" width="160" height="58" rx="10"/>
+    <text class="title" x="380" y="84">Validate</text>
+    <text class="sub" x="380" y="101">schema + category</text>
+  </g>
+
+  <rect class="arrow" x="460" y="83" width="34" height="8"/>
+  <polygon class="arrow" points="494,70 530,87 494,104"/>
+
+  <g>
+    <rect class="box-blue" x="545" y="58" width="170" height="58" rx="10"/>
+    <text class="title" x="630" y="84">Quality Checks</text>
+    <text class="sub" x="630" y="101">URLs, tags, regions</text>
+  </g>
+
+  <rect class="arrow" x="715" y="83" width="34" height="8"/>
+  <polygon class="arrow" points="749,70 785,87 749,104"/>
+
+  <g>
+    <rect class="box" x="800" y="58" width="170" height="58" rx="10"/>
+    <text class="title" x="885" y="84">Generate</text>
+    <text class="sub" x="885" y="101">README, CSV, JSON</text>
+  </g>
+
+  <rect class="arrow" x="970" y="83" width="34" height="8"/>
+  <polygon class="arrow" points="1004,70 1040,87 1004,104"/>
+
+  <g>
+    <rect class="box-green" x="1055" y="58" width="85" height="58" rx="10"/>
+    <text class="title" x="1097.5" y="84">Ready</text>
+    <text class="sub" x="1097.5" y="101">exports</text>
+  </g>
+
+  <rect class="red" x="624" y="116" width="12" height="24"/>
+  <polygon class="red" points="607,140 653,140 630,178"/>
+
+  <g>
+    <rect class="box-red" x="520" y="174" width="220" height="36" rx="10"/>
+    <text class="title" x="630" y="198">Output Blocked</text>
+  </g>
+</svg>

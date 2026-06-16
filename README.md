@@ -4,44 +4,55 @@
 
 # CS Resource Hub
 
+---
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+CS+Opportunities+Across+North+America;Scholarships+%7C+Hackathons+%7C+Research+%7C+Fellowships;Validated+JSON+Dataset+With+Automated+Quality+Gates;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
+
 **A curated, automated dataset of North American Computer Science student resources.**
 
-Built on structured JSON with a Python CI pipeline for schema validation, quality checks, link monitoring, and multi-format exports.
+<br>
 
-![resources](https://img.shields.io/badge/resources-0-2563eb) ![updated](https://img.shields.io/badge/updated-2026-06-16-7c3aed) ![code_license](https://img.shields.io/badge/code_license-MIT-16a34a) ![data_license](https://img.shields.io/badge/data_license-CC_BY_4.0-0f766e) ![contributions](https://img.shields.io/badge/contributions-welcome-f59e0b)
+<br>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="52" height="52">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" alt="JSON" width="52" height="52">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="52" height="52">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" alt="Markdown" width="52" height="52">
+</p>
+
+<p align="center">
+  <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Quality Gates</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
+</p>
+
+![resources](https://img.shields.io/static/v1?label=resources&message=0&color=2563eb) ![categories](https://img.shields.io/static/v1?label=categories&message=21&color=4A90D9) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-16&color=7c3aed) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
 
 </div>
 
 
 ---
 
-## Overview
+<div align="center">
+  <img src="docs/data-pipeline.svg" alt="CS Resource Hub data pipeline" width="100%">
+</div>
 
-CS Resource Hub organizes North American student-friendly resources into a clean dataset that can power this README, future websites, search tools, dashboards, or other apps.
-
-| Dataset | Automation | Exports |
-| --- | --- | --- |
-| 21 categories · 0 resources | Schema validation · quality checks · link monitoring | README · CSV · site-ready JSON |
-
-| Focus area | Categories | Resources |
-| --- | ---: | ---: |
-| 📚 Learning & Development | 3 | 0 |
-| 🏆 Experience & Involvement | 5 | 0 |
-| 🧩 Building & Open Source | 3 | 0 |
-| 🔬 Academic & Professional | 3 | 0 |
-| 💼 Networking & Opportunities | 5 | 0 |
-| 🏅 Credentials & Perks | 2 | 0 |
+---
 
 ## Browse
 
+Browse resources by focus area and category.
+
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | 📚 [Learning Resources](#learning-resources) <sub>0</sub><br>💬 [Communities](#communities) <sub>0</sub><br>🎓 [Clubs](#clubs) <sub>0</sub> |
-| 🏆 Experience & Involvement | ❤️ [Volunteer & Non-Profit](#volunteer) <sub>0</sub><br>🔐 [CTFs](#ctfs) <sub>0</sub><br>🏆 [Competitions](#competitions) <sub>0</sub><br>💻 [Hackathons](#hackathons) <sub>0</sub><br>🎮 [Game Jams](#game-jams) <sub>0</sub> |
-| 🧩 Building & Open Source | 🧩 [Projects](#projects) <sub>0</sub><br>📦 [Repositories](#repositories) <sub>0</sub><br>🤝 [Open Source Help](#open-source-help) <sub>0</sub> |
-| 🔬 Academic & Professional | 🔬 [Research](#research) <sub>0</sub><br>📢 [Conferences](#conferences) <sub>0</sub><br>🌟 [Fellowships & Student Programs](#fellowships) <sub>0</sub> |
-| 💼 Networking & Opportunities | 🌐 [Online Events](#online-events) <sub>0</sub><br>💼 [Career Fairs](#career-fairs) <sub>0</sub><br>💰 [Scholarships](#scholarships) <sub>0</sub><br>🚀 [Startup Programs](#startup-programs) <sub>0</sub><br>💸 [Freelance](#freelance) <sub>0</sub> |
-| 🏅 Credentials & Perks | 🏅 [Certifications](#certifications) <sub>0</sub><br>🎁 [Free Benefits](#free-benefits) <sub>0</sub> |
+| 📚 Learning & Development | 📚 [Learning Resources](#learning-resources) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💬 [Communities](#communities) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🎓 [Clubs](#clubs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
+| 🏆 Experience & Involvement | ❤️ [Volunteer & Non-Profit](#volunteer) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🔐 [CTFs](#ctfs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🏆 [Competitions](#competitions) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💻 [Hackathons](#hackathons) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🎮 [Game Jams](#game-jams) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
+| 🧩 Building & Open Source | 🧩 [Projects](#projects) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>📦 [Repositories](#repositories) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🤝 [Open Source Help](#open-source-help) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
+| 🔬 Academic & Professional | 🔬 [Research](#research) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>📢 [Conferences](#conferences) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🌟 [Fellowships & Student Programs](#fellowships) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
+| 💼 Networking & Opportunities | 🌐 [Online Events](#online-events) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💼 [Career Fairs](#career-fairs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💰 [Scholarships](#scholarships) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🚀 [Startup Programs](#startup-programs) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>💸 [Freelance](#freelance) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
+| 🏅 Credentials & Perks | 🏅 [Certifications](#certifications) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"><br>🎁 [Free Benefits](#free-benefits) <img src="https://img.shields.io/static/v1?label=&message=0&color=2563eb&style=flat-square" alt="" height="18"> |
 
 ---
 
@@ -219,10 +230,10 @@ CS Resource Hub organizes North American student-friendly resources into a clean
 
 Contributions keep this dataset useful and current.
 
-1. Read [CONTRIBUTING.md](./CONTRIBUTING.md).
-2. Pick the correct category in `data/`.
-3. Add one resource using the JSON schema.
-4. Run `make validate` and `make check-duplicates`.
+1. Read [CONTRIBUTING.md](./CONTRIBUTING.md) and [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md).
+2. Run `make add` or pick the correct JSON file in `data/`.
+3. Add one resource using [SCHEMA.md](./docs/SCHEMA.md) and [STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).
+4. Run `make validate`.
 5. Open a pull request with a clear description.
 
 ## License
