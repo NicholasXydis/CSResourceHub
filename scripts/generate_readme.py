@@ -137,7 +137,7 @@ def generate_readme():
     lines.append("</div>\n\n")
     lines.append("<br>\n\n")
     lines.append("## Browse\n\n")
-    lines.append("Browse resources by focus area and category.\n\n")
+    lines.append("Browse resources by area and category.\n\n")
     lines.append("| Area | Categories |\n")
     lines.append("| --- | --- |\n")
     for group, categories in CATEGORY_GROUPS.items():

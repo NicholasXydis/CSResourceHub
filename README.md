@@ -40,15 +40,15 @@
 
 ## Browse
 
-Browse resources by focus area and category.
+Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (0)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Volunteer & Non-Profit](#volunteer) (0)<br>[CTFs](#ctfs) (0)<br>[Competitions](#competitions) (0)<br>[Hackathons](#hackathons) (0)<br>[Game Jams](#game-jams) (0) |
-| 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Repositories](#repositories) (0)<br>[Open Source Help](#open-source-help) (0) |
-| 🔬 Academic & Professional | [Research](#research) (0)<br>[Conferences](#conferences) (0)<br>[Fellowships & Student Programs](#fellowships) (0) |
-| 💼 Networking & Opportunities | [Online Events](#online-events) (0)<br>[Career Fairs](#career-fairs) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
+| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (0)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
+| 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
+| 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
+| 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
 | 🎁 Credentials & Perks | [Certifications](#certifications) (0)<br>[Free Benefits](#free-benefits) (0) |
 
 
@@ -78,11 +78,11 @@ Browse resources by focus area and category.
 
 ## 🏆 Experience & Involvement
 
-<a id="volunteer"></a>
+<a id="hackathons"></a>
 
-### Volunteer & Non-Profit
+### Hackathons
 
-**0 resources** · `volunteer`
+**0 resources** · `hackathons`
 
 > No resources yet. Contributions are welcome.
 <a id="ctfs"></a>
@@ -92,6 +92,13 @@ Browse resources by focus area and category.
 **0 resources** · `ctfs`
 
 > No resources yet. Contributions are welcome.
+<a id="game-jams"></a>
+
+### Game Jams
+
+**0 resources** · `game-jams`
+
+> No resources yet. Contributions are welcome.
 <a id="competitions"></a>
 
 ### Competitions
@@ -99,18 +106,11 @@ Browse resources by focus area and category.
 **0 resources** · `competitions`
 
 > No resources yet. Contributions are welcome.
-<a id="hackathons"></a>
+<a id="volunteer"></a>
 
-### Hackathons
+### Volunteer & Non-Profit
 
-**0 resources** · `hackathons`
-
-> No resources yet. Contributions are welcome.
-<a id="game-jams"></a>
-
-### Game Jams
-
-**0 resources** · `game-jams`
+**0 resources** · `volunteer`
 
 > No resources yet. Contributions are welcome.
 
@@ -125,14 +125,14 @@ Browse resources by focus area and category.
 > No resources yet. Contributions are welcome.
 <a id="repositories"></a>
 
-### Repositories
+### Useful Repositories
 
 **0 resources** · `repositories`
 
 > No resources yet. Contributions are welcome.
 <a id="open-source-help"></a>
 
-### Open Source Help
+### Open Source Guides
 
 **0 resources** · `open-source-help`
 
@@ -140,6 +140,13 @@ Browse resources by focus area and category.
 
 ## 🔬 Academic & Professional
 
+<a id="fellowships"></a>
+
+### Fellowships & Student Programs
+
+**0 resources** · `fellowships`
+
+> No resources yet. Contributions are welcome.
 <a id="research"></a>
 
 ### Research
@@ -154,28 +161,21 @@ Browse resources by focus area and category.
 **0 resources** · `conferences`
 
 > No resources yet. Contributions are welcome.
-<a id="fellowships"></a>
-
-### Fellowships & Student Programs
-
-**0 resources** · `fellowships`
-
-> No resources yet. Contributions are welcome.
 
 ## 💼 Networking & Opportunities
 
-<a id="online-events"></a>
-
-### Online Events
-
-**0 resources** · `online-events`
-
-> No resources yet. Contributions are welcome.
 <a id="career-fairs"></a>
 
 ### Career Fairs
 
 **0 resources** · `career-fairs`
+
+> No resources yet. Contributions are welcome.
+<a id="online-events"></a>
+
+### Online Events
+
+**0 resources** · `online-events`
 
 > No resources yet. Contributions are welcome.
 <a id="scholarships"></a>

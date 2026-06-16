@@ -17,8 +17,8 @@
 ## Building & Open Source
 
 - **projects** — Project ideas and inspiration
-- **repositories** — Notable repositories to learn from or contribute to
-- **open-source-help** — Resources for getting started with open source
+- **repositories** — Useful repositories to learn from or contribute to
+- **open-source-help** — Guides and resources for getting started with open source
 
 ## Academic & Professional
 

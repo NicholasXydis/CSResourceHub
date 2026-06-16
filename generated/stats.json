@@ -36,11 +36,11 @@
     "Experience & Involvement": {
       "total": 0,
       "categories": {
-        "volunteer": 0,
-        "ctfs": 0,
-        "competitions": 0,
         "hackathons": 0,
-        "game-jams": 0
+        "ctfs": 0,
+        "game-jams": 0,
+        "competitions": 0,
+        "volunteer": 0
       }
     },
     "Building & Open Source": {
@@ -54,16 +54,16 @@
     "Academic & Professional": {
       "total": 0,
       "categories": {
+        "fellowships": 0,
         "research": 0,
-        "conferences": 0,
-        "fellowships": 0
+        "conferences": 0
       }
     },
     "Networking & Opportunities": {
       "total": 0,
       "categories": {
-        "online-events": 0,
         "career-fairs": 0,
+        "online-events": 0,
         "scholarships": 0,
         "startup-programs": 0,
         "freelance": 0
