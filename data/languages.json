@@ -1,3 +1,7 @@
 {
-  "languages": ["english", "french", "multilingual"]
+  "languages": [
+    "english",
+    "french",
+    "multilingual"
+  ]
 }

@@ -20,7 +20,7 @@
 - **repositories** — Notable repositories to learn from or contribute to
 - **open-source-help** — Resources for getting started with open source
 
-## Academic & Professional Growth
+## Academic & Professional
 
 - **research** — Research opportunities, labs, and programs
 - **conferences** — Computer Science conferences for students

@@ -35,6 +35,10 @@ def prompt(label, required=True):
         print("  Required.")
 
 
+def split_csv(value):
+    return [item.strip() for item in value.split(",") if item.strip()]
+
+
 def add_resource():
     print("\nAvailable categories:")
     for k, (_, cat) in CATEGORIES.items():
@@ -57,7 +61,7 @@ def add_resource():
         "category": category,
         "cost": prompt("Cost (free/freemium/paid)"),
         "status": "active",
-        "region": prompt("Region (e.g. North-America, Canada, USA)").split(","),
+        "region": split_csv(prompt("Region (e.g. North-America, Canada, USA)")),
         "source": prompt("Source (official-website/community/research/social-media)"),
         "date_added": str(date.today()),
         "last_verified": str(date.today()),
@@ -65,7 +69,7 @@ def add_resource():
 
     tags = prompt("Tags (comma-separated, optional)", required=False)
     if tags:
-        resource["tags"] = [tag.strip() for tag in tags.split(",") if tag.strip()]
+        resource["tags"] = split_csv(tags)
 
     resource_type = prompt("Type (optional)", required=False)
     if resource_type:
@@ -73,13 +77,7 @@ def add_resource():
 
     language = prompt("Language (comma-separated, optional)", required=False)
     if language:
-        resource["language"] = [
-            lang.strip() for lang in language.split(",") if lang.strip()
-        ]
-
-    quality = prompt("Quality (1-5, maintainer only, optional)", required=False)
-    if quality:
-        resource["quality"] = int(quality)
+        resource["language"] = split_csv(language)
 
     deadline = prompt("Deadline month (optional, press Enter to skip)", required=False)
     if deadline:

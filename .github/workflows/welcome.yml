@@ -7,10 +7,12 @@ on:
 jobs:
   welcome:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
             Thanks for your first contribution to CS Resource Hub! 🎉
-            Please make sure you have read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) and run `make validate` before requesting a review.
+            Please make sure you have read [CONTRIBUTING.md](https://github.com/NicholasXydis/CSResourceHub/blob/main/CONTRIBUTING.md) and run `make validate` before requesting a review.

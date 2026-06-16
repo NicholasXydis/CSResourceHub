@@ -14,7 +14,7 @@ Open an issue using the Dead Link template on GitHub.
 
 ## How do I report harmful content?
 
-See [SECURITY.md](../SECURITY.md).
+See the [Security Policy](https://github.com/NicholasXydis/CSResourceHub/blob/main/SECURITY.md).
 
 ## Why JSON instead of a spreadsheet or markdown table?
 
