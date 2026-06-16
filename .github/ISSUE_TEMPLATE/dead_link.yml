@@ -1,0 +1,25 @@
+name: Dead Link
+description: Report a broken or dead URL
+labels: ["dead-link"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource Name
+      placeholder: e.g. PicoCTF
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Dead URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      placeholder: What happens when you visit the URL?
+    validations:
+      required: false

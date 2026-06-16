@@ -1,0 +1,39 @@
+name: Add Resource
+description: Suggest a new resource to add
+labels: ["new-resource"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      placeholder: e.g. PicoCTF
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      placeholder: e.g. ctfs
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: One sentence ending with a period.
+    validations:
+      required: true
+  - type: input
+    id: cost
+    attributes:
+      label: Cost
+      placeholder: free / freemium / paid
+    validations:
+      required: true

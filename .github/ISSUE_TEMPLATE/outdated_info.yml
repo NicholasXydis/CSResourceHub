@@ -1,0 +1,22 @@
+name: Outdated Info
+description: Report outdated or incorrect resource information
+labels: ["outdated"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource Name
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is outdated?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction
+    validations:
+      required: false
