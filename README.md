@@ -44,177 +44,174 @@ Browse resources by focus area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | 📚 [Learning Resources](#learning-resources) (0)<br>💬 [Communities](#communities) (0)<br>🎓 [Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | ❤️ [Volunteer & Non-Profit](#volunteer) (0)<br>🔐 [CTFs](#ctfs) (0)<br>🏆 [Competitions](#competitions) (0)<br>💻 [Hackathons](#hackathons) (0)<br>🎮 [Game Jams](#game-jams) (0) |
-| 🧩 Building & Open Source | 🧩 [Projects](#projects) (0)<br>📦 [Repositories](#repositories) (0)<br>🤝 [Open Source Help](#open-source-help) (0) |
-| 🔬 Academic & Professional | 🔬 [Research](#research) (0)<br>📢 [Conferences](#conferences) (0)<br>🌟 [Fellowships & Student Programs](#fellowships) (0) |
-| 💼 Networking & Opportunities | 🌐 [Online Events](#online-events) (0)<br>💼 [Career Fairs](#career-fairs) (0)<br>💰 [Scholarships](#scholarships) (0)<br>🚀 [Startup Programs](#startup-programs) (0)<br>💸 [Freelance](#freelance) (0) |
-| 🏅 Credentials & Perks | 🏅 [Certifications](#certifications) (0)<br>🎁 [Free Benefits](#free-benefits) (0) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (0)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
+| 🏆 Experience & Involvement | [Volunteer & Non-Profit](#volunteer) (0)<br>[CTFs](#ctfs) (0)<br>[Competitions](#competitions) (0)<br>[Hackathons](#hackathons) (0)<br>[Game Jams](#game-jams) (0) |
+| 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Repositories](#repositories) (0)<br>[Open Source Help](#open-source-help) (0) |
+| 🔬 Academic & Professional | [Research](#research) (0)<br>[Conferences](#conferences) (0)<br>[Fellowships & Student Programs](#fellowships) (0) |
+| 💼 Networking & Opportunities | [Online Events](#online-events) (0)<br>[Career Fairs](#career-fairs) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
+| 🎁 Credentials & Perks | [Certifications](#certifications) (0)<br>[Free Benefits](#free-benefits) (0) |
 
+
+## 📚 Learning & Development
 
 <a id="learning-resources"></a>
 
-## 📚 Learning Resources
+### Learning Resources
 
 **0 resources** · `learning-resources`
 
 > No resources yet. Contributions are welcome.
-
 <a id="communities"></a>
 
-## 💬 Communities
+### Communities
 
 **0 resources** · `communities`
 
 > No resources yet. Contributions are welcome.
-
 <a id="clubs"></a>
 
-## 🎓 Clubs
+### Clubs
 
 **0 resources** · `clubs`
 
 > No resources yet. Contributions are welcome.
 
+## 🏆 Experience & Involvement
+
 <a id="volunteer"></a>
 
-## ❤️ Volunteer & Non-Profit
+### Volunteer & Non-Profit
 
 **0 resources** · `volunteer`
 
 > No resources yet. Contributions are welcome.
-
 <a id="ctfs"></a>
 
-## 🔐 CTFs
+### CTFs
 
 **0 resources** · `ctfs`
 
 > No resources yet. Contributions are welcome.
-
 <a id="competitions"></a>
 
-## 🏆 Competitions
+### Competitions
 
 **0 resources** · `competitions`
 
 > No resources yet. Contributions are welcome.
-
 <a id="hackathons"></a>
 
-## 💻 Hackathons
+### Hackathons
 
 **0 resources** · `hackathons`
 
 > No resources yet. Contributions are welcome.
-
 <a id="game-jams"></a>
 
-## 🎮 Game Jams
+### Game Jams
 
 **0 resources** · `game-jams`
 
 > No resources yet. Contributions are welcome.
 
+## 🧩 Building & Open Source
+
 <a id="projects"></a>
 
-## 🧩 Projects
+### Projects
 
 **0 resources** · `projects`
 
 > No resources yet. Contributions are welcome.
-
 <a id="repositories"></a>
 
-## 📦 Repositories
+### Repositories
 
 **0 resources** · `repositories`
 
 > No resources yet. Contributions are welcome.
-
 <a id="open-source-help"></a>
 
-## 🤝 Open Source Help
+### Open Source Help
 
 **0 resources** · `open-source-help`
 
 > No resources yet. Contributions are welcome.
 
+## 🔬 Academic & Professional
+
 <a id="research"></a>
 
-## 🔬 Research
+### Research
 
 **0 resources** · `research`
 
 > No resources yet. Contributions are welcome.
-
 <a id="conferences"></a>
 
-## 📢 Conferences
+### Conferences
 
 **0 resources** · `conferences`
 
 > No resources yet. Contributions are welcome.
-
 <a id="fellowships"></a>
 
-## 🌟 Fellowships & Student Programs
+### Fellowships & Student Programs
 
 **0 resources** · `fellowships`
 
 > No resources yet. Contributions are welcome.
 
+## 💼 Networking & Opportunities
+
 <a id="online-events"></a>
 
-## 🌐 Online Events
+### Online Events
 
 **0 resources** · `online-events`
 
 > No resources yet. Contributions are welcome.
-
 <a id="career-fairs"></a>
 
-## 💼 Career Fairs
+### Career Fairs
 
 **0 resources** · `career-fairs`
 
 > No resources yet. Contributions are welcome.
-
 <a id="scholarships"></a>
 
-## 💰 Scholarships
+### Scholarships
 
 **0 resources** · `scholarships`
 
 > No resources yet. Contributions are welcome.
-
 <a id="startup-programs"></a>
 
-## 🚀 Startup Programs
+### Startup Programs
 
 **0 resources** · `startup-programs`
 
 > No resources yet. Contributions are welcome.
-
 <a id="freelance"></a>
 
-## 💸 Freelance
+### Freelance
 
 **0 resources** · `freelance`
 
 > No resources yet. Contributions are welcome.
 
+## 🎁 Credentials & Perks
+
 <a id="certifications"></a>
 
-## 🏅 Certifications
+### Certifications
 
 **0 resources** · `certifications`
 
 > No resources yet. Contributions are welcome.
-
 <a id="free-benefits"></a>
 
-## 🎁 Free Benefits
+### Free Benefits
 
 **0 resources** · `free-benefits`
 

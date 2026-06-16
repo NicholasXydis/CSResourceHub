@@ -12,37 +12,13 @@ from utils import (
     save_json,
 )
 
-CATEGORY_ICONS = {
-    "learning-resources": "📚",
-    "communities": "💬",
-    "clubs": "🎓",
-    "volunteer": "❤️",
-    "ctfs": "🔐",
-    "competitions": "🏆",
-    "hackathons": "💻",
-    "game-jams": "🎮",
-    "projects": "🧩",
-    "repositories": "📦",
-    "open-source-help": "🤝",
-    "research": "🔬",
-    "conferences": "📢",
-    "fellowships": "🌟",
-    "online-events": "🌐",
-    "career-fairs": "💼",
-    "scholarships": "💰",
-    "startup-programs": "🚀",
-    "freelance": "💸",
-    "certifications": "🏅",
-    "free-benefits": "🎁",
-}
-
 GROUP_ICONS = {
     "Learning & Development": "📚",
     "Experience & Involvement": "🏆",
     "Building & Open Source": "🧩",
     "Academic & Professional": "🔬",
     "Networking & Opportunities": "💼",
-    "Credentials & Perks": "🏅",
+    "Credentials & Perks": "🎁",
 }
 
 TECH_ICONS = [
@@ -167,37 +143,40 @@ def generate_readme():
     for group, categories in CATEGORY_GROUPS.items():
         category_links = []
         for category in categories:
-            icon = CATEGORY_ICONS[category]
             label = CATEGORY_LABELS[category]
             count = category_count(by_category, category)
             category_links.append(
-                f"{icon} [{label}](#{category_anchor(category)}) "
-                f"{count_badge(count)}"
+                f"[{label}](#{category_anchor(category)}) {count_badge(count)}"
             )
         joined_links = "<br>".join(category_links)
         lines.append(f"| {GROUP_ICONS[group]} {group} | {joined_links} |\n")
 
     lines.append("\n")
 
-    for category, label in CATEGORY_LABELS.items():
-        cat_resources = sorted(
-            by_category.get(category, []), key=lambda x: -x.get("quality", 0)
-        )
-        lines.append(f'\n<a id="{category_anchor(category)}"></a>\n\n')
-        lines.append(f"## {CATEGORY_ICONS[category]} {label}\n\n")
-        lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
-        if cat_resources:
-            lines.append("| Resource | Description | Cost | Region | Tags |\n")
-            lines.append("| --- | --- | --- | --- | --- |\n")
-            for r in cat_resources:
-                name = f"[{r['name']}]({r['url']})"
-                desc = r.get("description", "")
-                cost = r.get("cost", "")
-                region = ", ".join(r.get("region", []))
-                tags = ", ".join(r.get("tags", []))
-                lines.append(f"| {name} | {desc} | {cost} | {region} | {tags} |\n")
-        else:
-            lines.append("> No resources yet. Contributions are welcome.\n")
+    for group, categories in CATEGORY_GROUPS.items():
+        lines.append(f"\n## {GROUP_ICONS[group]} {group}\n\n")
+        for category in categories:
+            label = CATEGORY_LABELS[category]
+            cat_resources = sorted(
+                by_category.get(category, []), key=lambda x: -x.get("quality", 0)
+            )
+            lines.append(f'<a id="{category_anchor(category)}"></a>\n\n')
+            lines.append(f"### {label}\n\n")
+            lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
+            if cat_resources:
+                lines.append("| Resource | Description | Cost | Region | Tags |\n")
+                lines.append("| --- | --- | --- | --- | --- |\n")
+                for r in cat_resources:
+                    name = f"[{r['name']}]({r['url']})"
+                    desc = r.get("description", "")
+                    cost = r.get("cost", "")
+                    region = ", ".join(r.get("region", []))
+                    tags = ", ".join(r.get("tags", []))
+                    lines.append(
+                        f"| {name} | {desc} | {cost} | {region} | {tags} |\n"
+                    )
+            else:
+                lines.append("> No resources yet. Contributions are welcome.\n")
 
     lines.append("\n")
     lines.append("## Contributing\n\n")
