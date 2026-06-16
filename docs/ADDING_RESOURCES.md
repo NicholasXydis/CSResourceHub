@@ -8,6 +8,18 @@ Run the interactive CLI:
 make add
 ```
 
+## Bulk Draft Way
+
+Paste one URL per line into `imports/links.txt`, then run:
+
+```bash
+make draft
+make review
+make import-approved
+```
+
+Drafting fetches each page once, guesses fields, skips duplicates, and writes reviewable drafts to `generated/import_drafts.json`. Review every draft before importing. Use `python scripts/draft_resources.py --import-approved --dry-run` to preview imports without changing `data/`.
+
 ## Manual Way
 
 1. Find the correct JSON file in `data/` based on the category

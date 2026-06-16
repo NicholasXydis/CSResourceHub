@@ -72,3 +72,8 @@ logs/
 tmp/
 
 # NOTE: generated/ is intentionally tracked in git
+generated/import_drafts.json
+generated/import_failures.json
+
+# Local bulk-import input
+imports/links.txt
