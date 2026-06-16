@@ -2,6 +2,7 @@ from utils import load_all_resources, log
 
 OPTIONAL_FIELDS = ["deadline", "last_verified"]
 
+
 def check_coverage():
     resources = load_all_resources()
     if not resources:

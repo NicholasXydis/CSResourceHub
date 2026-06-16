@@ -1,8 +1,10 @@
 import sys
+
 import requests
 from utils import load_all_resources, log
 
 TIMEOUT = 10
+
 
 def check_links():
     resources = load_all_resources()

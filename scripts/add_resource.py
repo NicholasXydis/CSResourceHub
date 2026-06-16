@@ -1,7 +1,6 @@
-import json
-from pathlib import Path
-from utils import load_json, save_json, DATA_DIR, log
 from datetime import date
+
+from utils import DATA_DIR, load_json, log, save_json
 
 CATEGORIES = {
     "1": ("learning-development", "learning-resources"),
@@ -27,12 +26,14 @@ CATEGORIES = {
     "21": ("credentials-perks", "free-benefits"),
 }
 
+
 def prompt(label, required=True):
     while True:
         val = input(f"{label}: ").strip()
         if val or not required:
             return val
         print("  Required.")
+
 
 def add_resource():
     print("\nAvailable categories:")
@@ -57,10 +58,13 @@ def add_resource():
         "cost": prompt("Cost (free/freemium/paid)"),
         "status": "active",
         "region": prompt("Region (e.g. global, Canada)").split(","),
-        "quality": int(prompt("Quality (1-5, maintainer only)")),
         "source": prompt("Source (official-website/community/research/social-media)"),
         "date_added": str(date.today()),
     }
+
+    quality = prompt("Quality (1-5, maintainer only, optional)", required=False)
+    if quality:
+        resource["quality"] = int(quality)
 
     deadline = prompt("Deadline month (optional, press Enter to skip)", required=False)
     if deadline:

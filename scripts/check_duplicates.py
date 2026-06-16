@@ -1,5 +1,7 @@
 import sys
+
 from utils import load_all_resources, log
+
 
 def check_duplicates():
     resources = load_all_resources()

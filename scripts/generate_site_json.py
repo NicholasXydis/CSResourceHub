@@ -1,6 +1,8 @@
 from collections import defaultdict
-from utils import load_all_resources, save_json, log, GENERATED_DIR
 from datetime import date
+
+from utils import GENERATED_DIR, load_all_resources, log, save_json
+
 
 def generate_site_json():
     resources = load_all_resources()
@@ -11,7 +13,10 @@ def generate_site_json():
     output = {
         "generated": str(date.today()),
         "total": len(resources),
-        "categories": {k: sorted(v, key=lambda x: -x.get("quality", 0)) for k, v in by_category.items()}
+        "categories": {
+            k: sorted(v, key=lambda x: -x.get("quality", 0))
+            for k, v in by_category.items()
+        },
     }
     save_json(GENERATED_DIR / "site.json", output)
     log(f"✅ Generated site.json ({len(resources)} resources)")

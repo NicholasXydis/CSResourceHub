@@ -1,5 +1,6 @@
 from utils import get_all_resource_files, load_json, log
 
+
 def stats():
     total = 0
     for path in get_all_resource_files():

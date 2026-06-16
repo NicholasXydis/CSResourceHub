@@ -40,4 +40,7 @@ def load_all_resources() -> list[dict]:
 
 
 def log(msg: str) -> None:
-    print(msg)
+    try:
+        print(msg)
+    except UnicodeEncodeError:
+        print(msg.encode("ascii", errors="replace").decode("ascii"))

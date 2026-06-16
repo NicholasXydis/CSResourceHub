@@ -1,6 +1,8 @@
 import sys
+
 import jsonschema
-from utils import load_json, get_all_resource_files, log, SCHEMA_FILE
+from utils import SCHEMA_FILE, get_all_resource_files, load_json, log
+
 
 def validate():
     schema = load_json(SCHEMA_FILE)

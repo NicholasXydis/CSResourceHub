@@ -1,5 +1,7 @@
 import sys
-from utils import load_json, load_all_resources, log, DATA_DIR
+
+from utils import DATA_DIR, load_all_resources, load_json, log
+
 
 def check_tags():
     allowed_tags = set(load_json(DATA_DIR / "tags.json")["tags"])
