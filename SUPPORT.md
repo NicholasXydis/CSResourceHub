@@ -1,6 +1,7 @@
 # Support
 
-For questions, ideas, or help contributing:
+For help with CS Resource Hub:
 
-- Open an [Issue](https://github.com/NicholasXydis/CSResourceHub/issues) for questions, ideas, bugs, or data issues
-- For security concerns, see the [Security Policy](https://github.com/NicholasXydis/CSResourceHub/blob/main/SECURITY.md)
+- Use [Discussions](https://github.com/NicholasXydis/CSResourceHub/discussions) for questions, ideas, and contribution help
+- Open an [Issue](https://github.com/NicholasXydis/CSResourceHub/issues/new/choose) for broken links, outdated data, or repository problems
+- For security concerns, see the [Security Policy](https://github.com/NicholasXydis/CSResourceHub/security/policy)
