@@ -12,7 +12,6 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 import requests
 from jsonschema import Draft7Validator
 from sort_resources import sort_resources
-from validate_all import validate_all
 from utils import (
     CATEGORY_GROUPS,
     DATA_DIR,
@@ -25,6 +24,7 @@ from utils import (
     log,
     save_json,
 )
+from validate_all import validate_all
 
 DRAFTS_FILE = GENERATED_DIR / "import_drafts.json"
 FAILURES_FILE = GENERATED_DIR / "import_failures.json"
