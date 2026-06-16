@@ -4,8 +4,6 @@
 
 # CS Resource Hub
 
----
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+CS+Opportunities+Across+North+America;Scholarships+%7C+Hackathons+%7C+Research+%7C+Fellowships;Validated+JSON+Dataset+With+Automated+Quality+Gates;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
 
 **A curated, automated dataset of North American Computer Science student resources.**
@@ -32,14 +30,13 @@
 
 </div>
 
-
----
+<br>
 
 <div align="center">
   <img src="docs/data-pipeline.svg" alt="CS Resource Hub data pipeline" width="100%">
 </div>
 
----
+<br>
 
 ## Browse
 
