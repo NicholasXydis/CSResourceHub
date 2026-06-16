@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Find Resources
+    url: https://github.com/NicholasXydis/CSResourceHub#browse
+    about: Browse existing resource categories before opening an issue.
+  - name: Ask a Question
+    url: https://github.com/NicholasXydis/CSResourceHub/discussions/categories/questions
+    about: Use Discussions for questions instead of issues.
+  - name: Report a Security Concern
+    url: https://github.com/NicholasXydis/CSResourceHub/security/policy
+    about: Report malicious links or security concerns privately.

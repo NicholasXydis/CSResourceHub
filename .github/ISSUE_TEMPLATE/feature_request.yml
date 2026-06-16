@@ -1,0 +1,46 @@
+name: Feature Request
+description: Suggest a resource, category, or repository improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - New resource
+        - New category
+        - Data/schema improvement
+        - Documentation improvement
+        - Automation improvement
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: e.g. PicoCTF
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: What should be added or changed?
+      description: Explain the resource or improvement and why it belongs here.
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      placeholder: e.g. ctfs
+    validations:
+      required: false

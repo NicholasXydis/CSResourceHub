@@ -1,0 +1,44 @@
+name: Bug Report
+description: Report a broken link, incorrect data, or repository issue
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Broken link
+        - Incorrect or outdated data
+        - Repository issue
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: resource
+    attributes:
+      label: Resource or file
+      placeholder: e.g. PicoCTF or data/experience-involvement/ctfs.json
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong?
+      description: Include the expected result and what you see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: Share the corrected link, data, or behavior if you know it.
+    validations:
+      required: false
