@@ -156,7 +156,7 @@ def generate_readme():
     lines.append('<div align="center">\n')
     lines.append(
         '  <img src="docs/data-pipeline.svg" '
-        'alt="CS Resource Hub data pipeline" width="85%">\n'
+        'alt="CS Resource Hub data pipeline" width="100%">\n'
     )
     lines.append("</div>\n\n")
     lines.append("<br>\n\n")

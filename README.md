@@ -33,7 +33,7 @@
 <br>
 
 <div align="center">
-  <img src="docs/data-pipeline.svg" alt="CS Resource Hub data pipeline" width="85%">
+  <img src="docs/data-pipeline.svg" alt="CS Resource Hub data pipeline" width="100%">
 </div>
 
 <br>

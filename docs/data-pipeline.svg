@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-labelledby="title desc">
   <title id="title">CS Resource Hub data pipeline</title>
   <desc id="desc">Resource JSON is validated, checked for quality, and used to generate README, CSV, and site-ready JSON exports. Failed quality checks block output.</desc>
   <defs>
@@ -9,34 +9,34 @@
       <path d="M0 0L8 4L0 8Z" fill="#F85149"/>
     </marker>
   </defs>
-  <rect width="1000" height="220" rx="18" fill="#0D1117"/>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" text-anchor="middle">
-    <rect x="30" y="42" width="150" height="58" rx="12" fill="#161B22" stroke="#30363D" stroke-width="2"/>
-    <text x="105" y="68" fill="#F0F6FC">Add Resource</text>
-    <text x="105" y="86" fill="#F0F6FC" font-size="11">JSON in data/</text>
-    <path d="M180 71H230" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect width="900" height="190" rx="18" fill="#0D1117"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" text-anchor="middle">
+    <rect x="48" y="24" width="128" height="50" rx="10" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+    <text x="112" y="47" fill="#F0F6FC">Add Resource</text>
+    <text x="112" y="63" fill="#F0F6FC" font-size="10">JSON in data/</text>
+    <path d="M176 49H216" stroke="#3B82F6" stroke-width="4" marker-end="url(#arrow)"/>
 
-    <rect x="240" y="42" width="150" height="58" rx="12" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
-    <text x="315" y="68" fill="#F0F6FC">Validate</text>
-    <text x="315" y="86" fill="#F0F6FC" font-size="11">schema + category</text>
-    <path d="M390 71H440" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="224" y="24" width="144" height="50" rx="10" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
+    <text x="296" y="47" fill="#F0F6FC">Validate</text>
+    <text x="296" y="63" fill="#F0F6FC" font-size="10">schema + category</text>
+    <path d="M368 49H408" stroke="#3B82F6" stroke-width="4" marker-end="url(#arrow)"/>
 
-    <rect x="450" y="42" width="170" height="58" rx="12" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
-    <text x="535" y="68" fill="#F0F6FC">Quality Checks</text>
-    <text x="535" y="86" fill="#F0F6FC" font-size="11">URLs, tags, regions</text>
-    <path d="M620 71H670" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="416" y="24" width="146" height="50" rx="10" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
+    <text x="489" y="47" fill="#F0F6FC">Quality Checks</text>
+    <text x="489" y="63" fill="#F0F6FC" font-size="10">URLs, tags, regions</text>
+    <path d="M562 49H602" stroke="#3B82F6" stroke-width="4" marker-end="url(#arrow)"/>
 
-    <rect x="680" y="42" width="170" height="58" rx="12" fill="#161B22" stroke="#30363D" stroke-width="2"/>
-    <text x="765" y="68" fill="#F0F6FC">Generate</text>
-    <text x="765" y="86" fill="#F0F6FC" font-size="11">README, CSV, JSON</text>
-    <path d="M850 71H900" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="610" y="24" width="146" height="50" rx="10" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+    <text x="683" y="47" fill="#F0F6FC">Generate</text>
+    <text x="683" y="63" fill="#F0F6FC" font-size="10">README, CSV, JSON</text>
+    <path d="M756 49H796" stroke="#3B82F6" stroke-width="4" marker-end="url(#arrow)"/>
 
-    <rect x="910" y="42" width="70" height="58" rx="12" fill="#102A1C" stroke="#238636" stroke-width="2"/>
-    <text x="945" y="68" fill="#F0F6FC" font-size="14">Ready</text>
-    <text x="945" y="86" fill="#F0F6FC" font-size="11">exports</text>
+    <rect x="804" y="24" width="68" height="50" rx="10" fill="#102A1C" stroke="#238636" stroke-width="2"/>
+    <text x="838" y="47" fill="#F0F6FC" font-size="14">Ready</text>
+    <text x="838" y="63" fill="#F0F6FC" font-size="10">exports</text>
 
-    <path d="M535 100V136" stroke="#F85149" stroke-width="3" marker-end="url(#fail-arrow)"/>
-    <rect x="450" y="148" width="170" height="44" rx="12" fill="#2D1619" stroke="#DA3633" stroke-width="2"/>
-    <text x="535" y="176" fill="#F0F6FC" font-size="15">Output Blocked</text>
+    <path d="M489 74V104" stroke="#F85149" stroke-width="4" marker-end="url(#fail-arrow)"/>
+    <rect x="416" y="118" width="146" height="36" rx="10" fill="#2D1619" stroke="#DA3633" stroke-width="2"/>
+    <text x="489" y="141" fill="#F0F6FC" font-size="14">Output Blocked</text>
   </g>
 </svg>
