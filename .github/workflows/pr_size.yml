@@ -1,0 +1,18 @@
+name: PR Size
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  pr-size:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check PR size
+        run: |
+          FILES=$(git diff --name-only origin/main...HEAD | grep "data/.*\.json" | wc -l)
+          if [ "$FILES" -gt 20 ]; then
+            echo "⚠️ This PR modifies $FILES resource files. Consider splitting into smaller PRs."
+            exit 1
+          fi
