@@ -1,45 +1,12 @@
 <div align="center">
 
 # CS Resource Hub
-<<<<<<< Updated upstream
-> A curated open dataset of resources, opportunities, and tools for CS students.
-![Resources](https://img.shields.io/badge/resources-0-blue)
-![Last Updated](https://img.shields.io/badge/updated-2026-06-16-green)
-
-## Table of Contents
-- [Learning Resources](#learning-resources)
-- [Communities](#communities)
-- [Clubs](#clubs)
-- [Volunteer & Non-Profit](#volunteer-non-profit)
-- [CTFs](#ctfs)
-- [Competitions](#competitions)
-- [Hackathons](#hackathons)
-- [Game Jams](#game-jams)
-- [Projects](#projects)
-- [Repositories](#repositories)
-- [Open Source Help](#open-source-help)
-- [Research](#research)
-- [Conferences](#conferences)
-- [Fellowships & Student Programs](#fellowships-student-programs)
-- [Online Events](#online-events)
-- [Career Fairs](#career-fairs)
-- [Scholarships](#scholarships)
-- [Startup Programs](#startup-programs)
-- [Freelance](#freelance)
-- [Certifications](#certifications)
-- [Free Benefits](#free-benefits)
-
----
-
-## Learning Resources
-> 0 resources
-=======
 
 **A curated, community-driven dataset of computer science student resources.**
 
 Structured JSON data, schema validation, automated link checks, and generated documentation for students, builders, and contributors.
 
-![resources](https://img.shields.io/badge/resources-0-2563eb) ![updated](https://img.shields.io/badge/updated-2026-06-15-7c3aed) ![code_license](https://img.shields.io/badge/code_license-MIT-16a34a) ![data_license](https://img.shields.io/badge/data_license-CC_BY_4.0-0f766e) ![contributions](https://img.shields.io/badge/contributions-welcome-f59e0b)
+![resources](https://img.shields.io/badge/resources-0-2563eb) ![updated](https://img.shields.io/badge/updated-2026-06-16-7c3aed) ![code_license](https://img.shields.io/badge/code_license-MIT-16a34a) ![data_license](https://img.shields.io/badge/data_license-CC_BY_4.0-0f766e) ![contributions](https://img.shields.io/badge/contributions-welcome-f59e0b)
 
 </div>
 
@@ -272,15 +239,9 @@ _No resources yet. Contributions are welcome._
 _No resources yet. Contributions are welcome._
 
 ---
->>>>>>> Stashed changes
 
-## Communities
-> 0 resources
+## Contributing
 
-<<<<<<< Updated upstream
-## Clubs
-> 0 resources
-=======
 Contributions keep this dataset useful and current.
 
 1. Read [CONTRIBUTING.md](./CONTRIBUTING.md).
@@ -288,63 +249,9 @@ Contributions keep this dataset useful and current.
 3. Add one resource using the JSON schema.
 4. Run `make validate` and `make check-duplicates`.
 5. Open a pull request with a clear description.
->>>>>>> Stashed changes
 
-## Volunteer & Non-Profit
-> 0 resources
+## License
 
-<<<<<<< Updated upstream
-## CTFs
-> 0 resources
-
-## Competitions
-> 0 resources
-
-## Hackathons
-> 0 resources
-
-## Game Jams
-> 0 resources
-
-## Projects
-> 0 resources
-
-## Repositories
-> 0 resources
-
-## Open Source Help
-> 0 resources
-
-## Research
-> 0 resources
-
-## Conferences
-> 0 resources
-
-## Fellowships & Student Programs
-> 0 resources
-
-## Online Events
-> 0 resources
-
-## Career Fairs
-> 0 resources
-
-## Scholarships
-> 0 resources
-
-## Startup Programs
-> 0 resources
-
-## Freelance
-> 0 resources
-
-## Certifications
-> 0 resources
-
-## Free Benefits
-> 0 resources
-=======
 - Code and scripts: [MIT](./LICENSE)
 - Dataset/content: [CC BY 4.0](./LICENSE-CC-BY)
 
@@ -355,4 +262,3 @@ Contributions keep this dataset useful and current.
 Built for CS students who want one reliable place to discover what to learn, join, build, attend, and apply for.
 
 </div>
->>>>>>> Stashed changes
