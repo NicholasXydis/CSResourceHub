@@ -1,5 +1,7 @@
 {
-  "generated": "2026-06-16",
-  "total": 0,
-  "by_category": {}
+  "generated": "2026-06-17",
+  "total": 16,
+  "by_category": {
+    "ctfs": 16
+  }
 }

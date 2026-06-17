@@ -1,5 +1,458 @@
 {
-  "generated": "2026-06-16",
-  "total": 0,
-  "categories": {}
+  "generated": "2026-06-17",
+  "total": 16,
+  "categories": {
+    "ctfs": [
+      {
+        "id": "csaw-ctf",
+        "name": "CSAW CTF",
+        "url": "https://csaw.io/ctf",
+        "description": "Large student CTF hosted by NYU with online qualifiers and in-person finals in New York City.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "remote",
+          "in-person",
+          "annual"
+        ],
+        "quality": 5,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "ctftime",
+        "name": "CTFtime",
+        "url": "https://ctftime.org",
+        "description": "Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "global"
+        ],
+        "source": "official-website",
+        "type": "platform",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "practice-platform",
+          "community",
+          "remote",
+          "ongoing"
+        ],
+        "quality": 5,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "cybersci",
+        "name": "CyberSci",
+        "url": "https://cybersecuritychallenge.ca",
+        "description": "Canadian cybersecurity challenge for university and college students with regional and national finals.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "team",
+          "annual",
+          "in-person"
+        ],
+        "quality": 5,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "defcon-ctf",
+        "name": "DEF CON CTF",
+        "url": "https://defcon.org",
+        "description": "Prestigious CTF held annually in Las Vegas with online qualifiers open to all teams.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "advanced",
+          "in-person",
+          "team",
+          "annual"
+        ],
+        "quality": 5,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "google-ctf",
+        "name": "Google CTF",
+        "url": "https://capturetheflag.withgoogle.com",
+        "description": "Annual online CTF hosted by Google with beginner and advanced divisions.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "remote",
+          "beginner",
+          "advanced",
+          "annual"
+        ],
+        "quality": 5,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "northsec",
+        "name": "NorthSec",
+        "url": "https://nsec.io",
+        "description": "Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions.",
+        "category": "ctfs",
+        "cost": "paid",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english",
+          "french"
+        ],
+        "tags": [
+          "security",
+          "in-person",
+          "team",
+          "annual",
+          "advanced"
+        ],
+        "quality": 5,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "athack-ctf",
+        "name": "@HACK CTF",
+        "url": "https://athackctf.com",
+        "description": "Student cybersecurity CTF at Concordia University Montreal with workshops and prizes.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english",
+          "french"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "in-person",
+          "team",
+          "beginner"
+        ],
+        "quality": 4,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "hack-a-sat",
+        "name": "Hack-A-Sat",
+        "url": "https://hackasat.com",
+        "description": "Space systems security CTF sponsored by the US Air Force and Space Force.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "systems",
+          "advanced",
+          "team",
+          "annual"
+        ],
+        "quality": 4,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "mitre-ectf",
+        "name": "MITRE eCTF",
+        "url": "https://ectf.mitre.org",
+        "description": "Semester-long embedded systems CTF by MITRE for university students worldwide.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "systems",
+          "undergraduate",
+          "team",
+          "advanced"
+        ],
+        "quality": 4,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "ncc-ctf-series",
+        "name": "NCC CTF Series",
+        "url": "https://ncc-cnc.ca/ctfseries",
+        "description": "Canadian post-secondary CTF with regional rounds and a national final in Montreal.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english",
+          "french"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "team",
+          "annual",
+          "in-person"
+        ],
+        "quality": 4,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "picoctf",
+        "name": "PicoCTF",
+        "url": "https://picoctf.org",
+        "description": "Free beginner-friendly CTF by Carnegie Mellon with annual competitions and practice challenges.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "beginner",
+          "remote",
+          "undergraduate",
+          "practice-platform"
+        ],
+        "quality": 4,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "plaidctf",
+        "name": "PlaidCTF",
+        "url": "https://plaidctf.com",
+        "description": "Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "remote",
+          "advanced",
+          "team",
+          "annual"
+        ],
+        "quality": 4,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "uoftctf",
+        "name": "UofTCTF",
+        "url": "https://ctf.uoftctf.org",
+        "description": "Annual online jeopardy-style CTF by the University of Toronto with a student division.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "remote",
+          "team",
+          "annual"
+        ],
+        "quality": 4,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "buckeyectf",
+        "name": "BuckeyeCTF",
+        "url": "https://ctf.osucyber.club",
+        "description": "Annual online CTF hosted by the Ohio State University Cybersecurity Club.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "remote",
+          "team",
+          "annual"
+        ],
+        "quality": 3,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "polypwn-ctf",
+        "name": "PolyPwnCTF",
+        "url": "https://pwn.polycyber.io",
+        "description": "Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english",
+          "french"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "in-person",
+          "team",
+          "annual"
+        ],
+        "quality": 3,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "umdctf",
+        "name": "UMDCTF",
+        "url": "https://umdctf.io",
+        "description": "Annual online CTF hosted by the University of Maryland Cybersecurity Club.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "global"
+        ],
+        "source": "official-website",
+        "type": "competition",
+        "language": [
+          "english"
+        ],
+        "tags": [
+          "security",
+          "undergraduate",
+          "remote",
+          "team",
+          "annual"
+        ],
+        "quality": 3,
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      }
+    ]
+  }
 }
