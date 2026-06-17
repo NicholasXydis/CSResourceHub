@@ -26,7 +26,7 @@
   <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Quality Gates</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=16&color=2563eb) [![validate](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=validate&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) [![lint](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/lint.yml?branch=main&label=lint&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/lint.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-17&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=16&color=2563eb) [![valid](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=valid&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-17&color=7c3aed)
 
 </div>
 

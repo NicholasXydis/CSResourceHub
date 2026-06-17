@@ -136,8 +136,7 @@ def generate_readme():
     lines.append("</p>\n\n")
     badges = [
         shield("resources", str(total), "2563eb"),
-        workflow_badge("validate", "validate.yml"),
-        workflow_badge("lint", "lint.yml"),
+        workflow_badge("valid", "validate.yml"),
         shield("contributions", "welcome", "f59e0b"),
         shield("updated", today, "7c3aed"),
     ]
