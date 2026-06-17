@@ -4,7 +4,7 @@
 
 # CS Resource Hub
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+CS+Opportunities+Across+North+America;Scholarships+%7C+Hackathons+%7C+Research+%7C+Fellowships;Validated+JSON+Dataset+With+Automated+Quality+Gates;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+CS+Opportunities+Across+North+America;Scholarships+%7C+Hackathons+%7C+Research+%7C+Fellowships;Validated+JSON+Dataset+With+Automated+Checks;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
 
 **A curated, automated dataset of North American Computer Science student resources.**
 
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Quality Gates</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
+  <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
 ![resources](https://img.shields.io/static/v1?label=resources&message=16&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-17&color=7c3aed)
@@ -91,24 +91,24 @@ Browse resources by area and category.
 
 **16 resources** · `ctfs`
 
-| Resource | Description | Cost | Region | Tags |
-| --- | --- | --- | --- | --- |
-| [CSAW CTF](https://csaw.io/ctf) | Large student CTF hosted by NYU with online qualifiers and in-person finals in New York City. | free | North-America, global | security, undergraduate, remote, in-person, annual |
-| [CTFtime](https://ctftime.org) | Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar. | free | global | security, practice-platform, community, remote, ongoing |
-| [CyberSci](https://cybersecuritychallenge.ca) | Canadian cybersecurity challenge for university and college students with regional and national finals. | free | Canada, North-America | security, undergraduate, team, annual, in-person |
-| [DEF CON CTF](https://defcon.org) | Prestigious CTF held annually in Las Vegas with online qualifiers open to all teams. | free | North-America, global | security, advanced, in-person, team, annual |
-| [Google CTF](https://capturetheflag.withgoogle.com) | Annual online CTF hosted by Google with beginner and advanced divisions. | free | global | security, remote, beginner, advanced, annual |
-| [NorthSec](https://nsec.io) | Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions. | paid | Canada, North-America | security, in-person, team, annual, advanced |
-| [@HACK CTF](https://athackctf.com) | Student cybersecurity CTF at Concordia University Montreal with workshops and prizes. | free | Canada, North-America | security, undergraduate, in-person, team, beginner |
-| [Hack-A-Sat](https://hackasat.com) | Space systems security CTF sponsored by the US Air Force and Space Force. | free | North-America, global | security, systems, advanced, team, annual |
-| [MITRE eCTF](https://ectf.mitre.org) | Semester-long embedded systems CTF by MITRE for university students worldwide. | free | North-America, global | security, systems, undergraduate, team, advanced |
-| [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | Canadian post-secondary CTF with regional rounds and a national final in Montreal. | free | Canada, North-America | security, undergraduate, team, annual, in-person |
-| [PicoCTF](https://picoctf.org) | Free beginner-friendly CTF by Carnegie Mellon with annual competitions and practice challenges. | free | North-America, global | security, beginner, remote, undergraduate, practice-platform |
-| [PlaidCTF](https://plaidctf.com) | Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges. | free | North-America, global | security, remote, advanced, team, annual |
-| [UofTCTF](https://ctf.uoftctf.org) | Annual online jeopardy-style CTF by the University of Toronto with a student division. | free | Canada, North-America | security, undergraduate, remote, team, annual |
-| [BuckeyeCTF](https://ctf.osucyber.club) | Annual online CTF hosted by the Ohio State University Cybersecurity Club. | free | North-America, global | security, undergraduate, remote, team, annual |
-| [PolyPwnCTF](https://pwn.polycyber.io) | Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams. | free | Canada, North-America | security, undergraduate, in-person, team, annual |
-| [UMDCTF](https://umdctf.io) | Annual online CTF hosted by the University of Maryland Cybersecurity Club. | free | North-America, global | security, undergraduate, remote, team, annual |
+| Resource | Description | Cost | Region |
+| --- | --- | --- | --- |
+| [@HACK CTF](https://athackctf.com) | Student cybersecurity CTF at Concordia University Montreal with workshops and prizes. | free | Canada, North-America |
+| [BuckeyeCTF](https://ctf.osucyber.club) | Annual online CTF hosted by the Ohio State University Cybersecurity Club. | free | North-America, Global |
+| [CSAW CTF](https://csaw.io/ctf) | Large student CTF hosted by NYU with online qualifiers and in-person finals in New York City. | free | North-America, Global |
+| [CTFtime](https://ctftime.org) | Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar. | free | Global |
+| [CyberSci](https://cybersecuritychallenge.ca) | Canadian cybersecurity challenge for university and college students with regional and national finals. | free | Canada, North-America |
+| [DEF CON CTF](https://defcon.org) | Prestigious CTF held annually in Las Vegas with online qualifiers open to all teams. | free | North-America, Global |
+| [Google CTF](https://capturetheflag.withgoogle.com) | Annual online CTF hosted by Google with beginner and advanced divisions. | free | Global |
+| [Hack-A-Sat](https://hackasat.com) | Space systems security CTF sponsored by the US Air Force and Space Force. | free | North-America, Global |
+| [MITRE eCTF](https://ectf.mitre.org) | Semester-long embedded systems CTF by MITRE for university students worldwide. | free | North-America, Global |
+| [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | Canadian post-secondary CTF with regional rounds and a national final in Montreal. | free | Canada, North-America |
+| [NorthSec](https://nsec.io) | Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions. | paid | Canada, North-America |
+| [PicoCTF](https://picoctf.org) | Free beginner-friendly CTF by Carnegie Mellon with annual competitions and practice challenges. | free | North-America, Global |
+| [PlaidCTF](https://plaidctf.com) | Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges. | free | North-America, Global |
+| [PolyPwnCTF](https://pwn.polycyber.io) | Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams. | free | Canada, North-America |
+| [UMDCTF](https://umdctf.io) | Annual online CTF hosted by the University of Maryland Cybersecurity Club. | free | North-America, Global |
+| [UofTCTF](https://ctf.uoftctf.org) | Annual online jeopardy-style CTF by the University of Toronto with a student division. | free | Canada, North-America |
 <a id="game-jams"></a>
 
 ### Game Jams
