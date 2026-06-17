@@ -58,6 +58,20 @@ def shield(label: str, message: str, color: str) -> str:
     )
 
 
+def workflow_badge(label: str, workflow: str) -> str:
+    encoded_label = quote_plus(label)
+    badge = (
+        f"https://img.shields.io/github/actions/workflow/status/"
+        f"NicholasXydis/CSResourceHub/{workflow}?"
+        f"branch=main&label={encoded_label}&color=16a34a"
+    )
+    target = (
+        f"https://github.com/NicholasXydis/CSResourceHub/actions/workflows/"
+        f"{workflow}"
+    )
+    return f"[![{label}]({badge})]({target})"
+
+
 def count_badge(count: int) -> str:
     return f"({count})"
 
@@ -122,7 +136,8 @@ def generate_readme():
     lines.append("</p>\n\n")
     badges = [
         shield("resources", str(total), "2563eb"),
-        shield("quality gates", "passing", "16a34a"),
+        workflow_badge("validate", "validate.yml"),
+        workflow_badge("lint", "lint.yml"),
         shield("contributions", "welcome", "f59e0b"),
         shield("updated", today, "7c3aed"),
     ]
