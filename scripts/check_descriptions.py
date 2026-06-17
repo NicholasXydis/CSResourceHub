@@ -11,8 +11,14 @@ def check_descriptions():
     for resource in load_all_resources():
         description = resource.get("description", "")
         rid = resource.get("id")
+        if description and not description[0].isupper():
+            log(f"❌ {rid}: description must start with a capital letter")
+            errors_found = True
         if not description.endswith("."):
             log(f"❌ {rid}: description must end with a period")
+            errors_found = True
+        if "  " in description:
+            log(f"❌ {rid}: description must not contain double spaces")
             errors_found = True
         if len(description) > MAX_DESCRIPTION_LENGTH:
             log(

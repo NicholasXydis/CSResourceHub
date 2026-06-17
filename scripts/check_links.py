@@ -7,6 +7,23 @@ from utils import get_all_resource_files, load_json, log, save_json
 TIMEOUT = 10
 
 
+def check_url(url):
+    try:
+        response = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
+    except requests.RequestException:
+        response = None
+
+    if response is not None and response.status_code < 400:
+        return True, response.status_code
+
+    try:
+        response = requests.get(url, timeout=TIMEOUT, allow_redirects=True)
+    except requests.RequestException as exc:
+        return False, str(exc)
+
+    return response.status_code < 400, response.status_code
+
+
 def check_links():
     dead_links = []
     today = str(date.today())
@@ -18,18 +35,15 @@ def check_links():
         for resource in data.get("resources", []):
             url = resource.get("url")
             rid = resource.get("id")
-            try:
-                response = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-                if response.status_code >= 400:
-                    dead_links.append((rid, url, response.status_code))
-                    log(f"❌ {rid}: {url} ({response.status_code})")
-                else:
+            ok, result = check_url(url)
+            if ok:
+                if resource.get("last_verified") != today:
                     resource["last_verified"] = today
                     file_changed = True
-                    log(f"✅ {rid}: {url}")
-            except Exception as e:
-                dead_links.append((rid, url, str(e)))
-                log(f"❌ {rid}: {url} ({e})")
+                log(f"✅ {rid}: {url}")
+            else:
+                dead_links.append((rid, url, result))
+                log(f"❌ {rid}: {url} ({result})")
 
         if file_changed:
             save_json(path, data)
