@@ -5,6 +5,10 @@ on:
     - cron: "0 9 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   check-links:
     runs-on: ubuntu-latest
@@ -15,3 +19,12 @@ jobs:
           python-version: "3.14"
       - run: pip install requests
       - run: python scripts/check_links.py
+      - name: Create last_verified update PR
+        uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: "chore: update verified link dates"
+          title: "chore: update verified link dates"
+          body: "Automated update of last_verified dates after successful link checks."
+          branch: chore/update-verified-link-dates
+          delete-branch: true
+          add-paths: data/
