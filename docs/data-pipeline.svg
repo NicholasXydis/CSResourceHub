@@ -16,7 +16,7 @@
     <path d="M394 37L414 49L394 61Z" fill="#3B82F6"/>
 
     <rect x="416" y="24" width="146" height="50" rx="10" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
-    <text x="489" y="47" fill="#F0F6FC">Validation Checks</text>
+    <text x="489" y="47" fill="#F0F6FC">Checks</text>
     <text x="489" y="63" fill="#F0F6FC" font-size="10">URLs, regions</text>
     <path d="M562 49H588" stroke="#3B82F6" stroke-width="4"/>
     <path d="M588 37L608 49L588 61Z" fill="#3B82F6"/>
