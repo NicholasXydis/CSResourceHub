@@ -11,7 +11,6 @@
     "category",
     "status",
     "region",
-    "date_added",
     "last_verified"
   ],
   "additionalProperties": false,
@@ -74,6 +73,23 @@
         "type": "string"
       },
       "minItems": 1
+    },
+    "month": {
+      "type": "string",
+      "enum": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ]
     },
     "date_added": {
       "type": "string",

@@ -40,6 +40,21 @@ TECH_ICONS = [
     ),
 ]
 
+MONTH_ORDER = {
+    "January": 1,
+    "February": 2,
+    "March": 3,
+    "April": 4,
+    "May": 5,
+    "June": 6,
+    "July": 7,
+    "August": 8,
+    "September": 9,
+    "October": 10,
+    "November": 11,
+    "December": 12,
+}
+
 
 def category_anchor(category: str) -> str:
     return category
@@ -88,6 +103,13 @@ def typing_svg(lines: list[str]) -> str:
 
 def tech_icon(name: str, src: str) -> str:
     return f'<img src="{src}" alt="{name}" width="52" height="52">'
+
+
+def resource_sort_key(resource: dict):
+    month = resource.get("month")
+    if month in MONTH_ORDER:
+        return (0, MONTH_ORDER[month], resource["name"].lower())
+    return (1, resource["name"].lower())
 
 
 def generate_readme():
@@ -172,20 +194,20 @@ def generate_readme():
         for category in categories:
             label = CATEGORY_LABELS[category]
             cat_resources = sorted(
-                by_category.get(category, []), key=lambda x: x["name"].lower()
+                by_category.get(category, []), key=resource_sort_key
             )
             lines.append(f'<a id="{category_anchor(category)}"></a>\n\n')
             lines.append(f"### {label}\n\n")
             lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
             if cat_resources:
-                lines.append("| Resource | Description | Cost | Region |\n")
+                lines.append("| Resource | Description | Month | Region |\n")
                 lines.append("| --- | --- | --- | --- |\n")
                 for r in cat_resources:
                     name = f"[{r['name']}]({r['url']})"
                     desc = r.get("description", "")
-                    cost = r.get("cost") or "—"
+                    month = r.get("month") or "—"
                     region = ", ".join(r.get("region", []))
-                    lines.append(f"| {name} | {desc} | {cost} | {region} |\n")
+                    lines.append(f"| {name} | {desc} | {month} | {region} |\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
 

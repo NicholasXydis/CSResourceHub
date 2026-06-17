@@ -40,6 +40,7 @@ Bad: `"picoctf.org"`, `"https://picoctf.org/"`
 ## Metadata
 
 - `last_verified` is required for every resource
+- Use `month` only for recurring or seasonal resources with a clear month
 
 ## Regions
 

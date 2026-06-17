@@ -15,7 +15,6 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | `category`    | string  | Must match folder name                       | `"ctfs"`                            |
 | `status`      | string  | `active`, `paused`, or `archived`            | `"active"`                          |
 | `region`      | array   | List of regions from `data/regions.json`     | `["North-America"]`                 |
-| `date_added`  | string  | ISO date YYYY-MM-DD                          | `"2026-06-15"`                      |
 | `last_verified` | string | ISO date last URL was confirmed active     | `"2026-06-15"`                      |
 
 ### Optional
@@ -23,6 +22,8 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | Field           | Type   | Description                              | Example        |
 | --------------- | ------ | ---------------------------------------- | -------------- |
 | `cost`          | string | `free`, `freemium`, or `paid`            | `"free"`      |
+| `date_added`    | string | ISO date YYYY-MM-DD                      | `"2026-06-15"` |
+| `month`         | string | Month name for recurring or seasonal resources | `"March"` |
 
 ## Example Entry
 
@@ -33,10 +34,11 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
   "url": "https://picoctf.org",
   "description": "Beginner-friendly CTF platform by Carnegie Mellon.",
   "category": "ctfs",
-  "cost": "free",
   "status": "active",
   "region": ["North-America"],
-  "date_added": "2026-06-15",
-  "last_verified": "2026-06-15"
+  "last_verified": "2026-06-15",
+  "cost": "free",
+  "month": "March",
+  "date_added": "2026-06-15"
 }
 ```

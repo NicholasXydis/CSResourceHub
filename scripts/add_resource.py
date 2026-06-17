@@ -53,25 +53,37 @@ def add_resource():
     file_path = DATA_DIR / folder / f"{category}.json"
     data = load_json(file_path)
 
+    resource_id = prompt("ID (lowercase, hyphens)")
+    name = prompt("Name")
+    url = prompt("URL (https://)")
+    description = prompt("Description (one sentence, ends with period)")
+    region = split_csv(prompt("Region (e.g. North-America, Canada, USA)"))
+    cost = prompt("Cost (free/freemium/paid, optional)", required=False)
+    month = prompt("Month (optional)", required=False)
+    date_added = prompt("Date added (YYYY-MM-DD, optional)", required=False)
+
     resource = {
-        "id": prompt("ID (lowercase, hyphens)"),
-        "name": prompt("Name"),
-        "url": prompt("URL (https://)"),
-        "description": prompt("Description (one sentence, ends with period)"),
+        "id": resource_id,
+        "name": name,
+        "url": url,
+        "description": description,
         "category": category,
-        "status": "active",
-        "region": split_csv(prompt("Region (e.g. North-America, Canada, USA)")),
-        "date_added": str(date.today()),
-        "last_verified": str(date.today()),
     }
 
-    cost = prompt("Cost (free/freemium/paid, optional)", required=False)
     if cost:
         resource["cost"] = cost
+    resource["status"] = "active"
+    resource["region"] = region
+    if month:
+        resource["month"] = month
+    if date_added:
+        resource["date_added"] = date_added
+    resource["last_verified"] = str(date.today())
 
     data["resources"].append(resource)
     save_json(file_path, data)
     log(f"\n✅ Added {resource['name']} to {category}")
+
 
 if __name__ == "__main__":
     add_resource()

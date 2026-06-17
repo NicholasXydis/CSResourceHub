@@ -44,6 +44,7 @@ EDITABLE_FIELDS = [
     "name",
     "description",
     "category",
+    "month",
     "cost",
     "region",
 ]

@@ -8,6 +8,7 @@ CSV_FIELDS = [
     "url",
     "description",
     "category",
+    "month",
     "cost",
     "status",
     "region",

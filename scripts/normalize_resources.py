@@ -3,6 +3,20 @@ import sys
 from utils import DATA_DIR, get_all_resource_files, load_json, log, save_json
 
 COST_VALUES = ["free", "freemium", "paid"]
+MONTH_VALUES = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+]
 
 
 def canonical_map(values):
@@ -13,6 +27,7 @@ def normalize_resources():
     allowed_regions = load_json(DATA_DIR / "regions.json")["regions"]
     region_map = canonical_map(allowed_regions)
     cost_map = canonical_map(COST_VALUES)
+    month_map = canonical_map(MONTH_VALUES)
     errors_found = False
     changed_files = []
 
@@ -47,6 +62,17 @@ def normalize_resources():
                     errors_found = True
                 elif cost != canonical_cost:
                     resource["cost"] = canonical_cost
+                    file_changed = True
+
+            if "month" in resource:
+                month = resource["month"]
+                cleaned_month = month.strip()
+                canonical_month = month_map.get(cleaned_month.casefold())
+                if not canonical_month:
+                    log(f"❌ {rid}: unknown month '{month}'")
+                    errors_found = True
+                elif month != canonical_month:
+                    resource["month"] = canonical_month
                     file_changed = True
 
         if file_changed:

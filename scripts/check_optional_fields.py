@@ -1,6 +1,6 @@
 from utils import load_all_resources, log
 
-OPTIONAL_FIELDS = ["cost"]
+OPTIONAL_FIELDS = ["cost", "date_added", "month"]
 
 
 def check_optional_fields():
