@@ -11,14 +11,8 @@ CSV_FIELDS = [
     "cost",
     "status",
     "region",
-    "tags",
-    "type",
-    "language",
-    "quality",
-    "source",
     "date_added",
     "last_verified",
-    "deadline",
 ]
 
 

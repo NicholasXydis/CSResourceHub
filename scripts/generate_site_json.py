@@ -14,7 +14,7 @@ def generate_site_json():
         "generated": str(date.today()),
         "total": len(resources),
         "categories": {
-            k: sorted(v, key=lambda x: -x.get("quality", 0))
+            k: sorted(v, key=lambda x: x["name"].lower())
             for k, v in by_category.items()
         },
     }

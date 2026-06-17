@@ -107,7 +107,7 @@ def generate_readme():
             [
                 "Curated CS Opportunities Across North America",
                 "Scholarships | Hackathons | Research | Fellowships",
-                "Validated JSON Dataset With Automated Quality Gates",
+                "Validated JSON Dataset With Automated Checks",
                 "Generated README | CSV | Site-Ready JSON",
             ]
         )
@@ -130,7 +130,7 @@ def generate_readme():
     lines.append('<p align="center">\n')
     lines.append(
         f"  <strong>{len(CATEGORY_LABELS)} CS Opportunity Categories</strong> "
-        "&nbsp;|&nbsp; <strong>Automated Quality Gates</strong> &nbsp;|&nbsp; "
+        "&nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; "
         "<strong>Multi-Format Exports</strong>\n"
     )
     lines.append("</p>\n\n")
@@ -172,23 +172,20 @@ def generate_readme():
         for category in categories:
             label = CATEGORY_LABELS[category]
             cat_resources = sorted(
-                by_category.get(category, []), key=lambda x: -x.get("quality", 0)
+                by_category.get(category, []), key=lambda x: x["name"].lower()
             )
             lines.append(f'<a id="{category_anchor(category)}"></a>\n\n')
             lines.append(f"### {label}\n\n")
             lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
             if cat_resources:
-                lines.append("| Resource | Description | Cost | Region | Tags |\n")
-                lines.append("| --- | --- | --- | --- | --- |\n")
+                lines.append("| Resource | Description | Cost | Region |\n")
+                lines.append("| --- | --- | --- | --- |\n")
                 for r in cat_resources:
                     name = f"[{r['name']}]({r['url']})"
                     desc = r.get("description", "")
-                    cost = r.get("cost", "")
+                    cost = r.get("cost") or "—"
                     region = ", ".join(r.get("region", []))
-                    tags = ", ".join(r.get("tags", []))
-                    lines.append(
-                        f"| {name} | {desc} | {cost} | {region} | {tags} |\n"
-                    )
+                    lines.append(f"| {name} | {desc} | {cost} | {region} |\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
 

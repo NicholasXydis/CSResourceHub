@@ -14,7 +14,6 @@ from jsonschema import Draft7Validator
 from sort_resources import sort_resources
 from utils import (
     CATEGORY_GROUPS,
-    DATA_DIR,
     GENERATED_DIR,
     ROOT,
     SCHEMA_FILE,
@@ -47,11 +46,6 @@ EDITABLE_FIELDS = [
     "category",
     "cost",
     "region",
-    "tags",
-    "type",
-    "language",
-    "deadline",
-    "source",
 ]
 
 CATEGORY_KEYWORDS = {
@@ -85,56 +79,6 @@ CATEGORY_KEYWORDS = {
     "certifications": ["certification", "certificate", "exam"],
     "free-benefits": ["benefit", "perk", "student pack", "free tools"],
 }
-
-TYPE_KEYWORDS = {
-    "course": ["course", "curriculum"],
-    "book": ["book"],
-    "video": ["video", "youtube"],
-    "platform": ["platform"],
-    "tool": ["tool", "software"],
-    "community": ["community", "forum", "discord"],
-    "club": ["club"],
-    "event": ["event", "meetup", "webinar"],
-    "competition": ["competition", "contest", "ctf", "hackathon"],
-    "program": ["program", "fellowship"],
-    "scholarship": ["scholarship"],
-    "repository": ["github", "repository", "repo"],
-    "project": ["project"],
-    "article": ["article", "guide", "blog"],
-    "newsletter": ["newsletter"],
-    "conference": ["conference"],
-    "certification": ["certification", "certificate"],
-    "benefit": ["benefit", "perk"],
-    "service": ["service"],
-}
-
-TAG_KEYWORDS = {
-    "beginner": ["beginner", "intro", "getting started"],
-    "free": ["free"],
-    "open-source": ["open source", "github"],
-    "remote": ["remote", "online", "virtual"],
-    "security": ["security", "ctf", "cyber"],
-    "web": ["web", "frontend", "backend"],
-    "mobile": ["mobile", "android", "ios"],
-    "ai-ml": ["ai", "machine learning", "ml"],
-    "data-science": ["data science", "analytics"],
-    "competitive-programming": ["competitive programming", "algorithm"],
-    "game-dev": ["game dev", "game development", "game jam"],
-    "open-source-contribution": ["contribute", "contribution"],
-    "research": ["research"],
-    "networking": ["networking", "career fair"],
-    "fellowship": ["fellowship"],
-    "scholarship": ["scholarship"],
-    "startup": ["startup"],
-    "freelance": ["freelance"],
-    "certification": ["certification"],
-    "community": ["community", "discord", "forum"],
-    "practice-platform": ["practice", "challenge"],
-    "video": ["video", "youtube"],
-    "interactive": ["interactive"],
-    "reading": ["book", "article", "guide"],
-}
-
 
 class MetadataParser(HTMLParser):
     def __init__(self):
@@ -228,10 +172,6 @@ def load_json_file(path, default):
 
 def save_json_file(path, data):
     save_json(path, data)
-
-
-def load_allowed_values(name):
-    return set(load_json(DATA_DIR / f"{name}.json")[name])
 
 
 def existing_url_set():
@@ -362,7 +302,7 @@ def best_description(parser):
     )
 
 
-def quality_warnings(name, description, lang):
+def draft_warnings(name, description):
     warnings = []
     lower_desc = description.lower()
     if len(name) <= 2:
@@ -385,9 +325,7 @@ def quality_warnings(name, description, lang):
     ]
     if any(phrase in lower_desc for phrase in bad_phrases):
         warnings.append("description may be boilerplate")
-    if lang and not (lang == "en" or lang.startswith("en-")):
-        warnings.append(f"page language may need review: {lang}")
-    warnings.append("verify cost and region")
+    warnings.append("verify region and optional cost")
     return warnings
 
 
@@ -413,34 +351,6 @@ def guess_category(text):
     return best_category, confidence, alternatives[:3]
 
 
-def guess_type(text):
-    lower_text = text.lower()
-    for resource_type, keywords in TYPE_KEYWORDS.items():
-        if any(keyword in lower_text for keyword in keywords):
-            return resource_type
-    return "platform"
-
-
-def guess_tags(text):
-    lower_text = text.lower()
-    tags = []
-    allowed_tags = load_allowed_values("tags")
-    for tag, keywords in TAG_KEYWORDS.items():
-        if tag in allowed_tags and any(keyword in lower_text for keyword in keywords):
-            tags.append(tag)
-    return tags[:5]
-
-
-def guess_language(lang):
-    if not lang:
-        return []
-    if lang == "en" or lang.startswith("en-"):
-        return ["english"]
-    if lang == "fr" or lang.startswith("fr-"):
-        return ["french"]
-    return []
-
-
 def build_draft(raw_url, metadata, existing_ids, current_draft_ids):
     normalized_url = metadata.get("url") or normalize_url(raw_url)
     name = clean_text(metadata.get("title"))[:100] or domain_for(normalized_url)
@@ -448,7 +358,7 @@ def build_draft(raw_url, metadata, existing_ids, current_draft_ids):
     text = " ".join([name, description, normalized_url])
     category, confidence, alternatives = guess_category(text)
     resource_id = slugify(name)
-    warnings = quality_warnings(name, description, metadata.get("lang", ""))
+    warnings = draft_warnings(name, description)
     has_id_collision = resource_id in existing_ids or resource_id in current_draft_ids
     if has_id_collision:
         warnings.append(f"id collision: {resource_id}")
@@ -458,18 +368,11 @@ def build_draft(raw_url, metadata, existing_ids, current_draft_ids):
         "url": normalized_url,
         "description": description[:120],
         "category": category,
-        "cost": "free",
         "status": "active",
         "region": ["North-America"],
-        "source": "official-website",
         "date_added": str(date.today()),
         "last_verified": str(date.today()),
-        "tags": guess_tags(text),
-        "type": guess_type(text),
     }
-    language = guess_language(metadata.get("lang", ""))
-    if language:
-        resource["language"] = language
     return {
         "status": "needs_edit" if has_id_collision else "pending",
         "approved": False,
@@ -595,12 +498,10 @@ def edit_resource(resource):
         current = resource.get(field, "")
         log(f"Current {field}: {current}")
         value = input("New value: ").strip()
-        if field in {"region", "tags", "language"}:
+        if field == "region":
             resource[field] = parse_list(value)
         elif value:
             resource[field] = value
-        elif field in resource and field in {"deadline", "type", "language", "tags"}:
-            resource.pop(field)
 
 
 def review_drafts():

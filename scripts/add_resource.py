@@ -59,29 +59,15 @@ def add_resource():
         "url": prompt("URL (https://)"),
         "description": prompt("Description (one sentence, ends with period)"),
         "category": category,
-        "cost": prompt("Cost (free/freemium/paid)"),
         "status": "active",
         "region": split_csv(prompt("Region (e.g. North-America, Canada, USA)")),
-        "source": prompt("Source (official-website/community/research/social-media)"),
         "date_added": str(date.today()),
         "last_verified": str(date.today()),
     }
 
-    tags = prompt("Tags (comma-separated, optional)", required=False)
-    if tags:
-        resource["tags"] = split_csv(tags)
-
-    resource_type = prompt("Type (optional)", required=False)
-    if resource_type:
-        resource["type"] = resource_type
-
-    language = prompt("Language (comma-separated, optional)", required=False)
-    if language:
-        resource["language"] = split_csv(language)
-
-    deadline = prompt("Deadline month (optional, press Enter to skip)", required=False)
-    if deadline:
-        resource["deadline"] = deadline
+    cost = prompt("Cost (free/freemium/paid, optional)", required=False)
+    if cost:
+        resource["cost"] = cost
 
     data["resources"].append(resource)
     save_json(file_path, data)
