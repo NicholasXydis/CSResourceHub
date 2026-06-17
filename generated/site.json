@@ -4,6 +4,36 @@
   "categories": {
     "ctfs": [
       {
+        "id": "athack-ctf",
+        "name": "@HACK CTF",
+        "url": "https://athackctf.com",
+        "description": "Student cybersecurity CTF at Concordia University Montreal with workshops and prizes.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
+        ],
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "buckeyectf",
+        "name": "BuckeyeCTF",
+        "url": "https://ctf.osucyber.club",
+        "description": "Annual online CTF hosted by the Ohio State University Cybersecurity Club.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "North-America",
+          "Global"
+        ],
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
         "id": "csaw-ctf",
         "name": "CSAW CTF",
         "url": "https://csaw.io/ctf",
@@ -13,21 +43,8 @@
         "status": "active",
         "region": [
           "North-America",
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "remote",
-          "in-person",
-          "annual"
-        ],
-        "quality": 5,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -40,21 +57,8 @@
         "cost": "free",
         "status": "active",
         "region": [
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "platform",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "practice-platform",
-          "community",
-          "remote",
-          "ongoing"
-        ],
-        "quality": 5,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -70,19 +74,6 @@
           "Canada",
           "North-America"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "team",
-          "annual",
-          "in-person"
-        ],
-        "quality": 5,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -96,21 +87,8 @@
         "status": "active",
         "region": [
           "North-America",
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "advanced",
-          "in-person",
-          "team",
-          "annual"
-        ],
-        "quality": 5,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -123,79 +101,8 @@
         "cost": "free",
         "status": "active",
         "region": [
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "remote",
-          "beginner",
-          "advanced",
-          "annual"
-        ],
-        "quality": 5,
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
-      },
-      {
-        "id": "northsec",
-        "name": "NorthSec",
-        "url": "https://nsec.io",
-        "description": "Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions.",
-        "category": "ctfs",
-        "cost": "paid",
-        "status": "active",
-        "region": [
-          "Canada",
-          "North-America"
-        ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english",
-          "french"
-        ],
-        "tags": [
-          "security",
-          "in-person",
-          "team",
-          "annual",
-          "advanced"
-        ],
-        "quality": 5,
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
-      },
-      {
-        "id": "athack-ctf",
-        "name": "@HACK CTF",
-        "url": "https://athackctf.com",
-        "description": "Student cybersecurity CTF at Concordia University Montreal with workshops and prizes.",
-        "category": "ctfs",
-        "cost": "free",
-        "status": "active",
-        "region": [
-          "Canada",
-          "North-America"
-        ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english",
-          "french"
-        ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "in-person",
-          "team",
-          "beginner"
-        ],
-        "quality": 4,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -209,21 +116,8 @@
         "status": "active",
         "region": [
           "North-America",
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "systems",
-          "advanced",
-          "team",
-          "annual"
-        ],
-        "quality": 4,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -237,21 +131,8 @@
         "status": "active",
         "region": [
           "North-America",
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "systems",
-          "undergraduate",
-          "team",
-          "advanced"
-        ],
-        "quality": 4,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -267,20 +148,21 @@
           "Canada",
           "North-America"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english",
-          "french"
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "northsec",
+        "name": "NorthSec",
+        "url": "https://nsec.io",
+        "description": "Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions.",
+        "category": "ctfs",
+        "cost": "paid",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
         ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "team",
-          "annual",
-          "in-person"
-        ],
-        "quality": 4,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -294,21 +176,8 @@
         "status": "active",
         "region": [
           "North-America",
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "beginner",
-          "remote",
-          "undergraduate",
-          "practice-platform"
-        ],
-        "quality": 4,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -322,77 +191,8 @@
         "status": "active",
         "region": [
           "North-America",
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "remote",
-          "advanced",
-          "team",
-          "annual"
-        ],
-        "quality": 4,
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
-      },
-      {
-        "id": "uoftctf",
-        "name": "UofTCTF",
-        "url": "https://ctf.uoftctf.org",
-        "description": "Annual online jeopardy-style CTF by the University of Toronto with a student division.",
-        "category": "ctfs",
-        "cost": "free",
-        "status": "active",
-        "region": [
-          "Canada",
-          "North-America"
-        ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "remote",
-          "team",
-          "annual"
-        ],
-        "quality": 4,
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
-      },
-      {
-        "id": "buckeyectf",
-        "name": "BuckeyeCTF",
-        "url": "https://ctf.osucyber.club",
-        "description": "Annual online CTF hosted by the Ohio State University Cybersecurity Club.",
-        "category": "ctfs",
-        "cost": "free",
-        "status": "active",
-        "region": [
-          "North-America",
-          "global"
-        ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
-        ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "remote",
-          "team",
-          "annual"
-        ],
-        "quality": 3,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -408,20 +208,6 @@
           "Canada",
           "North-America"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english",
-          "french"
-        ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "in-person",
-          "team",
-          "annual"
-        ],
-        "quality": 3,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       },
@@ -435,21 +221,23 @@
         "status": "active",
         "region": [
           "North-America",
-          "global"
+          "Global"
         ],
-        "source": "official-website",
-        "type": "competition",
-        "language": [
-          "english"
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
+        "id": "uoftctf",
+        "name": "UofTCTF",
+        "url": "https://ctf.uoftctf.org",
+        "description": "Annual online jeopardy-style CTF by the University of Toronto with a student division.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "region": [
+          "Canada",
+          "North-America"
         ],
-        "tags": [
-          "security",
-          "undergraduate",
-          "remote",
-          "team",
-          "annual"
-        ],
-        "quality": 3,
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
       }
