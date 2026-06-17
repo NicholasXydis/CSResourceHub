@@ -1,6 +1,6 @@
 from utils import load_all_resources, log
 
-OPTIONAL_FIELDS = ["deadline", "quality", "tags", "type", "language"]
+OPTIONAL_FIELDS = ["cost"]
 
 
 def check_optional_fields():

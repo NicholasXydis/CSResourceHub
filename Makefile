@@ -1,4 +1,4 @@
-.PHONY: validate generate lint stats add draft review import-approved clean-drafts check-links check-duplicates check-regions sort check-category check-descriptions stats-json export-csv check-optional check-urls check-types check-languages help
+.PHONY: validate generate lint stats add draft review import-approved clean-drafts check-links check-duplicates check-regions sort check-category check-descriptions stats-json export-csv check-optional check-urls help
 
 validate:
 	python scripts/validate_all.py
@@ -63,14 +63,8 @@ check-optional:
 check-urls:
 	python scripts/validate_urls_normalized.py
 
-check-types:
-	python scripts/check_types.py
-
-check-languages:
-	python scripts/check_languages.py
-
 help:
-	@echo "validate        - Run all schema and dataset quality checks"
+	@echo "validate        - Run all schema and dataset validation checks"
 	@echo "generate        - Regenerate README and combined JSON files"
 	@echo "lint            - Lint Python scripts and JSON files"
 	@echo "stats           - Print resource counts per category"
@@ -89,5 +83,3 @@ help:
 	@echo "export-csv      - Export resources to CSV"
 	@echo "check-optional  - Report optional field coverage"
 	@echo "check-urls      - Validate URL normalization"
-	@echo "check-types     - Validate type values"
-	@echo "check-languages - Validate language values"
