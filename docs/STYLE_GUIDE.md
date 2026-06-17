@@ -40,16 +40,13 @@ Bad: `"picoctf.org"`, `"https://picoctf.org/"`
 ## Metadata
 
 - `last_verified` is required for every resource
-- `type` must come from `data/types.json`
-- `language` must come from `data/languages.json`
-- `tags` must come from `data/tags.json`
 
 ## Regions
 
 - Use `North-America` for resources broadly relevant across North America
 - Use `Canada` for Canada-specific resources
 - Use `USA` for United States-specific resources
-- Use `global` only when the resource is broadly useful to North American students
+- Use `Global` only when the resource is broadly useful to North American students
 
 ## Names
 
@@ -60,16 +57,6 @@ Good: `"PicoCTF"`, `"Google Summer of Code"`, `"MLH Fellowship"`
 
 Bad: `"Pico CTF"`, `"GSoC"`, `"mlh fellowship"`
 
-## Quality Ratings
-
-| Rating | Meaning                                  |
-| ------ | ---------------------------------------- |
-| 5      | Essential, widely recognized, high value |
-| 4      | Strongly recommended                     |
-| 3      | Good, worth knowing about                |
-| 2      | Niche, limited audience                  |
-| 1      | Low priority, include for completeness   |
-
 ## Cost
 
 | Value      | Meaning                      |
@@ -77,16 +64,3 @@ Bad: `"Pico CTF"`, `"GSoC"`, `"mlh fellowship"`
 | `free`     | Completely free              |
 | `freemium` | Free tier with paid upgrades |
 | `paid`     | Requires payment             |
-
-## Source
-
-| Value              | Meaning                          |
-| ------------------ | -------------------------------- |
-| `official-website` | Found on the resource's own site |
-| `community`        | Suggested by a community member  |
-| `research`         | Found through research           |
-| `social-media`     | Found on Twitter, Reddit, etc.   |
-
-## Quality
-
-Quality is set by maintainers only. Contributors should not include the `quality` field in their submissions — it will be added on review.

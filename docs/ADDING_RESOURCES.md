@@ -37,9 +37,8 @@ Drafting fetches each page once, guesses fields, skips duplicates, and writes re
 - URL must include `https://`, no trailing slash, and no tracking parameters
 - `id` must be unique across all files, lowercase, hyphens only
 - `last_verified` is required and should be the date the URL was checked
-- Do not set `quality`; maintainers set it during review
-- Use only approved values from `data/tags.json`, `data/regions.json`, `data/types.json`, and `data/languages.json`
-- Use `global` only for resources broadly useful to North American students
+- Use only approved values from `data/regions.json`
+- Use `Global` only for resources broadly useful to North American students
 - Check [STYLE_GUIDE.md](./STYLE_GUIDE.md) before writing descriptions
 
 ## Not Sure Which Category?

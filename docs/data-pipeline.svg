@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-labelledby="title desc">
   <title id="title">CS Resource Hub data pipeline</title>
-  <desc id="desc">Resource JSON is validated, checked for quality, and used to generate README, CSV, and site-ready JSON exports. Failed quality checks block output.</desc>
+  <desc id="desc">Resource JSON is validated and used to generate README, CSV, and site-ready JSON exports. Failed validation checks block output.</desc>
   <rect width="900" height="190" rx="18" fill="#0D1117"/>
   <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" text-anchor="middle">
     <rect x="48" y="24" width="128" height="50" rx="10" fill="#161B22" stroke="#30363D" stroke-width="2"/>
@@ -16,8 +16,8 @@
     <path d="M394 37L414 49L394 61Z" fill="#3B82F6"/>
 
     <rect x="416" y="24" width="146" height="50" rx="10" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
-    <text x="489" y="47" fill="#F0F6FC">Quality Checks</text>
-    <text x="489" y="63" fill="#F0F6FC" font-size="10">URLs, tags, regions</text>
+    <text x="489" y="47" fill="#F0F6FC">Validation Checks</text>
+    <text x="489" y="63" fill="#F0F6FC" font-size="10">URLs, regions</text>
     <path d="M562 49H588" stroke="#3B82F6" stroke-width="4"/>
     <path d="M588 37L608 49L588 61Z" fill="#3B82F6"/>
 
