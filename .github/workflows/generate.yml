@@ -6,13 +6,14 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.3.1
-      - uses: actions/setup-python@v5.6.0
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.14"
       - run: pip install jsonschema requests
@@ -22,9 +23,21 @@ jobs:
       - run: python scripts/generate_site_json.py
       - run: python scripts/generate_stats_json.py
       - run: python scripts/export_csv.py
-      - run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md data/ generated/
-          git diff --staged --quiet || git commit -m "chore: regenerate outputs [skip ci]"
-          git push
+      - name: Create generated output PR
+        id: generated-pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: "chore: regenerate outputs"
+          title: "chore: regenerate outputs"
+          body: "Automated update of generated resource outputs."
+          branch: chore/regenerate-outputs
+          delete-branch: true
+          add-paths: |
+            README.md
+            data/
+            generated/
+      - name: Enable auto-merge
+        if: steps.generated-pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --auto --squash "${{ steps.generated-pr.outputs.pull-request-number }}"
