@@ -26,7 +26,7 @@
   <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=14&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-18&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=13&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-18&color=7c3aed)
 
 </div>
 
@@ -45,7 +45,7 @@ Browse resources by area and category.
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (0)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (14)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
+| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (13)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
 | 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
 | 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
 | 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
@@ -89,15 +89,14 @@ Browse resources by area and category.
 
 ### CTFs
 
-**14 resources** · `ctfs`
+**13 resources** · `ctfs`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
 | [UofTCTF](https://ctf.uoftctf.org) | Student CTF by the University of Toronto, with cash and software prizes. | January | Online |
-| [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | National student CTF series across Canada, with regional rounds and a Montreal final. | February | Canada regional rounds; Montreal, Quebec, Canada final |
+| [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | National student CTF series across Canada, with regional rounds and a Montreal final. | February | Online |
 | [@HACK CTF](https://athackctf.com) | Canada's largest student CTF at Concordia University, with cash and hardware prizes. | March | Montreal, Quebec |
-| [PolyPwnCTF](https://pwn.polycyber.io) | Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams. | March | Polytechnique Montreal, Montreal, Quebec, Canada |
-| [Hack-A-Sat](https://hackasat.com) | Space systems security CTF sponsored by the US Air Force and Space Force. | April | Online |
+| [PolyPwnCTF](https://pwn.polycyber.io) | Student CTF by Polytechnique University, with cash and training prizes. | March | Montreal, Quebec |
 | [PlaidCTF](https://plaidctf.com) | Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges. | April | Online |
 | [UMDCTF](https://umdctf.io) | Annual online CTF hosted by the University of Maryland Cybersecurity Club. | April | Online |
 | [NorthSec](https://nsec.io) | Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions. | May | Bonsecours Market, Montreal, Quebec, Canada |

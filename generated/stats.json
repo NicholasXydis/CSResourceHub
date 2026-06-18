@@ -1,12 +1,12 @@
 {
   "generated": "2026-06-18",
-  "total": 14,
+  "total": 13,
   "categories": {
     "learning-resources": 0,
     "communities": 0,
     "clubs": 0,
     "volunteer": 0,
-    "ctfs": 14,
+    "ctfs": 13,
     "competitions": 0,
     "hackathons": 0,
     "game-jams": 0,
@@ -34,10 +34,10 @@
       }
     },
     "Experience & Involvement": {
-      "total": 14,
+      "total": 13,
       "categories": {
         "hackathons": 0,
-        "ctfs": 14,
+        "ctfs": 13,
         "game-jams": 0,
         "competitions": 0,
         "volunteer": 0

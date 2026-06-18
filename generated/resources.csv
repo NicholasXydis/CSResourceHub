@@ -1,9 +1,8 @@
 id,name,url,description,category,month,cost,status,location,date_added,last_verified
 uoftctf,UofTCTF,https://ctf.uoftctf.org,"Student CTF by the University of Toronto, with cash and software prizes.",ctfs,January,free,active,Online,2026-06-17,2026-06-18
-ncc-ctf-series,NCC CTF Series,https://ncc-cnc.ca/ctfseries,"National student CTF series across Canada, with regional rounds and a Montreal final.",ctfs,February,free,active,"Canada regional rounds; Montreal, Quebec, Canada final",2026-06-17,2026-06-17
+ncc-ctf-series,NCC CTF Series,https://ncc-cnc.ca/ctfseries,"National student CTF series across Canada, with regional rounds and a Montreal final.",ctfs,February,free,active,Online,2026-06-17,2026-06-17
 athack-ctf,@HACK CTF,https://athackctf.com,"Canada's largest student CTF at Concordia University, with cash and hardware prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-17,2026-06-18
-polypwn-ctf,PolyPwnCTF,https://pwn.polycyber.io,Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams.,ctfs,March,free,active,"Polytechnique Montreal, Montreal, Quebec, Canada",2026-06-17,2026-06-18
-hack-a-sat,Hack-A-Sat,https://hackasat.com,Space systems security CTF sponsored by the US Air Force and Space Force.,ctfs,April,free,active,Online,2026-06-17,2026-06-18
+polypwn-ctf,PolyPwnCTF,https://pwn.polycyber.io,"Student CTF by Polytechnique University, with cash and training prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-17,2026-06-18
 plaidctf,PlaidCTF,https://plaidctf.com,Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges.,ctfs,April,free,active,Online,2026-06-17,2026-06-17
 umdctf,UMDCTF,https://umdctf.io,Annual online CTF hosted by the University of Maryland Cybersecurity Club.,ctfs,April,free,active,Online,2026-06-17,2026-06-18
 northsec,NorthSec,https://nsec.io,Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions.,ctfs,May,paid,active,"Bonsecours Market, Montreal, Quebec, Canada",2026-06-17,2026-06-18

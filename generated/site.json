@@ -1,6 +1,6 @@
 {
   "generated": "2026-06-18",
-  "total": 14,
+  "total": 13,
   "categories": {
     "ctfs": [
       {
@@ -24,7 +24,7 @@
         "category": "ctfs",
         "cost": "free",
         "status": "active",
-        "location": "Canada regional rounds; Montreal, Quebec, Canada final",
+        "location": "Online",
         "month": "February",
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
@@ -46,25 +46,12 @@
         "id": "polypwn-ctf",
         "name": "PolyPwnCTF",
         "url": "https://pwn.polycyber.io",
-        "description": "Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams.",
+        "description": "Student CTF by Polytechnique University, with cash and training prizes.",
         "category": "ctfs",
         "cost": "free",
         "status": "active",
-        "location": "Polytechnique Montreal, Montreal, Quebec, Canada",
+        "location": "Montreal, Quebec",
         "month": "March",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-18"
-      },
-      {
-        "id": "hack-a-sat",
-        "name": "Hack-A-Sat",
-        "url": "https://hackasat.com",
-        "description": "Space systems security CTF sponsored by the US Air Force and Space Force.",
-        "category": "ctfs",
-        "cost": "free",
-        "status": "active",
-        "location": "Online",
-        "month": "April",
         "date_added": "2026-06-17",
         "last_verified": "2026-06-18"
       },
