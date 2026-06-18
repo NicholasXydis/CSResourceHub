@@ -26,7 +26,7 @@
   <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=13&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-18&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=12&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-18&color=7c3aed)
 
 </div>
 
@@ -45,7 +45,7 @@ Browse resources by area and category.
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (0)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (13)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
+| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (12)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
 | 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
 | 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
 | 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
@@ -89,7 +89,7 @@ Browse resources by area and category.
 
 ### CTFs
 
-**13 resources** · `ctfs`
+**12 resources** · `ctfs`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
@@ -97,13 +97,12 @@ Browse resources by area and category.
 | [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | National student CTF series across Canada, with regional rounds and a Montreal final. | February | Online |
 | [@HACK CTF](https://athackctf.com) | Canada's largest student CTF at Concordia University, with cash and hardware prizes. | March | Montreal, Quebec |
 | [PolyPwnCTF](https://pwn.polycyber.io) | Student CTF by Polytechnique University, with cash and training prizes. | March | Montreal, Quebec |
-| [PlaidCTF](https://plaidctf.com) | Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges. | April | Online |
-| [UMDCTF](https://umdctf.io) | Annual online CTF hosted by the University of Maryland Cybersecurity Club. | April | Online |
-| [NorthSec](https://nsec.io) | Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions. | May | Bonsecours Market, Montreal, Quebec, Canada |
-| [Google CTF](https://capturetheflag.withgoogle.com) | Annual online CTF hosted by Google with beginner and advanced divisions. | June | Online |
-| [DEF CON CTF](https://defcon.org) | Prestigious CTF held annually in Las Vegas with online qualifiers open to all teams. | August | Online qualifiers; Las Vegas, Nevada, United States finals |
-| [CSAW CTF](https://csaw.io/ctf) | Large student CTF hosted by NYU with online qualifiers and in-person finals in New York City. | September | Online qualifiers; New York City, New York, United States finals |
-| [BuckeyeCTF](https://ctf.osucyber.club) | Annual online CTF hosted by the Ohio State University Cybersecurity Club. | November | Online |
+| [PlaidCTF](https://plaidctf.com) | Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite. | April | Online |
+| [UMDCTF](https://umdctf.io) | Student CTF by the University of Maryland, with cash and software prizes. | April | Online |
+| [DEF CON CTF](https://defcon.org) | Most prestigious CTF in the world featuring online qualifiers and a final stage event in Las Vegas. | May | Online |
+| [NorthSec](https://nsec.io) | Prestigious multi-day CTF for professionals, with cash prizes and a student track. | May | Montreal, Quebec |
+| [Google CTF](https://capturetheflag.withgoogle.com) | Highly prestigious global CTF featuring elite challenges, cash prizes, and a final stage event. | June | Online |
+| [CSAW CTF](https://csaw.io/ctf) | Large student CTF hosted by NYU with online qualifiers and a final stage event in New York City. | September | Online |
 | [CyberSci](https://cybersecuritychallenge.ca) | Canadian cybersecurity challenge for university and college students with regional and national finals. | November | Canada |
 | [CTFtime](https://ctftime.org) | Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar. | — | Online |
 <a id="game-jams"></a>

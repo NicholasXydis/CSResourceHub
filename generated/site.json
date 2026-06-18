@@ -1,6 +1,6 @@
 {
   "generated": "2026-06-18",
-  "total": 13,
+  "total": 12,
   "categories": {
     "ctfs": [
       {
@@ -59,7 +59,7 @@
         "id": "plaidctf",
         "name": "PlaidCTF",
         "url": "https://plaidctf.com",
-        "description": "Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges.",
+        "description": "Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite.",
         "category": "ctfs",
         "cost": "free",
         "status": "active",
@@ -72,7 +72,7 @@
         "id": "umdctf",
         "name": "UMDCTF",
         "url": "https://umdctf.io",
-        "description": "Annual online CTF hosted by the University of Maryland Cybersecurity Club.",
+        "description": "Student CTF by the University of Maryland, with cash and software prizes.",
         "category": "ctfs",
         "cost": "free",
         "status": "active",
@@ -82,14 +82,27 @@
         "last_verified": "2026-06-18"
       },
       {
+        "id": "defcon-ctf",
+        "name": "DEF CON CTF",
+        "url": "https://defcon.org",
+        "description": "Most prestigious CTF in the world featuring online qualifiers and a final stage event in Las Vegas.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "location": "Online",
+        "month": "May",
+        "date_added": "2026-06-17",
+        "last_verified": "2026-06-17"
+      },
+      {
         "id": "northsec",
         "name": "NorthSec",
         "url": "https://nsec.io",
-        "description": "Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions.",
+        "description": "Prestigious multi-day CTF for professionals, with cash prizes and a student track.",
         "category": "ctfs",
         "cost": "paid",
         "status": "active",
-        "location": "Bonsecours Market, Montreal, Quebec, Canada",
+        "location": "Montreal, Quebec",
         "month": "May",
         "date_added": "2026-06-17",
         "last_verified": "2026-06-18"
@@ -98,7 +111,7 @@
         "id": "google-ctf",
         "name": "Google CTF",
         "url": "https://capturetheflag.withgoogle.com",
-        "description": "Annual online CTF hosted by Google with beginner and advanced divisions.",
+        "description": "Highly prestigious global CTF featuring elite challenges, cash prizes, and a final stage event.",
         "category": "ctfs",
         "cost": "free",
         "status": "active",
@@ -108,43 +121,17 @@
         "last_verified": "2026-06-17"
       },
       {
-        "id": "defcon-ctf",
-        "name": "DEF CON CTF",
-        "url": "https://defcon.org",
-        "description": "Prestigious CTF held annually in Las Vegas with online qualifiers open to all teams.",
-        "category": "ctfs",
-        "cost": "free",
-        "status": "active",
-        "location": "Online qualifiers; Las Vegas, Nevada, United States finals",
-        "month": "August",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
-      },
-      {
         "id": "csaw-ctf",
         "name": "CSAW CTF",
         "url": "https://csaw.io/ctf",
-        "description": "Large student CTF hosted by NYU with online qualifiers and in-person finals in New York City.",
-        "category": "ctfs",
-        "cost": "free",
-        "status": "active",
-        "location": "Online qualifiers; New York City, New York, United States finals",
-        "month": "September",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
-      },
-      {
-        "id": "buckeyectf",
-        "name": "BuckeyeCTF",
-        "url": "https://ctf.osucyber.club",
-        "description": "Annual online CTF hosted by the Ohio State University Cybersecurity Club.",
+        "description": "Large student CTF hosted by NYU with online qualifiers and a final stage event in New York City.",
         "category": "ctfs",
         "cost": "free",
         "status": "active",
         "location": "Online",
-        "month": "November",
+        "month": "September",
         "date_added": "2026-06-17",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-17"
       },
       {
         "id": "cybersci",

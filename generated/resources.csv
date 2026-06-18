@@ -3,12 +3,11 @@ uoftctf,UofTCTF,https://ctf.uoftctf.org,"Student CTF by the University of Toront
 ncc-ctf-series,NCC CTF Series,https://ncc-cnc.ca/ctfseries,"National student CTF series across Canada, with regional rounds and a Montreal final.",ctfs,February,free,active,Online,2026-06-17,2026-06-17
 athack-ctf,@HACK CTF,https://athackctf.com,"Canada's largest student CTF at Concordia University, with cash and hardware prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-17,2026-06-18
 polypwn-ctf,PolyPwnCTF,https://pwn.polycyber.io,"Student CTF by Polytechnique University, with cash and training prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-17,2026-06-18
-plaidctf,PlaidCTF,https://plaidctf.com,Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges.,ctfs,April,free,active,Online,2026-06-17,2026-06-17
-umdctf,UMDCTF,https://umdctf.io,Annual online CTF hosted by the University of Maryland Cybersecurity Club.,ctfs,April,free,active,Online,2026-06-17,2026-06-18
-northsec,NorthSec,https://nsec.io,Annual 48-hour on-site CTF in Montreal and one of Canada's largest applied security competitions.,ctfs,May,paid,active,"Bonsecours Market, Montreal, Quebec, Canada",2026-06-17,2026-06-18
-google-ctf,Google CTF,https://capturetheflag.withgoogle.com,Annual online CTF hosted by Google with beginner and advanced divisions.,ctfs,June,free,active,Online,2026-06-17,2026-06-17
-defcon-ctf,DEF CON CTF,https://defcon.org,Prestigious CTF held annually in Las Vegas with online qualifiers open to all teams.,ctfs,August,free,active,"Online qualifiers; Las Vegas, Nevada, United States finals",2026-06-17,2026-06-17
-csaw-ctf,CSAW CTF,https://csaw.io/ctf,Large student CTF hosted by NYU with online qualifiers and in-person finals in New York City.,ctfs,September,free,active,"Online qualifiers; New York City, New York, United States finals",2026-06-17,2026-06-17
-buckeyectf,BuckeyeCTF,https://ctf.osucyber.club,Annual online CTF hosted by the Ohio State University Cybersecurity Club.,ctfs,November,free,active,Online,2026-06-17,2026-06-18
+plaidctf,PlaidCTF,https://plaidctf.com,"Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite.",ctfs,April,free,active,Online,2026-06-17,2026-06-17
+umdctf,UMDCTF,https://umdctf.io,"Student CTF by the University of Maryland, with cash and software prizes.",ctfs,April,free,active,Online,2026-06-17,2026-06-18
+northsec,NorthSec,https://nsec.io,"Prestigious multi-day CTF for professionals, with cash prizes and a student track.",ctfs,May,paid,active,"Montreal, Quebec",2026-06-17,2026-06-18
+google-ctf,Google CTF,https://capturetheflag.withgoogle.com,"Highly prestigious global CTF featuring elite challenges, cash prizes, and a final stage event.",ctfs,June,free,active,Online,2026-06-17,2026-06-17
+defcon-ctf,DEF CON CTF,https://defcon.org,Most prestigious CTF in the world featuring online qualifiers and a final stage event in Las Vegas.,ctfs,May,free,active,Online,2026-06-17,2026-06-17
+csaw-ctf,CSAW CTF,https://csaw.io/ctf,Large student CTF hosted by NYU with online qualifiers and a final stage event in New York City.,ctfs,September,free,active,Online,2026-06-17,2026-06-17
 cybersci,CyberSci,https://cybersecuritychallenge.ca,Canadian cybersecurity challenge for university and college students with regional and national finals.,ctfs,November,free,active,Canada,2026-06-17,2026-06-17
 ctftime,CTFtime,https://ctftime.org,"Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar.",ctfs,,free,active,Online,2026-06-17,2026-06-17
