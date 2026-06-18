@@ -54,19 +54,6 @@
       "last_verified": "2026-06-18"
     },
     {
-      "id": "cyber-apocalypse",
-      "name": "HackTheBox Cyber Apocalypse",
-      "url": "https://www.hackthebox.com/events/cyber-apocalypse-2026",
-      "description": "One of the largest annual online CTFs by Hack The Box, with thousands of teams and a massive prize pool.",
-      "category": "ctfs",
-      "cost": "free",
-      "status": "active",
-      "location": "Online",
-      "month": "July",
-      "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
-    },
-    {
       "id": "plaidctf",
       "name": "PlaidCTF",
       "url": "https://plaidctf.com",
@@ -119,19 +106,6 @@
       "last_verified": "2026-06-18"
     },
     {
-      "id": "0ctf",
-      "name": "0CTF",
-      "url": "https://ctf.0ops.sjtu.cn",
-      "description": "A top-tier global competition known for research-grade challenges and elite international prestige.",
-      "category": "ctfs",
-      "cost": "free",
-      "status": "active",
-      "location": "Online",
-      "month": "December",
-      "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
-    },
-    {
       "id": "google-ctf",
       "name": "Google CTF",
       "url": "https://capturetheflag.withgoogle.com",
@@ -145,17 +119,17 @@
       "last_verified": "2026-06-17"
     },
     {
-      "id": "csaw-ctf",
-      "name": "CSAW CTF",
-      "url": "https://csaw.io/ctf",
-      "description": "Large student CTF hosted by NYU with online qualifiers and a final stage event in New York City.",
+      "id": "cyber-apocalypse",
+      "name": "HackTheBox Cyber Apocalypse",
+      "url": "https://www.hackthebox.com/events/cyber-apocalypse-2026",
+      "description": "One of the largest annual online CTFs by Hack The Box, with thousands of teams and a massive prize pool.",
       "category": "ctfs",
       "cost": "free",
       "status": "active",
       "location": "Online",
-      "month": "September",
-      "date_added": "2026-06-17",
-      "last_verified": "2026-06-17"
+      "month": "July",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
     },
     {
       "id": "hitcon-ctf",
@@ -171,6 +145,19 @@
       "last_verified": "2026-06-18"
     },
     {
+      "id": "csaw-ctf",
+      "name": "CSAW CTF",
+      "url": "https://csaw.io/ctf",
+      "description": "Large student CTF hosted by NYU with online qualifiers and a final stage event in New York City.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "September",
+      "date_added": "2026-06-17",
+      "last_verified": "2026-06-17"
+    },
+    {
       "id": "cybersci",
       "name": "CyberSci",
       "url": "https://cybersecuritychallenge.ca",
@@ -182,6 +169,19 @@
       "month": "November",
       "date_added": "2026-06-17",
       "last_verified": "2026-06-17"
+    },
+    {
+      "id": "0ctf",
+      "name": "0CTF",
+      "url": "https://ctf.0ops.sjtu.cn",
+      "description": "A top-tier global competition known for research-grade challenges and elite international prestige.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "December",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
     }
   ]
 }
