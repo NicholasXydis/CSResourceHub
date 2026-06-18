@@ -14,7 +14,7 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | `description` | string  | One sentence, ends with period               | `"Beginner-friendly CTF platform."` |
 | `category`    | string  | Must match folder name                       | `"ctfs"`                            |
 | `status`      | string  | `active`, `paused`, or `archived`            | `"active"`                          |
-| `region`      | array   | List of regions from `data/regions.json`     | `["North-America"]`                 |
+| `location`    | string  | Exact location or `Online`                   | `"Montreal, Quebec, Canada"`        |
 | `last_verified` | string | ISO date last URL was confirmed active     | `"2026-06-15"`                      |
 
 ### Optional
@@ -35,7 +35,7 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
   "description": "Beginner-friendly CTF platform by Carnegie Mellon.",
   "category": "ctfs",
   "status": "active",
-  "region": ["North-America"],
+  "location": "Online",
   "last_verified": "2026-06-15",
   "cost": "free",
   "month": "March",

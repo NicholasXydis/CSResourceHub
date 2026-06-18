@@ -46,7 +46,7 @@ EDITABLE_FIELDS = [
     "category",
     "month",
     "cost",
-    "region",
+    "location",
 ]
 
 CATEGORY_KEYWORDS = {
@@ -326,7 +326,7 @@ def draft_warnings(name, description):
     ]
     if any(phrase in lower_desc for phrase in bad_phrases):
         warnings.append("description may be boilerplate")
-    warnings.append("verify region and optional cost")
+    warnings.append("verify location and optional cost")
     return warnings
 
 
@@ -370,7 +370,7 @@ def build_draft(raw_url, metadata, existing_ids, current_draft_ids):
         "description": description[:120],
         "category": category,
         "status": "active",
-        "region": ["North-America"],
+        "location": "Online",
         "date_added": str(date.today()),
         "last_verified": str(date.today()),
     }
@@ -499,9 +499,7 @@ def edit_resource(resource):
         current = resource.get(field, "")
         log(f"Current {field}: {current}")
         value = input("New value: ").strip()
-        if field == "region":
-            resource[field] = parse_list(value)
-        elif value:
+        if value:
             resource[field] = value
 
 

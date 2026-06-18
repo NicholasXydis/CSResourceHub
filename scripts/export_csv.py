@@ -11,7 +11,7 @@ CSV_FIELDS = [
     "month",
     "cost",
     "status",
-    "region",
+    "location",
     "date_added",
     "last_verified",
 ]

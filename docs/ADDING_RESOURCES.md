@@ -32,14 +32,14 @@ Drafting fetches each page once, guesses fields, skips duplicates, and writes re
 
 - One resource per PR when possible
 - Resource must be active and publicly accessible
-- Resource should be useful to Computer Science students in North America
+- Resource should be useful to Computer Science students in Canada
 - Description must be one sentence ending with a period
 - URL must include `https://`, no trailing slash, and no tracking parameters
 - `id` must be unique across all files, lowercase, hyphens only
 - `last_verified` is required and should be the date the URL was checked
 - Use `month` only when a resource has a clear recurring or seasonal month
-- Use only approved values from `data/regions.json`
-- Use `Global` only for resources broadly useful to North American students
+- Use an exact `location` such as `Montreal, Quebec, Canada` when known
+- Use `Online` for fully virtual resources
 - Check [STYLE_GUIDE.md](./STYLE_GUIDE.md) before writing descriptions
 
 ## Not Sure Which Category?

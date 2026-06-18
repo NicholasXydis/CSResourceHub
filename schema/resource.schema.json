@@ -10,7 +10,7 @@
     "description",
     "category",
     "status",
-    "region",
+    "location",
     "last_verified"
   ],
   "additionalProperties": false,
@@ -67,12 +67,10 @@
       "type": "string",
       "enum": ["active", "paused", "archived"]
     },
-    "region": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "minItems": 1
+    "location": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 120
     },
     "month": {
       "type": "string",

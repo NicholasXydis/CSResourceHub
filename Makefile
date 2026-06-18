@@ -1,4 +1,4 @@
-.PHONY: validate generate lint stats add draft review import-approved clean-drafts check-links check-duplicates check-regions sort check-category check-descriptions stats-json export-csv check-optional check-urls help
+.PHONY: validate generate lint stats add draft review import-approved clean-drafts check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-optional check-urls help
 
 validate:
 	python scripts/validate_all.py
@@ -39,8 +39,8 @@ check-links:
 check-duplicates:
 	python scripts/check_duplicates.py
 
-check-regions:
-	python scripts/check_regions.py
+check-locations:
+	python scripts/check_locations.py
 
 sort:
 	python scripts/sort_resources.py
@@ -75,7 +75,7 @@ help:
 	@echo "clean-drafts    - Delete generated import draft files"
 	@echo "check-links     - Check all URLs for dead links"
 	@echo "check-duplicates - Check for duplicate URLs"
-	@echo "check-regions   - Validate region values"
+	@echo "check-locations - Validate location values"
 	@echo "sort            - Sort resources alphabetically by name"
 	@echo "check-category  - Ensure resources match their category files"
 	@echo "check-descriptions - Check description style"

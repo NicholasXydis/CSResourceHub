@@ -127,7 +127,7 @@ def generate_readme():
     lines.append(
         typing_svg(
             [
-                "Curated CS Opportunities Across North America",
+                "Curated Canadian CS Opportunities",
                 "Scholarships | Hackathons | Research | Fellowships",
                 "Validated JSON Dataset With Automated Checks",
                 "Generated README | CSV | Site-Ready JSON",
@@ -136,7 +136,7 @@ def generate_readme():
     )
     lines.append("\n\n")
     lines.append(
-        "**A curated, automated dataset of North American Computer Science "
+        "**A curated, automated dataset of Canadian Computer Science "
         "student resources.**\n\n"
     )
     lines.append("<br>\n\n<br>\n\n")
@@ -200,14 +200,14 @@ def generate_readme():
             lines.append(f"### {label}\n\n")
             lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
             if cat_resources:
-                lines.append("| Resource | Description | Month | Region |\n")
+                lines.append("| Resource | Description | Month | Location |\n")
                 lines.append("| --- | --- | --- | --- |\n")
                 for r in cat_resources:
                     name = f"[{r['name']}]({r['url']})"
                     desc = r.get("description", "")
                     month = r.get("month") or "—"
-                    region = ", ".join(r.get("region", []))
-                    lines.append(f"| {name} | {desc} | {month} | {region} |\n")
+                    location = r.get("location", "")
+                    lines.append(f"| {name} | {desc} | {month} | {location} |\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
 
@@ -231,7 +231,7 @@ def generate_readme():
     lines.append("\n")
     lines.append('<div align="center">\n\n')
     lines.append(
-        "Built for North American Computer Science students who want one reliable "
+        "Built for Canadian Computer Science students who want one reliable "
         "place to discover what to learn, "
     )
     lines.append("join, build, attend, and apply for.\n\n")

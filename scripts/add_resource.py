@@ -35,10 +35,6 @@ def prompt(label, required=True):
         print("  Required.")
 
 
-def split_csv(value):
-    return [item.strip() for item in value.split(",") if item.strip()]
-
-
 def add_resource():
     print("\nAvailable categories:")
     for k, (_, cat) in CATEGORIES.items():
@@ -57,7 +53,7 @@ def add_resource():
     name = prompt("Name")
     url = prompt("URL (https://)")
     description = prompt("Description (one sentence, ends with period)")
-    region = split_csv(prompt("Region (e.g. North-America, Canada, USA)"))
+    location = prompt("Location (e.g. Online or Montreal, Quebec, Canada)")
     cost = prompt("Cost (free/freemium/paid, optional)", required=False)
     month = prompt("Month (optional)", required=False)
     date_added = prompt("Date added (YYYY-MM-DD, optional)", required=False)
@@ -73,7 +69,7 @@ def add_resource():
     if cost:
         resource["cost"] = cost
     resource["status"] = "active"
-    resource["region"] = region
+    resource["location"] = location
     if month:
         resource["month"] = month
     if date_added:

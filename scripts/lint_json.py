@@ -6,7 +6,6 @@ from utils import DATA_DIR, get_all_resource_files, log
 def lint_json():
     files = get_all_resource_files()
     files += [
-        DATA_DIR / "regions.json",
         DATA_DIR / "LAST_UPDATED.json",
     ]
 

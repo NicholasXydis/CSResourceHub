@@ -42,12 +42,12 @@ Bad: `"picoctf.org"`, `"https://picoctf.org/"`
 - `last_verified` is required for every resource
 - Use `month` only for recurring or seasonal resources with a clear month
 
-## Regions
+## Locations
 
-- Use `North-America` for resources broadly relevant across North America
-- Use `Canada` for Canada-specific resources
-- Use `USA` for United States-specific resources
-- Use `Global` only when the resource is broadly useful to North American students
+- Use exact Canadian locations when an event has a known physical location
+- Use `Online` for fully virtual resources
+- Use `Canada` only when a Canadian resource moves between cities or locations are not yet published
+- Include top United States options only when they are especially useful to Canadian students
 
 ## Names
 
