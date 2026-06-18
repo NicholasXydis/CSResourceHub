@@ -81,6 +81,19 @@
       "last_verified": "2026-06-18"
     },
     {
+      "id": "defcon-ctf",
+      "name": "DEF CON CTF",
+      "url": "https://defcon.org",
+      "description": "Most prestigious CTF in the world featuring online qualifiers and a final stage event in Las Vegas.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "May",
+      "date_added": "2026-06-17",
+      "last_verified": "2026-06-17"
+    },
+    {
       "id": "northsec",
       "name": "NorthSec",
       "url": "https://nsec.io",
@@ -103,19 +116,6 @@
       "status": "active",
       "location": "Online",
       "month": "June",
-      "date_added": "2026-06-17",
-      "last_verified": "2026-06-17"
-    },
-    {
-      "id": "defcon-ctf",
-      "name": "DEF CON CTF",
-      "url": "https://defcon.org",
-      "description": "Most prestigious CTF in the world featuring online qualifiers and a final stage event in Las Vegas.",
-      "category": "ctfs",
-      "cost": "free",
-      "status": "active",
-      "location": "Online",
-      "month": "May",
       "date_added": "2026-06-17",
       "last_verified": "2026-06-17"
     },
