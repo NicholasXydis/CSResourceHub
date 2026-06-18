@@ -1,20 +1,7 @@
 {
   "generated": "2026-06-18",
-  "total": 16,
+  "total": 15,
   "resources": [
-    {
-      "id": "mitre-ectf",
-      "name": "MITRE eCTF",
-      "url": "https://ectf.mitre.org",
-      "description": "Semester-long embedded systems CTF by MITRE for university students worldwide.",
-      "category": "ctfs",
-      "cost": "free",
-      "status": "active",
-      "location": "Online",
-      "month": "January",
-      "date_added": "2026-06-17",
-      "last_verified": "2026-06-18"
-    },
     {
       "id": "uoftctf",
       "name": "UofTCTF",

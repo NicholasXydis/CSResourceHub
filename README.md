@@ -26,7 +26,7 @@
   <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=16&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-18&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=15&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-18&color=7c3aed)
 
 </div>
 
@@ -45,7 +45,7 @@ Browse resources by area and category.
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (0)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (16)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
+| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
 | 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
 | 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
 | 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
@@ -89,11 +89,10 @@ Browse resources by area and category.
 
 ### CTFs
 
-**16 resources** · `ctfs`
+**15 resources** · `ctfs`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
-| [MITRE eCTF](https://ectf.mitre.org) | Semester-long embedded systems CTF by MITRE for university students worldwide. | January | Online |
 | [UofTCTF](https://ctf.uoftctf.org) | Annual online jeopardy-style CTF by the University of Toronto with a student division. | January | Online |
 | [@HACK CTF](https://athackctf.com) | Canada's largest student CTF at Concordia University Montreal, with cash and hardware prizes. | March | Concordia University, Montreal, Quebec, Canada |
 | [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | Canadian post-secondary CTF with regional rounds and a national final in Montreal. | March | Canada regional rounds; Montreal, Quebec, Canada final |
