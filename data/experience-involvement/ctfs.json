@@ -135,24 +135,12 @@
       "id": "cybersci",
       "name": "CyberSci",
       "url": "https://cybersecuritychallenge.ca",
-      "description": "Canadian cybersecurity challenge for university and college students with regional and national finals.",
+      "description": "Prestigious Canadian student competition featuring regional hiring rounds and a national final in Ottawa.",
       "category": "ctfs",
       "cost": "free",
       "status": "active",
       "location": "Canada",
       "month": "November",
-      "date_added": "2026-06-17",
-      "last_verified": "2026-06-17"
-    },
-    {
-      "id": "ctftime",
-      "name": "CTFtime",
-      "url": "https://ctftime.org",
-      "description": "Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar.",
-      "category": "ctfs",
-      "cost": "free",
-      "status": "active",
-      "location": "Online",
       "date_added": "2026-06-17",
       "last_verified": "2026-06-17"
     }

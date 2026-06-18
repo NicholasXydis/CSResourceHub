@@ -200,14 +200,24 @@ def generate_readme():
             lines.append(f"### {label}\n\n")
             lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
             if cat_resources:
-                lines.append("| Resource | Description | Month | Location |\n")
-                lines.append("| --- | --- | --- | --- |\n")
+                has_month = any(r.get("month") for r in cat_resources)
+                if has_month:
+                    lines.append("| Resource | Description | Month | Location |\n")
+                    lines.append("| --- | --- | --- | --- |\n")
+                else:
+                    lines.append("| Resource | Description | Location |\n")
+                    lines.append("| --- | --- | --- |\n")
                 for r in cat_resources:
                     name = f"[{r['name']}]({r['url']})"
                     desc = r.get("description", "")
-                    month = r.get("month") or "—"
                     location = r.get("location", "")
-                    lines.append(f"| {name} | {desc} | {month} | {location} |\n")
+                    if has_month:
+                        month = r.get("month") or "—"
+                        lines.append(
+                            f"| {name} | {desc} | {month} | {location} |\n"
+                        )
+                    else:
+                        lines.append(f"| {name} | {desc} | {location} |\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
 

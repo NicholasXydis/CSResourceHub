@@ -44,8 +44,8 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (0)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (12)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (1)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
+| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (11)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
 | 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
 | 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
 | 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
@@ -58,9 +58,11 @@ Browse resources by area and category.
 
 ### Learning Resources
 
-**0 resources** · `learning-resources`
+**1 resources** · `learning-resources`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Location |
+| --- | --- | --- |
+| [CTFtime](https://ctftime.org) | Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar. | Online |
 <a id="communities"></a>
 
 ### Communities
@@ -89,7 +91,7 @@ Browse resources by area and category.
 
 ### CTFs
 
-**12 resources** · `ctfs`
+**11 resources** · `ctfs`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
@@ -103,8 +105,7 @@ Browse resources by area and category.
 | [NorthSec](https://nsec.io) | Prestigious multi-day CTF for professionals, with cash prizes and a student track. | May | Montreal, Quebec |
 | [Google CTF](https://capturetheflag.withgoogle.com) | Highly prestigious global CTF featuring elite challenges, cash prizes, and a final stage event. | June | Online |
 | [CSAW CTF](https://csaw.io/ctf) | Large student CTF hosted by NYU with online qualifiers and a final stage event in New York City. | September | Online |
-| [CyberSci](https://cybersecuritychallenge.ca) | Canadian cybersecurity challenge for university and college students with regional and national finals. | November | Canada |
-| [CTFtime](https://ctftime.org) | Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar. | — | Online |
+| [CyberSci](https://cybersecuritychallenge.ca) | Prestigious Canadian student competition featuring regional hiring rounds and a national final in Ottawa. | November | Canada |
 <a id="game-jams"></a>
 
 ### Game Jams

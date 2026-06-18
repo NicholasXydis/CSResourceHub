@@ -2,11 +2,11 @@
   "generated": "2026-06-18",
   "total": 12,
   "categories": {
-    "learning-resources": 0,
+    "learning-resources": 1,
     "communities": 0,
     "clubs": 0,
     "volunteer": 0,
-    "ctfs": 12,
+    "ctfs": 11,
     "competitions": 0,
     "hackathons": 0,
     "game-jams": 0,
@@ -26,18 +26,18 @@
   },
   "groups": {
     "Learning & Development": {
-      "total": 0,
+      "total": 1,
       "categories": {
-        "learning-resources": 0,
+        "learning-resources": 1,
         "communities": 0,
         "clubs": 0
       }
     },
     "Experience & Involvement": {
-      "total": 12,
+      "total": 11,
       "categories": {
         "hackathons": 0,
-        "ctfs": 12,
+        "ctfs": 11,
         "game-jams": 0,
         "competitions": 0,
         "volunteer": 0

@@ -1,4 +1,17 @@
 {
   "category": "learning-resources",
-  "resources": []
+  "resources": [
+    {
+      "id": "ctftime",
+      "name": "CTFtime",
+      "url": "https://ctftime.org",
+      "description": "Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar.",
+      "category": "learning-resources",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "date_added": "2026-06-17",
+      "last_verified": "2026-06-17"
+    }
+  ]
 }
