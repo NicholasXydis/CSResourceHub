@@ -95,7 +95,7 @@ Browse resources by area and category.
 | --- | --- | --- | --- |
 | [MITRE eCTF](https://ectf.mitre.org) | Semester-long embedded systems CTF by MITRE for university students worldwide. | January | Online |
 | [UofTCTF](https://ctf.uoftctf.org) | Annual online jeopardy-style CTF by the University of Toronto with a student division. | January | Online |
-| [@HACK CTF](https://athackctf.com) | Canada's largest student cybersecurity CTF, hosted annually at Concordia University Montreal. | March | Concordia University, Montreal, Quebec, Canada |
+| [@HACK CTF](https://athackctf.com) | Canada's largest student CTF at Concordia University Montreal, with cash and hardware prizes. | March | Concordia University, Montreal, Quebec, Canada |
 | [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | Canadian post-secondary CTF with regional rounds and a national final in Montreal. | March | Canada regional rounds; Montreal, Quebec, Canada final |
 | [PicoCTF](https://picoctf.org) | Free beginner-friendly CTF by Carnegie Mellon with annual competitions and practice challenges. | March | Online |
 | [PolyPwnCTF](https://pwn.polycyber.io) | Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams. | March | Polytechnique Montreal, Montreal, Quebec, Canada |

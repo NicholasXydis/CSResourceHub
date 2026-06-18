@@ -32,7 +32,7 @@
       "id": "athack-ctf",
       "name": "@HACK CTF",
       "url": "https://athackctf.com",
-      "description": "Canada's largest student cybersecurity CTF, hosted annually at Concordia University Montreal.",
+      "description": "Canada's largest student CTF at Concordia University Montreal, with cash and hardware prizes.",
       "category": "ctfs",
       "cost": "free",
       "status": "active",
