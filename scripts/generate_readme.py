@@ -27,16 +27,12 @@ TECH_ICONS = [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     ),
     (
-        "JSON",
+        "JSON Schema",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
     ),
     (
         "GitHub Actions",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
-    ),
-    (
-        "Markdown",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg",
     ),
 ]
 

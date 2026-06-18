@@ -54,6 +54,19 @@
       "last_verified": "2026-06-18"
     },
     {
+      "id": "cyber-apocalypse",
+      "name": "HackTheBox Cyber Apocalypse",
+      "url": "https://www.hackthebox.com/events/cyber-apocalypse-2026",
+      "description": "One of the world's largest online CTFs with high production value and diverse, immersive challenges.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "April",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
+    },
+    {
       "id": "plaidctf",
       "name": "PlaidCTF",
       "url": "https://plaidctf.com",
@@ -106,6 +119,19 @@
       "last_verified": "2026-06-18"
     },
     {
+      "id": "0ctf",
+      "name": "0CTF",
+      "url": "https://ctf.0ops.sjtu.cn",
+      "description": "A top-tier global competition known for research-grade challenges and elite international prestige.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "June",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
+    },
+    {
       "id": "google-ctf",
       "name": "Google CTF",
       "url": "https://capturetheflag.withgoogle.com",
@@ -117,6 +143,19 @@
       "month": "June",
       "date_added": "2026-06-17",
       "last_verified": "2026-06-17"
+    },
+    {
+      "id": "nahamcon-ctf",
+      "name": "NahamCon CTF",
+      "url": "https://www.nahamcon.com",
+      "description": "A popular, community-focused CTF event featuring accessible and engaging challenges for all levels.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "June",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
     },
     {
       "id": "csaw-ctf",
@@ -132,6 +171,19 @@
       "last_verified": "2026-06-17"
     },
     {
+      "id": "hitcon-ctf",
+      "name": "HITCON CTF",
+      "url": "https://ctf.hitcon.org",
+      "description": "An elite-level global CTF hosted by the HITCON community and known for extreme technical difficulty.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "October",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
+    },
+    {
       "id": "cybersci",
       "name": "CyberSci",
       "url": "https://cybersecuritychallenge.ca",
@@ -143,6 +195,31 @@
       "month": "November",
       "date_added": "2026-06-17",
       "last_verified": "2026-06-17"
+    },
+    {
+      "id": "sans-holiday-hack",
+      "name": "SANS Holiday Hack",
+      "url": "https://www.sans.org/cyber-ranges/holiday-hack-challenge",
+      "description": "A prestigious, narrative-driven winter event featuring complex security challenges for all skill levels.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "December",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
+    },
+    {
+      "id": "snyk-ctf",
+      "name": "Snyk CTF",
+      "url": "https://snyk.io/events/ctf",
+      "description": "Industry-backed event focusing on modern application security and secure coding practices.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
     }
   ]
 }
