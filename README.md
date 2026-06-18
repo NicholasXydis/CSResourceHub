@@ -93,20 +93,20 @@ Browse resources by area and category.
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
-| [UofTCTF](https://ctf.uoftctf.org) | Student CTF by the University of Toronto, with cash and software prizes. | January | Online |
+| [UofTCTF](https://ctf.uoftctf.org) | CTF by the University of Toronto, with cash and software prizes. | January | Online |
 | [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | National student CTF series across Canada, with regional rounds and a Montreal final. | February | Online |
 | [@HACK CTF](https://athackctf.com) | Canada's largest student CTF at Concordia University, with cash and hardware prizes. | March | Montreal, Quebec |
 | [PolyPwnCTF](https://pwn.polycyber.io) | Student CTF by Polytechnique University, with cash and training prizes. | March | Montreal, Quebec |
 | [PlaidCTF](https://plaidctf.com) | Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite. | April | Online |
 | [UMDCTF](https://umdctf.io) | Student CTF by the University of Maryland, with cash and software prizes. | April | Online |
-| [DEF CON CTF](https://defcon.org) | Most prestigious CTF in the world featuring online qualifiers and a final stage event in Las Vegas. | May | Online |
-| [NorthSec](https://nsec.io) | Prestigious multi-day CTF for professionals, with cash prizes and a student track. | May | Montreal, Quebec |
-| [Google CTF](https://capturetheflag.withgoogle.com) | Highly prestigious global CTF featuring elite challenges, cash prizes, and a final stage event. | June | Online |
-| [HackTheBox Cyber Apocalypse](https://www.hackthebox.com/events/cyber-apocalypse-2026) | One of the largest annual online CTFs by Hack The Box, with thousands of teams and a massive prize pool. | July | Online |
-| [HITCON CTF](https://ctf.hitcon.org) | An elite-level global CTF hosted by the HITCON community, known for extreme technical difficulty. | August | Online |
-| [CSAW CTF](https://csaw.io/ctf) | Large student CTF hosted by NYU with online qualifiers and a final stage event in New York City. | September | Online |
-| [CyberSci](https://cybersecuritychallenge.ca) | Prestigious Canadian student competition featuring regional hiring rounds and a national final in Ottawa. | November | Canada |
-| [0CTF](https://ctf.0ops.sjtu.cn) | A top-tier global competition known for research-grade challenges and elite international prestige. | December | Online |
+| [DEF CON CTF](https://defcon.org) | Most prestigious CTF in the world, with online qualifiers and finals in Las Vegas. | May | Online |
+| [NorthSec](https://nsec.io) | Multi-day CTF in Montreal for professionals, with cash prizes and a student track. | May | Montreal, Quebec |
+| [Google CTF](https://capturetheflag.withgoogle.com) | Global CTF hosted by Google, with cash prizes and a final stage event. | June | Online |
+| [HackTheBox Cyber Apocalypse](https://www.hackthebox.com/events/cyber-apocalypse-2026) | CTF by Hack The Box, with thousands of teams and a massive prize pool. | July | Online |
+| [HITCON CTF](https://ctf.hitcon.org) | CTF hosted by HITCON, known for extreme technical difficulty and elite global competition. | August | Online |
+| [CSAW CTF](https://csaw.io/ctf) | Student CTF by NYU, with online qualifiers and finals in New York City. | September | Online |
+| [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | Canada |
+| [0CTF](https://ctf.0ops.sjtu.cn) | CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges. | December | Online |
 <a id="game-jams"></a>
 
 ### Game Jams
