@@ -62,7 +62,7 @@ CATEGORY_KEYWORDS = {
     "communities": ["community", "discord", "forum", "slack", "group"],
     "clubs": ["club", "student organization", "chapter"],
     "hackathons": ["hackathon", "hackathons", "mlh"],
-    "ctfs": ["ctf", "capture the flag", "picoctf", "security challenge"],
+    "ctfs": ["ctf", "capture the flag", "cybersecurity challenge"],
     "game-jams": ["game jam", "gamejam", "game development jam"],
     "competitions": ["competition", "contest", "competitive programming"],
     "volunteer": ["volunteer", "non-profit", "nonprofit", "charity"],

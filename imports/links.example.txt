@@ -1,8 +1,8 @@
 # Normal URL
-https://picoctf.org
+https://ctf.uoftctf.org
 
 # Duplicate example: this is intentionally the same normalized URL.
-https://picoctf.org/
+https://ctf.uoftctf.org/
 
 # Likely failure or skip example: known bot-hostile domain.
 https://www.linkedin.com

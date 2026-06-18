@@ -2,7 +2,6 @@ id,name,url,description,category,month,cost,status,location,date_added,last_veri
 uoftctf,UofTCTF,https://ctf.uoftctf.org,Annual online jeopardy-style CTF by the University of Toronto with a student division.,ctfs,January,free,active,Online,2026-06-17,2026-06-18
 athack-ctf,@HACK CTF,https://athackctf.com,"Canada's largest student CTF at Concordia University Montreal, with cash and hardware prizes.",ctfs,March,free,active,"Concordia University, Montreal, Quebec, Canada",2026-06-17,2026-06-18
 ncc-ctf-series,NCC CTF Series,https://ncc-cnc.ca/ctfseries,Canadian post-secondary CTF with regional rounds and a national final in Montreal.,ctfs,March,free,active,"Canada regional rounds; Montreal, Quebec, Canada final",2026-06-17,2026-06-17
-picoctf,PicoCTF,https://picoctf.org,Free beginner-friendly CTF by Carnegie Mellon with annual competitions and practice challenges.,ctfs,March,free,active,Online,2026-06-17,2026-06-18
 polypwn-ctf,PolyPwnCTF,https://pwn.polycyber.io,Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams.,ctfs,March,free,active,"Polytechnique Montreal, Montreal, Quebec, Canada",2026-06-17,2026-06-18
 hack-a-sat,Hack-A-Sat,https://hackasat.com,Space systems security CTF sponsored by the US Air Force and Space Force.,ctfs,April,free,active,Online,2026-06-17,2026-06-18
 plaidctf,PlaidCTF,https://plaidctf.com,Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges.,ctfs,April,free,active,Online,2026-06-17,2026-06-17

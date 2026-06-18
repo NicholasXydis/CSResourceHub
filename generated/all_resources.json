@@ -1,6 +1,6 @@
 {
   "generated": "2026-06-18",
-  "total": 15,
+  "total": 14,
   "resources": [
     {
       "id": "uoftctf",
@@ -40,19 +40,6 @@
       "month": "March",
       "date_added": "2026-06-17",
       "last_verified": "2026-06-17"
-    },
-    {
-      "id": "picoctf",
-      "name": "PicoCTF",
-      "url": "https://picoctf.org",
-      "description": "Free beginner-friendly CTF by Carnegie Mellon with annual competitions and practice challenges.",
-      "category": "ctfs",
-      "cost": "free",
-      "status": "active",
-      "location": "Online",
-      "month": "March",
-      "date_added": "2026-06-17",
-      "last_verified": "2026-06-18"
     },
     {
       "id": "polypwn-ctf",

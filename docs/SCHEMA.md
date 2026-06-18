@@ -8,9 +8,9 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 
 | Field         | Type    | Description                                  | Example                             |
 | ------------- | ------- | -------------------------------------------- | ----------------------------------- |
-| `id`          | string  | Unique stable identifier, lowercase, hyphens | `"picoctf"`                         |
-| `name`        | string  | Display name of the resource                 | `"PicoCTF"`                         |
-| `url`         | string  | Full URL including https://                  | `"https://picoctf.org"`             |
+| `id`          | string  | Unique stable identifier, lowercase, hyphens | `"uoftctf"`                         |
+| `name`        | string  | Display name of the resource                 | `"UofTCTF"`                         |
+| `url`         | string  | Full URL including https://                  | `"https://ctf.uoftctf.org"`         |
 | `description` | string  | One sentence, ends with period               | `"Beginner-friendly CTF platform."` |
 | `category`    | string  | Must match folder name                       | `"ctfs"`                            |
 | `status`      | string  | `active`, `paused`, or `archived`            | `"active"`                          |
@@ -29,10 +29,10 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 
 ```json
 {
-  "id": "picoctf",
-  "name": "PicoCTF",
-  "url": "https://picoctf.org",
-  "description": "Beginner-friendly CTF platform by Carnegie Mellon.",
+  "id": "uoftctf",
+  "name": "UofTCTF",
+  "url": "https://ctf.uoftctf.org",
+  "description": "Student CTF by the University of Toronto.",
   "category": "ctfs",
   "status": "active",
   "location": "Online",

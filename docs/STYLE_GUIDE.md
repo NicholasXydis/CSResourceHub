@@ -7,7 +7,7 @@
 - State what it is and who it is for
 - Maximum 120 characters
 
-Good: `"Beginner-friendly CTF platform by Carnegie Mellon."`
+Good: `"Annual student CTF hosted by a university cybersecurity club."`
 
 Good: `"Annual hackathon for university students across Canada."`
 
@@ -22,9 +22,9 @@ Bad: `"Amazing platform that will help you get a job."`
 - No special characters
 - Must be unique across all files
 
-Good: `"picoctf"`, `"google-summer-of-code"`, `"mlh-fellowship"`
+Good: `"uoftctf"`, `"google-summer-of-code"`, `"mlh-fellowship"`
 
-Bad: `"PicoCTF"`, `"google summer of code"`, `"mlh_fellowship"`
+Bad: `"UofT CTF"`, `"google summer of code"`, `"mlh_fellowship"`
 
 ## URLs
 
@@ -33,9 +33,9 @@ Bad: `"PicoCTF"`, `"google summer of code"`, `"mlh_fellowship"`
 - No tracking parameters such as `utm_source`
 - Link to the most specific relevant page
 
-Good: `"https://picoctf.org"`
+Good: `"https://ctf.uoftctf.org"`
 
-Bad: `"picoctf.org"`, `"https://picoctf.org/"`
+Bad: `"ctf.uoftctf.org"`, `"https://ctf.uoftctf.org/"`
 
 ## Metadata
 
@@ -54,9 +54,9 @@ Bad: `"picoctf.org"`, `"https://picoctf.org/"`
 - Use the official capitalization
 - No abbreviations unless the abbreviation is the official name
 
-Good: `"PicoCTF"`, `"Google Summer of Code"`, `"MLH Fellowship"`
+Good: `"UofTCTF"`, `"Google Summer of Code"`, `"MLH Fellowship"`
 
-Bad: `"Pico CTF"`, `"GSoC"`, `"mlh fellowship"`
+Bad: `"UofT CTF"`, `"GSoC"`, `"mlh fellowship"`
 
 ## Cost
 
