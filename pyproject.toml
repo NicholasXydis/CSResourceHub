@@ -1,7 +1,7 @@
 [project]
 name = "cs-resource-hub"
 version = "1.0.0"
-description = "A curated dataset of North American Computer Science student resources."
+description = "A curated dataset of Canadian Computer Science student resources."
 authors = [{ name = "Nicholas Xydis", email = "NicholasXydis@outlook.com" }]
 license = { text = "MIT" }
 requires-python = ">=3.14"

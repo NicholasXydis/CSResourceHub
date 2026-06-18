@@ -3,8 +3,8 @@
 ## Learning & Development
 
 - **learning-resources** — Websites, courses, tutorials, and books for learning Computer Science topics
-- **communities** — Online communities, forums, and groups for North American Computer Science students
-- **clubs** — University and online clubs for North American Computer Science students
+- **communities** — Online communities, forums, and groups for Canadian Computer Science students
+- **clubs** — University and online clubs for Canadian Computer Science students
 
 ## Experience & Involvement
 
@@ -30,7 +30,7 @@
 
 - **online-events** — Virtual events, webinars, and meetups
 - **career-fairs** — Career fairs and recruiting events
-- **scholarships** — Scholarships for North American Computer Science students
+- **scholarships** — Scholarships for Canadian Computer Science students
 - **startup-programs** — Startup incubators and accelerators for students
 - **freelance** — Platforms and resources for freelancing
 

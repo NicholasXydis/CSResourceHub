@@ -13,7 +13,7 @@ Thank you for helping make CS Resource Hub better.
 
 - Check existing resources to avoid duplicates
 - Make sure the resource is active and high quality
-- Make sure the resource is useful to Computer Science students in North America
+- Make sure the resource is useful to Computer Science students in Canada
 - Read [STYLE_GUIDE.md](./docs/STYLE_GUIDE.md) before writing descriptions
 - Read [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for step by step instructions
 
