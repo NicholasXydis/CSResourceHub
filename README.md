@@ -93,9 +93,9 @@ Browse resources by area and category.
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
-| [UofTCTF](https://ctf.uoftctf.org) | Annual online jeopardy-style CTF by the University of Toronto with a student division. | January | Online |
-| [@HACK CTF](https://athackctf.com) | Canada's largest student CTF at Concordia University Montreal, with cash and hardware prizes. | March | Concordia University, Montreal, Quebec, Canada |
-| [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | Canadian post-secondary CTF with regional rounds and a national final in Montreal. | March | Canada regional rounds; Montreal, Quebec, Canada final |
+| [UofTCTF](https://ctf.uoftctf.org) | Student CTF by the University of Toronto, with cash and software prizes. | January | Online |
+| [NCC CTF Series](https://ncc-cnc.ca/ctfseries) | National student CTF series across Canada, with regional rounds and a Montreal final. | February | Canada regional rounds; Montreal, Quebec, Canada final |
+| [@HACK CTF](https://athackctf.com) | Canada's largest student CTF at Concordia University, with cash and hardware prizes. | March | Montreal, Quebec |
 | [PolyPwnCTF](https://pwn.polycyber.io) | Annual in-person CTF at Polytechnique Montreal by PolyCyber for student teams. | March | Polytechnique Montreal, Montreal, Quebec, Canada |
 | [Hack-A-Sat](https://hackasat.com) | Space systems security CTF sponsored by the US Air Force and Space Force. | April | Online |
 | [PlaidCTF](https://plaidctf.com) | Annual online CTF hosted by CMU's Plaid Parliament of Pwning with advanced challenges. | April | Online |

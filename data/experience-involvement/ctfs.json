@@ -15,19 +15,6 @@
       "last_verified": "2026-06-18"
     },
     {
-      "id": "athack-ctf",
-      "name": "@HACK CTF",
-      "url": "https://athackctf.com",
-      "description": "Canada's largest student CTF at Concordia University, with cash and hardware prizes.",
-      "category": "ctfs",
-      "cost": "free",
-      "status": "active",
-      "location": "Montreal, Quebec",
-      "month": "March",
-      "date_added": "2026-06-17",
-      "last_verified": "2026-06-18"
-    },
-    {
       "id": "ncc-ctf-series",
       "name": "NCC CTF Series",
       "url": "https://ncc-cnc.ca/ctfseries",
@@ -39,6 +26,19 @@
       "month": "February",
       "date_added": "2026-06-17",
       "last_verified": "2026-06-17"
+    },
+    {
+      "id": "athack-ctf",
+      "name": "@HACK CTF",
+      "url": "https://athackctf.com",
+      "description": "Canada's largest student CTF at Concordia University, with cash and hardware prizes.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Montreal, Quebec",
+      "month": "March",
+      "date_added": "2026-06-17",
+      "last_verified": "2026-06-18"
     },
     {
       "id": "polypwn-ctf",
