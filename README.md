@@ -24,7 +24,7 @@
   <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=19&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-19&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=42&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-19&color=7c3aed)
 
 </div>
 
@@ -43,7 +43,7 @@ Browse resources by area and category.
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (1)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (3)<br>[Volunteer & Non-Profit](#volunteer) (0) |
+| 🏆 Experience & Involvement | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (3)<br>[Volunteer & Non-Profit](#volunteer) (0) |
 | 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
 | 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
 | 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
@@ -82,9 +82,33 @@ Browse resources by area and category.
 
 ### Hackathons
 
-**0 resources** · `hackathons`
+**23 resources** · `hackathons`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Month | Location |
+| --- | --- | --- | --- |
+| [ConUHacks](https://conuhacks.io) | Hackathon by Concordia University, with cash and hardware prizes. | January | Montreal, Quebec |
+| [DeltaHacks](https://deltahacks.com) | Hackathon by McMaster University, with cash and hardware prizes. | January | Hamilton, Ontario |
+| [McHacks](https://mchacks.ca) | Hackathon by McGill University, with cash and hardware prizes. | January | Montreal, Quebec |
+| [nwHacks](https://nwhacks.io) | Western Canada's largest hackathon at UBC, with cash and hardware prizes. | January | Vancouver, British Columbia |
+| [UofTHacks](https://uofthacks.com) | Hackathon by University of Toronto, with cash and hardware prizes. | January | Toronto, Ontario |
+| [QHacks](https://qhacks.io) | Hackathon by Queen's University, with cash and hardware prizes. | February | Kingston, Ontario |
+| [TreeHacks](https://treehacks.com) | One of the world's largest hackathons, hosted at Stanford with major cash prizes and industry sponsors. | February | Stanford, California |
+| [GenAI Genesis](https://genaigenesis.ca) | Canada's largest AI hackathon, by the University of Toronto, with cash and hardware prizes. | March | Toronto, Ontario |
+| [Hack Canada](https://hackcanada.org) | Hackathon at Waterloo, with large cash prizes and industry sponsors. | March | Waterloo, Ontario |
+| [LA Hacks](https://lahacks.com) | Hackathon by UCLA, one of the largest in the US, with large cash prizes and industry sponsors. | April | Los Angeles, California |
+| [HackTheMountain](https://hackthemountain.ca) | Hackathon by UdeM and Polytechnique University, with cash and hardware prizes. | May | Montreal, Quebec |
+| [MPC Hacks](https://mpchacks.com) | Inter-university hackathon, with cash and hardware prizes. | May | Montreal, Quebec |
+| [SHacks](https://shacks.cc) | Hackathon by Université de Sherbrooke, with cash prizes. | May | Sherbrooke, Quebec |
+| [Hack the 6ix](https://hackthe6ix.com) | Toronto's largest summer hackathon, with cash and hardware prizes. | July | Toronto, Ontario |
+| [Hack the North](https://hackthenorth.com) | Canada's largest hackathon at University of Waterloo, with massive cash prizes and industry sponsors. | September | Waterloo, Ontario |
+| [HackMIT](https://hackmit.org) | MIT's prestigious annual hackathon, with massive cash prizes and industry sponsors. | September | Cambridge, Massachusetts |
+| [PennApps](https://pennapps.com) | Hackathon by the University of Pennsylvania, one of the original college hackathons, with cash prizes. | September | Philadelphia, Pennsylvania |
+| [Cal Hacks](https://calhacks.io) | The world's largest collegiate hackathon, by UC Berkeley, with huge cash prizes and industry sponsors. | October | Berkeley, California |
+| [CodeML](https://codeml.ca) | Machine learning hackathon by PolyAI and SEMLA at Polytechnique University, with cash prizes. | October | Montreal, Quebec |
+| [FIAM-IA Hackathon](https://hackathonfiam-ia.com) | Finance and AI hackathon, with cash prizes and industry sponsors. | October | Montreal, Quebec |
+| [HackHarvard](https://hackharvard.io) | Harvard's annual hackathon, with large cash prizes and industry sponsors. | October | Cambridge, Massachusetts |
+| [CodeJam](https://codejam.mcgilleus.ca) | Hackathon by McGill Engineering, with cash prizes. | November | Montreal, Quebec |
+| [HackUTD](https://hackutd.co) | University of Texas hackathon, with cash prizes and industry sponsors. | November | Dallas, Texas |
 <a id="ctfs"></a>
 
 ### CTFs
