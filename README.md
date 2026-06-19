@@ -24,7 +24,7 @@
   <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=15&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-18&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=19&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-19&color=7c3aed)
 
 </div>
 
@@ -43,7 +43,7 @@ Browse resources by area and category.
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (1)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (14)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (0)<br>[Volunteer & Non-Profit](#volunteer) (0) |
+| 🏆 Experience & Involvement | [Hackathons](#hackathons) (0)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (3)<br>[Volunteer & Non-Profit](#volunteer) (0) |
 | 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
 | 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
 | 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
@@ -89,7 +89,7 @@ Browse resources by area and category.
 
 ### CTFs
 
-**14 resources** · `ctfs`
+**15 resources** · `ctfs`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
@@ -102,6 +102,7 @@ Browse resources by area and category.
 | [DEF CON CTF](https://defcon.org) | Most prestigious CTF in the world, with online qualifiers and finals in Las Vegas. | May | Online |
 | [NorthSec](https://nsec.io) | Multi-day CTF in Montreal for professionals, with cash prizes and a student track. | May | Montreal, Quebec |
 | [Google CTF](https://capturetheflag.withgoogle.com) | Global CTF hosted by Google, with cash prizes and a final stage event. | June | Online |
+| [Midnight Sun CTF](https://play.midnightsunctf.com) | Global CTF by HackingForSoju, with online qualifiers and finals in Stockholm. | June | Online |
 | [HackTheBox Cyber Apocalypse](https://www.hackthebox.com/events/cyber-apocalypse-2026) | CTF by Hack The Box, with thousands of teams and a massive prize pool. | July | Online |
 | [HITCON CTF](https://ctf.hitcon.org) | CTF hosted by HITCON, known for extreme technical difficulty and elite global competition. | August | Online |
 | [CSAW CTF](https://csaw.io/ctf) | Student CTF by NYU, with online qualifiers and finals in New York City. | September | Online |
@@ -118,9 +119,13 @@ Browse resources by area and category.
 
 ### Competitions
 
-**0 resources** · `competitions`
+**3 resources** · `competitions`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Month | Location |
+| --- | --- | --- | --- |
+| [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | Canada |
+| [CS Games](https://csgames.org) | Three-day CS competition hosted by a different Canadian university each year, with teams competing for the CS Cup. | March | Canada |
+| [JDIS Games](https://jdis.ca) | AI agent competition by Université de Sherbrooke, where teams compete for cash prizes. | July | Sherbrooke, Quebec |
 <a id="volunteer"></a>
 
 ### Volunteer & Non-Profit
