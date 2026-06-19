@@ -1,8 +1,9 @@
 {
-  "generated": "2026-06-18",
-  "total": 15,
+  "generated": "2026-06-19",
+  "total": 19,
   "by_category": {
-    "ctfs": 14,
+    "competitions": 3,
+    "ctfs": 15,
     "learning-resources": 1
   }
 }
