@@ -4,7 +4,7 @@
     {
       "id": "coveo-blitz",
       "name": "Coveo Blitz",
-      "url": "https://2026.blitz.codes/",
+      "url": "https://2026.blitz.codes",
       "description": "AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes.",
       "category": "competitions",
       "cost": "free",
@@ -18,7 +18,7 @@
       "id": "cs-games",
       "name": "CS Games",
       "url": "https://csgames.org",
-      "description": "3-day CS competition hosted by a different Canadian university each year, with teams competing for the CS Cup.",
+      "description": "Three-day CS competition hosted by a different Canadian university each year, with teams competing for the CS Cup.",
       "category": "competitions",
       "cost": "free",
       "status": "active",
