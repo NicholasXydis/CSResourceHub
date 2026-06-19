@@ -1,7 +1,48 @@
 {
-  "generated": "2026-06-18",
-  "total": 15,
+  "generated": "2026-06-19",
+  "total": 19,
   "categories": {
+    "competitions": [
+      {
+        "id": "coveo-blitz",
+        "name": "Coveo Blitz",
+        "url": "https://2026.blitz.codes",
+        "description": "AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes.",
+        "category": "competitions",
+        "cost": "free",
+        "status": "active",
+        "location": "Canada",
+        "month": "January",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-19"
+      },
+      {
+        "id": "cs-games",
+        "name": "CS Games",
+        "url": "https://csgames.org",
+        "description": "Three-day CS competition hosted by a different Canadian university each year, with teams competing for the CS Cup.",
+        "category": "competitions",
+        "cost": "free",
+        "status": "active",
+        "location": "Canada",
+        "month": "March",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-19"
+      },
+      {
+        "id": "jdis-games",
+        "name": "JDIS Games",
+        "url": "https://jdis.ca",
+        "description": "AI agent competition by Université de Sherbrooke, where teams compete for cash prizes.",
+        "category": "competitions",
+        "cost": "free",
+        "status": "active",
+        "location": "Sherbrooke, Quebec",
+        "month": "July",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      }
+    ],
     "ctfs": [
       {
         "id": "uoftctf",
@@ -119,6 +160,19 @@
         "month": "June",
         "date_added": "2026-06-17",
         "last_verified": "2026-06-17"
+      },
+      {
+        "id": "midnight-sun-ctf",
+        "name": "Midnight Sun CTF",
+        "url": "https://play.midnightsunctf.com",
+        "description": "Global CTF by HackingForSoju, with online qualifiers and finals in Stockholm.",
+        "category": "ctfs",
+        "cost": "free",
+        "status": "active",
+        "location": "Online",
+        "month": "June",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
       },
       {
         "id": "cyber-apocalypse",
