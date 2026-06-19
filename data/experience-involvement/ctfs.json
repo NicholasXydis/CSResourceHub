@@ -119,6 +119,19 @@
       "last_verified": "2026-06-17"
     },
     {
+      "id": "midnight-sun-ctf",
+      "name": "Midnight Sun CTF",
+      "url": "https://play.midnightsunctf.com",
+      "description": "Global CTF by HackingForSoju, with online qualifiers and finals in Stockholm.",
+      "category": "ctfs",
+      "cost": "free",
+      "status": "active",
+      "location": "Online",
+      "month": "June",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
+    },
+    {
       "id": "cyber-apocalypse",
       "name": "HackTheBox Cyber Apocalypse",
       "url": "https://www.hackthebox.com/events/cyber-apocalypse-2026",
