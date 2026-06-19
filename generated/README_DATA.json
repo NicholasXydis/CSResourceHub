@@ -1,9 +1,10 @@
 {
   "generated": "2026-06-19",
-  "total": 19,
+  "total": 42,
   "by_category": {
     "competitions": 3,
     "ctfs": 15,
+    "hackathons": 23,
     "learning-resources": 1
   }
 }

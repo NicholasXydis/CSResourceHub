@@ -1,20 +1,43 @@
 id,name,url,description,category,month,cost,status,location,date_added,last_verified
-coveo-blitz,Coveo Blitz,https://2026.blitz.codes,"AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes.",competitions,January,free,active,Canada,2026-06-18,2026-06-19
-cs-games,CS Games,https://csgames.org,"Three-day CS competition hosted by a different Canadian university each year, with teams competing for the CS Cup.",competitions,March,free,active,Canada,2026-06-18,2026-06-19
+coveo-blitz,Coveo Blitz,https://2026.blitz.codes,"AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes.",competitions,January,free,active,Canada,2026-06-18,2026-06-18
+cs-games,CS Games,https://csgames.org,"Three-day CS competition hosted by a different Canadian university each year, with teams competing for the CS Cup.",competitions,March,free,active,Canada,2026-06-18,2026-06-18
 jdis-games,JDIS Games,https://jdis.ca,"AI agent competition by Université de Sherbrooke, where teams compete for cash prizes.",competitions,July,free,active,"Sherbrooke, Quebec",2026-06-18,2026-06-18
-uoftctf,UofTCTF,https://ctf.uoftctf.org,"CTF by the University of Toronto, with cash and software prizes.",ctfs,January,free,active,Online,2026-06-17,2026-06-18
-ncc-ctf-series,NCC CTF Series,https://ncc-cnc.ca/ctfseries,"National student CTF series across Canada, with regional rounds and a Montreal final.",ctfs,February,free,active,Online,2026-06-17,2026-06-17
-athack-ctf,@HACK CTF,https://athackctf.com,"Canada's largest student CTF at Concordia University, with cash and hardware prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-17,2026-06-18
-polypwn-ctf,PolyPwnCTF,https://pwn.polycyber.io,"Student CTF by Polytechnique University, with cash and training prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-17,2026-06-18
-plaidctf,PlaidCTF,https://plaidctf.com,"Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite.",ctfs,April,free,active,Online,2026-06-17,2026-06-17
-umdctf,UMDCTF,https://umdctf.io,"Student CTF by the University of Maryland, with cash and software prizes.",ctfs,April,free,active,Online,2026-06-17,2026-06-18
-defcon-ctf,DEF CON CTF,https://defcon.org,"Most prestigious CTF in the world, with online qualifiers and finals in Las Vegas.",ctfs,May,free,active,Online,2026-06-17,2026-06-17
-northsec,NorthSec,https://nsec.io,"Multi-day CTF in Montreal for professionals, with cash prizes and a student track.",ctfs,May,paid,active,"Montreal, Quebec",2026-06-17,2026-06-18
-google-ctf,Google CTF,https://capturetheflag.withgoogle.com,"Global CTF hosted by Google, with cash prizes and a final stage event.",ctfs,June,free,active,Online,2026-06-17,2026-06-17
+uoftctf,UofTCTF,https://ctf.uoftctf.org,"CTF by the University of Toronto, with cash and software prizes.",ctfs,January,free,active,Online,2026-06-18,2026-06-18
+ncc-ctf-series,NCC CTF Series,https://ncc-cnc.ca/ctfseries,"National student CTF series across Canada, with regional rounds and a Montreal final.",ctfs,February,free,active,Online,2026-06-18,2026-06-18
+athack-ctf,@HACK CTF,https://athackctf.com,"Canada's largest student CTF at Concordia University, with cash and hardware prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+polypwn-ctf,PolyPwnCTF,https://pwn.polycyber.io,"Student CTF by Polytechnique University, with cash and training prizes.",ctfs,March,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+plaidctf,PlaidCTF,https://plaidctf.com,"Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite.",ctfs,April,free,active,Online,2026-06-18,2026-06-18
+umdctf,UMDCTF,https://umdctf.io,"Student CTF by the University of Maryland, with cash and software prizes.",ctfs,April,free,active,Online,2026-06-18,2026-06-18
+defcon-ctf,DEF CON CTF,https://defcon.org,"Most prestigious CTF in the world, with online qualifiers and finals in Las Vegas.",ctfs,May,free,active,Online,2026-06-18,2026-06-18
+northsec,NorthSec,https://nsec.io,"Multi-day CTF in Montreal for professionals, with cash prizes and a student track.",ctfs,May,paid,active,"Montreal, Quebec",2026-06-18,2026-06-18
+google-ctf,Google CTF,https://capturetheflag.withgoogle.com,"Global CTF hosted by Google, with cash prizes and a final stage event.",ctfs,June,free,active,Online,2026-06-18,2026-06-18
 midnight-sun-ctf,Midnight Sun CTF,https://play.midnightsunctf.com,"Global CTF by HackingForSoju, with online qualifiers and finals in Stockholm.",ctfs,June,free,active,Online,2026-06-18,2026-06-18
 cyber-apocalypse,HackTheBox Cyber Apocalypse,https://www.hackthebox.com/events/cyber-apocalypse-2026,"CTF by Hack The Box, with thousands of teams and a massive prize pool.",ctfs,July,free,active,Online,2026-06-18,2026-06-18
 hitcon-ctf,HITCON CTF,https://ctf.hitcon.org,"CTF hosted by HITCON, known for extreme technical difficulty and elite global competition.",ctfs,August,free,active,Online,2026-06-18,2026-06-18
-csaw-ctf,CSAW CTF,https://csaw.io/ctf,"Student CTF by NYU, with online qualifiers and finals in New York City.",ctfs,September,free,active,Online,2026-06-17,2026-06-17
-cybersci,CyberSci,https://cybersecuritychallenge.ca,Canadian student CTF with regional rounds and a national final in Ottawa.,ctfs,November,free,active,Canada,2026-06-17,2026-06-17
+csaw-ctf,CSAW CTF,https://csaw.io/ctf,"Student CTF by NYU, with online qualifiers and finals in New York City.",ctfs,September,free,active,Online,2026-06-18,2026-06-18
+cybersci,CyberSci,https://cybersecuritychallenge.ca,Canadian student CTF with regional rounds and a national final in Ottawa.,ctfs,November,free,active,Canada,2026-06-18,2026-06-18
 0ctf,0CTF,https://ctf.0ops.sjtu.cn,"CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges.",ctfs,December,free,active,Online,2026-06-18,2026-06-18
+conuhacks,ConUHacks,https://conuhacks.io,"Hackathon by Concordia University, with cash and hardware prizes.",hackathons,January,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+deltahacks,DeltaHacks,https://deltahacks.com,"Hackathon by McMaster University, with cash and hardware prizes.",hackathons,January,free,active,"Hamilton, Ontario",2026-06-18,2026-06-18
+mchacks,McHacks,https://mchacks.ca,"Hackathon by McGill University, with cash and hardware prizes.",hackathons,January,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+nwhacks,nwHacks,https://nwhacks.io,"Western Canada's largest hackathon at UBC, with cash and hardware prizes.",hackathons,January,free,active,"Vancouver, British Columbia",2026-06-18,2026-06-18
+uofthacks,UofTHacks,https://uofthacks.com,"Hackathon by University of Toronto, with cash and hardware prizes.",hackathons,January,free,active,"Toronto, Ontario",2026-06-18,2026-06-18
+qhacks,QHacks,https://qhacks.io,"Hackathon by Queen's University, with cash and hardware prizes.",hackathons,February,free,active,"Kingston, Ontario",2026-06-18,2026-06-18
+treehacks,TreeHacks,https://treehacks.com,"One of the world's largest hackathons, hosted at Stanford with major cash prizes and industry sponsors.",hackathons,February,free,active,"Stanford, California",2026-06-18,2026-06-18
+genai-genesis,GenAI Genesis,https://genaigenesis.ca,"Canada's largest AI hackathon, by the University of Toronto, with cash and hardware prizes.",hackathons,March,free,active,"Toronto, Ontario",2026-06-18,2026-06-18
+hack-canada,Hack Canada,https://hackcanada.org,"Hackathon at Waterloo, with large cash prizes and industry sponsors.",hackathons,March,free,active,"Waterloo, Ontario",2026-06-18,2026-06-18
+la-hacks,LA Hacks,https://lahacks.com,"Hackathon by UCLA, one of the largest in the US, with large cash prizes and industry sponsors.",hackathons,April,free,active,"Los Angeles, California",2026-06-18,2026-06-18
+hackthemountain,HackTheMountain,https://hackthemountain.ca,"Hackathon by UdeM and Polytechnique University, with cash and hardware prizes.",hackathons,May,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+mpchacks,MPC Hacks,https://mpchacks.com,"Inter-university hackathon, with cash and hardware prizes.",hackathons,May,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+shacks,SHacks,https://shacks.cc,"Hackathon by Université de Sherbrooke, with cash prizes.",hackathons,May,free,active,"Sherbrooke, Quebec",2026-06-18,2026-06-18
+hack-the-6ix,Hack the 6ix,https://hackthe6ix.com,"Toronto's largest summer hackathon, with cash and hardware prizes.",hackathons,July,free,active,"Toronto, Ontario",2026-06-18,2026-06-18
+hack-the-north,Hack the North,https://hackthenorth.com,"Canada's largest hackathon at University of Waterloo, with massive cash prizes and industry sponsors.",hackathons,September,free,active,"Waterloo, Ontario",2026-06-18,2026-06-18
+hackmit,HackMIT,https://hackmit.org,"MIT's prestigious annual hackathon, with massive cash prizes and industry sponsors.",hackathons,September,free,active,"Cambridge, Massachusetts",2026-06-18,2026-06-18
+pennapps,PennApps,https://pennapps.com,"Hackathon by the University of Pennsylvania, one of the original college hackathons, with cash prizes.",hackathons,September,free,active,"Philadelphia, Pennsylvania",2026-06-18,2026-06-18
+cal-hacks,Cal Hacks,https://calhacks.io,"The world's largest collegiate hackathon, by UC Berkeley, with huge cash prizes and industry sponsors.",hackathons,October,free,active,"Berkeley, California",2026-06-18,2026-06-18
+codeml,CodeML,https://codeml.ca,"Machine learning hackathon by PolyAI and SEMLA at Polytechnique University, with cash prizes.",hackathons,October,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+fiam-ia,FIAM-IA Hackathon,https://hackathonfiam-ia.com,"Finance and AI hackathon, with cash prizes and industry sponsors.",hackathons,October,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+hackharvard,HackHarvard,https://hackharvard.io,"Harvard's annual hackathon, with large cash prizes and industry sponsors.",hackathons,October,free,active,"Cambridge, Massachusetts",2026-06-18,2026-06-18
+codejam-mcgill,CodeJam,https://codejam.mcgilleus.ca,"Hackathon by McGill Engineering, with cash prizes.",hackathons,November,free,active,"Montreal, Quebec",2026-06-18,2026-06-18
+hackutd,HackUTD,https://hackutd.co,"University of Texas hackathon, with cash prizes and industry sponsors.",hackathons,November,free,active,"Dallas, Texas",2026-06-18,2026-06-18
 ctftime,CTFtime,https://ctftime.org,"Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar.",learning-resources,,free,active,Online,2026-06-17,2026-06-17

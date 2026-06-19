@@ -67,19 +67,6 @@
       "last_verified": "2026-06-18"
     },
     {
-      "id": "hack-canada",
-      "name": "Hack Canada",
-      "url": "https://hackcanada.org",
-      "description": "Hackathon at Waterloo, with large cash prizes and industry sponsors.",
-      "category": "hackathons",
-      "cost": "free",
-      "status": "active",
-      "location": "Waterloo, Ontario",
-      "month": "March",
-      "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
-    },
-    {
       "id": "qhacks",
       "name": "QHacks",
       "url": "https://qhacks.io",
@@ -114,6 +101,19 @@
       "cost": "free",
       "status": "active",
       "location": "Toronto, Ontario",
+      "month": "March",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
+    },
+    {
+      "id": "hack-canada",
+      "name": "Hack Canada",
+      "url": "https://hackcanada.org",
+      "description": "Hackathon at Waterloo, with large cash prizes and industry sponsors.",
+      "category": "hackathons",
+      "cost": "free",
+      "status": "active",
+      "location": "Waterloo, Ontario",
       "month": "March",
       "date_added": "2026-06-18",
       "last_verified": "2026-06-18"
@@ -210,15 +210,15 @@
       "last_verified": "2026-06-18"
     },
     {
-      "id": "codeml",
-      "name": "CodeML",
-      "url": "https://codeml.ca",
-      "description": "Machine learning hackathon by PolyAI and SEMLA at Polytechnique University, with cash prizes.",
+      "id": "pennapps",
+      "name": "PennApps",
+      "url": "https://pennapps.com",
+      "description": "Hackathon by the University of Pennsylvania, one of the original college hackathons, with cash prizes.",
       "category": "hackathons",
       "cost": "free",
       "status": "active",
-      "location": "Montreal, Quebec",
-      "month": "October",
+      "location": "Philadelphia, Pennsylvania",
+      "month": "September",
       "date_added": "2026-06-18",
       "last_verified": "2026-06-18"
     },
@@ -231,6 +231,19 @@
       "cost": "free",
       "status": "active",
       "location": "Berkeley, California",
+      "month": "October",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-18"
+    },
+    {
+      "id": "codeml",
+      "name": "CodeML",
+      "url": "https://codeml.ca",
+      "description": "Machine learning hackathon by PolyAI and SEMLA at Polytechnique University, with cash prizes.",
+      "category": "hackathons",
+      "cost": "free",
+      "status": "active",
+      "location": "Montreal, Quebec",
       "month": "October",
       "date_added": "2026-06-18",
       "last_verified": "2026-06-18"
@@ -284,19 +297,6 @@
       "status": "active",
       "location": "Dallas, Texas",
       "month": "November",
-      "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
-    },
-    {
-      "id": "pennapps",
-      "name": "PennApps",
-      "url": "https://pennapps.com",
-      "description": "Hackathon by the University of Pennsylvania, one of the original college hackathons, with cash prizes.",
-      "category": "hackathons",
-      "cost": "free",
-      "status": "active",
-      "location": "Philadelphia, Pennsylvania",
-      "month": "September",
       "date_added": "2026-06-18",
       "last_verified": "2026-06-18"
     }
