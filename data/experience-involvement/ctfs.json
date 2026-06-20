@@ -7,12 +7,11 @@
       "url": "https://ctf.uoftctf.org",
       "description": "CTF by the University of Toronto, with cash and software prizes.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "ncc-ctf-series",
@@ -20,12 +19,11 @@
       "url": "https://ncc-cnc.ca/ctfseries",
       "description": "National student CTF series across Canada, with regional rounds and a Montreal final.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "athack-ctf",
@@ -33,12 +31,11 @@
       "url": "https://athackctf.com",
       "description": "Canada's largest student CTF at Concordia University, with cash and hardware prizes.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "polypwn-ctf",
@@ -46,12 +43,11 @@
       "url": "https://pwn.polycyber.io",
       "description": "Student CTF by Polytechnique University, with cash and training prizes.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "plaidctf",
@@ -59,12 +55,11 @@
       "url": "https://plaidctf.com",
       "description": "Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "umdctf",
@@ -72,12 +67,11 @@
       "url": "https://umdctf.io",
       "description": "Student CTF by the University of Maryland, with cash and software prizes.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "defcon-ctf",
@@ -85,25 +79,23 @@
       "url": "https://defcon.org",
       "description": "Most prestigious CTF in the world, with online qualifiers and finals in Las Vegas.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "northsec",
       "name": "NorthSec",
       "url": "https://nsec.io",
-      "description": "Multi-day CTF in Montreal for professionals, with cash prizes and a student track.",
+      "description": "Multi-day paid CTF in Montreal for professionals, with cash prizes and a student track.",
       "category": "ctfs",
-      "cost": "paid",
       "status": "active",
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "google-ctf",
@@ -111,12 +103,11 @@
       "url": "https://capturetheflag.withgoogle.com",
       "description": "Global CTF hosted by Google, with cash prizes and a final stage event.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "midnight-sun-ctf",
@@ -124,12 +115,11 @@
       "url": "https://play.midnightsunctf.com",
       "description": "Global CTF by HackingForSoju, with online qualifiers and finals in Stockholm.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "cyber-apocalypse",
@@ -137,12 +127,11 @@
       "url": "https://www.hackthebox.com/events/cyber-apocalypse-2026",
       "description": "CTF by Hack The Box, with thousands of teams and a massive prize pool.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "hitcon-ctf",
@@ -150,12 +139,11 @@
       "url": "https://ctf.hitcon.org",
       "description": "CTF hosted by HITCON, known for extreme technical difficulty and elite global competition.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "August",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "csaw-ctf",
@@ -163,12 +151,11 @@
       "url": "https://csaw.io/ctf",
       "description": "Student CTF by NYU, with online qualifiers and finals in New York City.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "cybersci",
@@ -176,12 +163,11 @@
       "url": "https://cybersecuritychallenge.ca",
       "description": "Canadian student CTF with regional rounds and a national final in Ottawa.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Canada",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     },
     {
       "id": "0ctf",
@@ -189,12 +175,11 @@
       "url": "https://ctf.0ops.sjtu.cn",
       "description": "CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges.",
       "category": "ctfs",
-      "cost": "free",
       "status": "active",
       "location": "Online",
       "month": "December",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-18"
+      "last_verified": "2026-06-20"
     }
   ]
 }

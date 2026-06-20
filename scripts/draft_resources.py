@@ -45,7 +45,6 @@ EDITABLE_FIELDS = [
     "description",
     "category",
     "month",
-    "cost",
     "location",
 ]
 
@@ -326,7 +325,7 @@ def draft_warnings(name, description):
     ]
     if any(phrase in lower_desc for phrase in bad_phrases):
         warnings.append("description may be boilerplate")
-    warnings.append("verify location and optional cost")
+    warnings.append("verify location and optional month")
     return warnings
 
 

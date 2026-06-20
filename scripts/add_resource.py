@@ -54,9 +54,8 @@ def add_resource():
     url = prompt("URL (https://)")
     description = prompt("Description (one sentence, ends with period)")
     location = prompt("Location (e.g. Online or Montreal, Quebec, Canada)")
-    cost = prompt("Cost (free/freemium/paid, optional)", required=False)
     month = prompt("Month (optional)", required=False)
-    date_added = prompt("Date added (YYYY-MM-DD, optional)", required=False)
+    date_added = prompt("Date added (YYYY-MM-DD)")
 
     resource = {
         "id": resource_id,
@@ -66,8 +65,6 @@ def add_resource():
         "category": category,
     }
 
-    if cost:
-        resource["cost"] = cost
     resource["status"] = "active"
     resource["location"] = location
     if month:

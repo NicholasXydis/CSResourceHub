@@ -57,11 +57,3 @@ Bad: `"ctf.uoftctf.org"`, `"https://ctf.uoftctf.org/"`
 Good: `"UofTCTF"`, `"Google Summer of Code"`, `"MLH Fellowship"`
 
 Bad: `"UofT CTF"`, `"GSoC"`, `"mlh fellowship"`
-
-## Cost
-
-| Value      | Meaning                      |
-| ---------- | ---------------------------- |
-| `free`     | Completely free              |
-| `freemium` | Free tier with paid upgrades |
-| `paid`     | Requires payment             |

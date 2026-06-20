@@ -30,10 +30,3 @@ body:
       placeholder: One sentence ending with a period.
     validations:
       required: true
-  - type: input
-    id: cost
-    attributes:
-      label: Cost
-      placeholder: free / freemium / paid
-    validations:
-      required: true

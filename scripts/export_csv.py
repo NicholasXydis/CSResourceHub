@@ -9,7 +9,6 @@ CSV_FIELDS = [
     "description",
     "category",
     "month",
-    "cost",
     "status",
     "location",
     "date_added",

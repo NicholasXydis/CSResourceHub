@@ -11,6 +11,7 @@
     "category",
     "status",
     "location",
+    "date_added",
     "last_verified"
   ],
   "additionalProperties": false,
@@ -58,10 +59,6 @@
         "certifications",
         "free-benefits"
       ]
-    },
-    "cost": {
-      "type": "string",
-      "enum": ["free", "freemium", "paid"]
     },
     "status": {
       "type": "string",

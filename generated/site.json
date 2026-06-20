@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19",
-  "total": 19,
+  "generated": "2026-06-20",
+  "total": 42,
   "categories": {
     "competitions": [
       {
@@ -9,12 +9,11 @@
         "url": "https://2026.blitz.codes",
         "description": "AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes.",
         "category": "competitions",
-        "cost": "free",
         "status": "active",
         "location": "Canada",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-19"
+        "last_verified": "2026-06-18"
       },
       {
         "id": "cs-games",
@@ -22,12 +21,11 @@
         "url": "https://csgames.org",
         "description": "Three-day CS competition hosted by a different Canadian university each year, with teams competing for the CS Cup.",
         "category": "competitions",
-        "cost": "free",
         "status": "active",
         "location": "Canada",
         "month": "March",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-19"
+        "last_verified": "2026-06-18"
       },
       {
         "id": "jdis-games",
@@ -35,7 +33,6 @@
         "url": "https://jdis.ca",
         "description": "AI agent competition by Université de Sherbrooke, where teams compete for cash prizes.",
         "category": "competitions",
-        "cost": "free",
         "status": "active",
         "location": "Sherbrooke, Quebec",
         "month": "July",
@@ -50,11 +47,10 @@
         "url": "https://ctf.uoftctf.org",
         "description": "CTF by the University of Toronto, with cash and software prizes.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "January",
-        "date_added": "2026-06-17",
+        "date_added": "2026-06-18",
         "last_verified": "2026-06-18"
       },
       {
@@ -63,12 +59,11 @@
         "url": "https://ncc-cnc.ca/ctfseries",
         "description": "National student CTF series across Canada, with regional rounds and a Montreal final.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "February",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
       },
       {
         "id": "athack-ctf",
@@ -76,11 +71,10 @@
         "url": "https://athackctf.com",
         "description": "Canada's largest student CTF at Concordia University, with cash and hardware prizes.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Montreal, Quebec",
         "month": "March",
-        "date_added": "2026-06-17",
+        "date_added": "2026-06-18",
         "last_verified": "2026-06-18"
       },
       {
@@ -89,11 +83,10 @@
         "url": "https://pwn.polycyber.io",
         "description": "Student CTF by Polytechnique University, with cash and training prizes.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Montreal, Quebec",
         "month": "March",
-        "date_added": "2026-06-17",
+        "date_added": "2026-06-18",
         "last_verified": "2026-06-18"
       },
       {
@@ -102,12 +95,11 @@
         "url": "https://plaidctf.com",
         "description": "Global CTF by Carnegie Mellon University's PPP, with cash prizes and a DEF CON finals invite.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "April",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
       },
       {
         "id": "umdctf",
@@ -115,11 +107,10 @@
         "url": "https://umdctf.io",
         "description": "Student CTF by the University of Maryland, with cash and software prizes.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "April",
-        "date_added": "2026-06-17",
+        "date_added": "2026-06-18",
         "last_verified": "2026-06-18"
       },
       {
@@ -128,24 +119,22 @@
         "url": "https://defcon.org",
         "description": "Most prestigious CTF in the world, with online qualifiers and finals in Las Vegas.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "May",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
       },
       {
         "id": "northsec",
         "name": "NorthSec",
         "url": "https://nsec.io",
-        "description": "Multi-day CTF in Montreal for professionals, with cash prizes and a student track.",
+        "description": "Multi-day paid CTF in Montreal for professionals, with cash prizes and a student track.",
         "category": "ctfs",
-        "cost": "paid",
         "status": "active",
         "location": "Montreal, Quebec",
         "month": "May",
-        "date_added": "2026-06-17",
+        "date_added": "2026-06-18",
         "last_verified": "2026-06-18"
       },
       {
@@ -154,12 +143,11 @@
         "url": "https://capturetheflag.withgoogle.com",
         "description": "Global CTF hosted by Google, with cash prizes and a final stage event.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "June",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
       },
       {
         "id": "midnight-sun-ctf",
@@ -167,7 +155,6 @@
         "url": "https://play.midnightsunctf.com",
         "description": "Global CTF by HackingForSoju, with online qualifiers and finals in Stockholm.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "June",
@@ -180,7 +167,6 @@
         "url": "https://www.hackthebox.com/events/cyber-apocalypse-2026",
         "description": "CTF by Hack The Box, with thousands of teams and a massive prize pool.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "July",
@@ -193,7 +179,6 @@
         "url": "https://ctf.hitcon.org",
         "description": "CTF hosted by HITCON, known for extreme technical difficulty and elite global competition.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "August",
@@ -206,12 +191,11 @@
         "url": "https://csaw.io/ctf",
         "description": "Student CTF by NYU, with online qualifiers and finals in New York City.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "September",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
       },
       {
         "id": "cybersci",
@@ -219,12 +203,11 @@
         "url": "https://cybersecuritychallenge.ca",
         "description": "Canadian student CTF with regional rounds and a national final in Ottawa.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Canada",
         "month": "November",
-        "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
       },
       {
         "id": "0ctf",
@@ -232,10 +215,287 @@
         "url": "https://ctf.0ops.sjtu.cn",
         "description": "CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges.",
         "category": "ctfs",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "month": "December",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      }
+    ],
+    "hackathons": [
+      {
+        "id": "conuhacks",
+        "name": "ConUHacks",
+        "url": "https://conuhacks.io",
+        "description": "Hackathon by Concordia University, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Montreal, Quebec",
+        "month": "January",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "deltahacks",
+        "name": "DeltaHacks",
+        "url": "https://deltahacks.com",
+        "description": "Hackathon by McMaster University, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Hamilton, Ontario",
+        "month": "January",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "mchacks",
+        "name": "McHacks",
+        "url": "https://mchacks.ca",
+        "description": "Hackathon by McGill University, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Montreal, Quebec",
+        "month": "January",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "nwhacks",
+        "name": "nwHacks",
+        "url": "https://nwhacks.io",
+        "description": "Western Canada's largest hackathon at UBC, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Vancouver, British Columbia",
+        "month": "January",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "uofthacks",
+        "name": "UofTHacks",
+        "url": "https://uofthacks.com",
+        "description": "Hackathon by University of Toronto, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Toronto, Ontario",
+        "month": "January",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "qhacks",
+        "name": "QHacks",
+        "url": "https://qhacks.io",
+        "description": "Hackathon by Queen's University, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Kingston, Ontario",
+        "month": "February",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "treehacks",
+        "name": "TreeHacks",
+        "url": "https://treehacks.com",
+        "description": "One of the world's largest hackathons, hosted at Stanford with major cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Stanford, California",
+        "month": "February",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "genai-genesis",
+        "name": "GenAI Genesis",
+        "url": "https://genaigenesis.ca",
+        "description": "Canada's largest AI hackathon, by the University of Toronto, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Toronto, Ontario",
+        "month": "March",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "hack-canada",
+        "name": "Hack Canada",
+        "url": "https://hackcanada.org",
+        "description": "Hackathon at Waterloo, with large cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Waterloo, Ontario",
+        "month": "March",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "la-hacks",
+        "name": "LA Hacks",
+        "url": "https://lahacks.com",
+        "description": "Hackathon by UCLA, one of the largest in the US, with large cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Los Angeles, California",
+        "month": "April",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "hackthemountain",
+        "name": "HackTheMountain",
+        "url": "https://hackthemountain.ca",
+        "description": "Hackathon by UdeM and Polytechnique University, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Montreal, Quebec",
+        "month": "May",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "mpchacks",
+        "name": "MPC Hacks",
+        "url": "https://mpchacks.com",
+        "description": "Inter-university hackathon, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Montreal, Quebec",
+        "month": "May",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "shacks",
+        "name": "SHacks",
+        "url": "https://shacks.cc",
+        "description": "Hackathon by Université de Sherbrooke, with cash prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Sherbrooke, Quebec",
+        "month": "May",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "hack-the-6ix",
+        "name": "Hack the 6ix",
+        "url": "https://hackthe6ix.com",
+        "description": "Toronto's largest summer hackathon, with cash and hardware prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Toronto, Ontario",
+        "month": "July",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "hack-the-north",
+        "name": "Hack the North",
+        "url": "https://hackthenorth.com",
+        "description": "Canada's largest hackathon at University of Waterloo, with massive cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Waterloo, Ontario",
+        "month": "September",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "hackmit",
+        "name": "HackMIT",
+        "url": "https://hackmit.org",
+        "description": "MIT's prestigious annual hackathon, with massive cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Cambridge, Massachusetts",
+        "month": "September",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "pennapps",
+        "name": "PennApps",
+        "url": "https://pennapps.com",
+        "description": "Hackathon by the University of Pennsylvania, one of the original college hackathons, with cash prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Philadelphia, Pennsylvania",
+        "month": "September",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "cal-hacks",
+        "name": "Cal Hacks",
+        "url": "https://calhacks.io",
+        "description": "The world's largest collegiate hackathon, by UC Berkeley, with huge cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Berkeley, California",
+        "month": "October",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "codeml",
+        "name": "CodeML",
+        "url": "https://codeml.ca",
+        "description": "Machine learning hackathon by PolyAI and SEMLA at Polytechnique University, with cash prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Montreal, Quebec",
+        "month": "October",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "fiam-ia",
+        "name": "FIAM-IA Hackathon",
+        "url": "https://hackathonfiam-ia.com",
+        "description": "Finance and AI hackathon, with cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Montreal, Quebec",
+        "month": "October",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "hackharvard",
+        "name": "HackHarvard",
+        "url": "https://hackharvard.io",
+        "description": "Harvard's annual hackathon, with large cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Cambridge, Massachusetts",
+        "month": "October",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "codejam-mcgill",
+        "name": "CodeJam",
+        "url": "https://codejam.mcgilleus.ca",
+        "description": "Hackathon by McGill Engineering, with cash prizes.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Montreal, Quebec",
+        "month": "November",
+        "date_added": "2026-06-18",
+        "last_verified": "2026-06-18"
+      },
+      {
+        "id": "hackutd",
+        "name": "HackUTD",
+        "url": "https://hackutd.co",
+        "description": "University of Texas hackathon, with cash prizes and industry sponsors.",
+        "category": "hackathons",
+        "status": "active",
+        "location": "Dallas, Texas",
+        "month": "November",
         "date_added": "2026-06-18",
         "last_verified": "2026-06-18"
       }
@@ -247,7 +507,6 @@
         "url": "https://ctftime.org",
         "description": "Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar.",
         "category": "learning-resources",
-        "cost": "free",
         "status": "active",
         "location": "Online",
         "date_added": "2026-06-17",
