@@ -13,7 +13,7 @@
         "location": "Canada",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "cs-games",
@@ -25,7 +25,7 @@
         "location": "Canada",
         "month": "March",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "jdis-games",
@@ -37,7 +37,7 @@
         "location": "Sherbrooke, Quebec",
         "month": "July",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       }
     ],
     "ctfs": [
@@ -51,7 +51,7 @@
         "location": "Online",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "ncc-ctf-series",
@@ -63,7 +63,7 @@
         "location": "Online",
         "month": "February",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "athack-ctf",
@@ -75,7 +75,7 @@
         "location": "Montreal, Quebec",
         "month": "March",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "polypwn-ctf",
@@ -87,7 +87,7 @@
         "location": "Montreal, Quebec",
         "month": "March",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "plaidctf",
@@ -99,7 +99,7 @@
         "location": "Online",
         "month": "April",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "umdctf",
@@ -111,7 +111,7 @@
         "location": "Online",
         "month": "April",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "defcon-ctf",
@@ -123,7 +123,7 @@
         "location": "Online",
         "month": "May",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "northsec",
@@ -135,7 +135,7 @@
         "location": "Montreal, Quebec",
         "month": "May",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "google-ctf",
@@ -147,7 +147,7 @@
         "location": "Online",
         "month": "June",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "midnight-sun-ctf",
@@ -159,7 +159,7 @@
         "location": "Online",
         "month": "June",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "cyber-apocalypse",
@@ -171,7 +171,7 @@
         "location": "Online",
         "month": "July",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hitcon-ctf",
@@ -183,7 +183,7 @@
         "location": "Online",
         "month": "August",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "csaw-ctf",
@@ -195,7 +195,7 @@
         "location": "Online",
         "month": "September",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "cybersci",
@@ -207,7 +207,7 @@
         "location": "Canada",
         "month": "November",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "0ctf",
@@ -219,7 +219,7 @@
         "location": "Online",
         "month": "December",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       }
     ],
     "hackathons": [
@@ -233,7 +233,7 @@
         "location": "Montreal, Quebec",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "deltahacks",
@@ -245,7 +245,7 @@
         "location": "Hamilton, Ontario",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "mchacks",
@@ -257,7 +257,7 @@
         "location": "Montreal, Quebec",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "nwhacks",
@@ -269,7 +269,7 @@
         "location": "Vancouver, British Columbia",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "uofthacks",
@@ -281,7 +281,7 @@
         "location": "Toronto, Ontario",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "qhacks",
@@ -293,7 +293,7 @@
         "location": "Kingston, Ontario",
         "month": "February",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "treehacks",
@@ -305,7 +305,7 @@
         "location": "Stanford, California",
         "month": "February",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "genai-genesis",
@@ -317,7 +317,7 @@
         "location": "Toronto, Ontario",
         "month": "March",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hack-canada",
@@ -329,7 +329,7 @@
         "location": "Waterloo, Ontario",
         "month": "March",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "la-hacks",
@@ -341,7 +341,7 @@
         "location": "Los Angeles, California",
         "month": "April",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hackthemountain",
@@ -353,7 +353,7 @@
         "location": "Montreal, Quebec",
         "month": "May",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "mpchacks",
@@ -365,7 +365,7 @@
         "location": "Montreal, Quebec",
         "month": "May",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "shacks",
@@ -377,7 +377,7 @@
         "location": "Sherbrooke, Quebec",
         "month": "May",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hack-the-6ix",
@@ -389,7 +389,7 @@
         "location": "Toronto, Ontario",
         "month": "July",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hack-the-north",
@@ -401,7 +401,7 @@
         "location": "Waterloo, Ontario",
         "month": "September",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hackmit",
@@ -413,7 +413,7 @@
         "location": "Cambridge, Massachusetts",
         "month": "September",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "pennapps",
@@ -425,7 +425,7 @@
         "location": "Philadelphia, Pennsylvania",
         "month": "September",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "cal-hacks",
@@ -437,7 +437,7 @@
         "location": "Berkeley, California",
         "month": "October",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "codeml",
@@ -449,7 +449,7 @@
         "location": "Montreal, Quebec",
         "month": "October",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "fiam-ia",
@@ -461,7 +461,7 @@
         "location": "Montreal, Quebec",
         "month": "October",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hackharvard",
@@ -473,7 +473,7 @@
         "location": "Cambridge, Massachusetts",
         "month": "October",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "codejam-mcgill",
@@ -485,7 +485,7 @@
         "location": "Montreal, Quebec",
         "month": "November",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       },
       {
         "id": "hackutd",
@@ -497,7 +497,7 @@
         "location": "Dallas, Texas",
         "month": "November",
         "date_added": "2026-06-18",
-        "last_verified": "2026-06-18"
+        "last_verified": "2026-06-20"
       }
     ],
     "learning-resources": [
@@ -510,7 +510,7 @@
         "status": "active",
         "location": "Online",
         "date_added": "2026-06-17",
-        "last_verified": "2026-06-17"
+        "last_verified": "2026-06-20"
       }
     ]
   }
