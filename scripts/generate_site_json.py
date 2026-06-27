@@ -1,7 +1,12 @@
 from collections import defaultdict
-from datetime import date
 
-from utils import GENERATED_DIR, load_all_resources, log, save_json
+from utils import (
+    GENERATED_DIR,
+    dataset_updated_date,
+    load_all_resources,
+    log,
+    save_json,
+)
 
 MONTH_ORDER = {
     "January": 1,
@@ -33,7 +38,7 @@ def generate_site_json():
         by_category[resource["category"]].append(resource)
 
     output = {
-        "generated": str(date.today()),
+        "generated": dataset_updated_date(resources),
         "total": len(resources),
         "categories": {
             k: sorted(v, key=resource_sort_key) for k, v in by_category.items()

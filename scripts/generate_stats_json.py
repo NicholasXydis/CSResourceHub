@@ -1,9 +1,8 @@
-from datetime import date
-
 from utils import (
     CATEGORY_GROUPS,
     CATEGORY_LABELS,
     GENERATED_DIR,
+    dataset_updated_date,
     get_all_resource_files,
     load_json,
     log,
@@ -32,7 +31,7 @@ def generate_stats_json():
         }
 
     output = {
-        "generated": str(date.today()),
+        "generated": dataset_updated_date(),
         "total": sum(categories.values()),
         "categories": categories,
         "groups": groups,
