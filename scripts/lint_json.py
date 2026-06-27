@@ -1,13 +1,10 @@
 import json
 
-from utils import DATA_DIR, get_all_resource_files, log
+from utils import get_all_resource_files, log
 
 
 def lint_json():
     files = get_all_resource_files()
-    files += [
-        DATA_DIR / "LAST_UPDATED.json",
-    ]
 
     for path in files:
         with open(path, "r", encoding="utf-8") as f:

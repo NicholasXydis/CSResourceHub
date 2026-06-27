@@ -1,4 +1,4 @@
-.PHONY: validate generate lint stats add draft review import-approved clean-drafts check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-optional check-urls help
+.PHONY: validate generate lint stats add draft review import-approved clean-drafts check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls help
 
 validate:
 	python scripts/validate_all.py
@@ -57,8 +57,6 @@ stats-json:
 export-csv:
 	python scripts/export_csv.py
 
-check-optional:
-	python scripts/check_optional_fields.py
 
 check-urls:
 	python scripts/validate_urls_normalized.py
@@ -81,5 +79,4 @@ help:
 	@echo "check-descriptions - Check description style"
 	@echo "stats-json      - Generate machine-readable stats"
 	@echo "export-csv      - Export resources to CSV"
-	@echo "check-optional  - Report optional field coverage"
 	@echo "check-urls      - Validate URL normalization"

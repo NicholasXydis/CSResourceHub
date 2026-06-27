@@ -1,12 +1,16 @@
-from datetime import date
-
-from utils import GENERATED_DIR, load_all_resources, log, save_json
+from utils import (
+    GENERATED_DIR,
+    dataset_updated_date,
+    load_all_resources,
+    log,
+    save_json,
+)
 
 
 def generate_combined():
     resources = load_all_resources()
     output = {
-        "generated": str(date.today()),
+        "generated": dataset_updated_date(resources),
         "total": len(resources),
         "resources": resources,
     }

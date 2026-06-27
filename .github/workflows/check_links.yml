@@ -16,9 +16,12 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.14"
-      - run: pip install requests
+          python-version: "3.12"
+      - run: pip install jsonschema requests
       - run: python scripts/check_links.py
+      - run: python scripts/generate_combined.py
+      - run: python scripts/generate_site_json.py
+      - run: python scripts/export_csv.py
       - name: Create last_verified update PR
         uses: peter-evans/create-pull-request@v8
         with:
@@ -27,4 +30,6 @@ jobs:
           body: "Automated update of last_verified dates after successful link checks."
           branch: chore/update-verified-link-dates
           delete-branch: true
-          add-paths: data/
+          add-paths: |
+            data/
+            generated/

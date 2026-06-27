@@ -65,7 +65,6 @@ def add_resource():
         "category": category,
     }
 
-    resource["status"] = "active"
     resource["location"] = location
     if month:
         resource["month"] = month

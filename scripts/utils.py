@@ -108,3 +108,9 @@ def log(msg: str) -> None:
         print(msg)
     except UnicodeEncodeError:
         print(msg.encode("ascii", errors="replace").decode("ascii"))
+
+
+def dataset_updated_date(resources: list[dict] | None = None) -> str:
+    resources = resources if resources is not None else load_all_resources()
+    dates = [resource.get("date_added", "") for resource in resources]
+    return max((value for value in dates if value), default="unknown")
