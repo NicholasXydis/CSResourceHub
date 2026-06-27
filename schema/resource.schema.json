@@ -9,7 +9,6 @@
     "url",
     "description",
     "category",
-    "status",
     "location",
     "date_added",
     "last_verified"
@@ -59,10 +58,6 @@
         "certifications",
         "free-benefits"
       ]
-    },
-    "status": {
-      "type": "string",
-      "enum": ["active", "paused", "archived"]
     },
     "location": {
       "type": "string",

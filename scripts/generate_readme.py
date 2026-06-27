@@ -5,11 +5,9 @@ from urllib.parse import quote_plus
 from utils import (
     CATEGORY_GROUPS,
     CATEGORY_LABELS,
-    GENERATED_DIR,
     ROOT,
     load_all_resources,
     log,
-    save_json,
 )
 
 GROUP_ICONS = {
@@ -208,7 +206,7 @@ def generate_readme():
                     desc = r.get("description", "")
                     location = r.get("location", "")
                     if has_month:
-                        month = r.get("month") or "—"
+                        month = r.get("month") or "Ongoing"
                         lines.append(
                             f"| {name} | {desc} | {month} | {location} |\n"
                         )
@@ -248,14 +246,6 @@ def generate_readme():
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(readme)
 
-    save_json(
-        GENERATED_DIR / "README_DATA.json",
-        {
-            "generated": today,
-            "total": total,
-            "by_category": {k: len(v) for k, v in by_category.items()},
-        },
-    )
 
     log(f"✅ Generated README.md ({total} resources)")
 

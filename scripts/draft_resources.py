@@ -368,7 +368,6 @@ def build_draft(raw_url, metadata, existing_ids, current_draft_ids):
         "url": normalized_url,
         "description": description[:120],
         "category": category,
-        "status": "active",
         "location": "Online",
         "date_added": str(date.today()),
         "last_verified": str(date.today()),

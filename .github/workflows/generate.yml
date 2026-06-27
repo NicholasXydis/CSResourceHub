@@ -1,21 +1,19 @@
-name: Generate
+name: Generated Outputs
 
 on:
   push:
     branches: [main]
-
-permissions:
-  contents: write
-  pull-requests: write
+  pull_request:
+    branches: [main]
 
 jobs:
-  generate:
+  generated-outputs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.14"
+          python-version: "3.12"
       - run: pip install jsonschema requests
       - run: python scripts/sort_resources.py
       - run: python scripts/generate_readme.py
@@ -23,21 +21,5 @@ jobs:
       - run: python scripts/generate_site_json.py
       - run: python scripts/generate_stats_json.py
       - run: python scripts/export_csv.py
-      - name: Create generated output PR
-        id: generated-pr
-        uses: peter-evans/create-pull-request@v8
-        with:
-          commit-message: "chore: regenerate outputs"
-          title: "chore: regenerate outputs"
-          body: "Automated update of generated resource outputs."
-          branch: chore/regenerate-outputs
-          delete-branch: true
-          add-paths: |
-            README.md
-            data/
-            generated/
-      - name: Enable auto-merge
-        if: steps.generated-pr.outputs.pull-request-number != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr merge --auto --squash "${{ steps.generated-pr.outputs.pull-request-number }}"
+      - name: Check generated outputs are current
+        run: git diff --exit-code -- data README.md generated
