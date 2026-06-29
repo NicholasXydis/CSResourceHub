@@ -3,12 +3,11 @@
 ## Learning & Development
 
 - **learning-resources** — Websites, courses, tutorials, and books for learning Computer Science topics
-- **communities** — Online communities, forums, and groups for Canadian Computer Science students
-- **clubs** — University and online clubs for Canadian Computer Science students
+- **interview-prep** — Practice, guides, and prep materials for technical interviews
+- **communities-clubs** — Communities, forums, clubs, and student groups for Computer Science students
 
-## Experience & Involvement
+## Experience
 
-- **volunteer** — Volunteer and non-profit opportunities in tech
 - **ctfs** — Capture The Flag competitions for security practice
 - **competitions** — Coding and Computer Science competitions
 - **hackathons** — Hackathon events and platforms
@@ -16,25 +15,13 @@
 
 ## Building & Open Source
 
-- **projects** — Project ideas and inspiration
-- **repositories** — Useful repositories to learn from or contribute to
-- **open-source-help** — Guides and resources for getting started with open source
+- **open-source** — Guides and resources for getting started with open source
+- **useful-repositories** — Useful repositories to learn from or contribute to
+- **project-starters-kits** — Project ideas, templates, starter kits, and build prompts
 
-## Academic & Professional
+## Careers & Perks
 
-- **research** — Research opportunities, labs, and programs
-- **conferences** — Computer Science conferences for students
-- **fellowships** — Fellowships and student programs
-
-## Networking & Opportunities
-
-- **online-events** — Virtual events, webinars, and meetups
-- **career-fairs** — Career fairs and recruiting events
-- **scholarships** — Scholarships for Canadian Computer Science students
-- **startup-programs** — Startup incubators and accelerators for students
-- **freelance** — Platforms and resources for freelancing
-
-## Credentials & Perks
-
+- **internships-fellowships** — Internships, fellowships, and student programs
+- **recruitment-events** — Career fairs, recruiting events, webinars, and meetups
 - **certifications** — Industry certifications worth pursuing
-- **free-benefits** — Free tools, software, and perks for students
+- **free-developer-tools** — Free tools, software, and developer perks for students

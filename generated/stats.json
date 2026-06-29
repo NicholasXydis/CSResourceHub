@@ -1,79 +1,55 @@
 {
   "generated": "2026-06-26",
-  "total": 74,
+  "total": 65,
   "categories": {
     "learning-resources": 1,
-    "communities": 0,
-    "clubs": 0,
-    "volunteer": 0,
-    "ctfs": 15,
-    "competitions": 35,
+    "interview-prep": 0,
+    "communities-clubs": 0,
     "hackathons": 23,
+    "ctfs": 15,
     "game-jams": 0,
-    "projects": 0,
-    "repositories": 0,
-    "open-source-help": 0,
-    "research": 0,
-    "conferences": 0,
-    "fellowships": 0,
-    "online-events": 0,
-    "career-fairs": 0,
-    "scholarships": 0,
-    "startup-programs": 0,
-    "freelance": 0,
+    "competitions": 26,
+    "open-source": 0,
+    "useful-repositories": 0,
+    "project-starters-kits": 0,
+    "internships-fellowships": 0,
+    "recruitment-events": 0,
     "certifications": 0,
-    "free-benefits": 0
+    "free-developer-tools": 0
   },
   "groups": {
     "Learning & Development": {
       "total": 1,
       "categories": {
         "learning-resources": 1,
-        "communities": 0,
-        "clubs": 0
+        "interview-prep": 0,
+        "communities-clubs": 0
       }
     },
-    "Experience & Involvement": {
-      "total": 73,
+    "Experience": {
+      "total": 64,
       "categories": {
         "hackathons": 23,
         "ctfs": 15,
         "game-jams": 0,
-        "competitions": 35,
-        "volunteer": 0
+        "competitions": 26
       }
     },
     "Building & Open Source": {
       "total": 0,
       "categories": {
-        "projects": 0,
-        "repositories": 0,
-        "open-source-help": 0
+        "open-source": 0,
+        "useful-repositories": 0,
+        "project-starters-kits": 0
       }
     },
-    "Academic & Professional": {
+    "Careers & Perks": {
       "total": 0,
       "categories": {
-        "fellowships": 0,
-        "research": 0,
-        "conferences": 0
-      }
-    },
-    "Networking & Opportunities": {
-      "total": 0,
-      "categories": {
-        "career-fairs": 0,
-        "online-events": 0,
-        "scholarships": 0,
-        "startup-programs": 0,
-        "freelance": 0
-      }
-    },
-    "Credentials & Perks": {
-      "total": 0,
-      "categories": {
+        "internships-fellowships": 0,
+        "recruitment-events": 0,
         "certifications": 0,
-        "free-benefits": 0
+        "free-developer-tools": 0
       }
     }
   }

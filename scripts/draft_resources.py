@@ -58,26 +58,58 @@ CATEGORY_KEYWORDS = {
         "education",
         "curriculum",
     ],
-    "communities": ["community", "discord", "forum", "slack", "group"],
-    "clubs": ["club", "student organization", "chapter"],
+    "interview-prep": [
+        "interview",
+        "leetcode",
+        "coding practice",
+        "technical interview",
+    ],
+    "communities-clubs": [
+        "community",
+        "discord",
+        "forum",
+        "slack",
+        "group",
+        "club",
+        "student organization",
+        "chapter",
+    ],
     "hackathons": ["hackathon", "hackathons", "mlh"],
     "ctfs": ["ctf", "capture the flag", "cybersecurity challenge"],
     "game-jams": ["game jam", "gamejam", "game development jam"],
     "competitions": ["competition", "contest", "competitive programming"],
-    "volunteer": ["volunteer", "non-profit", "nonprofit", "charity"],
-    "projects": ["project idea", "portfolio project", "build project"],
-    "repositories": ["github", "repository", "repo", "codebase"],
-    "open-source-help": ["open source", "contribution", "contribute"],
-    "fellowships": ["fellowship", "student program", "internship program"],
-    "research": ["research", "lab", "paper", "undergraduate research"],
-    "conferences": ["conference", "symposium", "summit"],
-    "career-fairs": ["career fair", "recruiting", "employer"],
-    "online-events": ["webinar", "online event", "virtual event", "meetup"],
-    "scholarships": ["scholarship", "grant", "bursary", "financial aid"],
-    "startup-programs": ["startup", "incubator", "accelerator", "founder"],
-    "freelance": ["freelance", "client", "gig"],
+    "open-source": ["open source", "contribution", "contribute"],
+    "useful-repositories": ["github", "repository", "repo", "codebase"],
+    "project-starters-kits": [
+        "project idea",
+        "portfolio project",
+        "build project",
+        "starter kit",
+        "template",
+    ],
+    "internships-fellowships": [
+        "fellowship",
+        "student program",
+        "internship",
+        "internship program",
+    ],
+    "recruitment-events": [
+        "career fair",
+        "recruiting",
+        "employer",
+        "webinar",
+        "online event",
+        "virtual event",
+        "meetup",
+    ],
     "certifications": ["certification", "certificate", "exam"],
-    "free-benefits": ["benefit", "perk", "student pack", "free tools"],
+    "free-developer-tools": [
+        "benefit",
+        "perk",
+        "student pack",
+        "free tools",
+        "developer tools",
+    ],
 }
 
 class MetadataParser(HTMLParser):
@@ -337,7 +369,7 @@ def guess_category(text):
         if score:
             scores[category] = score
     if not scores:
-        return "learning-resources", 0.2, ["communities", "projects"]
+        return "learning-resources", 0.2, ["interview-prep", "project-starters-kits"]
     ordered = sorted(scores.items(), key=lambda item: (-item[1], item[0]))
     best_category, best_score = ordered[0]
     alternatives = [category for category, _ in ordered[1:4]]
