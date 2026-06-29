@@ -9,64 +9,45 @@ GENERATED_DIR = ROOT / "generated"
 
 CATEGORY_LABELS = {
     "learning-resources": "Learning Resources",
-    "communities": "Communities",
-    "clubs": "Clubs",
-    "volunteer": "Volunteer & Non-Profit",
-    "ctfs": "CTFs",
-    "competitions": "Competitions",
+    "interview-prep": "Interview Prep",
+    "communities-clubs": "Communities & Clubs",
     "hackathons": "Hackathons",
+    "ctfs": "CTFs",
     "game-jams": "Game Jams",
-    "projects": "Projects",
-    "repositories": "Useful Repositories",
-    "open-source-help": "Open Source Guides",
-    "research": "Research",
-    "conferences": "Conferences",
-    "fellowships": "Fellowships & Student Programs",
-    "online-events": "Online Events",
-    "career-fairs": "Career Fairs",
-    "scholarships": "Scholarships",
-    "startup-programs": "Startup Programs",
-    "freelance": "Freelance",
+    "competitions": "Competitions",
+    "open-source": "Open Source",
+    "useful-repositories": "Useful Repositories",
+    "project-starters-kits": "Project Starters & Kits",
+    "internships-fellowships": "Internships & Fellowships",
+    "recruitment-events": "Recruitment & Events",
     "certifications": "Certifications",
-    "free-benefits": "Free Benefits",
+    "free-developer-tools": "Free Developer Tools",
 }
 
 CATEGORY_GROUPS = {
     "Learning & Development": [
         "learning-resources",
-        "communities",
-        "clubs",
+        "interview-prep",
+        "communities-clubs",
     ],
-    "Experience & Involvement": [
+    "Experience": [
         "hackathons",
         "ctfs",
         "game-jams",
         "competitions",
-        "volunteer",
     ],
     "Building & Open Source": [
-        "projects",
-        "repositories",
-        "open-source-help",
+        "open-source",
+        "useful-repositories",
+        "project-starters-kits",
     ],
-    "Academic & Professional": [
-        "fellowships",
-        "research",
-        "conferences",
-    ],
-    "Networking & Opportunities": [
-        "career-fairs",
-        "online-events",
-        "scholarships",
-        "startup-programs",
-        "freelance",
-    ],
-    "Credentials & Perks": [
+    "Careers & Perks": [
+        "internships-fellowships",
+        "recruitment-events",
         "certifications",
-        "free-benefits",
+        "free-developer-tools",
     ],
 }
-
 
 def load_json(path: Path) -> dict:
     with open(path, "r", encoding="utf-8") as f:

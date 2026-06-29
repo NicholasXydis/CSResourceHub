@@ -4,28 +4,20 @@ from utils import DATA_DIR, load_json, log, save_json
 
 CATEGORIES = {
     "1": ("learning-development", "learning-resources"),
-    "2": ("learning-development", "communities"),
-    "3": ("learning-development", "clubs"),
-    "4": ("experience-involvement", "volunteer"),
+    "2": ("learning-development", "interview-prep"),
+    "3": ("learning-development", "communities-clubs"),
+    "4": ("experience-involvement", "hackathons"),
     "5": ("experience-involvement", "ctfs"),
-    "6": ("experience-involvement", "competitions"),
-    "7": ("experience-involvement", "hackathons"),
-    "8": ("experience-involvement", "game-jams"),
-    "9": ("building-open-source", "projects"),
-    "10": ("building-open-source", "repositories"),
-    "11": ("building-open-source", "open-source-help"),
-    "12": ("academic-professional", "research"),
-    "13": ("academic-professional", "conferences"),
-    "14": ("academic-professional", "fellowships"),
-    "15": ("networking-opportunities", "online-events"),
-    "16": ("networking-opportunities", "career-fairs"),
-    "17": ("networking-opportunities", "scholarships"),
-    "18": ("networking-opportunities", "startup-programs"),
-    "19": ("networking-opportunities", "freelance"),
-    "20": ("credentials-perks", "certifications"),
-    "21": ("credentials-perks", "free-benefits"),
+    "6": ("experience-involvement", "game-jams"),
+    "7": ("experience-involvement", "competitions"),
+    "8": ("building-open-source", "open-source"),
+    "9": ("building-open-source", "useful-repositories"),
+    "10": ("building-open-source", "project-starters-kits"),
+    "11": ("careers-perks", "internships-fellowships"),
+    "12": ("careers-perks", "recruitment-events"),
+    "13": ("careers-perks", "certifications"),
+    "14": ("careers-perks", "free-developer-tools"),
 }
-
 
 def prompt(label, required=True):
     while True:

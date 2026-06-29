@@ -1,7 +1,18 @@
 {
   "generated": "2026-06-26",
-  "total": 74,
+  "total": 65,
   "resources": [
+    {
+      "id": "battlecode",
+      "name": "Battlecode",
+      "url": "https://battlecode.org",
+      "description": "Student programming competition where teams build autonomous bots for a strategy game and compete for prizes.",
+      "category": "competitions",
+      "location": "Online",
+      "month": "January",
+      "date_added": "2026-06-20",
+      "last_verified": "2026-06-29"
+    },
     {
       "id": "coveo-blitz",
       "name": "Coveo Blitz",
@@ -11,98 +22,60 @@
       "location": "Canada",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "jdis-games",
-      "name": "JDIS Games",
-      "url": "https://jdis.ca",
-      "description": "AI agent competition by Université de Sherbrooke, where teams compete for cash prizes.",
-      "category": "competitions",
-      "location": "Sherbrooke, Quebec",
-      "month": "July",
-      "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "akuna-virtual-quant-trading-challenge",
-      "name": "Akuna Capital Virtual Quant Trading Challenge",
-      "url": "https://akunacapital.com/careers",
-      "description": "Virtual trading challenge for students interested in market making and quantitative strategy.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "atcoder",
-      "name": "AtCoder",
-      "url": "https://atcoder.jp",
-      "description": "Competitive programming platform with regular rated contests and a large archive of algorithm problems.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "battlecode",
-      "name": "Battlecode",
-      "url": "https://battlecode.org",
-      "description": "Student programming competition where teams build autonomous bots for a custom strategy game.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "canadian-team-programming-competition",
       "name": "Canadian Team Programming Competition",
       "url": "https://www.ctpc.ca",
-      "description": "Canadian team and individual algorithmic programming competition hosted across multiple universities.",
+      "description": "National algorithmic programming competition featuring synchronized individual and team data structure challenges.",
       "category": "competitions",
-      "location": "Canada",
+      "location": "Online & In-person",
+      "month": "April",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "citadel-datathon-terminal",
-      "name": "Citadel Datathon & Terminal",
-      "url": "https://www.citadel.com/careers/programs-and-events",
-      "description": "Quantitative finance events for students focused on data analysis, modeling, and trading games.",
-      "category": "competitions",
-      "location": "International",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "codechef",
-      "name": "CodeChef",
-      "url": "https://www.codechef.com/contests",
-      "description": "Competitive programming platform with regular contests and practice problems across difficulty levels.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "codeforces",
-      "name": "Codeforces",
-      "url": "https://codeforces.com",
-      "description": "Competitive programming platform with frequent rated contests and extensive problem archives.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "icfp-programming-contest",
       "name": "ICFP Programming Contest",
       "url": "https://icfpcontest.org",
-      "description": "Annual programming contest organized around the ACM SIGPLAN ICFP community.",
+      "description": "International programming contest where teams solve advanced functional programming challenges.",
       "category": "competitions",
-      "location": "International",
+      "location": "Online",
+      "month": "July",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
+    },
+    {
+      "id": "jdis-games",
+      "name": "JDIS Games",
+      "url": "https://jdis.ca",
+      "description": "AI agent competition by Université de Sherbrooke, where teams build autonomous agents and compete for cash prizes.",
+      "category": "competitions",
+      "location": "Sherbrooke, Quebec",
+      "month": "July",
+      "date_added": "2026-06-18",
+      "last_verified": "2026-06-29"
+    },
+    {
+      "id": "akuna-virtual-quant-trading-challenge",
+      "name": "Akuna Capital Virtual Quant Trading Challenge",
+      "url": "https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921",
+      "description": "Virtual trading challenge by Akuna Capital, for students interested in breaking into the quantitative finance industry.",
+      "category": "competitions",
+      "location": "Online",
+      "date_added": "2026-06-20",
+      "last_verified": "2026-06-29"
+    },
+    {
+      "id": "citadel-student-competitions",
+      "name": "Citadel Student Competitions",
+      "url": "https://www.citadel.com/careers/programs-and-events",
+      "description": "Elite quantitative finance competitions with data modeling, algorithm tournaments, and trading simulations.",
+      "category": "competitions",
+      "location": "Online",
+      "date_added": "2026-06-20",
+      "last_verified": "2026-06-29"
     },
     {
       "id": "icpc",
@@ -112,7 +85,7 @@
       "category": "competitions",
       "location": "International",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "icpc-ecna",
@@ -122,7 +95,7 @@
       "category": "competitions",
       "location": "East Central North America",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "icpc-nena",
@@ -132,7 +105,7 @@
       "category": "competitions",
       "location": "Northeast North America",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "icpc-north-american-championship",
@@ -142,7 +115,7 @@
       "category": "competitions",
       "location": "North America",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "imc-university-math",
@@ -152,7 +125,7 @@
       "category": "competitions",
       "location": "International",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "imc-prosperity",
@@ -162,7 +135,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "international-data-analysis-olympiad",
@@ -172,7 +145,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "jane-street-etc-insight",
@@ -182,7 +155,7 @@
       "category": "competitions",
       "location": "International",
       "date_added": "2026-06-26",
-      "last_verified": "2026-06-26"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "jane-street-puzzles",
@@ -192,17 +165,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "kaggle",
-      "name": "Kaggle",
-      "url": "https://www.kaggle.com/competitions",
-      "description": "Data science competition platform with prediction, forecasting, and machine learning challenges.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "kaggle-simulations",
@@ -212,27 +175,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "kattis-open",
-      "name": "Kattis Open",
-      "url": "https://open.kattis.com",
-      "description": "Open contest platform with algorithm problems and standings for practice and live events.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "leetcode-contests",
-      "name": "LeetCode Weekly/Biweekly",
-      "url": "https://leetcode.com/contest",
-      "description": "Regular algorithm contests on LeetCode with timed problems and global rankings.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "lux-ai",
@@ -242,7 +185,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "meta-hacker-cup",
@@ -252,7 +195,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "numerai",
@@ -262,7 +205,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "project-euler",
@@ -272,7 +215,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "reply-code-challenge",
@@ -282,17 +225,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "sig-campus-challenge",
-      "name": "SIG Campus Coding & Trading Challenges",
-      "url": "https://sig.com/campus-events",
-      "description": "Campus coding and trading challenges for STEM students with online rounds and selected live finals.",
-      "category": "competitions",
-      "location": "International",
-      "date_added": "2026-06-26",
-      "last_verified": "2026-06-26"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "tcs-codevita",
@@ -302,17 +235,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "topcoder",
-      "name": "Topcoder",
-      "url": "https://www.topcoder.com/challenges",
-      "description": "Competitive programming platform with algorithm matches, marathon contests, and challenge tracks.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "universal-cup",
@@ -322,7 +245,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "worldquant-international-quant-championship",
@@ -332,7 +255,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "yandex-cup",
@@ -342,17 +265,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
-    },
-    {
-      "id": "zindi",
-      "name": "Zindi",
-      "url": "https://zindi.africa/competitions",
-      "description": "Data science competition platform focused on machine learning problems relevant to Africa.",
-      "category": "competitions",
-      "location": "Online",
-      "date_added": "2026-06-20",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "uoftctf",
@@ -363,7 +276,7 @@
       "location": "Online",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "ncc-ctf-series",
@@ -374,7 +287,7 @@
       "location": "Online",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "athack-ctf",
@@ -385,7 +298,7 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "polypwn-ctf",
@@ -396,7 +309,7 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "plaidctf",
@@ -407,7 +320,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "umdctf",
@@ -418,7 +331,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "defcon-ctf",
@@ -429,7 +342,7 @@
       "location": "Online",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "northsec",
@@ -440,7 +353,7 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "google-ctf",
@@ -451,7 +364,7 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "midnight-sun-ctf",
@@ -462,7 +375,7 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "cyber-apocalypse",
@@ -473,7 +386,7 @@
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hitcon-ctf",
@@ -484,7 +397,7 @@
       "location": "Online",
       "month": "August",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "csaw-ctf",
@@ -495,7 +408,7 @@
       "location": "Online",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "cybersci",
@@ -506,7 +419,7 @@
       "location": "Canada",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "0ctf",
@@ -517,7 +430,7 @@
       "location": "Online",
       "month": "December",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "conuhacks",
@@ -528,7 +441,7 @@
       "location": "Montreal, Quebec",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "deltahacks",
@@ -539,7 +452,7 @@
       "location": "Hamilton, Ontario",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "mchacks",
@@ -550,7 +463,7 @@
       "location": "Montreal, Quebec",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "nwhacks",
@@ -561,7 +474,7 @@
       "location": "Vancouver, British Columbia",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "uofthacks",
@@ -572,7 +485,7 @@
       "location": "Toronto, Ontario",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "qhacks",
@@ -583,7 +496,7 @@
       "location": "Kingston, Ontario",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "treehacks",
@@ -594,7 +507,7 @@
       "location": "Stanford, California",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "genai-genesis",
@@ -605,7 +518,7 @@
       "location": "Toronto, Ontario",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hack-canada",
@@ -616,7 +529,7 @@
       "location": "Waterloo, Ontario",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "la-hacks",
@@ -627,7 +540,7 @@
       "location": "Los Angeles, California",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hackthemountain",
@@ -638,7 +551,7 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "mpchacks",
@@ -649,7 +562,7 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "shacks",
@@ -660,7 +573,7 @@
       "location": "Sherbrooke, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hack-the-6ix",
@@ -671,7 +584,7 @@
       "location": "Toronto, Ontario",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hack-the-north",
@@ -682,7 +595,7 @@
       "location": "Waterloo, Ontario",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hackmit",
@@ -693,7 +606,7 @@
       "location": "Cambridge, Massachusetts",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "pennapps",
@@ -704,7 +617,7 @@
       "location": "Philadelphia, Pennsylvania",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "cal-hacks",
@@ -715,7 +628,7 @@
       "location": "Berkeley, California",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "codeml",
@@ -726,7 +639,7 @@
       "location": "Montreal, Quebec",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "fiam-ia",
@@ -737,7 +650,7 @@
       "location": "Montreal, Quebec",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hackharvard",
@@ -748,7 +661,7 @@
       "location": "Cambridge, Massachusetts",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "codejam-mcgill",
@@ -759,7 +672,7 @@
       "location": "Montreal, Quebec",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "hackutd",
@@ -770,7 +683,7 @@
       "location": "Dallas, Texas",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     },
     {
       "id": "ctftime",
@@ -780,7 +693,7 @@
       "category": "learning-resources",
       "location": "Online",
       "date_added": "2026-06-17",
-      "last_verified": "2026-06-20"
+      "last_verified": "2026-06-29"
     }
   ]
 }

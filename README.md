@@ -4,7 +4,7 @@
 
 # CS Resource Hub
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+Canadian+CS+Opportunities;Scholarships+%7C+Hackathons+%7C+Research+%7C+Fellowships;Validated+JSON+Dataset+With+Automated+Checks;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+Canadian+CS+Opportunities;Learning+%7C+Hackathons+%7C+Careers+%7C+Developer+Perks;Validated+JSON+Dataset+With+Automated+Checks;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
 
 **A curated, automated dataset of Canadian Computer Science student resources.**
 
@@ -21,10 +21,10 @@
 </p>
 
 <p align="center">
-  <strong>21 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
+  <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=74&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-26&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=65&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-26&color=7c3aed)
 
 </div>
 
@@ -42,12 +42,10 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (1)<br>[Communities](#communities) (0)<br>[Clubs](#clubs) (0) |
-| 🏆 Experience & Involvement | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (35)<br>[Volunteer & Non-Profit](#volunteer) (0) |
-| 🧩 Building & Open Source | [Projects](#projects) (0)<br>[Useful Repositories](#repositories) (0)<br>[Open Source Guides](#open-source-help) (0) |
-| 🔬 Academic & Professional | [Fellowships & Student Programs](#fellowships) (0)<br>[Research](#research) (0)<br>[Conferences](#conferences) (0) |
-| 💼 Networking & Opportunities | [Career Fairs](#career-fairs) (0)<br>[Online Events](#online-events) (0)<br>[Scholarships](#scholarships) (0)<br>[Startup Programs](#startup-programs) (0)<br>[Freelance](#freelance) (0) |
-| 🎁 Credentials & Perks | [Certifications](#certifications) (0)<br>[Free Benefits](#free-benefits) (0) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (1)<br>[Interview Prep](#interview-prep) (0)<br>[Communities & Clubs](#communities-clubs) (0) |
+| 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (26) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (0)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
+| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
 
 ## 📚 Learning & Development
@@ -61,22 +59,25 @@ Browse resources by area and category.
 | Resource | Description | Location |
 | --- | --- | --- |
 | [CTFtime](https://ctftime.org) | Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar. | Online |
-<a id="communities"></a>
 
-### Communities
+<a id="interview-prep"></a>
 
-**0 resources** · `communities`
+### Interview Prep
 
-> No resources yet. Contributions are welcome.
-<a id="clubs"></a>
-
-### Clubs
-
-**0 resources** · `clubs`
+**0 resources** · `interview-prep`
 
 > No resources yet. Contributions are welcome.
 
-## 🏆 Experience & Involvement
+<a id="communities-clubs"></a>
+
+### Communities & Clubs
+
+**0 resources** · `communities-clubs`
+
+> No resources yet. Contributions are welcome.
+
+
+## 🏆 Experience
 
 <a id="hackathons"></a>
 
@@ -109,6 +110,7 @@ Browse resources by area and category.
 | [HackHarvard](https://hackharvard.io) | Harvard's annual hackathon, with large cash prizes and industry sponsors. | October | Cambridge, Massachusetts |
 | [CodeJam](https://codejam.mcgilleus.ca) | Hackathon by McGill Engineering, with cash prizes. | November | Montreal, Quebec |
 | [HackUTD](https://hackutd.co) | University of Texas hackathon, with cash prizes and industry sponsors. | November | Dallas, Texas |
+
 <a id="ctfs"></a>
 
 ### CTFs
@@ -132,6 +134,7 @@ Browse resources by area and category.
 | [CSAW CTF](https://csaw.io/ctf) | Student CTF by NYU, with online qualifiers and finals in New York City. | September | Online |
 | [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | Canada |
 | [0CTF](https://ctf.0ops.sjtu.cn) | CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges. | December | Online |
+
 <a id="game-jams"></a>
 
 ### Game Jams
@@ -139,24 +142,22 @@ Browse resources by area and category.
 **0 resources** · `game-jams`
 
 > No resources yet. Contributions are welcome.
+
 <a id="competitions"></a>
 
 ### Competitions
 
-**35 resources** · `competitions`
+**26 resources** · `competitions`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
+| [Battlecode](https://battlecode.org) | Student programming competition where teams build autonomous bots for a strategy game and compete for prizes. | January | Online |
 | [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | Canada |
-| [JDIS Games](https://jdis.ca) | AI agent competition by Université de Sherbrooke, where teams compete for cash prizes. | July | Sherbrooke, Quebec |
-| [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers) | Virtual trading challenge for students interested in market making and quantitative strategy. | Ongoing | Online |
-| [AtCoder](https://atcoder.jp) | Competitive programming platform with regular rated contests and a large archive of algorithm problems. | Ongoing | Online |
-| [Battlecode](https://battlecode.org) | Student programming competition where teams build autonomous bots for a custom strategy game. | Ongoing | Online |
-| [Canadian Team Programming Competition](https://www.ctpc.ca) | Canadian team and individual algorithmic programming competition hosted across multiple universities. | Ongoing | Canada |
-| [Citadel Datathon & Terminal](https://www.citadel.com/careers/programs-and-events) | Quantitative finance events for students focused on data analysis, modeling, and trading games. | Ongoing | International |
-| [CodeChef](https://www.codechef.com/contests) | Competitive programming platform with regular contests and practice problems across difficulty levels. | Ongoing | Online |
-| [Codeforces](https://codeforces.com) | Competitive programming platform with frequent rated contests and extensive problem archives. | Ongoing | Online |
-| [ICFP Programming Contest](https://icfpcontest.org) | Annual programming contest organized around the ACM SIGPLAN ICFP community. | Ongoing | International |
+| [Canadian Team Programming Competition](https://www.ctpc.ca) | National algorithmic programming competition featuring synchronized individual and team data structure challenges. | April | Online & In-person |
+| [ICFP Programming Contest](https://icfpcontest.org) | International programming contest where teams solve advanced functional programming challenges. | July | Online |
+| [JDIS Games](https://jdis.ca) | AI agent competition by Université de Sherbrooke, where teams build autonomous agents and compete for cash prizes. | July | Sherbrooke, Quebec |
+| [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921) | Virtual trading challenge by Akuna Capital, for students interested in breaking into the quantitative finance industry. | Ongoing | Online |
+| [Citadel Student Competitions](https://www.citadel.com/careers/programs-and-events) | Elite quantitative finance competitions with data modeling, algorithm tournaments, and trading simulations. | Ongoing | Online |
 | [ICPC](https://icpc.global) | International team programming contest for university students with regionals and a world final. | Ongoing | International |
 | [ICPC ECNA](https://icpc.global/regionals/finder/East-Central-NA) | East Central North America regional contest within the ICPC university programming circuit. | Ongoing | East Central North America |
 | [ICPC NENA](https://icpc.global/regionals/finder/northeast-north-america) | Northeast North America regional contest within the ICPC university programming circuit. | Ongoing | Northeast North America |
@@ -166,117 +167,62 @@ Browse resources by area and category.
 | [International Data Analysis Olympiad](https://idao.world) | Multi-stage data science olympiad built around realistic machine learning and analysis tasks. | Ongoing | Online |
 | [Jane Street Electronic Trading Challenge / Insight Programs](https://www.janestreet.com/join-jane-street/programs-and-events) | Invitation-only undergraduate trading and game theory program with bot-trading challenges and hosted events. | Ongoing | International |
 | [Jane Street Puzzles](https://www.janestreet.com/puzzles) | Monthly puzzle series for students interested in mathematical problem solving and reasoning. | Ongoing | Online |
-| [Kaggle](https://www.kaggle.com/competitions) | Data science competition platform with prediction, forecasting, and machine learning challenges. | Ongoing | Online |
 | [Kaggle Simulations](https://www.kaggle.com/competitions?searchQuery=simulations) | Kaggle competitions focused on simulation, game-playing, and reinforcement learning style tasks. | Ongoing | Online |
-| [Kattis Open](https://open.kattis.com) | Open contest platform with algorithm problems and standings for practice and live events. | Ongoing | Online |
-| [LeetCode Weekly/Biweekly](https://leetcode.com/contest) | Regular algorithm contests on LeetCode with timed problems and global rankings. | Ongoing | Online |
 | [Lux AI](https://www.lux-ai.org) | AI strategy competition where participants build agents for a resource-management game. | Ongoing | Online |
 | [Meta Hacker Cup](https://en.wikipedia.org/wiki/Meta_Hacker_Cup) | Annual competitive programming contest from Meta with online rounds and a world final. | Ongoing | Online |
 | [Numerai](https://numer.ai) | Data science tournament where participants submit financial prediction models to a live meta-model. | Ongoing | Online |
 | [Project Euler](https://projecteuler.net) | Archive of mathematical programming problems for individual problem solving and practice. | Ongoing | Online |
 | [Reply Code Challenge](https://challenges.reply.com) | Team coding competition with algorithmic problems and international online rankings. | Ongoing | Online |
-| [SIG Campus Coding & Trading Challenges](https://sig.com/campus-events) | Campus coding and trading challenges for STEM students with online rounds and selected live finals. | Ongoing | International |
 | [TCS CodeVita](https://codevita.tcsapps.com) | Global programming competition from Tata Consultancy Services for students and graduates. | Ongoing | Online |
-| [Topcoder](https://www.topcoder.com/challenges) | Competitive programming platform with algorithm matches, marathon contests, and challenge tracks. | Ongoing | Online |
 | [Universal Cup](https://ucup.ac) | Global team programming tournament modeled on world-class competitive programming formats. | Ongoing | Online |
 | [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Global quantitative finance competition built around alpha research and model development. | Ongoing | Online |
 | [Yandex Cup](https://contest.yandex.com/yacup) | Multi-track technology competition covering algorithms, machine learning, backend, and mobile. | Ongoing | Online |
-| [Zindi](https://zindi.africa/competitions) | Data science competition platform focused on machine learning problems relevant to Africa. | Ongoing | Online |
-<a id="volunteer"></a>
 
-### Volunteer & Non-Profit
-
-**0 resources** · `volunteer`
-
-> No resources yet. Contributions are welcome.
 
 ## 🧩 Building & Open Source
 
-<a id="projects"></a>
+<a id="open-source"></a>
 
-### Projects
+### Open Source
 
-**0 resources** · `projects`
+**0 resources** · `open-source`
 
 > No resources yet. Contributions are welcome.
-<a id="repositories"></a>
+
+<a id="useful-repositories"></a>
 
 ### Useful Repositories
 
-**0 resources** · `repositories`
-
-> No resources yet. Contributions are welcome.
-<a id="open-source-help"></a>
-
-### Open Source Guides
-
-**0 resources** · `open-source-help`
+**0 resources** · `useful-repositories`
 
 > No resources yet. Contributions are welcome.
 
-## 🔬 Academic & Professional
+<a id="project-starters-kits"></a>
 
-<a id="fellowships"></a>
+### Project Starters & Kits
 
-### Fellowships & Student Programs
-
-**0 resources** · `fellowships`
-
-> No resources yet. Contributions are welcome.
-<a id="research"></a>
-
-### Research
-
-**0 resources** · `research`
-
-> No resources yet. Contributions are welcome.
-<a id="conferences"></a>
-
-### Conferences
-
-**0 resources** · `conferences`
+**0 resources** · `project-starters-kits`
 
 > No resources yet. Contributions are welcome.
 
-## 💼 Networking & Opportunities
 
-<a id="career-fairs"></a>
+## 💼 Careers & Perks
 
-### Career Fairs
+<a id="internships-fellowships"></a>
 
-**0 resources** · `career-fairs`
+### Internships & Fellowships
 
-> No resources yet. Contributions are welcome.
-<a id="online-events"></a>
-
-### Online Events
-
-**0 resources** · `online-events`
-
-> No resources yet. Contributions are welcome.
-<a id="scholarships"></a>
-
-### Scholarships
-
-**0 resources** · `scholarships`
-
-> No resources yet. Contributions are welcome.
-<a id="startup-programs"></a>
-
-### Startup Programs
-
-**0 resources** · `startup-programs`
-
-> No resources yet. Contributions are welcome.
-<a id="freelance"></a>
-
-### Freelance
-
-**0 resources** · `freelance`
+**0 resources** · `internships-fellowships`
 
 > No resources yet. Contributions are welcome.
 
-## 🎁 Credentials & Perks
+<a id="recruitment-events"></a>
+
+### Recruitment & Events
+
+**0 resources** · `recruitment-events`
+
+> No resources yet. Contributions are welcome.
 
 <a id="certifications"></a>
 
@@ -285,13 +231,15 @@ Browse resources by area and category.
 **0 resources** · `certifications`
 
 > No resources yet. Contributions are welcome.
-<a id="free-benefits"></a>
 
-### Free Benefits
+<a id="free-developer-tools"></a>
 
-**0 resources** · `free-benefits`
+### Free Developer Tools
+
+**0 resources** · `free-developer-tools`
 
 > No resources yet. Contributions are welcome.
+
 
 ## Contributing
 

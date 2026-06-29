@@ -12,13 +12,10 @@ from utils import (
 
 GROUP_ICONS = {
     "Learning & Development": "📚",
-    "Experience & Involvement": "🏆",
+    "Experience": "🏆",
     "Building & Open Source": "🧩",
-    "Academic & Professional": "🔬",
-    "Networking & Opportunities": "💼",
-    "Credentials & Perks": "🎁",
+    "Careers & Perks": "💼",
 }
-
 TECH_ICONS = [
     (
         "Python",
@@ -122,7 +119,7 @@ def generate_readme():
         typing_svg(
             [
                 "Curated Canadian CS Opportunities",
-                "Scholarships | Hackathons | Research | Fellowships",
+                "Learning | Hackathons | Careers | Developer Perks",
                 "Validated JSON Dataset With Automated Checks",
                 "Generated README | CSV | Site-Ready JSON",
             ]
@@ -214,6 +211,7 @@ def generate_readme():
                         lines.append(f"| {name} | {desc} | {location} |\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
+            lines.append("\n")
 
     lines.append("\n")
     lines.append("## Contributing\n\n")
