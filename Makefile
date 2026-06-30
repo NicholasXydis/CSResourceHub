@@ -1,4 +1,4 @@
-.PHONY: validate generate lint stats add draft review import-approved clean-drafts check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls help
+.PHONY: validate generate lint stats add check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls help
 
 validate:
 	python scripts/validate_all.py
@@ -20,18 +20,6 @@ stats:
 
 add:
 	python scripts/add_resource.py
-
-draft:
-	python scripts/draft_resources.py imports/links.txt
-
-review:
-	python scripts/draft_resources.py --review
-
-import-approved:
-	python scripts/draft_resources.py --import-approved
-
-clean-drafts:
-	python scripts/draft_resources.py --clean-drafts
 
 check-links:
 	python scripts/check_links.py
@@ -57,20 +45,15 @@ stats-json:
 export-csv:
 	python scripts/export_csv.py
 
-
 check-urls:
 	python scripts/validate_urls_normalized.py
 
 help:
 	@echo "validate        - Run all schema and dataset validation checks"
-	@echo "generate        - Regenerate README and combined JSON files"
+	@echo "generate        - Regenerate README and generated data exports"
 	@echo "lint            - Lint Python scripts and JSON files"
 	@echo "stats           - Print resource counts per category"
 	@echo "add             - Interactive CLI to add a new resource"
-	@echo "draft           - Draft resources from imports/links.txt"
-	@echo "review          - Review drafted resources interactively"
-	@echo "import-approved - Import approved drafts and validate"
-	@echo "clean-drafts    - Delete generated import draft files"
 	@echo "check-links     - Check all URLs for dead links"
 	@echo "check-duplicates - Check for duplicate URLs"
 	@echo "check-locations - Validate location values"

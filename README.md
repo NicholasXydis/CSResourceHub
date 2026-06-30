@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=65&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-26&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=52&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-20&color=7c3aed)
 
 </div>
 
@@ -43,7 +43,7 @@ Browse resources by area and category.
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (1)<br>[Interview Prep](#interview-prep) (0)<br>[Communities & Clubs](#communities-clubs) (0) |
-| 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (26) |
+| 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (13) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (0)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
@@ -147,36 +147,23 @@ Browse resources by area and category.
 
 ### Competitions
 
-**26 resources** · `competitions`
+**13 resources** · `competitions`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
-| [Battlecode](https://battlecode.org) | Student programming competition where teams build autonomous bots for a strategy game and compete for prizes. | January | Online |
+| [Battlecode](https://battlecode.org) | MIT real-time strategy AI programming tournament competing for a $20,000+ prize pool. | January | Online |
 | [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | Canada |
-| [Canadian Team Programming Competition](https://www.ctpc.ca) | National algorithmic programming competition featuring synchronized individual and team data structure challenges. | April | Online & In-person |
-| [ICFP Programming Contest](https://icfpcontest.org) | International programming contest where teams solve advanced functional programming challenges. | July | Online |
-| [JDIS Games](https://jdis.ca) | AI agent competition by Université de Sherbrooke, where teams build autonomous agents and compete for cash prizes. | July | Sherbrooke, Quebec |
-| [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921) | Virtual trading challenge by Akuna Capital, for students interested in breaking into the quantitative finance industry. | Ongoing | Online |
+| [Reply Code Challenge](https://challenges.reply.com) | Global multi-track competition featuring 6-hour team sprints across algorithms, cybersecurity, and AI agents. | March | Online |
+| [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Three-stage global quantitative modeling tournament competing for a $100,000 prize pool and internship opportunities. | March | Online |
+| [Canadian Team Programming Competition](https://www.ctpc.ca) | National synchronized data structure sprint focused on university pride and corporate sponsor recruiting loops. | April | Online |
+| [JDIS Games](https://jdis.ca) | Autonomous AI agent optimization tournament at UdeS competing for sponsor-backed cash and tech gear. | July | Sherbrooke, Quebec |
+| [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921) | Virtual trading challenge by Akuna Capital, for students interested in breaking into the quantitative finance industry. | August | Online |
+| [Lux AI](https://www.lux-ai.org) | Multi-month visual reinforcement learning agent tournament competing for global rank and tiered cash pools. | October | Online |
+| [Meta Hacker Cup](https://en.wikipedia.org/wiki/Meta_Hacker_Cup) | Global multi-round elimination competitive programming championship competing for a $20,000 top cash prize. | October | Online |
+| [International Data Analysis Olympiad](https://idao.world) | Machine learning and big data analytics framework competition competing for tech gear and corporate internship pathways. | December | Online |
 | [Citadel Student Competitions](https://www.citadel.com/careers/programs-and-events) | Elite quantitative finance competitions with data modeling, algorithm tournaments, and trading simulations. | Ongoing | Online |
-| [ICPC](https://icpc.global) | International team programming contest for university students with regionals and a world final. | Ongoing | International |
-| [ICPC ECNA](https://icpc.global/regionals/finder/East-Central-NA) | East Central North America regional contest within the ICPC university programming circuit. | Ongoing | East Central North America |
-| [ICPC NENA](https://icpc.global/regionals/finder/northeast-north-america) | Northeast North America regional contest within the ICPC university programming circuit. | Ongoing | Northeast North America |
-| [ICPC North American Championship](https://icpc.global/nac) | Premier North American ICPC championship for top university programming teams. | Ongoing | North America |
-| [IMC](https://www.imc-math.org.uk) | International mathematics competition for university students competing individually and in teams. | Ongoing | International |
-| [IMC Prosperity](https://prosperity.imc.com) | Algorithmic trading challenge from IMC for students building strategies in a simulated market. | Ongoing | Online |
-| [International Data Analysis Olympiad](https://idao.world) | Multi-stage data science olympiad built around realistic machine learning and analysis tasks. | Ongoing | Online |
-| [Jane Street Electronic Trading Challenge / Insight Programs](https://www.janestreet.com/join-jane-street/programs-and-events) | Invitation-only undergraduate trading and game theory program with bot-trading challenges and hosted events. | Ongoing | International |
-| [Jane Street Puzzles](https://www.janestreet.com/puzzles) | Monthly puzzle series for students interested in mathematical problem solving and reasoning. | Ongoing | Online |
-| [Kaggle Simulations](https://www.kaggle.com/competitions?searchQuery=simulations) | Kaggle competitions focused on simulation, game-playing, and reinforcement learning style tasks. | Ongoing | Online |
-| [Lux AI](https://www.lux-ai.org) | AI strategy competition where participants build agents for a resource-management game. | Ongoing | Online |
-| [Meta Hacker Cup](https://en.wikipedia.org/wiki/Meta_Hacker_Cup) | Annual competitive programming contest from Meta with online rounds and a world final. | Ongoing | Online |
-| [Numerai](https://numer.ai) | Data science tournament where participants submit financial prediction models to a live meta-model. | Ongoing | Online |
-| [Project Euler](https://projecteuler.net) | Archive of mathematical programming problems for individual problem solving and practice. | Ongoing | Online |
-| [Reply Code Challenge](https://challenges.reply.com) | Team coding competition with algorithmic problems and international online rankings. | Ongoing | Online |
-| [TCS CodeVita](https://codevita.tcsapps.com) | Global programming competition from Tata Consultancy Services for students and graduates. | Ongoing | Online |
-| [Universal Cup](https://ucup.ac) | Global team programming tournament modeled on world-class competitive programming formats. | Ongoing | Online |
-| [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Global quantitative finance competition built around alpha research and model development. | Ongoing | Online |
-| [Yandex Cup](https://contest.yandex.com/yacup) | Multi-track technology competition covering algorithms, machine learning, backend, and mobile. | Ongoing | Online |
+| [TCS CodeVita](https://codevita.tcsapps.com) | Global programming contest by TCS for university students with online rounds and international finals. | Ongoing | Online |
+| [Universal Cup](https://ucup.ac) | Multi-stage international team programming circuit for elite algorithmic and system optimization challenges. | Ongoing | Online |
 
 
 ## 🧩 Building & Open Source

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26",
-  "total": 65,
+  "generated": "2026-06-20",
+  "total": 52,
   "categories": {
     "learning-resources": 1,
     "interview-prep": 0,
@@ -8,7 +8,7 @@
     "hackathons": 23,
     "ctfs": 15,
     "game-jams": 0,
-    "competitions": 26,
+    "competitions": 13,
     "open-source": 0,
     "useful-repositories": 0,
     "project-starters-kits": 0,
@@ -27,12 +27,12 @@
       }
     },
     "Experience": {
-      "total": 64,
+      "total": 51,
       "categories": {
         "hackathons": 23,
         "ctfs": 15,
         "game-jams": 0,
-        "competitions": 26
+        "competitions": 13
       }
     },
     "Building & Open Source": {

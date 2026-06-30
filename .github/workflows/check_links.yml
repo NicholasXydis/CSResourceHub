@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install jsonschema requests
+      - run: pip install requests
       - run: python scripts/check_links.py
       - run: python scripts/generate_combined.py
       - run: python scripts/generate_site_json.py

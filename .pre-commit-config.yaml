@@ -23,4 +23,5 @@ repos:
         name: Validate dataset
         entry: python scripts/validate_all.py
         language: python
+        additional_dependencies: [jsonschema>=4.21.0]
         pass_filenames: false
