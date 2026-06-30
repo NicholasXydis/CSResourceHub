@@ -57,6 +57,17 @@
       "last_verified": "2026-06-29"
     },
     {
+      "id": "lan-ets",
+      "name": "Lan ETS",
+      "url": "https://lanets.ca",
+      "description": "North America's largest student-run LAN party, with gaming competitions, cash prizes, and industry sponsorships.",
+      "category": "competitions",
+      "location": "Montreal, QC",
+      "month": "May",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
       "id": "jdis-games",
       "name": "JDIS Games",
       "url": "https://jdis.ca",
@@ -140,17 +151,6 @@
       "location": "Online",
       "date_added": "2026-06-20",
       "last_verified": "2026-06-29"
-    },
-    {
-      "id": "lan-ets",
-      "name": "Lan ETS",
-      "url": "https://lanets.ca",
-      "description": "North America's largest student-run LAN party featuring various gaming competiions with cash prizes and industry sponsorships.",
-      "category": "competitions",
-      "location": "Montreal, QC",
-      "month": "May",
-      "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
     }
   ]
 }

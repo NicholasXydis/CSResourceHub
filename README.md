@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=52&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-20&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=64&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-06-30&color=7c3aed)
 
 </div>
 
@@ -43,7 +43,7 @@ Browse resources by area and category.
 | Area | Categories |
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (1)<br>[Interview Prep](#interview-prep) (0)<br>[Communities & Clubs](#communities-clubs) (0) |
-| 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (0)<br>[Competitions](#competitions) (13) |
+| 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (0)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
@@ -139,15 +139,27 @@ Browse resources by area and category.
 
 ### Game Jams
 
-**0 resources** · `game-jams`
+**11 resources** · `game-jams`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Month | Location |
+| --- | --- | --- | --- |
+| [Global Game Jam Vancouver](https://ggjvancouver.ca) | A western Canadian Global Game Jam hub backed and mentored by Vancouver game studios. | January | Vancouver, BC |
+| [McGameJam](https://www.mcgamejam.ca) | Quebec's largest game jam, hosted by McGill University featuring various industry sponsors. | January | Montreal, QC |
+| [Chillennium Game Jam](https://chillennium.com) | The largest student-run collegiate game jam in the world, featuring various major industry sponsors. | February | College Station, TX |
+| [Behaviour Interactive Game Jam](https://www.eventbrite.ca/o/18734564338) | Game jam hosted by Behaviour Interactive, featuring mentorship and networking opportunities with industry professionals. | April | Montreal, QC |
+| [Ubisoft Game Lab Competition](https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition) | A 10-week annual game jam where students build game concepts and compete for over $55,000 in scholarships. | April | Montreal, QC |
+| [TOJam (Toronto Game Jam)](https://www.tojam.ca) | One of Canada's longest-running game jams, attracting student developers and industry professionals. | May | Toronto, ON |
+| [GMTK Game Jam](https://gamemakerstoolkit.com/jam) | The largest virtual game jam, with projects highlighted to millions of viewers through the creators YouTube channel. | July | Online |
+| [Algoma Startup GameJam](https://algomau.ca/immxrsive-game-jam) | An intensive game jam focused on entrepreneurship, run in direct collaboration with Unity industry trainers. | September | Brampton, ON |
+| [GAMERella Game Jam](https://gamerella.ca) | An over decade old annual game jam focusing on supporting marginalized game creators and aspiring game makers. | November | Montreal, QC |
+| [GitHub Game Off](https://github.com/topics/game-off) | GitHub's annual month-long game jam celebrating open-source development. | November | Online |
+| [Concordia Game Development Club Jams](https://www.concordiagamedev.ca/events) | Concordia's Game Development Club game jams, with new themes every year. | Ongoing | Montreal, QC |
 
 <a id="competitions"></a>
 
 ### Competitions
 
-**13 resources** · `competitions`
+**14 resources** · `competitions`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
@@ -156,6 +168,7 @@ Browse resources by area and category.
 | [Reply Code Challenge](https://challenges.reply.com) | Global multi-track competition featuring 6-hour team sprints across algorithms, cybersecurity, and AI agents. | March | Online |
 | [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Three-stage global quantitative modeling tournament competing for a $100,000 prize pool and internship opportunities. | March | Online |
 | [Canadian Team Programming Competition](https://www.ctpc.ca) | National synchronized data structure sprint focused on university pride and corporate sponsor recruiting loops. | April | Online |
+| [Lan ETS](https://lanets.ca) | North America's largest student-run LAN party, with gaming competitions, cash prizes, and industry sponsorships. | May | Montreal, QC |
 | [JDIS Games](https://jdis.ca) | Autonomous AI agent optimization tournament at UdeS competing for sponsor-backed cash and tech gear. | July | Sherbrooke, Quebec |
 | [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921) | Virtual trading challenge by Akuna Capital, for students interested in breaking into the quantitative finance industry. | August | Online |
 | [Lux AI](https://www.lux-ai.org) | Multi-month visual reinforcement learning agent tournament competing for global rank and tiered cash pools. | October | Online |

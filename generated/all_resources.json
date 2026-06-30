@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20",
-  "total": 52,
+  "generated": "2026-06-30",
+  "total": 64,
   "resources": [
     {
       "id": "battlecode",
@@ -141,6 +141,17 @@
       "location": "Online",
       "date_added": "2026-06-20",
       "last_verified": "2026-06-29"
+    },
+    {
+      "id": "lan-ets",
+      "name": "Lan ETS",
+      "url": "https://lanets.ca",
+      "description": "North America's largest student-run LAN party, with gaming competitions, cash prizes, and industry sponsorships.",
+      "category": "competitions",
+      "location": "Montreal, QC",
+      "month": "May",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
     },
     {
       "id": "uoftctf",
@@ -306,6 +317,126 @@
       "month": "December",
       "date_added": "2026-06-18",
       "last_verified": "2026-06-29"
+    },
+    {
+      "id": "concordia-game-dev-club-jams",
+      "name": "Concordia Game Development Club Jams",
+      "url": "https://www.concordiagamedev.ca/events",
+      "description": "Concordia's Game Development Club game jams, with new themes every year.",
+      "category": "game-jams",
+      "location": "Montreal, QC",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "mcgamejam",
+      "name": "McGameJam",
+      "url": "https://www.mcgamejam.ca",
+      "description": "Quebec's largest game jam, hosted by McGill University featuring various industry sponsors.",
+      "category": "game-jams",
+      "location": "Montreal, QC",
+      "month": "January",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "ubisoft-game-lab-competition",
+      "name": "Ubisoft Game Lab Competition",
+      "url": "https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition",
+      "description": "A 10-week annual game jam where students build game concepts and compete for over $55,000 in scholarships.",
+      "category": "game-jams",
+      "location": "Montreal, QC",
+      "month": "April",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "behaviour-interactive-game-jam",
+      "name": "Behaviour Interactive Game Jam",
+      "url": "https://www.eventbrite.ca/o/18734564338",
+      "description": "Game jam hosted by Behaviour Interactive, featuring mentorship and networking opportunities with industry professionals.",
+      "category": "game-jams",
+      "location": "Montreal, QC",
+      "month": "April",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "gamerella-game-jam",
+      "name": "GAMERella Game Jam",
+      "url": "https://gamerella.ca",
+      "description": "An over decade old annual game jam focusing on supporting marginalized game creators and aspiring game makers.",
+      "category": "game-jams",
+      "location": "Montreal, QC",
+      "month": "November",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "tojam",
+      "name": "TOJam (Toronto Game Jam)",
+      "url": "https://www.tojam.ca",
+      "description": "One of Canada's longest-running game jams, attracting student developers and industry professionals.",
+      "category": "game-jams",
+      "location": "Toronto, ON",
+      "month": "May",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "global-game-jam-vancouver",
+      "name": "Global Game Jam Vancouver",
+      "url": "https://ggjvancouver.ca",
+      "description": "A western Canadian Global Game Jam hub backed and mentored by Vancouver game studios.",
+      "category": "game-jams",
+      "location": "Vancouver, BC",
+      "month": "January",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "algoma-startup-gamejam",
+      "name": "Algoma Startup GameJam",
+      "url": "https://algomau.ca/immxrsive-game-jam",
+      "description": "An intensive game jam focused on entrepreneurship, run in direct collaboration with Unity industry trainers.",
+      "category": "game-jams",
+      "location": "Brampton, ON",
+      "month": "September",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "chillennium",
+      "name": "Chillennium Game Jam",
+      "url": "https://chillennium.com",
+      "description": "The largest student-run collegiate game jam in the world, featuring various major industry sponsors.",
+      "category": "game-jams",
+      "location": "College Station, TX",
+      "month": "February",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "gmtk-game-jam",
+      "name": "GMTK Game Jam",
+      "url": "https://gamemakerstoolkit.com/jam",
+      "description": "The largest virtual game jam, with projects highlighted to millions of viewers through the creators YouTube channel.",
+      "category": "game-jams",
+      "location": "Online",
+      "month": "July",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
+    },
+    {
+      "id": "github-game-off",
+      "name": "GitHub Game Off",
+      "url": "https://github.com/topics/game-off",
+      "description": "GitHub's annual month-long game jam celebrating open-source development.",
+      "category": "game-jams",
+      "location": "Online",
+      "month": "November",
+      "date_added": "2026-06-30",
+      "last_verified": "2026-06-30"
     },
     {
       "id": "conuhacks",
