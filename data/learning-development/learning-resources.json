@@ -128,6 +128,15 @@
       "last_verified": "2026-07-01"
     },
     {
+      "id": "gamedev-tv",
+      "name": "GameDev.tv",
+      "url": "https://www.gamedev.tv",
+      "description": "Game development courses covering Unity, Unreal Engine, C++, and C#.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
       "id": "git-cheat-sheet",
       "name": "Git Cheat Sheet",
       "url": "https://education.github.com/git-cheat-sheet-education.pdf",
@@ -164,6 +173,15 @@
       "last_verified": "2026-07-01"
     },
     {
+      "id": "heard-on-the-street",
+      "name": "Heard on the Street",
+      "url": "https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867",
+      "description": "Classic book covering probability, brainteasers, and quantitative finance concepts.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
       "id": "http-status-codes",
       "name": "HTTP Status Codes",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status",
@@ -182,6 +200,15 @@
       "last_verified": "2026-07-01"
     },
     {
+      "id": "kodekloud",
+      "name": "KodeKloud",
+      "url": "https://kodekloud.com",
+      "description": "Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
       "id": "learn-git-branching",
       "name": "Learn Git Branching",
       "url": "https://learngitbranching.js.org",
@@ -195,6 +222,15 @@
       "name": "LearnCpp",
       "url": "https://www.learncpp.com",
       "description": "Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "learnopengl",
+      "name": "LearnOpenGL",
+      "url": "https://learnopengl.com",
+      "description": "Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
       "last_verified": "2026-07-01"

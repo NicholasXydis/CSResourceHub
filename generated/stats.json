@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-01",
-  "total": 106,
+  "total": 136,
   "categories": {
-    "learning-resources": 43,
-    "interview-prep": 0,
+    "learning-resources": 47,
+    "interview-prep": 26,
     "communities-clubs": 0,
     "hackathons": 23,
     "ctfs": 15,
@@ -19,10 +19,10 @@
   },
   "groups": {
     "Learning & Development": {
-      "total": 43,
+      "total": 73,
       "categories": {
-        "learning-resources": 43,
-        "interview-prep": 0,
+        "learning-resources": 47,
+        "interview-prep": 26,
         "communities-clubs": 0
       }
     },

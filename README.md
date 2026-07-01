@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=106&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=136&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
 
 </div>
 
@@ -42,7 +42,7 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (43)<br>[Interview Prep](#interview-prep) (0)<br>[Communities & Clubs](#communities-clubs) (0) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (47)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (0) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (0)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
@@ -54,7 +54,7 @@ Browse resources by area and category.
 
 ### Learning Resources
 
-**43 resources** · `learning-resources`
+**47 resources** · `learning-resources`
 
 | Resource | Description |
 | --- | --- |
@@ -72,14 +72,18 @@ Browse resources by area and category.
 | [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. |
 | [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. |
 | [Full Stack Open](https://fullstackopen.com/en) | A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment. |
+| [GameDev.tv](https://www.gamedev.tv) | Game development courses covering Unity, Unreal Engine, C++, and C#. |
 | [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) | Official GitHub one-page reference covering essential Git commands and workflows. |
 | [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples. |
 | [Hack The Box Academy](https://academy.hackthebox.com) | Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows. |
 | [Hacker News](https://news.ycombinator.com) | Community-driven technology news and discussions about software engineering, startups, CS, and programming. |
+| [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867) | Classic book covering probability, brainteasers, and quantitative finance concepts. |
 | [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | MDN reference explaining all standard HTTP response status codes with definitions and usage. |
 | [Hussein Nasser](https://www.youtube.com/@hnasr) | Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture. |
+| [KodeKloud](https://kodekloud.com) | Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies. |
 | [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. |
 | [LearnCpp](https://www.learncpp.com) | Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics. |
+| [LearnOpenGL](https://learnopengl.com) | Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals. |
 | [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) | Official Red Hat reference for essential Linux commands used in development and system administration. |
 | [Linux Journey](https://linuxjourney.com) | Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration. |
 | [LiveOverflow](https://www.youtube.com/@LiveOverflow) | Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development. |
@@ -106,9 +110,36 @@ Browse resources by area and category.
 
 ### Interview Prep
 
-**0 resources** · `interview-prep`
+**26 resources** · `interview-prep`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description |
+| --- | --- |
+| [AtCoder](https://atcoder.jp) | Competitive programming platform offering high-quality contests and algorithm practice. |
+| [ByteByteGo System Design](https://bytebytego.com) | System design interview platform featuring books, courses, and real-world architecture case studies. |
+| [Codeforces](https://codeforces.com) | Competitive programming platform with contests and algorithmic problems for technical interview practice. |
+| [CodeSignal](https://codesignal.com) | Technical assessment platform widely used by companies for coding screenings and online assessments. |
+| [Codewars](https://www.codewars.com) | Programming challenge platform for improving coding skills through community-created problems. |
+| [Codility](https://www.codility.com) | Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills. |
+| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep. |
+| [Cracking the Coding Interview](https://www.crackingthecodinginterview.com) | Classic interview preparation book covering coding questions, technical concepts, and interview strategies. |
+| [DesignGurus](https://www.designgurus.io) | Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep. |
+| [Elements of Programming Interviews](https://elementsofprogramminginterviews.com) | Comprehensive interview preparation book featuring advanced coding problems and detailed solutions. |
+| [Exponent](https://www.tryexponent.com) | Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews. |
+| [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview) | Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews. |
+| [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview) | Popular course teaching object-oriented design concepts commonly tested in software engineering interviews. |
+| [HackerRank](https://www.hackerrank.com) | Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges. |
+| [Hello Interview](https://www.hellointerview.com) | Interview preparation platform focused on system design, coding interviews, and technical interview strategies. |
+| [Interview Query](https://www.interviewquery.com) | Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews. |
+| [interviewing.io](https://interviewing.io) | Anonymous mock technical interviews with experienced software engineers from leading technology companies. |
+| [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) | Popular LaTeX resume template widely used by computer science students and software engineers. |
+| [LeetCode](https://leetcode.com) | Leading coding interview platform with thousands of algorithm, data structure, SQL, and system design problems. |
+| [NeetCode](https://neetcode.io) | Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans. |
+| [Overleaf](https://www.overleaf.com) | Online LaTeX editor for creating professional resumes, CVs, and technical documents. |
+| [Pramp](https://www.pramp.com) | Free peer-to-peer mock interview platform for coding and technical interview practice. |
+| [QuantGuide](https://www.quantguide.io) | Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews. |
+| [Resume Worded](https://resumeworded.com) | AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances. |
+| [System Design Primer](https://github.com/donnemartin/system-design-primer) | Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture. |
+| [Tech Interview Handbook](https://www.techinterviewhandbook.org) | Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies. |
 
 <a id="communities-clubs"></a>
 

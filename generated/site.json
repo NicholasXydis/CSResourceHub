@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-01",
-  "total": 106,
+  "total": 136,
   "categories": {
     "competitions": [
       {
@@ -699,6 +699,242 @@
         "last_verified": "2026-06-29"
       }
     ],
+    "interview-prep": [
+      {
+        "id": "atcoder",
+        "name": "AtCoder",
+        "url": "https://atcoder.jp",
+        "description": "Competitive programming platform offering high-quality contests and algorithm practice.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "bytebytego-system-design",
+        "name": "ByteByteGo System Design",
+        "url": "https://bytebytego.com",
+        "description": "System design interview platform featuring books, courses, and real-world architecture case studies.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "codeforces",
+        "name": "Codeforces",
+        "url": "https://codeforces.com",
+        "description": "Competitive programming platform with contests and algorithmic problems for technical interview practice.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "codesignal",
+        "name": "CodeSignal",
+        "url": "https://codesignal.com",
+        "description": "Technical assessment platform widely used by companies for coding screenings and online assessments.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "codewars",
+        "name": "Codewars",
+        "url": "https://www.codewars.com",
+        "description": "Programming challenge platform for improving coding skills through community-created problems.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "codility",
+        "name": "Codility",
+        "url": "https://www.codility.com",
+        "description": "Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "coding-interview-university",
+        "name": "Coding Interview University",
+        "url": "https://github.com/jwasham/coding-interview-university",
+        "description": "Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "cracking-the-coding-interview",
+        "name": "Cracking the Coding Interview",
+        "url": "https://www.crackingthecodinginterview.com",
+        "description": "Classic interview preparation book covering coding questions, technical concepts, and interview strategies.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "designgurus",
+        "name": "DesignGurus",
+        "url": "https://www.designgurus.io",
+        "description": "Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "elements-of-programming-interviews",
+        "name": "Elements of Programming Interviews",
+        "url": "https://elementsofprogramminginterviews.com",
+        "description": "Comprehensive interview preparation book featuring advanced coding problems and detailed solutions.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "exponent",
+        "name": "Exponent",
+        "url": "https://www.tryexponent.com",
+        "description": "Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "grokking-the-coding-interview",
+        "name": "Grokking the Coding Interview",
+        "url": "https://www.designgurus.io/course/grokking-the-coding-interview",
+        "description": "Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "grokking-object-oriented-design-interview",
+        "name": "Grokking the Object-Oriented Design Interview",
+        "url": "https://www.designgurus.io/course/grokking-the-object-oriented-design-interview",
+        "description": "Popular course teaching object-oriented design concepts commonly tested in software engineering interviews.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "hackerrank",
+        "name": "HackerRank",
+        "url": "https://www.hackerrank.com",
+        "description": "Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "hello-interview",
+        "name": "Hello Interview",
+        "url": "https://www.hellointerview.com",
+        "description": "Interview preparation platform focused on system design, coding interviews, and technical interview strategies.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "interview-query",
+        "name": "Interview Query",
+        "url": "https://www.interviewquery.com",
+        "description": "Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "interviewing-io",
+        "name": "interviewing.io",
+        "url": "https://interviewing.io",
+        "description": "Anonymous mock technical interviews with experienced software engineers from leading technology companies.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "jakes-resume",
+        "name": "Jake's Resume",
+        "url": "https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs",
+        "description": "Popular LaTeX resume template widely used by computer science students and software engineers.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "leetcode",
+        "name": "LeetCode",
+        "url": "https://leetcode.com",
+        "description": "Leading coding interview platform with thousands of algorithm, data structure, SQL, and system design problems.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "neetcode",
+        "name": "NeetCode",
+        "url": "https://neetcode.io",
+        "description": "Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "overleaf",
+        "name": "Overleaf",
+        "url": "https://www.overleaf.com",
+        "description": "Online LaTeX editor for creating professional resumes, CVs, and technical documents.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "pramp",
+        "name": "Pramp",
+        "url": "https://www.pramp.com",
+        "description": "Free peer-to-peer mock interview platform for coding and technical interview practice.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "quantguide",
+        "name": "QuantGuide",
+        "url": "https://www.quantguide.io",
+        "description": "Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "resume-worded",
+        "name": "Resume Worded",
+        "url": "https://resumeworded.com",
+        "description": "AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "system-design-primer",
+        "name": "System Design Primer",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "description": "Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "tech-interview-handbook",
+        "name": "Tech Interview Handbook",
+        "url": "https://www.techinterviewhandbook.org",
+        "description": "Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      }
+    ],
     "learning-resources": [
       {
         "id": "a-tour-of-cpp",
@@ -827,6 +1063,15 @@
         "last_verified": "2026-07-01"
       },
       {
+        "id": "gamedev-tv",
+        "name": "GameDev.tv",
+        "url": "https://www.gamedev.tv",
+        "description": "Game development courses covering Unity, Unreal Engine, C++, and C#.",
+        "category": "learning-resources",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
         "id": "git-cheat-sheet",
         "name": "Git Cheat Sheet",
         "url": "https://education.github.com/git-cheat-sheet-education.pdf",
@@ -863,6 +1108,15 @@
         "last_verified": "2026-07-01"
       },
       {
+        "id": "heard-on-the-street",
+        "name": "Heard on the Street",
+        "url": "https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867",
+        "description": "Classic book covering probability, brainteasers, and quantitative finance concepts.",
+        "category": "learning-resources",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
         "id": "http-status-codes",
         "name": "HTTP Status Codes",
         "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status",
@@ -881,6 +1135,15 @@
         "last_verified": "2026-07-01"
       },
       {
+        "id": "kodekloud",
+        "name": "KodeKloud",
+        "url": "https://kodekloud.com",
+        "description": "Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies.",
+        "category": "learning-resources",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
         "id": "learn-git-branching",
         "name": "Learn Git Branching",
         "url": "https://learngitbranching.js.org",
@@ -894,6 +1157,15 @@
         "name": "LearnCpp",
         "url": "https://www.learncpp.com",
         "description": "Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.",
+        "category": "learning-resources",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "learnopengl",
+        "name": "LearnOpenGL",
+        "url": "https://learnopengl.com",
+        "description": "Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals.",
         "category": "learning-resources",
         "date_added": "2026-07-01",
         "last_verified": "2026-07-01"
