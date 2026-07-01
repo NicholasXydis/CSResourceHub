@@ -210,10 +210,12 @@ def generate_readme():
                             row.append(r.get("location") or "TBD")
                         lines.append(f"| {' | '.join(row)} |\n")
                 else:
+                    lines.append("| Resource | Description |\n")
+                    lines.append("| --- | --- |\n")
                     for r in cat_resources:
                         name = f"[{r['name']}]({r['url']})"
                         desc = r.get("description", "")
-                        lines.append(f"- {name} — {desc}\n")
+                        lines.append(f"| {name} | {desc} |\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
             lines.append("\n")

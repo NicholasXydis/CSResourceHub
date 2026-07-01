@@ -56,49 +56,51 @@ Browse resources by area and category.
 
 **43 resources** · `learning-resources`
 
-- [A Tour of C++](https://www.stroustrup.com/tour3.html) — Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices.
-- [Bash Cheat Sheet](https://devhints.io/bash) — Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands.
-- [ByteByteGo](https://www.youtube.com/@ByteByteGo) — System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts.
-- [Compiler Explorer (Godbolt)](https://godbolt.org) — Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages.
-- [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) — Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security.
-- [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu) — Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance.
-- [Computerphile](https://www.youtube.com/@Computerphile) — Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts.
-- [CPUlator](https://cpulator.01xz.net) — Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems.
-- [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) — Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals.
-- [Designing Data-Intensive Applications](https://dataintensive.net) — Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture.
-- [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) — Official Docker quick reference covering the most common Docker CLI commands and workflows.
-- [Fireship](https://www.youtube.com/@Fireship) — Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech.
-- [freeCodeCamp](https://www.freecodecamp.org) — Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.
-- [Full Stack Open](https://fullstackopen.com/en) — A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment.
-- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) — Official GitHub one-page reference covering essential Git commands and workflows.
-- [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) — Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples.
-- [Hack The Box Academy](https://academy.hackthebox.com) — Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows.
-- [Hacker News](https://news.ycombinator.com) — Community-driven technology news and discussions about software engineering, startups, CS, and programming.
-- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) — MDN reference explaining all standard HTTP response status codes with definitions and usage.
-- [Hussein Nasser](https://www.youtube.com/@hnasr) — Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture.
-- [Learn Git Branching](https://learngitbranching.js.org) — Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows.
-- [LearnCpp](https://www.learncpp.com) — Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.
-- [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) — Official Red Hat reference for essential Linux commands used in development and system administration.
-- [Linux Journey](https://linuxjourney.com) — Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration.
-- [LiveOverflow](https://www.youtube.com/@LiveOverflow) — Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development.
-- [Low Level](https://www.youtube.com/LowLevelLearning) — Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing.
-- [MDN Web Docs](https://developer.mozilla.org) — The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla.
-- [Microsoft Learn](https://learn.microsoft.com) — Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools.
-- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) — Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage.
-- [OSSU Computer Science](https://github.com/ossu/computer-science) — A complete self-taught computer science curriculum using high-quality free online courses from leading universities.
-- [PowerShell Cheat Sheet](https://ss64.com/ps) — Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration.
-- [Real Python](https://realpython.com) — High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics.
-- [Refactoring.Guru](https://refactoring.guru) — Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture.
-- [roadmap.sh](https://roadmap.sh) — Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design.
-- [SQLBolt](https://sqlbolt.com) — Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries.
-- [The Cherno](https://www.youtube.com/@TheCherno) — High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming.
-- [The Linux Command Line](https://linuxcommand.org/tlcl.php) — Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools.
-- [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) — Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects.
-- [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com) — Engineering newsletter covering software development, big tech, system design, leadership, and industry trends.
-- [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) — Classic software engineering book covering practical programming techniques, best practices, and professional growth.
-- [TLDR Newsletter](https://tldr.tech) — Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news.
-- [TryHackMe](https://tryhackme.com) — Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense.
-- [VisuAlgo](https://visualgo.net) — Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps.
+| Resource | Description |
+| --- | --- |
+| [A Tour of C++](https://www.stroustrup.com/tour3.html) | Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices. |
+| [Bash Cheat Sheet](https://devhints.io/bash) | Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands. |
+| [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts. |
+| [Compiler Explorer (Godbolt)](https://godbolt.org) | Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages. |
+| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security. |
+| [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu) | Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance. |
+| [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts. |
+| [CPUlator](https://cpulator.01xz.net) | Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems. |
+| [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. |
+| [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture. |
+| [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) | Official Docker quick reference covering the most common Docker CLI commands and workflows. |
+| [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. |
+| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. |
+| [Full Stack Open](https://fullstackopen.com/en) | A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment. |
+| [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) | Official GitHub one-page reference covering essential Git commands and workflows. |
+| [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples. |
+| [Hack The Box Academy](https://academy.hackthebox.com) | Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows. |
+| [Hacker News](https://news.ycombinator.com) | Community-driven technology news and discussions about software engineering, startups, CS, and programming. |
+| [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | MDN reference explaining all standard HTTP response status codes with definitions and usage. |
+| [Hussein Nasser](https://www.youtube.com/@hnasr) | Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture. |
+| [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. |
+| [LearnCpp](https://www.learncpp.com) | Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics. |
+| [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) | Official Red Hat reference for essential Linux commands used in development and system administration. |
+| [Linux Journey](https://linuxjourney.com) | Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration. |
+| [LiveOverflow](https://www.youtube.com/@LiveOverflow) | Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development. |
+| [Low Level](https://www.youtube.com/LowLevelLearning) | Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing. |
+| [MDN Web Docs](https://developer.mozilla.org) | The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla. |
+| [Microsoft Learn](https://learn.microsoft.com) | Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools. |
+| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. |
+| [OSSU Computer Science](https://github.com/ossu/computer-science) | A complete self-taught computer science curriculum using high-quality free online courses from leading universities. |
+| [PowerShell Cheat Sheet](https://ss64.com/ps) | Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration. |
+| [Real Python](https://realpython.com) | High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics. |
+| [Refactoring.Guru](https://refactoring.guru) | Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture. |
+| [roadmap.sh](https://roadmap.sh) | Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design. |
+| [SQLBolt](https://sqlbolt.com) | Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries. |
+| [The Cherno](https://www.youtube.com/@TheCherno) | High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming. |
+| [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. |
+| [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) | Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects. |
+| [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com) | Engineering newsletter covering software development, big tech, system design, leadership, and industry trends. |
+| [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. |
+| [TLDR Newsletter](https://tldr.tech) | Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news. |
+| [TryHackMe](https://tryhackme.com) | Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense. |
+| [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps. |
 
 <a id="interview-prep"></a>
 
