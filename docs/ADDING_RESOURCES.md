@@ -26,7 +26,7 @@ make add
 - `id` must be unique across all files, lowercase, hyphens only
 - `last_verified` is required and should be the date the URL was checked
 - Use `month` only when a resource has a clear recurring or seasonal month
-- Use an exact `location` such as `Montreal, Quebec, Canada` when known
+- Use `location` only when the resource has a meaningful online or physical location
 - Use `Online` for fully virtual resources
 - Check [STYLE_GUIDE.md](./STYLE_GUIDE.md) before writing descriptions
 

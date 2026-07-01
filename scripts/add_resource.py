@@ -45,7 +45,10 @@ def add_resource():
     name = prompt("Name")
     url = prompt("URL (https://)")
     description = prompt("Description (one sentence, ends with period)")
-    location = prompt("Location (e.g. Online or Montreal, Quebec, Canada)")
+    location = prompt(
+        "Location (optional; e.g. Online or Montreal, Quebec, Canada)",
+        required=False,
+    )
     month = prompt("Month (optional)", required=False)
     date_added = prompt("Date added (YYYY-MM-DD)")
 
@@ -57,7 +60,8 @@ def add_resource():
         "category": category,
     }
 
-    resource["location"] = location
+    if location:
+        resource["location"] = location
     if month:
         resource["month"] = month
     if date_added:

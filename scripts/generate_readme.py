@@ -192,23 +192,28 @@ def generate_readme():
             lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
             if cat_resources:
                 has_month = any(r.get("month") for r in cat_resources)
-                if has_month:
-                    lines.append("| Resource | Description | Month | Location |\n")
-                    lines.append("| --- | --- | --- | --- |\n")
-                else:
-                    lines.append("| Resource | Description | Location |\n")
-                    lines.append("| --- | --- | --- |\n")
-                for r in cat_resources:
-                    name = f"[{r['name']}]({r['url']})"
-                    desc = r.get("description", "")
-                    location = r.get("location", "")
+                has_location = any(r.get("location") for r in cat_resources)
+                if has_month or has_location:
+                    headers = ["Resource", "Description"]
                     if has_month:
-                        month = r.get("month") or "Ongoing"
-                        lines.append(
-                            f"| {name} | {desc} | {month} | {location} |\n"
-                        )
-                    else:
-                        lines.append(f"| {name} | {desc} | {location} |\n")
+                        headers.append("Month")
+                    if has_location:
+                        headers.append("Location")
+                    lines.append(f"| {' | '.join(headers)} |\n")
+                    lines.append(f"| {' | '.join('---' for _ in headers)} |\n")
+                    for r in cat_resources:
+                        name = f"[{r['name']}]({r['url']})"
+                        row = [name, r.get("description", "")]
+                        if has_month:
+                            row.append(r.get("month") or "Ongoing")
+                        if has_location:
+                            row.append(r.get("location") or "TBD")
+                        lines.append(f"| {' | '.join(row)} |\n")
+                else:
+                    for r in cat_resources:
+                        name = f"[{r['name']}]({r['url']})"
+                        desc = r.get("description", "")
+                        lines.append(f"- {name} — {desc}\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
             lines.append("\n")

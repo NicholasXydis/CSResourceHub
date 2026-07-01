@@ -13,7 +13,6 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | `url`         | string  | Full URL including https://                  | `"https://ctf.uoftctf.org"`         |
 | `description` | string  | One sentence, ends with period               | `"Beginner-friendly CTF platform."` |
 | `category`    | string  | Must match folder name                       | `"ctfs"`                            |
-| `location`    | string  | Exact location or `Online`                   | `"Montreal, Quebec, Canada"`        |
 | `date_added`  | string  | ISO date last added                          | `"2026-06-15"`                      |
 | `last_verified` | string | ISO date last URL was confirmed active      | `"2026-06-15"`                      |
 
@@ -22,6 +21,7 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | Field           | Type   | Description                              | Example        |
 | --------------- | ------ | ---------------------------------------- | -------------- |
 | `month`         | string | Month name for recurring or seasonal resources | `"March"` |
+| `location`      | string | Exact location or `Online` when useful | `"Montreal, Quebec, Canada"` |
 
 ## Example Entry
 

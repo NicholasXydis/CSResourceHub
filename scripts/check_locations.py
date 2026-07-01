@@ -11,9 +11,11 @@ def check_locations():
     for path in get_all_resource_files():
         data = load_json(path)
         for resource in data.get("resources", []):
+            if "location" not in resource:
+                continue
             location = resource.get("location")
             if not isinstance(location, str) or not location.strip():
-                log(f"❌ {resource.get('id')}: missing location")
+                log(f"❌ {resource.get('id')}: invalid location")
                 errors_found = True
                 continue
             if location.strip() in BANNED_LOCATIONS:

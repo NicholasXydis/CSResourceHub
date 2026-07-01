@@ -2,14 +2,391 @@
   "category": "learning-resources",
   "resources": [
     {
-      "id": "ctftime",
-      "name": "CTFtime",
-      "url": "https://ctftime.org",
-      "description": "Global directory of CTF competitions with ratings, team rankings, writeups, and an event calendar.",
+      "id": "a-tour-of-cpp",
+      "name": "A Tour of C++",
+      "url": "https://www.stroustrup.com/tour3.html",
+      "description": "Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices.",
       "category": "learning-resources",
-      "location": "Online",
-      "date_added": "2026-06-17",
-      "last_verified": "2026-06-29"
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "bash-cheat-sheet",
+      "name": "Bash Cheat Sheet",
+      "url": "https://devhints.io/bash",
+      "description": "Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "bytebytego",
+      "name": "ByteByteGo",
+      "url": "https://www.youtube.com/@ByteByteGo",
+      "description": "System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "compiler-explorer",
+      "name": "Compiler Explorer (Godbolt)",
+      "url": "https://godbolt.org",
+      "description": "Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "computer-networking-a-top-down-approach",
+      "name": "Computer Networking: A Top-Down Approach",
+      "url": "https://gaia.cs.umass.edu/kurose_ross/index.php",
+      "description": "Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "computer-systems-a-programmers-perspective",
+      "name": "Computer Systems: A Programmer's Perspective",
+      "url": "https://csapp.cs.cmu.edu",
+      "description": "Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "computerphile",
+      "name": "Computerphile",
+      "url": "https://www.youtube.com/@Computerphile",
+      "description": "Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "cpulator",
+      "name": "CPUlator",
+      "url": "https://cpulator.01xz.net",
+      "description": "Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "cs50x",
+      "name": "CS50x: Introduction to Computer Science",
+      "url": "https://cs50.harvard.edu/x",
+      "description": "Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "designing-data-intensive-applications",
+      "name": "Designing Data-Intensive Applications",
+      "url": "https://dataintensive.net",
+      "description": "Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "docker-cli-cheat-sheet",
+      "name": "Docker CLI Cheat Sheet",
+      "url": "https://docs.docker.com/get-started/docker_cheatsheet.pdf",
+      "description": "Official Docker quick reference covering the most common Docker CLI commands and workflows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "fireship",
+      "name": "Fireship",
+      "url": "https://www.youtube.com/@Fireship",
+      "description": "Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "full-stack-open",
+      "name": "Full Stack Open",
+      "url": "https://fullstackopen.com/en",
+      "description": "A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "git-cheat-sheet",
+      "name": "Git Cheat Sheet",
+      "url": "https://education.github.com/git-cheat-sheet-education.pdf",
+      "description": "Official GitHub one-page reference covering essential Git commands and workflows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "grokking-algorithms",
+      "name": "Grokking Algorithms",
+      "url": "https://www.manning.com/books/grokking-algorithms",
+      "description": "Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "hack-the-box-academy",
+      "name": "Hack The Box Academy",
+      "url": "https://academy.hackthebox.com",
+      "description": "Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "description": "Community-driven technology news and discussions about software engineering, startups, CS, and programming.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "http-status-codes",
+      "name": "HTTP Status Codes",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status",
+      "description": "MDN reference explaining all standard HTTP response status codes with definitions and usage.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "hussein-nasser",
+      "name": "Hussein Nasser",
+      "url": "https://www.youtube.com/@hnasr",
+      "description": "Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "learn-git-branching",
+      "name": "Learn Git Branching",
+      "url": "https://learngitbranching.js.org",
+      "description": "Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "learncpp",
+      "name": "LearnCpp",
+      "url": "https://www.learncpp.com",
+      "description": "Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "linux-commands-cheat-sheet",
+      "name": "Linux Commands Cheat Sheet",
+      "url": "https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet",
+      "description": "Official Red Hat reference for essential Linux commands used in development and system administration.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "linux-journey",
+      "name": "Linux Journey",
+      "url": "https://linuxjourney.com",
+      "description": "Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "liveoverflow",
+      "name": "LiveOverflow",
+      "url": "https://www.youtube.com/@LiveOverflow",
+      "description": "Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "low-level",
+      "name": "Low Level",
+      "url": "https://www.youtube.com/LowLevelLearning",
+      "description": "Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "mdn-web-docs",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "description": "The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "microsoft-learn",
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com",
+      "description": "Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "operating-systems-three-easy-pieces",
+      "name": "Operating Systems: Three Easy Pieces",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP",
+      "description": "Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "ossu-computer-science",
+      "name": "OSSU Computer Science",
+      "url": "https://github.com/ossu/computer-science",
+      "description": "A complete self-taught computer science curriculum using high-quality free online courses from leading universities.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "powershell-cheat-sheet",
+      "name": "PowerShell Cheat Sheet",
+      "url": "https://ss64.com/ps",
+      "description": "Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "real-python",
+      "name": "Real Python",
+      "url": "https://realpython.com",
+      "description": "High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "refactoring-guru",
+      "name": "Refactoring.Guru",
+      "url": "https://refactoring.guru",
+      "description": "Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "roadmap-sh",
+      "name": "roadmap.sh",
+      "url": "https://roadmap.sh",
+      "description": "Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "sqlbolt",
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com",
+      "description": "Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "the-cherno",
+      "name": "The Cherno",
+      "url": "https://www.youtube.com/@TheCherno",
+      "description": "High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "the-linux-command-line",
+      "name": "The Linux Command Line",
+      "url": "https://linuxcommand.org/tlcl.php",
+      "description": "Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "the-organic-chemistry-tutor",
+      "name": "The Organic Chemistry Tutor",
+      "url": "https://www.youtube.com/@TheOrganicChemistryTutor",
+      "description": "Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "the-pragmatic-engineer",
+      "name": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com",
+      "description": "Engineering newsletter covering software development, big tech, system design, leadership, and industry trends.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "the-pragmatic-programmer",
+      "name": "The Pragmatic Programmer",
+      "url": "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition",
+      "description": "Classic software engineering book covering practical programming techniques, best practices, and professional growth.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "tldr",
+      "name": "TLDR Newsletter",
+      "url": "https://tldr.tech",
+      "description": "Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "tryhackme",
+      "name": "TryHackMe",
+      "url": "https://tryhackme.com",
+      "description": "Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
+    },
+    {
+      "id": "visualgo",
+      "name": "VisuAlgo",
+      "url": "https://visualgo.net",
+      "description": "Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01"
     }
   ]
 }

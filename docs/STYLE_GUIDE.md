@@ -41,6 +41,7 @@ Bad: `"ctf.uoftctf.org"`, `"https://ctf.uoftctf.org/"`
 
 - `last_verified` is required for every resource
 - Use `month` only for recurring or seasonal resources with a clear month
+- Use `location` only when the resource has a meaningful online or physical location
 
 ## Locations
 
