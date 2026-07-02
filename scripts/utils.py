@@ -16,7 +16,7 @@ CATEGORY_LABELS = {
     "game-jams": "Game Jams",
     "competitions": "Competitions",
     "open-source": "Open Source",
-    "useful-repositories": "Useful Repositories",
+    "developer-resources": "Developer Resources",
     "project-based-learning": "Project-Based Learning",
     "internships-fellowships": "Internships & Fellowships",
     "recruitment-events": "Recruitment & Events",
@@ -38,7 +38,7 @@ CATEGORY_GROUPS = {
     ],
     "Building & Open Source": [
         "open-source",
-        "useful-repositories",
+        "developer-resources",
         "project-based-learning",
     ],
     "Careers & Perks": [

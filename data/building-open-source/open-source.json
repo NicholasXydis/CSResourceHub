@@ -142,16 +142,6 @@
       "type": "project"
     },
     {
-      "id": "hugging-face",
-      "name": "Hugging Face",
-      "url": "https://huggingface.co",
-      "description": "Explore open models, datasets, machine learning libraries, and AI developer tooling.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
-      "type": "project"
-    },
-    {
       "id": "kde",
       "name": "KDE",
       "url": "https://kde.org",

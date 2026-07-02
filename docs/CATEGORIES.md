@@ -16,7 +16,7 @@
 ## Building & Open Source
 
 - **open-source** — Guides and resources for getting started with open source
-- **useful-repositories** — Useful repositories to learn from or contribute to
+- **developer-resources** — Developer resources to learn from or use while building projects
 - **project-based-learning** — Project-based tutorials, build-along resources, and hands-on learning projects
 
 ## Careers & Perks

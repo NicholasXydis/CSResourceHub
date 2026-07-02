@@ -11,7 +11,7 @@ CATEGORIES = {
     "6": ("experience-involvement", "game-jams"),
     "7": ("experience-involvement", "competitions"),
     "8": ("building-open-source", "open-source"),
-    "9": ("building-open-source", "useful-repositories"),
+    "9": ("building-open-source", "developer-resources"),
     "10": ("building-open-source", "project-based-learning"),
     "11": ("careers-perks", "internships-fellowships"),
     "12": ("careers-perks", "recruitment-events"),
@@ -47,6 +47,12 @@ RESOURCE_TYPES_BY_CATEGORY = {
         "project",
         "resource",
     },
+    "developer-resources": {
+        "api",
+        "data",
+        "frontend",
+        "tool",
+    },
 }
 def prompt(label, required=True):
     while True:
@@ -75,7 +81,7 @@ def add_resource():
     url = prompt("URL (https://)")
     description = prompt("Description (one sentence, ends with period)")
     resource_type = prompt(
-        "Type (optional; category-specific, e.g. course, platform, discord, project)",
+        "Type (optional; category-specific, e.g. course, platform, api, tool)",
         required=False,
     )
     location = prompt(

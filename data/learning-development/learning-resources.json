@@ -222,6 +222,26 @@
       "type": "news"
     },
     {
+      "id": "awesome",
+      "name": "Awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "description": "Curated index of high-quality software, tools, libraries, and learning resources.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "reference"
+    },
+    {
+      "id": "awesome-docker",
+      "name": "Awesome Docker",
+      "url": "https://github.com/veggiemonk/awesome-docker",
+      "description": "Curated Docker tools, tutorials, images, and best practices.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "reference"
+    },
+    {
       "id": "bash-cheat-sheet",
       "name": "Bash Cheat Sheet",
       "url": "https://devhints.io/bash",
@@ -229,6 +249,36 @@
       "category": "learning-resources",
       "date_added": "2026-07-01",
       "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "cheat-sh",
+      "name": "cheat.sh",
+      "url": "https://cheat.sh",
+      "description": "Concise cheat sheets and examples for languages, frameworks, and command-line tools.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "reference"
+    },
+    {
+      "id": "devdocs",
+      "name": "DevDocs",
+      "url": "https://devdocs.io",
+      "description": "Unified documentation search for many programming languages and frameworks.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "reference"
+    },
+    {
+      "id": "devhints",
+      "name": "Devhints",
+      "url": "https://devhints.io",
+      "description": "Concise cheat sheets for programming languages, frameworks, Git, Docker, SQL, and developer tools.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -262,6 +312,16 @@
       "type": "reference"
     },
     {
+      "id": "linux-command-library",
+      "name": "Linux Command Library",
+      "url": "https://linuxcommandlibrary.com",
+      "description": "Searchable reference for Linux commands, options, examples, and manual pages.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "reference"
+    },
+    {
       "id": "linux-commands-cheat-sheet",
       "name": "Linux Commands Cheat Sheet",
       "url": "https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet",
@@ -279,6 +339,16 @@
       "category": "learning-resources",
       "date_added": "2026-07-01",
       "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "owasp-cheat-sheet",
+      "name": "OWASP Top 10 Cheat Sheets",
+      "url": "https://cheatsheetseries.owasp.org/IndexTopTen.html",
+      "description": "Security implementation guides mapped to common web application risks.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -312,6 +382,16 @@
       "type": "tool"
     },
     {
+      "id": "desmos",
+      "name": "Desmos",
+      "url": "https://www.desmos.com",
+      "description": "Interactive graphing calculator for visualizing functions, equations, and data.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "tool"
+    },
+    {
       "id": "learn-git-branching",
       "name": "Learn Git Branching",
       "url": "https://learngitbranching.js.org",
@@ -322,6 +402,16 @@
       "type": "tool"
     },
     {
+      "id": "oeis",
+      "name": "OEIS",
+      "url": "https://oeis.org",
+      "description": "Searchable database of integer sequences for math, algorithms, and competitive programming.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "tool"
+    },
+    {
       "id": "visualgo",
       "name": "VisuAlgo",
       "url": "https://visualgo.net",
@@ -329,6 +419,16 @@
       "category": "learning-resources",
       "date_added": "2026-07-01",
       "last_verified": "2026-07-01",
+      "type": "tool"
+    },
+    {
+      "id": "wolfram-alpha",
+      "name": "Wolfram|Alpha",
+      "url": "https://www.wolframalpha.com",
+      "description": "Computational knowledge engine for math, science, engineering, and statistics problems.",
+      "category": "learning-resources",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
       "type": "tool"
     },
     {

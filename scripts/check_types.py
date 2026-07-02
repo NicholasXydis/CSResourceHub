@@ -28,6 +28,12 @@ ALLOWED_TYPES_BY_CATEGORY = {
         "project",
         "resource",
     },
+    "developer-resources": {
+        "api",
+        "data",
+        "frontend",
+        "tool",
+    },
 }
 
 

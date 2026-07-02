@@ -107,7 +107,8 @@ def resource_sort_key(resource: dict):
 
 
 def format_type(resource_type: str) -> str:
-    return resource_type.replace("-", " ").title()
+    label = resource_type.replace("-", " ").replace("_", " ").title()
+    return label.replace("Api", "API")
 
 
 def generate_readme():

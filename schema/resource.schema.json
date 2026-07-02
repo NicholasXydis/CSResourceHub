@@ -43,7 +43,7 @@
         "game-jams",
         "competitions",
         "open-source",
-        "useful-repositories",
+        "developer-resources",
         "project-based-learning",
         "internships-fellowships",
         "recruitment-events",
@@ -68,7 +68,10 @@
         "organization",
         "reddit",
         "project",
-        "resource"
+        "resource",
+        "api",
+        "data",
+        "frontend"
       ]
     },
     "location": {

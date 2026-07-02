@@ -32,6 +32,7 @@ Allowed `type` values are category-specific:
 | `interview-prep` | `book`, `course`, `guide`, `platform`, `tool` |
 | `communities-clubs` | `club`, `discord`, `organization`, `reddit` |
 | `open-source` | `project`, `organization`, `resource` |
+| `developer-resources` | `frontend`, `api`, `data`, `tool` |
 
 ## Example Entry
 

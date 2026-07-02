@@ -1,4 +1,50 @@
 id,name,url,description,category,type,month,location,date_added,last_verified
+alpha-vantage,Alpha Vantage,https://www.alphavantage.co,"API for stocks, ETFs, forex, cryptocurrency, fundamentals, and technical indicators.",developer-resources,api,,,2026-07-02,2026-07-02
+api-list,API List,https://apislist.com,Directory for discovering public APIs across many categories and use cases.,developer-resources,api,,,2026-07-02,2026-07-02
+hoppscotch,Hoppscotch,https://hoppscotch.io,"Test REST, GraphQL, WebSocket, and other APIs from the browser.",developer-resources,api,,,2026-07-02,2026-07-02
+public-apis,Public APIs,https://github.com/public-apis/public-apis,Large GitHub collection of free public APIs for applications and prototypes.,developer-resources,api,,,2026-07-02,2026-07-02
+awesome-public-datasets,Awesome Public Datasets,https://github.com/awesomedata/awesome-public-datasets,"Discover curated public datasets across many domains for projects, analytics, and machine learning.",developer-resources,data,,,2026-07-02,2026-07-02
+fred,FRED,https://fred.stlouisfed.org,"Economic dataset portal for rates, inflation, employment, GDP, and financial indicators.",developer-resources,data,,,2026-07-02,2026-07-02
+google-dataset-search,Google Dataset Search,https://datasetsearch.research.google.com,"Search engine for public datasets from universities, governments, and research groups.",developer-resources,data,,,2026-07-02,2026-07-02
+hugging-face,Hugging Face,https://huggingface.co,"Platform for open AI models, datasets, Spaces, and machine learning tools.",developer-resources,data,,,2026-07-02,2026-07-02
+kaggle-datasets,Kaggle Datasets,https://www.kaggle.com/datasets,Access a large collection of community datasets for data science and analytics.,developer-resources,data,,,2026-07-02,2026-07-02
+aceternity-ui,Aceternity UI,https://ui.aceternity.com,Build polished interfaces with premium-quality React components.,developer-resources,frontend,,,2026-07-02,2026-07-02
+framer-motion,Framer Motion,https://motion.dev,Create smooth animations and interactions for React applications.,developer-resources,frontend,,,2026-07-02,2026-07-02
+gsap,GSAP,https://gsap.com,Create high-performance web animations with a production-ready animation library.,developer-resources,frontend,,,2026-07-02,2026-07-02
+lucide,Lucide,https://lucide.dev,"Use an open-source, customizable icon library for modern applications.",developer-resources,frontend,,,2026-07-02,2026-07-02
+magic-ui,Magic UI,https://magicui.design,Use animated React components built for modern user interfaces.,developer-resources,frontend,,,2026-07-02,2026-07-02
+radix-ui,Radix UI,https://www.radix-ui.com,"Build accessible, unstyled UI primitives for custom component systems.",developer-resources,frontend,,,2026-07-02,2026-07-02
+shadcn-ui,shadcn/ui,https://ui.shadcn.com,Build reusable React components with Radix UI and Tailwind CSS.,developer-resources,frontend,,,2026-07-02,2026-07-02
+alternative-to,AlternativeTo,https://alternativeto.net,"Discover open-source and commercial alternatives to software, apps, and online services.",developer-resources,tool,,,2026-07-02,2026-07-02
+awesome-selfhosted,Awesome Selfhosted,https://github.com/awesome-selfhosted/awesome-selfhosted,"Curated collection of self-hosted software for development, collaboration, AI, and cloud services.",developer-resources,tool,,,2026-07-02,2026-07-02
+bundlephobia,Bundlephobia,https://bundlephobia.com,"Analyze package size, dependencies, and installation impact before adding libraries.",developer-resources,tool,,,2026-07-02,2026-07-02
+carbon,Carbon,https://carbon.now.sh,"Create customizable code screenshots for documentation, READMEs, presentations, and social media.",developer-resources,tool,,,2026-07-02,2026-07-02
+cloudcraft,Cloudcraft,https://cloudcraft.co,"Design, visualize, and document cloud architectures with interactive AWS infrastructure diagrams.",developer-resources,tool,,,2026-07-02,2026-07-02
+coolify,Coolify,https://coolify.io,"Self-host and deploy applications, databases, and services with an open-source platform.",developer-resources,tool,,,2026-07-02,2026-07-02
+cyberchef,CyberChef,https://gchq.github.io/CyberChef,"Web toolkit for encoding, decoding, encryption, hashing, compression, conversion, and forensics.",developer-resources,tool,,,2026-07-02,2026-07-02
+dbdiagram,dbdiagram.io,https://dbdiagram.io,Design and visualize database schemas using DBML.,developer-resources,tool,,,2026-07-02,2026-07-02
+devicon,Devicon,https://devicon.dev,"Find technology icons for documentation, portfolios, and developer projects.",developer-resources,tool,,,2026-07-02,2026-07-02
+excalidraw,Excalidraw,https://excalidraw.com,"Create hand-drawn style diagrams, architecture sketches, and flowcharts.",developer-resources,tool,,,2026-07-02,2026-07-02
+figma,Figma,https://www.figma.com,"Design interfaces, wireframes, and prototypes with real-time collaboration.",developer-resources,tool,,,2026-07-02,2026-07-02
+free-for-dev,Free-for-Dev,https://github.com/ripienaar/free-for-dev,"Find free tiers and services for hosting, databases, APIs, CI/CD, AI, and developer tools.",developer-resources,tool,,,2026-07-02,2026-07-02
+freesound,Freesound,https://freesound.org,"Community sound library for effects, ambience, and audio clips for games and apps.",developer-resources,tool,,,2026-07-02,2026-07-02
+github-topics,GitHub Topics,https://github.com/topics,"Discover open-source projects, frameworks, libraries, and tools by technology, language, or domain.",developer-resources,tool,,,2026-07-02,2026-07-02
+gitignore,gitignore,https://github.com/github/gitignore,Generate language- and framework-specific .gitignore templates.,developer-resources,tool,,,2026-07-02,2026-07-02
+it-tools,IT Tools,https://it-tools.tech,"Browser utilities for JSON, UUIDs, JWTs, hashing, encoding, QR codes, and timestamps.",developer-resources,tool,,,2026-07-02,2026-07-02
+itch-io-game-assets,itch.io Game Assets,https://itch.io/game-assets/free,"Free game asset marketplace with sprites, UI packs, audio, shaders, animations, and 3D models.",developer-resources,tool,,,2026-07-02,2026-07-02
+kenney-assets,Kenney Assets,https://kenney.nl/assets,"Free 2D, 3D, UI, audio, and game development asset library.",developer-resources,tool,,,2026-07-02,2026-07-02
+mixamo,Mixamo,https://www.mixamo.com,Online tool for rigging 3D characters and creating character animations.,developer-resources,tool,,,2026-07-02,2026-07-02
+mockaroo,Mockaroo,https://mockaroo.com,"Generate up to 1,000 rows of realistic, customized mock data in JSON, CSV, or SQL formats to test your applications.",developer-resources,tool,,,2026-07-02,2026-07-02
+ngrok,ngrok,https://ngrok.com,Create secure public URLs for local services to test webhooks and integrations.,developer-resources,tool,,,2026-07-02,2026-07-02
+open-game-art,OpenGameArt,https://opengameart.org,"Community asset library for sprites, textures, music, sound effects, and 3D models.",developer-resources,tool,,,2026-07-02,2026-07-02
+pixabay,Pixabay,https://pixabay.com,"Free image, illustration, video, music, and sound effect library for projects.",developer-resources,tool,,,2026-07-02,2026-07-02
+playwright,Playwright,https://playwright.dev,Automate browsers for end-to-end testing and web automation.,developer-resources,tool,,,2026-07-02,2026-07-02
+poly-pizza,Poly Pizza,https://poly.pizza,"Free low-poly 3D model library for games, simulations, prototypes, and interactive apps.",developer-resources,tool,,,2026-07-02,2026-07-02
+quicktype,Quicktype,https://quicktype.io,"Generate typed models and serializers from JSON, JSON Schema, GraphQL, and TypeScript.",developer-resources,tool,,,2026-07-02,2026-07-02
+responsively-app,Responsively App,https://responsively.app,Develop and test responsive websites across synchronized device viewports.,developer-resources,tool,,,2026-07-02,2026-07-02
+shields-io,Shields.io,https://shields.io,Generate customizable badges for READMEs and documentation.,developer-resources,tool,,,2026-07-02,2026-07-02
+squoosh,Squoosh,https://squoosh.app,Compress and optimize images for the web.,developer-resources,tool,,,2026-07-02,2026-07-02
+svg-repo,SVG Repo,https://www.svgrepo.com,"Browse free SVG icons, illustrations, and vectors.",developer-resources,tool,,,2026-07-02,2026-07-02
 apache,Apache Software Foundation,https://apache.org,"Explore established open-source projects across servers, data systems, developer tooling, and infrastructure.",open-source,organization,,,2026-07-01,2026-07-01
 cncf,Cloud Native Computing Foundation,https://www.cncf.io,"Find cloud-native projects for containers, orchestration, service meshes, networking, and observability.",open-source,organization,,,2026-07-01,2026-07-01
 eclipse-foundation,Eclipse Foundation,https://www.eclipse.org,"Explore developer tools, runtimes, IoT platforms, and frameworks maintained by open-source communities.",open-source,organization,,,2026-07-01,2026-07-01
@@ -13,7 +59,6 @@ gnome,GNOME,https://www.gnome.org,"Explore Linux desktop apps, libraries, access
 godot,Godot Engine,https://godotengine.org,Build 2D and 3D games with a beginner-friendly open-source engine.,open-source,project,,,2026-07-01,2026-07-01
 grafana,Grafana,https://grafana.com/oss,"Explore dashboards, metrics, logs, and observability tools used in production systems.",open-source,project,,,2026-07-01,2026-07-01
 home-assistant,Home Assistant,https://www.home-assistant.io,Automate smart homes and contribute to a large Python-based IoT project.,open-source,project,,,2026-07-01,2026-07-01
-hugging-face,Hugging Face,https://huggingface.co,"Explore open models, datasets, machine learning libraries, and AI developer tooling.",open-source,project,,,2026-07-01,2026-07-01
 kde,KDE,https://kde.org,"Contribute to Linux desktop apps, frameworks, and cross-platform user tools.",open-source,project,,,2026-07-01,2026-07-01
 linux-kernel,Linux Kernel,https://kernel.org,Study operating system internals and contribute to core Linux infrastructure.,open-source,project,,,2026-07-01,2026-07-01
 neovim,Neovim,https://neovim.io,"Customize and improve a fast, extensible editor used by many developers.",open-source,project,,,2026-07-01,2026-07-01
@@ -169,17 +214,27 @@ tryhackme,TryHackMe,https://tryhackme.com,"Hands-on cybersecurity platform cover
 hacker-news,Hacker News,https://news.ycombinator.com,"Community-driven technology news and discussions about software engineering, startups, CS, and programming.",learning-resources,news,,,2026-07-01,2026-07-01
 the-pragmatic-engineer,The Pragmatic Engineer,https://newsletter.pragmaticengineer.com,"Engineering newsletter covering software development, big tech, system design, leadership, and industry trends.",learning-resources,news,,,2026-07-01,2026-07-01
 tldr,TLDR Newsletter,https://tldr.tech,"Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news.",learning-resources,news,,,2026-07-01,2026-07-01
+awesome,Awesome,https://github.com/sindresorhus/awesome,"Curated index of high-quality software, tools, libraries, and learning resources.",learning-resources,reference,,,2026-07-02,2026-07-02
+awesome-docker,Awesome Docker,https://github.com/veggiemonk/awesome-docker,"Curated Docker tools, tutorials, images, and best practices.",learning-resources,reference,,,2026-07-02,2026-07-02
 bash-cheat-sheet,Bash Cheat Sheet,https://devhints.io/bash,"Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands.",learning-resources,reference,,,2026-07-01,2026-07-01
+cheat-sh,cheat.sh,https://cheat.sh,"Concise cheat sheets and examples for languages, frameworks, and command-line tools.",learning-resources,reference,,,2026-07-02,2026-07-02
+devdocs,DevDocs,https://devdocs.io,Unified documentation search for many programming languages and frameworks.,learning-resources,reference,,,2026-07-02,2026-07-02
+devhints,Devhints,https://devhints.io,"Concise cheat sheets for programming languages, frameworks, Git, Docker, SQL, and developer tools.",learning-resources,reference,,,2026-07-02,2026-07-02
 docker-cli-cheat-sheet,Docker CLI Cheat Sheet,https://docs.docker.com/get-started/docker_cheatsheet.pdf,Official Docker quick reference covering the most common Docker CLI commands and workflows.,learning-resources,reference,,,2026-07-01,2026-07-01
 git-cheat-sheet,Git Cheat Sheet,https://education.github.com/git-cheat-sheet-education.pdf,Official GitHub one-page reference covering essential Git commands and workflows.,learning-resources,reference,,,2026-07-01,2026-07-01
 http-status-codes,HTTP Status Codes,https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status,MDN reference explaining all standard HTTP response status codes with definitions and usage.,learning-resources,reference,,,2026-07-01,2026-07-01
+linux-command-library,Linux Command Library,https://linuxcommandlibrary.com,"Searchable reference for Linux commands, options, examples, and manual pages.",learning-resources,reference,,,2026-07-02,2026-07-02
 linux-commands-cheat-sheet,Linux Commands Cheat Sheet,https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet,Official Red Hat reference for essential Linux commands used in development and system administration.,learning-resources,reference,,,2026-07-01,2026-07-01
 mdn-web-docs,MDN Web Docs,https://developer.mozilla.org,"The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla.",learning-resources,reference,,,2026-07-01,2026-07-01
+owasp-cheat-sheet,OWASP Top 10 Cheat Sheets,https://cheatsheetseries.owasp.org/IndexTopTen.html,Security implementation guides mapped to common web application risks.,learning-resources,reference,,,2026-07-02,2026-07-02
 powershell-cheat-sheet,PowerShell Cheat Sheet,https://ss64.com/ps,"Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration.",learning-resources,reference,,,2026-07-01,2026-07-01
 compiler-explorer,Compiler Explorer (Godbolt),https://godbolt.org,"Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages.",learning-resources,tool,,,2026-07-01,2026-07-01
 cpulator,CPUlator,https://cpulator.01xz.net,"Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems.",learning-resources,tool,,,2026-07-01,2026-07-01
+desmos,Desmos,https://www.desmos.com,"Interactive graphing calculator for visualizing functions, equations, and data.",learning-resources,tool,,,2026-07-02,2026-07-02
 learn-git-branching,Learn Git Branching,https://learngitbranching.js.org,"Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows.",learning-resources,tool,,,2026-07-01,2026-07-01
+oeis,OEIS,https://oeis.org,"Searchable database of integer sequences for math, algorithms, and competitive programming.",learning-resources,tool,,,2026-07-02,2026-07-02
 visualgo,VisuAlgo,https://visualgo.net,"Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps.",learning-resources,tool,,,2026-07-01,2026-07-01
+wolfram-alpha,Wolfram|Alpha,https://www.wolframalpha.com,"Computational knowledge engine for math, science, engineering, and statistics problems.",learning-resources,tool,,,2026-07-02,2026-07-02
 bytebytego,ByteByteGo,https://www.youtube.com/@ByteByteGo,"System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts.",learning-resources,video,,,2026-07-01,2026-07-01
 computerphile,Computerphile,https://www.youtube.com/@Computerphile,"Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts.",learning-resources,video,,,2026-07-01,2026-07-01
 fireship,Fireship,https://www.youtube.com/@Fireship,"Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech.",learning-resources,video,,,2026-07-01,2026-07-01

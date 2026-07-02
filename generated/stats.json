@@ -1,16 +1,16 @@
 {
-  "generated": "2026-07-01",
-  "total": 195,
+  "generated": "2026-07-02",
+  "total": 250,
   "categories": {
-    "learning-resources": 47,
+    "learning-resources": 57,
     "interview-prep": 26,
     "communities-clubs": 22,
     "hackathons": 23,
     "ctfs": 15,
     "game-jams": 11,
     "competitions": 14,
-    "open-source": 37,
-    "useful-repositories": 0,
+    "open-source": 36,
+    "developer-resources": 46,
     "project-based-learning": 0,
     "internships-fellowships": 0,
     "recruitment-events": 0,
@@ -19,9 +19,9 @@
   },
   "groups": {
     "Learning & Development": {
-      "total": 95,
+      "total": 105,
       "categories": {
-        "learning-resources": 47,
+        "learning-resources": 57,
         "interview-prep": 26,
         "communities-clubs": 22
       }
@@ -36,10 +36,10 @@
       }
     },
     "Building & Open Source": {
-      "total": 37,
+      "total": 82,
       "categories": {
-        "open-source": 37,
-        "useful-repositories": 0,
+        "open-source": 36,
+        "developer-resources": 46,
         "project-based-learning": 0
       }
     },

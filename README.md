@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=195&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=250&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-02&color=7c3aed)
 
 </div>
 
@@ -42,9 +42,9 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (47)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (57)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
-| 🧩 Building & Open Source | [Open Source](#open-source) (37)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project-Based Learning](#project-based-learning) (0) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
 
@@ -54,7 +54,7 @@ Browse resources by area and category.
 
 ### Learning Resources
 
-**47 resources** · `learning-resources`
+**57 resources** · `learning-resources`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -80,17 +80,27 @@ Browse resources by area and category.
 | [Hacker News](https://news.ycombinator.com) | Community-driven technology news and discussions about software engineering, startups, CS, and programming. | News |
 | [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com) | Engineering newsletter covering software development, big tech, system design, leadership, and industry trends. | News |
 | [TLDR Newsletter](https://tldr.tech) | Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news. | News |
+| [Awesome](https://github.com/sindresorhus/awesome) | Curated index of high-quality software, tools, libraries, and learning resources. | Reference |
+| [Awesome Docker](https://github.com/veggiemonk/awesome-docker) | Curated Docker tools, tutorials, images, and best practices. | Reference |
 | [Bash Cheat Sheet](https://devhints.io/bash) | Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands. | Reference |
+| [cheat.sh](https://cheat.sh) | Concise cheat sheets and examples for languages, frameworks, and command-line tools. | Reference |
+| [DevDocs](https://devdocs.io) | Unified documentation search for many programming languages and frameworks. | Reference |
+| [Devhints](https://devhints.io) | Concise cheat sheets for programming languages, frameworks, Git, Docker, SQL, and developer tools. | Reference |
 | [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) | Official Docker quick reference covering the most common Docker CLI commands and workflows. | Reference |
 | [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) | Official GitHub one-page reference covering essential Git commands and workflows. | Reference |
 | [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | MDN reference explaining all standard HTTP response status codes with definitions and usage. | Reference |
+| [Linux Command Library](https://linuxcommandlibrary.com) | Searchable reference for Linux commands, options, examples, and manual pages. | Reference |
 | [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) | Official Red Hat reference for essential Linux commands used in development and system administration. | Reference |
 | [MDN Web Docs](https://developer.mozilla.org) | The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla. | Reference |
+| [OWASP Top 10 Cheat Sheets](https://cheatsheetseries.owasp.org/IndexTopTen.html) | Security implementation guides mapped to common web application risks. | Reference |
 | [PowerShell Cheat Sheet](https://ss64.com/ps) | Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration. | Reference |
 | [Compiler Explorer (Godbolt)](https://godbolt.org) | Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages. | Tool |
 | [CPUlator](https://cpulator.01xz.net) | Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems. | Tool |
+| [Desmos](https://www.desmos.com) | Interactive graphing calculator for visualizing functions, equations, and data. | Tool |
 | [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. | Tool |
+| [OEIS](https://oeis.org) | Searchable database of integer sequences for math, algorithms, and competitive programming. | Tool |
 | [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps. | Tool |
+| [Wolfram|Alpha](https://www.wolframalpha.com) | Computational knowledge engine for math, science, engineering, and statistics problems. | Tool |
 | [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts. | Video |
 | [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts. | Video |
 | [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. | Video |
@@ -281,7 +291,7 @@ Browse resources by area and category.
 
 ### Open Source
 
-**37 resources** · `open-source`
+**36 resources** · `open-source`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -299,7 +309,6 @@ Browse resources by area and category.
 | [Godot Engine](https://godotengine.org) | Build 2D and 3D games with a beginner-friendly open-source engine. | Project |
 | [Grafana](https://grafana.com/oss) | Explore dashboards, metrics, logs, and observability tools used in production systems. | Project |
 | [Home Assistant](https://www.home-assistant.io) | Automate smart homes and contribute to a large Python-based IoT project. | Project |
-| [Hugging Face](https://huggingface.co) | Explore open models, datasets, machine learning libraries, and AI developer tooling. | Project |
 | [KDE](https://kde.org) | Contribute to Linux desktop apps, frameworks, and cross-platform user tools. | Project |
 | [Linux Kernel](https://kernel.org) | Study operating system internals and contribute to core Linux infrastructure. | Project |
 | [Neovim](https://neovim.io) | Customize and improve a fast, extensible editor used by many developers. | Project |
@@ -323,13 +332,60 @@ Browse resources by area and category.
 | [Good First Issue](https://goodfirstissue.dev) | Find beginner-friendly GitHub issues across hundreds of active open-source projects. | Resource |
 | [Up For Grabs](https://up-for-grabs.net) | Browse active projects seeking new contributors through beginner-friendly GitHub issues. | Resource |
 
-<a id="useful-repositories"></a>
+<a id="developer-resources"></a>
 
-### Useful Repositories
+### Developer Resources
 
-**0 resources** · `useful-repositories`
+**46 resources** · `developer-resources`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Alpha Vantage](https://www.alphavantage.co) | API for stocks, ETFs, forex, cryptocurrency, fundamentals, and technical indicators. | API |
+| [API List](https://apislist.com) | Directory for discovering public APIs across many categories and use cases. | API |
+| [Hoppscotch](https://hoppscotch.io) | Test REST, GraphQL, WebSocket, and other APIs from the browser. | API |
+| [Public APIs](https://github.com/public-apis/public-apis) | Large GitHub collection of free public APIs for applications and prototypes. | API |
+| [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) | Discover curated public datasets across many domains for projects, analytics, and machine learning. | Data |
+| [FRED](https://fred.stlouisfed.org) | Economic dataset portal for rates, inflation, employment, GDP, and financial indicators. | Data |
+| [Google Dataset Search](https://datasetsearch.research.google.com) | Search engine for public datasets from universities, governments, and research groups. | Data |
+| [Hugging Face](https://huggingface.co) | Platform for open AI models, datasets, Spaces, and machine learning tools. | Data |
+| [Kaggle Datasets](https://www.kaggle.com/datasets) | Access a large collection of community datasets for data science and analytics. | Data |
+| [Aceternity UI](https://ui.aceternity.com) | Build polished interfaces with premium-quality React components. | Frontend |
+| [Framer Motion](https://motion.dev) | Create smooth animations and interactions for React applications. | Frontend |
+| [GSAP](https://gsap.com) | Create high-performance web animations with a production-ready animation library. | Frontend |
+| [Lucide](https://lucide.dev) | Use an open-source, customizable icon library for modern applications. | Frontend |
+| [Magic UI](https://magicui.design) | Use animated React components built for modern user interfaces. | Frontend |
+| [Radix UI](https://www.radix-ui.com) | Build accessible, unstyled UI primitives for custom component systems. | Frontend |
+| [shadcn/ui](https://ui.shadcn.com) | Build reusable React components with Radix UI and Tailwind CSS. | Frontend |
+| [AlternativeTo](https://alternativeto.net) | Discover open-source and commercial alternatives to software, apps, and online services. | Tool |
+| [Awesome Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | Curated collection of self-hosted software for development, collaboration, AI, and cloud services. | Tool |
+| [Bundlephobia](https://bundlephobia.com) | Analyze package size, dependencies, and installation impact before adding libraries. | Tool |
+| [Carbon](https://carbon.now.sh) | Create customizable code screenshots for documentation, READMEs, presentations, and social media. | Tool |
+| [Cloudcraft](https://cloudcraft.co) | Design, visualize, and document cloud architectures with interactive AWS infrastructure diagrams. | Tool |
+| [Coolify](https://coolify.io) | Self-host and deploy applications, databases, and services with an open-source platform. | Tool |
+| [CyberChef](https://gchq.github.io/CyberChef) | Web toolkit for encoding, decoding, encryption, hashing, compression, conversion, and forensics. | Tool |
+| [dbdiagram.io](https://dbdiagram.io) | Design and visualize database schemas using DBML. | Tool |
+| [Devicon](https://devicon.dev) | Find technology icons for documentation, portfolios, and developer projects. | Tool |
+| [Excalidraw](https://excalidraw.com) | Create hand-drawn style diagrams, architecture sketches, and flowcharts. | Tool |
+| [Figma](https://www.figma.com) | Design interfaces, wireframes, and prototypes with real-time collaboration. | Tool |
+| [Free-for-Dev](https://github.com/ripienaar/free-for-dev) | Find free tiers and services for hosting, databases, APIs, CI/CD, AI, and developer tools. | Tool |
+| [Freesound](https://freesound.org) | Community sound library for effects, ambience, and audio clips for games and apps. | Tool |
+| [GitHub Topics](https://github.com/topics) | Discover open-source projects, frameworks, libraries, and tools by technology, language, or domain. | Tool |
+| [gitignore](https://github.com/github/gitignore) | Generate language- and framework-specific .gitignore templates. | Tool |
+| [IT Tools](https://it-tools.tech) | Browser utilities for JSON, UUIDs, JWTs, hashing, encoding, QR codes, and timestamps. | Tool |
+| [itch.io Game Assets](https://itch.io/game-assets/free) | Free game asset marketplace with sprites, UI packs, audio, shaders, animations, and 3D models. | Tool |
+| [Kenney Assets](https://kenney.nl/assets) | Free 2D, 3D, UI, audio, and game development asset library. | Tool |
+| [Mixamo](https://www.mixamo.com) | Online tool for rigging 3D characters and creating character animations. | Tool |
+| [Mockaroo](https://mockaroo.com) | Generate up to 1,000 rows of realistic, customized mock data in JSON, CSV, or SQL formats to test your applications. | Tool |
+| [ngrok](https://ngrok.com) | Create secure public URLs for local services to test webhooks and integrations. | Tool |
+| [OpenGameArt](https://opengameart.org) | Community asset library for sprites, textures, music, sound effects, and 3D models. | Tool |
+| [Pixabay](https://pixabay.com) | Free image, illustration, video, music, and sound effect library for projects. | Tool |
+| [Playwright](https://playwright.dev) | Automate browsers for end-to-end testing and web automation. | Tool |
+| [Poly Pizza](https://poly.pizza) | Free low-poly 3D model library for games, simulations, prototypes, and interactive apps. | Tool |
+| [Quicktype](https://quicktype.io) | Generate typed models and serializers from JSON, JSON Schema, GraphQL, and TypeScript. | Tool |
+| [Responsively App](https://responsively.app) | Develop and test responsive websites across synchronized device viewports. | Tool |
+| [Shields.io](https://shields.io) | Generate customizable badges for READMEs and documentation. | Tool |
+| [Squoosh](https://squoosh.app) | Compress and optimize images for the web. | Tool |
+| [SVG Repo](https://www.svgrepo.com) | Browse free SVG icons, illustrations, and vectors. | Tool |
 
 <a id="project-based-learning"></a>
 
