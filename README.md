@@ -116,6 +116,8 @@ Browse resources by area and category.
 | [Refactoring.Guru](https://refactoring.guru) | Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture. | Website |
 | [roadmap.sh](https://roadmap.sh) | Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design. | Website |
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 <a id="interview-prep"></a>
 
 ### Interview Prep
@@ -151,6 +153,8 @@ Browse resources by area and category.
 | [Overleaf](https://www.overleaf.com) | Online LaTeX editor for creating professional resumes, CVs, and technical documents. | Tool |
 | [Resume Worded](https://resumeworded.com) | AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances. | Tool |
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 <a id="communities-clubs"></a>
 
 ### Communities & Clubs
@@ -181,6 +185,8 @@ Browse resources by area and category.
 | [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. | Reddit |
 | [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. | Reddit |
 | [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. | Reddit |
+
+<p align="right"><a href="#browse">Back to Browse</a></p>
 
 
 ## 🏆 Experience
@@ -217,6 +223,8 @@ Browse resources by area and category.
 | [CodeJam](https://codejam.mcgilleus.ca) | Hackathon by McGill Engineering, with cash prizes. | November | Montreal, Quebec |
 | [HackUTD](https://hackutd.co) | University of Texas hackathon, with cash prizes and industry sponsors. | November | Dallas, Texas |
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 <a id="ctfs"></a>
 
 ### CTFs
@@ -241,6 +249,8 @@ Browse resources by area and category.
 | [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | Canada |
 | [0CTF](https://ctf.0ops.sjtu.cn) | CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges. | December | Online |
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 <a id="game-jams"></a>
 
 ### Game Jams
@@ -260,6 +270,8 @@ Browse resources by area and category.
 | [GAMERella Game Jam](https://gamerella.ca) | An over decade old annual game jam focusing on supporting marginalized game creators and aspiring game makers. | November | Montreal, QC |
 | [GitHub Game Off](https://github.com/topics/game-off) | GitHub's annual month-long game jam celebrating open-source development. | November | Online |
 | [Concordia Game Development Club Jams](https://www.concordiagamedev.ca/events) | Concordia's Game Development Club game jams, with new themes every year. | Ongoing | Montreal, QC |
+
+<p align="right"><a href="#browse">Back to Browse</a></p>
 
 <a id="competitions"></a>
 
@@ -283,6 +295,8 @@ Browse resources by area and category.
 | [Citadel Student Competitions](https://www.citadel.com/careers/programs-and-events) | Elite quantitative finance competitions with data modeling, algorithm tournaments, and trading simulations. | Ongoing | Online |
 | [TCS CodeVita](https://codevita.tcsapps.com) | Global programming contest by TCS for university students with online rounds and international finals. | Ongoing | Online |
 | [Universal Cup](https://ucup.ac) | Multi-stage international team programming circuit for elite algorithmic and system optimization challenges. | Ongoing | Online |
+
+<p align="right"><a href="#browse">Back to Browse</a></p>
 
 
 ## 🧩 Building & Open Source
@@ -331,6 +345,8 @@ Browse resources by area and category.
 | [GitHub Open Source Guides](https://opensource.guide) | Learn contribution workflows, maintainership, licensing, and community best practices for open source. | Resource |
 | [Good First Issue](https://goodfirstissue.dev) | Find beginner-friendly GitHub issues across hundreds of active open-source projects. | Resource |
 | [Up For Grabs](https://up-for-grabs.net) | Browse active projects seeking new contributors through beginner-friendly GitHub issues. | Resource |
+
+<p align="right"><a href="#browse">Back to Browse</a></p>
 
 <a id="developer-resources"></a>
 
@@ -387,6 +403,8 @@ Browse resources by area and category.
 | [Squoosh](https://squoosh.app) | Compress and optimize images for the web. | Tool |
 | [SVG Repo](https://www.svgrepo.com) | Browse free SVG icons, illustrations, and vectors. | Tool |
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 <a id="project-based-learning"></a>
 
 ### Project-Based Learning
@@ -410,6 +428,8 @@ Browse resources by area and category.
 | [Product Hunt](https://www.producthunt.com) | Discover newly launched software products, developer tools, AI applications, and startups. | Inspiration |
 | [Sebastian Lague](https://www.youtube.com/@SebastianLague) | Channel showcasing ambitious projects in graphics, AI, simulations, procedural generation, and software engineering. | Inspiration |
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 
 ## 💼 Careers & Perks
 
@@ -421,6 +441,8 @@ Browse resources by area and category.
 
 > No resources yet. Contributions are welcome.
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 <a id="recruitment-events"></a>
 
 ### Recruitment & Events
@@ -428,6 +450,8 @@ Browse resources by area and category.
 **0 resources** · `recruitment-events`
 
 > No resources yet. Contributions are welcome.
+
+<p align="right"><a href="#browse">Back to Browse</a></p>
 
 <a id="certifications"></a>
 
@@ -437,6 +461,8 @@ Browse resources by area and category.
 
 > No resources yet. Contributions are welcome.
 
+<p align="right"><a href="#browse">Back to Browse</a></p>
+
 <a id="free-developer-tools"></a>
 
 ### Free Developer Tools
@@ -444,6 +470,8 @@ Browse resources by area and category.
 **0 resources** · `free-developer-tools`
 
 > No resources yet. Contributions are welcome.
+
+<p align="right"><a href="#browse">Back to Browse</a></p>
 
 
 ## Contributing

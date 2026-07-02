@@ -111,6 +111,10 @@ def format_type(resource_type: str) -> str:
     return label.replace("Api", "API")
 
 
+def back_to_browse_link() -> str:
+    return '<p align="right"><a href="#browse">Back to Browse</a></p>\n'
+
+
 def generate_readme():
     resources = load_all_resources()
     by_category = defaultdict(list)
@@ -231,6 +235,8 @@ def generate_readme():
                         lines.append(f"| {name} | {desc} |\n")
             else:
                 lines.append("> No resources yet. Contributions are welcome.\n")
+            lines.append("\n")
+            lines.append(back_to_browse_link())
             lines.append("\n")
 
     lines.append("\n")
