@@ -17,11 +17,12 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install requests
+      - run: pip install requests jsonschema
       - run: python scripts/check_links.py
       - run: python scripts/generate_combined.py
       - run: python scripts/generate_site_json.py
       - run: python scripts/export_csv.py
+      - run: python scripts/validate_all.py
       - name: Create last_verified update PR
         uses: peter-evans/create-pull-request@v8
         with:

@@ -147,30 +147,30 @@ Browse resources by area and category.
 
 **22 resources** · `communities-clubs`
 
-| Resource | Description |
-| --- | --- |
-| [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. |
-| [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. |
-| [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. |
-| [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. |
-| [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. |
-| [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. |
-| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) | Discussions on software engineering careers, internships, resumes, interviews, and job searching. |
-| [r/cybersecurity](https://www.reddit.com/r/cybersecurity) | Cybersecurity news, careers, tools, and security discussions. |
-| [r/datascience](https://www.reddit.com/r/datascience) | Data science careers, analytics, machine learning applications, and industry discussions. |
-| [r/devops](https://www.reddit.com/r/devops) | Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions. |
-| [r/gamedev](https://www.reddit.com/r/gamedev) | Game development discussions covering programming, design, engines, and publishing. |
-| [r/learnprogramming](https://www.reddit.com/r/learnprogramming) | Programming help, learning resources, and beginner-friendly discussions. |
-| [r/linux](https://www.reddit.com/r/linux) | Linux news, open-source software, system administration, and operating system discussions. |
-| [r/MachineLearning](https://www.reddit.com/r/MachineLearning) | Machine learning research, papers, projects, and technical discussions. |
-| [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. |
-| [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. |
-| [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. |
-| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. |
-| [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. |
-| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. |
-| [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. |
-| [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. |
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. | Club |
+| [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. | Club |
+| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. | Club |
+| [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. | Discord |
+| [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. | Discord |
+| [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. | Discord |
+| [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. | Discord |
+| [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. | Discord |
+| [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. | Organization |
+| [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. | Reddit |
+| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) | Discussions on software engineering careers, internships, resumes, interviews, and job searching. | Reddit |
+| [r/cybersecurity](https://www.reddit.com/r/cybersecurity) | Cybersecurity news, careers, tools, and security discussions. | Reddit |
+| [r/datascience](https://www.reddit.com/r/datascience) | Data science careers, analytics, machine learning applications, and industry discussions. | Reddit |
+| [r/devops](https://www.reddit.com/r/devops) | Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions. | Reddit |
+| [r/gamedev](https://www.reddit.com/r/gamedev) | Game development discussions covering programming, design, engines, and publishing. | Reddit |
+| [r/learnprogramming](https://www.reddit.com/r/learnprogramming) | Programming help, learning resources, and beginner-friendly discussions. | Reddit |
+| [r/linux](https://www.reddit.com/r/linux) | Linux news, open-source software, system administration, and operating system discussions. | Reddit |
+| [r/MachineLearning](https://www.reddit.com/r/MachineLearning) | Machine learning research, papers, projects, and technical discussions. | Reddit |
+| [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. | Reddit |
+| [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. | Reddit |
+| [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. | Reddit |
+| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. | Reddit |
 
 
 ## 🏆 Experience

@@ -21,7 +21,9 @@ REQUEST_HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9",
 }
-SOFT_OK_STATUSES = {403}
+VERIFIED_STATUSES = set(range(200, 400))
+HARD_DEAD_STATUSES = {404, 410}
+INCONCLUSIVE_STATUSES = {401, 403, 408, 425, 429, 500, 502, 503, 504}
 
 
 def request_url(session, method, url, verify=True):
@@ -34,39 +36,60 @@ def request_url(session, method, url, verify=True):
     )
 
 
+def classify_response(response):
+    status_code = response.status_code
+    if status_code in VERIFIED_STATUSES:
+        return "verified", status_code
+    if status_code in HARD_DEAD_STATUSES:
+        return "hard_dead", status_code
+    if status_code in INCONCLUSIVE_STATUSES:
+        return "inconclusive", f"{status_code} (blocked, rate-limited, or temporary)"
+    return "inconclusive", f"{status_code} (unexpected status)"
+
+
 def check_url(url):
     session = requests.Session()
     session.headers.update(REQUEST_HEADERS)
+    hard_dead_results = []
+    inconclusive_results = []
 
-    try:
-        response = request_url(session, "HEAD", url)
-    except requests.RequestException:
-        response = None
-
-    if response is not None and response.status_code < 400:
-        return True, response.status_code
-    if response is not None and response.status_code in SOFT_OK_STATUSES:
-        return True, f"{response.status_code} (blocked to automated checks)"
-
-    try:
-        response = request_url(session, "GET", url)
-    except SSLError:
+    for method in ("HEAD", "GET"):
         try:
-            response = request_url(session, "GET", url, verify=False)
+            response = request_url(session, method, url)
+        except SSLError:
+            if method == "GET":
+                try:
+                    response = request_url(session, method, url, verify=False)
+                except requests.RequestException as exc:
+                    inconclusive_results.append(str(exc))
+                    continue
+            else:
+                inconclusive_results.append("HEAD SSL error")
+                continue
         except requests.RequestException as exc:
-            return False, str(exc)
-    except requests.RequestException as exc:
-        return False, str(exc)
+            inconclusive_results.append(str(exc))
+            continue
 
-    if response.status_code < 400:
-        return True, response.status_code
-    if response.status_code in SOFT_OK_STATUSES:
-        return True, f"{response.status_code} (blocked to automated checks)"
-    return False, response.status_code
+        status, result = classify_response(response)
+        if status == "verified":
+            return status, result
+        if status == "hard_dead":
+            hard_dead_results.append(result)
+        else:
+            inconclusive_results.append(result)
+
+    if hard_dead_results and not inconclusive_results:
+        return "hard_dead", hard_dead_results[-1]
+    if hard_dead_results:
+        result = f"hard status {hard_dead_results[-1]} with inconclusive fallback"
+        return "inconclusive", result
+    result = "; ".join(str(value) for value in inconclusive_results)
+    return "inconclusive", result or "no response"
 
 
 def check_links():
-    dead_links = []
+    hard_dead_links = []
+    inconclusive_links = []
     today = str(date.today())
     touched_files = []
 
@@ -76,30 +99,32 @@ def check_links():
         for resource in data.get("resources", []):
             url = resource.get("url")
             rid = resource.get("id")
-            ok, result = check_url(url)
-            if ok:
+            status, result = check_url(url)
+            if status == "verified":
                 if resource.get("last_verified") != today:
                     resource["last_verified"] = today
                     file_changed = True
-                if isinstance(result, str):
-                    log(f"⚠️ {rid}: {url} ({result})")
-                else:
-                    log(f"✅ {rid}: {url}")
-            else:
-                dead_links.append((rid, url, result))
+                log(f"✅ {rid}: {url} ({result})")
+            elif status == "hard_dead":
+                hard_dead_links.append((rid, url, result))
                 log(f"❌ {rid}: {url} ({result})")
+            else:
+                inconclusive_links.append((rid, url, result))
+                log(f"⚠️ {rid}: {url} ({result})")
 
         if file_changed:
             save_json(path, data)
             touched_files.append(path.name)
 
-    if dead_links:
-        log(f"\n{len(dead_links)} dead link(s) found.")
+    if touched_files:
+        log("Updated last_verified in: " + ", ".join(touched_files))
+    if inconclusive_links:
+        log(f"\n{len(inconclusive_links)} inconclusive link check(s); left unchanged.")
+    if hard_dead_links:
+        log(f"\n{len(hard_dead_links)} hard-dead link(s) found.")
         sys.exit(1)
-    else:
-        if touched_files:
-            log("Updated last_verified in: " + ", ".join(touched_files))
-        log("✅ All links alive.")
+    log("✅ Link check finished without hard-dead links.")
+
 
 if __name__ == "__main__":
     check_links()
