@@ -112,7 +112,7 @@ def format_type(resource_type: str) -> str:
 
 
 def back_to_browse_link() -> str:
-    return '<p align="right"><a href="#browse">Back to Browse</a></p>\n'
+    return '<p align="right"><a href="#browse">Back to Browse ↑</a></p>\n'
 
 
 def generate_readme():
