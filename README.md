@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=136&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=158&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
 
 </div>
 
@@ -42,7 +42,7 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (47)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (0) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (47)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (0)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
@@ -145,9 +145,32 @@ Browse resources by area and category.
 
 ### Communities & Clubs
 
-**0 resources** · `communities-clubs`
+**22 resources** · `communities-clubs`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description |
+| --- | --- |
+| [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. |
+| [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. |
+| [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. |
+| [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. |
+| [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. |
+| [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. |
+| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) | Discussions on software engineering careers, internships, resumes, interviews, and job searching. |
+| [r/cybersecurity](https://www.reddit.com/r/cybersecurity) | Cybersecurity news, careers, tools, and security discussions. |
+| [r/datascience](https://www.reddit.com/r/datascience) | Data science careers, analytics, machine learning applications, and industry discussions. |
+| [r/devops](https://www.reddit.com/r/devops) | Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions. |
+| [r/gamedev](https://www.reddit.com/r/gamedev) | Game development discussions covering programming, design, engines, and publishing. |
+| [r/learnprogramming](https://www.reddit.com/r/learnprogramming) | Programming help, learning resources, and beginner-friendly discussions. |
+| [r/linux](https://www.reddit.com/r/linux) | Linux news, open-source software, system administration, and operating system discussions. |
+| [r/MachineLearning](https://www.reddit.com/r/MachineLearning) | Machine learning research, papers, projects, and technical discussions. |
+| [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. |
+| [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. |
+| [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. |
+| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. |
+| [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. |
+| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. |
+| [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. |
+| [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. |
 
 
 ## 🏆 Experience

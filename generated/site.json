@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-01",
-  "total": 136,
+  "total": 158,
   "categories": {
     "competitions": [
       {
@@ -697,6 +697,206 @@
         "month": "November",
         "date_added": "2026-06-18",
         "last_verified": "2026-06-29"
+      }
+    ],
+    "communities-clubs": [
+      {
+        "id": "codesupport",
+        "name": "CodeSupport",
+        "url": "https://codesupport.dev",
+        "description": "Programming community for beginner-friendly coding help, debugging support, and developer discussion.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "concordia-game-development-club",
+        "name": "Concordia Game Development Club",
+        "url": "https://www.concordiagamedev.ca",
+        "description": "Concordia game development student club for networking, workshops, and project collaboration.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "cs-careers-discord",
+        "name": "CS Careers Discord",
+        "url": "https://discord.gg/cscareers",
+        "description": "Computer science career community for internships, resumes, interviews, job searching, and career advice.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "devcord",
+        "name": "DevCord",
+        "url": "https://discord.gg/devcord",
+        "description": "Developer community for programming discussion, project support, collaboration, and career advice.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "hack-club",
+        "name": "Hack Club",
+        "url": "https://hackclub.com/slack",
+        "description": "Global student hacker community focused on coding projects, workshops, hackathons, and peer learning.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-compsci",
+        "name": "r/compsci",
+        "url": "https://www.reddit.com/r/compsci",
+        "description": "Computer science discussions covering algorithms, theory, research, and academia.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-cscareerquestions",
+        "name": "r/cscareerquestions",
+        "url": "https://www.reddit.com/r/cscareerquestions",
+        "description": "Discussions on software engineering careers, internships, resumes, interviews, and job searching.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-cybersecurity",
+        "name": "r/cybersecurity",
+        "url": "https://www.reddit.com/r/cybersecurity",
+        "description": "Cybersecurity news, careers, tools, and security discussions.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-datascience",
+        "name": "r/datascience",
+        "url": "https://www.reddit.com/r/datascience",
+        "description": "Data science careers, analytics, machine learning applications, and industry discussions.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-devops",
+        "name": "r/devops",
+        "url": "https://www.reddit.com/r/devops",
+        "description": "Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-gamedev",
+        "name": "r/gamedev",
+        "url": "https://www.reddit.com/r/gamedev",
+        "description": "Game development discussions covering programming, design, engines, and publishing.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-learnprogramming",
+        "name": "r/learnprogramming",
+        "url": "https://www.reddit.com/r/learnprogramming",
+        "description": "Programming help, learning resources, and beginner-friendly discussions.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-linux",
+        "name": "r/linux",
+        "url": "https://www.reddit.com/r/linux",
+        "description": "Linux news, open-source software, system administration, and operating system discussions.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-machinelearning",
+        "name": "r/MachineLearning",
+        "url": "https://www.reddit.com/r/MachineLearning",
+        "description": "Machine learning research, papers, projects, and technical discussions.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-netsec",
+        "name": "r/netsec",
+        "url": "https://www.reddit.com/r/netsec",
+        "description": "Technical cybersecurity research, vulnerabilities, exploits, and defensive security.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-programming",
+        "name": "r/programming",
+        "url": "https://www.reddit.com/r/programming",
+        "description": "Programming news, software development discussions, and industry topics.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-quant",
+        "name": "r/quant",
+        "url": "https://www.reddit.com/r/quant",
+        "description": "Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "reddit-softwareengineering",
+        "name": "r/softwareengineering",
+        "url": "https://www.reddit.com/r/softwareengineering",
+        "description": "Software engineering practices, architecture, engineering culture, and industry discussion.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "scs-concordia",
+        "name": "SCS Concordia",
+        "url": "https://scsconcordia.com",
+        "description": "Concordia student society for software engineering and computer science students.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "space-concordia",
+        "name": "Space Concordia",
+        "url": "https://www.spaceconcordia.ca",
+        "description": "Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "the-odin-project-discord",
+        "name": "The Odin Project",
+        "url": "https://www.theodinproject.com/discord",
+        "description": "Web development community for code review, collaboration, project feedback, and career support.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
+      },
+      {
+        "id": "the-programmers-hangout",
+        "name": "The Programmer's Hangout",
+        "url": "https://discord.gg/programming",
+        "description": "Large programming community for coding help, software development discussion, and developer support.",
+        "category": "communities-clubs",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01"
       }
     ],
     "interview-prep": [
