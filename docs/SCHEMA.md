@@ -33,6 +33,7 @@ Allowed `type` values are category-specific:
 | `communities-clubs` | `club`, `discord`, `organization`, `reddit` |
 | `open-source` | `project`, `organization`, `resource` |
 | `developer-resources` | `frontend`, `api`, `data`, `tool` |
+| `project-based-learning` | `build`, `ideas`, `inspiration` |
 
 ## Example Entry
 

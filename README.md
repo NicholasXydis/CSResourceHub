@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=250&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-02&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=264&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-02&color=7c3aed)
 
 </div>
 
@@ -44,7 +44,7 @@ Browse resources by area and category.
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (57)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
-| 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (0) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (14) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
 
@@ -391,9 +391,24 @@ Browse resources by area and category.
 
 ### Project-Based Learning
 
-**0 resources** · `project-based-learning`
+**14 resources** · `project-based-learning`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Build Your Own](https://build-your-own.org) | In-depth tutorials for building databases, operating systems, interpreters, and compilers from scratch. | Build |
+| [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) | Guides for recreating databases, shells, Git, Docker, emulators, and other technologies from scratch. | Build |
+| [Crafting Interpreters](https://craftinginterpreters.com) | Book-length guide to building an interpreter and bytecode virtual machine from scratch. | Build |
+| [nand2tetris](https://www.nand2tetris.org) | Project course for building a computer from logic gates through an operating system and compiler. | Build |
+| [Project-Based Learning](https://github.com/practical-tutorials/project-based-learning) | Programming tutorials that teach by building applications from scratch across many languages. | Build |
+| [App Ideas](https://github.com/florinpop17/app-ideas) | Project prompts for practicing software development across beginner, intermediate, and advanced levels. | Ideas |
+| [Project Ideas and Resources](https://github.com/The-Cool-Coders/Project-Ideas-And-Resources) | Application ideas and resources for practicing coding and building portfolio projects. | Ideas |
+| [roadmap.sh Projects](https://roadmap.sh/projects) | Project ideas across frontend, backend, DevOps, databases, AI, and computer science topics. | Ideas |
+| [Devpost](https://devpost.com) | Hackathon project showcase for ideas, implementation examples, and inspiration. | Inspiration |
+| [GitHub Explore](https://github.com/explore) | Discover repositories, collections, developers, and open-source projects across computer science. | Inspiration |
+| [GitHub Trending](https://github.com/trending) | Browse popular and fast-growing repositories to discover technologies and project ideas. | Inspiration |
+| [I Coded One Project Every Week for a Year](https://www.youtube.com/watch?v=nr8biZfSZ3Y) | Video about building various projects to become inspired and learn software development skills. | Inspiration |
+| [Product Hunt](https://www.producthunt.com) | Discover newly launched software products, developer tools, AI applications, and startups. | Inspiration |
+| [Sebastian Lague](https://www.youtube.com/@SebastianLague) | Channel showcasing ambitious projects in graphics, AI, simulations, procedural generation, and software engineering. | Inspiration |
 
 
 ## 💼 Careers & Perks

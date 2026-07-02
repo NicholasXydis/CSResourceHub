@@ -71,7 +71,10 @@
         "resource",
         "api",
         "data",
-        "frontend"
+        "frontend",
+        "build",
+        "ideas",
+        "inspiration"
       ]
     },
     "location": {

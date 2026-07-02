@@ -53,6 +53,11 @@ RESOURCE_TYPES_BY_CATEGORY = {
         "frontend",
         "tool",
     },
+    "project-based-learning": {
+        "build",
+        "ideas",
+        "inspiration",
+    },
 }
 def prompt(label, required=True):
     while True:

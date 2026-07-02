@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-02",
-  "total": 250,
+  "total": 264,
   "categories": {
     "learning-resources": 57,
     "interview-prep": 26,
@@ -11,7 +11,7 @@
     "competitions": 14,
     "open-source": 36,
     "developer-resources": 46,
-    "project-based-learning": 0,
+    "project-based-learning": 14,
     "internships-fellowships": 0,
     "recruitment-events": 0,
     "certifications": 0,
@@ -36,11 +36,11 @@
       }
     },
     "Building & Open Source": {
-      "total": 82,
+      "total": 96,
       "categories": {
         "open-source": 36,
         "developer-resources": 46,
-        "project-based-learning": 0
+        "project-based-learning": 14
       }
     },
     "Careers & Perks": {

@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-02",
-  "total": 250,
+  "total": 264,
   "categories": {
     "developer-resources": [
       {
@@ -824,6 +824,148 @@
         "date_added": "2026-07-01",
         "last_verified": "2026-07-01",
         "type": "resource"
+      }
+    ],
+    "project-based-learning": [
+      {
+        "id": "build-your-own",
+        "name": "Build Your Own",
+        "url": "https://build-your-own.org",
+        "description": "In-depth tutorials for building databases, operating systems, interpreters, and compilers from scratch.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "build"
+      },
+      {
+        "id": "build-your-own-x",
+        "name": "Build Your Own X",
+        "url": "https://github.com/codecrafters-io/build-your-own-x",
+        "description": "Guides for recreating databases, shells, Git, Docker, emulators, and other technologies from scratch.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "build"
+      },
+      {
+        "id": "crafting-interpreters",
+        "name": "Crafting Interpreters",
+        "url": "https://craftinginterpreters.com",
+        "description": "Book-length guide to building an interpreter and bytecode virtual machine from scratch.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "build"
+      },
+      {
+        "id": "nand2tetris",
+        "name": "nand2tetris",
+        "url": "https://www.nand2tetris.org",
+        "description": "Project course for building a computer from logic gates through an operating system and compiler.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "build"
+      },
+      {
+        "id": "project-based-learning",
+        "name": "Project-Based Learning",
+        "url": "https://github.com/practical-tutorials/project-based-learning",
+        "description": "Programming tutorials that teach by building applications from scratch across many languages.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "build"
+      },
+      {
+        "id": "app-ideas",
+        "name": "App Ideas",
+        "url": "https://github.com/florinpop17/app-ideas",
+        "description": "Project prompts for practicing software development across beginner, intermediate, and advanced levels.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "ideas"
+      },
+      {
+        "id": "project-ideas-and-resources",
+        "name": "Project Ideas and Resources",
+        "url": "https://github.com/The-Cool-Coders/Project-Ideas-And-Resources",
+        "description": "Application ideas and resources for practicing coding and building portfolio projects.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "ideas"
+      },
+      {
+        "id": "roadmap-sh-projects",
+        "name": "roadmap.sh Projects",
+        "url": "https://roadmap.sh/projects",
+        "description": "Project ideas across frontend, backend, DevOps, databases, AI, and computer science topics.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "ideas"
+      },
+      {
+        "id": "devpost",
+        "name": "Devpost",
+        "url": "https://devpost.com",
+        "description": "Hackathon project showcase for ideas, implementation examples, and inspiration.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "inspiration"
+      },
+      {
+        "id": "github-explore",
+        "name": "GitHub Explore",
+        "url": "https://github.com/explore",
+        "description": "Discover repositories, collections, developers, and open-source projects across computer science.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "inspiration"
+      },
+      {
+        "id": "github-trending",
+        "name": "GitHub Trending",
+        "url": "https://github.com/trending",
+        "description": "Browse popular and fast-growing repositories to discover technologies and project ideas.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "inspiration"
+      },
+      {
+        "id": "i-coded-one-project-every-week",
+        "name": "I Coded One Project Every Week for a Year",
+        "url": "https://www.youtube.com/watch?v=nr8biZfSZ3Y",
+        "description": "Video about building various projects to become inspired and learn software development skills.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "inspiration"
+      },
+      {
+        "id": "product-hunt",
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com",
+        "description": "Discover newly launched software products, developer tools, AI applications, and startups.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "inspiration"
+      },
+      {
+        "id": "sebastian-lague",
+        "name": "Sebastian Lague",
+        "url": "https://www.youtube.com/@SebastianLague",
+        "description": "Channel showcasing ambitious projects in graphics, AI, simulations, procedural generation, and software engineering.",
+        "category": "project-based-learning",
+        "date_added": "2026-07-02",
+        "last_verified": "2026-07-02",
+        "type": "inspiration"
       }
     ],
     "competitions": [
