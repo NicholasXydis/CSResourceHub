@@ -27,7 +27,7 @@ body:
     id: type
     attributes:
       label: Type
-      description: Optional. Use one allowed schema value if it clearly fits.
+      description: Optional. Use only a type allowed for the selected category.
       placeholder: e.g. course
     validations:
       required: false

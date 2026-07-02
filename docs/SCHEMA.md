@@ -24,21 +24,26 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | `month`         | string | Month name for recurring or seasonal resources | `"March"` |
 | `location`      | string | Exact location or `Online` when useful | `"Montreal, Quebec, Canada"` |
 
-Allowed `type` values: `book`, `course`, `website`, `video`, `reference`, `tool`, `news`, `practice`, `guide`, `system-design`, `behavioral`, `mock-interview`, `resume`, `specialized`, `discord`, `reddit`, `club`, `organization`, `project`, `resource`.
+Allowed `type` values are category-specific:
+
+| Category | Allowed `type` values |
+| --- | --- |
+| `learning-resources` | `book`, `course`, `website`, `video`, `reference`, `tool`, `news` |
+| `interview-prep` | `book`, `course`, `guide`, `platform`, `resume`, `tool` |
+| `communities-clubs` | `club`, `discord`, `organization`, `reddit` |
+| `open-source` | `project`, `organization`, `resource` |
 
 ## Example Entry
 
 ```json
 {
-  "id": "uoftctf",
-  "name": "UofTCTF",
-  "url": "https://ctf.uoftctf.org",
-  "description": "Student CTF by the University of Toronto.",
-  "category": "ctfs",
-  "type": "practice",
-  "location": "Online",
+  "id": "leetcode",
+  "name": "LeetCode",
+  "url": "https://leetcode.com",
+  "description": "Coding interview platform with algorithms, data structures, SQL, and system design problems.",
+  "category": "interview-prep",
+  "type": "platform",
   "date_added": "2026-06-15",
-  "last_verified": "2026-06-15",
-  "month": "March"
+  "last_verified": "2026-06-15"
 }
 ```

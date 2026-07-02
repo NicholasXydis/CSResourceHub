@@ -8,34 +8,8 @@
       "description": "Foundation hosting hundreds of open-source software projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "awesome-for-beginners",
-      "name": "Awesome for Beginners",
-      "url": "https://github.com/MunGell/awesome-for-beginners",
-      "description": "Curated collection of beginner-friendly open-source projects organized by programming language.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "bevy",
-      "name": "Bevy Engine",
-      "url": "https://bevyengine.org",
-      "description": "Open-source Rust game engine.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "blender",
-      "name": "Blender",
-      "url": "https://www.blender.org",
-      "description": "Open-source 3D creation suite.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "cncf",
@@ -44,25 +18,8 @@
       "description": "Cloud-native ecosystem hosting major infrastructure projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "codetriage",
-      "name": "CodeTriage",
-      "url": "https://www.codetriage.com",
-      "description": "Receive beginner-friendly open issues from your favorite open-source projects directly by email.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "docker",
-      "name": "Docker",
-      "url": "https://www.docker.com",
-      "description": "Container platform with a large open-source ecosystem.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "eclipse-foundation",
@@ -71,52 +28,8 @@
       "description": "Foundation supporting open-source developer tools and frameworks.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "fastapi",
-      "name": "FastAPI",
-      "url": "https://fastapi.tiangolo.com",
-      "description": "Modern Python web framework.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "first-contributions",
-      "name": "First Contributions",
-      "url": "https://firstcontributions.github.io",
-      "description": "Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "first-timers-only",
-      "name": "First Timers Only",
-      "url": "https://www.firsttimersonly.com",
-      "description": "Resources and projects specifically designed to help first-time open-source contributors get started.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "git",
-      "name": "Git",
-      "url": "https://git-scm.com",
-      "description": "Distributed version control system.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "github-open-source-guides",
-      "name": "GitHub Open Source Guides",
-      "url": "https://opensource.guide",
-      "description": "Official guides covering open-source contribution, collaboration, community building, and project best practices.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "gnome",
@@ -125,43 +38,8 @@
       "description": "Open-source desktop environment and platform.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "godot",
-      "name": "Godot Engine",
-      "url": "https://godotengine.org",
-      "description": "Open-source game engine.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "good-first-issue",
-      "name": "Good First Issue",
-      "url": "https://goodfirstissue.dev",
-      "description": "Discover beginner-friendly GitHub issues across a wide range of open-source projects.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "grafana",
-      "name": "Grafana",
-      "url": "https://grafana.com/oss",
-      "description": "Open-source observability and visualization platform.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "home-assistant",
-      "name": "Home Assistant",
-      "url": "https://www.home-assistant.io",
-      "description": "Open-source home automation platform.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "hugging-face",
@@ -170,7 +48,8 @@
       "description": "Open-source AI and machine learning ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "kde",
@@ -179,16 +58,8 @@
       "description": "Open-source desktop environment and applications.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "linux-kernel",
-      "name": "Linux Kernel",
-      "url": "https://kernel.org",
-      "description": "Open-source operating system kernel powering millions of devices and systems.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "mozilla",
@@ -197,61 +68,8 @@
       "description": "Open-source web technologies, browser, and internet projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "neovim",
-      "name": "Neovim",
-      "url": "https://neovim.io",
-      "description": "Modern extensible text editor.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "nmap",
-      "name": "Nmap",
-      "url": "https://nmap.org",
-      "description": "Open-source network discovery and security auditing tool.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "opencv",
-      "name": "OpenCV",
-      "url": "https://opencv.org",
-      "description": "Open-source computer vision library.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "opensauced",
-      "name": "OpenSauced",
-      "url": "https://opensauced.pizza",
-      "description": "Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "openstreetmap",
-      "name": "OpenStreetMap",
-      "url": "https://www.openstreetmap.org",
-      "description": "Collaborative open mapping project.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "opentofu",
-      "name": "OpenTofu",
-      "url": "https://opentofu.org",
-      "description": "Open-source infrastructure as code platform.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "owasp",
@@ -260,7 +78,148 @@
       "description": "Open-source application security community and projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
+    },
+    {
+      "id": "bevy",
+      "name": "Bevy Engine",
+      "url": "https://bevyengine.org",
+      "description": "Open-source Rust game engine.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "url": "https://www.blender.org",
+      "description": "Open-source 3D creation suite.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "url": "https://www.docker.com",
+      "description": "Container platform with a large open-source ecosystem.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "url": "https://fastapi.tiangolo.com",
+      "description": "Modern Python web framework.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "url": "https://git-scm.com",
+      "description": "Distributed version control system.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "godot",
+      "name": "Godot Engine",
+      "url": "https://godotengine.org",
+      "description": "Open-source game engine.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "url": "https://grafana.com/oss",
+      "description": "Open-source observability and visualization platform.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "url": "https://www.home-assistant.io",
+      "description": "Open-source home automation platform.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "linux-kernel",
+      "name": "Linux Kernel",
+      "url": "https://kernel.org",
+      "description": "Open-source operating system kernel powering millions of devices and systems.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "neovim",
+      "name": "Neovim",
+      "url": "https://neovim.io",
+      "description": "Modern extensible text editor.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "nmap",
+      "name": "Nmap",
+      "url": "https://nmap.org",
+      "description": "Open-source network discovery and security auditing tool.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "opencv",
+      "name": "OpenCV",
+      "url": "https://opencv.org",
+      "description": "Open-source computer vision library.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org",
+      "description": "Collaborative open mapping project.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "opentofu",
+      "name": "OpenTofu",
+      "url": "https://opentofu.org",
+      "description": "Open-source infrastructure as code platform.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "postgresql",
@@ -269,7 +228,8 @@
       "description": "Advanced open-source relational database.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "jupyter",
@@ -278,7 +238,8 @@
       "description": "Interactive computing and data science ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "prometheus",
@@ -287,7 +248,8 @@
       "description": "Monitoring and alerting toolkit for cloud-native systems.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "qt",
@@ -296,7 +258,8 @@
       "description": "Cross-platform application development framework.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "quantlib",
@@ -305,7 +268,8 @@
       "description": "Open-source quantitative finance library.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "ros",
@@ -314,7 +278,8 @@
       "description": "Open-source robotics ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "scikit-learn",
@@ -323,16 +288,8 @@
       "description": "Open-source machine learning library for Python.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "up-for-grabs",
-      "name": "Up For Grabs",
-      "url": "https://up-for-grabs.net",
-      "description": "Directory of open-source projects actively seeking new contributors through beginner-friendly issues.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "wireshark",
@@ -341,7 +298,88 @@
       "description": "Network protocol analyzer.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "awesome-for-beginners",
+      "name": "Awesome for Beginners",
+      "url": "https://github.com/MunGell/awesome-for-beginners",
+      "description": "Curated collection of beginner-friendly open-source projects organized by programming language.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "codetriage",
+      "name": "CodeTriage",
+      "url": "https://www.codetriage.com",
+      "description": "Receive beginner-friendly open issues from your favorite open-source projects directly by email.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "first-contributions",
+      "name": "First Contributions",
+      "url": "https://firstcontributions.github.io",
+      "description": "Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "first-timers-only",
+      "name": "First Timers Only",
+      "url": "https://www.firsttimersonly.com",
+      "description": "Resources and projects specifically designed to help first-time open-source contributors get started.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "github-open-source-guides",
+      "name": "GitHub Open Source Guides",
+      "url": "https://opensource.guide",
+      "description": "Official guides covering open-source contribution, collaboration, community building, and project best practices.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "good-first-issue",
+      "name": "Good First Issue",
+      "url": "https://goodfirstissue.dev",
+      "description": "Discover beginner-friendly GitHub issues across a wide range of open-source projects.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "opensauced",
+      "name": "OpenSauced",
+      "url": "https://opensauced.pizza",
+      "description": "Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "up-for-grabs",
+      "name": "Up For Grabs",
+      "url": "https://up-for-grabs.net",
+      "description": "Directory of open-source projects actively seeking new contributors through beginner-friendly issues.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
     }
   ]
 }

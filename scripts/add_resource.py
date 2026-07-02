@@ -19,29 +19,36 @@ CATEGORIES = {
     "14": ("careers-perks", "free-developer-tools"),
 }
 
-RESOURCE_TYPES = {
-    "book",
-    "course",
-    "website",
-    "video",
-    "reference",
-    "tool",
-    "news",
-    "practice",
-    "guide",
-    "system-design",
-    "behavioral",
-    "mock-interview",
-    "resume",
-    "specialized",
-    "discord",
-    "reddit",
-    "club",
-    "organization",
-    "project",
-    "resource",
+RESOURCE_TYPES_BY_CATEGORY = {
+    "learning-resources": {
+        "book",
+        "course",
+        "news",
+        "reference",
+        "tool",
+        "video",
+        "website",
+    },
+    "interview-prep": {
+        "book",
+        "course",
+        "guide",
+        "platform",
+        "resume",
+        "tool",
+    },
+    "communities-clubs": {
+        "club",
+        "discord",
+        "organization",
+        "reddit",
+    },
+    "open-source": {
+        "organization",
+        "project",
+        "resource",
+    },
 }
-
 def prompt(label, required=True):
     while True:
         val = input(f"{label}: ").strip()
@@ -69,7 +76,7 @@ def add_resource():
     url = prompt("URL (https://)")
     description = prompt("Description (one sentence, ends with period)")
     resource_type = prompt(
-        "Type (optional; e.g. book, course, website, discord)",
+        "Type (optional; category-specific, e.g. course, platform, discord, project)",
         required=False,
     )
     location = prompt(
@@ -88,9 +95,13 @@ def add_resource():
     }
 
     if resource_type:
-        if resource_type not in RESOURCE_TYPES:
-            allowed = ", ".join(sorted(RESOURCE_TYPES))
-            print(f"Invalid type. Allowed values: {allowed}")
+        allowed_types = RESOURCE_TYPES_BY_CATEGORY.get(category)
+        if allowed_types is None:
+            print(f"Type is not enabled for category '{category}'.")
+            return
+        if resource_type not in allowed_types:
+            allowed = ", ".join(sorted(allowed_types))
+            print(f"Invalid type for {category}. Allowed values: {allowed}")
             return
         resource["type"] = resource_type
     if location:

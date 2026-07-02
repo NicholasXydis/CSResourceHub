@@ -9,34 +9,8 @@
       "description": "Foundation hosting hundreds of open-source software projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "awesome-for-beginners",
-      "name": "Awesome for Beginners",
-      "url": "https://github.com/MunGell/awesome-for-beginners",
-      "description": "Curated collection of beginner-friendly open-source projects organized by programming language.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "bevy",
-      "name": "Bevy Engine",
-      "url": "https://bevyengine.org",
-      "description": "Open-source Rust game engine.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "blender",
-      "name": "Blender",
-      "url": "https://www.blender.org",
-      "description": "Open-source 3D creation suite.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "cncf",
@@ -45,25 +19,8 @@
       "description": "Cloud-native ecosystem hosting major infrastructure projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "codetriage",
-      "name": "CodeTriage",
-      "url": "https://www.codetriage.com",
-      "description": "Receive beginner-friendly open issues from your favorite open-source projects directly by email.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "docker",
-      "name": "Docker",
-      "url": "https://www.docker.com",
-      "description": "Container platform with a large open-source ecosystem.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "eclipse-foundation",
@@ -72,52 +29,8 @@
       "description": "Foundation supporting open-source developer tools and frameworks.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "fastapi",
-      "name": "FastAPI",
-      "url": "https://fastapi.tiangolo.com",
-      "description": "Modern Python web framework.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "first-contributions",
-      "name": "First Contributions",
-      "url": "https://firstcontributions.github.io",
-      "description": "Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "first-timers-only",
-      "name": "First Timers Only",
-      "url": "https://www.firsttimersonly.com",
-      "description": "Resources and projects specifically designed to help first-time open-source contributors get started.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "git",
-      "name": "Git",
-      "url": "https://git-scm.com",
-      "description": "Distributed version control system.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "github-open-source-guides",
-      "name": "GitHub Open Source Guides",
-      "url": "https://opensource.guide",
-      "description": "Official guides covering open-source contribution, collaboration, community building, and project best practices.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "gnome",
@@ -126,43 +39,8 @@
       "description": "Open-source desktop environment and platform.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "godot",
-      "name": "Godot Engine",
-      "url": "https://godotengine.org",
-      "description": "Open-source game engine.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "good-first-issue",
-      "name": "Good First Issue",
-      "url": "https://goodfirstissue.dev",
-      "description": "Discover beginner-friendly GitHub issues across a wide range of open-source projects.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "grafana",
-      "name": "Grafana",
-      "url": "https://grafana.com/oss",
-      "description": "Open-source observability and visualization platform.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "home-assistant",
-      "name": "Home Assistant",
-      "url": "https://www.home-assistant.io",
-      "description": "Open-source home automation platform.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "hugging-face",
@@ -171,7 +49,8 @@
       "description": "Open-source AI and machine learning ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "kde",
@@ -180,16 +59,8 @@
       "description": "Open-source desktop environment and applications.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "linux-kernel",
-      "name": "Linux Kernel",
-      "url": "https://kernel.org",
-      "description": "Open-source operating system kernel powering millions of devices and systems.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "mozilla",
@@ -198,61 +69,8 @@
       "description": "Open-source web technologies, browser, and internet projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "neovim",
-      "name": "Neovim",
-      "url": "https://neovim.io",
-      "description": "Modern extensible text editor.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "nmap",
-      "name": "Nmap",
-      "url": "https://nmap.org",
-      "description": "Open-source network discovery and security auditing tool.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "opencv",
-      "name": "OpenCV",
-      "url": "https://opencv.org",
-      "description": "Open-source computer vision library.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "opensauced",
-      "name": "OpenSauced",
-      "url": "https://opensauced.pizza",
-      "description": "Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "openstreetmap",
-      "name": "OpenStreetMap",
-      "url": "https://www.openstreetmap.org",
-      "description": "Collaborative open mapping project.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "opentofu",
-      "name": "OpenTofu",
-      "url": "https://opentofu.org",
-      "description": "Open-source infrastructure as code platform.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
     },
     {
       "id": "owasp",
@@ -261,7 +79,148 @@
       "description": "Open-source application security community and projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "organization"
+    },
+    {
+      "id": "bevy",
+      "name": "Bevy Engine",
+      "url": "https://bevyengine.org",
+      "description": "Open-source Rust game engine.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "url": "https://www.blender.org",
+      "description": "Open-source 3D creation suite.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "url": "https://www.docker.com",
+      "description": "Container platform with a large open-source ecosystem.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI",
+      "url": "https://fastapi.tiangolo.com",
+      "description": "Modern Python web framework.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "url": "https://git-scm.com",
+      "description": "Distributed version control system.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "godot",
+      "name": "Godot Engine",
+      "url": "https://godotengine.org",
+      "description": "Open-source game engine.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "url": "https://grafana.com/oss",
+      "description": "Open-source observability and visualization platform.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "url": "https://www.home-assistant.io",
+      "description": "Open-source home automation platform.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "linux-kernel",
+      "name": "Linux Kernel",
+      "url": "https://kernel.org",
+      "description": "Open-source operating system kernel powering millions of devices and systems.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "neovim",
+      "name": "Neovim",
+      "url": "https://neovim.io",
+      "description": "Modern extensible text editor.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "nmap",
+      "name": "Nmap",
+      "url": "https://nmap.org",
+      "description": "Open-source network discovery and security auditing tool.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "opencv",
+      "name": "OpenCV",
+      "url": "https://opencv.org",
+      "description": "Open-source computer vision library.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org",
+      "description": "Collaborative open mapping project.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "opentofu",
+      "name": "OpenTofu",
+      "url": "https://opentofu.org",
+      "description": "Open-source infrastructure as code platform.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "postgresql",
@@ -270,7 +229,8 @@
       "description": "Advanced open-source relational database.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "jupyter",
@@ -279,7 +239,8 @@
       "description": "Interactive computing and data science ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "prometheus",
@@ -288,7 +249,8 @@
       "description": "Monitoring and alerting toolkit for cloud-native systems.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "qt",
@@ -297,7 +259,8 @@
       "description": "Cross-platform application development framework.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "quantlib",
@@ -306,7 +269,8 @@
       "description": "Open-source quantitative finance library.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "ros",
@@ -315,7 +279,8 @@
       "description": "Open-source robotics ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "scikit-learn",
@@ -324,16 +289,8 @@
       "description": "Open-source machine learning library for Python.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "up-for-grabs",
-      "name": "Up For Grabs",
-      "url": "https://up-for-grabs.net",
-      "description": "Directory of open-source projects actively seeking new contributors through beginner-friendly issues.",
-      "category": "open-source",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
     },
     {
       "id": "wireshark",
@@ -342,7 +299,88 @@
       "description": "Network protocol analyzer.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "project"
+    },
+    {
+      "id": "awesome-for-beginners",
+      "name": "Awesome for Beginners",
+      "url": "https://github.com/MunGell/awesome-for-beginners",
+      "description": "Curated collection of beginner-friendly open-source projects organized by programming language.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "codetriage",
+      "name": "CodeTriage",
+      "url": "https://www.codetriage.com",
+      "description": "Receive beginner-friendly open issues from your favorite open-source projects directly by email.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "first-contributions",
+      "name": "First Contributions",
+      "url": "https://firstcontributions.github.io",
+      "description": "Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "first-timers-only",
+      "name": "First Timers Only",
+      "url": "https://www.firsttimersonly.com",
+      "description": "Resources and projects specifically designed to help first-time open-source contributors get started.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "github-open-source-guides",
+      "name": "GitHub Open Source Guides",
+      "url": "https://opensource.guide",
+      "description": "Official guides covering open-source contribution, collaboration, community building, and project best practices.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "good-first-issue",
+      "name": "Good First Issue",
+      "url": "https://goodfirstissue.dev",
+      "description": "Discover beginner-friendly GitHub issues across a wide range of open-source projects.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "opensauced",
+      "name": "OpenSauced",
+      "url": "https://opensauced.pizza",
+      "description": "Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
+    },
+    {
+      "id": "up-for-grabs",
+      "name": "Up For Grabs",
+      "url": "https://up-for-grabs.net",
+      "description": "Directory of open-source projects actively seeking new contributors through beginner-friendly issues.",
+      "category": "open-source",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resource"
     },
     {
       "id": "battlecode",
@@ -1254,85 +1292,14 @@
       "type": "reddit"
     },
     {
-      "id": "atcoder",
-      "name": "AtCoder",
-      "url": "https://atcoder.jp",
-      "description": "Competitive programming platform offering high-quality contests and algorithm practice.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "bytebytego-system-design",
-      "name": "ByteByteGo System Design",
-      "url": "https://bytebytego.com",
-      "description": "System design interview platform featuring books, courses, and real-world architecture case studies.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "codeforces",
-      "name": "Codeforces",
-      "url": "https://codeforces.com",
-      "description": "Competitive programming platform with contests and algorithmic problems for technical interview practice.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "codesignal",
-      "name": "CodeSignal",
-      "url": "https://codesignal.com",
-      "description": "Technical assessment platform widely used by companies for coding screenings and online assessments.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "codewars",
-      "name": "Codewars",
-      "url": "https://www.codewars.com",
-      "description": "Programming challenge platform for improving coding skills through community-created problems.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "codility",
-      "name": "Codility",
-      "url": "https://www.codility.com",
-      "description": "Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "coding-interview-university",
-      "name": "Coding Interview University",
-      "url": "https://github.com/jwasham/coding-interview-university",
-      "description": "Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
       "id": "cracking-the-coding-interview",
       "name": "Cracking the Coding Interview",
       "url": "https://www.crackingthecodinginterview.com",
       "description": "Classic interview preparation book covering coding questions, technical concepts, and interview strategies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "designgurus",
-      "name": "DesignGurus",
-      "url": "https://www.designgurus.io",
-      "description": "Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "elements-of-programming-interviews",
@@ -1341,16 +1308,18 @@
       "description": "Comprehensive interview preparation book featuring advanced coding problems and detailed solutions.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
-      "id": "exponent",
-      "name": "Exponent",
-      "url": "https://www.tryexponent.com",
-      "description": "Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews.",
+      "id": "bytebytego-system-design",
+      "name": "ByteByteGo System Design",
+      "url": "https://bytebytego.com",
+      "description": "System design interview platform featuring books, courses, and real-world architecture case studies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "course"
     },
     {
       "id": "grokking-the-coding-interview",
@@ -1359,7 +1328,8 @@
       "description": "Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "course"
     },
     {
       "id": "grokking-object-oriented-design-interview",
@@ -1368,106 +1338,18 @@
       "description": "Popular course teaching object-oriented design concepts commonly tested in software engineering interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "course"
     },
     {
-      "id": "hackerrank",
-      "name": "HackerRank",
-      "url": "https://www.hackerrank.com",
-      "description": "Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges.",
+      "id": "coding-interview-university",
+      "name": "Coding Interview University",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "description": "Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "hello-interview",
-      "name": "Hello Interview",
-      "url": "https://www.hellointerview.com",
-      "description": "Interview preparation platform focused on system design, coding interviews, and technical interview strategies.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "interview-query",
-      "name": "Interview Query",
-      "url": "https://www.interviewquery.com",
-      "description": "Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "interviewing-io",
-      "name": "interviewing.io",
-      "url": "https://interviewing.io",
-      "description": "Anonymous mock technical interviews with experienced software engineers from leading technology companies.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "jakes-resume",
-      "name": "Jake's Resume",
-      "url": "https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs",
-      "description": "Popular LaTeX resume template widely used by computer science students and software engineers.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "leetcode",
-      "name": "LeetCode",
-      "url": "https://leetcode.com",
-      "description": "Leading coding interview platform with thousands of algorithm, data structure, SQL, and system design problems.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "neetcode",
-      "name": "NeetCode",
-      "url": "https://neetcode.io",
-      "description": "Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "overleaf",
-      "name": "Overleaf",
-      "url": "https://www.overleaf.com",
-      "description": "Online LaTeX editor for creating professional resumes, CVs, and technical documents.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "pramp",
-      "name": "Pramp",
-      "url": "https://www.pramp.com",
-      "description": "Free peer-to-peer mock interview platform for coding and technical interview practice.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "quantguide",
-      "name": "QuantGuide",
-      "url": "https://www.quantguide.io",
-      "description": "Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "resume-worded",
-      "name": "Resume Worded",
-      "url": "https://resumeworded.com",
-      "description": "AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "guide"
     },
     {
       "id": "system-design-primer",
@@ -1476,7 +1358,8 @@
       "description": "Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "guide"
     },
     {
       "id": "tech-interview-handbook",
@@ -1485,7 +1368,188 @@
       "description": "Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "guide"
+    },
+    {
+      "id": "atcoder",
+      "name": "AtCoder",
+      "url": "https://atcoder.jp",
+      "description": "Competitive programming platform offering high-quality contests and algorithm practice.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "codeforces",
+      "name": "Codeforces",
+      "url": "https://codeforces.com",
+      "description": "Competitive programming platform with contests and algorithmic problems for technical interview practice.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "codesignal",
+      "name": "CodeSignal",
+      "url": "https://codesignal.com",
+      "description": "Technical assessment platform widely used by companies for coding screenings and online assessments.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "codewars",
+      "name": "Codewars",
+      "url": "https://www.codewars.com",
+      "description": "Programming challenge platform for improving coding skills through community-created problems.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "codility",
+      "name": "Codility",
+      "url": "https://www.codility.com",
+      "description": "Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "designgurus",
+      "name": "DesignGurus",
+      "url": "https://www.designgurus.io",
+      "description": "Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "exponent",
+      "name": "Exponent",
+      "url": "https://www.tryexponent.com",
+      "description": "Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "hackerrank",
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com",
+      "description": "Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "hello-interview",
+      "name": "Hello Interview",
+      "url": "https://www.hellointerview.com",
+      "description": "Interview preparation platform focused on system design, coding interviews, and technical interview strategies.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "interview-query",
+      "name": "Interview Query",
+      "url": "https://www.interviewquery.com",
+      "description": "Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "interviewing-io",
+      "name": "interviewing.io",
+      "url": "https://interviewing.io",
+      "description": "Anonymous mock technical interviews with experienced software engineers from leading technology companies.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "url": "https://leetcode.com",
+      "description": "Leading coding interview platform with thousands of algorithm, data structure, SQL, and system design problems.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "neetcode",
+      "name": "NeetCode",
+      "url": "https://neetcode.io",
+      "description": "Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "pramp",
+      "name": "Pramp",
+      "url": "https://www.pramp.com",
+      "description": "Free peer-to-peer mock interview platform for coding and technical interview practice.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "quantguide",
+      "name": "QuantGuide",
+      "url": "https://www.quantguide.io",
+      "description": "Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "platform"
+    },
+    {
+      "id": "jakes-resume",
+      "name": "Jake's Resume",
+      "url": "https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs",
+      "description": "Popular LaTeX resume template widely used by computer science students and software engineers.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "resume"
+    },
+    {
+      "id": "overleaf",
+      "name": "Overleaf",
+      "url": "https://www.overleaf.com",
+      "description": "Online LaTeX editor for creating professional resumes, CVs, and technical documents.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "tool"
+    },
+    {
+      "id": "resume-worded",
+      "name": "Resume Worded",
+      "url": "https://resumeworded.com",
+      "description": "AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances.",
+      "category": "interview-prep",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "tool"
     },
     {
       "id": "a-tour-of-cpp",
@@ -1494,34 +1558,8 @@
       "description": "Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "bash-cheat-sheet",
-      "name": "Bash Cheat Sheet",
-      "url": "https://devhints.io/bash",
-      "description": "Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "bytebytego",
-      "name": "ByteByteGo",
-      "url": "https://www.youtube.com/@ByteByteGo",
-      "description": "System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "compiler-explorer",
-      "name": "Compiler Explorer (Godbolt)",
-      "url": "https://godbolt.org",
-      "description": "Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "computer-networking-a-top-down-approach",
@@ -1530,7 +1568,8 @@
       "description": "Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "computer-systems-a-programmers-perspective",
@@ -1539,34 +1578,8 @@
       "description": "Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "computerphile",
-      "name": "Computerphile",
-      "url": "https://www.youtube.com/@Computerphile",
-      "description": "Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "cpulator",
-      "name": "CPUlator",
-      "url": "https://cpulator.01xz.net",
-      "description": "Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "cs50x",
-      "name": "CS50x: Introduction to Computer Science",
-      "url": "https://cs50.harvard.edu/x",
-      "description": "Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "designing-data-intensive-applications",
@@ -1575,61 +1588,8 @@
       "description": "Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "docker-cli-cheat-sheet",
-      "name": "Docker CLI Cheat Sheet",
-      "url": "https://docs.docker.com/get-started/docker_cheatsheet.pdf",
-      "description": "Official Docker quick reference covering the most common Docker CLI commands and workflows.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "fireship",
-      "name": "Fireship",
-      "url": "https://www.youtube.com/@Fireship",
-      "description": "Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "freecodecamp",
-      "name": "freeCodeCamp",
-      "url": "https://www.freecodecamp.org",
-      "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "full-stack-open",
-      "name": "Full Stack Open",
-      "url": "https://fullstackopen.com/en",
-      "description": "A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "gamedev-tv",
-      "name": "GameDev.tv",
-      "url": "https://www.gamedev.tv",
-      "description": "Game development courses covering Unity, Unreal Engine, C++, and C#.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "git-cheat-sheet",
-      "name": "Git Cheat Sheet",
-      "url": "https://education.github.com/git-cheat-sheet-education.pdf",
-      "description": "Official GitHub one-page reference covering essential Git commands and workflows.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "grokking-algorithms",
@@ -1638,25 +1598,8 @@
       "description": "Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "hack-the-box-academy",
-      "name": "Hack The Box Academy",
-      "url": "https://academy.hackthebox.com",
-      "description": "Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "hacker-news",
-      "name": "Hacker News",
-      "url": "https://news.ycombinator.com",
-      "description": "Community-driven technology news and discussions about software engineering, startups, CS, and programming.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "heard-on-the-street",
@@ -1665,115 +1608,8 @@
       "description": "Classic book covering probability, brainteasers, and quantitative finance concepts.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "http-status-codes",
-      "name": "HTTP Status Codes",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status",
-      "description": "MDN reference explaining all standard HTTP response status codes with definitions and usage.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "hussein-nasser",
-      "name": "Hussein Nasser",
-      "url": "https://www.youtube.com/@hnasr",
-      "description": "Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "kodekloud",
-      "name": "KodeKloud",
-      "url": "https://kodekloud.com",
-      "description": "Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "learn-git-branching",
-      "name": "Learn Git Branching",
-      "url": "https://learngitbranching.js.org",
-      "description": "Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "learncpp",
-      "name": "LearnCpp",
-      "url": "https://www.learncpp.com",
-      "description": "Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "learnopengl",
-      "name": "LearnOpenGL",
-      "url": "https://learnopengl.com",
-      "description": "Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "linux-commands-cheat-sheet",
-      "name": "Linux Commands Cheat Sheet",
-      "url": "https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet",
-      "description": "Official Red Hat reference for essential Linux commands used in development and system administration.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "linux-journey",
-      "name": "Linux Journey",
-      "url": "https://linuxjourney.com",
-      "description": "Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "liveoverflow",
-      "name": "LiveOverflow",
-      "url": "https://www.youtube.com/@LiveOverflow",
-      "description": "Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "low-level",
-      "name": "Low Level",
-      "url": "https://www.youtube.com/LowLevelLearning",
-      "description": "Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "mdn-web-docs",
-      "name": "MDN Web Docs",
-      "url": "https://developer.mozilla.org",
-      "description": "The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "microsoft-learn",
-      "name": "Microsoft Learn",
-      "url": "https://learn.microsoft.com",
-      "description": "Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "operating-systems-three-easy-pieces",
@@ -1782,70 +1618,8 @@
       "description": "Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "ossu-computer-science",
-      "name": "OSSU Computer Science",
-      "url": "https://github.com/ossu/computer-science",
-      "description": "A complete self-taught computer science curriculum using high-quality free online courses from leading universities.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "powershell-cheat-sheet",
-      "name": "PowerShell Cheat Sheet",
-      "url": "https://ss64.com/ps",
-      "description": "Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "real-python",
-      "name": "Real Python",
-      "url": "https://realpython.com",
-      "description": "High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "refactoring-guru",
-      "name": "Refactoring.Guru",
-      "url": "https://refactoring.guru",
-      "description": "Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "roadmap-sh",
-      "name": "roadmap.sh",
-      "url": "https://roadmap.sh",
-      "description": "Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "sqlbolt",
-      "name": "SQLBolt",
-      "url": "https://sqlbolt.com",
-      "description": "Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "the-cherno",
-      "name": "The Cherno",
-      "url": "https://www.youtube.com/@TheCherno",
-      "description": "High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "the-linux-command-line",
@@ -1854,25 +1628,8 @@
       "description": "Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "the-organic-chemistry-tutor",
-      "name": "The Organic Chemistry Tutor",
-      "url": "https://www.youtube.com/@TheOrganicChemistryTutor",
-      "description": "Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
-    },
-    {
-      "id": "the-pragmatic-engineer",
-      "name": "The Pragmatic Engineer",
-      "url": "https://newsletter.pragmaticengineer.com",
-      "description": "Engineering newsletter covering software development, big tech, system design, leadership, and industry trends.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
       "id": "the-pragmatic-programmer",
@@ -1881,16 +1638,108 @@
       "description": "Classic software engineering book covering practical programming techniques, best practices, and professional growth.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "book"
     },
     {
-      "id": "tldr",
-      "name": "TLDR Newsletter",
-      "url": "https://tldr.tech",
-      "description": "Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news.",
+      "id": "cs50x",
+      "name": "CS50x: Introduction to Computer Science",
+      "url": "https://cs50.harvard.edu/x",
+      "description": "Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "full-stack-open",
+      "name": "Full Stack Open",
+      "url": "https://fullstackopen.com/en",
+      "description": "A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "gamedev-tv",
+      "name": "GameDev.tv",
+      "url": "https://www.gamedev.tv",
+      "description": "Game development courses covering Unity, Unreal Engine, C++, and C#.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "hack-the-box-academy",
+      "name": "Hack The Box Academy",
+      "url": "https://academy.hackthebox.com",
+      "description": "Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "kodekloud",
+      "name": "KodeKloud",
+      "url": "https://kodekloud.com",
+      "description": "Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "linux-journey",
+      "name": "Linux Journey",
+      "url": "https://linuxjourney.com",
+      "description": "Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "microsoft-learn",
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com",
+      "description": "Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "ossu-computer-science",
+      "name": "OSSU Computer Science",
+      "url": "https://github.com/ossu/computer-science",
+      "description": "A complete self-taught computer science curriculum using high-quality free online courses from leading universities.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "sqlbolt",
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com",
+      "description": "Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
     },
     {
       "id": "tryhackme",
@@ -1899,7 +1748,138 @@
       "description": "Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "description": "Community-driven technology news and discussions about software engineering, startups, CS, and programming.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "news"
+    },
+    {
+      "id": "the-pragmatic-engineer",
+      "name": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com",
+      "description": "Engineering newsletter covering software development, big tech, system design, leadership, and industry trends.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "news"
+    },
+    {
+      "id": "tldr",
+      "name": "TLDR Newsletter",
+      "url": "https://tldr.tech",
+      "description": "Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "news"
+    },
+    {
+      "id": "bash-cheat-sheet",
+      "name": "Bash Cheat Sheet",
+      "url": "https://devhints.io/bash",
+      "description": "Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "docker-cli-cheat-sheet",
+      "name": "Docker CLI Cheat Sheet",
+      "url": "https://docs.docker.com/get-started/docker_cheatsheet.pdf",
+      "description": "Official Docker quick reference covering the most common Docker CLI commands and workflows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "git-cheat-sheet",
+      "name": "Git Cheat Sheet",
+      "url": "https://education.github.com/git-cheat-sheet-education.pdf",
+      "description": "Official GitHub one-page reference covering essential Git commands and workflows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "http-status-codes",
+      "name": "HTTP Status Codes",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status",
+      "description": "MDN reference explaining all standard HTTP response status codes with definitions and usage.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "linux-commands-cheat-sheet",
+      "name": "Linux Commands Cheat Sheet",
+      "url": "https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet",
+      "description": "Official Red Hat reference for essential Linux commands used in development and system administration.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "mdn-web-docs",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "description": "The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "powershell-cheat-sheet",
+      "name": "PowerShell Cheat Sheet",
+      "url": "https://ss64.com/ps",
+      "description": "Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "reference"
+    },
+    {
+      "id": "compiler-explorer",
+      "name": "Compiler Explorer (Godbolt)",
+      "url": "https://godbolt.org",
+      "description": "Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "tool"
+    },
+    {
+      "id": "cpulator",
+      "name": "CPUlator",
+      "url": "https://cpulator.01xz.net",
+      "description": "Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "tool"
+    },
+    {
+      "id": "learn-git-branching",
+      "name": "Learn Git Branching",
+      "url": "https://learngitbranching.js.org",
+      "description": "Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "tool"
     },
     {
       "id": "visualgo",
@@ -1908,7 +1888,138 @@
       "description": "Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01"
+      "last_verified": "2026-07-01",
+      "type": "tool"
+    },
+    {
+      "id": "bytebytego",
+      "name": "ByteByteGo",
+      "url": "https://www.youtube.com/@ByteByteGo",
+      "description": "System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "computerphile",
+      "name": "Computerphile",
+      "url": "https://www.youtube.com/@Computerphile",
+      "description": "Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "fireship",
+      "name": "Fireship",
+      "url": "https://www.youtube.com/@Fireship",
+      "description": "Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "hussein-nasser",
+      "name": "Hussein Nasser",
+      "url": "https://www.youtube.com/@hnasr",
+      "description": "Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "liveoverflow",
+      "name": "LiveOverflow",
+      "url": "https://www.youtube.com/@LiveOverflow",
+      "description": "Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "low-level",
+      "name": "Low Level",
+      "url": "https://www.youtube.com/LowLevelLearning",
+      "description": "Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "the-cherno",
+      "name": "The Cherno",
+      "url": "https://www.youtube.com/@TheCherno",
+      "description": "High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "the-organic-chemistry-tutor",
+      "name": "The Organic Chemistry Tutor",
+      "url": "https://www.youtube.com/@TheOrganicChemistryTutor",
+      "description": "Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "video"
+    },
+    {
+      "id": "learncpp",
+      "name": "LearnCpp",
+      "url": "https://www.learncpp.com",
+      "description": "Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "website"
+    },
+    {
+      "id": "learnopengl",
+      "name": "LearnOpenGL",
+      "url": "https://learnopengl.com",
+      "description": "Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "website"
+    },
+    {
+      "id": "real-python",
+      "name": "Real Python",
+      "url": "https://realpython.com",
+      "description": "High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "website"
+    },
+    {
+      "id": "refactoring-guru",
+      "name": "Refactoring.Guru",
+      "url": "https://refactoring.guru",
+      "description": "Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "website"
+    },
+    {
+      "id": "roadmap-sh",
+      "name": "roadmap.sh",
+      "url": "https://roadmap.sh",
+      "description": "Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "website"
     }
   ]
 }

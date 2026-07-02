@@ -56,55 +56,55 @@ Browse resources by area and category.
 
 **47 resources** · `learning-resources`
 
-| Resource | Description |
-| --- | --- |
-| [A Tour of C++](https://www.stroustrup.com/tour3.html) | Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices. |
-| [Bash Cheat Sheet](https://devhints.io/bash) | Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands. |
-| [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts. |
-| [Compiler Explorer (Godbolt)](https://godbolt.org) | Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages. |
-| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security. |
-| [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu) | Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance. |
-| [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts. |
-| [CPUlator](https://cpulator.01xz.net) | Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems. |
-| [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. |
-| [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture. |
-| [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) | Official Docker quick reference covering the most common Docker CLI commands and workflows. |
-| [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. |
-| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. |
-| [Full Stack Open](https://fullstackopen.com/en) | A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment. |
-| [GameDev.tv](https://www.gamedev.tv) | Game development courses covering Unity, Unreal Engine, C++, and C#. |
-| [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) | Official GitHub one-page reference covering essential Git commands and workflows. |
-| [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples. |
-| [Hack The Box Academy](https://academy.hackthebox.com) | Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows. |
-| [Hacker News](https://news.ycombinator.com) | Community-driven technology news and discussions about software engineering, startups, CS, and programming. |
-| [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867) | Classic book covering probability, brainteasers, and quantitative finance concepts. |
-| [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | MDN reference explaining all standard HTTP response status codes with definitions and usage. |
-| [Hussein Nasser](https://www.youtube.com/@hnasr) | Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture. |
-| [KodeKloud](https://kodekloud.com) | Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies. |
-| [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. |
-| [LearnCpp](https://www.learncpp.com) | Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics. |
-| [LearnOpenGL](https://learnopengl.com) | Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals. |
-| [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) | Official Red Hat reference for essential Linux commands used in development and system administration. |
-| [Linux Journey](https://linuxjourney.com) | Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration. |
-| [LiveOverflow](https://www.youtube.com/@LiveOverflow) | Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development. |
-| [Low Level](https://www.youtube.com/LowLevelLearning) | Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing. |
-| [MDN Web Docs](https://developer.mozilla.org) | The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla. |
-| [Microsoft Learn](https://learn.microsoft.com) | Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools. |
-| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. |
-| [OSSU Computer Science](https://github.com/ossu/computer-science) | A complete self-taught computer science curriculum using high-quality free online courses from leading universities. |
-| [PowerShell Cheat Sheet](https://ss64.com/ps) | Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration. |
-| [Real Python](https://realpython.com) | High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics. |
-| [Refactoring.Guru](https://refactoring.guru) | Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture. |
-| [roadmap.sh](https://roadmap.sh) | Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design. |
-| [SQLBolt](https://sqlbolt.com) | Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries. |
-| [The Cherno](https://www.youtube.com/@TheCherno) | High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming. |
-| [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. |
-| [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) | Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects. |
-| [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com) | Engineering newsletter covering software development, big tech, system design, leadership, and industry trends. |
-| [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. |
-| [TLDR Newsletter](https://tldr.tech) | Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news. |
-| [TryHackMe](https://tryhackme.com) | Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense. |
-| [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps. |
+| Resource | Description | Type |
+| --- | --- | --- |
+| [A Tour of C++](https://www.stroustrup.com/tour3.html) | Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices. | Book |
+| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security. | Book |
+| [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu) | Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance. | Book |
+| [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture. | Book |
+| [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples. | Book |
+| [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867) | Classic book covering probability, brainteasers, and quantitative finance concepts. | Book |
+| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. | Book |
+| [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. | Book |
+| [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. | Book |
+| [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. | Course |
+| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. | Course |
+| [Full Stack Open](https://fullstackopen.com/en) | A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment. | Course |
+| [GameDev.tv](https://www.gamedev.tv) | Game development courses covering Unity, Unreal Engine, C++, and C#. | Course |
+| [Hack The Box Academy](https://academy.hackthebox.com) | Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows. | Course |
+| [KodeKloud](https://kodekloud.com) | Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies. | Course |
+| [Linux Journey](https://linuxjourney.com) | Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration. | Course |
+| [Microsoft Learn](https://learn.microsoft.com) | Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools. | Course |
+| [OSSU Computer Science](https://github.com/ossu/computer-science) | A complete self-taught computer science curriculum using high-quality free online courses from leading universities. | Course |
+| [SQLBolt](https://sqlbolt.com) | Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries. | Course |
+| [TryHackMe](https://tryhackme.com) | Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense. | Course |
+| [Hacker News](https://news.ycombinator.com) | Community-driven technology news and discussions about software engineering, startups, CS, and programming. | News |
+| [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com) | Engineering newsletter covering software development, big tech, system design, leadership, and industry trends. | News |
+| [TLDR Newsletter](https://tldr.tech) | Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news. | News |
+| [Bash Cheat Sheet](https://devhints.io/bash) | Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands. | Reference |
+| [Docker CLI Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) | Official Docker quick reference covering the most common Docker CLI commands and workflows. | Reference |
+| [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) | Official GitHub one-page reference covering essential Git commands and workflows. | Reference |
+| [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | MDN reference explaining all standard HTTP response status codes with definitions and usage. | Reference |
+| [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) | Official Red Hat reference for essential Linux commands used in development and system administration. | Reference |
+| [MDN Web Docs](https://developer.mozilla.org) | The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla. | Reference |
+| [PowerShell Cheat Sheet](https://ss64.com/ps) | Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration. | Reference |
+| [Compiler Explorer (Godbolt)](https://godbolt.org) | Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages. | Tool |
+| [CPUlator](https://cpulator.01xz.net) | Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems. | Tool |
+| [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. | Tool |
+| [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps. | Tool |
+| [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts. | Video |
+| [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts. | Video |
+| [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. | Video |
+| [Hussein Nasser](https://www.youtube.com/@hnasr) | Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture. | Video |
+| [LiveOverflow](https://www.youtube.com/@LiveOverflow) | Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development. | Video |
+| [Low Level](https://www.youtube.com/LowLevelLearning) | Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing. | Video |
+| [The Cherno](https://www.youtube.com/@TheCherno) | High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming. | Video |
+| [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) | Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects. | Video |
+| [LearnCpp](https://www.learncpp.com) | Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics. | Website |
+| [LearnOpenGL](https://learnopengl.com) | Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals. | Website |
+| [Real Python](https://realpython.com) | High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics. | Website |
+| [Refactoring.Guru](https://refactoring.guru) | Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture. | Website |
+| [roadmap.sh](https://roadmap.sh) | Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design. | Website |
 
 <a id="interview-prep"></a>
 
@@ -112,34 +112,34 @@ Browse resources by area and category.
 
 **26 resources** · `interview-prep`
 
-| Resource | Description |
-| --- | --- |
-| [AtCoder](https://atcoder.jp) | Competitive programming platform offering high-quality contests and algorithm practice. |
-| [ByteByteGo System Design](https://bytebytego.com) | System design interview platform featuring books, courses, and real-world architecture case studies. |
-| [Codeforces](https://codeforces.com) | Competitive programming platform with contests and algorithmic problems for technical interview practice. |
-| [CodeSignal](https://codesignal.com) | Technical assessment platform widely used by companies for coding screenings and online assessments. |
-| [Codewars](https://www.codewars.com) | Programming challenge platform for improving coding skills through community-created problems. |
-| [Codility](https://www.codility.com) | Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills. |
-| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep. |
-| [Cracking the Coding Interview](https://www.crackingthecodinginterview.com) | Classic interview preparation book covering coding questions, technical concepts, and interview strategies. |
-| [DesignGurus](https://www.designgurus.io) | Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep. |
-| [Elements of Programming Interviews](https://elementsofprogramminginterviews.com) | Comprehensive interview preparation book featuring advanced coding problems and detailed solutions. |
-| [Exponent](https://www.tryexponent.com) | Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews. |
-| [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview) | Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews. |
-| [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview) | Popular course teaching object-oriented design concepts commonly tested in software engineering interviews. |
-| [HackerRank](https://www.hackerrank.com) | Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges. |
-| [Hello Interview](https://www.hellointerview.com) | Interview preparation platform focused on system design, coding interviews, and technical interview strategies. |
-| [Interview Query](https://www.interviewquery.com) | Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews. |
-| [interviewing.io](https://interviewing.io) | Anonymous mock technical interviews with experienced software engineers from leading technology companies. |
-| [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) | Popular LaTeX resume template widely used by computer science students and software engineers. |
-| [LeetCode](https://leetcode.com) | Leading coding interview platform with thousands of algorithm, data structure, SQL, and system design problems. |
-| [NeetCode](https://neetcode.io) | Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans. |
-| [Overleaf](https://www.overleaf.com) | Online LaTeX editor for creating professional resumes, CVs, and technical documents. |
-| [Pramp](https://www.pramp.com) | Free peer-to-peer mock interview platform for coding and technical interview practice. |
-| [QuantGuide](https://www.quantguide.io) | Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews. |
-| [Resume Worded](https://resumeworded.com) | AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances. |
-| [System Design Primer](https://github.com/donnemartin/system-design-primer) | Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture. |
-| [Tech Interview Handbook](https://www.techinterviewhandbook.org) | Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies. |
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Cracking the Coding Interview](https://www.crackingthecodinginterview.com) | Classic interview preparation book covering coding questions, technical concepts, and interview strategies. | Book |
+| [Elements of Programming Interviews](https://elementsofprogramminginterviews.com) | Comprehensive interview preparation book featuring advanced coding problems and detailed solutions. | Book |
+| [ByteByteGo System Design](https://bytebytego.com) | System design interview platform featuring books, courses, and real-world architecture case studies. | Course |
+| [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview) | Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews. | Course |
+| [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview) | Popular course teaching object-oriented design concepts commonly tested in software engineering interviews. | Course |
+| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep. | Guide |
+| [System Design Primer](https://github.com/donnemartin/system-design-primer) | Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture. | Guide |
+| [Tech Interview Handbook](https://www.techinterviewhandbook.org) | Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies. | Guide |
+| [AtCoder](https://atcoder.jp) | Competitive programming platform offering high-quality contests and algorithm practice. | Platform |
+| [Codeforces](https://codeforces.com) | Competitive programming platform with contests and algorithmic problems for technical interview practice. | Platform |
+| [CodeSignal](https://codesignal.com) | Technical assessment platform widely used by companies for coding screenings and online assessments. | Platform |
+| [Codewars](https://www.codewars.com) | Programming challenge platform for improving coding skills through community-created problems. | Platform |
+| [Codility](https://www.codility.com) | Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills. | Platform |
+| [DesignGurus](https://www.designgurus.io) | Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep. | Platform |
+| [Exponent](https://www.tryexponent.com) | Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews. | Platform |
+| [HackerRank](https://www.hackerrank.com) | Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges. | Platform |
+| [Hello Interview](https://www.hellointerview.com) | Interview preparation platform focused on system design, coding interviews, and technical interview strategies. | Platform |
+| [Interview Query](https://www.interviewquery.com) | Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews. | Platform |
+| [interviewing.io](https://interviewing.io) | Anonymous mock technical interviews with experienced software engineers from leading technology companies. | Platform |
+| [LeetCode](https://leetcode.com) | Leading coding interview platform with thousands of algorithm, data structure, SQL, and system design problems. | Platform |
+| [NeetCode](https://neetcode.io) | Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans. | Platform |
+| [Pramp](https://www.pramp.com) | Free peer-to-peer mock interview platform for coding and technical interview practice. | Platform |
+| [QuantGuide](https://www.quantguide.io) | Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews. | Platform |
+| [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) | Popular LaTeX resume template widely used by computer science students and software engineers. | Resume |
+| [Overleaf](https://www.overleaf.com) | Online LaTeX editor for creating professional resumes, CVs, and technical documents. | Tool |
+| [Resume Worded](https://resumeworded.com) | AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances. | Tool |
 
 <a id="communities-clubs"></a>
 
@@ -283,46 +283,46 @@ Browse resources by area and category.
 
 **38 resources** · `open-source`
 
-| Resource | Description |
-| --- | --- |
-| [Apache Software Foundation](https://apache.org) | Foundation hosting hundreds of open-source software projects. |
-| [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) | Curated collection of beginner-friendly open-source projects organized by programming language. |
-| [Bevy Engine](https://bevyengine.org) | Open-source Rust game engine. |
-| [Blender](https://www.blender.org) | Open-source 3D creation suite. |
-| [Cloud Native Computing Foundation](https://www.cncf.io) | Cloud-native ecosystem hosting major infrastructure projects. |
-| [CodeTriage](https://www.codetriage.com) | Receive beginner-friendly open issues from your favorite open-source projects directly by email. |
-| [Docker](https://www.docker.com) | Container platform with a large open-source ecosystem. |
-| [Eclipse Foundation](https://www.eclipse.org) | Foundation supporting open-source developer tools and frameworks. |
-| [FastAPI](https://fastapi.tiangolo.com) | Modern Python web framework. |
-| [First Contributions](https://firstcontributions.github.io) | Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub. |
-| [First Timers Only](https://www.firsttimersonly.com) | Resources and projects specifically designed to help first-time open-source contributors get started. |
-| [Git](https://git-scm.com) | Distributed version control system. |
-| [GitHub Open Source Guides](https://opensource.guide) | Official guides covering open-source contribution, collaboration, community building, and project best practices. |
-| [GNOME](https://www.gnome.org) | Open-source desktop environment and platform. |
-| [Godot Engine](https://godotengine.org) | Open-source game engine. |
-| [Good First Issue](https://goodfirstissue.dev) | Discover beginner-friendly GitHub issues across a wide range of open-source projects. |
-| [Grafana](https://grafana.com/oss) | Open-source observability and visualization platform. |
-| [Home Assistant](https://www.home-assistant.io) | Open-source home automation platform. |
-| [Hugging Face](https://huggingface.co) | Open-source AI and machine learning ecosystem. |
-| [KDE](https://kde.org) | Open-source desktop environment and applications. |
-| [Linux Kernel](https://kernel.org) | Open-source operating system kernel powering millions of devices and systems. |
-| [Mozilla](https://www.mozilla.org) | Open-source web technologies, browser, and internet projects. |
-| [Neovim](https://neovim.io) | Modern extensible text editor. |
-| [Nmap](https://nmap.org) | Open-source network discovery and security auditing tool. |
-| [OpenCV](https://opencv.org) | Open-source computer vision library. |
-| [OpenSauced](https://opensauced.pizza) | Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio. |
-| [OpenStreetMap](https://www.openstreetmap.org) | Collaborative open mapping project. |
-| [OpenTofu](https://opentofu.org) | Open-source infrastructure as code platform. |
-| [OWASP](https://owasp.org) | Open-source application security community and projects. |
-| [PostgreSQL](https://www.postgresql.org) | Advanced open-source relational database. |
-| [Project Jupyter](https://jupyter.org) | Interactive computing and data science ecosystem. |
-| [Prometheus](https://prometheus.io) | Monitoring and alerting toolkit for cloud-native systems. |
-| [Qt](https://www.qt.io) | Cross-platform application development framework. |
-| [QuantLib](https://www.quantlib.org) | Open-source quantitative finance library. |
-| [ROS](https://www.ros.org) | Open-source robotics ecosystem. |
-| [scikit-learn](https://scikit-learn.org) | Open-source machine learning library for Python. |
-| [Up For Grabs](https://up-for-grabs.net) | Directory of open-source projects actively seeking new contributors through beginner-friendly issues. |
-| [Wireshark](https://www.wireshark.org) | Network protocol analyzer. |
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Apache Software Foundation](https://apache.org) | Foundation hosting hundreds of open-source software projects. | Organization |
+| [Cloud Native Computing Foundation](https://www.cncf.io) | Cloud-native ecosystem hosting major infrastructure projects. | Organization |
+| [Eclipse Foundation](https://www.eclipse.org) | Foundation supporting open-source developer tools and frameworks. | Organization |
+| [GNOME](https://www.gnome.org) | Open-source desktop environment and platform. | Organization |
+| [Hugging Face](https://huggingface.co) | Open-source AI and machine learning ecosystem. | Organization |
+| [KDE](https://kde.org) | Open-source desktop environment and applications. | Organization |
+| [Mozilla](https://www.mozilla.org) | Open-source web technologies, browser, and internet projects. | Organization |
+| [OWASP](https://owasp.org) | Open-source application security community and projects. | Organization |
+| [Bevy Engine](https://bevyengine.org) | Open-source Rust game engine. | Project |
+| [Blender](https://www.blender.org) | Open-source 3D creation suite. | Project |
+| [Docker](https://www.docker.com) | Container platform with a large open-source ecosystem. | Project |
+| [FastAPI](https://fastapi.tiangolo.com) | Modern Python web framework. | Project |
+| [Git](https://git-scm.com) | Distributed version control system. | Project |
+| [Godot Engine](https://godotengine.org) | Open-source game engine. | Project |
+| [Grafana](https://grafana.com/oss) | Open-source observability and visualization platform. | Project |
+| [Home Assistant](https://www.home-assistant.io) | Open-source home automation platform. | Project |
+| [Linux Kernel](https://kernel.org) | Open-source operating system kernel powering millions of devices and systems. | Project |
+| [Neovim](https://neovim.io) | Modern extensible text editor. | Project |
+| [Nmap](https://nmap.org) | Open-source network discovery and security auditing tool. | Project |
+| [OpenCV](https://opencv.org) | Open-source computer vision library. | Project |
+| [OpenStreetMap](https://www.openstreetmap.org) | Collaborative open mapping project. | Project |
+| [OpenTofu](https://opentofu.org) | Open-source infrastructure as code platform. | Project |
+| [PostgreSQL](https://www.postgresql.org) | Advanced open-source relational database. | Project |
+| [Project Jupyter](https://jupyter.org) | Interactive computing and data science ecosystem. | Project |
+| [Prometheus](https://prometheus.io) | Monitoring and alerting toolkit for cloud-native systems. | Project |
+| [Qt](https://www.qt.io) | Cross-platform application development framework. | Project |
+| [QuantLib](https://www.quantlib.org) | Open-source quantitative finance library. | Project |
+| [ROS](https://www.ros.org) | Open-source robotics ecosystem. | Project |
+| [scikit-learn](https://scikit-learn.org) | Open-source machine learning library for Python. | Project |
+| [Wireshark](https://www.wireshark.org) | Network protocol analyzer. | Project |
+| [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) | Curated collection of beginner-friendly open-source projects organized by programming language. | Resource |
+| [CodeTriage](https://www.codetriage.com) | Receive beginner-friendly open issues from your favorite open-source projects directly by email. | Resource |
+| [First Contributions](https://firstcontributions.github.io) | Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub. | Resource |
+| [First Timers Only](https://www.firsttimersonly.com) | Resources and projects specifically designed to help first-time open-source contributors get started. | Resource |
+| [GitHub Open Source Guides](https://opensource.guide) | Official guides covering open-source contribution, collaboration, community building, and project best practices. | Resource |
+| [Good First Issue](https://goodfirstissue.dev) | Discover beginner-friendly GitHub issues across a wide range of open-source projects. | Resource |
+| [OpenSauced](https://opensauced.pizza) | Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio. | Resource |
+| [Up For Grabs](https://up-for-grabs.net) | Directory of open-source projects actively seeking new contributors through beginner-friendly issues. | Resource |
 
 <a id="useful-repositories"></a>
 
