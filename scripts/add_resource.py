@@ -12,7 +12,7 @@ CATEGORIES = {
     "7": ("experience-involvement", "competitions"),
     "8": ("building-open-source", "open-source"),
     "9": ("building-open-source", "useful-repositories"),
-    "10": ("building-open-source", "project-starters-kits"),
+    "10": ("building-open-source", "project-based-learning"),
     "11": ("careers-perks", "internships-fellowships"),
     "12": ("careers-perks", "recruitment-events"),
     "13": ("careers-perks", "certifications"),

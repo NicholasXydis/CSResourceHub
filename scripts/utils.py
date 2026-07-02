@@ -17,7 +17,7 @@ CATEGORY_LABELS = {
     "competitions": "Competitions",
     "open-source": "Open Source",
     "useful-repositories": "Useful Repositories",
-    "project-starters-kits": "Project Starters & Kits",
+    "project-based-learning": "Project-Based Learning",
     "internships-fellowships": "Internships & Fellowships",
     "recruitment-events": "Recruitment & Events",
     "certifications": "Certifications",
@@ -39,7 +39,7 @@ CATEGORY_GROUPS = {
     "Building & Open Source": [
         "open-source",
         "useful-repositories",
-        "project-starters-kits",
+        "project-based-learning",
     ],
     "Careers & Perks": [
         "internships-fellowships",

@@ -44,7 +44,7 @@ Browse resources by area and category.
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (47)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
-| 🧩 Building & Open Source | [Open Source](#open-source) (38)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (38)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project-Based Learning](#project-based-learning) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
 
@@ -332,11 +332,11 @@ Browse resources by area and category.
 
 > No resources yet. Contributions are welcome.
 
-<a id="project-starters-kits"></a>
+<a id="project-based-learning"></a>
 
-### Project Starters & Kits
+### Project-Based Learning
 
-**0 resources** · `project-starters-kits`
+**0 resources** · `project-based-learning`
 
 > No resources yet. Contributions are welcome.
 

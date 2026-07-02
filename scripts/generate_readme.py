@@ -97,10 +97,13 @@ def tech_icon(name: str, src: str) -> str:
 
 
 def resource_sort_key(resource: dict):
+    resource_type = resource.get("type")
     month = resource.get("month")
-    if month in MONTH_ORDER:
-        return (0, MONTH_ORDER[month], resource["name"].lower())
-    return (1, resource["name"].lower())
+    month_order = MONTH_ORDER.get(month, len(MONTH_ORDER) + 1)
+    name = resource["name"].lower()
+    if resource_type:
+        return (0, resource_type, month_order, name)
+    return (1, month_order, name)
 
 
 def format_type(resource_type: str) -> str:
