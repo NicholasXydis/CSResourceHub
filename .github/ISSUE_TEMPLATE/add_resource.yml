@@ -23,6 +23,14 @@ body:
       placeholder: e.g. ctfs
     validations:
       required: true
+  - type: input
+    id: type
+    attributes:
+      label: Type
+      description: Optional. Use one allowed schema value if it clearly fits.
+      placeholder: e.g. course
+    validations:
+      required: false
   - type: textarea
     id: description
     attributes:

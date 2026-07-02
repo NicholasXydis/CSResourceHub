@@ -20,8 +20,11 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 
 | Field           | Type   | Description                              | Example        |
 | --------------- | ------ | ---------------------------------------- | -------------- |
+| `type`          | string | Optional resource type from the allowed type list | `"course"` |
 | `month`         | string | Month name for recurring or seasonal resources | `"March"` |
 | `location`      | string | Exact location or `Online` when useful | `"Montreal, Quebec, Canada"` |
+
+Allowed `type` values: `book`, `course`, `website`, `video`, `reference`, `tool`, `news`, `practice`, `guide`, `system-design`, `behavioral`, `mock-interview`, `resume`, `specialized`, `discord`, `reddit`, `club`, `organization`, `project`, `resource`.
 
 ## Example Entry
 
@@ -32,6 +35,7 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
   "url": "https://ctf.uoftctf.org",
   "description": "Student CTF by the University of Toronto.",
   "category": "ctfs",
+  "type": "practice",
   "location": "Online",
   "date_added": "2026-06-15",
   "last_verified": "2026-06-15",

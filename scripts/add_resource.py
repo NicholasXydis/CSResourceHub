@@ -19,6 +19,29 @@ CATEGORIES = {
     "14": ("careers-perks", "free-developer-tools"),
 }
 
+RESOURCE_TYPES = {
+    "book",
+    "course",
+    "website",
+    "video",
+    "reference",
+    "tool",
+    "news",
+    "practice",
+    "guide",
+    "system-design",
+    "behavioral",
+    "mock-interview",
+    "resume",
+    "specialized",
+    "discord",
+    "reddit",
+    "club",
+    "organization",
+    "project",
+    "resource",
+}
+
 def prompt(label, required=True):
     while True:
         val = input(f"{label}: ").strip()
@@ -45,6 +68,10 @@ def add_resource():
     name = prompt("Name")
     url = prompt("URL (https://)")
     description = prompt("Description (one sentence, ends with period)")
+    resource_type = prompt(
+        "Type (optional; e.g. book, course, website, discord)",
+        required=False,
+    )
     location = prompt(
         "Location (optional; e.g. Online or Montreal, Quebec, Canada)",
         required=False,
@@ -60,6 +87,12 @@ def add_resource():
         "category": category,
     }
 
+    if resource_type:
+        if resource_type not in RESOURCE_TYPES:
+            allowed = ", ".join(sorted(RESOURCE_TYPES))
+            print(f"Invalid type. Allowed values: {allowed}")
+            return
+        resource["type"] = resource_type
     if location:
         resource["location"] = location
     if month:

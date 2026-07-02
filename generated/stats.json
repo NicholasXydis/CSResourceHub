@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-01",
-  "total": 158,
+  "total": 196,
   "categories": {
     "learning-resources": 47,
     "interview-prep": 26,
@@ -9,7 +9,7 @@
     "ctfs": 15,
     "game-jams": 11,
     "competitions": 14,
-    "open-source": 0,
+    "open-source": 38,
     "useful-repositories": 0,
     "project-starters-kits": 0,
     "internships-fellowships": 0,
@@ -36,9 +36,9 @@
       }
     },
     "Building & Open Source": {
-      "total": 0,
+      "total": 38,
       "categories": {
-        "open-source": 0,
+        "open-source": 38,
         "useful-repositories": 0,
         "project-starters-kits": 0
       }

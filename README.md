@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=158&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=196&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
 
 </div>
 
@@ -44,7 +44,7 @@ Browse resources by area and category.
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (47)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
-| 🧩 Building & Open Source | [Open Source](#open-source) (0)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (38)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project Starters & Kits](#project-starters-kits) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
 
@@ -281,9 +281,48 @@ Browse resources by area and category.
 
 ### Open Source
 
-**0 resources** · `open-source`
+**38 resources** · `open-source`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description |
+| --- | --- |
+| [Apache Software Foundation](https://apache.org) | Foundation hosting hundreds of open-source software projects. |
+| [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) | Curated collection of beginner-friendly open-source projects organized by programming language. |
+| [Bevy Engine](https://bevyengine.org) | Open-source Rust game engine. |
+| [Blender](https://www.blender.org) | Open-source 3D creation suite. |
+| [Cloud Native Computing Foundation](https://www.cncf.io) | Cloud-native ecosystem hosting major infrastructure projects. |
+| [CodeTriage](https://www.codetriage.com) | Receive beginner-friendly open issues from your favorite open-source projects directly by email. |
+| [Docker](https://www.docker.com) | Container platform with a large open-source ecosystem. |
+| [Eclipse Foundation](https://www.eclipse.org) | Foundation supporting open-source developer tools and frameworks. |
+| [FastAPI](https://fastapi.tiangolo.com) | Modern Python web framework. |
+| [First Contributions](https://firstcontributions.github.io) | Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub. |
+| [First Timers Only](https://www.firsttimersonly.com) | Resources and projects specifically designed to help first-time open-source contributors get started. |
+| [Git](https://git-scm.com) | Distributed version control system. |
+| [GitHub Open Source Guides](https://opensource.guide) | Official guides covering open-source contribution, collaboration, community building, and project best practices. |
+| [GNOME](https://www.gnome.org) | Open-source desktop environment and platform. |
+| [Godot Engine](https://godotengine.org) | Open-source game engine. |
+| [Good First Issue](https://goodfirstissue.dev) | Discover beginner-friendly GitHub issues across a wide range of open-source projects. |
+| [Grafana](https://grafana.com/oss) | Open-source observability and visualization platform. |
+| [Home Assistant](https://www.home-assistant.io) | Open-source home automation platform. |
+| [Hugging Face](https://huggingface.co) | Open-source AI and machine learning ecosystem. |
+| [KDE](https://kde.org) | Open-source desktop environment and applications. |
+| [Linux Kernel](https://kernel.org) | Open-source operating system kernel powering millions of devices and systems. |
+| [Mozilla](https://www.mozilla.org) | Open-source web technologies, browser, and internet projects. |
+| [Neovim](https://neovim.io) | Modern extensible text editor. |
+| [Nmap](https://nmap.org) | Open-source network discovery and security auditing tool. |
+| [OpenCV](https://opencv.org) | Open-source computer vision library. |
+| [OpenSauced](https://opensauced.pizza) | Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio. |
+| [OpenStreetMap](https://www.openstreetmap.org) | Collaborative open mapping project. |
+| [OpenTofu](https://opentofu.org) | Open-source infrastructure as code platform. |
+| [OWASP](https://owasp.org) | Open-source application security community and projects. |
+| [PostgreSQL](https://www.postgresql.org) | Advanced open-source relational database. |
+| [Project Jupyter](https://jupyter.org) | Interactive computing and data science ecosystem. |
+| [Prometheus](https://prometheus.io) | Monitoring and alerting toolkit for cloud-native systems. |
+| [Qt](https://www.qt.io) | Cross-platform application development framework. |
+| [QuantLib](https://www.quantlib.org) | Open-source quantitative finance library. |
+| [ROS](https://www.ros.org) | Open-source robotics ecosystem. |
+| [scikit-learn](https://scikit-learn.org) | Open-source machine learning library for Python. |
+| [Up For Grabs](https://up-for-grabs.net) | Directory of open-source projects actively seeking new contributors through beginner-friendly issues. |
+| [Wireshark](https://www.wireshark.org) | Network protocol analyzer. |
 
 <a id="useful-repositories"></a>
 

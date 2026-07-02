@@ -103,6 +103,10 @@ def resource_sort_key(resource: dict):
     return (1, resource["name"].lower())
 
 
+def format_type(resource_type: str) -> str:
+    return resource_type.replace("-", " ").title()
+
+
 def generate_readme():
     resources = load_all_resources()
     by_category = defaultdict(list)
@@ -193,8 +197,11 @@ def generate_readme():
             if cat_resources:
                 has_month = any(r.get("month") for r in cat_resources)
                 has_location = any(r.get("location") for r in cat_resources)
-                if has_month or has_location:
+                has_type = any(r.get("type") for r in cat_resources)
+                if has_type or has_month or has_location:
                     headers = ["Resource", "Description"]
+                    if has_type:
+                        headers.append("Type")
                     if has_month:
                         headers.append("Month")
                     if has_location:
@@ -204,6 +211,8 @@ def generate_readme():
                     for r in cat_resources:
                         name = f"[{r['name']}]({r['url']})"
                         row = [name, r.get("description", "")]
+                        if has_type:
+                            row.append(format_type(r.get("type", "")) or "Resource")
                         if has_month:
                             row.append(r.get("month") or "Ongoing")
                         if has_location:

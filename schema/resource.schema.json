@@ -51,6 +51,31 @@
         "free-developer-tools"
       ]
     },
+    "type": {
+      "type": "string",
+      "enum": [
+        "book",
+        "course",
+        "website",
+        "video",
+        "reference",
+        "tool",
+        "news",
+        "practice",
+        "guide",
+        "system-design",
+        "behavioral",
+        "mock-interview",
+        "resume",
+        "specialized",
+        "discord",
+        "reddit",
+        "club",
+        "organization",
+        "project",
+        "resource"
+      ]
+    },
     "location": {
       "type": "string",
       "minLength": 2,

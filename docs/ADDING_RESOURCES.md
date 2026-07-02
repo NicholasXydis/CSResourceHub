@@ -25,6 +25,7 @@ make add
 - URL must include `https://`, no trailing slash, and no tracking parameters
 - `id` must be unique across all files, lowercase, hyphens only
 - `last_verified` is required and should be the date the URL was checked
+- Use `type` only when one of the allowed values clearly describes the resource
 - Use `month` only when a resource has a clear recurring or seasonal month
 - Use `location` only when the resource has a meaningful online or physical location
 - Use `Online` for fully virtual resources
