@@ -120,6 +120,7 @@ Browse resources by area and category.
 | [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview) | Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews. | Course |
 | [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview) | Popular course teaching object-oriented design concepts commonly tested in software engineering interviews. | Course |
 | [Coding Interview University](https://github.com/jwasham/coding-interview-university) | Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep. | Guide |
+| [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) | Popular LaTeX resume template widely used by computer science students and software engineers. | Guide |
 | [System Design Primer](https://github.com/donnemartin/system-design-primer) | Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture. | Guide |
 | [Tech Interview Handbook](https://www.techinterviewhandbook.org) | Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies. | Guide |
 | [AtCoder](https://atcoder.jp) | Competitive programming platform offering high-quality contests and algorithm practice. | Platform |
@@ -137,7 +138,6 @@ Browse resources by area and category.
 | [NeetCode](https://neetcode.io) | Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans. | Platform |
 | [Pramp](https://www.pramp.com) | Free peer-to-peer mock interview platform for coding and technical interview practice. | Platform |
 | [QuantGuide](https://www.quantguide.io) | Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews. | Platform |
-| [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) | Popular LaTeX resume template widely used by computer science students and software engineers. | Resume |
 | [Overleaf](https://www.overleaf.com) | Online LaTeX editor for creating professional resumes, CVs, and technical documents. | Tool |
 | [Resume Worded](https://resumeworded.com) | AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances. | Tool |
 

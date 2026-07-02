@@ -34,7 +34,6 @@ RESOURCE_TYPES_BY_CATEGORY = {
         "course",
         "guide",
         "platform",
-        "resume",
         "tool",
     },
     "communities-clubs": {

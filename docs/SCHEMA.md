@@ -29,7 +29,7 @@ Allowed `type` values are category-specific:
 | Category | Allowed `type` values |
 | --- | --- |
 | `learning-resources` | `book`, `course`, `website`, `video`, `reference`, `tool`, `news` |
-| `interview-prep` | `book`, `course`, `guide`, `platform`, `resume`, `tool` |
+| `interview-prep` | `book`, `course`, `guide`, `platform`, `tool` |
 | `communities-clubs` | `club`, `discord`, `organization`, `reddit` |
 | `open-source` | `project`, `organization`, `resource` |
 

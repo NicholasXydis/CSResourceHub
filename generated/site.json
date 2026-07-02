@@ -1365,6 +1365,16 @@
         "type": "guide"
       },
       {
+        "id": "jakes-resume",
+        "name": "Jake's Resume",
+        "url": "https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs",
+        "description": "Popular LaTeX resume template widely used by computer science students and software engineers.",
+        "category": "interview-prep",
+        "date_added": "2026-07-01",
+        "last_verified": "2026-07-01",
+        "type": "guide"
+      },
+      {
         "id": "system-design-primer",
         "name": "System Design Primer",
         "url": "https://github.com/donnemartin/system-design-primer",
@@ -1533,16 +1543,6 @@
         "date_added": "2026-07-01",
         "last_verified": "2026-07-01",
         "type": "platform"
-      },
-      {
-        "id": "jakes-resume",
-        "name": "Jake's Resume",
-        "url": "https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs",
-        "description": "Popular LaTeX resume template widely used by computer science students and software engineers.",
-        "category": "interview-prep",
-        "date_added": "2026-07-01",
-        "last_verified": "2026-07-01",
-        "type": "resume"
       },
       {
         "id": "overleaf",
