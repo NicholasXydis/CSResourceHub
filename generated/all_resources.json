@@ -2092,6 +2092,16 @@
       "type": "course"
     },
     {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "course"
+    },
+    {
       "id": "full-stack-open",
       "name": "Full Stack Open",
       "url": "https://fullstackopen.com/en",
@@ -2413,9 +2423,9 @@
     },
     {
       "id": "wolfram-alpha",
-      "name": "Wolfram|Alpha",
+      "name": "Wolfram Alpha",
       "url": "https://www.wolframalpha.com",
-      "description": "Computational knowledge engine for math, science, engineering, and statistics problems.",
+      "description": "Solve math, science, engineering, and statistics problems with computational tools.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
       "last_verified": "2026-07-02",
@@ -2500,16 +2510,6 @@
       "date_added": "2026-07-01",
       "last_verified": "2026-07-01",
       "type": "video"
-    },
-    {
-      "id": "freecodecamp",
-      "name": "freeCodeCamp",
-      "url": "https://www.freecodecamp.org",
-      "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
-      "type": "website"
     },
     {
       "id": "learncpp",

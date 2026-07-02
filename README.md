@@ -68,6 +68,7 @@ Browse resources by area and category.
 | [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. | Book |
 | [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. | Book |
 | [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. | Course |
+| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. | Course |
 | [Full Stack Open](https://fullstackopen.com/en) | A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment. | Course |
 | [GameDev.tv](https://www.gamedev.tv) | Game development courses covering Unity, Unreal Engine, C++, and C#. | Course |
 | [Hack The Box Academy](https://academy.hackthebox.com) | Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows. | Course |
@@ -100,7 +101,7 @@ Browse resources by area and category.
 | [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. | Tool |
 | [OEIS](https://oeis.org) | Searchable database of integer sequences for math, algorithms, and competitive programming. | Tool |
 | [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps. | Tool |
-| [Wolfram|Alpha](https://www.wolframalpha.com) | Computational knowledge engine for math, science, engineering, and statistics problems. | Tool |
+| [Wolfram Alpha](https://www.wolframalpha.com) | Solve math, science, engineering, and statistics problems with computational tools. | Tool |
 | [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts. | Video |
 | [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts. | Video |
 | [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. | Video |
@@ -109,7 +110,6 @@ Browse resources by area and category.
 | [Low Level](https://www.youtube.com/LowLevelLearning) | Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing. | Video |
 | [The Cherno](https://www.youtube.com/@TheCherno) | High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming. | Video |
 | [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) | Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects. | Video |
-| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. | Website |
 | [LearnCpp](https://www.learncpp.com) | Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics. | Website |
 | [LearnOpenGL](https://learnopengl.com) | Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals. | Website |
 | [Real Python](https://realpython.com) | High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics. | Website |
