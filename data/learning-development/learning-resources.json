@@ -102,16 +102,6 @@
       "type": "course"
     },
     {
-      "id": "freecodecamp",
-      "name": "freeCodeCamp",
-      "url": "https://www.freecodecamp.org",
-      "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
-      "category": "learning-resources",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
-      "type": "course"
-    },
-    {
       "id": "full-stack-open",
       "name": "Full Stack Open",
       "url": "https://fullstackopen.com/en",
@@ -420,6 +410,16 @@
       "date_added": "2026-07-01",
       "last_verified": "2026-07-01",
       "type": "video"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
+      "category": "learning-resources",
+      "date_added": "2026-07-01",
+      "last_verified": "2026-07-01",
+      "type": "website"
     },
     {
       "id": "learncpp",

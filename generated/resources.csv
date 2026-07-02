@@ -1,42 +1,41 @@
 id,name,url,description,category,type,month,location,date_added,last_verified
-apache,Apache Software Foundation,https://apache.org,Foundation hosting hundreds of open-source software projects.,open-source,organization,,,2026-07-01,2026-07-01
-cncf,Cloud Native Computing Foundation,https://www.cncf.io,Cloud-native ecosystem hosting major infrastructure projects.,open-source,organization,,,2026-07-01,2026-07-01
-eclipse-foundation,Eclipse Foundation,https://www.eclipse.org,Foundation supporting open-source developer tools and frameworks.,open-source,organization,,,2026-07-01,2026-07-01
-gnome,GNOME,https://www.gnome.org,Open-source desktop environment and platform.,open-source,organization,,,2026-07-01,2026-07-01
-hugging-face,Hugging Face,https://huggingface.co,Open-source AI and machine learning ecosystem.,open-source,organization,,,2026-07-01,2026-07-01
-kde,KDE,https://kde.org,Open-source desktop environment and applications.,open-source,organization,,,2026-07-01,2026-07-01
-mozilla,Mozilla,https://www.mozilla.org,"Open-source web technologies, browser, and internet projects.",open-source,organization,,,2026-07-01,2026-07-01
-owasp,OWASP,https://owasp.org,Open-source application security community and projects.,open-source,organization,,,2026-07-01,2026-07-01
-bevy,Bevy Engine,https://bevyengine.org,Open-source Rust game engine.,open-source,project,,,2026-07-01,2026-07-01
-blender,Blender,https://www.blender.org,Open-source 3D creation suite.,open-source,project,,,2026-07-01,2026-07-01
-docker,Docker,https://www.docker.com,Container platform with a large open-source ecosystem.,open-source,project,,,2026-07-01,2026-07-01
-fastapi,FastAPI,https://fastapi.tiangolo.com,Modern Python web framework.,open-source,project,,,2026-07-01,2026-07-01
-git,Git,https://git-scm.com,Distributed version control system.,open-source,project,,,2026-07-01,2026-07-01
-godot,Godot Engine,https://godotengine.org,Open-source game engine.,open-source,project,,,2026-07-01,2026-07-01
-grafana,Grafana,https://grafana.com/oss,Open-source observability and visualization platform.,open-source,project,,,2026-07-01,2026-07-01
-home-assistant,Home Assistant,https://www.home-assistant.io,Open-source home automation platform.,open-source,project,,,2026-07-01,2026-07-01
-linux-kernel,Linux Kernel,https://kernel.org,Open-source operating system kernel powering millions of devices and systems.,open-source,project,,,2026-07-01,2026-07-01
-neovim,Neovim,https://neovim.io,Modern extensible text editor.,open-source,project,,,2026-07-01,2026-07-01
-nmap,Nmap,https://nmap.org,Open-source network discovery and security auditing tool.,open-source,project,,,2026-07-01,2026-07-01
-opencv,OpenCV,https://opencv.org,Open-source computer vision library.,open-source,project,,,2026-07-01,2026-07-01
-openstreetmap,OpenStreetMap,https://www.openstreetmap.org,Collaborative open mapping project.,open-source,project,,,2026-07-01,2026-07-01
-opentofu,OpenTofu,https://opentofu.org,Open-source infrastructure as code platform.,open-source,project,,,2026-07-01,2026-07-01
-postgresql,PostgreSQL,https://www.postgresql.org,Advanced open-source relational database.,open-source,project,,,2026-07-01,2026-07-01
-jupyter,Project Jupyter,https://jupyter.org,Interactive computing and data science ecosystem.,open-source,project,,,2026-07-01,2026-07-01
-prometheus,Prometheus,https://prometheus.io,Monitoring and alerting toolkit for cloud-native systems.,open-source,project,,,2026-07-01,2026-07-01
-qt,Qt,https://www.qt.io,Cross-platform application development framework.,open-source,project,,,2026-07-01,2026-07-01
-quantlib,QuantLib,https://www.quantlib.org,Open-source quantitative finance library.,open-source,project,,,2026-07-01,2026-07-01
-ros,ROS,https://www.ros.org,Open-source robotics ecosystem.,open-source,project,,,2026-07-01,2026-07-01
-scikit-learn,scikit-learn,https://scikit-learn.org,Open-source machine learning library for Python.,open-source,project,,,2026-07-01,2026-07-01
-wireshark,Wireshark,https://www.wireshark.org,Network protocol analyzer.,open-source,project,,,2026-07-01,2026-07-01
-awesome-for-beginners,Awesome for Beginners,https://github.com/MunGell/awesome-for-beginners,Curated collection of beginner-friendly open-source projects organized by programming language.,open-source,resource,,,2026-07-01,2026-07-01
-codetriage,CodeTriage,https://www.codetriage.com,Receive beginner-friendly open issues from your favorite open-source projects directly by email.,open-source,resource,,,2026-07-01,2026-07-01
-first-contributions,First Contributions,https://firstcontributions.github.io,Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub.,open-source,resource,,,2026-07-01,2026-07-01
-first-timers-only,First Timers Only,https://www.firsttimersonly.com,Resources and projects specifically designed to help first-time open-source contributors get started.,open-source,resource,,,2026-07-01,2026-07-01
-github-open-source-guides,GitHub Open Source Guides,https://opensource.guide,"Official guides covering open-source contribution, collaboration, community building, and project best practices.",open-source,resource,,,2026-07-01,2026-07-01
-good-first-issue,Good First Issue,https://goodfirstissue.dev,Discover beginner-friendly GitHub issues across a wide range of open-source projects.,open-source,resource,,,2026-07-01,2026-07-01
-opensauced,OpenSauced,https://opensauced.pizza,"Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio.",open-source,resource,,,2026-07-01,2026-07-01
-up-for-grabs,Up For Grabs,https://up-for-grabs.net,Directory of open-source projects actively seeking new contributors through beginner-friendly issues.,open-source,resource,,,2026-07-01,2026-07-01
+apache,Apache Software Foundation,https://apache.org,"Explore established open-source projects across servers, data systems, developer tooling, and infrastructure.",open-source,organization,,,2026-07-01,2026-07-01
+cncf,Cloud Native Computing Foundation,https://www.cncf.io,"Find cloud-native projects for containers, orchestration, service meshes, networking, and observability.",open-source,organization,,,2026-07-01,2026-07-01
+eclipse-foundation,Eclipse Foundation,https://www.eclipse.org,"Explore developer tools, runtimes, IoT platforms, and frameworks maintained by open-source communities.",open-source,organization,,,2026-07-01,2026-07-01
+mozilla,Mozilla,https://www.mozilla.org,"Contribute to open web, browser, privacy, and internet health projects.",open-source,organization,,,2026-07-01,2026-07-01
+owasp,OWASP,https://owasp.org,"Learn application security through open-source tools, standards, projects, and community resources.",open-source,organization,,,2026-07-01,2026-07-01
+bevy,Bevy Engine,https://bevyengine.org,"Build games in Rust with a modern, data-driven open-source engine.",open-source,project,,,2026-07-01,2026-07-01
+blender,Blender,https://www.blender.org,"Create 3D art, animation, simulations, and tools in a large open-source project.",open-source,project,,,2026-07-01,2026-07-01
+docker,Docker,https://www.docker.com,Learn container workflows and contribute to widely used developer infrastructure tools.,open-source,project,,,2026-07-01,2026-07-01
+fastapi,FastAPI,https://fastapi.tiangolo.com,Build Python APIs with a modern framework used for production web services.,open-source,project,,,2026-07-01,2026-07-01
+git,Git,https://git-scm.com,Learn distributed version control and contribute to the software powering modern development.,open-source,project,,,2026-07-01,2026-07-01
+gnome,GNOME,https://www.gnome.org,"Explore Linux desktop apps, libraries, accessibility tools, and user experience projects.",open-source,project,,,2026-07-01,2026-07-01
+godot,Godot Engine,https://godotengine.org,Build 2D and 3D games with a beginner-friendly open-source engine.,open-source,project,,,2026-07-01,2026-07-01
+grafana,Grafana,https://grafana.com/oss,"Explore dashboards, metrics, logs, and observability tools used in production systems.",open-source,project,,,2026-07-01,2026-07-01
+home-assistant,Home Assistant,https://www.home-assistant.io,Automate smart homes and contribute to a large Python-based IoT project.,open-source,project,,,2026-07-01,2026-07-01
+hugging-face,Hugging Face,https://huggingface.co,"Explore open models, datasets, machine learning libraries, and AI developer tooling.",open-source,project,,,2026-07-01,2026-07-01
+kde,KDE,https://kde.org,"Contribute to Linux desktop apps, frameworks, and cross-platform user tools.",open-source,project,,,2026-07-01,2026-07-01
+linux-kernel,Linux Kernel,https://kernel.org,Study operating system internals and contribute to core Linux infrastructure.,open-source,project,,,2026-07-01,2026-07-01
+neovim,Neovim,https://neovim.io,"Customize and improve a fast, extensible editor used by many developers.",open-source,project,,,2026-07-01,2026-07-01
+nmap,Nmap,https://nmap.org,Learn network discovery and contribute to a respected security auditing tool.,open-source,project,,,2026-07-01,2026-07-01
+opencv,OpenCV,https://opencv.org,Build computer vision applications with a widely used C++ and Python library.,open-source,project,,,2026-07-01,2026-07-01
+openstreetmap,OpenStreetMap,https://www.openstreetmap.org,"Improve open map data used by apps, researchers, and communities worldwide.",open-source,project,,,2026-07-01,2026-07-01
+opentofu,OpenTofu,https://opentofu.org,Learn infrastructure as code through an open Terraform-compatible project and ecosystem.,open-source,project,,,2026-07-01,2026-07-01
+postgresql,PostgreSQL,https://www.postgresql.org,Explore database internals and contribute to a production-grade SQL system.,open-source,project,,,2026-07-01,2026-07-01
+jupyter,Project Jupyter,https://jupyter.org,"Explore interactive notebooks, scientific computing, and data science tools for research.",open-source,project,,,2026-07-01,2026-07-01
+prometheus,Prometheus,https://prometheus.io,"Learn metrics, monitoring, and alerting through a cloud-native observability project.",open-source,project,,,2026-07-01,2026-07-01
+qt,Qt,https://www.qt.io,"Build cross-platform desktop, mobile, and embedded apps with mature UI tools.",open-source,project,,,2026-07-01,2026-07-01
+quantlib,QuantLib,https://www.quantlib.org,"Explore pricing, risk, and quantitative finance models in open-source C++.",open-source,project,,,2026-07-01,2026-07-01
+ros,ROS,https://www.ros.org,"Build robotics software with reusable tools for sensors, control, and simulation.",open-source,project,,,2026-07-01,2026-07-01
+scikit-learn,scikit-learn,https://scikit-learn.org,Learn machine learning algorithms through a widely used Python library.,open-source,project,,,2026-07-01,2026-07-01
+wireshark,Wireshark,https://www.wireshark.org,Analyze network traffic and learn protocols with an industry-standard debugging tool.,open-source,project,,,2026-07-01,2026-07-01
+awesome-for-beginners,Awesome for Beginners,https://github.com/MunGell/awesome-for-beginners,Find beginner-friendly open-source projects organized by programming language and contribution difficulty.,open-source,resource,,,2026-07-01,2026-07-01
+codetriage,CodeTriage,https://www.codetriage.com,Receive personalized beginner-friendly issues from open-source projects you choose and follow.,open-source,resource,,,2026-07-01,2026-07-01
+first-contributions,First Contributions,https://firstcontributions.github.io,Practice the GitHub contribution workflow with a beginner-focused tutorial and sample project.,open-source,resource,,,2026-07-01,2026-07-01
+first-timers-only,First Timers Only,https://www.firsttimersonly.com,Find welcoming resources and projects for your first open-source contribution.,open-source,resource,,,2026-07-01,2026-07-01
+github-open-source-guides,GitHub Open Source Guides,https://opensource.guide,"Learn contribution workflows, maintainership, licensing, and community best practices for open source.",open-source,resource,,,2026-07-01,2026-07-01
+good-first-issue,Good First Issue,https://goodfirstissue.dev,Find beginner-friendly GitHub issues across hundreds of active open-source projects.,open-source,resource,,,2026-07-01,2026-07-01
+up-for-grabs,Up For Grabs,https://up-for-grabs.net,Browse active projects seeking new contributors through beginner-friendly GitHub issues.,open-source,resource,,,2026-07-01,2026-07-01
 battlecode,Battlecode,https://battlecode.org,"MIT real-time strategy AI programming tournament competing for a $20,000+ prize pool.",competitions,,January,Online,2026-06-20,2026-06-29
 coveo-blitz,Coveo Blitz,https://2026.blitz.codes,"AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes.",competitions,,January,Canada,2026-06-18,2026-06-29
 reply-code-challenge,Reply Code Challenge,https://challenges.reply.com,"Global multi-track competition featuring 6-hour team sprints across algorithms, cybersecurity, and AI agents.",competitions,,March,Online,2026-06-20,2026-06-29
@@ -158,7 +157,6 @@ operating-systems-three-easy-pieces,Operating Systems: Three Easy Pieces,https:/
 the-linux-command-line,The Linux Command Line,https://linuxcommand.org/tlcl.php,"Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools.",learning-resources,book,,,2026-07-01,2026-07-01
 the-pragmatic-programmer,The Pragmatic Programmer,https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition,"Classic software engineering book covering practical programming techniques, best practices, and professional growth.",learning-resources,book,,,2026-07-01,2026-07-01
 cs50x,CS50x: Introduction to Computer Science,https://cs50.harvard.edu/x,"Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals.",learning-resources,course,,,2026-07-01,2026-07-01
-freecodecamp,freeCodeCamp,https://www.freecodecamp.org,"Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",learning-resources,course,,,2026-07-01,2026-07-01
 full-stack-open,Full Stack Open,https://fullstackopen.com/en,"A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment.",learning-resources,course,,,2026-07-01,2026-07-01
 gamedev-tv,GameDev.tv,https://www.gamedev.tv,"Game development courses covering Unity, Unreal Engine, C++, and C#.",learning-resources,course,,,2026-07-01,2026-07-01
 hack-the-box-academy,Hack The Box Academy,https://academy.hackthebox.com,"Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows.",learning-resources,course,,,2026-07-01,2026-07-01
@@ -190,6 +188,7 @@ liveoverflow,LiveOverflow,https://www.youtube.com/@LiveOverflow,"Cybersecurity c
 low-level,Low Level,https://www.youtube.com/LowLevelLearning,"Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing.",learning-resources,video,,,2026-07-01,2026-07-01
 the-cherno,The Cherno,https://www.youtube.com/@TheCherno,"High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming.",learning-resources,video,,,2026-07-01,2026-07-01
 the-organic-chemistry-tutor,The Organic Chemistry Tutor,https://www.youtube.com/@TheOrganicChemistryTutor,"Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects.",learning-resources,video,,,2026-07-01,2026-07-01
+freecodecamp,freeCodeCamp,https://www.freecodecamp.org,"Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",learning-resources,website,,,2026-07-01,2026-07-01
 learncpp,LearnCpp,https://www.learncpp.com,Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.,learning-resources,website,,,2026-07-01,2026-07-01
 learnopengl,LearnOpenGL,https://learnopengl.com,"Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals.",learning-resources,website,,,2026-07-01,2026-07-01
 real-python,Real Python,https://realpython.com,"High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics.",learning-resources,website,,,2026-07-01,2026-07-01

@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=196&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=195&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-01&color=7c3aed)
 
 </div>
 
@@ -44,7 +44,7 @@ Browse resources by area and category.
 | --- | --- |
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (47)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
-| 🧩 Building & Open Source | [Open Source](#open-source) (38)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project-Based Learning](#project-based-learning) (0) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (37)<br>[Useful Repositories](#useful-repositories) (0)<br>[Project-Based Learning](#project-based-learning) (0) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
 
 
@@ -68,7 +68,6 @@ Browse resources by area and category.
 | [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. | Book |
 | [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. | Book |
 | [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. | Course |
-| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. | Course |
 | [Full Stack Open](https://fullstackopen.com/en) | A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment. | Course |
 | [GameDev.tv](https://www.gamedev.tv) | Game development courses covering Unity, Unreal Engine, C++, and C#. | Course |
 | [Hack The Box Academy](https://academy.hackthebox.com) | Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows. | Course |
@@ -100,6 +99,7 @@ Browse resources by area and category.
 | [Low Level](https://www.youtube.com/LowLevelLearning) | Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing. | Video |
 | [The Cherno](https://www.youtube.com/@TheCherno) | High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming. | Video |
 | [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) | Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects. | Video |
+| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. | Website |
 | [LearnCpp](https://www.learncpp.com) | Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics. | Website |
 | [LearnOpenGL](https://learnopengl.com) | Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals. | Website |
 | [Real Python](https://realpython.com) | High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics. | Website |
@@ -281,48 +281,47 @@ Browse resources by area and category.
 
 ### Open Source
 
-**38 resources** · `open-source`
+**37 resources** · `open-source`
 
 | Resource | Description | Type |
 | --- | --- | --- |
-| [Apache Software Foundation](https://apache.org) | Foundation hosting hundreds of open-source software projects. | Organization |
-| [Cloud Native Computing Foundation](https://www.cncf.io) | Cloud-native ecosystem hosting major infrastructure projects. | Organization |
-| [Eclipse Foundation](https://www.eclipse.org) | Foundation supporting open-source developer tools and frameworks. | Organization |
-| [GNOME](https://www.gnome.org) | Open-source desktop environment and platform. | Organization |
-| [Hugging Face](https://huggingface.co) | Open-source AI and machine learning ecosystem. | Organization |
-| [KDE](https://kde.org) | Open-source desktop environment and applications. | Organization |
-| [Mozilla](https://www.mozilla.org) | Open-source web technologies, browser, and internet projects. | Organization |
-| [OWASP](https://owasp.org) | Open-source application security community and projects. | Organization |
-| [Bevy Engine](https://bevyengine.org) | Open-source Rust game engine. | Project |
-| [Blender](https://www.blender.org) | Open-source 3D creation suite. | Project |
-| [Docker](https://www.docker.com) | Container platform with a large open-source ecosystem. | Project |
-| [FastAPI](https://fastapi.tiangolo.com) | Modern Python web framework. | Project |
-| [Git](https://git-scm.com) | Distributed version control system. | Project |
-| [Godot Engine](https://godotengine.org) | Open-source game engine. | Project |
-| [Grafana](https://grafana.com/oss) | Open-source observability and visualization platform. | Project |
-| [Home Assistant](https://www.home-assistant.io) | Open-source home automation platform. | Project |
-| [Linux Kernel](https://kernel.org) | Open-source operating system kernel powering millions of devices and systems. | Project |
-| [Neovim](https://neovim.io) | Modern extensible text editor. | Project |
-| [Nmap](https://nmap.org) | Open-source network discovery and security auditing tool. | Project |
-| [OpenCV](https://opencv.org) | Open-source computer vision library. | Project |
-| [OpenStreetMap](https://www.openstreetmap.org) | Collaborative open mapping project. | Project |
-| [OpenTofu](https://opentofu.org) | Open-source infrastructure as code platform. | Project |
-| [PostgreSQL](https://www.postgresql.org) | Advanced open-source relational database. | Project |
-| [Project Jupyter](https://jupyter.org) | Interactive computing and data science ecosystem. | Project |
-| [Prometheus](https://prometheus.io) | Monitoring and alerting toolkit for cloud-native systems. | Project |
-| [Qt](https://www.qt.io) | Cross-platform application development framework. | Project |
-| [QuantLib](https://www.quantlib.org) | Open-source quantitative finance library. | Project |
-| [ROS](https://www.ros.org) | Open-source robotics ecosystem. | Project |
-| [scikit-learn](https://scikit-learn.org) | Open-source machine learning library for Python. | Project |
-| [Wireshark](https://www.wireshark.org) | Network protocol analyzer. | Project |
-| [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) | Curated collection of beginner-friendly open-source projects organized by programming language. | Resource |
-| [CodeTriage](https://www.codetriage.com) | Receive beginner-friendly open issues from your favorite open-source projects directly by email. | Resource |
-| [First Contributions](https://firstcontributions.github.io) | Hands-on tutorial that teaches beginners how to make their first open-source contribution on GitHub. | Resource |
-| [First Timers Only](https://www.firsttimersonly.com) | Resources and projects specifically designed to help first-time open-source contributors get started. | Resource |
-| [GitHub Open Source Guides](https://opensource.guide) | Official guides covering open-source contribution, collaboration, community building, and project best practices. | Resource |
-| [Good First Issue](https://goodfirstissue.dev) | Discover beginner-friendly GitHub issues across a wide range of open-source projects. | Resource |
-| [OpenSauced](https://opensauced.pizza) | Platform for discovering open-source projects, tracking contributions, and building an open-source portfolio. | Resource |
-| [Up For Grabs](https://up-for-grabs.net) | Directory of open-source projects actively seeking new contributors through beginner-friendly issues. | Resource |
+| [Apache Software Foundation](https://apache.org) | Explore established open-source projects across servers, data systems, developer tooling, and infrastructure. | Organization |
+| [Cloud Native Computing Foundation](https://www.cncf.io) | Find cloud-native projects for containers, orchestration, service meshes, networking, and observability. | Organization |
+| [Eclipse Foundation](https://www.eclipse.org) | Explore developer tools, runtimes, IoT platforms, and frameworks maintained by open-source communities. | Organization |
+| [Mozilla](https://www.mozilla.org) | Contribute to open web, browser, privacy, and internet health projects. | Organization |
+| [OWASP](https://owasp.org) | Learn application security through open-source tools, standards, projects, and community resources. | Organization |
+| [Bevy Engine](https://bevyengine.org) | Build games in Rust with a modern, data-driven open-source engine. | Project |
+| [Blender](https://www.blender.org) | Create 3D art, animation, simulations, and tools in a large open-source project. | Project |
+| [Docker](https://www.docker.com) | Learn container workflows and contribute to widely used developer infrastructure tools. | Project |
+| [FastAPI](https://fastapi.tiangolo.com) | Build Python APIs with a modern framework used for production web services. | Project |
+| [Git](https://git-scm.com) | Learn distributed version control and contribute to the software powering modern development. | Project |
+| [GNOME](https://www.gnome.org) | Explore Linux desktop apps, libraries, accessibility tools, and user experience projects. | Project |
+| [Godot Engine](https://godotengine.org) | Build 2D and 3D games with a beginner-friendly open-source engine. | Project |
+| [Grafana](https://grafana.com/oss) | Explore dashboards, metrics, logs, and observability tools used in production systems. | Project |
+| [Home Assistant](https://www.home-assistant.io) | Automate smart homes and contribute to a large Python-based IoT project. | Project |
+| [Hugging Face](https://huggingface.co) | Explore open models, datasets, machine learning libraries, and AI developer tooling. | Project |
+| [KDE](https://kde.org) | Contribute to Linux desktop apps, frameworks, and cross-platform user tools. | Project |
+| [Linux Kernel](https://kernel.org) | Study operating system internals and contribute to core Linux infrastructure. | Project |
+| [Neovim](https://neovim.io) | Customize and improve a fast, extensible editor used by many developers. | Project |
+| [Nmap](https://nmap.org) | Learn network discovery and contribute to a respected security auditing tool. | Project |
+| [OpenCV](https://opencv.org) | Build computer vision applications with a widely used C++ and Python library. | Project |
+| [OpenStreetMap](https://www.openstreetmap.org) | Improve open map data used by apps, researchers, and communities worldwide. | Project |
+| [OpenTofu](https://opentofu.org) | Learn infrastructure as code through an open Terraform-compatible project and ecosystem. | Project |
+| [PostgreSQL](https://www.postgresql.org) | Explore database internals and contribute to a production-grade SQL system. | Project |
+| [Project Jupyter](https://jupyter.org) | Explore interactive notebooks, scientific computing, and data science tools for research. | Project |
+| [Prometheus](https://prometheus.io) | Learn metrics, monitoring, and alerting through a cloud-native observability project. | Project |
+| [Qt](https://www.qt.io) | Build cross-platform desktop, mobile, and embedded apps with mature UI tools. | Project |
+| [QuantLib](https://www.quantlib.org) | Explore pricing, risk, and quantitative finance models in open-source C++. | Project |
+| [ROS](https://www.ros.org) | Build robotics software with reusable tools for sensors, control, and simulation. | Project |
+| [scikit-learn](https://scikit-learn.org) | Learn machine learning algorithms through a widely used Python library. | Project |
+| [Wireshark](https://www.wireshark.org) | Analyze network traffic and learn protocols with an industry-standard debugging tool. | Project |
+| [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) | Find beginner-friendly open-source projects organized by programming language and contribution difficulty. | Resource |
+| [CodeTriage](https://www.codetriage.com) | Receive personalized beginner-friendly issues from open-source projects you choose and follow. | Resource |
+| [First Contributions](https://firstcontributions.github.io) | Practice the GitHub contribution workflow with a beginner-focused tutorial and sample project. | Resource |
+| [First Timers Only](https://www.firsttimersonly.com) | Find welcoming resources and projects for your first open-source contribution. | Resource |
+| [GitHub Open Source Guides](https://opensource.guide) | Learn contribution workflows, maintainership, licensing, and community best practices for open source. | Resource |
+| [Good First Issue](https://goodfirstissue.dev) | Find beginner-friendly GitHub issues across hundreds of active open-source projects. | Resource |
+| [Up For Grabs](https://up-for-grabs.net) | Browse active projects seeking new contributors through beginner-friendly GitHub issues. | Resource |
 
 <a id="useful-repositories"></a>
 
