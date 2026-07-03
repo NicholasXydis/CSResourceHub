@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02",
-  "total": 298,
+  "generated": "2026-07-03",
+  "total": 318,
   "resources": [
     {
       "id": "alpha-vantage",
@@ -1081,6 +1081,206 @@
       "date_added": "2026-07-02",
       "last_verified": "2026-07-02",
       "type": "cybersecurity"
+    },
+    {
+      "id": "google-summer-of-code",
+      "name": "Google Summer of Code",
+      "url": "https://summerofcode.withgoogle.com",
+      "description": "Open-source mentorship program where contributors build real projects with participating organizations.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "fellowship"
+    },
+    {
+      "id": "kleiner-perkins-fellows",
+      "name": "Kleiner Perkins Fellows",
+      "url": "https://fellows.kleinerperkins.com",
+      "description": "Startup fellowship placing students at venture-backed technology companies with mentorship.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "fellowship"
+    },
+    {
+      "id": "lfx-mentorship",
+      "name": "LFX Mentorship",
+      "url": "https://lfx.linuxfoundation.org/tools/mentorship",
+      "description": "Linux Foundation mentorship program for contributing to cloud, security, and infrastructure projects.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "fellowship"
+    },
+    {
+      "id": "mlh-fellowship",
+      "name": "MLH Fellowship",
+      "url": "https://fellowship.mlh.io",
+      "description": "Software engineering fellowship for contributing to open-source and production projects with mentorship.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "fellowship"
+    },
+    {
+      "id": "outreachy",
+      "name": "Outreachy",
+      "url": "https://www.outreachy.org",
+      "description": "Paid remote open-source internship supporting contributors working on major community projects.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "fellowship"
+    },
+    {
+      "id": "summer-of-bitcoin",
+      "name": "Summer of Bitcoin",
+      "url": "https://www.summerofbitcoin.org",
+      "description": "Open-source summer program where students contribute to Bitcoin, Lightning, and related infrastructure.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "fellowship"
+    },
+    {
+      "id": "absolute-internship",
+      "name": "Absolute Internship",
+      "url": "https://absoluteinternship.com",
+      "description": "Paid international internship placement program with structured roles and career coaching.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "built-in",
+      "name": "Built In",
+      "url": "https://builtin.com",
+      "description": "Technology career platform with internships and early-career roles at startups and tech companies.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "canadas-top-100-employers",
+      "name": "Canada's Top 100 Employers Career Directory",
+      "url": "https://www.eluta.ca/new-grad-jobs?education_category=BSc&education_code=BSc-Computer-Science&l=&search=Career+Directory",
+      "description": "Canadian career directory highlighting employers with internship, co-op, and new graduate programs.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "fswep",
+      "name": "Federal Student Work Experience Program (FSWEP)",
+      "url": "https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html",
+      "description": "Government of Canada student hiring program for paid work across federal departments.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "glassdoor",
+      "name": "Glassdoor",
+      "url": "https://www.glassdoor.com",
+      "description": "Job platform with internship listings, company reviews, salary data, and interview insights.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "handshake",
+      "name": "Handshake",
+      "url": "https://joinhandshake.com",
+      "description": "University-focused career platform connecting students with internships and entry-level roles.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "indeed",
+      "name": "Indeed",
+      "url": "https://www.indeed.com",
+      "description": "Global job board with internship listings across technology, finance, government, and startups.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "job-bank-canada",
+      "name": "Job Bank Canada",
+      "url": "https://www.jobbank.gc.ca",
+      "description": "Government of Canada job board with student, co-op, and internship opportunities.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "levels-fyi-jobs",
+      "name": "Levels.fyi Jobs",
+      "url": "https://www.levels.fyi/jobs",
+      "description": "Technology job board featuring internships with compensation data and software company roles.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "linkedin-jobs",
+      "name": "LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs",
+      "description": "Professional network and job platform with internship listings across technology fields.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "simplify-jobs",
+      "name": "Simplify Jobs",
+      "url": "https://simplify.jobs",
+      "description": "Internship and early-career job platform with resume tools, tracking, and curated tech roles.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "simplify-summer-internships",
+      "name": "Simplify Summer Internship Repository",
+      "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
+      "description": "GitHub repository tracking software engineering and tech internship opportunities.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "the-intern-group",
+      "name": "The Intern Group",
+      "url": "https://theinterngroup.com",
+      "description": "Paid global internship placement program with career development and international work experiences.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
+    },
+    {
+      "id": "y-combinator-internships",
+      "name": "Y Combinator Internships",
+      "url": "https://www.ycombinator.com/internships",
+      "description": "Internship board connecting students with roles at Y Combinator-backed startups.",
+      "category": "internships-fellowships",
+      "date_added": "2026-07-03",
+      "last_verified": "2026-07-03",
+      "type": "internship"
     },
     {
       "id": "amazon-prime-student-canada",

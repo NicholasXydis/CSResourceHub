@@ -39,6 +39,10 @@ ALLOWED_TYPES_BY_CATEGORY = {
         "ideas",
         "inspiration",
     },
+    "internships-fellowships": {
+        "fellowship",
+        "internship",
+    },
     "student-benefits": {
         "discounts",
         "free",

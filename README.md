@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=298&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-02&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=318&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-03&color=7c3aed)
 
 </div>
 
@@ -45,7 +45,7 @@ Browse resources by area and category.
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (57)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (14) |
-| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (22) |
+| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (20)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (22) |
 
 
 ## 📚 Learning & Development
@@ -437,9 +437,30 @@ Browse resources by area and category.
 
 ### Internships & Fellowships
 
-**0 resources** · `internships-fellowships`
+**20 resources** · `internships-fellowships`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Google Summer of Code](https://summerofcode.withgoogle.com) | Open-source mentorship program where contributors build real projects with participating organizations. | Fellowship |
+| [Kleiner Perkins Fellows](https://fellows.kleinerperkins.com) | Startup fellowship placing students at venture-backed technology companies with mentorship. | Fellowship |
+| [LFX Mentorship](https://lfx.linuxfoundation.org/tools/mentorship) | Linux Foundation mentorship program for contributing to cloud, security, and infrastructure projects. | Fellowship |
+| [MLH Fellowship](https://fellowship.mlh.io) | Software engineering fellowship for contributing to open-source and production projects with mentorship. | Fellowship |
+| [Outreachy](https://www.outreachy.org) | Paid remote open-source internship supporting contributors working on major community projects. | Fellowship |
+| [Summer of Bitcoin](https://www.summerofbitcoin.org) | Open-source summer program where students contribute to Bitcoin, Lightning, and related infrastructure. | Fellowship |
+| [Absolute Internship](https://absoluteinternship.com) | Paid international internship placement program with structured roles and career coaching. | Internship |
+| [Built In](https://builtin.com) | Technology career platform with internships and early-career roles at startups and tech companies. | Internship |
+| [Canada's Top 100 Employers Career Directory](https://www.eluta.ca/new-grad-jobs?education_category=BSc&education_code=BSc-Computer-Science&l=&search=Career+Directory) | Canadian career directory highlighting employers with internship, co-op, and new graduate programs. | Internship |
+| [Federal Student Work Experience Program (FSWEP)](https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html) | Government of Canada student hiring program for paid work across federal departments. | Internship |
+| [Glassdoor](https://www.glassdoor.com) | Job platform with internship listings, company reviews, salary data, and interview insights. | Internship |
+| [Handshake](https://joinhandshake.com) | University-focused career platform connecting students with internships and entry-level roles. | Internship |
+| [Indeed](https://www.indeed.com) | Global job board with internship listings across technology, finance, government, and startups. | Internship |
+| [Job Bank Canada](https://www.jobbank.gc.ca) | Government of Canada job board with student, co-op, and internship opportunities. | Internship |
+| [Levels.fyi Jobs](https://www.levels.fyi/jobs) | Technology job board featuring internships with compensation data and software company roles. | Internship |
+| [LinkedIn Jobs](https://www.linkedin.com/jobs) | Professional network and job platform with internship listings across technology fields. | Internship |
+| [Simplify Jobs](https://simplify.jobs) | Internship and early-career job platform with resume tools, tracking, and curated tech roles. | Internship |
+| [Simplify Summer Internship Repository](https://github.com/SimplifyJobs/Summer2026-Internships) | GitHub repository tracking software engineering and tech internship opportunities. | Internship |
+| [The Intern Group](https://theinterngroup.com) | Paid global internship placement program with career development and international work experiences. | Internship |
+| [Y Combinator Internships](https://www.ycombinator.com/internships) | Internship board connecting students with roles at Y Combinator-backed startups. | Internship |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02",
-  "total": 298,
+  "generated": "2026-07-03",
+  "total": 318,
   "categories": {
     "learning-resources": 57,
     "interview-prep": 26,
@@ -12,7 +12,7 @@
     "open-source": 36,
     "developer-resources": 46,
     "project-based-learning": 14,
-    "internships-fellowships": 0,
+    "internships-fellowships": 20,
     "recruitment-events": 0,
     "certifications": 12,
     "student-benefits": 22
@@ -44,9 +44,9 @@
       }
     },
     "Careers & Perks": {
-      "total": 34,
+      "total": 54,
       "categories": {
-        "internships-fellowships": 0,
+        "internships-fellowships": 20,
         "recruitment-events": 0,
         "certifications": 12,
         "student-benefits": 22
