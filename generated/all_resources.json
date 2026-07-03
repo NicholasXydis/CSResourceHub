@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-02",
-  "total": 264,
+  "total": 298,
   "resources": [
     {
       "id": "alpha-vantage",
@@ -469,7 +469,7 @@
       "description": "Explore established open-source projects across servers, data systems, developer tooling, and infrastructure.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "organization"
     },
     {
@@ -479,7 +479,7 @@
       "description": "Find cloud-native projects for containers, orchestration, service meshes, networking, and observability.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "organization"
     },
     {
@@ -489,7 +489,7 @@
       "description": "Explore developer tools, runtimes, IoT platforms, and frameworks maintained by open-source communities.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "organization"
     },
     {
@@ -499,7 +499,7 @@
       "description": "Contribute to open web, browser, privacy, and internet health projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "organization"
     },
     {
@@ -509,7 +509,7 @@
       "description": "Learn application security through open-source tools, standards, projects, and community resources.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "organization"
     },
     {
@@ -519,7 +519,7 @@
       "description": "Build games in Rust with a modern, data-driven open-source engine.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -529,7 +529,7 @@
       "description": "Create 3D art, animation, simulations, and tools in a large open-source project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -539,7 +539,7 @@
       "description": "Learn container workflows and contribute to widely used developer infrastructure tools.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -549,7 +549,7 @@
       "description": "Build Python APIs with a modern framework used for production web services.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -559,7 +559,7 @@
       "description": "Learn distributed version control and contribute to the software powering modern development.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -569,7 +569,7 @@
       "description": "Explore Linux desktop apps, libraries, accessibility tools, and user experience projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -579,7 +579,7 @@
       "description": "Build 2D and 3D games with a beginner-friendly open-source engine.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -589,7 +589,7 @@
       "description": "Explore dashboards, metrics, logs, and observability tools used in production systems.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -599,7 +599,7 @@
       "description": "Automate smart homes and contribute to a large Python-based IoT project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -609,7 +609,7 @@
       "description": "Contribute to Linux desktop apps, frameworks, and cross-platform user tools.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -619,7 +619,7 @@
       "description": "Study operating system internals and contribute to core Linux infrastructure.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -629,7 +629,7 @@
       "description": "Customize and improve a fast, extensible editor used by many developers.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -639,7 +639,7 @@
       "description": "Learn network discovery and contribute to a respected security auditing tool.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -649,7 +649,7 @@
       "description": "Build computer vision applications with a widely used C++ and Python library.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -659,7 +659,7 @@
       "description": "Improve open map data used by apps, researchers, and communities worldwide.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -669,7 +669,7 @@
       "description": "Learn infrastructure as code through an open Terraform-compatible project and ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -679,7 +679,7 @@
       "description": "Explore database internals and contribute to a production-grade SQL system.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -689,7 +689,7 @@
       "description": "Explore interactive notebooks, scientific computing, and data science tools for research.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -699,7 +699,7 @@
       "description": "Learn metrics, monitoring, and alerting through a cloud-native observability project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -709,7 +709,7 @@
       "description": "Build cross-platform desktop, mobile, and embedded apps with mature UI tools.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -719,7 +719,7 @@
       "description": "Explore pricing, risk, and quantitative finance models in open-source C++.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -729,7 +729,7 @@
       "description": "Build robotics software with reusable tools for sensors, control, and simulation.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -739,7 +739,7 @@
       "description": "Learn machine learning algorithms through a widely used Python library.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -749,7 +749,7 @@
       "description": "Analyze network traffic and learn protocols with an industry-standard debugging tool.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "project"
     },
     {
@@ -759,7 +759,7 @@
       "description": "Find beginner-friendly open-source projects organized by programming language and contribution difficulty.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "resource"
     },
     {
@@ -769,7 +769,7 @@
       "description": "Receive personalized beginner-friendly issues from open-source projects you choose and follow.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "resource"
     },
     {
@@ -779,7 +779,7 @@
       "description": "Practice the GitHub contribution workflow with a beginner-focused tutorial and sample project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "resource"
     },
     {
@@ -789,7 +789,7 @@
       "description": "Find welcoming resources and projects for your first open-source contribution.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "resource"
     },
     {
@@ -799,7 +799,7 @@
       "description": "Learn contribution workflows, maintainership, licensing, and community best practices for open source.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "resource"
     },
     {
@@ -809,7 +809,7 @@
       "description": "Find beginner-friendly GitHub issues across hundreds of active open-source projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "resource"
     },
     {
@@ -819,7 +819,7 @@
       "description": "Browse active projects seeking new contributors through beginner-friendly GitHub issues.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "resource"
     },
     {
@@ -963,6 +963,346 @@
       "type": "inspiration"
     },
     {
+      "id": "amazon-web-services",
+      "name": "Amazon Web Services (AWS)",
+      "url": "https://aws.amazon.com/certification",
+      "description": "AWS certifications for cloud architecture, development, operations, AI, and machine learning.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com/learn/certification",
+      "description": "Google Cloud certifications for cloud engineering, architecture, development, DevOps, and machine learning.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "linux-foundation",
+      "name": "Linux Foundation",
+      "url": "https://training.linuxfoundation.org/certification",
+      "description": "Linux, Kubernetes, and cloud infrastructure certifications including LFCS, LFCE, CKA, CKAD, and CKS.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "microsoft-azure",
+      "name": "Microsoft Azure",
+      "url": "https://learn.microsoft.com/credentials",
+      "description": "Cloud and AI certifications including AZ-900, AZ-104, AZ-204, AZ-305, AZ-400, AI-900, and AI-102.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "red-hat",
+      "name": "Red Hat",
+      "url": "https://www.redhat.com/en/services/certification",
+      "description": "Enterprise Linux and cloud platform certifications including RHCSA, RHCE, and RHCA.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "centri",
+      "name": "Centri",
+      "url": "https://www.centri.org",
+      "description": "Defensive cybersecurity certifications including BTL1, BTL2, CSOM, and CJDE.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html",
+      "description": "Networking and cybersecurity certifications including CCNA, CyberOps Associate, and CCNP Security.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "comptia",
+      "name": "CompTIA",
+      "url": "https://www.comptia.org/certifications",
+      "description": "Industry-standard cybersecurity certifications including Security+, CySA+, PenTest+, and SecurityX.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "ine",
+      "name": "INE",
+      "url": "https://ine.com/certifications",
+      "description": "Practical cybersecurity certifications including eJPT, eCPPT, eWPT, and eMAPT.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "isc2",
+      "name": "ISC2",
+      "url": "https://www.isc2.org/certifications",
+      "description": "Globally recognized cybersecurity certifications including CC, SSCP, CISSP, and CCSP.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "offsec",
+      "name": "OffSec",
+      "url": "https://www.offsec.com/certifications",
+      "description": "Highly respected hands-on offensive security certifications including OSCP, OSEP, OSWE, and OSED.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "tcm-security",
+      "name": "TCM Security",
+      "url": "https://certifications.tcm-sec.com",
+      "description": "Hands-on penetration testing certifications including PNPT and PJPT.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "amazon-prime-student-canada",
+      "name": "Amazon Prime Student Canada",
+      "url": "https://www.amazon.ca/amazonprime",
+      "description": "Discounted Prime membership for students with shipping, streaming, and shopping benefits.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "apple-education-store-canada",
+      "name": "Apple Education Store Canada",
+      "url": "https://www.apple.com/ca_edu_93120/store",
+      "description": "Education pricing on eligible Apple products including MacBooks, iPads, and accessories.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "concordia-student-discounts-benefits",
+      "name": "Concordia Student Discounts & Benefits",
+      "url": "https://www.concordia.ca/card/benefits/discounts.html",
+      "description": "Official Concordia card page for student discounts, campus offers, and partner benefits.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "hack-the-box-academy-student",
+      "name": "Hack The Box Academy Student",
+      "url": "https://help.hackthebox.com/en/articles/13465244-getting-the-student-subscription",
+      "description": "Student-friendly Hack The Box Academy plans for hands-on cybersecurity training.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "leetcode-student",
+      "name": "LeetCode Student",
+      "url": "https://leetcode.com/student",
+      "description": "Student discount on LeetCode Premium for interview prep, practice, and company-tagged questions.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "student-beans-canada",
+      "name": "Student Beans Canada",
+      "url": "https://www.studentbeans.com/ca",
+      "description": "Student discount platform with offers across tech, software, lifestyle, food, and retail brands.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "student-price-card",
+      "name": "Student Price Card (SPC)",
+      "url": "https://www.spccard.ca",
+      "description": "Canadian student discount program with offers across technology, food, travel, and retail.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "tryhackme-student",
+      "name": "TryHackMe Student",
+      "url": "https://help.tryhackme.com/en/articles/6494960-student-discount",
+      "description": "Student discount for annual TryHackMe subscriptions and hands-on cybersecurity training.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "wolfram-student",
+      "name": "Wolfram Student",
+      "url": "https://www.wolframalpha.com/pro/pricing/students",
+      "description": "Student pricing for Wolfram tools used in math, computation, visualization, and engineering.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "autodesk-education",
+      "name": "Autodesk Education",
+      "url": "https://www.autodesk.com/education/edu-software/overview",
+      "description": "Free education access to Autodesk software for design, engineering, 3D modeling, and creative projects.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "aws-educate",
+      "name": "AWS Educate",
+      "url": "https://aws.amazon.com/education/awseducate",
+      "description": "Free AWS training, cloud labs, badges, and beginner-friendly cloud learning resources.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "banq",
+      "name": "BAnQ (Bibliothèque et Archives nationales du Québec)",
+      "url": "https://www.banq.qc.ca",
+      "description": "Free Quebec library membership with study spaces, digital resources, books, and research tools.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "figma-education",
+      "name": "Figma Education",
+      "url": "https://www.figma.com/education",
+      "description": "Free education access to Figma for UI design, prototyping, collaboration, and interface planning.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "github-student-developer-pack",
+      "name": "GitHub Student Developer Pack",
+      "url": "https://education.github.com/pack",
+      "description": "Student bundle with developer tools, cloud credits, domains, courses, and software perks.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "jetbrains-student-license",
+      "name": "JetBrains Student License",
+      "url": "https://www.jetbrains.com/community/education#students",
+      "description": "Free student license for JetBrains IDEs and tools for Mac, Windows, and Linux development.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "microsoft-365-education",
+      "name": "Microsoft 365 Education",
+      "url": "https://www.microsoft.com/education/products/office",
+      "description": "Free Microsoft 365 access with Word, Excel, PowerPoint, and OneDrive.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "microsoft-azure-for-students",
+      "name": "Microsoft Azure for Students",
+      "url": "https://azure.microsoft.com/en-us/free/students",
+      "description": "Free Azure credits and cloud services for verified students without a credit card.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "notion-education-plus",
+      "name": "Notion Education Plus",
+      "url": "https://www.notion.com/help/notion-for-education",
+      "description": "Free Notion Plus access for managing notes, projects, documentation, deadlines, and collaboration.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "sentry-for-education",
+      "name": "Sentry for Education",
+      "url": "https://sentry.io/for/education",
+      "description": "Free Sentry access for students and educators to monitor errors, logs, replays, and production issues.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "shodan-academic",
+      "name": "Shodan Academic",
+      "url": "https://help.shodan.io/the-basics/academic-upgrade",
+      "description": "Academic Shodan upgrade for cybersecurity, networking, and OSINT research.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "unity-student-plan",
+      "name": "Unity Student Plan",
+      "url": "https://unity.com/products/unity-student",
+      "description": "Free Unity student access for game development, real-time 3D, and interactive projects.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "zed-student",
+      "name": "Zed Student",
+      "url": "https://zed.dev/education",
+      "description": "Student access to Zed with collaborative editing, AI features, and usage credits.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
       "id": "battlecode",
       "name": "Battlecode",
       "url": "https://battlecode.org",
@@ -971,7 +1311,7 @@
       "location": "Online",
       "month": "January",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "coveo-blitz",
@@ -982,7 +1322,7 @@
       "location": "Canada",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "reply-code-challenge",
@@ -993,7 +1333,7 @@
       "location": "Online",
       "month": "March",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "worldquant-international-quant-championship",
@@ -1004,7 +1344,7 @@
       "location": "Online",
       "month": "March",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "canadian-team-programming-competition",
@@ -1015,7 +1355,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "lan-ets",
@@ -1026,7 +1366,7 @@
       "location": "Montreal, QC",
       "month": "May",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "jdis-games",
@@ -1037,7 +1377,7 @@
       "location": "Sherbrooke, Quebec",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "akuna-virtual-quant-trading-challenge",
@@ -1048,7 +1388,7 @@
       "location": "Online",
       "month": "August",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "lux-ai",
@@ -1059,7 +1399,7 @@
       "location": "Online",
       "month": "October",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "meta-hacker-cup",
@@ -1070,7 +1410,7 @@
       "location": "Online",
       "month": "October",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "international-data-analysis-olympiad",
@@ -1081,7 +1421,7 @@
       "location": "Online",
       "month": "December",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "citadel-student-competitions",
@@ -1101,7 +1441,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "universal-cup",
@@ -1111,7 +1451,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "uoftctf",
@@ -1122,7 +1462,7 @@
       "location": "Online",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "ncc-ctf-series",
@@ -1133,7 +1473,7 @@
       "location": "Online",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "athack-ctf",
@@ -1144,7 +1484,7 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "polypwn-ctf",
@@ -1155,7 +1495,7 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "plaidctf",
@@ -1166,7 +1506,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "umdctf",
@@ -1177,7 +1517,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "defcon-ctf",
@@ -1188,7 +1528,7 @@
       "location": "Online",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "northsec",
@@ -1199,7 +1539,7 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "google-ctf",
@@ -1210,7 +1550,7 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "midnight-sun-ctf",
@@ -1221,7 +1561,7 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "cyber-apocalypse",
@@ -1232,7 +1572,7 @@
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hitcon-ctf",
@@ -1254,7 +1594,7 @@
       "location": "Online",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "cybersci",
@@ -1265,7 +1605,7 @@
       "location": "Canada",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "0ctf",
@@ -1276,7 +1616,7 @@
       "location": "Online",
       "month": "December",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "global-game-jam-vancouver",
@@ -1287,7 +1627,7 @@
       "location": "Vancouver, BC",
       "month": "January",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "mcgamejam",
@@ -1298,7 +1638,7 @@
       "location": "Montreal, QC",
       "month": "January",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "chillennium",
@@ -1309,7 +1649,7 @@
       "location": "College Station, TX",
       "month": "February",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "behaviour-interactive-game-jam",
@@ -1320,7 +1660,7 @@
       "location": "Montreal, QC",
       "month": "April",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "ubisoft-game-lab-competition",
@@ -1331,7 +1671,7 @@
       "location": "Montreal, QC",
       "month": "April",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "tojam",
@@ -1342,7 +1682,7 @@
       "location": "Toronto, ON",
       "month": "May",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "gmtk-game-jam",
@@ -1353,7 +1693,7 @@
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "algoma-startup-gamejam",
@@ -1364,7 +1704,7 @@
       "location": "Brampton, ON",
       "month": "September",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "gamerella-game-jam",
@@ -1375,7 +1715,7 @@
       "location": "Montreal, QC",
       "month": "November",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "github-game-off",
@@ -1386,7 +1726,7 @@
       "location": "Online",
       "month": "November",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "concordia-game-dev-club-jams",
@@ -1396,7 +1736,7 @@
       "category": "game-jams",
       "location": "Montreal, QC",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "conuhacks",
@@ -1407,7 +1747,7 @@
       "location": "Montreal, Quebec",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "deltahacks",
@@ -1418,7 +1758,7 @@
       "location": "Hamilton, Ontario",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "mchacks",
@@ -1429,7 +1769,7 @@
       "location": "Montreal, Quebec",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "nwhacks",
@@ -1440,7 +1780,7 @@
       "location": "Vancouver, British Columbia",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "uofthacks",
@@ -1451,7 +1791,7 @@
       "location": "Toronto, Ontario",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "qhacks",
@@ -1462,7 +1802,7 @@
       "location": "Kingston, Ontario",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "treehacks",
@@ -1473,7 +1813,7 @@
       "location": "Stanford, California",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "genai-genesis",
@@ -1484,7 +1824,7 @@
       "location": "Toronto, Ontario",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hack-canada",
@@ -1495,7 +1835,7 @@
       "location": "Waterloo, Ontario",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "la-hacks",
@@ -1506,7 +1846,7 @@
       "location": "Los Angeles, California",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hackthemountain",
@@ -1517,7 +1857,7 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "mpchacks",
@@ -1528,7 +1868,7 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "shacks",
@@ -1539,7 +1879,7 @@
       "location": "Sherbrooke, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hack-the-6ix",
@@ -1550,7 +1890,7 @@
       "location": "Toronto, Ontario",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hack-the-north",
@@ -1561,7 +1901,7 @@
       "location": "Waterloo, Ontario",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hackmit",
@@ -1572,7 +1912,7 @@
       "location": "Cambridge, Massachusetts",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "pennapps",
@@ -1583,7 +1923,7 @@
       "location": "Philadelphia, Pennsylvania",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "cal-hacks",
@@ -1594,7 +1934,7 @@
       "location": "Berkeley, California",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "codeml",
@@ -1605,7 +1945,7 @@
       "location": "Montreal, Quebec",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "fiam-ia",
@@ -1616,7 +1956,7 @@
       "location": "Montreal, Quebec",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hackharvard",
@@ -1627,7 +1967,7 @@
       "location": "Cambridge, Massachusetts",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "codejam-mcgill",
@@ -1638,7 +1978,7 @@
       "location": "Montreal, Quebec",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "hackutd",
@@ -1649,7 +1989,7 @@
       "location": "Dallas, Texas",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "concordia-game-development-club",
@@ -1658,7 +1998,7 @@
       "description": "Concordia game development student club for networking, workshops, and project collaboration.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "club"
     },
     {
@@ -1668,7 +2008,7 @@
       "description": "Concordia student society for software engineering and computer science students.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "club"
     },
     {
@@ -1678,7 +2018,7 @@
       "description": "Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "club"
     },
     {
@@ -1688,7 +2028,7 @@
       "description": "Programming community for beginner-friendly coding help, debugging support, and developer discussion.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "discord"
     },
     {
@@ -1698,7 +2038,7 @@
       "description": "Computer science career community for internships, resumes, interviews, job searching, and career advice.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "discord"
     },
     {
@@ -1708,7 +2048,7 @@
       "description": "Developer community for programming discussion, project support, collaboration, and career advice.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "discord"
     },
     {
@@ -1718,7 +2058,7 @@
       "description": "Web development community for code review, collaboration, project feedback, and career support.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "discord"
     },
     {
@@ -1728,7 +2068,7 @@
       "description": "Large programming community for coding help, software development discussion, and developer support.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "discord"
     },
     {
@@ -1738,7 +2078,7 @@
       "description": "Global student hacker community focused on coding projects, workshops, hackathons, and peer learning.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "organization"
     },
     {
@@ -1748,7 +2088,7 @@
       "description": "Computer science discussions covering algorithms, theory, research, and academia.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1758,7 +2098,7 @@
       "description": "Discussions on software engineering careers, internships, resumes, interviews, and job searching.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1768,7 +2108,7 @@
       "description": "Cybersecurity news, careers, tools, and security discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1778,7 +2118,7 @@
       "description": "Data science careers, analytics, machine learning applications, and industry discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1788,7 +2128,7 @@
       "description": "Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1798,7 +2138,7 @@
       "description": "Game development discussions covering programming, design, engines, and publishing.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1808,7 +2148,7 @@
       "description": "Programming help, learning resources, and beginner-friendly discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1818,7 +2158,7 @@
       "description": "Linux news, open-source software, system administration, and operating system discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1828,7 +2168,7 @@
       "description": "Machine learning research, papers, projects, and technical discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1838,7 +2178,7 @@
       "description": "Technical cybersecurity research, vulnerabilities, exploits, and defensive security.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1848,7 +2188,7 @@
       "description": "Programming news, software development discussions, and industry topics.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1858,7 +2198,7 @@
       "description": "Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1868,7 +2208,7 @@
       "description": "Software engineering practices, architecture, engineering culture, and industry discussion.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reddit"
     },
     {
@@ -1878,7 +2218,7 @@
       "description": "Classic interview preparation book covering coding questions, technical concepts, and interview strategies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -1888,7 +2228,7 @@
       "description": "Comprehensive interview preparation book featuring advanced coding problems and detailed solutions.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -1898,7 +2238,7 @@
       "description": "System design interview platform featuring books, courses, and real-world architecture case studies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -1908,7 +2248,7 @@
       "description": "Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -1918,7 +2258,7 @@
       "description": "Popular course teaching object-oriented design concepts commonly tested in software engineering interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -1928,7 +2268,7 @@
       "description": "Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "guide"
     },
     {
@@ -1938,7 +2278,7 @@
       "description": "Popular LaTeX resume template widely used by computer science students and software engineers.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "guide"
     },
     {
@@ -1948,7 +2288,7 @@
       "description": "Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "guide"
     },
     {
@@ -1958,7 +2298,7 @@
       "description": "Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "guide"
     },
     {
@@ -1968,7 +2308,7 @@
       "description": "Competitive programming platform offering high-quality contests and algorithm practice.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -1978,7 +2318,7 @@
       "description": "Competitive programming platform with contests and algorithmic problems for technical interview practice.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -1988,7 +2328,7 @@
       "description": "Technical assessment platform widely used by companies for coding screenings and online assessments.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -1998,7 +2338,7 @@
       "description": "Programming challenge platform for improving coding skills through community-created problems.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2008,7 +2348,7 @@
       "description": "Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2018,7 +2358,7 @@
       "description": "Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2028,7 +2368,7 @@
       "description": "Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2038,7 +2378,7 @@
       "description": "Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2048,7 +2388,7 @@
       "description": "Interview preparation platform focused on system design, coding interviews, and technical interview strategies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2058,7 +2398,7 @@
       "description": "Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2068,7 +2408,7 @@
       "description": "Anonymous mock technical interviews with experienced software engineers from leading technology companies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2088,7 +2428,7 @@
       "description": "Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2098,7 +2438,7 @@
       "description": "Free peer-to-peer mock interview platform for coding and technical interview practice.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2108,7 +2448,7 @@
       "description": "Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "platform"
     },
     {
@@ -2118,7 +2458,7 @@
       "description": "Online LaTeX editor for creating professional resumes, CVs, and technical documents.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "tool"
     },
     {
@@ -2128,7 +2468,7 @@
       "description": "AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "tool"
     },
     {
@@ -2138,7 +2478,7 @@
       "description": "Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2148,7 +2488,7 @@
       "description": "Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2158,7 +2498,7 @@
       "description": "Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2168,7 +2508,7 @@
       "description": "Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2178,7 +2518,7 @@
       "description": "Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2188,7 +2528,7 @@
       "description": "Classic book covering probability, brainteasers, and quantitative finance concepts.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2198,7 +2538,7 @@
       "description": "Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2208,7 +2548,7 @@
       "description": "Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2218,7 +2558,7 @@
       "description": "Classic software engineering book covering practical programming techniques, best practices, and professional growth.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "book"
     },
     {
@@ -2228,7 +2568,7 @@
       "description": "Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2238,7 +2578,7 @@
       "description": "Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2248,7 +2588,7 @@
       "description": "A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2258,7 +2598,7 @@
       "description": "Game development courses covering Unity, Unreal Engine, C++, and C#.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2268,7 +2608,7 @@
       "description": "Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2278,7 +2618,7 @@
       "description": "Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2298,7 +2638,7 @@
       "description": "Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2308,7 +2648,7 @@
       "description": "A complete self-taught computer science curriculum using high-quality free online courses from leading universities.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2318,7 +2658,7 @@
       "description": "Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2328,7 +2668,7 @@
       "description": "Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "course"
     },
     {
@@ -2338,7 +2678,7 @@
       "description": "Community-driven technology news and discussions about software engineering, startups, CS, and programming.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "news"
     },
     {
@@ -2348,7 +2688,7 @@
       "description": "Engineering newsletter covering software development, big tech, system design, leadership, and industry trends.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "news"
     },
     {
@@ -2358,7 +2698,7 @@
       "description": "Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "news"
     },
     {
@@ -2388,7 +2728,7 @@
       "description": "Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -2428,7 +2768,7 @@
       "description": "Official Docker quick reference covering the most common Docker CLI commands and workflows.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -2438,7 +2778,7 @@
       "description": "Official GitHub one-page reference covering essential Git commands and workflows.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -2448,7 +2788,7 @@
       "description": "MDN reference explaining all standard HTTP response status codes with definitions and usage.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -2478,7 +2818,7 @@
       "description": "The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -2498,7 +2838,7 @@
       "description": "Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "reference"
     },
     {
@@ -2508,7 +2848,7 @@
       "description": "Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "tool"
     },
     {
@@ -2518,7 +2858,7 @@
       "description": "Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "tool"
     },
     {
@@ -2538,7 +2878,7 @@
       "description": "Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "tool"
     },
     {
@@ -2558,7 +2898,7 @@
       "description": "Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "tool"
     },
     {
@@ -2578,7 +2918,7 @@
       "description": "System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2588,7 +2928,7 @@
       "description": "Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2598,7 +2938,7 @@
       "description": "Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2608,7 +2948,7 @@
       "description": "Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2618,7 +2958,7 @@
       "description": "Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2628,7 +2968,7 @@
       "description": "Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2638,7 +2978,7 @@
       "description": "High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2648,7 +2988,7 @@
       "description": "Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "video"
     },
     {
@@ -2658,7 +2998,7 @@
       "description": "Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "website"
     },
     {
@@ -2668,7 +3008,7 @@
       "description": "Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "website"
     },
     {
@@ -2678,7 +3018,7 @@
       "description": "High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "website"
     },
     {
@@ -2688,7 +3028,7 @@
       "description": "Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "website"
     },
     {
@@ -2698,7 +3038,7 @@
       "description": "Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-07-02",
       "type": "website"
     }
   ]

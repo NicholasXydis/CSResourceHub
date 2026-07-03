@@ -34,6 +34,8 @@ Allowed `type` values are category-specific:
 | `open-source` | `project`, `organization`, `resource` |
 | `developer-resources` | `frontend`, `api`, `data`, `tool` |
 | `project-based-learning` | `build`, `ideas`, `inspiration` |
+| `student-benefits` | `free`, `discounts` |
+| `certifications` | `cybersecurity`, `cloud` |
 
 ## Example Entry
 

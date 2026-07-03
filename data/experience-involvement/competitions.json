@@ -10,7 +10,7 @@
       "location": "Online",
       "month": "January",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "coveo-blitz",
@@ -21,7 +21,7 @@
       "location": "Canada",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "reply-code-challenge",
@@ -32,7 +32,7 @@
       "location": "Online",
       "month": "March",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "worldquant-international-quant-championship",
@@ -43,7 +43,7 @@
       "location": "Online",
       "month": "March",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "canadian-team-programming-competition",
@@ -54,7 +54,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "lan-ets",
@@ -65,7 +65,7 @@
       "location": "Montreal, QC",
       "month": "May",
       "date_added": "2026-06-30",
-      "last_verified": "2026-06-30"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "jdis-games",
@@ -76,7 +76,7 @@
       "location": "Sherbrooke, Quebec",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "akuna-virtual-quant-trading-challenge",
@@ -87,7 +87,7 @@
       "location": "Online",
       "month": "August",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "lux-ai",
@@ -98,7 +98,7 @@
       "location": "Online",
       "month": "October",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "meta-hacker-cup",
@@ -109,7 +109,7 @@
       "location": "Online",
       "month": "October",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "international-data-analysis-olympiad",
@@ -120,7 +120,7 @@
       "location": "Online",
       "month": "December",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "citadel-student-competitions",
@@ -140,7 +140,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     },
     {
       "id": "universal-cup",
@@ -150,7 +150,7 @@
       "category": "competitions",
       "location": "Online",
       "date_added": "2026-06-20",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-07-02"
     }
   ]
 }

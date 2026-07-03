@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=264&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-02&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=298&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-02&color=7c3aed)
 
 </div>
 
@@ -45,7 +45,7 @@ Browse resources by area and category.
 | 📚 Learning & Development | [Learning Resources](#learning-resources) (57)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
 | 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (14) |
-| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (0)<br>[Free Developer Tools](#free-developer-tools) (0) |
+| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (0)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (22) |
 
 
 ## 📚 Learning & Development
@@ -457,19 +457,55 @@ Browse resources by area and category.
 
 ### Certifications
 
-**0 resources** · `certifications`
+**12 resources** · `certifications`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Amazon Web Services (AWS)](https://aws.amazon.com/certification) | AWS certifications for cloud architecture, development, operations, AI, and machine learning. | Cloud |
+| [Google Cloud](https://cloud.google.com/learn/certification) | Google Cloud certifications for cloud engineering, architecture, development, DevOps, and machine learning. | Cloud |
+| [Linux Foundation](https://training.linuxfoundation.org/certification) | Linux, Kubernetes, and cloud infrastructure certifications including LFCS, LFCE, CKA, CKAD, and CKS. | Cloud |
+| [Microsoft Azure](https://learn.microsoft.com/credentials) | Cloud and AI certifications including AZ-900, AZ-104, AZ-204, AZ-305, AZ-400, AI-900, and AI-102. | Cloud |
+| [Red Hat](https://www.redhat.com/en/services/certification) | Enterprise Linux and cloud platform certifications including RHCSA, RHCE, and RHCA. | Cloud |
+| [Centri](https://www.centri.org) | Defensive cybersecurity certifications including BTL1, BTL2, CSOM, and CJDE. | Cybersecurity |
+| [Cisco](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html) | Networking and cybersecurity certifications including CCNA, CyberOps Associate, and CCNP Security. | Cybersecurity |
+| [CompTIA](https://www.comptia.org/certifications) | Industry-standard cybersecurity certifications including Security+, CySA+, PenTest+, and SecurityX. | Cybersecurity |
+| [INE](https://ine.com/certifications) | Practical cybersecurity certifications including eJPT, eCPPT, eWPT, and eMAPT. | Cybersecurity |
+| [ISC2](https://www.isc2.org/certifications) | Globally recognized cybersecurity certifications including CC, SSCP, CISSP, and CCSP. | Cybersecurity |
+| [OffSec](https://www.offsec.com/certifications) | Highly respected hands-on offensive security certifications including OSCP, OSEP, OSWE, and OSED. | Cybersecurity |
+| [TCM Security](https://certifications.tcm-sec.com) | Hands-on penetration testing certifications including PNPT and PJPT. | Cybersecurity |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
-<a id="free-developer-tools"></a>
+<a id="student-benefits"></a>
 
-### Free Developer Tools
+### Student Benefits
 
-**0 resources** · `free-developer-tools`
+**22 resources** · `student-benefits`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Amazon Prime Student Canada](https://www.amazon.ca/amazonprime) | Discounted Prime membership for students with shipping, streaming, and shopping benefits. | Discounts |
+| [Apple Education Store Canada](https://www.apple.com/ca_edu_93120/store) | Education pricing on eligible Apple products including MacBooks, iPads, and accessories. | Discounts |
+| [Concordia Student Discounts & Benefits](https://www.concordia.ca/card/benefits/discounts.html) | Official Concordia card page for student discounts, campus offers, and partner benefits. | Discounts |
+| [Hack The Box Academy Student](https://help.hackthebox.com/en/articles/13465244-getting-the-student-subscription) | Student-friendly Hack The Box Academy plans for hands-on cybersecurity training. | Discounts |
+| [LeetCode Student](https://leetcode.com/student) | Student discount on LeetCode Premium for interview prep, practice, and company-tagged questions. | Discounts |
+| [Student Beans Canada](https://www.studentbeans.com/ca) | Student discount platform with offers across tech, software, lifestyle, food, and retail brands. | Discounts |
+| [Student Price Card (SPC)](https://www.spccard.ca) | Canadian student discount program with offers across technology, food, travel, and retail. | Discounts |
+| [TryHackMe Student](https://help.tryhackme.com/en/articles/6494960-student-discount) | Student discount for annual TryHackMe subscriptions and hands-on cybersecurity training. | Discounts |
+| [Wolfram Student](https://www.wolframalpha.com/pro/pricing/students) | Student pricing for Wolfram tools used in math, computation, visualization, and engineering. | Discounts |
+| [Autodesk Education](https://www.autodesk.com/education/edu-software/overview) | Free education access to Autodesk software for design, engineering, 3D modeling, and creative projects. | Free |
+| [AWS Educate](https://aws.amazon.com/education/awseducate) | Free AWS training, cloud labs, badges, and beginner-friendly cloud learning resources. | Free |
+| [BAnQ (Bibliothèque et Archives nationales du Québec)](https://www.banq.qc.ca) | Free Quebec library membership with study spaces, digital resources, books, and research tools. | Free |
+| [Figma Education](https://www.figma.com/education) | Free education access to Figma for UI design, prototyping, collaboration, and interface planning. | Free |
+| [GitHub Student Developer Pack](https://education.github.com/pack) | Student bundle with developer tools, cloud credits, domains, courses, and software perks. | Free |
+| [JetBrains Student License](https://www.jetbrains.com/community/education#students) | Free student license for JetBrains IDEs and tools for Mac, Windows, and Linux development. | Free |
+| [Microsoft 365 Education](https://www.microsoft.com/education/products/office) | Free Microsoft 365 access with Word, Excel, PowerPoint, and OneDrive. | Free |
+| [Microsoft Azure for Students](https://azure.microsoft.com/en-us/free/students) | Free Azure credits and cloud services for verified students without a credit card. | Free |
+| [Notion Education Plus](https://www.notion.com/help/notion-for-education) | Free Notion Plus access for managing notes, projects, documentation, deadlines, and collaboration. | Free |
+| [Sentry for Education](https://sentry.io/for/education) | Free Sentry access for students and educators to monitor errors, logs, replays, and production issues. | Free |
+| [Shodan Academic](https://help.shodan.io/the-basics/academic-upgrade) | Academic Shodan upgrade for cybersecurity, networking, and OSINT research. | Free |
+| [Unity Student Plan](https://unity.com/products/unity-student) | Free Unity student access for game development, real-time 3D, and interactive projects. | Free |
+| [Zed Student](https://zed.dev/education) | Student access to Zed with collaborative editing, AI features, and usage credits. | Free |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 

@@ -48,7 +48,7 @@
         "internships-fellowships",
         "recruitment-events",
         "certifications",
-        "free-developer-tools"
+        "student-benefits"
       ]
     },
     "type": {
@@ -74,7 +74,11 @@
         "frontend",
         "build",
         "ideas",
-        "inspiration"
+        "inspiration",
+        "discounts",
+        "free",
+        "cloud",
+        "cybersecurity"
       ]
     },
     "location": {

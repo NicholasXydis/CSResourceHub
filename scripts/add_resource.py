@@ -16,7 +16,7 @@ CATEGORIES = {
     "11": ("careers-perks", "internships-fellowships"),
     "12": ("careers-perks", "recruitment-events"),
     "13": ("careers-perks", "certifications"),
-    "14": ("careers-perks", "free-developer-tools"),
+    "14": ("careers-perks", "student-benefits"),
 }
 
 RESOURCE_TYPES_BY_CATEGORY = {
@@ -57,6 +57,14 @@ RESOURCE_TYPES_BY_CATEGORY = {
         "build",
         "ideas",
         "inspiration",
+    },
+    "student-benefits": {
+        "discounts",
+        "free",
+    },
+    "certifications": {
+        "cloud",
+        "cybersecurity",
     },
 }
 def prompt(label, required=True):

@@ -1,4 +1,125 @@
 {
   "category": "certifications",
-  "resources": []
+  "resources": [
+    {
+      "id": "amazon-web-services",
+      "name": "Amazon Web Services (AWS)",
+      "url": "https://aws.amazon.com/certification",
+      "description": "AWS certifications for cloud architecture, development, operations, AI, and machine learning.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com/learn/certification",
+      "description": "Google Cloud certifications for cloud engineering, architecture, development, DevOps, and machine learning.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "linux-foundation",
+      "name": "Linux Foundation",
+      "url": "https://training.linuxfoundation.org/certification",
+      "description": "Linux, Kubernetes, and cloud infrastructure certifications including LFCS, LFCE, CKA, CKAD, and CKS.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "microsoft-azure",
+      "name": "Microsoft Azure",
+      "url": "https://learn.microsoft.com/credentials",
+      "description": "Cloud and AI certifications including AZ-900, AZ-104, AZ-204, AZ-305, AZ-400, AI-900, and AI-102.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "red-hat",
+      "name": "Red Hat",
+      "url": "https://www.redhat.com/en/services/certification",
+      "description": "Enterprise Linux and cloud platform certifications including RHCSA, RHCE, and RHCA.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cloud"
+    },
+    {
+      "id": "centri",
+      "name": "Centri",
+      "url": "https://www.centri.org",
+      "description": "Defensive cybersecurity certifications including BTL1, BTL2, CSOM, and CJDE.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html",
+      "description": "Networking and cybersecurity certifications including CCNA, CyberOps Associate, and CCNP Security.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "comptia",
+      "name": "CompTIA",
+      "url": "https://www.comptia.org/certifications",
+      "description": "Industry-standard cybersecurity certifications including Security+, CySA+, PenTest+, and SecurityX.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "ine",
+      "name": "INE",
+      "url": "https://ine.com/certifications",
+      "description": "Practical cybersecurity certifications including eJPT, eCPPT, eWPT, and eMAPT.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "isc2",
+      "name": "ISC2",
+      "url": "https://www.isc2.org/certifications",
+      "description": "Globally recognized cybersecurity certifications including CC, SSCP, CISSP, and CCSP.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "offsec",
+      "name": "OffSec",
+      "url": "https://www.offsec.com/certifications",
+      "description": "Highly respected hands-on offensive security certifications including OSCP, OSEP, OSWE, and OSED.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    },
+    {
+      "id": "tcm-security",
+      "name": "TCM Security",
+      "url": "https://certifications.tcm-sec.com",
+      "description": "Hands-on penetration testing certifications including PNPT and PJPT.",
+      "category": "certifications",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "cybersecurity"
+    }
+  ]
 }

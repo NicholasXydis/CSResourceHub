@@ -1,0 +1,225 @@
+{
+  "category": "student-benefits",
+  "resources": [
+    {
+      "id": "amazon-prime-student-canada",
+      "name": "Amazon Prime Student Canada",
+      "url": "https://www.amazon.ca/amazonprime",
+      "description": "Discounted Prime membership for students with shipping, streaming, and shopping benefits.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "apple-education-store-canada",
+      "name": "Apple Education Store Canada",
+      "url": "https://www.apple.com/ca_edu_93120/store",
+      "description": "Education pricing on eligible Apple products including MacBooks, iPads, and accessories.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "concordia-student-discounts-benefits",
+      "name": "Concordia Student Discounts & Benefits",
+      "url": "https://www.concordia.ca/card/benefits/discounts.html",
+      "description": "Official Concordia card page for student discounts, campus offers, and partner benefits.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "hack-the-box-academy-student",
+      "name": "Hack The Box Academy Student",
+      "url": "https://help.hackthebox.com/en/articles/13465244-getting-the-student-subscription",
+      "description": "Student-friendly Hack The Box Academy plans for hands-on cybersecurity training.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "leetcode-student",
+      "name": "LeetCode Student",
+      "url": "https://leetcode.com/student",
+      "description": "Student discount on LeetCode Premium for interview prep, practice, and company-tagged questions.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "student-beans-canada",
+      "name": "Student Beans Canada",
+      "url": "https://www.studentbeans.com/ca",
+      "description": "Student discount platform with offers across tech, software, lifestyle, food, and retail brands.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "student-price-card",
+      "name": "Student Price Card (SPC)",
+      "url": "https://www.spccard.ca",
+      "description": "Canadian student discount program with offers across technology, food, travel, and retail.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "tryhackme-student",
+      "name": "TryHackMe Student",
+      "url": "https://help.tryhackme.com/en/articles/6494960-student-discount",
+      "description": "Student discount for annual TryHackMe subscriptions and hands-on cybersecurity training.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "wolfram-student",
+      "name": "Wolfram Student",
+      "url": "https://www.wolframalpha.com/pro/pricing/students",
+      "description": "Student pricing for Wolfram tools used in math, computation, visualization, and engineering.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "discounts"
+    },
+    {
+      "id": "autodesk-education",
+      "name": "Autodesk Education",
+      "url": "https://www.autodesk.com/education/edu-software/overview",
+      "description": "Free education access to Autodesk software for design, engineering, 3D modeling, and creative projects.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "aws-educate",
+      "name": "AWS Educate",
+      "url": "https://aws.amazon.com/education/awseducate",
+      "description": "Free AWS training, cloud labs, badges, and beginner-friendly cloud learning resources.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "banq",
+      "name": "BAnQ (Bibliothèque et Archives nationales du Québec)",
+      "url": "https://www.banq.qc.ca",
+      "description": "Free Quebec library membership with study spaces, digital resources, books, and research tools.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "figma-education",
+      "name": "Figma Education",
+      "url": "https://www.figma.com/education",
+      "description": "Free education access to Figma for UI design, prototyping, collaboration, and interface planning.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "github-student-developer-pack",
+      "name": "GitHub Student Developer Pack",
+      "url": "https://education.github.com/pack",
+      "description": "Student bundle with developer tools, cloud credits, domains, courses, and software perks.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "jetbrains-student-license",
+      "name": "JetBrains Student License",
+      "url": "https://www.jetbrains.com/community/education#students",
+      "description": "Free student license for JetBrains IDEs and tools for Mac, Windows, and Linux development.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "microsoft-365-education",
+      "name": "Microsoft 365 Education",
+      "url": "https://www.microsoft.com/education/products/office",
+      "description": "Free Microsoft 365 access with Word, Excel, PowerPoint, and OneDrive.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "microsoft-azure-for-students",
+      "name": "Microsoft Azure for Students",
+      "url": "https://azure.microsoft.com/en-us/free/students",
+      "description": "Free Azure credits and cloud services for verified students without a credit card.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "notion-education-plus",
+      "name": "Notion Education Plus",
+      "url": "https://www.notion.com/help/notion-for-education",
+      "description": "Free Notion Plus access for managing notes, projects, documentation, deadlines, and collaboration.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "sentry-for-education",
+      "name": "Sentry for Education",
+      "url": "https://sentry.io/for/education",
+      "description": "Free Sentry access for students and educators to monitor errors, logs, replays, and production issues.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "shodan-academic",
+      "name": "Shodan Academic",
+      "url": "https://help.shodan.io/the-basics/academic-upgrade",
+      "description": "Academic Shodan upgrade for cybersecurity, networking, and OSINT research.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "unity-student-plan",
+      "name": "Unity Student Plan",
+      "url": "https://unity.com/products/unity-student",
+      "description": "Free Unity student access for game development, real-time 3D, and interactive projects.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    },
+    {
+      "id": "zed-student",
+      "name": "Zed Student",
+      "url": "https://zed.dev/education",
+      "description": "Student access to Zed with collaborative editing, AI features, and usage credits.",
+      "category": "student-benefits",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-02",
+      "type": "free"
+    }
+  ]
+}

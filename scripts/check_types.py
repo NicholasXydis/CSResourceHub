@@ -39,6 +39,14 @@ ALLOWED_TYPES_BY_CATEGORY = {
         "ideas",
         "inspiration",
     },
+    "student-benefits": {
+        "discounts",
+        "free",
+    },
+    "certifications": {
+        "cloud",
+        "cybersecurity",
+    },
 }
 
 

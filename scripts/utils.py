@@ -21,7 +21,7 @@ CATEGORY_LABELS = {
     "internships-fellowships": "Internships & Fellowships",
     "recruitment-events": "Recruitment & Events",
     "certifications": "Certifications",
-    "free-developer-tools": "Free Developer Tools",
+    "student-benefits": "Student Benefits",
 }
 
 CATEGORY_GROUPS = {
@@ -45,7 +45,7 @@ CATEGORY_GROUPS = {
         "internships-fellowships",
         "recruitment-events",
         "certifications",
-        "free-developer-tools",
+        "student-benefits",
     ],
 }
 

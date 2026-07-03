@@ -24,4 +24,4 @@
 - **internships-fellowships** — Internships, fellowships, and student programs
 - **recruitment-events** — Career fairs, recruiting events, webinars, and meetups
 - **certifications** — Industry certifications worth pursuing
-- **free-developer-tools** — Free tools, software, and developer perks for students
+- **student-benefits** — Free tools, discounts, services, and other student benefits
