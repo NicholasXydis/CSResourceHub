@@ -8,7 +8,7 @@
       "description": "AWS certifications for cloud architecture, development, operations, AI, and machine learning.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cloud"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Google Cloud certifications for cloud engineering, architecture, development, DevOps, and machine learning.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cloud"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Linux, Kubernetes, and cloud infrastructure certifications including LFCS, LFCE, CKA, CKAD, and CKS.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cloud"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Cloud and AI certifications including AZ-900, AZ-104, AZ-204, AZ-305, AZ-400, AI-900, and AI-102.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cloud"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Enterprise Linux and cloud platform certifications including RHCSA, RHCE, and RHCA.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cloud"
     },
     {
@@ -58,7 +58,7 @@
       "description": "Defensive cybersecurity certifications including BTL1, BTL2, CSOM, and CJDE.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Networking and cybersecurity certifications including CCNA, CyberOps Associate, and CCNP Security.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Industry-standard cybersecurity certifications including Security+, CySA+, PenTest+, and SecurityX.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     },
     {
@@ -88,7 +88,7 @@
       "description": "Practical cybersecurity certifications including eJPT, eCPPT, eWPT, and eMAPT.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     },
     {
@@ -98,7 +98,7 @@
       "description": "Globally recognized cybersecurity certifications including CC, SSCP, CISSP, and CCSP.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     },
     {
@@ -108,7 +108,7 @@
       "description": "Highly respected hands-on offensive security certifications including OSCP, OSEP, OSWE, and OSED.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     },
     {
@@ -118,7 +118,7 @@
       "description": "Hands-on penetration testing certifications including PNPT and PJPT.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     }
   ]

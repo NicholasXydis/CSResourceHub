@@ -10,7 +10,7 @@
       "location": "Vancouver, BC",
       "month": "January",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "mcgamejam",
@@ -21,7 +21,7 @@
       "location": "Montreal, QC",
       "month": "January",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "chillennium",
@@ -32,7 +32,7 @@
       "location": "College Station, TX",
       "month": "February",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "behaviour-interactive-game-jam",
@@ -43,7 +43,7 @@
       "location": "Montreal, QC",
       "month": "April",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "ubisoft-game-lab-competition",
@@ -54,7 +54,7 @@
       "location": "Montreal, QC",
       "month": "April",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "tojam",
@@ -65,7 +65,7 @@
       "location": "Toronto, ON",
       "month": "May",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "gmtk-game-jam",
@@ -76,7 +76,7 @@
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "algoma-startup-gamejam",
@@ -87,7 +87,7 @@
       "location": "Brampton, ON",
       "month": "September",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "gamerella-game-jam",
@@ -98,7 +98,7 @@
       "location": "Montreal, QC",
       "month": "November",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "github-game-off",
@@ -109,7 +109,7 @@
       "location": "Online",
       "month": "November",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     },
     {
       "id": "concordia-game-dev-club-jams",
@@ -119,7 +119,7 @@
       "category": "game-jams",
       "location": "Montreal, QC",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-06"
     }
   ]
 }

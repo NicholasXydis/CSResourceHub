@@ -8,7 +8,7 @@
       "description": "Classic interview preparation book covering coding questions, technical concepts, and interview strategies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "book"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Comprehensive interview preparation book featuring advanced coding problems and detailed solutions.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "book"
     },
     {
@@ -28,7 +28,7 @@
       "description": "System design interview platform featuring books, courses, and real-world architecture case studies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "course"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "course"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Popular course teaching object-oriented design concepts commonly tested in software engineering interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "course"
     },
     {
@@ -58,7 +58,7 @@
       "description": "Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "guide"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Popular LaTeX resume template widely used by computer science students and software engineers.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "guide"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "guide"
     },
     {
@@ -98,7 +98,7 @@
       "description": "Competitive programming platform offering high-quality contests and algorithm practice.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -108,7 +108,7 @@
       "description": "Competitive programming platform with contests and algorithmic problems for technical interview practice.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -118,7 +118,7 @@
       "description": "Technical assessment platform widely used by companies for coding screenings and online assessments.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -128,7 +128,7 @@
       "description": "Programming challenge platform for improving coding skills through community-created problems.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -138,7 +138,7 @@
       "description": "Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -148,7 +148,7 @@
       "description": "Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -158,7 +158,7 @@
       "description": "Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -168,7 +168,7 @@
       "description": "Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -178,7 +178,7 @@
       "description": "Interview preparation platform focused on system design, coding interviews, and technical interview strategies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -198,7 +198,7 @@
       "description": "Anonymous mock technical interviews with experienced software engineers from leading technology companies.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -218,7 +218,7 @@
       "description": "Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -228,7 +228,7 @@
       "description": "Free peer-to-peer mock interview platform for coding and technical interview practice.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "platform"
     },
     {
@@ -248,7 +248,7 @@
       "description": "Online LaTeX editor for creating professional resumes, CVs, and technical documents.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "tool"
     },
     {
@@ -258,7 +258,7 @@
       "description": "AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances.",
       "category": "interview-prep",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "tool"
     }
   ]
