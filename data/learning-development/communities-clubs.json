@@ -62,16 +62,6 @@
       "type": "discord"
     },
     {
-      "id": "ieee-concordia",
-      "name": "IEEE Concordia",
-      "url": "https://www.ieeeconcordia.ca",
-      "description": "IEEE student branch at Concordia offering technical workshops, hands-on projects, networking events and competitions.",
-      "category": "communities-clubs",
-      "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
-      "type": "discord"
-    },
-    {
       "id": "the-odin-project-discord",
       "name": "The Odin Project",
       "url": "https://www.theodinproject.com/discord",

@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-08",
-  "total": 334,
+  "total": 333,
   "resources": [
     {
       "id": "alpha-vantage",
@@ -169,7 +169,7 @@
       "description": "Discover open-source and commercial alternatives to software, apps, and online services.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "tool"
     },
     {
@@ -1029,7 +1029,7 @@
       "description": "Networking and cybersecurity certifications including CCNA, CyberOps Associate, and CCNP Security.",
       "category": "certifications",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-06",
       "type": "cybersecurity"
     },
     {
@@ -1184,7 +1184,7 @@
     },
     {
       "id": "concordia-job-search-websites",
-      "name": "Concordia Job Search Websites",
+      "name": "Concordia Internship & Job Search Websites",
       "url": "https://www.concordia.ca/students/success/career-planning/job-search/websites.html",
       "description": "Concordia-curated job search website list for internships, new grad roles, and student jobs.",
       "category": "internships-fellowships",
@@ -2398,16 +2398,6 @@
       "description": "Developer community for programming discussion, project support, collaboration, and career advice.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
-      "type": "discord"
-    },
-    {
-      "id": "ieee-concordia",
-      "name": "IEEE Concordia",
-      "url": "https://www.ieeeconcordia.ca",
-      "description": "IEEE student branch at Concordia offering technical workshops, hands-on projects, networking events and competitions.",
-      "category": "communities-clubs",
-      "date_added": "2026-07-08",
       "last_verified": "2026-07-08",
       "type": "discord"
     },

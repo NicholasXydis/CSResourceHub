@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-08&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=333&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-08&color=7c3aed)
 
 </div>
 
@@ -42,7 +42,7 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (55)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (26) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (55)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (25) |
 | 🏆 Experience | [Hackathons](#hackathons) (22)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (14) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (13)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (22) |
@@ -157,7 +157,7 @@ Browse resources by area and category.
 
 ### Communities & Clubs
 
-**26 resources** · `communities-clubs`
+**25 resources** · `communities-clubs`
 
 | Resource | Description | Type | Location |
 | --- | --- | --- | --- |
@@ -167,7 +167,6 @@ Browse resources by area and category.
 | [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. | Discord | TBD |
 | [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. | Discord | TBD |
 | [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. | Discord | TBD |
-| [IEEE Concordia](https://www.ieeeconcordia.ca) | IEEE student branch at Concordia offering technical workshops, hands-on projects, networking events and competitions. | Discord | TBD |
 | [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. | Discord | TBD |
 | [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. | Discord | TBD |
 | [AWS User Group Montreal](https://www.meetup.com/montreal-aws-users-united) | Community meetups covering AWS architecture, cloud infrastructure, DevOps, containers, and Infrastructure as Code. | Organization | Montreal, Quebec |
@@ -452,7 +451,7 @@ Browse resources by area and category.
 | [Built In](https://builtin.com) | Technology career platform with internships and early-career roles at startups and tech companies. | Internship |
 | [Canada's Top 100 Employers Career Directory](https://www.eluta.ca/new-grad-jobs?education_category=BSc&education_code=BSc-Computer-Science&l=&search=Career+Directory) | Canadian career directory highlighting employers with internship, co-op, and new graduate programs. | Internship |
 | [Concordia CAPS Job Bank](https://www.concordia.ca/students/success/career-planning/job-search/job-bank.html) | Concordia job bank hub for internships, on-campus jobs and new grad roles. | Internship |
-| [Concordia Job Search Websites](https://www.concordia.ca/students/success/career-planning/job-search/websites.html) | Concordia-curated job search website list for internships, new grad roles, and student jobs. | Internship |
+| [Concordia Internship & Job Search Websites](https://www.concordia.ca/students/success/career-planning/job-search/websites.html) | Concordia-curated job search website list for internships, new grad roles, and student jobs. | Internship |
 | [Federal Student Work Experience Program (FSWEP)](https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html) | Government of Canada student hiring program for paid work across federal departments. | Internship |
 | [Glassdoor](https://www.glassdoor.com) | Job platform with internship listings, company reviews, salary data, and interview insights. | Internship |
 | [Handshake](https://joinhandshake.com) | University-focused career platform connecting students with internships and entry-level roles. | Internship |
