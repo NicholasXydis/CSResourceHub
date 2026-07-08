@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-03",
-  "total": 318,
+  "generated": "2026-07-08",
+  "total": 322,
   "resources": [
     {
       "id": "alpha-vantage",
@@ -2702,6 +2702,16 @@
       "type": "book"
     },
     {
+      "id": "database-internals",
+      "name": "Database Internals",
+      "url": "https://www.databass.dev",
+      "description": "Deep dive into storage engines, distributed systems, transactions, consensus, and database architecture.",
+      "category": "learning-resources",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "book"
+    },
+    {
       "id": "designing-data-intensive-applications",
       "name": "Designing Data-Intensive Applications",
       "url": "https://dataintensive.net",
@@ -2709,6 +2719,16 @@
       "category": "learning-resources",
       "date_added": "2026-07-01",
       "last_verified": "2026-07-06",
+      "type": "book"
+    },
+    {
+      "id": "game-engine-architecture",
+      "name": "Game Engine Architecture",
+      "url": "https://www.gameenginebook.com",
+      "description": "Comprehensive book on game engine architecture, C++, rendering, animation, physics, and tools pipelines.",
+      "category": "learning-resources",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
       "type": "book"
     },
     {
@@ -2732,6 +2752,16 @@
       "type": "book"
     },
     {
+      "id": "how-linux-works",
+      "name": "How Linux Works, 3rd Edition",
+      "url": "https://nostarch.com/howlinuxworks3",
+      "description": "Practical book explaining Linux internals, boot, devices, networking, shell, filesystems, and system services.",
+      "category": "learning-resources",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "book"
+    },
+    {
       "id": "operating-systems-three-easy-pieces",
       "name": "Operating Systems: Three Easy Pieces",
       "url": "https://pages.cs.wisc.edu/~remzi/OSTEP",
@@ -2739,6 +2769,16 @@
       "category": "learning-resources",
       "date_added": "2026-07-01",
       "last_verified": "2026-07-06",
+      "type": "book"
+    },
+    {
+      "id": "real-world-cryptography",
+      "name": "Real-World Cryptography",
+      "url": "https://www.manning.com/books/real-world-cryptography",
+      "description": "Applied cryptography book covering protocols, encryption, signatures, key exchange, TLS, and secure systems.",
+      "category": "learning-resources",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
       "type": "book"
     },
     {
