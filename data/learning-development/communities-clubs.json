@@ -240,16 +240,6 @@
       "date_added": "2026-07-01",
       "last_verified": "2026-07-08",
       "type": "reddit"
-    },
-    {
-      "id": "reddit-softwareengineering",
-      "name": "r/softwareengineering",
-      "url": "https://www.reddit.com/r/softwareengineering",
-      "description": "Software engineering practices, architecture, engineering culture, and industry discussion.",
-      "category": "communities-clubs",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
-      "type": "reddit"
     }
   ]
 }

@@ -92,16 +92,6 @@
       "type": "guide"
     },
     {
-      "id": "atcoder",
-      "name": "AtCoder",
-      "url": "https://atcoder.jp",
-      "description": "Competitive programming platform offering high-quality contests and algorithm practice.",
-      "category": "interview-prep",
-      "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
-      "type": "platform"
-    },
-    {
       "id": "codeforces",
       "name": "Codeforces",
       "url": "https://codeforces.com",

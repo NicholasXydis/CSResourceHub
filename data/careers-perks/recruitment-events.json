@@ -112,17 +112,6 @@
       "location": "Montreal, Quebec"
     },
     {
-      "id": "recon-montreal",
-      "name": "REcon Montreal",
-      "url": "https://recon.cx",
-      "description": "Reverse engineering and exploit development conference for advanced security research.",
-      "category": "recruitment-events",
-      "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
-      "type": "conference",
-      "location": "Montreal, Quebec"
-    },
-    {
       "id": "startupfest-montreal",
       "name": "Startupfest Montreal",
       "url": "https://startupfest.com",
@@ -134,15 +123,37 @@
       "location": "Montreal, Quebec"
     },
     {
-      "id": "district3-innovation-hub-events",
-      "name": "District 3 Innovation Hub Events",
-      "url": "https://district3.co/events",
-      "description": "Public startup workshops, founder talks, deep-tech discussions, and networking hosted by Concordia's startup incubator.",
+      "id": "cutc",
+      "name": "Canadian Undergraduate Technology Conference (CUTC)",
+      "url": "https://cutc.ca",
+      "description": "Student-led technology conference connecting undergraduates with industry speakers, sponsors, and workshops.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
       "last_verified": "2026-07-08",
-      "type": "startup",
+      "type": "conference",
       "location": "Montreal, Quebec"
+    },
+    {
+      "id": "richard-tapia-conference",
+      "name": "Richard Tapia Celebration of Diversity in Computing",
+      "url": "https://tapiaconference.cmd-it.org",
+      "description": "Diversity in computing conference with career networking, technical sessions, and recruiting.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "career",
+      "location": "Atlanta, Georgia"
+    },
+    {
+      "id": "pycon-us",
+      "name": "PyCon US",
+      "url": "https://us.pycon.org/2026",
+      "description": "Python conference with technical talks, tutorials, open-source collaboration, and a job fair.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Long Beach, California"
     }
   ]
 }

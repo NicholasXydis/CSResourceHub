@@ -147,13 +147,13 @@
     {
       "id": "cybersci",
       "name": "CyberSci",
-      "url": "https://cybersecuritychallenge.ca",
+      "url": "https://cybersecuritychallenge.ca/en",
       "description": "Canadian student CTF with regional rounds and a national final in Ottawa.",
       "category": "ctfs",
+      "location": "Montreal, Quebec",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08",
-      "location": "Montreal, Quebec"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "0ctf",

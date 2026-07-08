@@ -42,16 +42,6 @@
       "type": "discounts"
     },
     {
-      "id": "leetcode-student",
-      "name": "LeetCode Student",
-      "url": "https://leetcode.com/student",
-      "description": "Student discount on LeetCode Premium for interview prep, practice, and company-tagged questions.",
-      "category": "student-benefits",
-      "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
-      "type": "discounts"
-    },
-    {
       "id": "student-beans-canada",
       "name": "Student Beans Canada",
       "url": "https://www.studentbeans.com/ca",

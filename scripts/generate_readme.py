@@ -131,7 +131,7 @@ def generate_readme():
         typing_svg(
             [
                 "Curated Canadian CS Opportunities",
-                "Learning | Hackathons | Careers | Developer Perks",
+                "Learning | Hackathons | Careers | Student Benefits",
                 "Validated JSON Dataset With Automated Checks",
                 "Generated README | CSV | Site-Ready JSON",
             ]

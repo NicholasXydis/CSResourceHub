@@ -4,7 +4,7 @@
 
 # CS Resource Hub
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+Canadian+CS+Opportunities;Learning+%7C+Hackathons+%7C+Careers+%7C+Developer+Perks;Validated+JSON+Dataset+With+Automated+Checks;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+Canadian+CS+Opportunities;Learning+%7C+Hackathons+%7C+Careers+%7C+Student+Benefits;Validated+JSON+Dataset+With+Automated+Checks;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
 
 **A curated, automated dataset of Canadian Computer Science student resources.**
 
@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=333&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-08&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=330&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-08&color=7c3aed)
 
 </div>
 
@@ -42,10 +42,10 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (55)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (25) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (55)<br>[Interview Prep](#interview-prep) (25)<br>[Communities & Clubs](#communities-clubs) (24) |
 | 🏆 Experience | [Hackathons](#hackathons) (22)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
-| 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (14) |
-| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (13)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (22) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (45)<br>[Project-Based Learning](#project-based-learning) (14) |
+| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (14)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (21) |
 
 
 ## 📚 Learning & Development
@@ -64,7 +64,7 @@ Browse resources by area and category.
 | [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture. | Book |
 | [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples. | Book |
 | [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867) | Classic book covering probability, brainteasers, and quantitative finance concepts. | Book |
-| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. | Book |
+| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. | Book |
 | [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. | Book |
 | [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. | Book |
 | [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. | Course |
@@ -120,7 +120,7 @@ Browse resources by area and category.
 
 ### Interview Prep
 
-**26 resources** · `interview-prep`
+**25 resources** · `interview-prep`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -133,7 +133,6 @@ Browse resources by area and category.
 | [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) | Popular LaTeX resume template widely used by computer science students and software engineers. | Guide |
 | [System Design Primer](https://github.com/donnemartin/system-design-primer) | Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture. | Guide |
 | [Tech Interview Handbook](https://www.techinterviewhandbook.org) | Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies. | Guide |
-| [AtCoder](https://atcoder.jp) | Competitive programming platform offering high-quality contests and algorithm practice. | Platform |
 | [Codeforces](https://codeforces.com) | Competitive programming platform with contests and algorithmic problems for technical interview practice. | Platform |
 | [CodeSignal](https://codesignal.com) | Technical assessment platform widely used by companies for coding screenings and online assessments. | Platform |
 | [Codewars](https://www.codewars.com) | Programming challenge platform for improving coding skills through community-created problems. | Platform |
@@ -157,7 +156,7 @@ Browse resources by area and category.
 
 ### Communities & Clubs
 
-**25 resources** · `communities-clubs`
+**24 resources** · `communities-clubs`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -185,7 +184,6 @@ Browse resources by area and category.
 | [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. | Reddit |
 | [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. | Reddit |
 | [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. | Reddit |
-| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. | Reddit |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -246,7 +244,7 @@ Browse resources by area and category.
 | [HackTheBox Cyber Apocalypse](https://www.hackthebox.com/events/cyber-apocalypse-2026) | CTF by Hack The Box, with thousands of teams and a massive prize pool. | July | Online |
 | [HITCON CTF](https://ctf.hitcon.org) | CTF hosted by HITCON, known for extreme technical difficulty and elite global competition. | August | Online |
 | [CSAW CTF](https://csaw.io/ctf) | Student CTF by NYU, with online qualifiers and finals in New York City. | September | Online |
-| [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | Montreal, Quebec |
+| [CyberSci](https://cybersecuritychallenge.ca/en) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | Montreal, Quebec |
 | [0CTF](https://ctf.0ops.sjtu.cn) | CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges. | December | Online |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
@@ -352,7 +350,7 @@ Browse resources by area and category.
 
 ### Developer Resources
 
-**46 resources** · `developer-resources`
+**45 resources** · `developer-resources`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -386,13 +384,12 @@ Browse resources by area and category.
 | [Free-for-Dev](https://github.com/ripienaar/free-for-dev) | Find free tiers and services for hosting, databases, APIs, CI/CD, AI, and developer tools. | Tool |
 | [Freesound](https://freesound.org) | Community sound library for effects, ambience, and audio clips for games and apps. | Tool |
 | [GitHub Topics](https://github.com/topics) | Discover open-source projects, frameworks, libraries, and tools by technology, language, or domain. | Tool |
-| [gitignore](https://github.com/github/gitignore) | Generate language- and framework-specific .gitignore templates. | Tool |
+| [gitignore](https://github.com/github/gitignore) | Generate language and framework-specific .gitignore templates. | Tool |
 | [IT Tools](https://it-tools.tech) | Browser utilities for JSON, UUIDs, JWTs, hashing, encoding, QR codes, and timestamps. | Tool |
 | [itch.io Game Assets](https://itch.io/game-assets/free) | Free game asset marketplace with sprites, UI packs, audio, shaders, animations, and 3D models. | Tool |
 | [Kenney Assets](https://kenney.nl/assets) | Free 2D, 3D, UI, audio, and game development asset library. | Tool |
 | [Mixamo](https://www.mixamo.com) | Online tool for rigging 3D characters and creating character animations. | Tool |
 | [Mockaroo](https://mockaroo.com) | Generate up to 1,000 rows of realistic, customized mock data in JSON, CSV, or SQL formats to test your applications. | Tool |
-| [ngrok](https://ngrok.com) | Create secure public URLs for local services to test webhooks and integrations. | Tool |
 | [OpenGameArt](https://opengameart.org) | Community asset library for sprites, textures, music, sound effects, and 3D models. | Tool |
 | [Pixabay](https://pixabay.com) | Free image, illustration, video, music, and sound effect library for projects. | Tool |
 | [Playwright](https://playwright.dev) | Automate browsers for end-to-end testing and web automation. | Tool |
@@ -470,7 +467,7 @@ Browse resources by area and category.
 
 ### Recruitment & Events
 
-**13 resources** · `recruitment-events`
+**14 resources** · `recruitment-events`
 
 | Resource | Description | Type | Location |
 | --- | --- | --- | --- |
@@ -478,15 +475,16 @@ Browse resources by area and category.
 | [HackerX Montreal](https://hackerx.org) | Speed-interview networking event matching software engineers directly with engineering managers. | Career | Montreal, Quebec |
 | [IVADO AI Internship & Job Fair](https://ivado.ca/en/events/ivado-ai-internship-and-job-fair-february-2026) | AI internship and job fair connecting students with Quebec companies hosted by Polytechnique Montréal. | Career | Montreal, Quebec |
 | [L'Événement Carrières](https://ecarrieres.com/fr/evenement) | One of Quebec's largest public hiring exhibitions featuring various Montreal career fairs. | Career | Montreal, Quebec |
+| [Richard Tapia Celebration of Diversity in Computing](https://tapiaconference.cmd-it.org) | Diversity in computing conference with career networking, technical sessions, and recruiting. | Career | Atlanta, Georgia |
 | [WomenHack Montreal](https://womenhack.com) | Inclusive recruiting events for software, data, DevOps, and technology roles. | Career | Montreal, Quebec |
 | [BSides Montreal](https://bsidesmtl.ca) | Community cybersecurity conference with technical talks, workshops, and security networking. | Conference | Montreal, Quebec |
+| [Canadian Undergraduate Technology Conference (CUTC)](https://cutc.ca) | Student-led technology conference connecting undergraduates with industry speakers, sponsors, and workshops. | Conference | Montreal, Quebec |
 | [Cybereco Cyberconference](https://cybereco.ca) | Enterprise cybersecurity conference focused on cloud security, identity, governance, and security operations. | Conference | Montreal, Quebec |
 | [GoSec Conference](https://gosec.net) | Cybersecurity conference covering cloud, application, offensive, and enterprise security. | Conference | Montreal, Quebec |
 | [Mila Events](https://mila.quebec/en/events) | AI research talks, industry seminars, networking, and company-sponsored events. | Conference | Montreal, Quebec |
 | [Montréal International Game Summit (MIGS)](https://migs.biz) | B2B game development conference connecting students with studios and technical leaders. | Conference | Montreal, Quebec |
-| [REcon Montreal](https://recon.cx) | Reverse engineering and exploit development conference for advanced security research. | Conference | Montreal, Quebec |
+| [PyCon US](https://us.pycon.org/2026) | Python conference with technical talks, tutorials, open-source collaboration, and a job fair. | Conference | Long Beach, California |
 | [Startupfest Montreal](https://startupfest.com) | Canada's premier startup festival bringing together founders, investors, startup engineers, and technology companies. | Conference | Montreal, Quebec |
-| [District 3 Innovation Hub Events](https://district3.co/events) | Public startup workshops, founder talks, deep-tech discussions, and networking hosted by Concordia's startup incubator. | Startup | Montreal, Quebec |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -517,7 +515,7 @@ Browse resources by area and category.
 
 ### Student Benefits
 
-**22 resources** · `student-benefits`
+**21 resources** · `student-benefits`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -525,7 +523,6 @@ Browse resources by area and category.
 | [Apple Education Store Canada](https://www.apple.com/ca_edu_93120/store) | Education pricing on eligible Apple products including MacBooks, iPads, and accessories. | Discounts |
 | [Concordia Student Discounts & Benefits](https://www.concordia.ca/card/benefits/discounts.html) | Official Concordia card page for student discounts, campus offers, and partner benefits. | Discounts |
 | [Hack The Box Academy Student](https://help.hackthebox.com/en/articles/13465244-getting-the-student-subscription) | Student-friendly Hack The Box Academy plans for hands-on cybersecurity training. | Discounts |
-| [LeetCode Student](https://leetcode.com/student) | Student discount on LeetCode Premium for interview prep, practice, and company-tagged questions. | Discounts |
 | [Student Beans Canada](https://www.studentbeans.com/ca) | Student discount platform with offers across tech, software, lifestyle, food, and retail brands. | Discounts |
 | [Student Price Card (SPC)](https://www.spccard.ca) | Canadian student discount program with offers across technology, food, travel, and retail. | Discounts |
 | [TryHackMe Student](https://help.tryhackme.com/en/articles/6494960-student-discount) | Student discount for annual TryHackMe subscriptions and hands-on cybersecurity training. | Discounts |

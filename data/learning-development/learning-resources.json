@@ -65,7 +65,7 @@
       "id": "operating-systems-three-easy-pieces",
       "name": "Operating Systems: Three Easy Pieces",
       "url": "https://pages.cs.wisc.edu/~remzi/OSTEP",
-      "description": "Free operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage.",
+      "description": "Operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
       "last_verified": "2026-07-08",
