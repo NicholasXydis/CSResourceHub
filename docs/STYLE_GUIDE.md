@@ -45,9 +45,11 @@ Bad: `"ctf.uoftctf.org"`, `"https://ctf.uoftctf.org/"`
 
 ## Locations
 
-- Use exact Canadian locations when an event has a known physical location
+- Use `City, Province` for Canadian locations when an event has a known physical location
 - Use `Online` for fully virtual resources
-- Use `Canada` only when a Canadian resource moves between cities or locations are not yet published
+- Do not include country suffixes like `, Canada` when the country is implied
+- Do not use province or state abbreviations such as `QC`, `ON`, or `BC`
+- Omit `location` when a Canadian resource moves between cities or locations are not yet published
 - Include top United States options only when they are especially useful to Canadian students
 
 ## Names
@@ -58,3 +60,4 @@ Bad: `"ctf.uoftctf.org"`, `"https://ctf.uoftctf.org/"`
 Good: `"UofTCTF"`, `"Google Summer of Code"`, `"MLH Fellowship"`
 
 Bad: `"UofT CTF"`, `"GSoC"`, `"mlh fellowship"`
+

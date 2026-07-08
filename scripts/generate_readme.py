@@ -252,6 +252,10 @@ def generate_readme():
         "[STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).\n"
     )
     lines.append("4. Run `make validate`.\n")
+    lines.append(
+        "   On Windows, use `make validate PYTHON=\"py -3\"` or see "
+        "[ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.\n"
+    )
     lines.append("5. Open a pull request with a clear description.\n")
     lines.append("\n## License\n\n")
     lines.append("- Code and scripts: [MIT](./LICENSE)\n")
@@ -275,3 +279,4 @@ def generate_readme():
 
 if __name__ == "__main__":
     generate_readme()
+

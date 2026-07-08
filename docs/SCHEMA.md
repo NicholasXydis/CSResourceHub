@@ -22,7 +22,7 @@ Every resource in `data/` follows this schema defined in `schema/resource.schema
 | --------------- | ------ | ---------------------------------------- | -------------- |
 | `type`          | string | Optional resource type from the allowed type list | `"course"` |
 | `month`         | string | Month name for recurring or seasonal resources | `"March"` |
-| `location`      | string | Exact location or `Online` when useful | `"Montreal, Quebec, Canada"` |
+| `location`      | string | Exact location or `Online` when useful | `"Montreal, Quebec"` |
 
 Allowed `type` values are category-specific:
 
@@ -35,6 +35,7 @@ Allowed `type` values are category-specific:
 | `developer-resources` | `frontend`, `api`, `data`, `tool` |
 | `project-based-learning` | `build`, `ideas`, `inspiration` |
 | `internships-fellowships` | `internship`, `fellowship` |
+| `recruitment-events` | `career`, `community`, `conference`, `startup` |
 | `student-benefits` | `free`, `discounts` |
 | `certifications` | `cybersecurity`, `cloud` |
 
@@ -52,3 +53,4 @@ Allowed `type` values are category-specific:
   "last_verified": "2026-06-15"
 }
 ```
+

@@ -43,6 +43,12 @@ ALLOWED_TYPES_BY_CATEGORY = {
         "fellowship",
         "internship",
     },
+    "recruitment-events": {
+        "career",
+        "community",
+        "conference",
+        "startup",
+    },
     "student-benefits": {
         "discounts",
         "free",
@@ -86,3 +92,4 @@ def check_types():
 
 if __name__ == "__main__":
     check_types()
+

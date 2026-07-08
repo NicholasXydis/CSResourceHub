@@ -1,4 +1,148 @@
 {
   "category": "recruitment-events",
-  "resources": []
+  "resources": [
+    {
+      "id": "caps-employer-information-sessions",
+      "name": "Concordia Career & Networking Events",
+      "url": "https://www.concordia.ca/students/success/career-planning/events.html",
+      "description": "Various career fairs, networking events and recruitment opportunities.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "career",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "hackerx-montreal",
+      "name": "HackerX Montreal",
+      "url": "https://hackerx.org",
+      "description": "Speed-interview networking event matching software engineers directly with engineering managers.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "career",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "ivado-ai-internship-job-fair",
+      "name": "IVADO AI Internship & Job Fair",
+      "url": "https://ivado.ca/en/events/ivado-ai-internship-and-job-fair-february-2026",
+      "description": "AI internship and job fair connecting students with Quebec companies hosted by Polytechnique Montréal.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "career",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "levenement-carrieres",
+      "name": "L'Événement Carrières",
+      "url": "https://ecarrieres.com/fr/evenement",
+      "description": "One of Quebec's largest public hiring exhibitions featuring various Montreal career fairs.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "career",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "womenhack-montreal",
+      "name": "WomenHack Montreal",
+      "url": "https://womenhack.com",
+      "description": "Inclusive recruiting events for software, data, DevOps, and technology roles.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "career",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "bsides-montreal",
+      "name": "BSides Montreal",
+      "url": "https://bsidesmtl.ca",
+      "description": "Community cybersecurity conference with technical talks, workshops, and security networking.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "cybereco-cyberconference",
+      "name": "Cybereco Cyberconference",
+      "url": "https://cybereco.ca",
+      "description": "Enterprise cybersecurity conference focused on cloud security, identity, governance, and security operations.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "gosec",
+      "name": "GoSec Conference",
+      "url": "https://gosec.net",
+      "description": "Cybersecurity conference covering cloud, application, offensive, and enterprise security.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "mila-events",
+      "name": "Mila Events",
+      "url": "https://mila.quebec/en/events",
+      "description": "AI research talks, industry seminars, networking, and company-sponsored events.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "migs",
+      "name": "Montréal International Game Summit (MIGS)",
+      "url": "https://migs.biz",
+      "description": "B2B game development conference connecting students with studios and technical leaders.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "recon-montreal",
+      "name": "REcon Montreal",
+      "url": "https://recon.cx",
+      "description": "Reverse engineering and exploit development conference for advanced security research.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "startupfest-montreal",
+      "name": "Startupfest Montreal",
+      "url": "https://startupfest.com",
+      "description": "Canada's premier startup festival bringing together founders, investors, startup engineers, and technology companies.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "conference",
+      "location": "Montreal, Quebec"
+    },
+    {
+      "id": "district3-innovation-hub-events",
+      "name": "District 3 Innovation Hub Events",
+      "url": "https://district3.co/events",
+      "description": "Public startup workshops, founder talks, deep-tech discussions, and networking hosted by Concordia's startup incubator.",
+      "category": "recruitment-events",
+      "date_added": "2026-07-08",
+      "last_verified": "2026-07-08",
+      "type": "startup",
+      "location": "Montreal, Quebec"
+    }
+  ]
 }

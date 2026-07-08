@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=318&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-03&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-08&color=7c3aed)
 
 </div>
 
@@ -42,10 +42,10 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (57)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (22) |
-| 🏆 Experience | [Hackathons](#hackathons) (23)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (55)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (26) |
+| 🏆 Experience | [Hackathons](#hackathons) (22)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (46)<br>[Project-Based Learning](#project-based-learning) (14) |
-| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (20)<br>[Recruitment & Events](#recruitment-events) (0)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (22) |
+| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (13)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (22) |
 
 
 ## 📚 Learning & Development
@@ -54,7 +54,7 @@ Browse resources by area and category.
 
 ### Learning Resources
 
-**57 resources** · `learning-resources`
+**55 resources** · `learning-resources`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -97,11 +97,9 @@ Browse resources by area and category.
 | [PowerShell Cheat Sheet](https://ss64.com/ps) | Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration. | Reference |
 | [Compiler Explorer (Godbolt)](https://godbolt.org) | Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages. | Tool |
 | [CPUlator](https://cpulator.01xz.net) | Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems. | Tool |
-| [Desmos](https://www.desmos.com) | Interactive graphing calculator for visualizing functions, equations, and data. | Tool |
 | [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. | Tool |
 | [OEIS](https://oeis.org) | Searchable database of integer sequences for math, algorithms, and competitive programming. | Tool |
 | [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps. | Tool |
-| [Wolfram Alpha](https://www.wolframalpha.com) | Solve math, science, engineering, and statistics problems with computational tools. | Tool |
 | [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts. | Video |
 | [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts. | Video |
 | [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. | Video |
@@ -159,32 +157,36 @@ Browse resources by area and category.
 
 ### Communities & Clubs
 
-**22 resources** · `communities-clubs`
+**26 resources** · `communities-clubs`
 
-| Resource | Description | Type |
-| --- | --- | --- |
-| [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. | Club |
-| [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. | Club |
-| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. | Club |
-| [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. | Discord |
-| [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. | Discord |
-| [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. | Discord |
-| [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. | Discord |
-| [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. | Discord |
-| [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. | Organization |
-| [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. | Reddit |
-| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) | Discussions on software engineering careers, internships, resumes, interviews, and job searching. | Reddit |
-| [r/cybersecurity](https://www.reddit.com/r/cybersecurity) | Cybersecurity news, careers, tools, and security discussions. | Reddit |
-| [r/datascience](https://www.reddit.com/r/datascience) | Data science careers, analytics, machine learning applications, and industry discussions. | Reddit |
-| [r/devops](https://www.reddit.com/r/devops) | Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions. | Reddit |
-| [r/gamedev](https://www.reddit.com/r/gamedev) | Game development discussions covering programming, design, engines, and publishing. | Reddit |
-| [r/learnprogramming](https://www.reddit.com/r/learnprogramming) | Programming help, learning resources, and beginner-friendly discussions. | Reddit |
-| [r/linux](https://www.reddit.com/r/linux) | Linux news, open-source software, system administration, and operating system discussions. | Reddit |
-| [r/MachineLearning](https://www.reddit.com/r/MachineLearning) | Machine learning research, papers, projects, and technical discussions. | Reddit |
-| [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. | Reddit |
-| [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. | Reddit |
-| [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. | Reddit |
-| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. | Reddit |
+| Resource | Description | Type | Location |
+| --- | --- | --- | --- |
+| [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. | Club | TBD |
+| [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. | Club | TBD |
+| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. | Club | TBD |
+| [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. | Discord | TBD |
+| [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. | Discord | TBD |
+| [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. | Discord | TBD |
+| [IEEE Concordia](https://www.ieeeconcordia.ca) | IEEE student branch at Concordia offering technical workshops, hands-on projects, networking events and competitions. | Discord | TBD |
+| [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. | Discord | TBD |
+| [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. | Discord | TBD |
+| [AWS User Group Montreal](https://www.meetup.com/montreal-aws-users-united) | Community meetups covering AWS architecture, cloud infrastructure, DevOps, containers, and Infrastructure as Code. | Organization | Montreal, Quebec |
+| [C++ Montréal](https://www.meetup.com/cppmtl) | Community dedicated to Modern C++, systems programming, performance optimization, and software architecture. | Organization | Montreal, Quebec |
+| [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. | Organization | TBD |
+| [Montréal Game Developers](https://www.meetup.com/montreal-game-development-meetup-group) | Game development community hosting networking events, technical talks, workshops, and industry meetups. | Organization | Montreal, Quebec |
+| [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. | Reddit | TBD |
+| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) | Discussions on software engineering careers, internships, resumes, interviews, and job searching. | Reddit | TBD |
+| [r/cybersecurity](https://www.reddit.com/r/cybersecurity) | Cybersecurity news, careers, tools, and security discussions. | Reddit | TBD |
+| [r/datascience](https://www.reddit.com/r/datascience) | Data science careers, analytics, machine learning applications, and industry discussions. | Reddit | TBD |
+| [r/devops](https://www.reddit.com/r/devops) | Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions. | Reddit | TBD |
+| [r/gamedev](https://www.reddit.com/r/gamedev) | Game development discussions covering programming, design, engines, and publishing. | Reddit | TBD |
+| [r/learnprogramming](https://www.reddit.com/r/learnprogramming) | Programming help, learning resources, and beginner-friendly discussions. | Reddit | TBD |
+| [r/linux](https://www.reddit.com/r/linux) | Linux news, open-source software, system administration, and operating system discussions. | Reddit | TBD |
+| [r/MachineLearning](https://www.reddit.com/r/MachineLearning) | Machine learning research, papers, projects, and technical discussions. | Reddit | TBD |
+| [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. | Reddit | TBD |
+| [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. | Reddit | TBD |
+| [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. | Reddit | TBD |
+| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. | Reddit | TBD |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -195,7 +197,7 @@ Browse resources by area and category.
 
 ### Hackathons
 
-**23 resources** · `hackathons`
+**22 resources** · `hackathons`
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
@@ -221,7 +223,6 @@ Browse resources by area and category.
 | [FIAM-IA Hackathon](https://hackathonfiam-ia.com) | Finance and AI hackathon, with cash prizes and industry sponsors. | October | Montreal, Quebec |
 | [HackHarvard](https://hackharvard.io) | Harvard's annual hackathon, with large cash prizes and industry sponsors. | October | Cambridge, Massachusetts |
 | [CodeJam](https://codejam.mcgilleus.ca) | Hackathon by McGill Engineering, with cash prizes. | November | Montreal, Quebec |
-| [HackUTD](https://hackutd.co) | University of Texas hackathon, with cash prizes and industry sponsors. | November | Dallas, Texas |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -246,7 +247,7 @@ Browse resources by area and category.
 | [HackTheBox Cyber Apocalypse](https://www.hackthebox.com/events/cyber-apocalypse-2026) | CTF by Hack The Box, with thousands of teams and a massive prize pool. | July | Online |
 | [HITCON CTF](https://ctf.hitcon.org) | CTF hosted by HITCON, known for extreme technical difficulty and elite global competition. | August | Online |
 | [CSAW CTF](https://csaw.io/ctf) | Student CTF by NYU, with online qualifiers and finals in New York City. | September | Online |
-| [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | Canada |
+| [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | TBD |
 | [0CTF](https://ctf.0ops.sjtu.cn) | CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges. | December | Online |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
@@ -259,17 +260,17 @@ Browse resources by area and category.
 
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
-| [Global Game Jam Vancouver](https://ggjvancouver.ca) | A western Canadian Global Game Jam hub backed and mentored by Vancouver game studios. | January | Vancouver, BC |
-| [McGameJam](https://www.mcgamejam.ca) | Quebec's largest game jam, hosted by McGill University featuring various industry sponsors. | January | Montreal, QC |
-| [Chillennium Game Jam](https://chillennium.com) | The largest student-run collegiate game jam in the world, featuring various major industry sponsors. | February | College Station, TX |
-| [Behaviour Interactive Game Jam](https://www.eventbrite.ca/o/18734564338) | Game jam hosted by Behaviour Interactive, featuring mentorship and networking opportunities with industry professionals. | April | Montreal, QC |
-| [Ubisoft Game Lab Competition](https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition) | A 10-week annual game jam where students build game concepts and compete for over $55,000 in scholarships. | April | Montreal, QC |
-| [TOJam (Toronto Game Jam)](https://www.tojam.ca) | One of Canada's longest-running game jams, attracting student developers and industry professionals. | May | Toronto, ON |
+| [Global Game Jam Vancouver](https://ggjvancouver.ca) | A western Canadian Global Game Jam hub backed and mentored by Vancouver game studios. | January | Vancouver, British Columbia |
+| [McGameJam](https://www.mcgamejam.ca) | Quebec's largest game jam, hosted by McGill University featuring various industry sponsors. | January | Montreal, Quebec |
+| [Chillennium Game Jam](https://chillennium.com) | The largest student-run collegiate game jam in the world, featuring various major industry sponsors. | February | College Station, Texas |
+| [Behaviour Interactive Game Jam](https://www.eventbrite.ca/o/18734564338) | Game jam hosted by Behaviour Interactive, featuring mentorship and networking opportunities with industry professionals. | April | Montreal, Quebec |
+| [Ubisoft Game Lab Competition](https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition) | A 10-week annual game jam where students build game concepts and compete for over $55,000 in scholarships. | April | Montreal, Quebec |
+| [TOJam (Toronto Game Jam)](https://www.tojam.ca) | One of Canada's longest-running game jams, attracting student developers and industry professionals. | May | Toronto, Ontario |
 | [GMTK Game Jam](https://gamemakerstoolkit.com/jam) | The largest virtual game jam, with projects highlighted to millions of viewers through the creators YouTube channel. | July | Online |
-| [Algoma Startup GameJam](https://algomau.ca/immxrsive-game-jam) | An intensive game jam focused on entrepreneurship, run in direct collaboration with Unity industry trainers. | September | Brampton, ON |
-| [GAMERella Game Jam](https://gamerella.ca) | An over decade old annual game jam focusing on supporting marginalized game creators and aspiring game makers. | November | Montreal, QC |
+| [Algoma Startup GameJam](https://algomau.ca/immxrsive-game-jam) | An intensive game jam focused on entrepreneurship, run in direct collaboration with Unity industry trainers. | September | Brampton, Ontario |
+| [GAMERella Game Jam](https://gamerella.ca) | An over decade old annual game jam focusing on supporting marginalized game creators and aspiring game makers. | November | Montreal, Quebec |
 | [GitHub Game Off](https://github.com/topics/game-off) | GitHub's annual month-long game jam celebrating open-source development. | November | Online |
-| [Concordia Game Development Club Jams](https://www.concordiagamedev.ca/events) | Concordia's Game Development Club game jams, with new themes every year. | Ongoing | Montreal, QC |
+| [Concordia Game Development Club Jams](https://www.concordiagamedev.ca/events) | Concordia's Game Development Club game jams, with new themes every year. | Ongoing | Montreal, Quebec |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -282,11 +283,11 @@ Browse resources by area and category.
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
 | [Battlecode](https://battlecode.org) | MIT real-time strategy AI programming tournament competing for a $20,000+ prize pool. | January | Online |
-| [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | Canada |
+| [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | TBD |
 | [Reply Code Challenge](https://challenges.reply.com) | Global multi-track competition featuring 6-hour team sprints across algorithms, cybersecurity, and AI agents. | March | Online |
 | [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Three-stage global quantitative modeling tournament competing for a $100,000 prize pool and internship opportunities. | March | Online |
 | [Canadian Team Programming Competition](https://www.ctpc.ca) | National synchronized data structure sprint focused on university pride and corporate sponsor recruiting loops. | April | Online |
-| [Lan ETS](https://lanets.ca) | North America's largest student-run LAN party, with gaming competitions, cash prizes, and industry sponsorships. | May | Montreal, QC |
+| [Lan ETS](https://lanets.ca) | North America's largest student-run LAN party, with gaming competitions, cash prizes, and industry sponsorships. | May | Montreal, Quebec |
 | [JDIS Games](https://jdis.ca) | Autonomous AI agent optimization tournament at UdeS competing for sponsor-backed cash and tech gear. | July | Sherbrooke, Quebec |
 | [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921) | Virtual trading challenge by Akuna Capital, for students interested in breaking into the quantitative finance industry. | August | Online |
 | [Lux AI](https://www.lux-ai.org) | Multi-month visual reinforcement learning agent tournament competing for global rank and tiered cash pools. | October | Online |
@@ -437,7 +438,7 @@ Browse resources by area and category.
 
 ### Internships & Fellowships
 
-**20 resources** · `internships-fellowships`
+**22 resources** · `internships-fellowships`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -450,6 +451,8 @@ Browse resources by area and category.
 | [Absolute Internship](https://absoluteinternship.com) | Paid international internship placement program with structured roles and career coaching. | Internship |
 | [Built In](https://builtin.com) | Technology career platform with internships and early-career roles at startups and tech companies. | Internship |
 | [Canada's Top 100 Employers Career Directory](https://www.eluta.ca/new-grad-jobs?education_category=BSc&education_code=BSc-Computer-Science&l=&search=Career+Directory) | Canadian career directory highlighting employers with internship, co-op, and new graduate programs. | Internship |
+| [Concordia CAPS Job Bank](https://www.concordia.ca/students/success/career-planning/job-search/job-bank.html) | Concordia job bank hub for internships, on-campus jobs and new grad roles. | Internship |
+| [Concordia Job Search Websites](https://www.concordia.ca/students/success/career-planning/job-search/websites.html) | Concordia-curated job search website list for internships, new grad roles, and student jobs. | Internship |
 | [Federal Student Work Experience Program (FSWEP)](https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html) | Government of Canada student hiring program for paid work across federal departments. | Internship |
 | [Glassdoor](https://www.glassdoor.com) | Job platform with internship listings, company reviews, salary data, and interview insights. | Internship |
 | [Handshake](https://joinhandshake.com) | University-focused career platform connecting students with internships and entry-level roles. | Internship |
@@ -468,9 +471,23 @@ Browse resources by area and category.
 
 ### Recruitment & Events
 
-**0 resources** · `recruitment-events`
+**13 resources** · `recruitment-events`
 
-> No resources yet. Contributions are welcome.
+| Resource | Description | Type | Location |
+| --- | --- | --- | --- |
+| [Concordia Career & Networking Events](https://www.concordia.ca/students/success/career-planning/events.html) | Various career fairs, networking events and recruitment opportunities. | Career | Montreal, Quebec |
+| [HackerX Montreal](https://hackerx.org) | Speed-interview networking event matching software engineers directly with engineering managers. | Career | Montreal, Quebec |
+| [IVADO AI Internship & Job Fair](https://ivado.ca/en/events/ivado-ai-internship-and-job-fair-february-2026) | AI internship and job fair connecting students with Quebec companies hosted by Polytechnique Montréal. | Career | Montreal, Quebec |
+| [L'Événement Carrières](https://ecarrieres.com/fr/evenement) | One of Quebec's largest public hiring exhibitions featuring various Montreal career fairs. | Career | Montreal, Quebec |
+| [WomenHack Montreal](https://womenhack.com) | Inclusive recruiting events for software, data, DevOps, and technology roles. | Career | Montreal, Quebec |
+| [BSides Montreal](https://bsidesmtl.ca) | Community cybersecurity conference with technical talks, workshops, and security networking. | Conference | Montreal, Quebec |
+| [Cybereco Cyberconference](https://cybereco.ca) | Enterprise cybersecurity conference focused on cloud security, identity, governance, and security operations. | Conference | Montreal, Quebec |
+| [GoSec Conference](https://gosec.net) | Cybersecurity conference covering cloud, application, offensive, and enterprise security. | Conference | Montreal, Quebec |
+| [Mila Events](https://mila.quebec/en/events) | AI research talks, industry seminars, networking, and company-sponsored events. | Conference | Montreal, Quebec |
+| [Montréal International Game Summit (MIGS)](https://migs.biz) | B2B game development conference connecting students with studios and technical leaders. | Conference | Montreal, Quebec |
+| [REcon Montreal](https://recon.cx) | Reverse engineering and exploit development conference for advanced security research. | Conference | Montreal, Quebec |
+| [Startupfest Montreal](https://startupfest.com) | Canada's premier startup festival bringing together founders, investors, startup engineers, and technology companies. | Conference | Montreal, Quebec |
+| [District 3 Innovation Hub Events](https://district3.co/events) | Public startup workshops, founder talks, deep-tech discussions, and networking hosted by Concordia's startup incubator. | Startup | Montreal, Quebec |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -539,6 +556,7 @@ Contributions keep this dataset useful and current.
 2. Run `make add` or pick the correct JSON file in `data/`.
 3. Add one resource using [SCHEMA.md](./docs/SCHEMA.md) and [STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).
 4. Run `make validate`.
+   On Windows, use `make validate PYTHON="py -3"` or see [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.
 5. Open a pull request with a clear description.
 
 ## License

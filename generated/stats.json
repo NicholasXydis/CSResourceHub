@@ -1,35 +1,35 @@
 {
-  "generated": "2026-07-03",
-  "total": 318,
+  "generated": "2026-07-08",
+  "total": 334,
   "categories": {
-    "learning-resources": 57,
+    "learning-resources": 55,
     "interview-prep": 26,
-    "communities-clubs": 22,
-    "hackathons": 23,
+    "communities-clubs": 26,
+    "hackathons": 22,
     "ctfs": 15,
     "game-jams": 11,
     "competitions": 14,
     "open-source": 36,
     "developer-resources": 46,
     "project-based-learning": 14,
-    "internships-fellowships": 20,
-    "recruitment-events": 0,
+    "internships-fellowships": 22,
+    "recruitment-events": 13,
     "certifications": 12,
     "student-benefits": 22
   },
   "groups": {
     "Learning & Development": {
-      "total": 105,
+      "total": 107,
       "categories": {
-        "learning-resources": 57,
+        "learning-resources": 55,
         "interview-prep": 26,
-        "communities-clubs": 22
+        "communities-clubs": 26
       }
     },
     "Experience": {
-      "total": 63,
+      "total": 62,
       "categories": {
-        "hackathons": 23,
+        "hackathons": 22,
         "ctfs": 15,
         "game-jams": 11,
         "competitions": 14
@@ -44,10 +44,10 @@
       }
     },
     "Careers & Perks": {
-      "total": 54,
+      "total": 69,
       "categories": {
-        "internships-fellowships": 20,
-        "recruitment-events": 0,
+        "internships-fellowships": 22,
+        "recruitment-events": 13,
         "certifications": 12,
         "student-benefits": 22
       }

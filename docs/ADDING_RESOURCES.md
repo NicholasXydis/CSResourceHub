@@ -2,19 +2,59 @@
 
 ## Quick Way
 
-Run the interactive CLI:
+Run the interactive CLI with Make when available:
 
 ```bash
 make add
+```
+
+Or run the Python script directly:
+
+```bash
+python3 scripts/add_resource.py
+```
+
+On Windows, if `python3` is not on `PATH`, use the Python launcher:
+
+```powershell
+py -3 scripts\add_resource.py
 ```
 
 ## Manual Way
 
 1. Find the correct JSON file in `data/` based on the category
 2. Add your entry following the schema in [SCHEMA.md](./SCHEMA.md)
-3. Run `make validate` to check your entry
-4. Run `make check-duplicates` to ensure no duplicates
+3. Run validation to check your entry
+4. Run duplicate checks to ensure no duplicates
 5. Commit and open a PR
+
+With Make:
+
+```bash
+make validate
+make check-duplicates
+```
+
+Without Make:
+
+```bash
+python3 scripts/validate_all.py
+python3 scripts/check_duplicates.py
+```
+
+On Windows, if `python3` is not on `PATH`:
+
+```powershell
+py -3 scripts\validate_all.py
+py -3 scripts\check_duplicates.py
+```
+
+You can also pass the Python launcher through Make when Make is installed:
+
+```powershell
+make validate PYTHON="py -3"
+make check-duplicates PYTHON="py -3"
+```
 
 ## Rules
 
@@ -34,3 +74,4 @@ make add
 ## Not Sure Which Category?
 
 See [CATEGORIES.md](./CATEGORIES.md) for a description of each category.
+

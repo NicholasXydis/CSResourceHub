@@ -10,7 +10,7 @@
       "location": "Online",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "ncc-ctf-series",
@@ -21,7 +21,7 @@
       "location": "Online",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "athack-ctf",
@@ -32,7 +32,7 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "polypwn-ctf",
@@ -43,7 +43,7 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "plaidctf",
@@ -54,7 +54,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "umdctf",
@@ -65,7 +65,7 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "defcon-ctf",
@@ -76,7 +76,7 @@
       "location": "Online",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "northsec",
@@ -87,7 +87,7 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "google-ctf",
@@ -98,7 +98,7 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "midnight-sun-ctf",
@@ -109,7 +109,7 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "cyber-apocalypse",
@@ -120,7 +120,7 @@
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "hitcon-ctf",
@@ -142,7 +142,7 @@
       "location": "Online",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "cybersci",
@@ -150,10 +150,9 @@
       "url": "https://cybersecuritychallenge.ca",
       "description": "Canadian student CTF with regional rounds and a national final in Ottawa.",
       "category": "ctfs",
-      "location": "Canada",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     },
     {
       "id": "0ctf",
@@ -164,7 +163,7 @@
       "location": "Online",
       "month": "December",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-02"
+      "last_verified": "2026-07-08"
     }
   ]
 }
