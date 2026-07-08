@@ -31,6 +31,22 @@ body:
       placeholder: e.g. course
     validations:
       required: false
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Optional. Use Online or City, Province when the location is known; leave blank if unknown.
+      placeholder: e.g. Montreal, Quebec
+    validations:
+      required: false
+  - type: input
+    id: month
+    attributes:
+      label: Month
+      description: Optional. Use only when the resource has a clear recurring or seasonal month.
+      placeholder: e.g. January
+    validations:
+      required: false
   - type: textarea
     id: description
     attributes:
@@ -38,3 +54,4 @@ body:
       placeholder: One sentence ending with a period.
     validations:
       required: true
+

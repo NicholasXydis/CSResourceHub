@@ -68,6 +68,7 @@ make check-duplicates PYTHON="py -3"
 - Only use `type` in categories that explicitly allow it in [SCHEMA.md](./SCHEMA.md)
 - Use `month` only when a resource has a clear recurring or seasonal month
 - Use `location` only when the resource has a meaningful online or physical location
+- Leave `location` out when it is unknown; generated README tables show `~` for omitted locations
 - Use `Online` for fully virtual resources
 - Check [STYLE_GUIDE.md](./STYLE_GUIDE.md) before writing descriptions
 

@@ -89,8 +89,7 @@
       "category": "communities-clubs",
       "date_added": "2026-07-08",
       "last_verified": "2026-07-08",
-      "type": "organization",
-      "location": "Montreal, Quebec"
+      "type": "organization"
     },
     {
       "id": "cpp-montreal",
@@ -100,8 +99,7 @@
       "category": "communities-clubs",
       "date_added": "2026-07-08",
       "last_verified": "2026-07-08",
-      "type": "organization",
-      "location": "Montreal, Quebec"
+      "type": "organization"
     },
     {
       "id": "hack-club",
@@ -121,8 +119,7 @@
       "category": "communities-clubs",
       "date_added": "2026-07-08",
       "last_verified": "2026-07-08",
-      "type": "organization",
-      "location": "Montreal, Quebec"
+      "type": "organization"
     },
     {
       "id": "reddit-compsci",

@@ -102,7 +102,7 @@ def add_resource():
         required=False,
     )
     location = prompt(
-        "Location (optional; e.g. Online or Montreal, Quebec, Canada)",
+        "Location (optional; e.g. Online or Montreal, Quebec)",
         required=False,
     )
     month = prompt("Month (optional)", required=False)
@@ -141,3 +141,4 @@ def add_resource():
 
 if __name__ == "__main__":
     add_resource()
+

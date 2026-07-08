@@ -224,7 +224,7 @@ def generate_readme():
                         if has_month:
                             row.append(r.get("month") or "Ongoing")
                         if has_location:
-                            row.append(r.get("location") or "TBD")
+                            row.append(r.get("location") or "~")
                         lines.append(f"| {' | '.join(row)} |\n")
                 else:
                     lines.append("| Resource | Description |\n")

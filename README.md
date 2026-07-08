@@ -159,33 +159,33 @@ Browse resources by area and category.
 
 **25 resources** · `communities-clubs`
 
-| Resource | Description | Type | Location |
-| --- | --- | --- | --- |
-| [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. | Club | TBD |
-| [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. | Club | TBD |
-| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. | Club | TBD |
-| [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. | Discord | TBD |
-| [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. | Discord | TBD |
-| [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. | Discord | TBD |
-| [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. | Discord | TBD |
-| [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. | Discord | TBD |
-| [AWS User Group Montreal](https://www.meetup.com/montreal-aws-users-united) | Community meetups covering AWS architecture, cloud infrastructure, DevOps, containers, and Infrastructure as Code. | Organization | Montreal, Quebec |
-| [C++ Montréal](https://www.meetup.com/cppmtl) | Community dedicated to Modern C++, systems programming, performance optimization, and software architecture. | Organization | Montreal, Quebec |
-| [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. | Organization | TBD |
-| [Montréal Game Developers](https://www.meetup.com/montreal-game-development-meetup-group) | Game development community hosting networking events, technical talks, workshops, and industry meetups. | Organization | Montreal, Quebec |
-| [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. | Reddit | TBD |
-| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) | Discussions on software engineering careers, internships, resumes, interviews, and job searching. | Reddit | TBD |
-| [r/cybersecurity](https://www.reddit.com/r/cybersecurity) | Cybersecurity news, careers, tools, and security discussions. | Reddit | TBD |
-| [r/datascience](https://www.reddit.com/r/datascience) | Data science careers, analytics, machine learning applications, and industry discussions. | Reddit | TBD |
-| [r/devops](https://www.reddit.com/r/devops) | Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions. | Reddit | TBD |
-| [r/gamedev](https://www.reddit.com/r/gamedev) | Game development discussions covering programming, design, engines, and publishing. | Reddit | TBD |
-| [r/learnprogramming](https://www.reddit.com/r/learnprogramming) | Programming help, learning resources, and beginner-friendly discussions. | Reddit | TBD |
-| [r/linux](https://www.reddit.com/r/linux) | Linux news, open-source software, system administration, and operating system discussions. | Reddit | TBD |
-| [r/MachineLearning](https://www.reddit.com/r/MachineLearning) | Machine learning research, papers, projects, and technical discussions. | Reddit | TBD |
-| [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. | Reddit | TBD |
-| [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. | Reddit | TBD |
-| [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. | Reddit | TBD |
-| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. | Reddit | TBD |
+| Resource | Description | Type |
+| --- | --- | --- |
+| [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. | Club |
+| [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. | Club |
+| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. | Club |
+| [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. | Discord |
+| [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. | Discord |
+| [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. | Discord |
+| [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. | Discord |
+| [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. | Discord |
+| [AWS User Group Montreal](https://www.meetup.com/montreal-aws-users-united) | Community meetups covering AWS architecture, cloud infrastructure, DevOps, containers, and Infrastructure as Code. | Organization |
+| [C++ Montréal](https://www.meetup.com/cppmtl) | Community dedicated to Modern C++, systems programming, performance optimization, and software architecture. | Organization |
+| [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. | Organization |
+| [Montréal Game Developers](https://www.meetup.com/montreal-game-development-meetup-group) | Game development community hosting networking events, technical talks, workshops, and industry meetups. | Organization |
+| [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. | Reddit |
+| [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) | Discussions on software engineering careers, internships, resumes, interviews, and job searching. | Reddit |
+| [r/cybersecurity](https://www.reddit.com/r/cybersecurity) | Cybersecurity news, careers, tools, and security discussions. | Reddit |
+| [r/datascience](https://www.reddit.com/r/datascience) | Data science careers, analytics, machine learning applications, and industry discussions. | Reddit |
+| [r/devops](https://www.reddit.com/r/devops) | Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions. | Reddit |
+| [r/gamedev](https://www.reddit.com/r/gamedev) | Game development discussions covering programming, design, engines, and publishing. | Reddit |
+| [r/learnprogramming](https://www.reddit.com/r/learnprogramming) | Programming help, learning resources, and beginner-friendly discussions. | Reddit |
+| [r/linux](https://www.reddit.com/r/linux) | Linux news, open-source software, system administration, and operating system discussions. | Reddit |
+| [r/MachineLearning](https://www.reddit.com/r/MachineLearning) | Machine learning research, papers, projects, and technical discussions. | Reddit |
+| [r/netsec](https://www.reddit.com/r/netsec) | Technical cybersecurity research, vulnerabilities, exploits, and defensive security. | Reddit |
+| [r/programming](https://www.reddit.com/r/programming) | Programming news, software development discussions, and industry topics. | Reddit |
+| [r/quant](https://www.reddit.com/r/quant) | Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions. | Reddit |
+| [r/softwareengineering](https://www.reddit.com/r/softwareengineering) | Software engineering practices, architecture, engineering culture, and industry discussion. | Reddit |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -246,7 +246,7 @@ Browse resources by area and category.
 | [HackTheBox Cyber Apocalypse](https://www.hackthebox.com/events/cyber-apocalypse-2026) | CTF by Hack The Box, with thousands of teams and a massive prize pool. | July | Online |
 | [HITCON CTF](https://ctf.hitcon.org) | CTF hosted by HITCON, known for extreme technical difficulty and elite global competition. | August | Online |
 | [CSAW CTF](https://csaw.io/ctf) | Student CTF by NYU, with online qualifiers and finals in New York City. | September | Online |
-| [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | TBD |
+| [CyberSci](https://cybersecuritychallenge.ca) | Canadian student CTF with regional rounds and a national final in Ottawa. | November | Montreal, Quebec |
 | [0CTF](https://ctf.0ops.sjtu.cn) | CTF hosted by Shanghai Jiao Tong University, known for research-grade challenges. | December | Online |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
@@ -282,7 +282,7 @@ Browse resources by area and category.
 | Resource | Description | Month | Location |
 | --- | --- | --- | --- |
 | [Battlecode](https://battlecode.org) | MIT real-time strategy AI programming tournament competing for a $20,000+ prize pool. | January | Online |
-| [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | TBD |
+| [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | Montreal, Quebec |
 | [Reply Code Challenge](https://challenges.reply.com) | Global multi-track competition featuring 6-hour team sprints across algorithms, cybersecurity, and AI agents. | March | Online |
 | [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Three-stage global quantitative modeling tournament competing for a $100,000 prize pool and internship opportunities. | March | Online |
 | [Canadian Team Programming Competition](https://www.ctpc.ca) | National synchronized data structure sprint focused on university pride and corporate sponsor recruiting loops. | April | Online |

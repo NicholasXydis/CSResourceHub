@@ -50,6 +50,7 @@ Bad: `"ctf.uoftctf.org"`, `"https://ctf.uoftctf.org/"`
 - Do not include country suffixes like `, Canada` when the country is implied
 - Do not use province or state abbreviations such as `QC`, `ON`, or `BC`
 - Omit `location` when a Canadian resource moves between cities or locations are not yet published
+- Generated README tables display `~` when a row has no location but the category table includes a Location column
 - Include top United States options only when they are especially useful to Canadian students
 
 ## Names

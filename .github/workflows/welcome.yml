@@ -15,4 +15,5 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
             Thanks for your first contribution to CS Resource Hub! 🎉
-            Please make sure you have read [CONTRIBUTING.md](https://github.com/NicholasXydis/CSResourceHub/blob/main/CONTRIBUTING.md) and run `make validate` before requesting a review.
+            Please make sure you have read [CONTRIBUTING.md](https://github.com/NicholasXydis/CSResourceHub/blob/main/CONTRIBUTING.md) and run `make validate` or the direct command from `docs/ADDING_RESOURCES.md` before requesting a review.
+

@@ -1699,7 +1699,8 @@
         "category": "competitions",
         "month": "January",
         "date_added": "2026-06-18",
-        "last_verified": "2026-07-08"
+        "last_verified": "2026-07-08",
+        "location": "Montreal, Quebec"
       },
       {
         "id": "reply-code-challenge",
@@ -1983,7 +1984,8 @@
         "category": "ctfs",
         "month": "November",
         "date_added": "2026-06-18",
-        "last_verified": "2026-07-08"
+        "last_verified": "2026-07-08",
+        "location": "Montreal, Quebec"
       },
       {
         "id": "0ctf",
@@ -2452,8 +2454,7 @@
         "category": "communities-clubs",
         "date_added": "2026-07-08",
         "last_verified": "2026-07-08",
-        "type": "organization",
-        "location": "Montreal, Quebec"
+        "type": "organization"
       },
       {
         "id": "cpp-montreal",
@@ -2463,8 +2464,7 @@
         "category": "communities-clubs",
         "date_added": "2026-07-08",
         "last_verified": "2026-07-08",
-        "type": "organization",
-        "location": "Montreal, Quebec"
+        "type": "organization"
       },
       {
         "id": "hack-club",
@@ -2484,8 +2484,7 @@
         "category": "communities-clubs",
         "date_added": "2026-07-08",
         "last_verified": "2026-07-08",
-        "type": "organization",
-        "location": "Montreal, Quebec"
+        "type": "organization"
       },
       {
         "id": "reddit-compsci",
