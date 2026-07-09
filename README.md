@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=330&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-08&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-09&color=7c3aed)
 
 </div>
 
@@ -42,10 +42,16 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (55)<br>[Interview Prep](#interview-prep) (25)<br>[Communities & Clubs](#communities-clubs) (24) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (59)<br>[Interview Prep](#interview-prep) (25)<br>[Communities & Clubs](#communities-clubs) (24) |
 | 🏆 Experience | [Hackathons](#hackathons) (22)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (45)<br>[Project-Based Learning](#project-based-learning) (14) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (14)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (21) |
+
+## Dataset Exploration
+
+View the generated [EDA report](./generated/eda/report.md) for ready-to-read charts covering dataset coverage, category balance, metadata quality, duplicate candidates, and domain concentration. The optional notebook at [notebooks/resource_eda.ipynb](./notebooks/resource_eda.ipynb) contains the reproducible exploratory workflow.
+
+Run `make generate` to refresh all generated outputs, including the EDA report. Use `make eda-report` for only the static report. For the notebook, install optional dependencies with `pip install -e .[eda]`, then run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.
 
 
 ## 📚 Learning & Development
@@ -54,17 +60,21 @@ Browse resources by area and category.
 
 ### Learning Resources
 
-**55 resources** · `learning-resources`
+**59 resources** · `learning-resources`
 
 | Resource | Description | Type |
 | --- | --- | --- |
 | [A Tour of C++](https://www.stroustrup.com/tour3.html) | Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices. | Book |
 | [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security. | Book |
 | [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu) | Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance. | Book |
+| [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330) | Deep dive into database storage engines, distributed systems, replication, partitioning, and transactions. | Book |
 | [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture. | Book |
+| [Game Engine Architecture](https://www.gameenginebook.com) | Comprehensive guide to game engine systems, architecture, tools, rendering, animation, physics, and runtime design. | Book |
 | [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples. | Book |
 | [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867) | Classic book covering probability, brainteasers, and quantitative finance concepts. | Book |
+| [How Linux Works](https://nostarch.com/howlinuxworks3) | Practical guide to Linux internals, boot, storage, networking, shell tools, processes, and system administration. | Book |
 | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. | Book |
+| [Real-World Cryptography](https://www.manning.com/books/real-world-cryptography) | Practical cryptography book covering protocols, encryption, signatures, key exchange, certificates, and common pitfalls. | Book |
 | [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. | Book |
 | [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. | Book |
 | [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. | Course |

@@ -191,6 +191,22 @@ def generate_readme():
         lines.append(f"| {GROUP_ICONS[group]} {group} | {joined_links} |\n")
 
     lines.append("\n")
+    lines.append("## Dataset Exploration\n\n")
+    lines.append(
+        "View the generated [EDA report](./generated/eda/report.md) for "
+        "ready-to-read charts covering dataset coverage, category balance, "
+        "metadata quality, duplicate candidates, and domain concentration. "
+        "The optional notebook at "
+        "[notebooks/resource_eda.ipynb](./notebooks/resource_eda.ipynb) "
+        "contains the reproducible exploratory workflow.\n\n"
+    )
+    lines.append(
+        "Run `make generate` to refresh all generated outputs, including "
+        "the EDA report. Use `make eda-report` for only the static report. "
+        "For the notebook, install optional dependencies with "
+        "`pip install -e .[eda]`, then run "
+        "`py -3 -m jupyterlab notebooks/resource_eda.ipynb`.\n\n"
+    )
 
     for group, categories in CATEGORY_GROUPS.items():
         lines.append(f"\n## {GROUP_ICONS[group]} {group}\n\n")

@@ -8,12 +8,17 @@ requires-python = ">=3.12"
 dependencies = [
     "requests>=2.31.0",
     "jsonschema>=4.21.0",
+    "matplotlib>=3.8.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "ruff>=0.4.0",
     "pre-commit>=3.7.0",
+]
+eda = [
+    "jupyterlab>=4.2.0",
+    "pandas>=2.2.0",
 ]
 
 [tool.ruff]
@@ -23,3 +28,6 @@ target-version = "py312"
 [tool.ruff.lint]
 select = ["E", "F", "I", "W"]
 ignore = []
+
+[tool.setuptools]
+py-modules = []

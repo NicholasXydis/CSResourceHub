@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUFF ?= $(PYTHON) -m ruff
 
-.PHONY: validate generate lint stats add check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls help
+.PHONY: validate generate lint stats add check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls eda-report help
 
 validate:
 	$(PYTHON) scripts/validate_all.py
@@ -13,6 +13,7 @@ generate:
 	$(PYTHON) scripts/generate_site_json.py
 	$(PYTHON) scripts/generate_stats_json.py
 	$(PYTHON) scripts/export_csv.py
+	$(PYTHON) scripts/generate_eda_report.py
 
 lint:
 	$(RUFF) check scripts/
@@ -51,6 +52,9 @@ export-csv:
 check-urls:
 	$(PYTHON) scripts/validate_urls_normalized.py
 
+eda-report:
+	$(PYTHON) scripts/generate_eda_report.py
+
 help:
 	@echo "validate        - Run all schema and dataset validation checks"
 	@echo "generate        - Regenerate README and generated data exports"
@@ -66,4 +70,5 @@ help:
 	@echo "stats-json      - Generate machine-readable stats"
 	@echo "export-csv      - Export resources to CSV"
 	@echo "check-urls      - Validate URL normalization"
+	@echo "eda-report      - Generate static EDA report and charts"
 

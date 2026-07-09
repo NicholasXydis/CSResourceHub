@@ -33,6 +33,9 @@ coverage.xml
 htmlcov/
 .tox/
 
+# Jupyter
+.ipynb_checkpoints/
+
 # MyPy
 .mypy_cache/
 .dmypy.json

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08",
-  "total": 330,
+  "generated": "2026-07-09",
+  "total": 334,
   "categories": {
     "developer-resources": [
       {
@@ -2882,6 +2882,16 @@
         "type": "book"
       },
       {
+        "id": "database-internals",
+        "name": "Database Internals",
+        "url": "https://www.oreilly.com/library/view/database-internals/9781492040330",
+        "description": "Deep dive into database storage engines, distributed systems, replication, partitioning, and transactions.",
+        "category": "learning-resources",
+        "date_added": "2026-07-09",
+        "last_verified": "2026-07-09",
+        "type": "book"
+      },
+      {
         "id": "designing-data-intensive-applications",
         "name": "Designing Data-Intensive Applications",
         "url": "https://dataintensive.net",
@@ -2889,6 +2899,16 @@
         "category": "learning-resources",
         "date_added": "2026-07-01",
         "last_verified": "2026-07-08",
+        "type": "book"
+      },
+      {
+        "id": "game-engine-architecture",
+        "name": "Game Engine Architecture",
+        "url": "https://www.gameenginebook.com",
+        "description": "Comprehensive guide to game engine systems, architecture, tools, rendering, animation, physics, and runtime design.",
+        "category": "learning-resources",
+        "date_added": "2026-07-09",
+        "last_verified": "2026-07-09",
         "type": "book"
       },
       {
@@ -2912,6 +2932,16 @@
         "type": "book"
       },
       {
+        "id": "how-linux-works",
+        "name": "How Linux Works",
+        "url": "https://nostarch.com/howlinuxworks3",
+        "description": "Practical guide to Linux internals, boot, storage, networking, shell tools, processes, and system administration.",
+        "category": "learning-resources",
+        "date_added": "2026-07-09",
+        "last_verified": "2026-07-09",
+        "type": "book"
+      },
+      {
         "id": "operating-systems-three-easy-pieces",
         "name": "Operating Systems: Three Easy Pieces",
         "url": "https://pages.cs.wisc.edu/~remzi/OSTEP",
@@ -2919,6 +2949,16 @@
         "category": "learning-resources",
         "date_added": "2026-07-01",
         "last_verified": "2026-07-08",
+        "type": "book"
+      },
+      {
+        "id": "real-world-cryptography",
+        "name": "Real-World Cryptography",
+        "url": "https://www.manning.com/books/real-world-cryptography",
+        "description": "Practical cryptography book covering protocols, encryption, signatures, key exchange, certificates, and common pitfalls.",
+        "category": "learning-resources",
+        "date_added": "2026-07-09",
+        "last_verified": "2026-07-09",
         "type": "book"
       },
       {
