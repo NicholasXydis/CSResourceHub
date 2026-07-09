@@ -23,6 +23,19 @@ jobs:
       - run: python scripts/generate_site_json.py
       - run: python scripts/export_csv.py
       - run: python scripts/validate_all.py
+      - name: Write link check summary
+        if: success()
+        run: |
+          {
+            echo "## Link health"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Resource links | Checked |"
+            echo "| Generated exports | Refreshed |"
+            echo "| Dataset validation | Passed |"
+            echo "| Verified-date PR | Created only when changes exist |"
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: Create last_verified update PR
         uses: peter-evans/create-pull-request@v8
         with:

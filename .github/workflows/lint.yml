@@ -15,3 +15,14 @@ jobs:
       - run: pip install ruff
       - run: ruff check scripts/
       - run: python scripts/lint_json.py
+      - name: Write lint summary
+        if: success()
+        run: |
+          {
+            echo "## Lint"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Python style with Ruff | Passed |"
+            echo "| JSON formatting | Passed |"
+          } >> "$GITHUB_STEP_SUMMARY"

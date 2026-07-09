@@ -14,11 +14,26 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - run: pip install matplotlib
       - run: python scripts/sort_resources.py
       - run: python scripts/generate_readme.py
       - run: python scripts/generate_combined.py
       - run: python scripts/generate_site_json.py
       - run: python scripts/generate_stats_json.py
       - run: python scripts/export_csv.py
+      - run: python scripts/generate_eda_report.py
       - name: Check generated outputs are current
         run: git diff --exit-code -- data README.md generated
+      - name: Write generated outputs summary
+        if: success()
+        run: |
+          {
+            echo "## Generated outputs"
+            echo ""
+            echo "| Output | Result |"
+            echo "| --- | --- |"
+            echo "| Sorted resource JSON | Current |"
+            echo "| README and combined exports | Current |"
+            echo "| Site, stats, and CSV exports | Current |"
+            echo "| EDA report and SVG charts | Current |"
+          } >> "$GITHUB_STEP_SUMMARY"

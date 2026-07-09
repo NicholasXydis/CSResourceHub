@@ -14,7 +14,15 @@ jobs:
       - name: Check PR size
         run: |
           FILES=$(git diff --name-only origin/main...HEAD | grep "data/.*\.json" | wc -l)
+          {
+            echo "## PR size"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Resource JSON files changed | $FILES |"
+            echo "| Recommended maximum | 20 |"
+          } >> "$GITHUB_STEP_SUMMARY"
           if [ "$FILES" -gt 20 ]; then
-            echo "⚠️ This PR modifies $FILES resource files. Consider splitting into smaller PRs."
+            echo "This PR modifies $FILES resource files. Consider splitting into smaller PRs."
             exit 1
           fi

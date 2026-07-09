@@ -24,3 +24,14 @@ jobs:
         with:
           languages: python
       - uses: github/codeql-action/analyze@v4
+      - name: Write security summary
+        if: success()
+        run: |
+          {
+            echo "## Security analysis"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| CodeQL Python analysis | Completed |"
+            echo "| Security alerts upload | Completed |"
+          } >> "$GITHUB_STEP_SUMMARY"

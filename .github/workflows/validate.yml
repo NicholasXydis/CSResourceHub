@@ -16,3 +16,16 @@ jobs:
           python-version: "3.12"
       - run: pip install jsonschema
       - run: python scripts/validate_all.py
+      - name: Write validation summary
+        if: success()
+        run: |
+          {
+            echo "## Data validation"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Schema and required fields | Passed |"
+            echo "| Duplicate resources | Passed |"
+            echo "| Categories and file placement | Passed |"
+            echo "| Description and URL rules | Passed |"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -13,3 +13,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/stats.py
+      - name: Write stats summary
+        if: success()
+        run: |
+          {
+            echo "## Dataset stats"
+            echo ""
+            echo "The stats script completed successfully and the dataset can be summarized from the current PR state."
+          } >> "$GITHUB_STEP_SUMMARY"
