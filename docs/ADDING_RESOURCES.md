@@ -73,6 +73,12 @@ make generate PYTHON="py -3"
 make check-duplicates PYTHON="py -3"
 ```
 
+## Editor Support
+
+VS Code uses the project JSON schema for `data/*.json`, which enables autocomplete
+and inline warnings while editing resources. Validation still runs through
+`make validate` or `scripts/validate_all.py`.
+
 ## Generated Outputs
 
 `make generate` refreshes every derived artifact checked by CI:
