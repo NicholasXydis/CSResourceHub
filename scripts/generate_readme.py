@@ -206,6 +206,34 @@ def generate_readme():
         "install optional dependencies with `pip install -e .[eda]`, then "
         "run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.\n\n"
     )
+    lines.append("## Local Development\n\n")
+    lines.append(
+        "Clone the repo and run validation or generation commands from the "
+        "project root.\n\n"
+    )
+    lines.append("```bash\n")
+    lines.append("git clone https://github.com/NicholasXydis/CSResourceHub.git\n")
+    lines.append("cd CSResourceHub\n")
+    lines.append("make validate\n")
+    lines.append("make generate\n")
+    lines.append("```\n\n")
+    lines.append("On Windows, use:\n\n")
+    lines.append("```bash\n")
+    lines.append('make validate PYTHON="py -3"\n')
+    lines.append('make generate PYTHON="py -3"\n')
+    lines.append("```\n\n")
+    lines.append(
+        "To work with the optional EDA notebook, install the EDA dependencies "
+        "and launch JupyterLab:\n\n"
+    )
+    lines.append("```bash\n")
+    lines.append("pip install -e .[eda]\n")
+    lines.append("py -3 -m jupyterlab notebooks/resource_eda.ipynb\n")
+    lines.append("```\n\n")
+    lines.append(
+        "The static EDA report is available at "
+        "[generated/eda/report.md](./generated/eda/report.md).\n\n"
+    )
 
     for group, categories in CATEGORY_GROUPS.items():
         lines.append(f"\n## {GROUP_ICONS[group]} {group}\n\n")

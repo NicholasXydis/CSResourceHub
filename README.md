@@ -53,6 +53,33 @@ View the generated [EDA report](./generated/eda/report.md) for ready-to-read cha
 
 Run `make generate` to refresh all generated outputs, including the EDA report and deterministic SVG charts. CI reruns the same pipeline and fails when generated files are stale. Use `make eda-report` for only the static report. For the notebook, install optional dependencies with `pip install -e .[eda]`, then run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.
 
+## Local Development
+
+Clone the repo and run validation or generation commands from the project root.
+
+```bash
+git clone https://github.com/NicholasXydis/CSResourceHub.git
+cd CSResourceHub
+make validate
+make generate
+```
+
+On Windows, use:
+
+```bash
+make validate PYTHON="py -3"
+make generate PYTHON="py -3"
+```
+
+To work with the optional EDA notebook, install the EDA dependencies and launch JupyterLab:
+
+```bash
+pip install -e .[eda]
+py -3 -m jupyterlab notebooks/resource_eda.ipynb
+```
+
+The static EDA report is available at [generated/eda/report.md](./generated/eda/report.md).
+
 
 ## 📚 Learning & Development
 
