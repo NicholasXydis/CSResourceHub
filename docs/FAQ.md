@@ -18,7 +18,7 @@ See the [Security Policy](https://github.com/NicholasXydis/CSResourceHub/blob/ma
 
 ## Why JSON instead of a spreadsheet or markdown table?
 
-JSON is machine-readable, versionable, and can generate any format — README tables, a website, or an API — automatically.
+JSON is machine-readable, versionable, and can generate the README tables, website/API exports, CSV, stats, and EDA report automatically.
 
 ## Can I use this data in my own project?
 
@@ -26,4 +26,12 @@ Yes, under the [CC BY 4.0](../LICENSE-CC-BY) license with attribution.
 
 ## How often is this updated?
 
-Continuously via community PRs. Dead links are checked weekly via CI.
+Continuously via community PRs. CI validates the dataset, checks generated outputs for freshness, and checks dead links weekly.
+
+## What is the EDA report?
+
+The generated EDA report is a static dataset overview at `generated/eda/report.md`. It shows category coverage, resource types, metadata completeness, source concentration, and other quality signals without requiring Jupyter.
+
+## Why did CI say generated files were stale?
+
+The generated-output workflow reruns the data pipeline and compares `data/`, `README.md`, and `generated/` against the committed files. If it fails, run `make generate`, review the changed files, and commit them. EDA SVG output is configured to be deterministic so rerunning the generator should not create noise.

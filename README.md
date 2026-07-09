@@ -51,7 +51,7 @@ Browse resources by area and category.
 
 View the generated [EDA report](./generated/eda/report.md) for ready-to-read charts covering dataset coverage, category balance, metadata quality, duplicate candidates, and domain concentration. The optional notebook at [notebooks/resource_eda.ipynb](./notebooks/resource_eda.ipynb) contains the reproducible exploratory workflow.
 
-Run `make generate` to refresh all generated outputs, including the EDA report. Use `make eda-report` for only the static report. For the notebook, install optional dependencies with `pip install -e .[eda]`, then run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.
+Run `make generate` to refresh all generated outputs, including the EDA report and deterministic SVG charts. CI reruns the same pipeline and fails when generated files are stale. Use `make eda-report` for only the static report. For the notebook, install optional dependencies with `pip install -e .[eda]`, then run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.
 
 
 ## 📚 Learning & Development
@@ -561,9 +561,9 @@ Contributions keep this dataset useful and current.
 1. Read [CONTRIBUTING.md](./CONTRIBUTING.md) and [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md).
 2. Run `make add` or pick the correct JSON file in `data/`.
 3. Add one resource using [SCHEMA.md](./docs/SCHEMA.md) and [STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).
-4. Run `make validate`.
-   On Windows, use `make validate PYTHON="py -3"` or see [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.
-5. Open a pull request with a clear description.
+4. Run `make validate` and `make generate`.
+   On Windows, use `make validate PYTHON="py -3"` and `make generate PYTHON="py -3"`, or see [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.
+5. Commit any generated changes and open a pull request with a clear description.
 
 ## License
 

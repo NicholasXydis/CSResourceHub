@@ -202,10 +202,11 @@ def generate_readme():
     )
     lines.append(
         "Run `make generate` to refresh all generated outputs, including "
-        "the EDA report. Use `make eda-report` for only the static report. "
-        "For the notebook, install optional dependencies with "
-        "`pip install -e .[eda]`, then run "
-        "`py -3 -m jupyterlab notebooks/resource_eda.ipynb`.\n\n"
+        "the EDA report and deterministic SVG charts. CI reruns the same "
+        "pipeline and fails when generated files are stale. Use "
+        "`make eda-report` for only the static report. For the notebook, "
+        "install optional dependencies with `pip install -e .[eda]`, then "
+        "run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.\n\n"
     )
 
     for group, categories in CATEGORY_GROUPS.items():
@@ -267,12 +268,16 @@ def generate_readme():
         "3. Add one resource using [SCHEMA.md](./docs/SCHEMA.md) and "
         "[STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).\n"
     )
-    lines.append("4. Run `make validate`.\n")
+    lines.append("4. Run `make validate` and `make generate`.\n")
     lines.append(
-        "   On Windows, use `make validate PYTHON=\"py -3\"` or see "
+        "   On Windows, use `make validate PYTHON=\"py -3\"` and "
+        "`make generate PYTHON=\"py -3\"`, or see "
         "[ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.\n"
     )
-    lines.append("5. Open a pull request with a clear description.\n")
+    lines.append(
+        "5. Commit any generated changes and open a pull request with "
+        "a clear description.\n"
+    )
     lines.append("\n## License\n\n")
     lines.append("- Code and scripts: [MIT](./LICENSE)\n")
     lines.append("- Dataset/content: [CC BY 4.0](./LICENSE-CC-BY)\n")
@@ -295,4 +300,3 @@ def generate_readme():
 
 if __name__ == "__main__":
     generate_readme()
-

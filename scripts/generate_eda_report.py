@@ -52,6 +52,7 @@ def configure_plots() -> None:
             "axes.titleweight": "bold",
             "axes.labelsize": 10,
             "svg.fonttype": "none",
+            "svg.hashsalt": "cs-resource-hub-eda",
         }
     )
 
@@ -82,7 +83,17 @@ def clean_report_assets() -> None:
 def finish_chart(fig: plt.Figure, filename: str) -> str:
     path = REPORT_DIR / filename
     fig.tight_layout()
-    fig.savefig(path, format="svg", bbox_inches="tight")
+    fig.savefig(
+        path,
+        format="svg",
+        bbox_inches="tight",
+        metadata={"Date": None},
+    )
+    svg = path.read_text(encoding="utf-8")
+    path.write_text(
+        "\n".join(line.rstrip() for line in svg.splitlines()) + "\n",
+        encoding="utf-8",
+    )
     plt.close(fig)
     return filename
 

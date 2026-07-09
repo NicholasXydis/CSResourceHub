@@ -57,7 +57,7 @@ eda-report:
 
 help:
 	@echo "validate        - Run all schema and dataset validation checks"
-	@echo "generate        - Regenerate README and generated data exports"
+	@echo "generate        - Regenerate README, data exports, EDA report, and charts"
 	@echo "lint            - Lint Python scripts and JSON files"
 	@echo "stats           - Print resource counts per category"
 	@echo "add             - Interactive CLI to add a new resource"
@@ -71,4 +71,3 @@ help:
 	@echo "export-csv      - Export resources to CSV"
 	@echo "check-urls      - Validate URL normalization"
 	@echo "eda-report      - Generate static EDA report and charts"
-

@@ -9,8 +9,8 @@ What resource(s) does this PR add or change?
 - [ ] My entry follows the schema in `schema/resource.schema.json`
 - [ ] If I included `type`, it is allowed for that resource category
 - [ ] I ran `make validate` or the direct command from `docs/ADDING_RESOURCES.md` and it passed
+- [ ] I ran `make generate` or the direct commands from `docs/ADDING_RESOURCES.md` and committed any generated changes
 - [ ] I ran `make check-duplicates` and it passed
 - [ ] The URL is active, starts with `https://`, and has no tracking parameters
 - [ ] The description is one sentence ending with a period
 - [ ] I included `last_verified`
-
