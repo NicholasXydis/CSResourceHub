@@ -15,25 +15,53 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install matplotlib
-      - run: python scripts/sort_resources.py
-      - run: python scripts/generate_readme.py
-      - run: python scripts/generate_combined.py
-      - run: python scripts/generate_site_json.py
-      - run: python scripts/generate_stats_json.py
-      - run: python scripts/export_csv.py
-      - run: python scripts/generate_eda_report.py
+      - name: Regenerate resource exports
+        id: resource_exports
+        continue-on-error: true
+        run: |
+          python scripts/sort_resources.py
+          python scripts/generate_readme.py
+          python scripts/generate_combined.py
+          python scripts/generate_site_json.py
+          python scripts/generate_stats_json.py
+          python scripts/export_csv.py
+      - name: Regenerate EDA report
+        id: eda_report
+        continue-on-error: true
+        run: python scripts/generate_eda_report.py
       - name: Check generated outputs are current
+        id: freshness
+        continue-on-error: true
         run: git diff --exit-code -- data README.md generated
       - name: Write generated outputs summary
-        if: success()
+        if: always()
         run: |
+          exports="FAIL"
+          eda="FAIL"
+          freshness="FAIL"
+          if [ "${{ steps.resource_exports.outcome }}" = "success" ]; then exports="PASS"; fi
+          if [ "${{ steps.eda_report.outcome }}" = "success" ]; then eda="PASS"; fi
+          if [ "${{ steps.freshness.outcome }}" = "success" ]; then freshness="PASS"; fi
           {
             echo "## Generated outputs"
             echo ""
-            echo "| Output | Result |"
+            echo "| Check | Result |"
             echo "| --- | --- |"
-            echo "| Sorted resource JSON | Current |"
-            echo "| README and combined exports | Current |"
-            echo "| Site, stats, and CSV exports | Current |"
-            echo "| EDA report and SVG charts | Current |"
+            echo "| Resource sorting and exports | $exports |"
+            echo "| EDA report generation | $eda |"
+            echo "| Generated files committed | $freshness |"
+            if [ "$freshness" = "FAIL" ]; then
+              echo ""
+              echo "### Files needing regeneration"
+              echo ""
+              echo '```text'
+              git status --short -- data README.md generated
+              echo '```'
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if generated outputs are not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.resource_exports.outcome }}" != "success" ] || [ "${{ steps.eda_report.outcome }}" != "success" ] || [ "${{ steps.freshness.outcome }}" != "success" ]; then
+            exit 1
+          fi

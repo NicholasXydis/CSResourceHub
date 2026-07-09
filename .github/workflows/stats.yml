@@ -12,12 +12,25 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: python scripts/stats.py
+      - name: Run stats script
+        id: stats_script
+        continue-on-error: true
+        run: python scripts/stats.py
       - name: Write stats summary
-        if: success()
+        if: always()
         run: |
+          stats="FAIL"
+          if [ "${{ steps.stats_script.outcome }}" = "success" ]; then stats="PASS"; fi
           {
             echo "## Dataset stats"
             echo ""
-            echo "The stats script completed successfully and the dataset can be summarized from the current PR state."
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Stats script | $stats |"
           } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if stats are not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.stats_script.outcome }}" != "success" ]; then
+            exit 1
+          fi

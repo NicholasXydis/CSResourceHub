@@ -18,25 +18,24 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests jsonschema
-      - run: python scripts/check_links.py
-      - run: python scripts/generate_combined.py
-      - run: python scripts/generate_site_json.py
-      - run: python scripts/export_csv.py
-      - run: python scripts/validate_all.py
-      - name: Write link check summary
-        if: success()
+      - name: Check resource links
+        id: links
+        continue-on-error: true
+        run: python scripts/check_links.py
+      - name: Regenerate exports
+        id: exports
+        continue-on-error: true
         run: |
-          {
-            echo "## Link health"
-            echo ""
-            echo "| Check | Result |"
-            echo "| --- | --- |"
-            echo "| Resource links | Checked |"
-            echo "| Generated exports | Refreshed |"
-            echo "| Dataset validation | Passed |"
-            echo "| Verified-date PR | Created only when changes exist |"
-          } >> "$GITHUB_STEP_SUMMARY"
+          python scripts/generate_combined.py
+          python scripts/generate_site_json.py
+          python scripts/export_csv.py
+      - name: Validate updated resources
+        id: validate_resources
+        continue-on-error: true
+        run: python scripts/validate_all.py
       - name: Create last_verified update PR
+        id: update_pr
+        if: steps.links.outcome == 'success' && steps.exports.outcome == 'success' && steps.validate_resources.outcome == 'success'
         uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "chore: update verified link dates"
@@ -47,3 +46,30 @@ jobs:
           add-paths: |
             data/
             generated/
+      - name: Write link check summary
+        if: always()
+        run: |
+          links="FAIL"
+          exports="FAIL"
+          validation="FAIL"
+          pr="FAIL"
+          if [ "${{ steps.links.outcome }}" = "success" ]; then links="PASS"; fi
+          if [ "${{ steps.exports.outcome }}" = "success" ]; then exports="PASS"; fi
+          if [ "${{ steps.validate_resources.outcome }}" = "success" ]; then validation="PASS"; fi
+          if [ "$links" = "PASS" ] && [ "$exports" = "PASS" ] && [ "$validation" = "PASS" ] && [ "${{ steps.update_pr.outcome }}" != "failure" ]; then pr="PASS"; fi
+          {
+            echo "## Link health"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Resource links | $links |"
+            echo "| Generated exports | $exports |"
+            echo "| Dataset validation | $validation |"
+            echo "| Verified-date PR | $pr |"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if link checks are not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.links.outcome }}" != "success" ] || [ "${{ steps.exports.outcome }}" != "success" ] || [ "${{ steps.validate_resources.outcome }}" != "success" ]; then
+            exit 1
+          fi

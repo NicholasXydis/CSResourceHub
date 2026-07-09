@@ -13,16 +13,32 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install ruff
-      - run: ruff check scripts/
-      - run: python scripts/lint_json.py
+      - name: Run Ruff
+        id: ruff
+        continue-on-error: true
+        run: ruff check scripts/
+      - name: Check JSON formatting
+        id: json_format
+        continue-on-error: true
+        run: python scripts/lint_json.py
       - name: Write lint summary
-        if: success()
+        if: always()
         run: |
+          ruff="FAIL"
+          json="FAIL"
+          if [ "${{ steps.ruff.outcome }}" = "success" ]; then ruff="PASS"; fi
+          if [ "${{ steps.json_format.outcome }}" = "success" ]; then json="PASS"; fi
           {
             echo "## Lint"
             echo ""
             echo "| Check | Result |"
             echo "| --- | --- |"
-            echo "| Python style with Ruff | Passed |"
-            echo "| JSON formatting | Passed |"
+            echo "| Python style with Ruff | $ruff |"
+            echo "| JSON formatting | $json |"
           } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if lint is not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.ruff.outcome }}" != "success" ] || [ "${{ steps.json_format.outcome }}" != "success" ]; then
+            exit 1
+          fi

@@ -15,17 +15,25 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install jsonschema
-      - run: python scripts/validate_all.py
+      - name: Validate resources
+        id: validate_resources
+        continue-on-error: true
+        run: python scripts/validate_all.py
       - name: Write validation summary
-        if: success()
+        if: always()
         run: |
+          validation="FAIL"
+          if [ "${{ steps.validate_resources.outcome }}" = "success" ]; then validation="PASS"; fi
           {
             echo "## Data validation"
             echo ""
             echo "| Check | Result |"
             echo "| --- | --- |"
-            echo "| Schema and required fields | Passed |"
-            echo "| Duplicate resources | Passed |"
-            echo "| Categories and file placement | Passed |"
-            echo "| Description and URL rules | Passed |"
+            echo "| Resource schema and data rules | $validation |"
           } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if validation is not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.validate_resources.outcome }}" != "success" ]; then
+            exit 1
+          fi
