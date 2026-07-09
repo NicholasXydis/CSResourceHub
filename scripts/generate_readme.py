@@ -133,7 +133,7 @@ def generate_readme():
                 "Curated Canadian CS Opportunities",
                 "Learning | Hackathons | Careers | Student Benefits",
                 "Validated JSON Dataset With Automated Checks",
-                "Generated README | CSV | Site-Ready JSON",
+                "Generated README | CSV | EDA Charts",
             ]
         )
     )
@@ -161,7 +161,8 @@ def generate_readme():
     lines.append("</p>\n\n")
     badges = [
         shield("resources", str(total), "2563eb"),
-        workflow_badge("CI", "validate.yml"),
+        workflow_badge("Validate", "validate.yml"),
+        workflow_badge("Generated", "generate.yml"),
         shield("contributions", "welcome", "f59e0b"),
         shield("updated", updated, "7c3aed"),
     ]

@@ -4,7 +4,7 @@
 
 # CS Resource Hub
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+Canadian+CS+Opportunities;Learning+%7C+Hackathons+%7C+Careers+%7C+Student+Benefits;Validated+JSON+Dataset+With+Automated+Checks;Generated+README+%7C+CSV+%7C+Site-Ready+JSON)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4A90D9&center=true&vCenter=true&width=760&lines=Curated+Canadian+CS+Opportunities;Learning+%7C+Hackathons+%7C+Careers+%7C+Student+Benefits;Validated+JSON+Dataset+With+Automated+Checks;Generated+README+%7C+CSV+%7C+EDA+Charts)](https://git.io/typing-svg)
 
 **A curated, automated dataset of Canadian Computer Science student resources.**
 
@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![CI](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=CI&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-09&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![Validate](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=Validate&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) [![Generated](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/generate.yml?branch=main&label=Generated&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/generate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-09&color=7c3aed)
 
 </div>
 

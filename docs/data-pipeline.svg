@@ -11,13 +11,13 @@
 
     <rect x="224" y="24" width="144" height="50" rx="10" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
     <text x="296" y="47" fill="#F0F6FC">Validate</text>
-    <text x="296" y="63" fill="#F0F6FC" font-size="10">schema + category</text>
+    <text x="296" y="63" fill="#F0F6FC" font-size="10">schema + data</text>
     <path d="M368 49H394" stroke="#3B82F6" stroke-width="4"/>
     <path d="M394 37L414 49L394 61Z" fill="#3B82F6"/>
 
     <rect x="416" y="24" width="146" height="50" rx="10" fill="#111C30" stroke="#3B82F6" stroke-width="2"/>
     <text x="489" y="47" fill="#F0F6FC">Checks</text>
-    <text x="489" y="63" fill="#F0F6FC" font-size="10">URLs, locations</text>
+    <text x="489" y="63" fill="#F0F6FC" font-size="10">URLs, types, style</text>
     <path d="M562 49H588" stroke="#3B82F6" stroke-width="4"/>
     <path d="M588 37L608 49L588 61Z" fill="#3B82F6"/>
 
@@ -29,11 +29,11 @@
 
     <rect x="804" y="24" width="68" height="50" rx="10" fill="#102A1C" stroke="#238636" stroke-width="2"/>
     <text x="838" y="47" fill="#F0F6FC" font-size="14">Ready</text>
-    <text x="838" y="63" fill="#F0F6FC" font-size="10">fresh</text>
+    <text x="838" y="63" fill="#F0F6FC" font-size="10">CI pass</text>
 
     <path d="M489 74V96" stroke="#F85149" stroke-width="4"/>
     <path d="M475 96L503 96L489 116Z" fill="#F85149"/>
     <rect x="416" y="118" width="146" height="36" rx="10" fill="#2D1619" stroke="#DA3633" stroke-width="2"/>
-    <text x="489" y="141" fill="#F0F6FC" font-size="14">Output Blocked</text>
+    <text x="489" y="141" fill="#F0F6FC" font-size="14">CI Blocked</text>
   </g>
 </svg>
