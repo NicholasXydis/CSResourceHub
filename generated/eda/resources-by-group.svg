@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="551.314432pt" height="396pt" viewBox="0 0 551.314432 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="569.482537pt" height="395.877656pt" viewBox="0 0 569.482537 395.877656" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -20,120 +20,120 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 396
-L 551.314432 396
-L 551.314432 0
+   <path d="M 0 395.877656
+L 569.482537 395.877656
+L 569.482537 0
 L 0 0
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 321.323279 242.741792
-C 325.851719 222.137049 325.701029 200.776519 320.882338 180.237716
-C 316.063646 159.698913 306.69857 140.500208 293.478737 124.059459
-C 280.258904 107.61871 263.517964 94.350859 244.492266 85.235761
-C 225.466567 76.120663 204.636293 71.388369 183.539795 71.388369
-L 183.539795 130.63854
-C 195.775764 130.63854 207.857323 133.38327 218.892228 138.670027
-C 229.927133 143.956784 239.636878 151.652138 247.304381 161.187772
-C 254.971885 170.723407 260.403629 181.858656 263.19847 193.771162
-C 265.993311 205.683667 266.080711 218.072775 263.454215 230.023526
+    <path d="M 320.789238 242.867762
+C 325.30998 222.298049 325.159546 200.973834 320.349047 180.469949
+C 315.538548 159.966064 306.189393 140.799998 292.992035 124.3872
+C 279.794677 107.974402 263.082198 94.729108 244.088845 85.629506
+C 225.095493 76.529904 204.300631 71.805656 183.24 71.805656
+L 183.24 130.955096
+C 195.455166 130.955096 207.516186 133.69516 218.53233 138.972929
+C 229.548475 144.250698 239.241713 151.932969 246.89618 161.452392
+C 254.550648 170.971815 259.973158 182.088133 262.763247 193.980386
+C 265.553337 205.872639 265.640588 218.240684 263.018558 230.171117
 z
 " style="fill: #2563eb; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
-    <path d="M 191.497071 353.307444
-C 222.232362 351.571029 251.570431 339.820987 275.007183 319.861228
-C 298.443935 299.90147 314.715315 272.80852 321.323279 242.741792
-L 263.454215 230.023526
-C 259.621597 247.462228 250.184196 263.176139 236.59088 274.752799
-C 222.997564 286.329458 205.981484 293.144483 188.155015 294.151604
+    <path d="M 191.183748 353.245441
+C 221.866786 351.511978 251.154978 339.781912 274.551885 319.856087
+C 297.948792 299.930263 314.192509 272.883373 320.789238 242.867762
+L 263.018558 230.171117
+C 259.192455 247.580172 249.771099 263.267368 236.200893 274.824346
+C 222.630687 286.381325 205.643536 293.184763 187.847374 294.190171
 z
 " style="fill: #dc2626; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 57.18796 275.201553
-C 69.46999 299.935752 88.748657 320.527461 112.621176 334.410246
-C 136.493696 348.29303 163.925301 354.865133 191.497071 353.307444
-L 188.155015 294.151604
-C 172.163388 295.055063 156.253058 291.243244 142.406996 283.191229
-C 128.560935 275.139214 117.379308 263.196023 110.255731 248.850187
+    <path d="M 57.102976 275.272338
+C 69.364125 299.964487 88.610016 320.521188 112.44195 334.38037
+C 136.273884 348.239552 163.658852 354.800482 191.183748 353.245441
+L 187.847374 294.190171
+C 171.882934 295.092095 155.999653 291.286756 142.177131 283.24843
+C 128.354609 275.210105 117.191992 263.287218 110.080526 248.965771
 z
 " style="fill: #7c3aed; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 183.539795 71.388369
-C 159.527667 71.388369 135.908469 77.5191 114.927705 89.197705
-C 93.946941 100.876309 76.291261 117.720577 63.639211 138.129102
-C 50.987161 158.537627 43.752812 181.842489 42.623942 205.828066
-C 41.495072 229.813643 46.508626 253.694947 57.18796 275.201553
-L 110.255731 248.850187
-C 104.061717 236.376355 101.153856 222.525199 101.8086 208.613564
-C 102.463345 194.70193 106.659267 181.18511 113.997456 169.348165
-C 121.335645 157.511221 131.57594 147.741546 143.744783 140.967955
-C 155.913626 134.194364 169.612761 130.63854 183.539795 130.63854
+    <path d="M 183.24 71.805656
+C 159.268696 71.805656 135.689652 77.925964 114.744558 89.584714
+C 93.799463 101.243464 76.173799 118.059095 63.543259 138.432923
+C 50.912719 158.806752 43.690669 182.071993 42.563718 206.016793
+C 41.436767 229.961592 46.441798 253.802295 57.102976 275.272338
+L 110.080526 248.965771
+C 103.897043 236.513147 100.994125 222.685539 101.647756 208.797555
+C 102.301388 194.909572 106.490177 181.415732 113.81589 169.598911
+C 121.141604 157.782091 131.364489 148.029025 143.512643 141.26695
+C 155.660798 134.504875 169.336643 130.955096 183.24 130.955096
 z
 " style="fill: #d97706; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1"/>
    <g id="matplotlib.axis_2"/>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 28px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="183.539795" y="208.420552" transform="rotate(-0 183.539795 208.420552)">334</text>
+    <text style="font-weight: 700; font-size: 28px; font-family: 'DejaVu Sans'; text-anchor: middle" x="183.24" y="208.644534" transform="rotate(-0 183.24 208.644534)">334</text>
    </g>
    <g id="text_2">
-    <text style="font-size: 11px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #6b7280" x="183.539795" y="232.235505" transform="rotate(-0 183.539795 232.235505)">resources</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #6b7280" x="183.24" y="232.394918" transform="rotate(-0 183.24 232.394918)">resources</text>
    </g>
    <g id="text_3">
-    <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #6b7280" x="17.075029" y="60.102622" transform="rotate(-0 17.075029 60.102622)">Higher-level balance across 4 configured project areas.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b7280" x="17.05824" y="60.539096" transform="rotate(-0 17.05824 60.539096)">Higher-level balance across 4 configured project areas.</text>
    </g>
    <g id="text_4">
-    <text style="font-weight: 700; font-size: 15px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111827" x="7.2" y="18.12041" transform="rotate(-0 7.2 18.12041)">Resource Mix by Group</text>
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="7.2" y="18.597656" transform="rotate(-0 7.2 18.597656)">Resource Mix by Group</text>
    </g>
    <g id="legend_1">
     <g id="patch_6">
-     <path d="M 375.933182 193.473389
-L 395.933182 193.473389
-L 395.933182 186.473389
-L 375.933182 186.473389
+     <path d="M 375.3216 192.734531
+L 395.3216 192.734531
+L 395.3216 185.734531
+L 375.3216 185.734531
 z
 " style="fill: #2563eb; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
     </g>
     <g id="text_5">
-     <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="403.933182" y="193.473389" transform="rotate(-0 403.933182 193.473389)">Building &amp; Open Source (95)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="403.3216" y="192.734531" transform="rotate(-0 403.3216 192.734531)">Building &amp; Open Source (95)</text>
     </g>
     <g id="patch_7">
-     <path d="M 375.933182 207.85835
-L 395.933182 207.85835
-L 395.933182 200.85835
-L 375.933182 200.85835
+     <path d="M 375.3216 207.735312
+L 395.3216 207.735312
+L 395.3216 200.735312
+L 375.3216 200.735312
 z
 " style="fill: #dc2626; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
     </g>
     <g id="text_6">
-     <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="403.933182" y="207.85835" transform="rotate(-0 403.933182 207.85835)">Careers &amp; Perks (69)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="403.3216" y="207.735312" transform="rotate(-0 403.3216 207.735312)">Careers &amp; Perks (69)</text>
     </g>
     <g id="patch_8">
-     <path d="M 375.933182 222.243311
-L 395.933182 222.243311
-L 395.933182 215.243311
-L 375.933182 215.243311
+     <path d="M 375.3216 222.736094
+L 395.3216 222.736094
+L 395.3216 215.736094
+L 375.3216 215.736094
 z
 " style="fill: #7c3aed; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
     </g>
     <g id="text_7">
-     <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="403.933182" y="222.243311" transform="rotate(-0 403.933182 222.243311)">Experience (62)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="403.3216" y="222.736094" transform="rotate(-0 403.3216 222.736094)">Experience (62)</text>
     </g>
     <g id="patch_9">
-     <path d="M 375.933182 236.628271
-L 395.933182 236.628271
-L 395.933182 229.628271
-L 375.933182 229.628271
+     <path d="M 375.3216 237.736875
+L 395.3216 237.736875
+L 395.3216 230.736875
+L 375.3216 230.736875
 z
 " style="fill: #d97706; stroke: #ffffff; stroke-width: 3; stroke-linejoin: miter"/>
     </g>
     <g id="text_8">
-     <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="403.933182" y="236.628271" transform="rotate(-0 403.933182 236.628271)">Learning &amp; Development (108)</text>
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="403.3216" y="237.736875" transform="rotate(-0 403.3216 237.736875)">Learning &amp; Development (108)</text>
     </g>
    </g>
   </g>

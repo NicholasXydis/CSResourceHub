@@ -24,7 +24,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![Validate](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/validate.yml?branch=main&label=Validate&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) [![Generated](https://img.shields.io/github/actions/workflow/status/NicholasXydis/CSResourceHub/generate.yml?branch=main&label=Generated&color=16a34a)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/generate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-09&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![CI](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-09&color=7c3aed)
 
 </div>
 
