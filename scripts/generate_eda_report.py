@@ -368,7 +368,8 @@ def generate_eda_report() -> None:
 
     payload = load_json(ALL_RESOURCES_PATH)
     resources = payload["resources"]
-    today = date.today()
+    generated_date = parse_date(payload.get("generated", ""))
+    analysis_date = generated_date or date.today()
 
     category_counts = Counter(resource["category"] for resource in resources)
     type_counts = Counter(resource.get("type", "missing") for resource in resources)
@@ -394,7 +395,7 @@ def generate_eda_report() -> None:
     stale_resources = [
         resource
         for resource, verified in zip(resources, last_verified_dates, strict=True)
-        if verified is not None and (today - verified).days > 180
+        if verified is not None and (analysis_date - verified).days > 180
     ]
 
     duplicate_names = [name for name, count in name_counts.items() if count > 1]
@@ -426,7 +427,7 @@ def generate_eda_report() -> None:
     metadata_chart = save_metadata_chart(resources)
     description_chart = save_description_histogram(description_lengths)
     additions_chart = save_additions_chart(resources)
-    verification_rows = verification_age_rows(last_verified_dates, today)
+    verification_rows = verification_age_rows(last_verified_dates, analysis_date)
     verification_chart = save_bar_chart(
         {row[0]: row[1] for row in verification_rows},
         "Verification Age Buckets",
@@ -483,7 +484,7 @@ def generate_eda_report() -> None:
         "read-only view.",
         "",
         f"Generated from `{ALL_RESOURCES_PATH.relative_to(ROOT).as_posix()}` "
-        f"on {today.isoformat()}.",
+        f"on {analysis_date.isoformat()}.",
         "",
         "## Snapshot",
         "",
