@@ -585,7 +585,7 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 
 Contributions keep this dataset useful and current.
 
-1. Read [CONTRIBUTING.md](./CONTRIBUTING.md) and [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md).
+1. Read [CONTRIBUTING.md](./CONTRIBUTING.md), [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md), and [DATA_CONTRACT.md](./docs/DATA_CONTRACT.md).
 2. Run `make add` or pick the correct JSON file in `data/`.
 3. Add one resource using [SCHEMA.md](./docs/SCHEMA.md) and [STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).
 4. Run `make validate` and `make generate`.

@@ -71,6 +71,19 @@ Description lengths stay inside the schema bounds, which keeps README tables sca
 
 The additions chart makes dataset growth visible and helps explain when large curation passes happened.
 
+### Verification Age
+
+![Verification age buckets](verification-age-buckets.svg)
+
+Verification age buckets show how recently resource URLs were checked. They measure maintenance recency, not whether a source itself was recently updated.
+
+| Bucket | Resources | Share |
+| --- | --- | --- |
+| Verified in last 30 days | 334 | 100.0% |
+| Verified 31-90 days ago | 0 | 0.0% |
+| Verified 91-180 days ago | 0 | 0.0% |
+| Verified 180+ days ago | 0 | 0.0% |
+
 | Check | Count |
 | --- | --- |
 | Duplicate IDs | 0 |

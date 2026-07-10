@@ -286,8 +286,9 @@ def generate_readme():
     lines.append("## Contributing\n\n")
     lines.append("Contributions keep this dataset useful and current.\n\n")
     lines.append(
-        "1. Read [CONTRIBUTING.md](./CONTRIBUTING.md) and "
-        "[ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md).\n"
+        "1. Read [CONTRIBUTING.md](./CONTRIBUTING.md), "
+        "[ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md), and "
+        "[DATA_CONTRACT.md](./docs/DATA_CONTRACT.md).\n"
     )
     lines.append("2. Run `make add` or pick the correct JSON file in `data/`.\n")
     lines.append(

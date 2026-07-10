@@ -81,7 +81,7 @@ and inline warnings while editing resources. Validation still runs through
 
 ## Generated Outputs
 
-`make generate` refreshes every derived artifact checked by CI:
+`make generate` refreshes every derived artifact checked by CI. See [DATA_CONTRACT.md](./DATA_CONTRACT.md) for generated output shapes and consumer guarantees:
 
 - `README.md`
 - `generated/all_resources.json`

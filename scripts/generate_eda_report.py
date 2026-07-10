@@ -271,6 +271,46 @@ def save_additions_chart(resources: list[dict]) -> str:
     return finish_chart(fig, "resources-added-over-time.svg")
 
 
+VERIFICATION_BUCKETS = [
+    "Verified in last 30 days",
+    "Verified 31-90 days ago",
+    "Verified 91-180 days ago",
+    "Verified 180+ days ago",
+    "Future last_verified date",
+    "Missing last_verified",
+]
+
+
+def verification_age_bucket(verified: date | None, today: date) -> str:
+    if verified is None:
+        return "Missing last_verified"
+
+    age_days = (today - verified).days
+    if age_days < 0:
+        return "Future last_verified date"
+    if age_days <= 30:
+        return "Verified in last 30 days"
+    if age_days <= 90:
+        return "Verified 31-90 days ago"
+    if age_days <= 180:
+        return "Verified 91-180 days ago"
+    return "Verified 180+ days ago"
+
+
+def verification_age_rows(
+    last_verified_dates: list[date | None], today: date
+) -> list[list[object]]:
+    counts = Counter(
+        verification_age_bucket(verified, today) for verified in last_verified_dates
+    )
+    total = len(last_verified_dates)
+    return [
+        [label, counts[label], f"{counts[label] / total * 100:.1f}%"]
+        for label in VERIFICATION_BUCKETS
+        if counts[label] or label in VERIFICATION_BUCKETS[:4]
+    ]
+
+
 def save_lollipop_chart(counts: dict[str, int], title: str, filename: str) -> str:
     labels = [shorten(label, width=32, placeholder="...") for label in counts]
     values = list(counts.values())
@@ -386,6 +426,14 @@ def generate_eda_report() -> None:
     metadata_chart = save_metadata_chart(resources)
     description_chart = save_description_histogram(description_lengths)
     additions_chart = save_additions_chart(resources)
+    verification_rows = verification_age_rows(last_verified_dates, today)
+    verification_chart = save_bar_chart(
+        {row[0]: row[1] for row in verification_rows},
+        "Verification Age Buckets",
+        "Shows how recently resource URLs were confirmed active.",
+        "verification-age-buckets.svg",
+        PRIMARY,
+    )
     domain_chart = save_lollipop_chart(
         dict(domain_counts.most_common(15)),
         "Most Common Domains",
@@ -507,6 +555,16 @@ def generate_eda_report() -> None:
         "",
         "The additions chart makes dataset growth visible and helps explain when "
         "large curation passes happened.",
+        "",
+        "### Verification Age",
+        "",
+        f"![Verification age buckets]({verification_chart})",
+        "",
+        "Verification age buckets show how recently resource URLs were checked. "
+        "They measure maintenance recency, not whether a source itself was "
+        "recently updated.",
+        "",
+        markdown_table(["Bucket", "Resources", "Share"], verification_rows),
         "",
         markdown_table(["Check", "Count"], quality_rows),
         "",

@@ -63,7 +63,7 @@ make lint PYTHON="py -3"
 ## Schema
 
 Every resource must follow the schema defined in `schema/resource.schema.json`.
-See [docs/SCHEMA.md](./docs/SCHEMA.md) for full field documentation.
+See [docs/SCHEMA.md](./docs/SCHEMA.md) for full field documentation and [docs/DATA_CONTRACT.md](./docs/DATA_CONTRACT.md) for generated output guarantees.
 
 ## Questions
 
