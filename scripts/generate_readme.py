@@ -135,7 +135,7 @@ def resource_sort_key(resource: dict):
     name = resource["name"].lower()
     if resource_type:
         return (0, resource_type, month_order, name)
-    return (1, month_order, name)
+    return (1, "", month_order, name)
 
 
 def visible_type(resource: dict) -> str:

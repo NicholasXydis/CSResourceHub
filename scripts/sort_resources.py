@@ -23,7 +23,7 @@ def resource_sort_key(resource):
     name = resource.get("name", "").lower()
     if resource_type:
         return (0, resource_type, month_order, name)
-    return (1, month_order, name)
+    return (1, "", month_order, name)
 
 
 def sort_resources():
