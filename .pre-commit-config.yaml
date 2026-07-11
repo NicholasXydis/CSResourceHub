@@ -25,3 +25,38 @@ repos:
         language: python
         additional_dependencies: [jsonschema>=4.21.0]
         pass_filenames: false
+
+      - id: frontend-format
+        name: Frontend formatting (Prettier)
+        entry: npm run format:check
+        language: system
+        pass_filenames: false
+        files: ^(src/|index.html$|vite\.config\.ts$|eslint\.config\.js$|package\.json$|tsconfig\.json$)
+
+      - id: frontend-lint
+        name: Frontend lint (ESLint)
+        entry: npm run lint
+        language: system
+        pass_filenames: false
+        files: ^(src/|vite\.config\.ts$|eslint\.config\.js$)
+
+      - id: frontend-lint-css
+        name: Frontend CSS lint (Stylelint)
+        entry: npm run lint:css
+        language: system
+        pass_filenames: false
+        files: ^src/.*\.css$
+
+      - id: frontend-typecheck
+        name: Frontend types (TypeScript)
+        entry: npm run typecheck
+        language: system
+        pass_filenames: false
+        files: ^(src/|generated/|vite\.config\.ts$|tsconfig\.json$)
+
+      - id: frontend-test
+        name: Frontend tests (Vitest)
+        entry: npm run test
+        language: system
+        pass_filenames: false
+        files: ^(src/|generated/|schema/)

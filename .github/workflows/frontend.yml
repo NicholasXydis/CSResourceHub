@@ -1,0 +1,101 @@
+name: Frontend
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Check formatting
+        id: format
+        continue-on-error: true
+        run: npm run format:check
+      - name: Lint
+        id: lint
+        continue-on-error: true
+        run: npm run lint
+      - name: Lint CSS
+        id: lint_css
+        continue-on-error: true
+        run: npm run lint:css
+      - name: Typecheck
+        id: typecheck
+        continue-on-error: true
+        run: npm run typecheck
+      - name: Test
+        id: test
+        continue-on-error: true
+        run: npm run test
+      - name: Build
+        id: build
+        continue-on-error: true
+        run: npm run build
+      - name: Install Playwright browser
+        id: browser
+        continue-on-error: true
+        run: npx playwright install --with-deps chromium
+      - name: End-to-end tests
+        id: e2e
+        continue-on-error: true
+        run: npm run test:e2e
+      - name: Upload Playwright report
+        if: always() && steps.e2e.outcome != 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+      - name: Write frontend summary
+        if: always()
+        run: |
+          format="FAIL"
+          lint="FAIL"
+          lint_css="FAIL"
+          typecheck="FAIL"
+          test="FAIL"
+          build="FAIL"
+          e2e="FAIL"
+          if [ "${{ steps.format.outcome }}" = "success" ]; then format="PASS"; fi
+          if [ "${{ steps.lint.outcome }}" = "success" ]; then lint="PASS"; fi
+          if [ "${{ steps.lint_css.outcome }}" = "success" ]; then lint_css="PASS"; fi
+          if [ "${{ steps.typecheck.outcome }}" = "success" ]; then typecheck="PASS"; fi
+          if [ "${{ steps.test.outcome }}" = "success" ]; then test="PASS"; fi
+          if [ "${{ steps.build.outcome }}" = "success" ]; then build="PASS"; fi
+          if [ "${{ steps.e2e.outcome }}" = "success" ]; then e2e="PASS"; fi
+          {
+            echo "## Frontend"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Formatting with Prettier | $format |"
+            echo "| Lint with ESLint | $lint |"
+            echo "| Lint with Stylelint | $lint_css |"
+            echo "| Types with TypeScript | $typecheck |"
+            echo "| Unit and component tests (Vitest) | $test |"
+            echo "| Production build | $build |"
+            echo "| End-to-end tests (Playwright) | $e2e |"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if frontend is not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.format.outcome }}" != "success" ] \
+            || [ "${{ steps.lint.outcome }}" != "success" ] \
+            || [ "${{ steps.lint_css.outcome }}" != "success" ] \
+            || [ "${{ steps.typecheck.outcome }}" != "success" ] \
+            || [ "${{ steps.test.outcome }}" != "success" ] \
+            || [ "${{ steps.build.outcome }}" != "success" ] \
+            || [ "${{ steps.browser.outcome }}" != "success" ] \
+            || [ "${{ steps.e2e.outcome }}" != "success" ]; then
+            exit 1
+          fi

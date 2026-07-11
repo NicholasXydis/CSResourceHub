@@ -21,6 +21,7 @@ jobs:
         run: |
           python scripts/sort_resources.py
           python scripts/generate_readme.py
+          python scripts/generate_schema_docs.py
           python scripts/generate_combined.py
           python scripts/generate_site_json.py
           python scripts/generate_stats_json.py
@@ -32,7 +33,7 @@ jobs:
       - name: Check generated outputs are current
         id: freshness
         continue-on-error: true
-        run: git diff --exit-code -- data README.md generated
+        run: git diff --exit-code -- data README.md docs/SCHEMA.md generated
       - name: Write generated outputs summary
         if: always()
         run: |
@@ -55,7 +56,7 @@ jobs:
               echo "### Files needing regeneration"
               echo ""
               echo '```text'
-              git status --short -- data README.md generated
+              git status --short -- data README.md docs/SCHEMA.md generated
               echo '```'
             fi
           } >> "$GITHUB_STEP_SUMMARY"
