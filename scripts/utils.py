@@ -49,6 +49,17 @@ CATEGORY_GROUPS = {
     ],
 }
 
+EVENT_TYPE = "event"
+EVENT_CATEGORIES = frozenset(CATEGORY_GROUPS["Experience"])
+
+GROUP_ICONS = {
+    "Learning & Development": "graduation",
+    "Experience": "trophy",
+    "Building & Open Source": "code",
+    "Careers & Perks": "briefcase",
+}
+
+
 def load_json(path: Path) -> dict:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)

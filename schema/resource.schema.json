@@ -30,7 +30,7 @@
     "description": {
       "type": "string",
       "minLength": 10,
-      "maxLength": 120
+      "maxLength": 105
     },
     "category": {
       "type": "string",
@@ -73,7 +73,6 @@
         "data",
         "frontend",
         "build",
-        "ideas",
         "inspiration",
         "discounts",
         "free",
@@ -82,9 +81,8 @@
         "internship",
         "fellowship",
         "career",
-        "community",
         "conference",
-        "startup"
+        "event"
       ]
     },
     "location": {
