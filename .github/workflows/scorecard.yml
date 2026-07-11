@@ -1,0 +1,56 @@
+name: Scorecard
+
+on:
+  branch_protection_rule:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 13 * * 3"
+
+permissions: read-all
+
+jobs:
+  analysis:
+    name: OpenSSF Scorecard
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      id-token: write
+      contents: read
+      actions: read
+
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
+      - name: Run Scorecard analysis
+        id: scorecard
+        continue-on-error: true
+        uses: ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a # v2.4.3
+        with:
+          results_file: results.sarif
+          results_format: sarif
+          publish_results: true
+      - name: Upload results to code scanning
+        if: steps.scorecard.outcome == 'success'
+        uses: github/codeql-action/upload-sarif@99df26d4f13ea111d4ec1a7dddef6063f76b97e9 # v4
+        with:
+          sarif_file: results.sarif
+      - name: Write scorecard summary
+        if: always()
+        run: |
+          scorecard="FAIL"
+          if [ "${{ steps.scorecard.outcome }}" = "success" ]; then scorecard="PASS"; fi
+          {
+            echo "## Supply chain"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| OpenSSF Scorecard analysis | $scorecard |"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if the scorecard analysis is not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.scorecard.outcome }}" != "success" ]; then
+            exit 1
+          fi

@@ -13,8 +13,8 @@ jobs:
   check-favicons:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
       - run: pip install requests
@@ -25,7 +25,7 @@ jobs:
       - name: Create favicon list update PR
         id: update_pr
         if: steps.favicons.outcome == 'success'
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
         with:
           commit-message: "chore: update missing favicon domains"
           title: "chore: update missing favicon domains"

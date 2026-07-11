@@ -6,21 +6,28 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   generated-outputs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
-      - run: pip install matplotlib==3.11.0
+      - run: pip install matplotlib==3.11.0 pillow
       - name: Regenerate resource exports
         id: resource_exports
         continue-on-error: true
         run: |
           python scripts/sort_resources.py
           python scripts/generate_readme.py
+          python scripts/generate_citation.py
+          python scripts/generate_sitemap.py
+          python scripts/generate_feed.py
+          python scripts/generate_og_image.py
           python scripts/generate_schema_docs.py
           python scripts/generate_combined.py
           python scripts/generate_site_json.py
@@ -33,7 +40,7 @@ jobs:
       - name: Check generated outputs are current
         id: freshness
         continue-on-error: true
-        run: git diff --exit-code -- data README.md docs/SCHEMA.md generated
+        run: git diff --exit-code -- data README.md docs/SCHEMA.md CITATION.cff public generated
       - name: Write generated outputs summary
         if: always()
         run: |
@@ -56,7 +63,7 @@ jobs:
               echo "### Files needing regeneration"
               echo ""
               echo '```text'
-              git status --short -- data README.md docs/SCHEMA.md generated
+              git status --short -- data README.md docs/SCHEMA.md CITATION.cff public generated
               echo '```'
             fi
           } >> "$GITHUB_STEP_SUMMARY"

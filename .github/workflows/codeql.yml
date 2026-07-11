@@ -15,18 +15,32 @@ permissions:
 
 jobs:
   analyze:
-    name: Analyze Python
+    name: Analyze ${{ matrix.language }}
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - language: python
+            label: Python
+          - language: javascript-typescript
+            label: TypeScript
+          - language: actions
+            label: Actions
+
     steps:
-      - uses: actions/checkout@v6
-      - uses: github/codeql-action/init@v4
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: github/codeql-action/init@99df26d4f13ea111d4ec1a7dddef6063f76b97e9 # v4
         with:
-          languages: python
-      - name: Analyze Python with CodeQL
+          languages: ${{ matrix.language }}
+          queries: security-and-quality
+      - name: Analyze ${{ matrix.label }} with CodeQL
         id: codeql_analyze
         continue-on-error: true
-        uses: github/codeql-action/analyze@v4
+        uses: github/codeql-action/analyze@99df26d4f13ea111d4ec1a7dddef6063f76b97e9 # v4
+        with:
+          category: /language:${{ matrix.language }}
       - name: Write security summary
         if: always()
         run: |
@@ -37,7 +51,7 @@ jobs:
             echo ""
             echo "| Check | Result |"
             echo "| --- | --- |"
-            echo "| CodeQL Python analysis | $codeql |"
+            echo "| CodeQL ${{ matrix.label }} analysis | $codeql |"
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Fail if security analysis is not healthy
         if: always()
