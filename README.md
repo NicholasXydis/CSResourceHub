@@ -30,7 +30,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![CI](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/NicholasXydis/CSResourceHub/actions/workflows/validate.yml) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b) ![updated](https://img.shields.io/static/v1?label=updated&message=2026-07-09&color=7c3aed)
+![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![ci](https://img.shields.io/github/check-runs/NicholasXydis/CSResourceHub/main?label=ci&color=2563eb)](https://github.com/NicholasXydis/CSResourceHub/actions) [![updated](https://img.shields.io/github/last-commit/NicholasXydis/CSResourceHub?label=updated&color=7c3aed&display_timestamp=author)](https://github.com/NicholasXydis/CSResourceHub/commits/main) [![license](https://img.shields.io/github/license/NicholasXydis/CSResourceHub?color=0ea5e9)](https://github.com/NicholasXydis/CSResourceHub/blob/main/LICENSE) [![openssf scorecard](https://api.scorecard.dev/projects/github.com/NicholasXydis/CSResourceHub/badge)](https://scorecard.dev/viewer/?uri=github.com/NicholasXydis/CSResourceHub) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
 
 </div>
 

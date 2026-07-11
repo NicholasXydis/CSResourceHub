@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS Resource Hub</title>
+    <link>https://csresourcehub.pages.dev/</link>
+    <description>A curated directory of resources for Canadian computer science students.</description>
+    <language>en-ca</language>
+    <atom:link href="https://csresourcehub.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-World Cryptography</title>
+      <link>https://www.manning.com/books/real-world-cryptography</link>
+      <guid isPermaLink="false">real-world-cryptography</guid>
+      <category>Learning Resources</category>
+      <description>Practical cryptography book covering protocols, encryption, signatures, and key exchange.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Linux Works</title>
+      <link>https://nostarch.com/howlinuxworks3</link>
+      <guid isPermaLink="false">how-linux-works</guid>
+      <category>Learning Resources</category>
+      <description>Practical guide to Linux internals, boot, storage, networking, shell tools, and processes.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Game Engine Architecture</title>
+      <link>https://www.gameenginebook.com</link>
+      <guid isPermaLink="false">game-engine-architecture</guid>
+      <category>Learning Resources</category>
+      <description>Guide to game engine systems, tools, rendering, animation, physics, and runtime design.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Database Internals</title>
+      <link>https://www.oreilly.com/library/view/database-internals/9781492040330</link>
+      <guid isPermaLink="false">database-internals</guid>
+      <category>Learning Resources</category>
+      <description>Deep dive into database storage engines, replication, partitioning, and transactions.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WomenHack Montreal</title>
+      <link>https://womenhack.com</link>
+      <guid isPermaLink="false">womenhack-montreal</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Inclusive recruiting events for software, data, DevOps, and technology roles.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Startupfest Montreal</title>
+      <link>https://startupfest.com</link>
+      <guid isPermaLink="false">startupfest-montreal</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Canada's premier startup festival bringing together founders, investors, and engineers.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Richard Tapia Celebration of Diversity in Computing</title>
+      <link>https://tapiaconference.cmd-it.org</link>
+      <guid isPermaLink="false">richard-tapia-conference</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Diversity in computing conference with career networking, technical sessions, and recruiting.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PyCon US</title>
+      <link>https://us.pycon.org/2026</link>
+      <guid isPermaLink="false">pycon-us</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Python conference with technical talks, tutorials, open-source collaboration, and a job fair.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Montréal International Game Summit (MIGS)</title>
+      <link>https://migs.biz</link>
+      <guid isPermaLink="false">migs</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>B2B game development conference connecting students with studios and technical leaders.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Montréal Game Developers</title>
+      <link>https://www.meetup.com/montreal-game-development-meetup-group</link>
+      <guid isPermaLink="false">montreal-game-developers</guid>
+      <category>Communities &amp; Clubs</category>
+      <description>Game development community hosting networking events, technical talks, workshops, and industry meetups.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila Events</title>
+      <link>https://mila.quebec/en/events</link>
+      <guid isPermaLink="false">mila-events</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>AI research talks, industry seminars, networking, and company-sponsored events.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>L'Événement Carrières</title>
+      <link>https://ecarrieres.com/fr/evenement</link>
+      <guid isPermaLink="false">levenement-carrieres</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>One of Quebec's largest public hiring exhibitions featuring various Montreal career fairs.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IVADO AI Internship &amp; Job Fair</title>
+      <link>https://ivado.ca/en/events/ivado-ai-internship-and-job-fair-february-2026</link>
+      <guid isPermaLink="false">ivado-ai-internship-job-fair</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>AI internship and job fair connecting students with Quebec companies hosted by Polytechnique Montréal.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HackerX Montreal</title>
+      <link>https://hackerx.org</link>
+      <guid isPermaLink="false">hackerx-montreal</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Speed-interview networking event matching software engineers directly with engineering managers.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GoSec Conference</title>
+      <link>https://gosec.net</link>
+      <guid isPermaLink="false">gosec</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Cybersecurity conference covering cloud, application, offensive, and enterprise security.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cybereco Cyberconference</title>
+      <link>https://cybereco.ca</link>
+      <guid isPermaLink="false">cybereco-cyberconference</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Enterprise cybersecurity conference on cloud security, identity, and security operations.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concordia Internship &amp; Job Search Websites</title>
+      <link>https://www.concordia.ca/students/success/career-planning/job-search/websites.html</link>
+      <guid isPermaLink="false">concordia-job-search-websites</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Concordia-curated job search website list for internships, new grad roles, and student jobs.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concordia Career &amp; Networking Events</title>
+      <link>https://www.concordia.ca/students/success/career-planning/events.html</link>
+      <guid isPermaLink="false">caps-employer-information-sessions</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Various career fairs, networking events and recruitment opportunities.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concordia CAPS Job Bank</title>
+      <link>https://www.concordia.ca/students/success/career-planning/job-search/job-bank.html</link>
+      <guid isPermaLink="false">concordia-caps-job-bank</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Concordia job bank hub for internships, on-campus jobs and new grad roles.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canadian Undergraduate Technology Conference (CUTC)</title>
+      <link>https://cutc.ca</link>
+      <guid isPermaLink="false">cutc</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Student-led tech conference connecting undergraduates with industry speakers and workshops.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>C++ Montréal</title>
+      <link>https://www.meetup.com/cppmtl</link>
+      <guid isPermaLink="false">cpp-montreal</guid>
+      <category>Communities &amp; Clubs</category>
+      <description>Community dedicated to Modern C++, systems programming, and software architecture.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BSides Montreal</title>
+      <link>https://bsidesmtl.ca</link>
+      <guid isPermaLink="false">bsides-montreal</guid>
+      <category>Recruitment &amp; Events</category>
+      <description>Community cybersecurity conference with technical talks, workshops, and security networking.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWS User Group Montreal</title>
+      <link>https://www.meetup.com/montreal-aws-users-united</link>
+      <guid isPermaLink="false">aws-user-group-montreal</guid>
+      <category>Communities &amp; Clubs</category>
+      <description>Community meetups covering AWS architecture, cloud infrastructure, DevOps, and containers.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Y Combinator Internships</title>
+      <link>https://www.ycombinator.com/internships</link>
+      <guid isPermaLink="false">y-combinator-internships</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Internship board connecting students with roles at Y Combinator-backed startups.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Intern Group</title>
+      <link>https://theinterngroup.com</link>
+      <guid isPermaLink="false">the-intern-group</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Paid global internship placement program with career development and international work experiences.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simplify Summer Internship Repository</title>
+      <link>https://github.com/SimplifyJobs/Summer2026-Internships</link>
+      <guid isPermaLink="false">simplify-summer-internships</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>GitHub repository tracking software engineering and tech internship opportunities.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simplify Jobs</title>
+      <link>https://simplify.jobs</link>
+      <guid isPermaLink="false">simplify-jobs</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Internship and early-career job platform with resume tools, tracking, and curated tech roles.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LinkedIn Jobs</title>
+      <link>https://www.linkedin.com/jobs</link>
+      <guid isPermaLink="false">linkedin-jobs</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Professional network and job platform with internship listings across technology fields.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Levels.fyi Jobs</title>
+      <link>https://www.levels.fyi/jobs</link>
+      <guid isPermaLink="false">levels-fyi-jobs</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Technology job board featuring internships with compensation data and software company roles.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Job Bank Canada</title>
+      <link>https://www.jobbank.gc.ca</link>
+      <guid isPermaLink="false">job-bank-canada</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Government of Canada job board with student, co-op, and internship opportunities.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Indeed</title>
+      <link>https://www.indeed.com</link>
+      <guid isPermaLink="false">indeed</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Global job board with internship listings across technology, finance, government, and startups.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Handshake</title>
+      <link>https://joinhandshake.com</link>
+      <guid isPermaLink="false">handshake</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>University-focused career platform connecting students with internships and entry-level roles.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Glassdoor</title>
+      <link>https://www.glassdoor.com</link>
+      <guid isPermaLink="false">glassdoor</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Job platform with internship listings, company reviews, salary data, and interview insights.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Federal Student Work Experience Program (FSWEP)</title>
+      <link>https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html</link>
+      <guid isPermaLink="false">fswep</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Government of Canada student hiring program for paid work across federal departments.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canada's Top 100 Employers Career Directory</title>
+      <link>https://www.eluta.ca/new-grad-jobs?education_category=BSc&amp;education_code=BSc-Computer-Science&amp;l=&amp;search=Career+Directory</link>
+      <guid isPermaLink="false">canadas-top-100-employers</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Canadian career directory highlighting employers with internship, co-op, and new graduate programs.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Built In</title>
+      <link>https://builtin.com</link>
+      <guid isPermaLink="false">built-in</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Technology career platform with internships and early-career roles at startups and tech companies.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Absolute Internship</title>
+      <link>https://absoluteinternship.com</link>
+      <guid isPermaLink="false">absolute-internship</guid>
+      <category>Internships &amp; Fellowships</category>
+      <description>Paid international internship placement program with structured roles and career coaching.</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zed Student</title>
+      <link>https://zed.dev/education</link>
+      <guid isPermaLink="false">zed-student</guid>
+      <category>Student Benefits</category>
+      <description>Student access to Zed with collaborative editing, AI features, and usage credits.</description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wolfram Student</title>
+      <link>https://www.wolframalpha.com/pro/pricing/students</link>
+      <guid isPermaLink="false">wolfram-student</guid>
+      <category>Student Benefits</category>
+      <description>Student pricing for Wolfram tools used in math, computation, visualization, and engineering.</description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unity Student Plan</title>
+      <link>https://unity.com/products/unity-student</link>
+      <guid isPermaLink="false">unity-student-plan</guid>
+      <category>Student Benefits</category>
+      <description>Free Unity student access for game development, real-time 3D, and interactive projects.</description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
