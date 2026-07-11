@@ -25,24 +25,24 @@ TECH_ICONS = [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     ),
     (
-        "JSON Schema",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
-    ),
-    (
-        "GitHub Actions",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+        "TypeScript",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     ),
     (
         "React",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
     ),
     (
-        "TypeScript",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-    ),
-    (
         "Vite",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+    ),
+    (
+        "JSON Schema",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
+    ),
+    (
+        "GitHub Actions",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
     ),
 ]
 
