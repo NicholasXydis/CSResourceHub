@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUFF ?= $(PYTHON) -m ruff
 
-.PHONY: validate generate lint stats add check-links check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls eda-report help
+.PHONY: validate generate lint stats add check-links check-favicons check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls eda-report help
 
 validate:
 	$(PYTHON) scripts/validate_all.py
@@ -9,6 +9,7 @@ validate:
 generate:
 	$(PYTHON) scripts/sort_resources.py
 	$(PYTHON) scripts/generate_readme.py
+	$(PYTHON) scripts/generate_schema_docs.py
 	$(PYTHON) scripts/generate_combined.py
 	$(PYTHON) scripts/generate_site_json.py
 	$(PYTHON) scripts/generate_stats_json.py
@@ -27,6 +28,9 @@ add:
 
 check-links:
 	$(PYTHON) scripts/check_links.py
+
+check-favicons:
+	$(PYTHON) scripts/check_favicons.py
 
 check-duplicates:
 	$(PYTHON) scripts/check_duplicates.py
@@ -57,11 +61,12 @@ eda-report:
 
 help:
 	@echo "validate        - Run all schema and dataset validation checks"
-	@echo "generate        - Regenerate README, data exports, EDA report, and charts"
+	@echo "generate        - Regenerate README, schema docs, data exports, EDA report, and charts"
 	@echo "lint            - Lint Python scripts and JSON files"
 	@echo "stats           - Print resource counts per category"
 	@echo "add             - Interactive CLI to add a new resource"
 	@echo "check-links     - Check all URLs for dead links"
+	@echo "check-favicons  - Probe resource domains and regenerate favicons.json"
 	@echo "check-duplicates - Check for duplicate URLs"
 	@echo "check-locations - Validate location values"
 	@echo "sort            - Sort resources alphabetically by name"

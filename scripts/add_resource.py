@@ -1,6 +1,7 @@
 from datetime import date
 
-from utils import DATA_DIR, load_json, log, save_json
+from check_types import ALLOWED_TYPES_BY_CATEGORY
+from utils import DATA_DIR, EVENT_CATEGORIES, EVENT_TYPE, load_json, log, save_json
 
 CATEGORIES = {
     "1": ("learning-development", "learning-resources"),
@@ -19,58 +20,9 @@ CATEGORIES = {
     "14": ("careers-perks", "student-benefits"),
 }
 
-RESOURCE_TYPES_BY_CATEGORY = {
-    "learning-resources": {
-        "book",
-        "course",
-        "news",
-        "reference",
-        "tool",
-        "video",
-        "website",
-    },
-    "interview-prep": {
-        "book",
-        "course",
-        "guide",
-        "platform",
-        "tool",
-    },
-    "communities-clubs": {
-        "club",
-        "discord",
-        "organization",
-        "reddit",
-    },
-    "open-source": {
-        "organization",
-        "project",
-        "resource",
-    },
-    "developer-resources": {
-        "api",
-        "data",
-        "frontend",
-        "tool",
-    },
-    "project-based-learning": {
-        "build",
-        "ideas",
-        "inspiration",
-    },
-    "internships-fellowships": {
-        "fellowship",
-        "internship",
-    },
-    "student-benefits": {
-        "discounts",
-        "free",
-    },
-    "certifications": {
-        "cloud",
-        "cybersecurity",
-    },
-}
+RESOURCE_TYPES_BY_CATEGORY = ALLOWED_TYPES_BY_CATEGORY
+
+
 def prompt(label, required=True):
     while True:
         val = input(f"{label}: ").strip()
@@ -97,10 +49,16 @@ def add_resource():
     name = prompt("Name")
     url = prompt("URL (https://)")
     description = prompt("Description (one sentence, ends with period)")
-    resource_type = prompt(
-        "Type (optional; category-specific, e.g. course, platform, api, tool)",
-        required=False,
-    )
+    allowed_types = RESOURCE_TYPES_BY_CATEGORY.get(category, set())
+    if category in EVENT_CATEGORIES:
+        resource_type = EVENT_TYPE
+        print(f"Type: {EVENT_TYPE} (required for {category})")
+    else:
+        options = ", ".join(sorted(allowed_types)) or "none allowed"
+        resource_type = prompt(
+            f"Type (optional; allowed for {category}: {options})",
+            required=False,
+        )
     location = prompt(
         "Location (optional; e.g. Online or Montreal, Quebec)",
         required=False,
@@ -117,12 +75,8 @@ def add_resource():
     }
 
     if resource_type:
-        allowed_types = RESOURCE_TYPES_BY_CATEGORY.get(category)
-        if allowed_types is None:
-            print(f"Type is not enabled for category '{category}'.")
-            return
         if resource_type not in allowed_types:
-            allowed = ", ".join(sorted(allowed_types))
+            allowed = ", ".join(sorted(allowed_types)) or "none"
             print(f"Invalid type for {category}. Allowed values: {allowed}")
             return
         resource["type"] = resource_type
@@ -141,4 +95,3 @@ def add_resource():
 
 if __name__ == "__main__":
     add_resource()
-

@@ -4,11 +4,14 @@ from urllib.parse import quote_plus
 from utils import (
     CATEGORY_GROUPS,
     CATEGORY_LABELS,
+    EVENT_TYPE,
     ROOT,
     dataset_updated_date,
     load_all_resources,
     log,
 )
+
+HIDDEN_README_TYPES = {EVENT_TYPE}
 
 GROUP_ICONS = {
     "Learning & Development": "📚",
@@ -28,6 +31,18 @@ TECH_ICONS = [
     (
         "GitHub Actions",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+    ),
+    (
+        "React",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    ),
+    (
+        "TypeScript",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    ),
+    (
+        "Vite",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
     ),
 ]
 
@@ -70,8 +85,7 @@ def workflow_badge(label: str, workflow: str) -> str:
         f"{workflow}/badge.svg?branch=main"
     )
     target = (
-        f"https://github.com/NicholasXydis/CSResourceHub/actions/workflows/"
-        f"{workflow}"
+        f"https://github.com/NicholasXydis/CSResourceHub/actions/workflows/{workflow}"
     )
     return f"[![{label}]({badge})]({target})"
 
@@ -102,6 +116,11 @@ def resource_sort_key(resource: dict):
     if resource_type:
         return (0, resource_type, month_order, name)
     return (1, month_order, name)
+
+
+def visible_type(resource: dict) -> str:
+    resource_type = resource.get("type", "")
+    return "" if resource_type in HIDDEN_README_TYPES else resource_type
 
 
 def format_type(resource_type: str) -> str:
@@ -144,9 +163,7 @@ def generate_readme():
     lines.append('<p align="center">\n')
     lines.append(
         "  "
-        + "\n  &nbsp;&nbsp;\n  ".join(
-            tech_icon(name, src) for name, src in TECH_ICONS
-        )
+        + "\n  &nbsp;&nbsp;\n  ".join(tech_icon(name, src) for name, src in TECH_ICONS)
         + "\n"
     )
     lines.append("</p>\n\n")
@@ -239,16 +256,14 @@ def generate_readme():
         lines.append(f"\n## {GROUP_ICONS[group]} {group}\n\n")
         for category in categories:
             label = CATEGORY_LABELS[category]
-            cat_resources = sorted(
-                by_category.get(category, []), key=resource_sort_key
-            )
+            cat_resources = sorted(by_category.get(category, []), key=resource_sort_key)
             lines.append(f'<a id="{category_anchor(category)}"></a>\n\n')
             lines.append(f"### {label}\n\n")
             lines.append(f"**{len(cat_resources)} resources** · `{category}`\n\n")
             if cat_resources:
                 has_month = any(r.get("month") for r in cat_resources)
                 has_location = any(r.get("location") for r in cat_resources)
-                has_type = any(r.get("type") for r in cat_resources)
+                has_type = any(visible_type(r) for r in cat_resources)
                 if has_type or has_month or has_location:
                     headers = ["Resource", "Description"]
                     if has_type:
@@ -263,7 +278,7 @@ def generate_readme():
                         name = f"[{r['name']}]({r['url']})"
                         row = [name, r.get("description", "")]
                         if has_type:
-                            row.append(format_type(r.get("type", "")) or "Resource")
+                            row.append(format_type(visible_type(r)) or "Resource")
                         if has_month:
                             row.append(r.get("month") or "Ongoing")
                         if has_location:
@@ -297,8 +312,8 @@ def generate_readme():
     )
     lines.append("4. Run `make validate` and `make generate`.\n")
     lines.append(
-        "   On Windows, use `make validate PYTHON=\"py -3\"` and "
-        "`make generate PYTHON=\"py -3\"`, or see "
+        '   On Windows, use `make validate PYTHON="py -3"` and '
+        '`make generate PYTHON="py -3"`, or see '
         "[ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.\n"
     )
     lines.append(
@@ -322,8 +337,8 @@ def generate_readme():
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(readme)
 
-
     log(f"✅ Generated README.md ({total} resources)")
+
 
 if __name__ == "__main__":
     generate_readme()
