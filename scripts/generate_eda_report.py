@@ -155,8 +155,7 @@ def save_group_donut(group_counts: Counter[str]) -> str:
         startangle=90,
         counterclock=False,
         colors=[
-            GROUP_PALETTE[index % len(GROUP_PALETTE)]
-            for index in range(len(values))
+            GROUP_PALETTE[index % len(GROUP_PALETTE)] for index in range(len(values))
         ],
         wedgeprops={"width": 0.42, "edgecolor": BACKGROUND, "linewidth": 3},
     )
@@ -183,8 +182,7 @@ def save_group_donut(group_counts: Counter[str]) -> str:
 def save_metadata_chart(resources: list[dict]) -> str:
     fields = ["type", "month", "location"]
     present = [
-        sum(1 for resource in resources if resource.get(field))
-        for field in fields
+        sum(1 for resource in resources if resource.get(field)) for field in fields
     ]
     missing = [len(resources) - value for value in present]
 
@@ -477,11 +475,13 @@ def generate_eda_report() -> None:
     lines = [
         "# CS Resource Hub EDA Report",
         "",
-        "A static, portfolio-friendly analysis of CS Resource Hub coverage, "
-        "composition, metadata quality, duplicate candidates, and source "
-        "concentration. The notebook in `notebooks/resource_eda.ipynb` keeps "
-        "the exploratory workflow reproducible; this report is the polished "
-        "read-only view.",
+        (
+            "A static, portfolio-friendly analysis of CS Resource Hub coverage, "
+            "composition, metadata quality, duplicate candidates, and source "
+            "concentration. The notebook in `notebooks/resource_eda.ipynb` keeps "
+            "the exploratory workflow reproducible; this report is the polished "
+            "read-only view."
+        ),
         "",
         f"Generated from `{ALL_RESOURCES_PATH.relative_to(ROOT).as_posix()}` "
         f"on {analysis_date.isoformat()}.",
@@ -513,8 +513,10 @@ def generate_eda_report() -> None:
         "",
         f"![Resources by group]({group_chart})",
         "",
-        "The group chart gives a fast read on whether the hub is balanced across "
-        "learning, experience, building, and career-oriented resources.",
+        (
+            "The group chart gives a fast read on whether the hub is balanced across "
+            "learning, experience, building, and career-oriented resources."
+        ),
         "",
         "### Largest Categories",
         "",
@@ -534,8 +536,10 @@ def generate_eda_report() -> None:
         "",
         f"![Top resource types]({type_chart})",
         "",
-        "This chart shows the dominant formats in the dataset, which helps avoid "
-        "over-indexing on one kind of resource.",
+        (
+            "This chart shows the dominant formats in the dataset, which helps avoid "
+            "over-indexing on one kind of resource."
+        ),
         "",
         f"![Metadata completeness]({metadata_chart})",
         "",
@@ -549,21 +553,27 @@ def generate_eda_report() -> None:
         "",
         f"![Description length distribution]({description_chart})",
         "",
-        "Description lengths stay inside the schema bounds, which keeps README "
-        "tables scannable and avoids low-information entries.",
+        (
+            "Description lengths stay inside the schema bounds, which keeps README "
+            "tables scannable and avoids low-information entries."
+        ),
         "",
         f"![Resources added over time]({additions_chart})",
         "",
-        "The additions chart makes dataset growth visible and helps explain when "
-        "large curation passes happened.",
+        (
+            "The additions chart makes dataset growth visible and helps explain when "
+            "large curation passes happened."
+        ),
         "",
         "### Verification Age",
         "",
         f"![Verification age buckets]({verification_chart})",
         "",
-        "Verification age buckets show how recently resource URLs were checked. "
-        "They measure maintenance recency, not whether a source itself was "
-        "recently updated.",
+        (
+            "Verification age buckets show how recently resource URLs were checked. "
+            "They measure maintenance recency, not whether a source itself was "
+            "recently updated."
+        ),
         "",
         markdown_table(["Bucket", "Resources", "Share"], verification_rows),
         "",
@@ -573,10 +583,12 @@ def generate_eda_report() -> None:
         "",
         f"![Most common domains]({domain_chart})",
         "",
-        f"**Domain signal:** `{top_domains[0][0]}` appears most often with "
-        f"{top_domains[0][1]} resources. Repeated domains are expected for "
-        "high-quality hubs such as GitHub or YouTube, but concentration remains "
-        "worth monitoring.",
+        (
+            f"**Domain signal:** `{top_domains[0][0]}` appears most often with "
+            f"{top_domains[0][1]} resources. Repeated domains are expected for "
+            "high-quality hubs such as GitHub or YouTube, but concentration "
+            "remains worth monitoring."
+        ),
         "",
         markdown_table(["Domain", "Resources"], top_domains),
         "",
@@ -592,8 +604,10 @@ def generate_eda_report() -> None:
         f"{top_domains[0][1]} resources.",
         f"- Duplicate URL candidates found: {len(duplicate_urls)}.",
         "",
-        "For deeper inspection or custom analysis, run "
-        "`py -3 -m jupyterlab notebooks/resource_eda.ipynb`.",
+        (
+            "For deeper inspection or custom analysis, run "
+            "`py -3 -m jupyterlab notebooks/resource_eda.ipynb`."
+        ),
         "",
     ]
 

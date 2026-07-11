@@ -78,8 +78,10 @@ def generate_schema_docs() -> None:
         "",
         "# Schema Reference",
         "",
-        "Every resource in `data/` follows the schema defined in "
-        "`schema/resource.schema.json`.",
+        (
+            "Every resource in `data/` follows the schema defined in "
+            "`schema/resource.schema.json`."
+        ),
         "",
         "## Fields",
         "",
@@ -93,8 +95,11 @@ def generate_schema_docs() -> None:
         "",
         "## Allowed `type` values",
         "",
-        "`type` is optional for every category, but when it is set it must come from "
-        "the list below. Anything else fails validation in `scripts/check_types.py`.",
+        (
+            "`type` is optional for every category, but when it is set it must "
+            "come from the list below. Anything else fails validation in "
+            "`scripts/check_types.py`."
+        ),
         "",
     ]
 
@@ -118,8 +123,10 @@ def generate_schema_docs() -> None:
         '  "id": "leetcode",',
         '  "name": "LeetCode",',
         '  "url": "https://leetcode.com",',
-        '  "description": "Coding interview platform with algorithms, data '
-        'structures, SQL, and system design problems.",',
+        (
+            '  "description": "Coding interview platform with algorithms, data '
+            'structures, SQL, and system design problems.",'
+        ),
         '  "category": "interview-prep",',
         '  "type": "platform",',
         '  "date_added": "2026-06-15",',
