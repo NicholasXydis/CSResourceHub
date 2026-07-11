@@ -1,6 +1,6 @@
 # Data Contract
 
-CS Resource Hub stores curated resources as JSON and publishes generated outputs for docs, analysis, spreadsheet use, and future static frontends. The source files in `data/` remain the source of truth.
+CS Resource Hub stores curated resources as JSON and publishes generated outputs for docs, analysis, spreadsheet use, and the static frontend in `src/`. The source files in `data/` remain the source of truth.
 
 ## Source Data
 
@@ -22,7 +22,7 @@ Optional resource fields:
 
 | Field | Contract |
 | --- | --- |
-| `type` | Category-specific resource type when useful for filtering or grouping. |
+| `type` | Category-specific resource type. Required and always `event` for the Experience categories; optional elsewhere. See [SCHEMA.md](./SCHEMA.md). |
 | `month` | Month name for recurring or seasonal resources. |
 | `location` | Physical location or `Online` when location is meaningful. |
 
@@ -33,8 +33,10 @@ Generated files are committed so the dataset can be consumed without running scr
 | Output | Shape | Intended use |
 | --- | --- | --- |
 | `README.md` | Markdown tables grouped by area and category. | Human browsing on GitHub. |
+| `docs/SCHEMA.md` | Field and allowed-type reference. | Generated from the schema and the type allow-list, so it cannot drift from validation. |
 | `generated/all_resources.json` | `{ generated, total, resources }` with a flat `resources` array. | General machine-readable dataset export. |
-| `generated/site.json` | `{ generated, total, categories }` with resources grouped by category. | Static frontend/resource browser input. |
+| `generated/site.json` | `{ generated, total, labels, types, groups, categories }` where `groups` and `categories` are keyed objects, plus the category labels and the schema's type enum. | Static frontend input. The frontend derives every category, collection, count, and type from this file. |
+| `generated/favicons.json` | `{ generated, checked, missing, siteOnly }`. `missing` lists domains with no icon anywhere; `siteOnly` lists domains Google has no icon for but which serve their own. | Tells the frontend which logo source to request first, and when to skip straight to the placeholder. Refreshed by `make check-favicons`. |
 | `generated/stats.json` | `{ generated, total, categories, groups }` summary counts. | Stats cards, dashboards, and EDA checks. |
 | `generated/resources.csv` | Flat CSV with resource fields as columns. | Excel, spreadsheets, and data analysis tools. |
 | `generated/eda/report.md` | Static Markdown report with deterministic SVG charts. | Portfolio-friendly dataset quality overview. |
@@ -44,7 +46,7 @@ The `generated` field records the latest dataset update date derived from resour
 ## Compatibility Notes
 
 - Treat `id`, `category`, and `url` as stable identifiers for joins and links.
-- Optional fields may be absent; consumers should handle missing `type`, `month`, and `location`.
+- Optional fields may be absent; consumers should handle missing `type`, `month`, and `location`. Resources in the Experience categories always carry `type: "event"`.
 - Generated output order is deterministic but should not be used as a permanent identity.
 - Add new fields through the schema first, then update validation, generated outputs, and documentation together.
 

@@ -8,7 +8,7 @@
       "description": "API for stocks, ETFs, forex, cryptocurrency, fundamentals, and technical indicators.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "api"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Directory for discovering public APIs across many categories and use cases.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "api"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Test REST, GraphQL, WebSocket, and other APIs from the browser.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "api"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Large GitHub collection of free public APIs for applications and prototypes.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "api"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Discover curated public datasets across many domains for projects, analytics, and machine learning.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "data"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Search engine for public datasets from universities, governments, and research groups.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "data"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Platform for open AI models, datasets, Spaces, and machine learning tools.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "data"
     },
     {
@@ -88,7 +88,7 @@
       "description": "Access a large collection of community datasets for data science and analytics.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "data"
     },
     {
@@ -98,7 +98,7 @@
       "description": "Build polished interfaces with premium-quality React components.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "frontend"
     },
     {
@@ -108,7 +108,7 @@
       "description": "Create smooth animations and interactions for React applications.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "frontend"
     },
     {
@@ -118,7 +118,7 @@
       "description": "Create high-performance web animations with a production-ready animation library.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "frontend"
     },
     {
@@ -128,7 +128,7 @@
       "description": "Use an open-source, customizable icon library for modern applications.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "frontend"
     },
     {
@@ -138,7 +138,7 @@
       "description": "Use animated React components built for modern user interfaces.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "frontend"
     },
     {
@@ -148,7 +148,7 @@
       "description": "Build accessible, unstyled UI primitives for custom component systems.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "frontend"
     },
     {
@@ -158,7 +158,7 @@
       "description": "Build reusable React components with Radix UI and Tailwind CSS.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "frontend"
     },
     {
@@ -178,7 +178,7 @@
       "description": "Curated collection of self-hosted software for development, collaboration, AI, and cloud services.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -188,7 +188,7 @@
       "description": "Analyze package size, dependencies, and installation impact before adding libraries.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -198,7 +198,7 @@
       "description": "Create customizable code screenshots for documentation, READMEs, presentations, and social media.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -208,7 +208,7 @@
       "description": "Design, visualize, and document cloud architectures with interactive AWS infrastructure diagrams.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -218,7 +218,7 @@
       "description": "Self-host and deploy applications, databases, and services with an open-source platform.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -228,7 +228,7 @@
       "description": "Web toolkit for encoding, decoding, encryption, hashing, compression, conversion, and forensics.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -238,7 +238,7 @@
       "description": "Design and visualize database schemas using DBML.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -248,7 +248,7 @@
       "description": "Find technology icons for documentation, portfolios, and developer projects.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -258,7 +258,7 @@
       "description": "Create hand-drawn style diagrams, architecture sketches, and flowcharts.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -268,7 +268,7 @@
       "description": "Design interfaces, wireframes, and prototypes with real-time collaboration.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -278,7 +278,7 @@
       "description": "Find free tiers and services for hosting, databases, APIs, CI/CD, AI, and developer tools.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -288,7 +288,7 @@
       "description": "Community sound library for effects, ambience, and audio clips for games and apps.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -298,7 +298,7 @@
       "description": "Discover open-source projects, frameworks, libraries, and tools by technology, language, or domain.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -308,7 +308,7 @@
       "description": "Generate language and framework-specific .gitignore templates.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -318,7 +318,7 @@
       "description": "Browser utilities for JSON, UUIDs, JWTs, hashing, encoding, QR codes, and timestamps.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -328,7 +328,7 @@
       "description": "Free game asset marketplace with sprites, UI packs, audio, shaders, animations, and 3D models.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -338,7 +338,7 @@
       "description": "Free 2D, 3D, UI, audio, and game development asset library.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -348,17 +348,17 @@
       "description": "Online tool for rigging 3D characters and creating character animations.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
       "id": "mockaroo",
       "name": "Mockaroo",
       "url": "https://mockaroo.com",
-      "description": "Generate up to 1,000 rows of realistic, customized mock data in JSON, CSV, or SQL formats to test your applications.",
+      "description": "Generate up to 1,000 rows of realistic mock data in JSON, CSV, or SQL to test applications.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -368,7 +368,7 @@
       "description": "Community asset library for sprites, textures, music, sound effects, and 3D models.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -388,7 +388,7 @@
       "description": "Automate browsers for end-to-end testing and web automation.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -398,7 +398,7 @@
       "description": "Free low-poly 3D model library for games, simulations, prototypes, and interactive apps.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -408,7 +408,7 @@
       "description": "Generate typed models and serializers from JSON, JSON Schema, GraphQL, and TypeScript.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -418,7 +418,7 @@
       "description": "Develop and test responsive websites across synchronized device viewports.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -428,7 +428,7 @@
       "description": "Generate customizable badges for READMEs and documentation.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {
@@ -438,7 +438,7 @@
       "description": "Compress and optimize images for the web.",
       "category": "developer-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "tool"
     },
     {

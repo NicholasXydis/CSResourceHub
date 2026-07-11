@@ -5,10 +5,10 @@
       "id": "apache",
       "name": "Apache Software Foundation",
       "url": "https://apache.org",
-      "description": "Explore established open-source projects across servers, data systems, developer tooling, and infrastructure.",
+      "description": "Explore established open-source projects across servers, data systems, and developer tooling.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Find cloud-native projects for containers, orchestration, service meshes, networking, and observability.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Explore developer tools, runtimes, IoT platforms, and frameworks maintained by open-source communities.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Contribute to open web, browser, privacy, and internet health projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Learn application security through open-source tools, standards, projects, and community resources.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -58,7 +58,7 @@
       "description": "Build games in Rust with a modern, data-driven open-source engine.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Create 3D art, animation, simulations, and tools in a large open-source project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Learn container workflows and contribute to widely used developer infrastructure tools.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -88,7 +88,7 @@
       "description": "Build Python APIs with a modern framework used for production web services.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -98,7 +98,7 @@
       "description": "Learn distributed version control and contribute to the software powering modern development.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -108,7 +108,7 @@
       "description": "Explore Linux desktop apps, libraries, accessibility tools, and user experience projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -118,7 +118,7 @@
       "description": "Build 2D and 3D games with a beginner-friendly open-source engine.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -128,7 +128,7 @@
       "description": "Explore dashboards, metrics, logs, and observability tools used in production systems.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -138,7 +138,7 @@
       "description": "Automate smart homes and contribute to a large Python-based IoT project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -148,7 +148,7 @@
       "description": "Contribute to Linux desktop apps, frameworks, and cross-platform user tools.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -158,7 +158,7 @@
       "description": "Study operating system internals and contribute to core Linux infrastructure.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -168,7 +168,7 @@
       "description": "Customize and improve a fast, extensible editor used by many developers.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -178,7 +178,7 @@
       "description": "Learn network discovery and contribute to a respected security auditing tool.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -188,7 +188,7 @@
       "description": "Build computer vision applications with a widely used C++ and Python library.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -198,7 +198,7 @@
       "description": "Improve open map data used by apps, researchers, and communities worldwide.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -208,7 +208,7 @@
       "description": "Learn infrastructure as code through an open Terraform-compatible project and ecosystem.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -218,7 +218,7 @@
       "description": "Explore database internals and contribute to a production-grade SQL system.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -228,7 +228,7 @@
       "description": "Explore interactive notebooks, scientific computing, and data science tools for research.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -238,7 +238,7 @@
       "description": "Learn metrics, monitoring, and alerting through a cloud-native observability project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -248,7 +248,7 @@
       "description": "Build cross-platform desktop, mobile, and embedded apps with mature UI tools.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -258,7 +258,7 @@
       "description": "Explore pricing, risk, and quantitative finance models in open-source C++.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -268,7 +268,7 @@
       "description": "Build robotics software with reusable tools for sensors, control, and simulation.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -278,7 +278,7 @@
       "description": "Learn machine learning algorithms through a widely used Python library.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
@@ -288,17 +288,17 @@
       "description": "Analyze network traffic and learn protocols with an industry-standard debugging tool.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "project"
     },
     {
       "id": "awesome-for-beginners",
       "name": "Awesome for Beginners",
       "url": "https://github.com/MunGell/awesome-for-beginners",
-      "description": "Find beginner-friendly open-source projects organized by programming language and contribution difficulty.",
+      "description": "Beginner-friendly open-source projects organized by programming language and difficulty.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "resource"
     },
     {
@@ -308,7 +308,7 @@
       "description": "Receive personalized beginner-friendly issues from open-source projects you choose and follow.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "resource"
     },
     {
@@ -318,7 +318,7 @@
       "description": "Practice the GitHub contribution workflow with a beginner-focused tutorial and sample project.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "resource"
     },
     {
@@ -328,7 +328,7 @@
       "description": "Find welcoming resources and projects for your first open-source contribution.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "resource"
     },
     {
@@ -338,7 +338,7 @@
       "description": "Learn contribution workflows, maintainership, licensing, and community best practices for open source.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "resource"
     },
     {
@@ -348,7 +348,7 @@
       "description": "Find beginner-friendly GitHub issues across hundreds of active open-source projects.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "resource"
     },
     {
@@ -358,7 +358,7 @@
       "description": "Browse active projects seeking new contributors through beginner-friendly GitHub issues.",
       "category": "open-source",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "resource"
     }
   ]

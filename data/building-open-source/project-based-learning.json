@@ -8,7 +8,7 @@
       "description": "In-depth tutorials for building databases, operating systems, interpreters, and compilers from scratch.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "build"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Guides for recreating databases, shells, Git, Docker, emulators, and other technologies from scratch.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "build"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Book-length guide to building an interpreter and bytecode virtual machine from scratch.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "build"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Project course for building a computer from logic gates through an operating system and compiler.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "build"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Programming tutorials that teach by building applications from scratch across many languages.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "build"
     },
     {
@@ -58,28 +58,8 @@
       "description": "Project prompts for practicing software development across beginner, intermediate, and advanced levels.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
-      "type": "ideas"
-    },
-    {
-      "id": "project-ideas-and-resources",
-      "name": "Project Ideas and Resources",
-      "url": "https://github.com/The-Cool-Coders/Project-Ideas-And-Resources",
-      "description": "Application ideas and resources for practicing coding and building portfolio projects.",
-      "category": "project-based-learning",
-      "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
-      "type": "ideas"
-    },
-    {
-      "id": "roadmap-sh-projects",
-      "name": "roadmap.sh Projects",
-      "url": "https://roadmap.sh/projects",
-      "description": "Project ideas across frontend, backend, DevOps, databases, AI, and computer science topics.",
-      "category": "project-based-learning",
-      "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
-      "type": "ideas"
+      "last_verified": "2026-07-11",
+      "type": "inspiration"
     },
     {
       "id": "devpost",
@@ -88,7 +68,7 @@
       "description": "Hackathon project showcase for ideas, implementation examples, and inspiration.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "inspiration"
     },
     {
@@ -98,7 +78,7 @@
       "description": "Discover repositories, collections, developers, and open-source projects across computer science.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "inspiration"
     },
     {
@@ -108,7 +88,7 @@
       "description": "Browse popular and fast-growing repositories to discover technologies and project ideas.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "inspiration"
     },
     {
@@ -118,7 +98,7 @@
       "description": "Video about building various projects to become inspired and learn software development skills.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "inspiration"
     },
     {
@@ -128,17 +108,37 @@
       "description": "Discover newly launched software products, developer tools, AI applications, and startups.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
+      "type": "inspiration"
+    },
+    {
+      "id": "project-ideas-and-resources",
+      "name": "Project Ideas and Resources",
+      "url": "https://github.com/The-Cool-Coders/Project-Ideas-And-Resources",
+      "description": "Application ideas and resources for practicing coding and building portfolio projects.",
+      "category": "project-based-learning",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-11",
+      "type": "inspiration"
+    },
+    {
+      "id": "roadmap-sh-projects",
+      "name": "roadmap.sh Projects",
+      "url": "https://roadmap.sh/projects",
+      "description": "Project ideas across frontend, backend, DevOps, databases, AI, and computer science topics.",
+      "category": "project-based-learning",
+      "date_added": "2026-07-02",
+      "last_verified": "2026-07-11",
       "type": "inspiration"
     },
     {
       "id": "sebastian-lague",
       "name": "Sebastian Lague",
       "url": "https://www.youtube.com/@SebastianLague",
-      "description": "Channel showcasing ambitious projects in graphics, AI, simulations, procedural generation, and software engineering.",
+      "description": "Channel showcasing ambitious projects in graphics, AI, simulations, and procedural generation.",
       "category": "project-based-learning",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "inspiration"
     }
   ]

@@ -10,7 +10,8 @@
       "location": "Montreal, Quebec",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "deltahacks",
@@ -21,7 +22,8 @@
       "location": "Hamilton, Ontario",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "mchacks",
@@ -32,7 +34,8 @@
       "location": "Montreal, Quebec",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "nwhacks",
@@ -43,7 +46,8 @@
       "location": "Vancouver, British Columbia",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "uofthacks",
@@ -54,7 +58,8 @@
       "location": "Toronto, Ontario",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "qhacks",
@@ -65,7 +70,8 @@
       "location": "Kingston, Ontario",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "treehacks",
@@ -76,7 +82,8 @@
       "location": "Stanford, California",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "genai-genesis",
@@ -87,7 +94,8 @@
       "location": "Toronto, Ontario",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "hack-canada",
@@ -98,7 +106,8 @@
       "location": "Waterloo, Ontario",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "la-hacks",
@@ -109,7 +118,8 @@
       "location": "Los Angeles, California",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "hackthemountain",
@@ -120,7 +130,8 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "mpchacks",
@@ -131,7 +142,8 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "shacks",
@@ -142,7 +154,8 @@
       "location": "Sherbrooke, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "hack-the-6ix",
@@ -153,7 +166,8 @@
       "location": "Toronto, Ontario",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "hack-the-north",
@@ -164,7 +178,8 @@
       "location": "Waterloo, Ontario",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "hackmit",
@@ -175,7 +190,8 @@
       "location": "Cambridge, Massachusetts",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "pennapps",
@@ -186,7 +202,8 @@
       "location": "Philadelphia, Pennsylvania",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "cal-hacks",
@@ -197,7 +214,8 @@
       "location": "Berkeley, California",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "codeml",
@@ -208,7 +226,8 @@
       "location": "Montreal, Quebec",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "fiam-ia",
@@ -219,7 +238,8 @@
       "location": "Montreal, Quebec",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "hackharvard",
@@ -230,7 +250,8 @@
       "location": "Cambridge, Massachusetts",
       "month": "October",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "codejam-mcgill",
@@ -241,7 +262,8 @@
       "location": "Montreal, Quebec",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     }
   ]
 }

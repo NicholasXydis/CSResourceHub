@@ -8,7 +8,7 @@
       "description": "Various career fairs, networking events and recruitment opportunities.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "career",
       "location": "Montreal, Quebec"
     },
@@ -19,7 +19,7 @@
       "description": "Speed-interview networking event matching software engineers directly with engineering managers.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "career",
       "location": "Montreal, Quebec"
     },
@@ -30,7 +30,7 @@
       "description": "AI internship and job fair connecting students with Quebec companies hosted by Polytechnique Montréal.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "career",
       "location": "Montreal, Quebec"
     },
@@ -41,7 +41,7 @@
       "description": "One of Quebec's largest public hiring exhibitions featuring various Montreal career fairs.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "career",
       "location": "Montreal, Quebec"
     },
@@ -52,7 +52,7 @@
       "description": "Diversity in computing conference with career networking, technical sessions, and recruiting.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "career",
       "location": "Atlanta, Georgia"
     },
@@ -63,7 +63,7 @@
       "description": "Inclusive recruiting events for software, data, DevOps, and technology roles.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "career",
       "location": "Montreal, Quebec"
     },
@@ -74,7 +74,7 @@
       "description": "Community cybersecurity conference with technical talks, workshops, and security networking.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Montreal, Quebec"
     },
@@ -82,10 +82,10 @@
       "id": "cutc",
       "name": "Canadian Undergraduate Technology Conference (CUTC)",
       "url": "https://cutc.ca",
-      "description": "Student-led technology conference connecting undergraduates with industry speakers, sponsors, and workshops.",
+      "description": "Student-led tech conference connecting undergraduates with industry speakers and workshops.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Montreal, Quebec"
     },
@@ -93,10 +93,10 @@
       "id": "cybereco-cyberconference",
       "name": "Cybereco Cyberconference",
       "url": "https://cybereco.ca",
-      "description": "Enterprise cybersecurity conference focused on cloud security, identity, governance, and security operations.",
+      "description": "Enterprise cybersecurity conference on cloud security, identity, and security operations.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Montreal, Quebec"
     },
@@ -107,7 +107,7 @@
       "description": "Cybersecurity conference covering cloud, application, offensive, and enterprise security.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Montreal, Quebec"
     },
@@ -118,7 +118,7 @@
       "description": "AI research talks, industry seminars, networking, and company-sponsored events.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Montreal, Quebec"
     },
@@ -129,7 +129,7 @@
       "description": "B2B game development conference connecting students with studios and technical leaders.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Montreal, Quebec"
     },
@@ -140,7 +140,7 @@
       "description": "Python conference with technical talks, tutorials, open-source collaboration, and a job fair.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Long Beach, California"
     },
@@ -148,10 +148,10 @@
       "id": "startupfest-montreal",
       "name": "Startupfest Montreal",
       "url": "https://startupfest.com",
-      "description": "Canada's premier startup festival bringing together founders, investors, startup engineers, and technology companies.",
+      "description": "Canada's premier startup festival bringing together founders, investors, and engineers.",
       "category": "recruitment-events",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "conference",
       "location": "Montreal, Quebec"
     }

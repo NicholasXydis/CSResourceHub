@@ -10,7 +10,8 @@
       "location": "Online",
       "month": "January",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "ncc-ctf-series",
@@ -21,7 +22,8 @@
       "location": "Online",
       "month": "February",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "athack-ctf",
@@ -32,7 +34,8 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "polypwn-ctf",
@@ -43,7 +46,8 @@
       "location": "Montreal, Quebec",
       "month": "March",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "plaidctf",
@@ -54,7 +58,8 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "umdctf",
@@ -65,7 +70,8 @@
       "location": "Online",
       "month": "April",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "defcon-ctf",
@@ -76,7 +82,8 @@
       "location": "Online",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "northsec",
@@ -87,7 +94,8 @@
       "location": "Montreal, Quebec",
       "month": "May",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "google-ctf",
@@ -98,7 +106,8 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "midnight-sun-ctf",
@@ -109,7 +118,8 @@
       "location": "Online",
       "month": "June",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "cyber-apocalypse",
@@ -120,7 +130,8 @@
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "hitcon-ctf",
@@ -131,7 +142,8 @@
       "location": "Online",
       "month": "August",
       "date_added": "2026-06-18",
-      "last_verified": "2026-06-29"
+      "last_verified": "2026-06-29",
+      "type": "event"
     },
     {
       "id": "csaw-ctf",
@@ -142,7 +154,8 @@
       "location": "Online",
       "month": "September",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "cybersci",
@@ -153,7 +166,8 @@
       "location": "Montreal, Quebec",
       "month": "November",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "0ctf",
@@ -164,7 +178,8 @@
       "location": "Online",
       "month": "December",
       "date_added": "2026-06-18",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     }
   ]
 }

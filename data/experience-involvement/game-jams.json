@@ -10,7 +10,8 @@
       "location": "Vancouver, British Columbia",
       "month": "January",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "mcgamejam",
@@ -21,7 +22,8 @@
       "location": "Montreal, Quebec",
       "month": "January",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "chillennium",
@@ -32,29 +34,32 @@
       "location": "College Station, Texas",
       "month": "February",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "behaviour-interactive-game-jam",
       "name": "Behaviour Interactive Game Jam",
       "url": "https://www.eventbrite.ca/o/18734564338",
-      "description": "Game jam hosted by Behaviour Interactive, featuring mentorship and networking opportunities with industry professionals.",
+      "description": "Game jam hosted by Behaviour Interactive, with mentorship and industry networking.",
       "category": "game-jams",
       "location": "Montreal, Quebec",
       "month": "April",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "ubisoft-game-lab-competition",
       "name": "Ubisoft Game Lab Competition",
       "url": "https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition",
-      "description": "A 10-week annual game jam where students build game concepts and compete for over $55,000 in scholarships.",
+      "description": "A 10-week annual game jam where students compete for over $55,000 in scholarships.",
       "category": "game-jams",
       "location": "Montreal, Quebec",
       "month": "April",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "tojam",
@@ -65,40 +70,44 @@
       "location": "Toronto, Ontario",
       "month": "May",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "gmtk-game-jam",
       "name": "GMTK Game Jam",
       "url": "https://gamemakerstoolkit.com/jam",
-      "description": "The largest virtual game jam, with projects highlighted to millions of viewers through the creators YouTube channel.",
+      "description": "The largest virtual game jam, with projects highlighted to millions of YouTube viewers.",
       "category": "game-jams",
       "location": "Online",
       "month": "July",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "algoma-startup-gamejam",
       "name": "Algoma Startup GameJam",
       "url": "https://algomau.ca/immxrsive-game-jam",
-      "description": "An intensive game jam focused on entrepreneurship, run in direct collaboration with Unity industry trainers.",
+      "description": "Intensive game jam focused on entrepreneurship, run with Unity industry trainers.",
       "category": "game-jams",
       "location": "Brampton, Ontario",
       "month": "September",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "gamerella-game-jam",
       "name": "GAMERella Game Jam",
       "url": "https://gamerella.ca",
-      "description": "An over decade old annual game jam focusing on supporting marginalized game creators and aspiring game makers.",
+      "description": "Decade-old annual game jam supporting marginalized game creators and aspiring makers.",
       "category": "game-jams",
       "location": "Montreal, Quebec",
       "month": "November",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "github-game-off",
@@ -109,7 +118,8 @@
       "location": "Online",
       "month": "November",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     },
     {
       "id": "concordia-game-dev-club-jams",
@@ -119,7 +129,8 @@
       "category": "game-jams",
       "location": "Montreal, Quebec",
       "date_added": "2026-06-30",
-      "last_verified": "2026-07-08"
+      "last_verified": "2026-07-11",
+      "type": "event"
     }
   ]
 }

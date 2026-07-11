@@ -8,7 +8,7 @@
       "description": "Concordia game development student club for networking, workshops, and project collaboration.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "club"
     },
     {
@@ -18,17 +18,17 @@
       "description": "Concordia student society for software engineering and computer science students.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "club"
     },
     {
       "id": "space-concordia",
       "name": "Space Concordia",
       "url": "https://www.spaceconcordia.ca",
-      "description": "Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects.",
+      "description": "Concordia student organization for aerospace, robotics, embedded systems, and software.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "club"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Programming community for beginner-friendly coding help, debugging support, and developer discussion.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "discord"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Computer science career community for internships, resumes, interviews, job searching, and career advice.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "discord"
     },
     {
@@ -58,7 +58,7 @@
       "description": "Developer community for programming discussion, project support, collaboration, and career advice.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "discord"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Web development community for code review, collaboration, project feedback, and career support.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "discord"
     },
     {
@@ -78,27 +78,27 @@
       "description": "Large programming community for coding help, software development discussion, and developer support.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "discord"
     },
     {
       "id": "aws-user-group-montreal",
       "name": "AWS User Group Montreal",
       "url": "https://www.meetup.com/montreal-aws-users-united",
-      "description": "Community meetups covering AWS architecture, cloud infrastructure, DevOps, containers, and Infrastructure as Code.",
+      "description": "Community meetups covering AWS architecture, cloud infrastructure, DevOps, and containers.",
       "category": "communities-clubs",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
       "id": "cpp-montreal",
       "name": "C++ Montréal",
       "url": "https://www.meetup.com/cppmtl",
-      "description": "Community dedicated to Modern C++, systems programming, performance optimization, and software architecture.",
+      "description": "Community dedicated to Modern C++, systems programming, and software architecture.",
       "category": "communities-clubs",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -108,7 +108,7 @@
       "description": "Global student hacker community focused on coding projects, workshops, hackathons, and peer learning.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -118,7 +118,7 @@
       "description": "Game development community hosting networking events, technical talks, workshops, and industry meetups.",
       "category": "communities-clubs",
       "date_added": "2026-07-08",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "organization"
     },
     {
@@ -128,7 +128,7 @@
       "description": "Computer science discussions covering algorithms, theory, research, and academia.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -138,7 +138,7 @@
       "description": "Discussions on software engineering careers, internships, resumes, interviews, and job searching.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -148,7 +148,7 @@
       "description": "Cybersecurity news, careers, tools, and security discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -158,7 +158,7 @@
       "description": "Data science careers, analytics, machine learning applications, and industry discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -168,7 +168,7 @@
       "description": "Cloud infrastructure, DevOps, automation, CI/CD, and platform engineering discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -178,7 +178,7 @@
       "description": "Game development discussions covering programming, design, engines, and publishing.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -188,7 +188,7 @@
       "description": "Programming help, learning resources, and beginner-friendly discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -198,7 +198,7 @@
       "description": "Linux news, open-source software, system administration, and operating system discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -208,7 +208,7 @@
       "description": "Machine learning research, papers, projects, and technical discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -218,7 +218,7 @@
       "description": "Technical cybersecurity research, vulnerabilities, exploits, and defensive security.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -228,7 +228,7 @@
       "description": "Programming news, software development discussions, and industry topics.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     },
     {
@@ -238,7 +238,7 @@
       "description": "Quantitative finance careers, interviews, mathematics, and algorithmic trading discussions.",
       "category": "communities-clubs",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-07-11",
       "type": "reddit"
     }
   ]
