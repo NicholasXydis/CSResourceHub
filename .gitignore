@@ -66,6 +66,19 @@ ehthumbs.db
 .env.local
 .env.*.local
 
+# Node / frontend dependencies and caches
+node_modules/
+.vite/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Frontend test and tool output
+coverage/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
 # Logs
 *.log
 logs/
