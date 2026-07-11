@@ -1,8 +1,10 @@
 import sys
 
-from utils import load_all_resources, log
+from utils import SCHEMA_FILE, load_all_resources, load_json, log
 
-MAX_DESCRIPTION_LENGTH = 120
+MAX_DESCRIPTION_LENGTH = load_json(SCHEMA_FILE)["properties"]["description"][
+    "maxLength"
+]
 
 
 def check_descriptions():
