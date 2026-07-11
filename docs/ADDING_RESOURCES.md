@@ -23,11 +23,13 @@ py -3 scripts\add_resource.py
 ## Manual Way
 
 1. Find the correct JSON file in `data/` based on the category
-2. Add your entry following the schema in [SCHEMA.md](./SCHEMA.md)
+2. Add your entry following the schema in [SCHEMA.md](./SCHEMA.md). Resources in the Experience categories (`hackathons`, `ctfs`, `game-jams`, `competitions`) must set `"type": "event"`
 3. Run validation to check your entry
-4. Regenerate derived outputs so README, exports, stats, and EDA charts stay current
+4. Regenerate derived outputs so the README, schema docs, exports, stats, and EDA charts stay current
 5. Run duplicate checks to ensure no duplicates
 6. Commit the source and generated changes, then open a PR
+
+You do not need to touch the frontend. It reads `generated/site.json`, so counts, filters, categories, and collections update themselves once you regenerate. CI fails if the generated files are not committed.
 
 With Make:
 
@@ -43,6 +45,7 @@ Without Make:
 python3 scripts/validate_all.py
 python3 scripts/sort_resources.py
 python3 scripts/generate_readme.py
+python3 scripts/generate_schema_docs.py
 python3 scripts/generate_combined.py
 python3 scripts/generate_site_json.py
 python3 scripts/generate_stats_json.py
@@ -57,6 +60,7 @@ On Windows, if `python3` is not on `PATH`:
 py -3 scripts\validate_all.py
 py -3 scripts\sort_resources.py
 py -3 scripts\generate_readme.py
+py -3 scripts\generate_schema_docs.py
 py -3 scripts\generate_combined.py
 py -3 scripts\generate_site_json.py
 py -3 scripts\generate_stats_json.py

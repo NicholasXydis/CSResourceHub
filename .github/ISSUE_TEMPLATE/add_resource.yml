@@ -27,7 +27,7 @@ body:
     id: type
     attributes:
       label: Type
-      description: Optional. Use only a type allowed for the selected category.
+      description: Optional, except for Experience categories (hackathons, ctfs, game-jams, competitions) which must use `event`. Use only a type allowed for the category; see docs/SCHEMA.md.
       placeholder: e.g. course
     validations:
       required: false

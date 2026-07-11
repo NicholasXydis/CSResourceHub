@@ -7,7 +7,8 @@ What resource(s) does this PR add or change?
 - [ ] I have read [CONTRIBUTING.md](../CONTRIBUTING.md)
 - [ ] I have read [STYLE_GUIDE.md](../docs/STYLE_GUIDE.md)
 - [ ] My entry follows the schema in `schema/resource.schema.json`
-- [ ] If I included `type`, it is allowed for that resource category
+- [ ] If I included `type`, it is allowed for that resource category (Experience categories require `type: "event"`)
+- [ ] If I changed anything in `src/`, I ran `npm run check` and it passed
 - [ ] I ran `make validate` or the direct command from `docs/ADDING_RESOURCES.md` and it passed
 - [ ] I ran `make generate` or the direct commands from `docs/ADDING_RESOURCES.md` and committed any generated changes
 - [ ] I ran `make check-duplicates` and it passed
