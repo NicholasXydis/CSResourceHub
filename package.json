@@ -14,8 +14,7 @@
     "typecheck": "tsc --noEmit",
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"e2e/**/*.ts\" \"*.{ts,js,json}\" index.html",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"e2e/**/*.ts\" \"*.{ts,js,json}\" index.html",
-    "check": "npm run format:check && npm run lint && npm run lint:css && npm run typecheck && npm run test && npm run build",
-    "generate:favicons": "node scripts/generate_favicons.mjs"
+    "check": "npm run format:check && npm run lint && npm run lint:css && npm run typecheck && npm run test && npm run build"
   },
   "dependencies": {
     "country-flag-icons": "^1.6.20",
@@ -30,6 +29,7 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^4.6.0",
@@ -37,11 +37,10 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.3",
     "globals": "^17.7.0",
+    "jiti": "^2.7.0",
     "jsdom": "^29.1.1",
     "playwright-core": "^1.61.1",
-    "png-to-ico": "^3.0.2",
     "prettier": "^3.9.5",
-    "sharp": "^0.35.3",
     "stylelint": "^17.14.0",
     "stylelint-config-standard": "^40.0.0",
     "typescript": "^6.0.3",
