@@ -9,9 +9,31 @@ const SITE_JSON = fileURLToPath(
   new URL("./generated/site.json", import.meta.url),
 );
 
+const SITE_URL = "https://csresourcehub.pages.dev";
+
 interface SiteMetadata {
+  generated: string;
   total: number;
   labels: Record<string, string>;
+}
+
+function structuredData(site: SiteMetadata): string {
+  const description = `A curated directory of ${site.total} useful resources across ${Object.keys(site.labels).length} categories for Canadian computer science students.`;
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "CS Resource Hub",
+    url: `${SITE_URL}/`,
+    description,
+    inLanguage: "en-CA",
+    dateModified: site.generated,
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    mainEntity: {
+      "@type": "ItemList",
+      name: "Canadian computer science student resources",
+      numberOfItems: site.total,
+    },
+  });
 }
 
 function siteMetadata(): Plugin {
@@ -20,17 +42,22 @@ function siteMetadata(): Plugin {
     transformIndexHtml: {
       order: "pre",
       handler(html: string) {
-        const { total, labels } = JSON.parse(
+        const site = JSON.parse(
           readFileSync(SITE_JSON, "utf8"),
         ) as Partial<SiteMetadata>;
-        if (!labels || typeof total !== "number") {
+        if (!site.labels || typeof site.total !== "number" || !site.generated) {
           throw new Error(
-            "generated/site.json is missing labels/total. Run: py scripts/generate_site_json.py",
+            "generated/site.json is missing labels/total/generated. Run: py scripts/generate_site_json.py",
           );
         }
         return html
-          .replaceAll("%RESOURCE_TOTAL%", String(total))
-          .replaceAll("%CATEGORY_TOTAL%", String(Object.keys(labels).length));
+          .replaceAll("%RESOURCE_TOTAL%", String(site.total))
+          .replaceAll(
+            "%CATEGORY_TOTAL%",
+            String(Object.keys(site.labels).length),
+          )
+          .replaceAll("%SITE_URL%", SITE_URL)
+          .replaceAll("%JSON_LD%", structuredData(site as SiteMetadata));
       },
     },
   };

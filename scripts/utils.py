@@ -49,6 +49,15 @@ CATEGORY_GROUPS = {
     ],
 }
 
+PUBLIC_DIR = ROOT / "public"
+REPO_SLUG = "NicholasXydis/CSResourceHub"
+REPO_URL = f"https://github.com/{REPO_SLUG}"
+SITE_URL = "https://csresourcehub.pages.dev"
+SITE_NAME = "CS Resource Hub"
+SITE_TAGLINE = (
+    "A curated directory of resources for Canadian computer science students."
+)
+
 EVENT_TYPE = "event"
 EVENT_CATEGORIES = frozenset(CATEGORY_GROUPS["Experience"])
 

@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUFF ?= $(PYTHON) -m ruff
 
-.PHONY: validate generate lint stats add check-links check-favicons check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls eda-report help
+.PHONY: validate generate lint stats add check-links check-favicons check-stale check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls eda-report help
 
 validate:
 	$(PYTHON) scripts/validate_all.py
@@ -10,6 +10,10 @@ generate:
 	$(PYTHON) scripts/sort_resources.py
 	$(PYTHON) scripts/generate_readme.py
 	$(PYTHON) scripts/generate_schema_docs.py
+	$(PYTHON) scripts/generate_citation.py
+	$(PYTHON) scripts/generate_sitemap.py
+	$(PYTHON) scripts/generate_feed.py
+	$(PYTHON) scripts/generate_og_image.py
 	$(PYTHON) scripts/generate_combined.py
 	$(PYTHON) scripts/generate_site_json.py
 	$(PYTHON) scripts/generate_stats_json.py
@@ -31,6 +35,9 @@ check-links:
 
 check-favicons:
 	$(PYTHON) scripts/check_favicons.py
+
+check-stale:
+	$(PYTHON) scripts/check_stale.py
 
 check-duplicates:
 	$(PYTHON) scripts/check_duplicates.py
@@ -67,6 +74,7 @@ help:
 	@echo "add             - Interactive CLI to add a new resource"
 	@echo "check-links     - Check all URLs for dead links"
 	@echo "check-favicons  - Probe resource domains and regenerate favicons.json"
+	@echo "check-stale     - Flag resources not verified recently"
 	@echo "check-duplicates - Check for duplicate URLs"
 	@echo "check-locations - Validate location values"
 	@echo "sort            - Sort resources alphabetically by name"
