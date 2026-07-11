@@ -1,0 +1,6 @@
+# Prettier owns the frontend only. The Python pipeline owns the formatting of
+# data/, generated/, and the generated README, enforced by scripts/lint_json.py.
+dist/
+node_modules/
+generated/
+package-lock.json

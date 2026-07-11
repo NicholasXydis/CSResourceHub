@@ -78,6 +78,10 @@ coverage/
 .eslintcache
 .stylelintcache
 *.tsbuildinfo
+playwright-report/
+test-results/
+blob-report/
+.playwright/
 
 # Logs
 *.log
