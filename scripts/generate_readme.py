@@ -81,10 +81,7 @@ def shield(label: str, message: str, color: str) -> str:
 
 
 def ci_badge() -> str:
-    badge = (
-        f"https://img.shields.io/github/check-runs/{REPO_SLUG}/main"
-        "?label=ci&color=2563eb"
-    )
+    badge = f"https://img.shields.io/github/check-runs/{REPO_SLUG}/main?label=ci"
     return f"[![ci]({badge})]({REPO_URL}/actions)"
 
 
@@ -100,14 +97,6 @@ def license_badge() -> str:
     badge = f"https://img.shields.io/github/license/{REPO_SLUG}?color=0ea5e9"
     return f"[![license]({badge})]({REPO_URL}/blob/main/LICENSE)"
 
-
-def scorecard_badge() -> str:
-    badge = (
-        "https://api.scorecard.dev/projects/github.com/"
-        f"{REPO_SLUG}/badge"
-    )
-    target = f"https://scorecard.dev/viewer/?uri=github.com/{REPO_SLUG}"
-    return f"[![openssf scorecard]({badge})]({target})"
 
 
 def count_badge(count: int) -> str:
@@ -198,7 +187,6 @@ def generate_readme():
         ci_badge(),
         last_commit_badge(),
         license_badge(),
-        scorecard_badge(),
         shield("contributions", "welcome", "f59e0b"),
     ]
     lines.append(" ".join(badges))
