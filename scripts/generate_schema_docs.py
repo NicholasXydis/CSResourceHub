@@ -28,13 +28,29 @@ FIELD_DOCS = {
 }
 
 
+def markdown_table(headers: list[str], rows: list[list[str]]) -> list[str]:
+    widths = [
+        max(len(headers[column]), *(len(row[column]) for row in rows))
+        if rows
+        else len(headers[column])
+        for column in range(len(headers))
+    ]
+    header = "| " + " | ".join(h.ljust(w) for h, w in zip(headers, widths)) + " |"
+    divider = "| " + " | ".join("-" * w for w in widths) + " |"
+    body = [
+        "| " + " | ".join(cell.ljust(w) for cell, w in zip(row, widths)) + " |"
+        for row in rows
+    ]
+    return [header, divider, *body]
+
+
 def field_rows(schema: dict, fields: list[str]) -> list[str]:
-    rows = ["| Field | Type | Description | Example |", "| --- | --- | --- | --- |"]
+    rows = []
     for field in fields:
         json_type = schema["properties"][field]["type"]
         description, example = FIELD_DOCS[field]
-        rows.append(f"| `{field}` | {json_type} | {description} | `{example}` |")
-    return rows
+        rows.append([f"`{field}`", json_type, description, f"`{example}`"])
+    return markdown_table(["Field", "Type", "Description", "Example"], rows)
 
 
 def generate_schema_docs() -> None:
@@ -80,14 +96,14 @@ def generate_schema_docs() -> None:
         "`type` is optional for every category, but when it is set it must come from "
         "the list below. Anything else fails validation in `scripts/check_types.py`.",
         "",
-        "| Category | Allowed `type` values |",
-        "| --- | --- |",
     ]
 
+    type_rows = []
     for category in CATEGORY_LABELS:
         allowed = ALLOWED_TYPES_BY_CATEGORY.get(category, set())
         values = ", ".join(f"`{value}`" for value in sorted(allowed)) or "--"
-        lines.append(f"| `{category}` | {values} |")
+        type_rows.append([f"`{category}`", values])
+    lines += markdown_table(["Category", "Allowed `type` values"], type_rows)
 
     experience = ", ".join(f"`{category}`" for category in sorted(EVENT_CATEGORIES))
     lines += [

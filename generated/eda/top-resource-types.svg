@@ -194,7 +194,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_11">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="63.392018" transform="rotate(-0 69.378125 63.392018)">missing</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="63.391627" transform="rotate(-0 69.378125 63.391627)">event</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -304,7 +304,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_22">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="285.286285" transform="rotate(-0 69.378125 285.286285)">conference</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="285.286285" transform="rotate(-0 69.378125 285.286285)">inspiration</text>
      </g>
     </g>
     <g id="ytick_13">
@@ -314,7 +314,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_23">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="305.458492" transform="rotate(-0 69.378125 305.458492)">discounts</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="305.458492" transform="rotate(-0 69.378125 305.458492)">conference</text>
      </g>
     </g>
     <g id="ytick_14">
@@ -324,7 +324,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_24">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="325.630698" transform="rotate(-0 69.378125 325.630698)">video</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="325.630698" transform="rotate(-0 69.378125 325.630698)">discounts</text>
      </g>
     </g>
     <g id="ytick_15">
@@ -334,7 +334,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_25">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="345.802904" transform="rotate(-0 69.378125 345.802904)">frontend</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="345.802904" transform="rotate(-0 69.378125 345.802904)">video</text>
      </g>
     </g>
    </g>
@@ -428,8 +428,8 @@ z
    </g>
    <g id="patch_14">
     <path d="M 76.378125 273.418184
-L 150.182352 273.418184
-L 150.182352 289.555949
+L 159.40788 273.418184
+L 159.40788 289.555949
 L 76.378125 289.555949
 z
 " clip-path="url(#paa78360435)" style="fill: #7c3aed; opacity: 0.92"/>
@@ -452,8 +452,8 @@ z
    </g>
    <g id="patch_17">
     <path d="M 76.378125 333.934803
-L 140.956824 333.934803
-L 140.956824 350.072567
+L 150.182352 333.934803
+L 150.182352 350.072567
 L 76.378125 350.072567
 z
 " clip-path="url(#paa78360435)" style="fill: #7c3aed; opacity: 0.92"/>
@@ -505,7 +505,7 @@ L 739.878125 365
     <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="169.70357" y="263.652751" transform="rotate(-0 169.70357 263.652751)">9</text>
    </g>
    <g id="text_38">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="160.478042" y="283.824957" transform="rotate(-0 160.478042 283.824957)">8</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="169.70357" y="283.824957" transform="rotate(-0 169.70357 283.824957)">9</text>
    </g>
    <g id="text_39">
     <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="160.478042" y="303.997163" transform="rotate(-0 160.478042 303.997163)">8</text>
@@ -514,7 +514,7 @@ L 739.878125 365
     <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="160.478042" y="324.16937" transform="rotate(-0 160.478042 324.16937)">8</text>
    </g>
    <g id="text_41">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="151.252513" y="344.341576" transform="rotate(-0 151.252513 344.341576)">7</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="160.478042" y="344.341576" transform="rotate(-0 160.478042 344.341576)">8</text>
    </g>
    <g id="text_42">
     <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="76.378125" y="18.596484" transform="rotate(-0 76.378125 18.596484)">Top Resource Types</text>

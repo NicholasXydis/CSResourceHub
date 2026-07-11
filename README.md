@@ -18,6 +18,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" alt="JSON Schema" width="52" height="52">
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="52" height="52">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="52" height="52">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="52" height="52">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" width="52" height="52">
 </p>
 
 <p align="center">
@@ -92,32 +98,32 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | Resource | Description | Type |
 | --- | --- | --- |
 | [A Tour of C++](https://www.stroustrup.com/tour3.html) | Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices. | Book |
-| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | Leading networking textbook covering the Internet, TCP/IP, HTTP, DNS, routing, wireless networking, and security. | Book |
-| [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu) | Comprehensive systems book covering C, architecture, assembly, memory, linking, concurrency, and performance. | Book |
-| [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330) | Deep dive into database storage engines, distributed systems, replication, partitioning, and transactions. | Book |
-| [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, reliability, and modern backend architecture. | Book |
-| [Game Engine Architecture](https://www.gameenginebook.com) | Comprehensive guide to game engine systems, architecture, tools, rendering, animation, physics, and runtime design. | Book |
-| [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly introduction to algorithms and data structures with visual explanations and practical examples. | Book |
+| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | Leading networking textbook covering TCP/IP, HTTP, DNS, routing, wireless, and security. | Book |
+| [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu) | Systems book covering C, architecture, assembly, memory, linking, and concurrency. | Book |
+| [Database Internals](https://www.oreilly.com/library/view/database-internals/9781492040330) | Deep dive into database storage engines, replication, partitioning, and transactions. | Book |
+| [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, and reliability. | Book |
+| [Game Engine Architecture](https://www.gameenginebook.com) | Guide to game engine systems, tools, rendering, animation, physics, and runtime design. | Book |
+| [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly intro to algorithms and data structures with visual explanations. | Book |
 | [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867) | Classic book covering probability, brainteasers, and quantitative finance concepts. | Book |
-| [How Linux Works](https://nostarch.com/howlinuxworks3) | Practical guide to Linux internals, boot, storage, networking, shell tools, processes, and system administration. | Book |
+| [How Linux Works](https://nostarch.com/howlinuxworks3) | Practical guide to Linux internals, boot, storage, networking, shell tools, and processes. | Book |
 | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. | Book |
-| [Real-World Cryptography](https://www.manning.com/books/real-world-cryptography) | Practical cryptography book covering protocols, encryption, signatures, key exchange, certificates, and common pitfalls. | Book |
-| [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, file systems, and essential command-line tools. | Book |
-| [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical programming techniques, best practices, and professional growth. | Book |
-| [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, web development, and CS fundamentals. | Course |
-| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, Git, APIs, AI, and projects. | Course |
-| [Full Stack Open](https://fullstackopen.com/en) | A modern full-stack web development course covering React, Node.js, GraphQL, TypeScript, testing, CI/CD, and deployment. | Course |
+| [Real-World Cryptography](https://www.manning.com/books/real-world-cryptography) | Practical cryptography book covering protocols, encryption, signatures, and key exchange. | Book |
+| [The Linux Command Line](https://linuxcommand.org/tlcl.php) | Comprehensive guide to the Linux command line, shell scripting, and file systems. | Book |
+| [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | Classic software engineering book covering practical techniques and best practices. | Book |
+| [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x) | Harvard's intro CS course covering programming, algorithms, data structures, and web development. | Course |
+| [freeCodeCamp](https://www.freecodecamp.org) | Free interactive platform covering programming, web development, Python, databases, and Git. | Course |
+| [Full Stack Open](https://fullstackopen.com/en) | Modern full-stack course covering React, Node.js, GraphQL, TypeScript, testing, and CI/CD. | Course |
 | [GameDev.tv](https://www.gamedev.tv) | Game development courses covering Unity, Unreal Engine, C++, and C#. | Course |
-| [Hack The Box Academy](https://academy.hackthebox.com) | Advanced cybersecurity platform with guided modules on pentesting, red teaming, Active Directory, Linux, and Windows. | Course |
+| [Hack The Box Academy](https://academy.hackthebox.com) | Cybersecurity platform with guided modules on pentesting, red teaming, and Active Directory. | Course |
 | [KodeKloud](https://kodekloud.com) | Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies. | Course |
-| [Linux Journey](https://linuxjourney.com) | Interactive platform teaching Linux fundamentals, command line usage, permissions, networking, and administration. | Course |
-| [Microsoft Learn](https://learn.microsoft.com) | Official Microsoft learning platform covering C#, .NET, Azure, PowerShell, Visual Studio, GitHub, and related tools. | Course |
-| [OSSU Computer Science](https://github.com/ossu/computer-science) | A complete self-taught computer science curriculum using high-quality free online courses from leading universities. | Course |
+| [Linux Journey](https://linuxjourney.com) | Interactive platform teaching Linux fundamentals, command line, permissions, and networking. | Course |
+| [Microsoft Learn](https://learn.microsoft.com) | Official Microsoft platform covering C#, .NET, Azure, PowerShell, Visual Studio, and GitHub. | Course |
+| [OSSU Computer Science](https://github.com/ossu/computer-science) | Complete self-taught CS curriculum using free online courses from leading universities. | Course |
 | [SQLBolt](https://sqlbolt.com) | Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries. | Course |
-| [TryHackMe](https://tryhackme.com) | Hands-on cybersecurity platform covering networking, Linux, penetration testing, web security, forensics, and defense. | Course |
-| [Hacker News](https://news.ycombinator.com) | Community-driven technology news and discussions about software engineering, startups, CS, and programming. | News |
-| [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com) | Engineering newsletter covering software development, big tech, system design, leadership, and industry trends. | News |
-| [TLDR Newsletter](https://tldr.tech) | Daily newsletter delivering concise summaries of software engineering, AI, cybersecurity, startups, and technology news. | News |
+| [TryHackMe](https://tryhackme.com) | Hands-on cybersecurity platform covering networking, Linux, penetration testing, and forensics. | Course |
+| [Hacker News](https://news.ycombinator.com) | Community-driven tech news and discussions about software engineering, startups, and CS. | News |
+| [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com) | Engineering newsletter covering software development, big tech, system design, and trends. | News |
+| [TLDR Newsletter](https://tldr.tech) | Daily newsletter with concise summaries of software engineering, AI, and technology news. | News |
 | [Awesome](https://github.com/sindresorhus/awesome) | Curated index of high-quality software, tools, libraries, and learning resources. | Reference |
 | [Awesome Docker](https://github.com/veggiemonk/awesome-docker) | Curated Docker tools, tutorials, images, and best practices. | Reference |
 | [Bash Cheat Sheet](https://devhints.io/bash) | Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands. | Reference |
@@ -129,27 +135,27 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | MDN reference explaining all standard HTTP response status codes with definitions and usage. | Reference |
 | [Linux Command Library](https://linuxcommandlibrary.com) | Searchable reference for Linux commands, options, examples, and manual pages. | Reference |
 | [Linux Commands Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) | Official Red Hat reference for essential Linux commands used in development and system administration. | Reference |
-| [MDN Web Docs](https://developer.mozilla.org) | The definitive reference for HTML, CSS, JavaScript, Web APIs, and modern web development maintained by Mozilla. | Reference |
+| [MDN Web Docs](https://developer.mozilla.org) | The definitive reference for HTML, CSS, JavaScript, and Web APIs, maintained by Mozilla. | Reference |
 | [OWASP Top 10 Cheat Sheets](https://cheatsheetseries.owasp.org/IndexTopTen.html) | Security implementation guides mapped to common web application risks. | Reference |
 | [PowerShell Cheat Sheet](https://ss64.com/ps) | Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration. | Reference |
-| [Compiler Explorer (Godbolt)](https://godbolt.org) | Interactive compiler explorer showing generated assembly, compiler optimizations, and output for many languages. | Tool |
-| [CPUlator](https://cpulator.01xz.net) | Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, assembly language, architecture, and systems. | Tool |
-| [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git commands, branching, merging, rebasing, and version control workflows. | Tool |
+| [Compiler Explorer (Godbolt)](https://godbolt.org) | Interactive explorer showing generated assembly and compiler optimizations for many languages. | Tool |
+| [CPUlator](https://cpulator.01xz.net) | Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, and assembly language. | Tool |
+| [Learn Git Branching](https://learngitbranching.js.org) | Interactive visual tutorial for learning Git branching, merging, rebasing, and workflows. | Tool |
 | [OEIS](https://oeis.org) | Searchable database of integer sequences for math, algorithms, and competitive programming. | Tool |
-| [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting, searching, graphs, trees, and heaps. | Tool |
-| [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, backend engineering, and design concepts. | Video |
-| [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, operating systems, and programming concepts. | Video |
-| [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, programming languages, and modern tech. | Video |
-| [Hussein Nasser](https://www.youtube.com/@hnasr) | Backend engineering channel covering databases, APIs, HTTP, networking, distributed systems, and architecture. | Video |
-| [LiveOverflow](https://www.youtube.com/@LiveOverflow) | Cybersecurity channel covering reverse engineering, binary exploitation, web security, CTFs, and exploit development. | Video |
-| [Low Level](https://www.youtube.com/LowLevelLearning) | Systems programming channel covering Linux, operating systems, reverse engineering, malware, and low-level computing. | Video |
-| [The Cherno](https://www.youtube.com/@TheCherno) | High-quality C++ programming channel covering modern C++, game engine development, graphics, and systems programming. | Video |
-| [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) | Educational channel with lessons in calculus, linear algebra, statistics, discrete math, physics, and STEM subjects. | Video |
+| [VisuAlgo](https://visualgo.net) | Interactive visualizations for algorithms and data structures including sorting and graphs. | Tool |
+| [ByteByteGo](https://www.youtube.com/@ByteByteGo) | System design channel covering scalable architecture, distributed systems, and backend. | Video |
+| [Computerphile](https://www.youtube.com/@Computerphile) | Educational channel covering algorithms, cryptography, AI, networking, and operating systems. | Video |
+| [Fireship](https://www.youtube.com/@Fireship) | Software engineering channel covering web development, cloud, AI, DevOps, and modern tech. | Video |
+| [Hussein Nasser](https://www.youtube.com/@hnasr) | Backend engineering channel covering databases, APIs, HTTP, networking, and architecture. | Video |
+| [LiveOverflow](https://www.youtube.com/@LiveOverflow) | Cybersecurity channel covering reverse engineering, binary exploitation, and web security. | Video |
+| [Low Level](https://www.youtube.com/LowLevelLearning) | Systems programming channel covering Linux, operating systems, and reverse engineering. | Video |
+| [The Cherno](https://www.youtube.com/@TheCherno) | C++ channel covering modern C++, game engine development, graphics, and systems programming. | Video |
+| [The Organic Chemistry Tutor](https://www.youtube.com/@TheOrganicChemistryTutor) | Educational channel with lessons in calculus, linear algebra, statistics, and physics. | Video |
 | [LearnCpp](https://www.learncpp.com) | Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics. | Website |
 | [LearnOpenGL](https://learnopengl.com) | Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals. | Website |
 | [Real Python](https://realpython.com) | High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics. | Website |
-| [Refactoring.Guru](https://refactoring.guru) | Comprehensive resource for learning design patterns, refactoring, object-oriented design, and clean architecture. | Website |
-| [roadmap.sh](https://roadmap.sh) | Community-driven learning roadmaps for software engineering, programming, DevOps, cybersecurity, AI, and system design. | Website |
+| [Refactoring.Guru](https://refactoring.guru) | Resource for learning design patterns, refactoring, and object-oriented design. | Website |
+| [roadmap.sh](https://roadmap.sh) | Community-driven learning roadmaps for software engineering, DevOps, and cybersecurity. | Website |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -161,29 +167,29 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 
 | Resource | Description | Type |
 | --- | --- | --- |
-| [Cracking the Coding Interview](https://www.crackingthecodinginterview.com) | Classic interview preparation book covering coding questions, technical concepts, and interview strategies. | Book |
+| [Cracking the Coding Interview](https://www.crackingthecodinginterview.com) | Classic interview prep book covering coding questions, concepts, and interview strategies. | Book |
 | [Elements of Programming Interviews](https://elementsofprogramminginterviews.com) | Comprehensive interview preparation book featuring advanced coding problems and detailed solutions. | Book |
 | [ByteByteGo System Design](https://bytebytego.com) | System design interview platform featuring books, courses, and real-world architecture case studies. | Course |
-| [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview) | Pattern-based coding interview course teaching common algorithmic approaches used in technical interviews. | Course |
-| [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview) | Popular course teaching object-oriented design concepts commonly tested in software engineering interviews. | Course |
-| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | Complete self-study roadmap covering data structures, algorithms, systems, networking, databases, and interview prep. | Guide |
+| [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview) | Pattern-based course teaching common algorithmic approaches used in coding interviews. | Course |
+| [Grokking the Object-Oriented Design Interview](https://www.designgurus.io/course/grokking-the-object-oriented-design-interview) | Course teaching object-oriented design concepts tested in software engineering interviews. | Course |
+| [Coding Interview University](https://github.com/jwasham/coding-interview-university) | Self-study roadmap covering data structures, algorithms, systems, databases, and interviews. | Guide |
 | [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) | Popular LaTeX resume template widely used by computer science students and software engineers. | Guide |
-| [System Design Primer](https://github.com/donnemartin/system-design-primer) | Comprehensive open-source guide to system design interviews covering scalability, databases, caching, and architecture. | Guide |
-| [Tech Interview Handbook](https://www.techinterviewhandbook.org) | Comprehensive guide covering coding, behavioral, system design, resume, and interview preparation strategies. | Guide |
+| [System Design Primer](https://github.com/donnemartin/system-design-primer) | Open-source guide to system design interviews covering scalability, databases, and caching. | Guide |
+| [Tech Interview Handbook](https://www.techinterviewhandbook.org) | Guide covering coding, behavioral, system design, resume, and interview preparation. | Guide |
 | [Codeforces](https://codeforces.com) | Competitive programming platform with contests and algorithmic problems for technical interview practice. | Platform |
 | [CodeSignal](https://codesignal.com) | Technical assessment platform widely used by companies for coding screenings and online assessments. | Platform |
 | [Codewars](https://www.codewars.com) | Programming challenge platform for improving coding skills through community-created problems. | Platform |
 | [Codility](https://www.codility.com) | Technical assessment platform used by employers to evaluate coding, algorithm, and programming skills. | Platform |
-| [DesignGurus](https://www.designgurus.io) | Interview preparation platform for system design, coding interviews, object-oriented design, and behavioral prep. | Platform |
-| [Exponent](https://www.tryexponent.com) | Platform for behavioral, system design, and technical interview preparation with expert guidance and mock interviews. | Platform |
-| [HackerRank](https://www.hackerrank.com) | Coding interview and online assessment platform covering programming, SQL, AI, and technical hiring challenges. | Platform |
-| [Hello Interview](https://www.hellointerview.com) | Interview preparation platform focused on system design, coding interviews, and technical interview strategies. | Platform |
-| [Interview Query](https://www.interviewquery.com) | Interview preparation platform specializing in SQL, data science, analytics, and machine learning interviews. | Platform |
-| [interviewing.io](https://interviewing.io) | Anonymous mock technical interviews with experienced software engineers from leading technology companies. | Platform |
-| [LeetCode](https://leetcode.com) | Leading coding interview platform with thousands of algorithm, data structure, SQL, and system design problems. | Platform |
-| [NeetCode](https://neetcode.io) | Structured coding interview platform featuring curated roadmaps, problem lists, video explanations, and practice plans. | Platform |
+| [DesignGurus](https://www.designgurus.io) | Interview prep platform for system design, coding, object-oriented design, and behavioral. | Platform |
+| [Exponent](https://www.tryexponent.com) | Platform for behavioral, system design, and technical interview prep with mock interviews. | Platform |
+| [HackerRank](https://www.hackerrank.com) | Coding interview and assessment platform covering programming, SQL, and hiring challenges. | Platform |
+| [Hello Interview](https://www.hellointerview.com) | Interview prep platform focused on system design, coding, and interview strategies. | Platform |
+| [Interview Query](https://www.interviewquery.com) | Interview prep platform specializing in SQL, data science, analytics, and ML interviews. | Platform |
+| [interviewing.io](https://interviewing.io) | Anonymous mock technical interviews with engineers from leading technology companies. | Platform |
+| [LeetCode](https://leetcode.com) | Leading coding interview platform with algorithm, data structure, SQL, and design problems. | Platform |
+| [NeetCode](https://neetcode.io) | Coding interview platform with curated roadmaps, problem lists, and video explanations. | Platform |
 | [Pramp](https://www.pramp.com) | Free peer-to-peer mock interview platform for coding and technical interview practice. | Platform |
-| [QuantGuide](https://www.quantguide.io) | Quant finance interview prep covering probability, statistics, mathematics, programming, and trading interviews. | Platform |
+| [QuantGuide](https://www.quantguide.io) | Quant finance interview prep covering probability, statistics, mathematics, and trading. | Platform |
 | [Overleaf](https://www.overleaf.com) | Online LaTeX editor for creating professional resumes, CVs, and technical documents. | Tool |
 | [Resume Worded](https://resumeworded.com) | AI-powered resume and LinkedIn reviewer providing feedback to improve interview chances. | Tool |
 
@@ -199,14 +205,14 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | --- | --- | --- |
 | [Concordia Game Development Club](https://www.concordiagamedev.ca) | Concordia game development student club for networking, workshops, and project collaboration. | Club |
 | [SCS Concordia](https://scsconcordia.com) | Concordia student society for software engineering and computer science students. | Club |
-| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, software, and engineering projects. | Club |
+| [Space Concordia](https://www.spaceconcordia.ca) | Concordia student organization for aerospace, robotics, embedded systems, and software. | Club |
 | [CodeSupport](https://codesupport.dev) | Programming community for beginner-friendly coding help, debugging support, and developer discussion. | Discord |
 | [CS Careers Discord](https://discord.gg/cscareers) | Computer science career community for internships, resumes, interviews, job searching, and career advice. | Discord |
 | [DevCord](https://discord.gg/devcord) | Developer community for programming discussion, project support, collaboration, and career advice. | Discord |
 | [The Odin Project](https://www.theodinproject.com/discord) | Web development community for code review, collaboration, project feedback, and career support. | Discord |
 | [The Programmer's Hangout](https://discord.gg/programming) | Large programming community for coding help, software development discussion, and developer support. | Discord |
-| [AWS User Group Montreal](https://www.meetup.com/montreal-aws-users-united) | Community meetups covering AWS architecture, cloud infrastructure, DevOps, containers, and Infrastructure as Code. | Organization |
-| [C++ Montréal](https://www.meetup.com/cppmtl) | Community dedicated to Modern C++, systems programming, performance optimization, and software architecture. | Organization |
+| [AWS User Group Montreal](https://www.meetup.com/montreal-aws-users-united) | Community meetups covering AWS architecture, cloud infrastructure, DevOps, and containers. | Organization |
+| [C++ Montréal](https://www.meetup.com/cppmtl) | Community dedicated to Modern C++, systems programming, and software architecture. | Organization |
 | [Hack Club](https://hackclub.com/slack) | Global student hacker community focused on coding projects, workshops, hackathons, and peer learning. | Organization |
 | [Montréal Game Developers](https://www.meetup.com/montreal-game-development-meetup-group) | Game development community hosting networking events, technical talks, workshops, and industry meetups. | Organization |
 | [r/compsci](https://www.reddit.com/r/compsci) | Computer science discussions covering algorithms, theory, research, and academia. | Reddit |
@@ -297,12 +303,12 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | [Global Game Jam Vancouver](https://ggjvancouver.ca) | A western Canadian Global Game Jam hub backed and mentored by Vancouver game studios. | January | Vancouver, British Columbia |
 | [McGameJam](https://www.mcgamejam.ca) | Quebec's largest game jam, hosted by McGill University featuring various industry sponsors. | January | Montreal, Quebec |
 | [Chillennium Game Jam](https://chillennium.com) | The largest student-run collegiate game jam in the world, featuring various major industry sponsors. | February | College Station, Texas |
-| [Behaviour Interactive Game Jam](https://www.eventbrite.ca/o/18734564338) | Game jam hosted by Behaviour Interactive, featuring mentorship and networking opportunities with industry professionals. | April | Montreal, Quebec |
-| [Ubisoft Game Lab Competition](https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition) | A 10-week annual game jam where students build game concepts and compete for over $55,000 in scholarships. | April | Montreal, Quebec |
+| [Behaviour Interactive Game Jam](https://www.eventbrite.ca/o/18734564338) | Game jam hosted by Behaviour Interactive, with mentorship and industry networking. | April | Montreal, Quebec |
+| [Ubisoft Game Lab Competition](https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition) | A 10-week annual game jam where students compete for over $55,000 in scholarships. | April | Montreal, Quebec |
 | [TOJam (Toronto Game Jam)](https://www.tojam.ca) | One of Canada's longest-running game jams, attracting student developers and industry professionals. | May | Toronto, Ontario |
-| [GMTK Game Jam](https://gamemakerstoolkit.com/jam) | The largest virtual game jam, with projects highlighted to millions of viewers through the creators YouTube channel. | July | Online |
-| [Algoma Startup GameJam](https://algomau.ca/immxrsive-game-jam) | An intensive game jam focused on entrepreneurship, run in direct collaboration with Unity industry trainers. | September | Brampton, Ontario |
-| [GAMERella Game Jam](https://gamerella.ca) | An over decade old annual game jam focusing on supporting marginalized game creators and aspiring game makers. | November | Montreal, Quebec |
+| [GMTK Game Jam](https://gamemakerstoolkit.com/jam) | The largest virtual game jam, with projects highlighted to millions of YouTube viewers. | July | Online |
+| [Algoma Startup GameJam](https://algomau.ca/immxrsive-game-jam) | Intensive game jam focused on entrepreneurship, run with Unity industry trainers. | September | Brampton, Ontario |
+| [GAMERella Game Jam](https://gamerella.ca) | Decade-old annual game jam supporting marginalized game creators and aspiring makers. | November | Montreal, Quebec |
 | [GitHub Game Off](https://github.com/topics/game-off) | GitHub's annual month-long game jam celebrating open-source development. | November | Online |
 | [Concordia Game Development Club Jams](https://www.concordiagamedev.ca/events) | Concordia's Game Development Club game jams, with new themes every year. | Ongoing | Montreal, Quebec |
 
@@ -318,18 +324,18 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | --- | --- | --- | --- |
 | [Battlecode](https://battlecode.org) | MIT real-time strategy AI programming tournament competing for a $20,000+ prize pool. | January | Online |
 | [Coveo Blitz](https://2026.blitz.codes) | AI bot competition by Coveo, where teams build intelligent bots and compete for cash prizes. | January | Montreal, Quebec |
-| [Reply Code Challenge](https://challenges.reply.com) | Global multi-track competition featuring 6-hour team sprints across algorithms, cybersecurity, and AI agents. | March | Online |
-| [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Three-stage global quantitative modeling tournament competing for a $100,000 prize pool and internship opportunities. | March | Online |
-| [Canadian Team Programming Competition](https://www.ctpc.ca) | National synchronized data structure sprint focused on university pride and corporate sponsor recruiting loops. | April | Online |
-| [Lan ETS](https://lanets.ca) | North America's largest student-run LAN party, with gaming competitions, cash prizes, and industry sponsorships. | May | Montreal, Quebec |
+| [Reply Code Challenge](https://challenges.reply.com) | Global competition with 6-hour team sprints across algorithms, cybersecurity, and AI. | March | Online |
+| [WorldQuant International Quant Championship](https://www.worldquant.com/brain/iqc) | Global quantitative modeling tournament with a $100,000 prize pool and internships. | March | Online |
+| [Canadian Team Programming Competition](https://www.ctpc.ca) | National data structure sprint with university pride and corporate sponsor recruiting. | April | Online |
+| [Lan ETS](https://lanets.ca) | North America's largest student-run LAN party, with gaming competitions and cash prizes. | May | Montreal, Quebec |
 | [JDIS Games](https://jdis.ca) | Autonomous AI agent optimization tournament at UdeS competing for sponsor-backed cash and tech gear. | July | Sherbrooke, Quebec |
-| [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921) | Virtual trading challenge by Akuna Capital, for students interested in breaking into the quantitative finance industry. | August | Online |
-| [Lux AI](https://www.lux-ai.org) | Multi-month visual reinforcement learning agent tournament competing for global rank and tiered cash pools. | October | Online |
-| [Meta Hacker Cup](https://en.wikipedia.org/wiki/Meta_Hacker_Cup) | Global multi-round elimination competitive programming championship competing for a $20,000 top cash prize. | October | Online |
-| [International Data Analysis Olympiad](https://idao.world) | Machine learning and big data analytics framework competition competing for tech gear and corporate internship pathways. | December | Online |
-| [Citadel Student Competitions](https://www.citadel.com/careers/programs-and-events) | Elite quantitative finance competitions with data modeling, algorithm tournaments, and trading simulations. | Ongoing | Online |
+| [Akuna Capital Virtual Quant Trading Challenge](https://akunacapital.com/careers/job/7993921/akuna-capitals-2026-virtual-quant-trading-challenge?gh_jid=7993921) | Virtual trading challenge by Akuna Capital for students breaking into quantitative finance. | August | Online |
+| [Lux AI](https://www.lux-ai.org) | Multi-month reinforcement learning agent tournament with global rank and tiered cash pools. | October | Online |
+| [Meta Hacker Cup](https://en.wikipedia.org/wiki/Meta_Hacker_Cup) | Global elimination competitive programming championship with a $20,000 top cash prize. | October | Online |
+| [International Data Analysis Olympiad](https://idao.world) | Machine learning and big data competition with tech gear and internship pathways. | December | Online |
+| [Citadel Student Competitions](https://www.citadel.com/careers/programs-and-events) | Elite quant finance competitions with data modeling, algorithms, and trading simulations. | Ongoing | Online |
 | [TCS CodeVita](https://codevita.tcsapps.com) | Global programming contest by TCS for university students with online rounds and international finals. | Ongoing | Online |
-| [Universal Cup](https://ucup.ac) | Multi-stage international team programming circuit for elite algorithmic and system optimization challenges. | Ongoing | Online |
+| [Universal Cup](https://ucup.ac) | Multi-stage international team programming circuit for elite algorithmic challenges. | Ongoing | Online |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -344,7 +350,7 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 
 | Resource | Description | Type |
 | --- | --- | --- |
-| [Apache Software Foundation](https://apache.org) | Explore established open-source projects across servers, data systems, developer tooling, and infrastructure. | Organization |
+| [Apache Software Foundation](https://apache.org) | Explore established open-source projects across servers, data systems, and developer tooling. | Organization |
 | [Cloud Native Computing Foundation](https://www.cncf.io) | Find cloud-native projects for containers, orchestration, service meshes, networking, and observability. | Organization |
 | [Eclipse Foundation](https://www.eclipse.org) | Explore developer tools, runtimes, IoT platforms, and frameworks maintained by open-source communities. | Organization |
 | [Mozilla](https://www.mozilla.org) | Contribute to open web, browser, privacy, and internet health projects. | Organization |
@@ -373,7 +379,7 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | [ROS](https://www.ros.org) | Build robotics software with reusable tools for sensors, control, and simulation. | Project |
 | [scikit-learn](https://scikit-learn.org) | Learn machine learning algorithms through a widely used Python library. | Project |
 | [Wireshark](https://www.wireshark.org) | Analyze network traffic and learn protocols with an industry-standard debugging tool. | Project |
-| [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) | Find beginner-friendly open-source projects organized by programming language and contribution difficulty. | Resource |
+| [Awesome for Beginners](https://github.com/MunGell/awesome-for-beginners) | Beginner-friendly open-source projects organized by programming language and difficulty. | Resource |
 | [CodeTriage](https://www.codetriage.com) | Receive personalized beginner-friendly issues from open-source projects you choose and follow. | Resource |
 | [First Contributions](https://firstcontributions.github.io) | Practice the GitHub contribution workflow with a beginner-focused tutorial and sample project. | Resource |
 | [First Timers Only](https://www.firsttimersonly.com) | Find welcoming resources and projects for your first open-source contribution. | Resource |
@@ -426,7 +432,7 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | [itch.io Game Assets](https://itch.io/game-assets/free) | Free game asset marketplace with sprites, UI packs, audio, shaders, animations, and 3D models. | Tool |
 | [Kenney Assets](https://kenney.nl/assets) | Free 2D, 3D, UI, audio, and game development asset library. | Tool |
 | [Mixamo](https://www.mixamo.com) | Online tool for rigging 3D characters and creating character animations. | Tool |
-| [Mockaroo](https://mockaroo.com) | Generate up to 1,000 rows of realistic, customized mock data in JSON, CSV, or SQL formats to test your applications. | Tool |
+| [Mockaroo](https://mockaroo.com) | Generate up to 1,000 rows of realistic mock data in JSON, CSV, or SQL to test applications. | Tool |
 | [OpenGameArt](https://opengameart.org) | Community asset library for sprites, textures, music, sound effects, and 3D models. | Tool |
 | [Pixabay](https://pixabay.com) | Free image, illustration, video, music, and sound effect library for projects. | Tool |
 | [Playwright](https://playwright.dev) | Automate browsers for end-to-end testing and web automation. | Tool |
@@ -452,15 +458,15 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | [Crafting Interpreters](https://craftinginterpreters.com) | Book-length guide to building an interpreter and bytecode virtual machine from scratch. | Build |
 | [nand2tetris](https://www.nand2tetris.org) | Project course for building a computer from logic gates through an operating system and compiler. | Build |
 | [Project-Based Learning](https://github.com/practical-tutorials/project-based-learning) | Programming tutorials that teach by building applications from scratch across many languages. | Build |
-| [App Ideas](https://github.com/florinpop17/app-ideas) | Project prompts for practicing software development across beginner, intermediate, and advanced levels. | Ideas |
-| [Project Ideas and Resources](https://github.com/The-Cool-Coders/Project-Ideas-And-Resources) | Application ideas and resources for practicing coding and building portfolio projects. | Ideas |
-| [roadmap.sh Projects](https://roadmap.sh/projects) | Project ideas across frontend, backend, DevOps, databases, AI, and computer science topics. | Ideas |
+| [App Ideas](https://github.com/florinpop17/app-ideas) | Project prompts for practicing software development across beginner, intermediate, and advanced levels. | Inspiration |
 | [Devpost](https://devpost.com) | Hackathon project showcase for ideas, implementation examples, and inspiration. | Inspiration |
 | [GitHub Explore](https://github.com/explore) | Discover repositories, collections, developers, and open-source projects across computer science. | Inspiration |
 | [GitHub Trending](https://github.com/trending) | Browse popular and fast-growing repositories to discover technologies and project ideas. | Inspiration |
 | [I Coded One Project Every Week for a Year](https://www.youtube.com/watch?v=nr8biZfSZ3Y) | Video about building various projects to become inspired and learn software development skills. | Inspiration |
 | [Product Hunt](https://www.producthunt.com) | Discover newly launched software products, developer tools, AI applications, and startups. | Inspiration |
-| [Sebastian Lague](https://www.youtube.com/@SebastianLague) | Channel showcasing ambitious projects in graphics, AI, simulations, procedural generation, and software engineering. | Inspiration |
+| [Project Ideas and Resources](https://github.com/The-Cool-Coders/Project-Ideas-And-Resources) | Application ideas and resources for practicing coding and building portfolio projects. | Inspiration |
+| [roadmap.sh Projects](https://roadmap.sh/projects) | Project ideas across frontend, backend, DevOps, databases, AI, and computer science topics. | Inspiration |
+| [Sebastian Lague](https://www.youtube.com/@SebastianLague) | Channel showcasing ambitious projects in graphics, AI, simulations, and procedural generation. | Inspiration |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -515,13 +521,13 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | [Richard Tapia Celebration of Diversity in Computing](https://tapiaconference.cmd-it.org) | Diversity in computing conference with career networking, technical sessions, and recruiting. | Career | Atlanta, Georgia |
 | [WomenHack Montreal](https://womenhack.com) | Inclusive recruiting events for software, data, DevOps, and technology roles. | Career | Montreal, Quebec |
 | [BSides Montreal](https://bsidesmtl.ca) | Community cybersecurity conference with technical talks, workshops, and security networking. | Conference | Montreal, Quebec |
-| [Canadian Undergraduate Technology Conference (CUTC)](https://cutc.ca) | Student-led technology conference connecting undergraduates with industry speakers, sponsors, and workshops. | Conference | Montreal, Quebec |
-| [Cybereco Cyberconference](https://cybereco.ca) | Enterprise cybersecurity conference focused on cloud security, identity, governance, and security operations. | Conference | Montreal, Quebec |
+| [Canadian Undergraduate Technology Conference (CUTC)](https://cutc.ca) | Student-led tech conference connecting undergraduates with industry speakers and workshops. | Conference | Montreal, Quebec |
+| [Cybereco Cyberconference](https://cybereco.ca) | Enterprise cybersecurity conference on cloud security, identity, and security operations. | Conference | Montreal, Quebec |
 | [GoSec Conference](https://gosec.net) | Cybersecurity conference covering cloud, application, offensive, and enterprise security. | Conference | Montreal, Quebec |
 | [Mila Events](https://mila.quebec/en/events) | AI research talks, industry seminars, networking, and company-sponsored events. | Conference | Montreal, Quebec |
 | [Montréal International Game Summit (MIGS)](https://migs.biz) | B2B game development conference connecting students with studios and technical leaders. | Conference | Montreal, Quebec |
 | [PyCon US](https://us.pycon.org/2026) | Python conference with technical talks, tutorials, open-source collaboration, and a job fair. | Conference | Long Beach, California |
-| [Startupfest Montreal](https://startupfest.com) | Canada's premier startup festival bringing together founders, investors, startup engineers, and technology companies. | Conference | Montreal, Quebec |
+| [Startupfest Montreal](https://startupfest.com) | Canada's premier startup festival bringing together founders, investors, and engineers. | Conference | Montreal, Quebec |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>
 
@@ -534,7 +540,7 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | Resource | Description | Type |
 | --- | --- | --- |
 | [Amazon Web Services (AWS)](https://aws.amazon.com/certification) | AWS certifications for cloud architecture, development, operations, AI, and machine learning. | Cloud |
-| [Google Cloud](https://cloud.google.com/learn/certification) | Google Cloud certifications for cloud engineering, architecture, development, DevOps, and machine learning. | Cloud |
+| [Google Cloud](https://cloud.google.com/learn/certification) | Google Cloud certifications for cloud engineering, architecture, DevOps, and machine learning. | Cloud |
 | [Linux Foundation](https://training.linuxfoundation.org/certification) | Linux, Kubernetes, and cloud infrastructure certifications including LFCS, LFCE, CKA, CKAD, and CKS. | Cloud |
 | [Microsoft Azure](https://learn.microsoft.com/credentials) | Cloud and AI certifications including AZ-900, AZ-104, AZ-204, AZ-305, AZ-400, AI-900, and AI-102. | Cloud |
 | [Red Hat](https://www.redhat.com/en/services/certification) | Enterprise Linux and cloud platform certifications including RHCSA, RHCE, and RHCA. | Cloud |

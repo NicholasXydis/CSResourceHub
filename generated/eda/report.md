@@ -12,7 +12,7 @@ Generated from `generated/all_resources.json` on 2026-07-09.
 | Total resources | 334 |
 | Categories | 14 |
 | Groups | 4 |
-| Average description length | 91.5 chars |
+| Average description length | 85.8 chars |
 | Duplicate URL candidates | 0 |
 
 ## Coverage
@@ -53,11 +53,11 @@ This chart shows the dominant formats in the dataset, which helps avoid over-ind
 
 ![Metadata completeness](metadata-completeness.svg)
 
-**Metadata signal:** 81% of resources include a type, and 23% include a location. Optional fields are tracked without forcing irrelevant metadata onto every entry.
+**Metadata signal:** 100% of resources include a type, and 23% include a location. Optional fields are tracked without forcing irrelevant metadata onto every entry.
 
 | Field | Present | Missing |
 | --- | --- | --- |
-| type | 272 | 62 |
+| type | 334 | 0 |
 | month | 58 | 276 |
 | location | 76 | 258 |
 
@@ -79,10 +79,11 @@ Verification age buckets show how recently resource URLs were checked. They meas
 
 | Bucket | Resources | Share |
 | --- | --- | --- |
-| Verified in last 30 days | 334 | 100.0% |
+| Verified in last 30 days | 15 | 4.5% |
 | Verified 31-90 days ago | 0 | 0.0% |
 | Verified 91-180 days ago | 0 | 0.0% |
 | Verified 180+ days ago | 0 | 0.0% |
+| Future last_verified date | 319 | 95.5% |
 
 | Check | Count |
 | --- | --- |

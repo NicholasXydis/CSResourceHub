@@ -1,0 +1,35 @@
+{
+  "generated": "2026-07-11",
+  "checked": 276,
+  "missing": [
+    "algomau.ca",
+    "cheat.sh",
+    "codevita.tcsapps.com",
+    "cpulator.01xz.net",
+    "csapp.cs.cmu.edu",
+    "elementsofprogramminginterviews.com",
+    "firsttimersonly.com",
+    "gaia.cs.umass.edu",
+    "gchq.github.io",
+    "jdis.ca",
+    "nwhacks.io",
+    "outreachy.org",
+    "quantlib.org",
+    "scsconcordia.com",
+    "stroustrup.com",
+    "umdctf.io"
+  ],
+  "siteOnly": [
+    "2026.blitz.codes",
+    "ctf.0ops.sjtu.cn",
+    "ctf.uoftctf.org",
+    "defcon.org",
+    "leetcode.com",
+    "mixamo.com",
+    "nand2tetris.org",
+    "pennapps.com",
+    "pragprog.com",
+    "pwn.polycyber.io",
+    "tojam.ca"
+  ]
+}
