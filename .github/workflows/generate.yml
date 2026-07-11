@@ -40,7 +40,7 @@ jobs:
       - name: Check generated outputs are current
         id: freshness
         continue-on-error: true
-        run: git diff --exit-code -- data README.md docs/SCHEMA.md CITATION.cff public generated
+        run: git diff --exit-code -- data README.md docs/SCHEMA.md CITATION.cff generated public ':!public/og.png'
       - name: Write generated outputs summary
         if: always()
         run: |
@@ -63,7 +63,7 @@ jobs:
               echo "### Files needing regeneration"
               echo ""
               echo '```text'
-              git status --short -- data README.md docs/SCHEMA.md CITATION.cff public generated
+              git status --short -- data README.md docs/SCHEMA.md CITATION.cff generated public ':!public/og.png'
               echo '```'
             fi
           } >> "$GITHUB_STEP_SUMMARY"
