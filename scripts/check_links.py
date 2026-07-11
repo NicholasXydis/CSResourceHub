@@ -3,10 +3,7 @@ from datetime import date
 
 import requests
 from requests.exceptions import SSLError
-from urllib3.exceptions import InsecureRequestWarning
 from utils import get_all_resource_files, load_json, log, save_json
-
-requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 TIMEOUT = 10
 REQUEST_HEADERS = {
@@ -26,13 +23,12 @@ HARD_DEAD_STATUSES = {404, 410}
 INCONCLUSIVE_STATUSES = {401, 403, 408, 425, 429, 500, 502, 503, 504}
 
 
-def request_url(session, method, url, verify=True):
+def request_url(session, method, url):
     return session.request(
         method,
         url,
         timeout=TIMEOUT,
         allow_redirects=True,
-        verify=verify,
     )
 
 
@@ -56,16 +52,9 @@ def check_url(url):
     for method in ("HEAD", "GET"):
         try:
             response = request_url(session, method, url)
-        except SSLError:
-            if method == "GET":
-                try:
-                    response = request_url(session, method, url, verify=False)
-                except requests.RequestException as exc:
-                    inconclusive_results.append(str(exc))
-                    continue
-            else:
-                inconclusive_results.append("HEAD SSL error")
-                continue
+        except SSLError as exc:
+            inconclusive_results.append(f"certificate error: {exc}")
+            continue
         except requests.RequestException as exc:
             inconclusive_results.append(str(exc))
             continue
