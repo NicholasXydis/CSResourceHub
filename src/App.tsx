@@ -44,14 +44,16 @@ export default function App() {
         <div className="noise" />
         <motion.div className="shell" variants={CONTAINER}>
           <Header />
-          {notFound ? (
-            <NotFound />
-          ) : (
-            <>
-              <Hero query={query} setQuery={setQuery} />
-              <ResourceDirectory query={query} setQuery={setQuery} />
-            </>
-          )}
+          <main>
+            {notFound ? (
+              <NotFound />
+            ) : (
+              <>
+                <Hero query={query} setQuery={setQuery} />
+                <ResourceDirectory query={query} setQuery={setQuery} />
+              </>
+            )}
+          </main>
           <Footer />
         </motion.div>
       </motion.div>

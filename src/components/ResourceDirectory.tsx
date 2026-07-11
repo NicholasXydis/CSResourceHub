@@ -133,7 +133,8 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
           setCategory={setCategory}
         />
       </motion.div>
-      <motion.main className="results" variants={CONTAINER}>
+      <motion.div className="results" variants={CONTAINER}>
+        <h2 className="visually-hidden">Resources</h2>
         <motion.div variants={RISE} className="result-bar">
           <p role="status" aria-live="polite" aria-atomic="true">
             <strong>{results.length}</strong> resources found
@@ -221,7 +222,7 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
             )}
           </div>
         </motion.div>
-      </motion.main>
+      </motion.div>
     </motion.section>
   );
 }
