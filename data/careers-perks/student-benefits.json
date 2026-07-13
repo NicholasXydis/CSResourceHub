@@ -8,7 +8,7 @@
       "description": "Discounted Prime membership for students with shipping, streaming, and shopping benefits.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Education pricing on eligible Apple products including MacBooks, iPads, and accessories.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Official Concordia card page for student discounts, campus offers, and partner benefits.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Student-friendly Hack The Box Academy plans for hands-on cybersecurity training.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Student discount platform with offers across tech, software, lifestyle, food, and retail brands.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -58,7 +58,7 @@
       "description": "Canadian student discount program with offers across technology, food, travel, and retail.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Student discount for annual TryHackMe subscriptions and hands-on cybersecurity training.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Student pricing for Wolfram tools used in math, computation, visualization, and engineering.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "discounts"
     },
     {
@@ -98,7 +98,7 @@
       "description": "Free AWS training, cloud labs, badges, and beginner-friendly cloud learning resources.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -108,7 +108,7 @@
       "description": "Free Quebec library membership with study spaces, digital resources, books, and research tools.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -118,7 +118,7 @@
       "description": "Free education access to Figma for UI design, prototyping, collaboration, and interface planning.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -128,7 +128,7 @@
       "description": "Student bundle with developer tools, cloud credits, domains, courses, and software perks.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -138,7 +138,7 @@
       "description": "Free student license for JetBrains IDEs and tools for Mac, Windows, and Linux development.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -148,7 +148,7 @@
       "description": "Free Microsoft 365 access with Word, Excel, PowerPoint, and OneDrive.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -158,7 +158,7 @@
       "description": "Free Azure credits and cloud services for verified students without a credit card.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -168,7 +168,7 @@
       "description": "Free Notion Plus access for managing notes, projects, documentation, deadlines, and collaboration.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -178,7 +178,7 @@
       "description": "Free Sentry access for students and educators to monitor errors, logs, replays, and production issues.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -188,7 +188,7 @@
       "description": "Academic Shodan upgrade for cybersecurity, networking, and OSINT research.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -198,7 +198,7 @@
       "description": "Free Unity student access for game development, real-time 3D, and interactive projects.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     },
     {
@@ -208,7 +208,7 @@
       "description": "Student access to Zed with collaborative editing, AI features, and usage credits.",
       "category": "student-benefits",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "free"
     }
   ]

@@ -8,7 +8,7 @@
       "description": "Modern introduction to C++ by Bjarne Stroustrup covering the language's core features and best practices.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -18,7 +18,7 @@
       "description": "Leading networking textbook covering TCP/IP, HTTP, DNS, routing, wireless, and security.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Systems book covering C, architecture, assembly, memory, linking, and concurrency.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -38,7 +38,7 @@
       "description": "Deep dive into database storage engines, replication, partitioning, and transactions.",
       "category": "learning-resources",
       "date_added": "2026-07-09",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Industry-standard book on databases, distributed systems, scalability, and reliability.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -58,7 +58,7 @@
       "description": "Guide to game engine systems, tools, rendering, animation, physics, and runtime design.",
       "category": "learning-resources",
       "date_added": "2026-07-09",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Beginner-friendly intro to algorithms and data structures with visual explanations.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Classic book covering probability, brainteasers, and quantitative finance concepts.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -88,7 +88,7 @@
       "description": "Practical guide to Linux internals, boot, storage, networking, shell tools, and processes.",
       "category": "learning-resources",
       "date_added": "2026-07-09",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -98,7 +98,7 @@
       "description": "Operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -108,7 +108,7 @@
       "description": "Practical cryptography book covering protocols, encryption, signatures, and key exchange.",
       "category": "learning-resources",
       "date_added": "2026-07-09",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -118,7 +118,7 @@
       "description": "Comprehensive guide to the Linux command line, shell scripting, and file systems.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -128,7 +128,7 @@
       "description": "Classic software engineering book covering practical techniques and best practices.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "book"
     },
     {
@@ -138,7 +138,7 @@
       "description": "Harvard's intro CS course covering programming, algorithms, data structures, and web development.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -148,7 +148,7 @@
       "description": "Free interactive platform covering programming, web development, Python, databases, and Git.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -158,7 +158,7 @@
       "description": "Modern full-stack course covering React, Node.js, GraphQL, TypeScript, testing, and CI/CD.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -168,7 +168,7 @@
       "description": "Game development courses covering Unity, Unreal Engine, C++, and C#.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -178,7 +178,7 @@
       "description": "Cybersecurity platform with guided modules on pentesting, red teaming, and Active Directory.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -188,7 +188,7 @@
       "description": "Hands-on platform for learning DevOps, Kubernetes, Docker, Linux, Terraform, and cloud technologies.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -208,7 +208,7 @@
       "description": "Official Microsoft platform covering C#, .NET, Azure, PowerShell, Visual Studio, and GitHub.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -218,7 +218,7 @@
       "description": "Complete self-taught CS curriculum using free online courses from leading universities.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -228,7 +228,7 @@
       "description": "Interactive SQL tutorial teaching database fundamentals through hands-on exercises and real SQL queries.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "course"
     },
     {
@@ -248,7 +248,7 @@
       "description": "Community-driven tech news and discussions about software engineering, startups, and CS.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "news"
     },
     {
@@ -258,7 +258,7 @@
       "description": "Engineering newsletter covering software development, big tech, system design, and trends.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "news"
     },
     {
@@ -268,7 +268,7 @@
       "description": "Daily newsletter with concise summaries of software engineering, AI, and technology news.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "news"
     },
     {
@@ -278,7 +278,7 @@
       "description": "Curated index of high-quality software, tools, libraries, and learning resources.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -288,7 +288,7 @@
       "description": "Curated Docker tools, tutorials, images, and best practices.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -298,7 +298,7 @@
       "description": "Concise Bash command reference covering shell scripting, variables, loops, pipes, and common commands.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -308,7 +308,7 @@
       "description": "Concise cheat sheets and examples for languages, frameworks, and command-line tools.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -318,7 +318,7 @@
       "description": "Unified documentation search for many programming languages and frameworks.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -328,7 +328,7 @@
       "description": "Concise cheat sheets for programming languages, frameworks, Git, Docker, SQL, and developer tools.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -338,7 +338,7 @@
       "description": "Official Docker quick reference covering the most common Docker CLI commands and workflows.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -348,7 +348,7 @@
       "description": "Official GitHub one-page reference covering essential Git commands and workflows.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -358,7 +358,7 @@
       "description": "MDN reference explaining all standard HTTP response status codes with definitions and usage.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -368,7 +368,7 @@
       "description": "Searchable reference for Linux commands, options, examples, and manual pages.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -388,7 +388,7 @@
       "description": "The definitive reference for HTML, CSS, JavaScript, and Web APIs, maintained by Mozilla.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -398,7 +398,7 @@
       "description": "Security implementation guides mapped to common web application risks.",
       "category": "learning-resources",
       "date_added": "2026-07-02",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -408,7 +408,7 @@
       "description": "Comprehensive PowerShell command reference covering cmdlets, operators, scripting, and administration.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "reference"
     },
     {
@@ -418,7 +418,7 @@
       "description": "Interactive explorer showing generated assembly and compiler optimizations for many languages.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "tool"
     },
     {
@@ -428,7 +428,7 @@
       "description": "Online CPU simulator for learning ARM, RISC-V, MIPS, Nios II, and assembly language.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "tool"
     },
     {
@@ -438,7 +438,7 @@
       "description": "Interactive visual tutorial for learning Git branching, merging, rebasing, and workflows.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "tool"
     },
     {
@@ -458,7 +458,7 @@
       "description": "Interactive visualizations for algorithms and data structures including sorting and graphs.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "tool"
     },
     {
@@ -468,7 +468,7 @@
       "description": "System design channel covering scalable architecture, distributed systems, and backend.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -478,7 +478,7 @@
       "description": "Educational channel covering algorithms, cryptography, AI, networking, and operating systems.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -488,7 +488,7 @@
       "description": "Software engineering channel covering web development, cloud, AI, DevOps, and modern tech.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -498,7 +498,7 @@
       "description": "Backend engineering channel covering databases, APIs, HTTP, networking, and architecture.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -508,7 +508,7 @@
       "description": "Cybersecurity channel covering reverse engineering, binary exploitation, and web security.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -518,7 +518,7 @@
       "description": "Systems programming channel covering Linux, operating systems, and reverse engineering.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -528,7 +528,7 @@
       "description": "C++ channel covering modern C++, game engine development, graphics, and systems programming.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -538,7 +538,7 @@
       "description": "Educational channel with lessons in calculus, linear algebra, statistics, and physics.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "video"
     },
     {
@@ -548,7 +548,7 @@
       "description": "Comprehensive and continuously updated tutorial covering modern C++ from beginner to advanced topics.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "website"
     },
     {
@@ -558,7 +558,7 @@
       "description": "Comprehensive tutorial for learning modern OpenGL, graphics programming, and rendering fundamentals.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "website"
     },
     {
@@ -568,7 +568,7 @@
       "description": "High-quality Python tutorials, articles, projects, and guides covering beginner through advanced topics.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "website"
     },
     {
@@ -578,7 +578,7 @@
       "description": "Resource for learning design patterns, refactoring, and object-oriented design.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "website"
     },
     {
@@ -588,7 +588,7 @@
       "description": "Community-driven learning roadmaps for software engineering, DevOps, and cybersecurity.",
       "category": "learning-resources",
       "date_added": "2026-07-01",
-      "last_verified": "2026-07-11",
+      "last_verified": "2026-07-13",
       "type": "website"
     }
   ]
