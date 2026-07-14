@@ -1,6 +1,18 @@
 import sys
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from utils import load_all_resources, log
+
+
+def canonical_url(value: str) -> str:
+    parsed = urlsplit(value.strip())
+    hostname = (parsed.hostname or "").casefold()
+    port = parsed.port
+    if port and not (parsed.scheme.casefold() == "https" and port == 443):
+        hostname = f"{hostname}:{port}"
+    path = parsed.path.rstrip("/") or "/"
+    query = urlencode(sorted(parse_qsl(parsed.query, keep_blank_values=True)))
+    return urlunsplit((parsed.scheme.casefold(), hostname, path, query, ""))
 
 
 def check_duplicates():
@@ -12,14 +24,15 @@ def check_duplicates():
 
     for resource in resources:
         url = resource.get("url")
+        canonical = canonical_url(url) if isinstance(url, str) else url
         rid = resource.get("id")
         name = resource.get("name", "").casefold()
 
-        if url in seen_urls:
-            log(f"❌ Duplicate URL: {url} (ids: {rid}, {seen_urls[url]})")
+        if canonical in seen_urls:
+            log(f"❌ Duplicate URL: {url} (ids: {rid}, {seen_urls[canonical]})")
             errors_found = True
         else:
-            seen_urls[url] = rid
+            seen_urls[canonical] = rid
 
         if rid in seen_ids:
             log(f"❌ Duplicate ID: {rid}")
