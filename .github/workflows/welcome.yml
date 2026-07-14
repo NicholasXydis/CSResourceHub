@@ -1,6 +1,8 @@
 name: Welcome
 
 on:
+  issues:
+    types: [opened]
   pull_request_target:
     types: [opened]
 
@@ -10,7 +12,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  group: ${{ github.workflow }}-${{ github.event.issue.number || github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
@@ -18,11 +20,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
+      issues: write
       pull-requests: write
     steps:
       - uses: actions/first-interaction@a1db7729b356323c7988c20ed6f0d33fe31297be # v1
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          pr-message: |
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          issue_message: |
+            Thanks for opening your first issue on CS Resource Hub! 🎉
+            If you are reporting a dead link or suggesting a resource, please check [CONTRIBUTING.md](https://github.com/NicholasXydis/CSResourceHub/blob/main/CONTRIBUTING.md) so the details we need are included.
+          pr_message: |
             Thanks for your first contribution to CS Resource Hub! 🎉
             Please make sure you have read [CONTRIBUTING.md](https://github.com/NicholasXydis/CSResourceHub/blob/main/CONTRIBUTING.md) and run `make validate` and `make generate` or the direct commands from `docs/ADDING_RESOURCES.md` before requesting a review.
