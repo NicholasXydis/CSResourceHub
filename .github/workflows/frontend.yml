@@ -54,7 +54,7 @@ jobs:
       - name: Install Playwright browser
         id: browser
         continue-on-error: true
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --with-deps chromium firefox webkit
       - name: End-to-end tests
         id: e2e
         continue-on-error: true

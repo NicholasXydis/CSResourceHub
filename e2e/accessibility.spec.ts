@@ -5,7 +5,29 @@ import { expect, test } from "@playwright/test";
 const WCAG = ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"];
 
 async function settle(page: Page) {
-  await page.waitForTimeout(2000);
+  await page.waitForFunction(
+    () => {
+      const animated = [
+        ...document.querySelectorAll<HTMLElement>(
+          ".filter-row, .resource-card, .eyebrow, .stats div, .result-bar, .filters-title, .filter-label",
+        ),
+      ].filter((node) => {
+        const box = node.getBoundingClientRect();
+        return (
+          box.width > 0 &&
+          box.height > 0 &&
+          box.bottom > 0 &&
+          box.top < window.innerHeight
+        );
+      });
+      if (!animated.length) return false;
+      return animated.every(
+        (node) => Number(window.getComputedStyle(node).opacity) > 0.99,
+      );
+    },
+    undefined,
+    { timeout: 20_000 },
+  );
 }
 
 async function violations(page: Page) {
@@ -57,7 +79,12 @@ test("exposes exactly one top-level main landmark", async ({ page }) => {
 
 test("reaches the directory from the skip link with the keyboard", async ({
   page,
+  browserName,
 }) => {
+  test.skip(
+    browserName === "webkit",
+    "Safari only tabs to links when Full Keyboard Access is enabled",
+  );
   await page.goto("/");
 
   await page.keyboard.press("Tab");
@@ -91,13 +118,12 @@ test("operates the filters with the keyboard alone", async ({
   await expect(collection).toBeFocused();
 
   await page.keyboard.press("Enter");
+  await expect(collection).toHaveAttribute("aria-pressed", "true");
   if (isMobile) {
     await expect(
       page.getByRole("dialog", { name: /resource filters/i }),
-    ).not.toBeVisible();
+    ).toBeVisible();
     await expect(page.getByRole("status")).toContainText("62 resources found");
-  } else {
-    await expect(collection).toHaveAttribute("aria-pressed", "true");
   }
 });
 
