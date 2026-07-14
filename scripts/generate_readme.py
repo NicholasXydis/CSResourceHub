@@ -89,7 +89,7 @@ def ci_badge() -> str:
 def last_commit_badge() -> str:
     badge = (
         f"https://img.shields.io/github/last-commit/{REPO_SLUG}"
-        "?label=updated&color=7c3aed&display_timestamp=author"
+        "?label=updated&color=0891b2&display_timestamp=author"
     )
     return f"[![updated]({badge})]({REPO_URL}/commits/main)"
 
@@ -97,7 +97,7 @@ def last_commit_badge() -> str:
 def license_badge() -> str:
     badge = (
         "https://img.shields.io/static/v1?"
-        "label=license&message=MIT&color=67ac09"
+        "label=license&message=MIT&color=db2777"
     )
     return f"[![license]({badge})]({REPO_URL}/blob/main/LICENSE)"
 
@@ -187,7 +187,7 @@ def generate_readme():
     )
     lines.append("</p>\n\n")
     badges = [
-        shield("version", f"v{VERSION}", "6366f1"),
+        shield("version", f"v{VERSION}", "7c3aed"),
         shield("resources", str(total), "2563eb"),
         ci_badge(),
         last_commit_badge(),
