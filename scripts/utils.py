@@ -55,7 +55,6 @@ REPO_SLUG = "NicholasXydis/CSResourceHub"
 
 
 def project_version() -> str:
-    """Single source of truth for the release version: pyproject.toml."""
     with (ROOT / "pyproject.toml").open("rb") as handle:
         return tomllib.load(handle)["project"]["version"]
 

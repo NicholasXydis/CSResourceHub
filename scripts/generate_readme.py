@@ -24,27 +24,35 @@ GROUP_ICONS = {
 TECH_ICONS = [
     (
         "Python",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg",
     ),
     (
         "TypeScript",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg",
     ),
     (
         "React",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg",
     ),
     (
         "Vite",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vitejs/vitejs-original.svg",
+    ),
+    (
+        "CSS3",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg",
     ),
     (
         "JSON Schema",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/json/json-original.svg",
+    ),
+    (
+        "Cloudflare Pages",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cloudflare/cloudflare-original.svg",
     ),
     (
         "GitHub Actions",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/githubactions/githubactions-original.svg",
     ),
 ]
 
