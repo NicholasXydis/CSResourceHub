@@ -7,7 +7,13 @@ import {
 } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import ResourceDirectory from "./ResourceDirectory";
-import { CATEGORY_LABELS, GROUPS, PAGE_SIZE, SITE_DATA } from "../config";
+import {
+  ALL_RESOURCES,
+  CATEGORY_LABELS,
+  GROUPS,
+  PAGE_SIZE,
+  SITE_DATA,
+} from "../config";
 import type { Category, Group } from "../types";
 
 afterEach(cleanup);
@@ -116,6 +122,71 @@ describe("ResourceDirectory", () => {
       (node) => node.textContent ?? "",
     );
     expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));
+  });
+
+  it("sorts results from newest to oldest", () => {
+    const { container } = render(
+      <ResourceDirectory query="" setQuery={noop} />,
+    );
+    fireEvent.change(
+      screen.getByRole("combobox", { name: /sort resources/i }),
+      {
+        target: { value: "newest" },
+      },
+    );
+    const names = [...container.querySelectorAll(".resource-card h3")].map(
+      (node) => node.textContent ?? "",
+    );
+    const expected = [...ALL_RESOURCES]
+      .sort((a, b) => (b.date_added || "").localeCompare(a.date_added || ""))
+      .slice(0, PAGE_SIZE)
+      .map((resource) => resource.name);
+    expect(names).toEqual(expected);
+  });
+
+  it("opens and closes the filter drawer", async () => {
+    render(<ResourceDirectory query="" setQuery={noop} />);
+    fireEvent.click(screen.getByRole("button", { name: /^Filters/ }));
+    expect(
+      screen.getByRole("dialog", { name: /resource filters/i }),
+    ).toBeInTheDocument();
+    expect(document.body.style.overflow).toBe("hidden");
+    fireEvent.keyDown(window, { key: "Escape" });
+    await waitFor(() =>
+      expect(
+        screen.queryByRole("dialog", { name: /resource filters/i }),
+      ).toBeNull(),
+    );
+    await waitFor(() => expect(document.body.style.overflow).toBe(""));
+  });
+
+  it("moves focus into the drawer and restores it on close", async () => {
+    render(<ResourceDirectory query="" setQuery={noop} />);
+    const trigger = screen.getByRole("button", { name: /^Filters/ });
+    fireEvent.click(trigger);
+
+    const drawer = screen.getByRole("dialog", { name: /resource filters/i });
+    await waitFor(() =>
+      expect(drawer.contains(document.activeElement)).toBe(true),
+    );
+
+    fireEvent.keyDown(window, { key: "Escape" });
+    await waitFor(() => expect(trigger).toHaveFocus());
+  });
+
+  it("keeps Tab inside the open drawer", async () => {
+    render(<ResourceDirectory query="" setQuery={noop} />);
+    fireEvent.click(screen.getByRole("button", { name: /^Filters/ }));
+    const drawer = screen.getByRole("dialog", { name: /resource filters/i });
+
+    const focusable = [
+      ...drawer.querySelectorAll<HTMLElement>("button:not([disabled])"),
+    ];
+    const last = focusable[focusable.length - 1] as HTMLElement;
+    last.focus();
+    fireEvent.keyDown(window, { key: "Tab" });
+
+    await waitFor(() => expect(focusable[0]).toHaveFocus());
   });
 
   it("resets pagination when the collection changes", async () => {

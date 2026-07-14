@@ -70,15 +70,35 @@ test("reaches the directory from the skip link with the keyboard", async ({
   await expect(page.locator("#directory")).toBeVisible();
 });
 
-test("operates the filters with the keyboard alone", async ({ page }) => {
+test("operates the filters with the keyboard alone", async ({
+  page,
+  isMobile,
+}) => {
   await page.goto("/");
+
+  if (isMobile) {
+    const filters = page.getByRole("button", { name: /^Filters/ });
+    await filters.focus();
+    await expect(filters).toBeFocused();
+    await page.keyboard.press("Enter");
+    await expect(
+      page.getByRole("dialog", { name: /resource filters/i }),
+    ).toBeVisible();
+  }
 
   const collection = page.getByRole("button", { name: /^Experience/ });
   await collection.focus();
   await expect(collection).toBeFocused();
 
   await page.keyboard.press("Enter");
-  await expect(collection).toHaveAttribute("aria-pressed", "true");
+  if (isMobile) {
+    await expect(
+      page.getByRole("dialog", { name: /resource filters/i }),
+    ).not.toBeVisible();
+    await expect(page.getByRole("status")).toContainText("62 resources found");
+  } else {
+    await expect(collection).toHaveAttribute("aria-pressed", "true");
+  }
 });
 
 test("announces the result count to assistive technology", async ({ page }) => {

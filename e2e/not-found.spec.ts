@@ -4,6 +4,9 @@ test("renders the styled 404 page on an unknown path", async ({ page }) => {
   await page.goto("/this/page/does/not/exist");
 
   await expect(page.getByText(/page not found/i)).toBeVisible();
+  const statusPill = page.locator(".not-found .eyebrow");
+  await expect(statusPill).toHaveText("404 · Page not found");
+  await expect(statusPill.locator(".not-found-icon")).toHaveCount(1);
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
     /wrong turn/i,
   );
@@ -18,7 +21,8 @@ test("keeps the site chrome and ambient design on the 404 page", async ({
   await expect(
     page.getByRole("link", { name: /cs resource hub home/i }),
   ).toBeVisible();
-  await expect(page.getByRole("link", { name: /back to top/i })).toBeVisible();
+  await expect(page.getByRole("link", { name: /back to top/i })).toHaveCount(0);
+  await expect(page.locator("footer")).toHaveCount(0);
   await expect(page.locator(".ambient.one")).toBeVisible();
   await expect(page.locator(".noise")).toBeVisible();
 });

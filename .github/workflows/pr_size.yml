@@ -7,16 +7,22 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   pr-size:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         with:
           fetch-depth: 0
+          persist-credentials: false
       - name: Check PR size
         run: |
-          FILES=$(git diff --name-only origin/main...HEAD | grep "data/.*\.json" | wc -l)
+          FILES=$(git diff --name-only origin/main...HEAD | grep -c "data/.*\.json" || true)
           STATUS="PASS"
           if [ "$FILES" -gt 20 ]; then STATUS="FAIL"; fi
           {
