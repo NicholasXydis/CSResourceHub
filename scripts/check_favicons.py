@@ -5,6 +5,7 @@ from hashlib import sha256
 from urllib.parse import quote, urljoin, urlparse
 
 import requests
+from net_safety import UnsafeUrl, read_capped, safe_request
 from utils import GENERATED_DIR, load_all_resources, load_json, log, save_json
 
 TIMEOUT = 10
@@ -38,10 +39,22 @@ def google_favicon_url(domain: str) -> str:
     return f"{GOOGLE_FAVICON_ENDPOINT}?domain={quote(domain)}&sz=128"
 
 
-def fetch(session: requests.Session, url: str) -> requests.Response | None:
+class Probe:
+    def __init__(self, status_code: int, headers: dict, content: bytes):
+        self.status_code = status_code
+        self.headers = headers
+        self.content = content
+
+
+def fetch(session: requests.Session, url: str) -> Probe | None:
     try:
-        return session.get(url, timeout=TIMEOUT, allow_redirects=True)
-    except requests.RequestException:
+        with safe_request(session, "GET", url, TIMEOUT) as response:
+            return Probe(
+                response.status_code,
+                dict(response.headers),
+                read_capped(response),
+            )
+    except (UnsafeUrl, requests.RequestException):
         return None
 
 

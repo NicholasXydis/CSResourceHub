@@ -5,6 +5,7 @@ from datetime import date
 from pathlib import Path
 
 import requests
+from net_safety import UnsafeUrl, safe_request
 from requests.exceptions import SSLError
 from utils import get_all_resource_files, load_json, log, save_json
 
@@ -29,12 +30,8 @@ INCONCLUSIVE_STATUSES = {401, 403, 408, 425, 429, 500, 502, 503, 504}
 
 
 def request_url(session, method, url):
-    return session.request(
-        method,
-        url,
-        timeout=TIMEOUT,
-        allow_redirects=True,
-    )
+    with safe_request(session, method, url, TIMEOUT) as response:
+        return response
 
 
 def classify_response(response):
@@ -57,6 +54,8 @@ def check_url_once(url):
     for method in ("HEAD", "GET"):
         try:
             response = request_url(session, method, url)
+        except UnsafeUrl as exc:
+            return "unsafe", str(exc)
         except SSLError as exc:
             inconclusive_results.append(f"certificate error: {exc}")
             continue
@@ -86,7 +85,7 @@ def check_url(url):
     for attempt in range(MAX_ATTEMPTS):
         status, result = check_url_once(url)
         results.append((status, result))
-        if status == "verified":
+        if status in ("verified", "unsafe"):
             return status, result
         if attempt < MAX_ATTEMPTS - 1:
             time.sleep(RETRY_DELAY_SECONDS * (attempt + 1))
@@ -101,6 +100,7 @@ def check_url(url):
 def check_links():
     hard_dead_links = []
     inconclusive_links = []
+    unsafe_links = []
     today = str(date.today())
     touched_files = []
 
@@ -116,6 +116,9 @@ def check_links():
                     resource["last_verified"] = today
                     file_changed = True
                 log(f"✅ {rid}: {url} ({result})")
+            elif status == "unsafe":
+                unsafe_links.append((rid, url, result))
+                log(f"🚫 {rid}: {url} ({result})")
             elif status == "hard_dead":
                 hard_dead_links.append((rid, url, result))
                 log(f"❌ {rid}: {url} ({result})")
@@ -145,10 +148,17 @@ def check_links():
                     {"id": rid, "url": url, "result": result}
                     for rid, url, result in inconclusive_links
                 ],
+                "unsafe": [
+                    {"id": rid, "url": url, "result": result}
+                    for rid, url, result in unsafe_links
+                ],
             },
         )
     if inconclusive_links:
         log(f"\n{len(inconclusive_links)} inconclusive link check(s); left unchanged.")
+    if unsafe_links:
+        log(f"\n{len(unsafe_links)} unsafe destination(s) blocked before request.")
+        sys.exit(1)
     if hard_dead_links:
         log(f"\n{len(hard_dead_links)} hard-dead link(s) found.")
         sys.exit(1)

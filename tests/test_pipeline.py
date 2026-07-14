@@ -8,6 +8,7 @@ import generate_combined
 import generate_feed
 import generate_site_json
 import generate_sitemap
+import net_safety
 import pytest
 import utils
 import validate_urls_normalized
@@ -157,3 +158,158 @@ def test_site_json_rejects_unknown_categories(monkeypatch):
     )
     with pytest.raises(SystemExit, match="Unknown categories"):
         generate_site_json.generate_site_json()
+
+
+def test_schema_rejects_impossible_calendar_dates():
+    import jsonschema
+
+    schema = utils.load_json(utils.SCHEMA_FILE)
+    validator = jsonschema.Draft7Validator(
+        schema, format_checker=jsonschema.FormatChecker()
+    )
+    resource = {
+        "id": "one",
+        "name": "One",
+        "url": "https://example.com",
+        "description": "A description that is long enough to satisfy the schema.",
+        "category": "ctfs",
+        "type": "event",
+        "location": "Online",
+        "date_added": "2026-01-02",
+        "last_verified": "2026-02-30",
+    }
+    messages = [error.message for error in validator.iter_errors(resource)]
+    assert any("2026-02-30" in message for message in messages)
+
+    resource["last_verified"] = "2026-02-28"
+    assert not list(validator.iter_errors(resource))
+
+
+class FakeResponse:
+    def __init__(self, status_code=200, headers=None, chunks=(b"ok",)):
+        self.status_code = status_code
+        self.headers = headers or {}
+        self._chunks = chunks
+        self.closed = False
+
+    def iter_content(self, _size):
+        yield from self._chunks
+
+    def close(self):
+        self.closed = True
+
+
+class FakeSession:
+    def __init__(self, responses):
+        self._responses = list(responses)
+        self.urls = []
+
+    def request(self, _method, url, **_kwargs):
+        self.urls.append(url)
+        return self._responses.pop(0)
+
+
+def resolve_to(monkeypatch, mapping):
+    def fake_getaddrinfo(host, port, **_kwargs):
+        if host not in mapping:
+            raise net_safety.socket.gaierror(host)
+        return [(None, None, None, "", (mapping[host], port))]
+
+    monkeypatch.setattr(net_safety.socket, "getaddrinfo", fake_getaddrinfo)
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://127.0.0.1",
+        "https://[::1]",
+        "https://10.0.0.5",
+        "https://169.254.169.254",
+        "https://192.168.1.1",
+    ],
+)
+def test_assert_safe_url_rejects_non_public_addresses(url):
+    with pytest.raises(net_safety.UnsafeUrl):
+        net_safety.assert_safe_url(url)
+
+
+def test_assert_safe_url_rejects_plain_http(monkeypatch):
+    resolve_to(monkeypatch, {"example.com": "93.184.216.34"})
+    with pytest.raises(net_safety.UnsafeUrl, match="non-https"):
+        net_safety.assert_safe_url("http://example.com")
+
+
+def test_assert_safe_url_allows_a_public_host(monkeypatch):
+    resolve_to(monkeypatch, {"example.com": "93.184.216.34"})
+    net_safety.assert_safe_url("https://example.com")
+
+
+def test_safe_request_blocks_a_redirect_into_a_private_address(monkeypatch):
+    resolve_to(
+        monkeypatch, {"example.com": "93.184.216.34", "internal.test": "10.0.0.5"}
+    )
+    session = FakeSession(
+        [FakeResponse(302, {"Location": "https://internal.test/admin"})]
+    )
+    with pytest.raises(net_safety.UnsafeUrl, match="non-public"):
+        with net_safety.safe_request(session, "GET", "https://example.com", 5):
+            pass
+
+
+def test_safe_request_follows_a_public_redirect(monkeypatch):
+    resolve_to(monkeypatch, {"a.test": "93.184.216.34", "b.test": "93.184.216.35"})
+    session = FakeSession(
+        [FakeResponse(301, {"Location": "https://b.test/final"}), FakeResponse(200)]
+    )
+    with net_safety.safe_request(session, "GET", "https://a.test", 5) as response:
+        assert response.status_code == 200
+    assert session.urls == ["https://a.test", "https://b.test/final"]
+
+
+def test_safe_request_detects_a_redirect_loop(monkeypatch):
+    resolve_to(monkeypatch, {"a.test": "93.184.216.34"})
+    session = FakeSession(
+        [
+            FakeResponse(302, {"Location": "https://a.test/"}),
+            FakeResponse(302, {"Location": "https://a.test/"}),
+        ]
+    )
+    with pytest.raises(net_safety.UnsafeUrl, match="redirect loop"):
+        with net_safety.safe_request(session, "GET", "https://a.test/", 5):
+            pass
+
+
+def test_safe_request_caps_the_redirect_chain(monkeypatch):
+    resolve_to(monkeypatch, {"a.test": "93.184.216.34"})
+    session = FakeSession(
+        [
+            FakeResponse(302, {"Location": f"https://a.test/{index}"})
+            for index in range(net_safety.MAX_REDIRECTS + 1)
+        ]
+    )
+    with pytest.raises(net_safety.UnsafeUrl, match="more than"):
+        with net_safety.safe_request(session, "GET", "https://a.test/start", 5):
+            pass
+
+
+def test_read_capped_rejects_an_oversized_body():
+    response = FakeResponse(chunks=(b"x" * 4096,) * 8)
+    with pytest.raises(net_safety.UnsafeUrl, match="exceeded"):
+        net_safety.read_capped(response, max_bytes=1024)
+
+
+def test_read_capped_returns_a_small_body():
+    assert net_safety.read_capped(FakeResponse(chunks=(b"ab", b"cd"))) == b"abcd"
+
+
+def test_check_links_reports_unsafe_without_marking_dead(monkeypatch):
+    monkeypatch.setattr(
+        check_links,
+        "request_url",
+        lambda *_args: (_ for _ in ()).throw(
+            net_safety.UnsafeUrl("resolves to non-public address 10.0.0.5")
+        ),
+    )
+    status, detail = check_links.check_url("https://internal.test")
+    assert status == "unsafe"
+    assert "non-public" in detail
