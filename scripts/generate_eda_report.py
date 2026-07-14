@@ -367,7 +367,16 @@ def generate_eda_report() -> None:
     payload = load_json(ALL_RESOURCES_PATH)
     resources = payload["resources"]
     generated_date = parse_date(payload.get("generated", ""))
-    analysis_date = generated_date or date.today()
+
+    verified_dates = [
+        parsed
+        for resource in resources
+        if (parsed := parse_date(resource.get("last_verified", ""))) is not None
+    ]
+    analysis_date = max(
+        [d for d in (generated_date, *verified_dates) if d is not None]
+        or [date.today()]
+    )
 
     category_counts = Counter(resource["category"] for resource in resources)
     type_counts = Counter(resource.get("type", "missing") for resource in resources)

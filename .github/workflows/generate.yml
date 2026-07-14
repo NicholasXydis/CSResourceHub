@@ -32,6 +32,7 @@ jobs:
         id: resource_exports
         continue-on-error: true
         run: |
+          uv run python scripts/normalize_resources.py
           uv run python scripts/sort_resources.py
           uv run python scripts/generate_readme.py
           uv run python scripts/generate_citation.py
@@ -50,7 +51,7 @@ jobs:
       - name: Check generated outputs are current
         id: freshness
         continue-on-error: true
-        run: git diff --exit-code -- data README.md docs/SCHEMA.md CITATION.cff generated public ':!public/og.png' ':!generated/eda'
+        run: git diff --exit-code -- data README.md docs/SCHEMA.md CITATION.cff generated public ':!public/og.png'
       - name: Write generated outputs summary
         if: always()
         run: |
