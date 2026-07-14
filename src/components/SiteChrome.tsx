@@ -102,6 +102,8 @@ export function Hero({ query, setQuery }: SearchControls) {
         <Search size={22} />
         <input
           ref={searchRef}
+          name="search"
+          autoComplete="off"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Search resources…"

@@ -187,6 +187,7 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
               whileTap={{ scale: 0.97 }}
             >
               <select
+                name="sort"
                 value={sort}
                 onChange={(event) => setSort(event.target.value as SortKey)}
                 aria-label="Sort resources"
