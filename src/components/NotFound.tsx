@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Compass, Search } from "lucide-react";
+import { ArrowLeft, CircleX, Search } from "lucide-react";
 import { GITHUB_URL, SITE_DATA } from "../config";
 import { CONTAINER, RISE } from "../motion";
 
@@ -12,7 +12,8 @@ export default function NotFound() {
       animate="show"
     >
       <motion.div variants={RISE} className="eyebrow">
-        <Compass aria-hidden="true" /> Page not found
+        <CircleX className="not-found-icon" aria-hidden="true" />
+        <span className="not-found-label">404 · Page not found</span>
       </motion.div>
       <motion.h1 variants={RISE}>
         This page took

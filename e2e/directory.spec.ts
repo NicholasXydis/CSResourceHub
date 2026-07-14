@@ -16,6 +16,13 @@ const siteJson = JSON.parse(
 const PAGE_SIZE = 18;
 const CARD = ".resource-card";
 
+async function openFiltersOnMobile(
+  page: import("@playwright/test").Page,
+  isMobile: boolean,
+) {
+  if (isMobile) await page.getByRole("button", { name: /^Filters/ }).click();
+}
+
 test.beforeEach(async ({ page }) => {
   await page.goto("/");
 });
@@ -55,8 +62,13 @@ test("focuses search with the / shortcut", async ({ page }) => {
   await expect(search).toBeFocused();
 });
 
-test("filters to a collection and narrows the results", async ({ page }) => {
+test("filters to a collection and narrows the results", async ({
+  page,
+  isMobile,
+}) => {
   const experience = siteJson.groups["Experience"]!;
+
+  await openFiltersOnMobile(page, isMobile);
 
   await page.getByRole("button", { name: /^Experience/ }).click();
 
@@ -66,7 +78,8 @@ test("filters to a collection and narrows the results", async ({ page }) => {
   await expect(page.locator(CARD).first()).toBeVisible();
 });
 
-test("sorts the results alphabetically", async ({ page }) => {
+test("sorts the results alphabetically", async ({ page, isMobile }) => {
+  await openFiltersOnMobile(page, isMobile);
   await page
     .getByRole("combobox", { name: /sort resources/i })
     .selectOption("name");
@@ -75,7 +88,8 @@ test("sorts the results alphabetically", async ({ page }) => {
   expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));
 });
 
-test("narrows to a single category", async ({ page }) => {
+test("narrows to a single category", async ({ page, isMobile }) => {
+  await openFiltersOnMobile(page, isMobile);
   await page.getByRole("button", { name: /^CTFs/ }).click();
 
   const count = siteJson.categories["ctfs"]!.length;

@@ -54,7 +54,7 @@ export default function App() {
               </>
             )}
           </main>
-          <Footer />
+          {!notFound && <Footer />}
         </motion.div>
       </motion.div>
     </MotionConfig>

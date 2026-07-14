@@ -3,9 +3,20 @@ import { afterEach, describe, expect, it } from "vitest";
 import App from "./App";
 import { ALL_RESOURCES, PAGE_SIZE } from "./config";
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  window.history.replaceState({}, "", "/");
+});
 
 describe("App", () => {
+  it("removes the footer and back-to-top divider from unknown routes", () => {
+    window.history.replaceState({}, "", "/missing-page");
+    const { container } = render(<App />);
+
+    expect(container.querySelector("footer")).toBeNull();
+    expect(screen.queryByRole("link", { name: /back to top/i })).toBeNull();
+  });
+
   it("filters the results from the hero search box", () => {
     const { container } = render(<App />);
     expect(container.querySelectorAll(".resource-card")).toHaveLength(
