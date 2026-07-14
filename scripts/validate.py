@@ -6,7 +6,9 @@ from utils import SCHEMA_FILE, get_all_resource_files, load_json, log
 
 def validate():
     schema = load_json(SCHEMA_FILE)
-    validator = jsonschema.Draft7Validator(schema)
+    validator = jsonschema.Draft7Validator(
+        schema, format_checker=jsonschema.FormatChecker()
+    )
     errors_found = False
 
     for path in get_all_resource_files():

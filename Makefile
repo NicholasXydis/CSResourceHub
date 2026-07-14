@@ -7,6 +7,7 @@ validate:
 	$(PYTHON) scripts/validate_all.py
 
 generate:
+	$(PYTHON) scripts/normalize_resources.py
 	$(PYTHON) scripts/sort_resources.py
 	$(PYTHON) scripts/generate_readme.py
 	$(PYTHON) scripts/generate_schema_docs.py
