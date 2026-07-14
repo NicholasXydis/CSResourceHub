@@ -2,30 +2,37 @@
   "generated": "2026-07-14",
   "checked": 276,
   "missing": [
+    "2026.blitz.codes",
+    "algomau.ca",
     "cheat.sh",
     "codevita.tcsapps.com",
     "cpulator.01xz.net",
     "csapp.cs.cmu.edu",
+    "defcon.org",
     "elementsofprogramminginterviews.com",
     "firsttimersonly.com",
     "gaia.cs.umass.edu",
+    "gameenginebook.com",
     "gchq.github.io",
     "jdis.ca",
+    "nand2tetris.org",
+    "nostarch.com",
     "outreachy.org",
+    "pages.cs.wisc.edu",
     "quantlib.org",
     "scsconcordia.com",
     "stroustrup.com",
+    "tojam.ca",
+    "tryexponent.com",
     "umdctf.io"
   ],
   "siteOnly": [
-    "2026.blitz.codes",
     "ctf.0ops.sjtu.cn",
     "ctf.uoftctf.org",
-    "defcon.org",
+    "leetcode.com",
     "mixamo.com",
-    "nand2tetris.org",
     "pennapps.com",
-    "pwn.polycyber.io",
-    "tojam.ca"
+    "pragprog.com",
+    "pwn.polycyber.io"
   ]
 }

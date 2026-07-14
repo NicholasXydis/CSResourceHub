@@ -2,6 +2,7 @@ import json
 from datetime import date, timedelta
 
 import check_duplicates
+import check_favicons
 import check_links
 import check_stale
 import generate_combined
@@ -33,6 +34,59 @@ def test_duplicate_check_rejects_canonical_url_duplicates(monkeypatch):
     )
     with pytest.raises(SystemExit):
         check_duplicates.check_duplicates()
+
+
+def test_curated_fallback_matches_domain_and_subdomains():
+    assert check_favicons.prefers_fallback("defcon.org")
+    assert check_favicons.prefers_fallback("blitz.codes")
+    assert check_favicons.prefers_fallback("2026.blitz.codes")
+    assert check_favicons.prefers_fallback("2027.blitz.codes")
+
+
+def test_curated_fallback_ignores_unrelated_domains():
+    assert not check_favicons.prefers_fallback("leetcode.com")
+    assert not check_favicons.prefers_fallback("notdefcon.org")
+    assert not check_favicons.prefers_fallback("defcon.org.evil.com")
+
+
+def test_curated_domains_skip_probing_and_land_on_the_tile(monkeypatch):
+    monkeypatch.setattr(
+        check_favicons,
+        "load_all_resources",
+        lambda: [
+            {"url": "https://defcon.org"},
+            {"url": "https://2026.blitz.codes"},
+            {"url": "https://example.com"},
+        ],
+    )
+    monkeypatch.setattr(
+        check_favicons, "google_default_icon_hash", lambda _session: "hash"
+    )
+
+    def explode(url, _default_hash):
+        raise AssertionError(f"curated domain should not be probed: {url}")
+
+    monkeypatch.setattr(check_favicons, "probe_favicon", explode)
+
+    saved = {}
+    monkeypatch.setattr(
+        check_favicons, "save_json", lambda _path, data: saved.update(data)
+    )
+    monkeypatch.setattr(check_favicons, "log", lambda _message: None)
+
+    with pytest.raises(AssertionError):
+        check_favicons.check_favicons()
+
+    monkeypatch.setattr(
+        check_favicons,
+        "load_all_resources",
+        lambda: [{"url": "https://defcon.org"}, {"url": "https://2026.blitz.codes"}],
+    )
+    check_favicons.check_favicons()
+
+    assert saved["missing"] == ["2026.blitz.codes", "defcon.org"]
+    assert saved["siteOnly"] == []
+    assert saved["checked"] == 2
 
 
 def test_link_retry_requires_consistent_hard_dead_results(monkeypatch):

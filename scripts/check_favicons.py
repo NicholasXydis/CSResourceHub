@@ -25,10 +25,36 @@ GOOGLE_FAVICON_ENDPOINT = "https://www.google.com/s2/favicons"
 UNRESOLVABLE_DOMAIN = "no-such-host.invalid"
 SANITY_THRESHOLD = 0.5
 
+FALLBACK_DOMAINS = {
+    "blitz.codes",
+    "cheat.sh",
+    "csapp.cs.cmu.edu",
+    "defcon.org",
+    "elementsofprogramminginterviews.com",
+    "gaia.cs.umass.edu",
+    "gameenginebook.com",
+    "gchq.github.io",
+    "nand2tetris.org",
+    "nostarch.com",
+    "outreachy.org",
+    "pages.cs.wisc.edu",
+    "quantlib.org",
+    "scsconcordia.com",
+    "stroustrup.com",
+    "tojam.ca",
+    "umdctf.io",
+}
+
 
 def domain_of(url: str) -> str:
     hostname = urlparse(url).hostname or ""
     return hostname.removeprefix("www.")
+
+
+def prefers_fallback(domain: str) -> bool:
+    return any(
+        domain == entry or domain.endswith(f".{entry}") for entry in FALLBACK_DOMAINS
+    )
 
 
 def favicon_url(url: str) -> str:
@@ -147,15 +173,18 @@ def check_favicons() -> None:
         )
         sys.exit(1)
 
-    domains = sorted(by_domain)
+    forced = sorted(d for d in by_domain if prefers_fallback(d))
+    domains = sorted(d for d in by_domain if not prefers_fallback(d))
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         verdicts = list(
             pool.map(lambda d: probe_favicon(by_domain[d], default_hash), domains)
         )
 
-    missing: set[str] = set()
+    missing: set[str] = set(forced)
     site_first: set[str] = set()
     inconclusive: list[str] = []
+    for domain in forced:
+        log(f"➖ {domain}: curated fallback tile")
     for domain, (verdict, detail, unresolved) in zip(domains, verdicts):
         if unresolved:
             inconclusive.append(domain)
@@ -181,13 +210,13 @@ def check_favicons() -> None:
 
     output = {
         "generated": str(date.today()),
-        "checked": len(domains),
+        "checked": len(by_domain),
         "missing": sorted(missing),
         "siteOnly": sorted(site_first - missing),
     }
     save_json(OUTPUT_FILE, output)
 
-    added = sorted(missing - previous)
+    added = sorted(missing - previous - set(forced))
     removed = sorted(previous - missing)
     if added:
         log("Newly missing: " + ", ".join(added))
@@ -195,7 +224,11 @@ def check_favicons() -> None:
         log("Now serving a favicon: " + ", ".join(removed))
     if inconclusive:
         log(f"{len(inconclusive)} inconclusive domain(s); left unchanged.")
-    log(f"✅ Generated favicons.json ({len(missing)}/{len(domains)} missing)")
+    log(
+        f"✅ Generated favicons.json "
+        f"({len(missing)}/{len(by_domain)} on the fallback tile, "
+        f"{len(forced)} curated)"
+    )
 
 
 if __name__ == "__main__":
