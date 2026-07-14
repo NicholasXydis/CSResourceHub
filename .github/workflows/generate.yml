@@ -50,7 +50,7 @@ jobs:
       - name: Check generated outputs are current
         id: freshness
         continue-on-error: true
-        run: git diff --exit-code -- data README.md docs/SCHEMA.md CITATION.cff generated public ':!public/og.png'
+        run: git diff --exit-code -- data README.md docs/SCHEMA.md CITATION.cff generated public ':!public/og.png' ':!generated/eda'
       - name: Write generated outputs summary
         if: always()
         run: |

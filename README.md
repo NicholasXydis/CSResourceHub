@@ -30,7 +30,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![ci](https://img.shields.io/github/check-runs/NicholasXydis/CSResourceHub/main?label=ci)](https://github.com/NicholasXydis/CSResourceHub/actions) [![updated](https://img.shields.io/github/last-commit/NicholasXydis/CSResourceHub?label=updated&color=7c3aed&display_timestamp=author)](https://github.com/NicholasXydis/CSResourceHub/commits/main) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=67ac09)](https://github.com/NicholasXydis/CSResourceHub/blob/main/LICENSE) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
+![version](https://img.shields.io/static/v1?label=version&message=v1.0.0&color=6366f1) ![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![ci](https://img.shields.io/github/check-runs/NicholasXydis/CSResourceHub/main?label=ci)](https://github.com/NicholasXydis/CSResourceHub/actions) [![updated](https://img.shields.io/github/last-commit/NicholasXydis/CSResourceHub?label=updated&color=7c3aed&display_timestamp=author)](https://github.com/NicholasXydis/CSResourceHub/commits/main) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=67ac09)](https://github.com/NicholasXydis/CSResourceHub/blob/main/LICENSE) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
 
 </div>
 

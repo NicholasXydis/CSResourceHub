@@ -1,5 +1,6 @@
 import json
 import os
+import tomllib
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -51,6 +52,15 @@ CATEGORY_GROUPS = {
 
 PUBLIC_DIR = ROOT / "public"
 REPO_SLUG = "NicholasXydis/CSResourceHub"
+
+
+def project_version() -> str:
+    """Single source of truth for the release version: pyproject.toml."""
+    with (ROOT / "pyproject.toml").open("rb") as handle:
+        return tomllib.load(handle)["project"]["version"]
+
+
+VERSION = project_version()
 REPO_URL = f"https://github.com/{REPO_SLUG}"
 SITE_URL = "https://csresourcehub.pages.dev"
 SITE_NAME = "CS Resource Hub"

@@ -8,6 +8,7 @@ from utils import (
     REPO_SLUG,
     REPO_URL,
     ROOT,
+    VERSION,
     load_all_resources,
     log,
 )
@@ -186,6 +187,7 @@ def generate_readme():
     )
     lines.append("</p>\n\n")
     badges = [
+        shield("version", f"v{VERSION}", "6366f1"),
         shield("resources", str(total), "2563eb"),
         ci_badge(),
         last_commit_badge(),

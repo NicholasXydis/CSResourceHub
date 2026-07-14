@@ -70,10 +70,18 @@ The site is a React + TypeScript app built with Vite, in `src/`. It compiles aga
 ```bash
 npm install
 npm run dev     # local dev server
-npm run check   # formatting, lint, types, tests, and build
+npm run check   # formatting, lint, types, tests with coverage, audits, and build
 ```
 
-`npm run check` is what CI runs, so run it before opening a PR touching `src/`. Pre-commit hooks run the same checks automatically when frontend files change.
+`npm run check` is what CI runs, so run it before opening a PR touching `src/`. It enforces an 85% coverage threshold and fails on high-severity dependency advisories or a disallowed licence. Pre-commit hooks run the same checks automatically when frontend files change.
+
+## Dependencies
+
+Python dependencies are locked in `uv.lock`, and CI installs them with `uv sync --frozen`. If you change `pyproject.toml`, regenerate the lockfile in the same commit or CI will fail:
+
+```bash
+uv lock
+```
 
 ## Schema
 
