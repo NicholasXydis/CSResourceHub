@@ -334,3 +334,12 @@ def test_check_links_classifies_a_malformed_url_as_unsafe(monkeypatch):
     status, detail = check_links.check_url("https://example.com:99999")
     assert status == "unsafe"
     assert "malformed" in detail
+
+
+@pytest.mark.parametrize(
+    "hostname",
+    ["a" * 64 + ".example.com", "xn--" + "a" * 70 + ".example.com"],
+)
+def test_assert_safe_url_survives_hostnames_the_resolver_rejects(hostname):
+    with pytest.raises(net_safety.UnsafeUrl):
+        net_safety.assert_safe_url(f"https://{hostname}")

@@ -17,8 +17,8 @@ class UnsafeUrl(Exception):
 def resolved_addresses(hostname: str, port: int) -> list[str]:
     try:
         infos = socket.getaddrinfo(hostname, port, proto=socket.IPPROTO_TCP)
-    except socket.gaierror as exc:
-        raise UnsafeUrl(f"cannot resolve {hostname}") from exc
+    except (socket.gaierror, UnicodeError, ValueError, OSError) as exc:
+        raise UnsafeUrl(f"cannot resolve {hostname}: {exc}") from exc
     return [info[4][0] for info in infos]
 
 

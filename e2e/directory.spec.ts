@@ -23,6 +23,16 @@ async function openFiltersOnMobile(
   if (isMobile) await page.getByRole("button", { name: /^Filters/ }).click();
 }
 
+async function clickFilter(
+  page: import("@playwright/test").Page,
+  name: RegExp,
+) {
+  const button = page.getByRole("button", { name });
+  await expect(button).toHaveCSS("opacity", "1");
+  await button.click();
+  await expect(button).toHaveAttribute("aria-pressed", "true");
+}
+
 test.beforeEach(async ({ page }) => {
   await page.goto("/");
 });
@@ -70,7 +80,7 @@ test("filters to a collection and narrows the results", async ({
 
   await openFiltersOnMobile(page, isMobile);
 
-  await page.getByRole("button", { name: /^Experience/ }).click();
+  await clickFilter(page, /^Experience/);
 
   await expect(
     page.getByText(`${experience.total} resources found`),
@@ -90,7 +100,7 @@ test("sorts the results alphabetically", async ({ page, isMobile }) => {
 
 test("narrows to a single category", async ({ page, isMobile }) => {
   await openFiltersOnMobile(page, isMobile);
-  await page.getByRole("button", { name: /^CTFs/ }).click();
+  await clickFilter(page, /^CTFs/);
 
   const count = siteJson.categories["ctfs"]!.length;
   await expect(page.getByText(`${count} resources found`)).toBeVisible();

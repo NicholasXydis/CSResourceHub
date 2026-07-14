@@ -26,11 +26,6 @@ const SIZES = [
 ];
 
 test.describe("layout holds at every viewport", () => {
-  test.skip(
-    ({ browserName }) => browserName === "firefox",
-    "layout is engine-independent; chromium and webkit cover it",
-  );
-
   for (const size of SIZES) {
     test(`${size.name} (${size.width}x${size.height})`, async ({ page }) => {
       await page.setViewportSize({ width: size.width, height: size.height });
