@@ -1,0 +1,46 @@
+name: Production Health
+
+on:
+  schedule:
+    - cron: "30 11 * * *"
+  workflow_dispatch:
+  deployment_status:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  production-health:
+    if: >-
+      (github.event_name != 'deployment_status' || github.event.deployment_status.state == 'success') &&
+      (vars.PRODUCTION_URL != '' || github.event.deployment_status.environment_url != '')
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      PRODUCTION_URL: ${{ vars.PRODUCTION_URL || github.event.deployment_status.environment_url }}
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+      - name: Run production browser smoke tests
+        run: npm run test:smoke:production
+      - name: Upload diagnostics
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: production-health-diagnostics
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 14

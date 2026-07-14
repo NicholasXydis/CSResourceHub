@@ -9,19 +9,27 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check-favicons:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
-      - run: pip install requests
+      - name: Install locked Python dependencies
+        run: |
+          python -m pip install uv==0.11.28
+          uv sync --frozen
       - name: Probe resource favicons
         id: favicons
         continue-on-error: true
-        run: python scripts/check_favicons.py
+        run: uv run python scripts/check_favicons.py
       - name: Create favicon list update PR
         id: update_pr
         if: steps.favicons.outcome == 'success'

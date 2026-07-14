@@ -1,11 +1,16 @@
+import os
 import sys
+import time
 from datetime import date
+from pathlib import Path
 
 import requests
 from requests.exceptions import SSLError
 from utils import get_all_resource_files, load_json, log, save_json
 
 TIMEOUT = 10
+MAX_ATTEMPTS = 3
+RETRY_DELAY_SECONDS = 2
 REQUEST_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -43,7 +48,7 @@ def classify_response(response):
     return "inconclusive", f"{status_code} (unexpected status)"
 
 
-def check_url(url):
+def check_url_once(url):
     session = requests.Session()
     session.headers.update(REQUEST_HEADERS)
     hard_dead_results = []
@@ -74,6 +79,23 @@ def check_url(url):
         return "inconclusive", result
     result = "; ".join(str(value) for value in inconclusive_results)
     return "inconclusive", result or "no response"
+
+
+def check_url(url):
+    results = []
+    for attempt in range(MAX_ATTEMPTS):
+        status, result = check_url_once(url)
+        results.append((status, result))
+        if status == "verified":
+            return status, result
+        if attempt < MAX_ATTEMPTS - 1:
+            time.sleep(RETRY_DELAY_SECONDS * (attempt + 1))
+
+    if all(status == "hard_dead" for status, _ in results):
+        return "hard_dead", results[-1][1]
+    details = "; ".join(str(result) for _, result in results)
+    message = f"not consistently dead after {MAX_ATTEMPTS} attempts: {details}"
+    return "inconclusive", message
 
 
 def check_links():
@@ -107,6 +129,24 @@ def check_links():
 
     if touched_files:
         log("Updated last_verified in: " + ", ".join(touched_files))
+
+    report_path = os.environ.get("LINK_REPORT_PATH")
+    if report_path:
+        save_json(
+            Path(report_path),
+            {
+                "checked": today,
+                "attempts": MAX_ATTEMPTS,
+                "hard_dead": [
+                    {"id": rid, "url": url, "result": result}
+                    for rid, url, result in hard_dead_links
+                ],
+                "inconclusive": [
+                    {"id": rid, "url": url, "result": result}
+                    for rid, url, result in inconclusive_links
+                ],
+            },
+        )
     if inconclusive_links:
         log(f"\n{len(inconclusive_links)} inconclusive link check(s); left unchanged.")
     if hard_dead_links:

@@ -9,11 +9,18 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   frontend:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
           node-version: "22"
@@ -36,10 +43,10 @@ jobs:
         id: typecheck
         continue-on-error: true
         run: npm run typecheck
-      - name: Test
+      - name: Test with coverage thresholds
         id: test
         continue-on-error: true
-        run: npm run test
+        run: npm run test:coverage
       - name: Build
         id: build
         continue-on-error: true
@@ -85,7 +92,7 @@ jobs:
             echo "| Lint with ESLint | $lint |"
             echo "| Lint with Stylelint | $lint_css |"
             echo "| Types with TypeScript | $typecheck |"
-            echo "| Unit and component tests (Vitest) | $test |"
+            echo "| Unit tests and coverage thresholds | $test |"
             echo "| Production build | $build |"
             echo "| End-to-end tests (Playwright) | $e2e |"
           } >> "$GITHUB_STEP_SUMMARY"

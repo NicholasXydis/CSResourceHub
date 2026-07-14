@@ -12,14 +12,18 @@ export default tseslint.config(
       "generated",
       "playwright-report",
       "test-results",
+      ".venv",
+      "coverage",
     ],
   },
   {
     files: [
       "src/**/*.{ts,tsx}",
       "e2e/**/*.ts",
+      "e2e-production/**/*.ts",
       "vite.config.ts",
       "playwright.config.ts",
+      "playwright.production.config.ts",
     ],
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     languageOptions: {

@@ -1,4 +1,5 @@
-import { copyFileSync, existsSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { copyFileSync, existsSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { Plugin } from "vite";
@@ -76,6 +77,27 @@ function notFoundPage(): Plugin {
       if (existsSync(index)) {
         copyFileSync(index, resolve(outDir, "404.html"));
       }
+      copyFileSync(SITE_JSON, resolve(outDir, "site.json"));
+
+      const headers = resolve(outDir, "_headers");
+      if (!existsSync(headers)) return;
+      const html = readFileSync(index, "utf8");
+      const jsonLd = html.match(
+        /<script type="application\/ld\+json">([\s\S]*?)<\/script>/,
+      )?.[1];
+      if (jsonLd === undefined) {
+        throw new Error("Unable to locate JSON-LD while generating CSP hash");
+      }
+      const hash = createHash("sha256").update(jsonLd).digest("base64");
+      const source = readFileSync(headers, "utf8");
+      if (!source.includes("%CSP_SCRIPT_HASH%")) {
+        throw new Error("public/_headers is missing %CSP_SCRIPT_HASH%");
+      }
+      writeFileSync(
+        headers,
+        source.replace("%CSP_SCRIPT_HASH%", `'sha256-${hash}'`),
+        "utf8",
+      );
     },
   };
 }
@@ -87,7 +109,18 @@ export default defineConfig({
     setupFiles: "./src/test/setup.ts",
     css: true,
     globals: true,
-
     include: ["src/**/*.{test,spec}.{ts,tsx}"],
+    coverage: {
+      provider: "v8",
+      reporter: ["text", "json-summary", "lcov"],
+      include: ["src/**/*.{ts,tsx}"],
+      exclude: ["src/**/*.test.{ts,tsx}", "src/test/**", "src/vite-env.d.ts"],
+      thresholds: {
+        statements: 85,
+        branches: 85,
+        functions: 85,
+        lines: 85,
+      },
+    },
   },
 });

@@ -1,5 +1,11 @@
 import type { CSSProperties } from "react";
-import { ALLOWED_TYPES, GROUPS } from "./config";
+import {
+  ALLOWED_TYPES,
+  CATEGORY_LABELS,
+  CATEGORY_OF_GROUP,
+  GROUPS,
+} from "./config";
+import type { Resource } from "./types";
 
 export const FALLBACK_TYPE = "resource";
 
@@ -108,6 +114,21 @@ export function badgeStyle(type: string = FALLBACK_TYPE): BadgeStyle {
     "--badge-border": `hsl(${hue} 88% 67% / .34)`,
     "--badge-glow": `hsl(${hue} 88% 58% / .2)`,
   };
+}
+
+export function relevanceRank(resource: Resource, query: string): number {
+  const name = resource.name.toLowerCase();
+  if (name === query) return 0;
+  if (name.startsWith(query)) return 1;
+  if (name.includes(query)) return 2;
+  const taxonomy = [
+    resource.type,
+    CATEGORY_LABELS[resource.category],
+    CATEGORY_OF_GROUP[resource.category],
+  ];
+  if (taxonomy.some((value) => value?.toLowerCase().includes(query))) return 3;
+  if (resource.description?.toLowerCase().includes(query)) return 4;
+  return 5;
 }
 
 export function nextVisibleCount(

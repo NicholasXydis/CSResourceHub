@@ -7,30 +7,50 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
-      - run: pip install ruff
+      - name: Install locked Python dependencies
+        run: |
+          python -m pip install uv==0.11.28
+          uv sync --frozen --extra dev
       - name: Run Ruff
         id: ruff
         continue-on-error: true
-        run: ruff check scripts/
+        run: uv run ruff check scripts/ tests/
       - name: Check JSON formatting
         id: json_format
         continue-on-error: true
-        run: python scripts/lint_json.py
+        run: uv run python scripts/lint_json.py
+      - name: Lint GitHub Actions
+        id: actionlint
+        continue-on-error: true
+        run: |
+          curl -fsSLo /tmp/actionlint.tar.gz https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz
+          echo "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8  /tmp/actionlint.tar.gz" | sha256sum --check
+          tar -xzf /tmp/actionlint.tar.gz -C /tmp actionlint
+          /tmp/actionlint
       - name: Write lint summary
         if: always()
         run: |
           ruff="FAIL"
           json="FAIL"
+          actions="FAIL"
           if [ "${{ steps.ruff.outcome }}" = "success" ]; then ruff="PASS"; fi
           if [ "${{ steps.json_format.outcome }}" = "success" ]; then json="PASS"; fi
+          if [ "${{ steps.actionlint.outcome }}" = "success" ]; then actions="PASS"; fi
           {
             echo "## Lint"
             echo ""
@@ -38,10 +58,11 @@ jobs:
             echo "| --- | --- |"
             echo "| Python style with Ruff | $ruff |"
             echo "| JSON formatting | $json |"
+            echo "| GitHub Actions semantics | $actions |"
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Fail if lint is not healthy
         if: always()
         run: |
-          if [ "${{ steps.ruff.outcome }}" != "success" ] || [ "${{ steps.json_format.outcome }}" != "success" ]; then
+          if [ "${{ steps.ruff.outcome }}" != "success" ] || [ "${{ steps.json_format.outcome }}" != "success" ] || [ "${{ steps.actionlint.outcome }}" != "success" ]; then
             exit 1
           fi

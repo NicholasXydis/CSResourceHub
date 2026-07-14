@@ -9,34 +9,44 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   generated-outputs:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
-      - run: pip install matplotlib==3.11.0 pillow
+      - name: Install locked Python dependencies
+        run: |
+          python -m pip install uv==0.11.28
+          uv sync --frozen
       - name: Regenerate resource exports
         id: resource_exports
         continue-on-error: true
         run: |
-          python scripts/sort_resources.py
-          python scripts/generate_readme.py
-          python scripts/generate_citation.py
-          python scripts/generate_sitemap.py
-          python scripts/generate_feed.py
-          python scripts/generate_og_image.py
-          python scripts/generate_schema_docs.py
-          python scripts/generate_combined.py
-          python scripts/generate_site_json.py
-          python scripts/generate_stats_json.py
-          python scripts/export_csv.py
+          uv run python scripts/sort_resources.py
+          uv run python scripts/generate_readme.py
+          uv run python scripts/generate_citation.py
+          uv run python scripts/generate_sitemap.py
+          uv run python scripts/generate_feed.py
+          uv run python scripts/generate_og_image.py
+          uv run python scripts/generate_schema_docs.py
+          uv run python scripts/generate_combined.py
+          uv run python scripts/generate_site_json.py
+          uv run python scripts/generate_stats_json.py
+          uv run python scripts/export_csv.py
       - name: Regenerate EDA report
         id: eda_report
         continue-on-error: true
-        run: python scripts/generate_eda_report.py
+        run: uv run python scripts/generate_eda_report.py
       - name: Check generated outputs are current
         id: freshness
         continue-on-error: true

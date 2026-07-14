@@ -94,7 +94,10 @@ def last_commit_badge() -> str:
 
 
 def license_badge() -> str:
-    badge = f"https://img.shields.io/github/license/{REPO_SLUG}?color=0ea5e9"
+    badge = (
+        "https://img.shields.io/static/v1?"
+        "label=license&message=MIT&color=67ac09"
+    )
     return f"[![license]({badge})]({REPO_URL}/blob/main/LICENSE)"
 
 
