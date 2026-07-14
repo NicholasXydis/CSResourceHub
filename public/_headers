@@ -1,0 +1,14 @@
+/*
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' %CSP_SCRIPT_HASH%; style-src 'self'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; upgrade-insecure-requests
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Permissions-Policy: camera=(), geolocation=(), microphone=(), payment=(), usb=()
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+
+/feed.xml
+  Content-Type: application/rss+xml; charset=utf-8
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8

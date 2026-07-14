@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ChevronDown, Filter, RefreshCcw, Search, X } from "lucide-react";
 import {
@@ -9,7 +9,7 @@ import {
 } from "../config";
 import { CONTAINER, RISE } from "../motion";
 import type { CategoryFilter, CollectionFilter, SortKey } from "../types";
-import { nextVisibleCount } from "../utils";
+import { nextVisibleCount, relevanceRank } from "../utils";
 import Filters from "./Filters";
 import ResourceCard from "./ResourceCard";
 import type { SearchControls } from "./SiteChrome";
@@ -20,6 +20,8 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
   const [sort, setSort] = useState<SortKey>("relevance");
   const [drawer, setDrawer] = useState(false);
   const [pagination, setPagination] = useState({ key: "", visible: PAGE_SIZE });
+  const drawerRef = useRef<HTMLDivElement>(null);
+  const filterButtonRef = useRef<HTMLButtonElement>(null);
   const paginationKey = `${query}\u0000${collection}\u0000${category}\u0000${sort}`;
   const visible =
     pagination.key === paginationKey ? pagination.visible : PAGE_SIZE;
@@ -42,6 +44,11 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
         ].some((value) => value?.toLowerCase().includes(normalizedQuery));
       return collectionMatch && categoryMatch && searchMatch;
     });
+    if (sort === "relevance" && normalizedQuery)
+      list = [...list].sort(
+        (a, b) =>
+          relevanceRank(a, normalizedQuery) - relevanceRank(b, normalizedQuery),
+      );
     if (sort === "name")
       list = [...list].sort((a, b) => a.name.localeCompare(b.name));
     if (sort === "newest")
@@ -53,14 +60,39 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
   useEffect(() => {
     if (!drawer) return undefined;
     const previous = document.body.style.overflow;
-    const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setDrawer(false);
+    const trigger = filterButtonRef.current;
+    const focusable = () => [
+      ...(drawerRef.current?.querySelectorAll<HTMLElement>(
+        'button:not([disabled]), a[href], select, input, [tabindex]:not([tabindex="-1"])',
+      ) ?? []),
+    ];
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setDrawer(false);
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const items = focusable();
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (!first || !last) return;
+      const active = document.activeElement;
+      const outside = !drawerRef.current?.contains(active);
+      if (event.shiftKey && (active === first || outside)) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && (active === last || outside)) {
+        event.preventDefault();
+        first.focus();
+      }
     };
     document.body.style.overflow = "hidden";
-    window.addEventListener("keydown", closeOnEscape);
+    focusable()[0]?.focus();
+    window.addEventListener("keydown", onKeyDown);
     return () => {
       document.body.style.overflow = previous;
-      window.removeEventListener("keydown", closeOnEscape);
+      window.removeEventListener("keydown", onKeyDown);
+      trigger?.focus();
     };
   }, [drawer]);
   const shown = Math.min(visible, results.length);
@@ -75,10 +107,12 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
       aria-label="Resource directory"
     >
       <motion.button
+        ref={filterButtonRef}
         variants={RISE}
         className="mobile-filter"
         onClick={() => setDrawer(true)}
         aria-haspopup="dialog"
+        aria-expanded={drawer}
       >
         <Filter /> Filters{" "}
         {(collection !== "all" || category !== "all") && (
@@ -99,6 +133,7 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
               exit={{ opacity: 0 }}
             />
             <motion.div
+              ref={drawerRef}
               className="filter-drawer"
               role="dialog"
               aria-modal="true"

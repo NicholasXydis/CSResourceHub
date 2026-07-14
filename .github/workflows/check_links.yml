@@ -7,32 +7,92 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
-      - run: pip install requests jsonschema
+      - name: Install locked Python dependencies
+        run: |
+          python -m pip install uv==0.11.28
+          uv sync --frozen
       - name: Check resource links
         id: links
         continue-on-error: true
-        run: python scripts/check_links.py
+        env:
+          LINK_REPORT_PATH: tmp/link-check-report.json
+        run: uv run python scripts/check_links.py
       - name: Regenerate exports
         id: exports
         continue-on-error: true
         run: |
-          python scripts/generate_combined.py
-          python scripts/generate_site_json.py
-          python scripts/export_csv.py
+          uv run python scripts/generate_combined.py
+          uv run python scripts/generate_site_json.py
+          uv run python scripts/export_csv.py
       - name: Validate updated resources
         id: validate_resources
         continue-on-error: true
-        run: python scripts/validate_all.py
+        run: uv run python scripts/validate_all.py
+      - name: Open, update, or close persistent link issue
+        if: always() && hashFiles('tmp/link-check-report.json') != ''
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('tmp/link-check-report.json', 'utf8'));
+            const title = 'Automated link health failures';
+            const label = 'link-health';
+            const { owner, repo } = context.repo;
+
+            await github.rest.issues.createLabel({
+              owner, repo, name: label, color: 'd93f0b',
+              description: 'Tracks the automated link health report',
+            }).catch((error) => {
+              if (error.status !== 422) throw error;
+            });
+
+            // Paginate and match on the label: listForRepo also returns pull
+            // requests, and its first page alone would miss the tracking issue
+            // once the repo has enough open items.
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: 'open', labels: label, per_page: 100,
+            });
+            const existing = issues.find((issue) => !issue.pull_request);
+            const failures = [...report.hard_dead, ...report.inconclusive];
+            if (!failures.length) {
+              if (existing) await github.rest.issues.update({
+                owner, repo, issue_number: existing.number, state: 'closed',
+              });
+              return;
+            }
+            const rows = failures.map((item) =>
+              `| ${item.id} | ${item.url} | ${String(item.result).replaceAll('|', '\\|')} |`
+            ).join('\n');
+            const body = [
+              `Last checked: ${report.checked} (${report.attempts} attempts per URL).`,
+              '', '| Resource | URL | Result |', '| --- | --- | --- |', rows,
+              '', 'This issue is automatically updated and closes after a healthy run.',
+            ].join('\n');
+            if (existing) {
+              await github.rest.issues.update({
+                owner, repo, issue_number: existing.number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner, repo, title, body, labels: [label],
+              });
+            }
       - name: Create last_verified update PR
         id: update_pr
         if: steps.links.outcome == 'success' && steps.exports.outcome == 'success' && steps.validate_resources.outcome == 'success'

@@ -6,8 +6,10 @@ import {
   domainOf,
   nextVisibleCount,
   originFavicon,
+  relevanceRank,
 } from "./utils";
 import { ALLOWED_TYPES, ALL_RESOURCES, GROUPS } from "./config";
+import type { Resource } from "./types";
 
 const MIN_SEPARATION = 20;
 
@@ -152,5 +154,42 @@ describe("badgeStyle", () => {
   it("styles the same type identically regardless of where it is used", () => {
     expect(badgeStyle("tool")).toEqual(badgeStyle("tool"));
     expect(badgeStyle("organization")).toEqual(badgeStyle("organization"));
+  });
+});
+
+describe("relevanceRank", () => {
+  const resource = (overrides: Partial<Resource>): Resource => ({
+    id: "id",
+    name: "Name",
+    url: "https://example.com",
+    description: "Description",
+    category: "ctfs",
+    ...overrides,
+  });
+
+  it("ranks an exact name match above a prefix match above a substring match", () => {
+    const exact = relevanceRank(resource({ name: "PicoCTF" }), "picoctf");
+    const prefix = relevanceRank(resource({ name: "PicoCTF Gym" }), "picoctf");
+    const substring = relevanceRank(
+      resource({ name: "The PicoCTF Gym" }),
+      "picoctf",
+    );
+    expect(exact).toBeLessThan(prefix);
+    expect(prefix).toBeLessThan(substring);
+  });
+
+  it("ranks a name match above a taxonomy match above a description match", () => {
+    const byName = relevanceRank(resource({ name: "Tooling Hub" }), "tool");
+    const byType = relevanceRank(resource({ type: "tool" }), "tool");
+    const byDescription = relevanceRank(
+      resource({ description: "A handy tool" }),
+      "tool",
+    );
+    expect(byName).toBeLessThan(byType);
+    expect(byType).toBeLessThan(byDescription);
+  });
+
+  it("ranks a resource that does not match at all last", () => {
+    expect(relevanceRank(resource({}), "nothing-matches")).toBe(5);
   });
 });
