@@ -108,7 +108,7 @@ The static EDA report is available at [generated/eda/report.md](./generated/eda/
 | [Designing Data-Intensive Applications](https://dataintensive.net) | Industry-standard book on databases, distributed systems, scalability, and reliability. | Book |
 | [Game Engine Architecture](https://www.gameenginebook.com) | Guide to game engine systems, tools, rendering, animation, physics, and runtime design. | Book |
 | [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) | Beginner-friendly intro to algorithms and data structures with visual explanations. | Book |
-| [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/0994103867) | Classic book covering probability, brainteasers, and quantitative finance concepts. | Book |
+| [Heard on the Street](https://www.amazon.com/Heard-Street-Quantitative-Questions-Interviews/dp/106705832X) | Classic book covering probability, brainteasers, and quantitative finance concepts. | Book |
 | [How Linux Works](https://nostarch.com/howlinuxworks3) | Practical guide to Linux internals, boot, storage, networking, shell tools, and processes. | Book |
 | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP) | Operating systems textbook covering processes, threads, scheduling, synchronization, memory, and storage. | Book |
 | [Real-World Cryptography](https://www.manning.com/books/real-world-cryptography) | Practical cryptography book covering protocols, encryption, signatures, and key exchange. | Book |

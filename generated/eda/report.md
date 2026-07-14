@@ -2,7 +2,7 @@
 
 A static, portfolio-friendly analysis of CS Resource Hub coverage, composition, metadata quality, duplicate candidates, and source concentration. The notebook in `notebooks/resource_eda.ipynb` keeps the exploratory workflow reproducible; this report is the polished read-only view.
 
-Generated from `generated/all_resources.json` on 2026-07-11.
+Generated from `generated/all_resources.json` on 2026-07-14.
 
 ## Snapshot
 
