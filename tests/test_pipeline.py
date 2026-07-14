@@ -313,3 +313,24 @@ def test_check_links_reports_unsafe_without_marking_dead(monkeypatch):
     status, detail = check_links.check_url("https://internal.test")
     assert status == "unsafe"
     assert "non-public" in detail
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://example.com:99999",
+        "https://example.com:abc",
+        "https://example.com:-1",
+        "https://[oops",
+    ],
+)
+def test_assert_safe_url_rejects_malformed_urls_without_crashing(url):
+    with pytest.raises(net_safety.UnsafeUrl):
+        net_safety.assert_safe_url(url)
+
+
+def test_check_links_classifies_a_malformed_url_as_unsafe(monkeypatch):
+    monkeypatch.setattr(check_links.time, "sleep", lambda _seconds: None)
+    status, detail = check_links.check_url("https://example.com:99999")
+    assert status == "unsafe"
+    assert "malformed" in detail

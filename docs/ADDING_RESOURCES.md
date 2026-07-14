@@ -63,9 +63,14 @@ On Windows, if `python3` is not on `PATH`:
 
 ```powershell
 py -3 scripts\validate_all.py
+py -3 scripts\normalize_resources.py
 py -3 scripts\sort_resources.py
 py -3 scripts\generate_readme.py
 py -3 scripts\generate_schema_docs.py
+py -3 scripts\generate_citation.py
+py -3 scripts\generate_sitemap.py
+py -3 scripts\generate_feed.py
+py -3 scripts\generate_og_image.py
 py -3 scripts\generate_combined.py
 py -3 scripts\generate_site_json.py
 py -3 scripts\generate_stats_json.py

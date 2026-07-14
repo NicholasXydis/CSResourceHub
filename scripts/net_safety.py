@@ -23,15 +23,18 @@ def resolved_addresses(hostname: str, port: int) -> list[str]:
 
 
 def assert_safe_url(url: str) -> None:
-    parsed = urlparse(url)
+    try:
+        parsed = urlparse(url)
+        hostname = parsed.hostname
+        port = parsed.port or 443
+    except ValueError as exc:
+        raise UnsafeUrl(f"malformed url {url}: {exc}") from exc
+
     if parsed.scheme != "https":
         raise UnsafeUrl(f"non-https scheme: {parsed.scheme or 'none'}")
 
-    hostname = parsed.hostname
     if not hostname:
         raise UnsafeUrl("missing hostname")
-
-    port = parsed.port or 443
     for address in resolved_addresses(hostname, port):
         if not ipaddress.ip_address(address).is_global:
             raise UnsafeUrl(f"{hostname} resolves to non-public address {address}")
