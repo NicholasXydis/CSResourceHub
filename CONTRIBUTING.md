@@ -73,7 +73,9 @@ npm run dev     # local dev server
 npm run check   # formatting, lint, types, tests with coverage, audits, and build
 ```
 
-`npm run check` is what CI runs, so run it before opening a PR touching `src/`. It enforces an 85% coverage threshold and fails on high-severity dependency advisories or a disallowed licence. Pre-commit hooks run the same checks automatically when frontend files change.
+Run `npm run check` before opening a PR touching `src/`. It enforces an 85% coverage threshold and fails on high-severity dependency advisories or a disallowed licence.
+
+The checks are split across CI rather than run as one command: the `Frontend` workflow adds Playwright end-to-end tests on top of formatting, lint, types, coverage, and the build, while the `Dependency Policy` workflow owns the audit and licence gates. Pre-commit hooks run the fast frontend checks when frontend files change.
 
 ## Dependencies
 

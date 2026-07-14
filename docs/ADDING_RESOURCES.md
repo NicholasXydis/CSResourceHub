@@ -43,9 +43,14 @@ Without Make:
 
 ```bash
 python3 scripts/validate_all.py
+python3 scripts/normalize_resources.py
 python3 scripts/sort_resources.py
 python3 scripts/generate_readme.py
 python3 scripts/generate_schema_docs.py
+python3 scripts/generate_citation.py
+python3 scripts/generate_sitemap.py
+python3 scripts/generate_feed.py
+python3 scripts/generate_og_image.py
 python3 scripts/generate_combined.py
 python3 scripts/generate_site_json.py
 python3 scripts/generate_stats_json.py
