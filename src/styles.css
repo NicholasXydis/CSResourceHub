@@ -36,6 +36,7 @@ button {
 }
 .app {
   min-height: 100vh;
+  min-height: 100dvh;
   overflow: hidden;
   position: relative;
   background: radial-gradient(
@@ -127,11 +128,6 @@ button {
   border-radius: 10px;
   color: #eef2f8;
   background: rgba(255, 255, 255, 0.025);
-}
-.menu-button {
-  display: none;
-  background: none;
-  border: 0;
 }
 .hero {
   max-width: 820px;
@@ -396,6 +392,7 @@ button {
   gap: 12px;
 }
 .resource-card {
+  min-width: 0;
   min-height: 188px;
   padding: 17px;
   border: 1px solid var(--line);
@@ -587,27 +584,8 @@ footer svg {
   .topbar {
     height: 64px;
   }
-  .menu-button {
-    display: grid;
-    padding: 6px;
-    color: #d9e0eb;
-  }
-  .nav {
+  .nav a:not(.github-pill) {
     display: none;
-    position: absolute;
-    z-index: 20;
-    left: 0;
-    right: 0;
-    top: 64px;
-    padding: 18px;
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    background: #0c1421;
-    box-shadow: 0 20px 50px #000;
-    flex-direction: column;
-  }
-  .nav.open {
-    display: flex;
   }
   .hero {
     margin: 54px auto 38px;
@@ -1061,6 +1039,7 @@ footer .back-to-top {
 
 .error-state {
   min-height: 100vh;
+  min-height: 100dvh;
   display: grid;
   place-content: center;
   gap: 12px;

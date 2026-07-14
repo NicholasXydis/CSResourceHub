@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { motion } from "framer-motion";
 import { CA } from "country-flag-icons/react/3x2";
@@ -8,7 +8,6 @@ import {
   Boxes,
   Github,
   Layers3,
-  Menu,
   Search,
   X,
 } from "lucide-react";
@@ -16,7 +15,6 @@ import { CATEGORY_LABELS, GITHUB_URL, GROUPS, SITE_DATA } from "../config";
 import { CONTAINER, RISE } from "../motion";
 
 export function Header() {
-  const [open, setOpen] = useState(false);
   return (
     <motion.header variants={RISE} className="topbar">
       <motion.a
@@ -33,18 +31,7 @@ export function Header() {
           CS<span>ResourceHub</span>
         </span>
       </motion.a>
-      <button
-        className="menu-button"
-        onClick={() => setOpen((value) => !value)}
-        aria-label="Toggle navigation"
-        aria-expanded={open}
-      >
-        {open ? <X /> : <Menu />}
-      </button>
-      <nav
-        className={open ? "nav open" : "nav"}
-        aria-label="Primary navigation"
-      >
+      <nav className="nav" aria-label="Primary navigation">
         <motion.a
           href={`${GITHUB_URL}/blob/main/CONTRIBUTING.md`}
           target="_blank"

@@ -35,7 +35,6 @@ export interface FiltersProps {
   category: CategoryFilter;
   setCollection: (value: CollectionFilter) => void;
   setCategory: (value: CategoryFilter) => void;
-  close?: () => void;
 }
 
 export default function Filters({
@@ -43,7 +42,6 @@ export default function Filters({
   category,
   setCollection,
   setCategory,
-  close,
 }: FiltersProps) {
   const clearAll = () => {
     setCollection("all");
@@ -52,11 +50,9 @@ export default function Filters({
   const chooseCollection = (value: CollectionFilter) => {
     setCollection(value);
     setCategory("all");
-    close?.();
   };
   const chooseCategory = (value: CategoryFilter) => {
     setCategory(value);
-    close?.();
   };
   const activeGroup = GROUPS.find((group) => group.name === collection);
   const enabledCategories = activeGroup

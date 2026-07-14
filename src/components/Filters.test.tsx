@@ -55,15 +55,14 @@ describe("Filters", () => {
     expect(props.setCategory).toHaveBeenCalledWith("all");
   });
 
-  it("closes the drawer after a choice when a close handler is given", () => {
-    const close = vi.fn();
-    renderFilters({ close });
+  it("applies a chosen category so several filters can be combined", () => {
+    const props = renderFilters({});
     fireEvent.click(
       screen.getByRole("button", {
         name: nameOf(CATEGORY_LABELS[insideCategory]),
       }),
     );
-    expect(close).toHaveBeenCalled();
+    expect(props.setCategory).toHaveBeenCalledWith(insideCategory);
   });
 
   it("enables every category when no collection is selected", () => {

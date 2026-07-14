@@ -154,7 +154,6 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
                 category={category}
                 setCollection={setCollection}
                 setCategory={setCategory}
-                close={() => setDrawer(false)}
               />
             </motion.div>
           </>

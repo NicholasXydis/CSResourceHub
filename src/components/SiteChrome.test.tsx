@@ -6,12 +6,12 @@ import { CATEGORY_LABELS, GROUPS, SITE_DATA } from "../config";
 afterEach(cleanup);
 
 describe("Header", () => {
-  it("toggles the mobile navigation", () => {
+  it("exposes the navigation without a toggle", () => {
     render(<Header />);
-    const toggle = screen.getByRole("button", { name: /toggle navigation/i });
-    expect(toggle).toHaveAttribute("aria-expanded", "false");
-    fireEvent.click(toggle);
-    expect(toggle).toHaveAttribute("aria-expanded", "true");
+    expect(
+      screen.getByRole("navigation", { name: /primary navigation/i }),
+    ).toBeInTheDocument();
+    expect(screen.queryByRole("button")).toBeNull();
   });
 
   it("links out to the repository", () => {
