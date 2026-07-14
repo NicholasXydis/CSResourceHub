@@ -1,8 +1,7 @@
 {
-  "generated": "2026-07-11",
+  "generated": "2026-07-14",
   "checked": 276,
   "missing": [
-    "algomau.ca",
     "cheat.sh",
     "codevita.tcsapps.com",
     "cpulator.01xz.net",
@@ -12,7 +11,6 @@
     "gaia.cs.umass.edu",
     "gchq.github.io",
     "jdis.ca",
-    "nwhacks.io",
     "outreachy.org",
     "quantlib.org",
     "scsconcordia.com",
@@ -24,11 +22,9 @@
     "ctf.0ops.sjtu.cn",
     "ctf.uoftctf.org",
     "defcon.org",
-    "leetcode.com",
     "mixamo.com",
     "nand2tetris.org",
     "pennapps.com",
-    "pragprog.com",
     "pwn.polycyber.io",
     "tojam.ca"
   ]
