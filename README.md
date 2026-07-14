@@ -36,6 +36,10 @@
 
 ![version](https://img.shields.io/static/v1?label=version&message=v1.0.0&color=7c3aed) ![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![ci](https://img.shields.io/github/check-runs/NicholasXydis/CSResourceHub/main?label=ci)](https://github.com/NicholasXydis/CSResourceHub/actions) [![updated](https://img.shields.io/github/last-commit/NicholasXydis/CSResourceHub?label=updated&color=0891b2&display_timestamp=author)](https://github.com/NicholasXydis/CSResourceHub/commits/main) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=db2777)](https://github.com/NicholasXydis/CSResourceHub/blob/main/LICENSE) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
 
+<a href="https://csresourcehub.ca">
+  <img src="docs/csresourcehub-btn.svg" alt="Live Site">
+</a>
+
 </div>
 
 <br>
@@ -45,6 +49,181 @@
 </div>
 
 <br>
+
+## About
+
+CS Resource Hub is a curated dataset of 334 Canadian Computer Science student resources across 14 categories, published as a validated JSON dataset and a static directory site. Every resource is schema-validated, deduplicated, link-checked, and category-verified by automation. The dataset is the source of truth: the README, site data, RSS feed, sitemap, CSV export, EDA report, and social card are all generated from it, and CI fails when any generated file drifts. The site is a React and Vite build deployed to Cloudflare Pages behind a strict Content Security Policy.
+
+## Security Highlights
+
+- Strict Content Security Policy with a build-time script hash, `frame-ancestors 'none'`, and `img-src 'self' data:`.
+- HSTS, `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`, COOP, and CORP served from [public/_headers](./public/_headers).
+- Zero third-party requests and zero third-party cookies. Resource logos are self-hosted, and an end-to-end test fails the build if any cross-origin asset is ever requested again.
+- SSRF-hardened link and logo checkers: HTTPS only, DNS resolution with non-public address rejection, manual redirect following with a loop guard, and capped response bodies.
+- GitHub Actions are SHA-pinned, least-privilege, and run without persisted credentials.
+- CodeQL, OSV-Scanner, npm audit, dependency review, and license policy enforcement run in CI.
+- Python and npm dependencies are lockfile-pinned and verified with `uv lock --check` and `npm ci`.
+
+## Features
+
+**Directory:** full-text search, collection and category filters, relevance/name/date sorting, and progressive pagination.<br>
+**Dataset:** JSON Schema validation, duplicate detection, link health checks, category matching, and staleness tracking.<br>
+**Exports:** `site.json`, `all_resources.json`, `resources.csv`, `feed.xml`, `sitemap.xml`, and a static EDA report with deterministic SVG charts.<br>
+**Accessibility:** axe-core scans across desktop, mobile, and the filter drawer, with keyboard navigation and a skip link.<br>
+**Responsive:** verified at 22 viewport sizes from 320px phones to 2560px displays.
+
+## Architecture
+
+```text
+CSResourceHub/
+├─ data/                        Source of truth: category-grouped JSON resource files
+│  ├─ learning-development/     Learning resources, interview prep, certifications
+│  ├─ experience/               Hackathons, CTFs, competitions, game jams
+│  ├─ building-open-source/     Open source, developer resources, projects
+│  └─ careers-perks/            Internships, recruitment events, student benefits
+├─ schema/                      JSON Schema contract for every resource
+├─ scripts/                     Validation, generation, link and logo checking, network safety
+├─ generated/                   Machine-generated exports and the EDA report
+├─ src/                         React + TypeScript directory site
+│  ├─ components/               Directory, filters, cards, chrome
+│  └─ styles.css                Hand-written styles, no framework
+├─ public/                      Static assets, self-hosted logos, security headers
+├─ e2e/                         Playwright suite: directory, viewports, accessibility, smoke
+├─ e2e-production/              Post-deploy smoke tests against the live site
+├─ tests/                       Pytest suite for the data pipeline
+├─ notebooks/                   Reproducible exploratory analysis
+└─ .github/workflows/           Validation, lint, CodeQL, deploy, scheduled health checks
+```
+
+<div align="center">
+<pre>
+┌────────────────────────────────────────────────────────────┐
+│                     data/*.json (source)                   │
+│        Category-grouped, schema-validated resources        │
+└──────────────────────────────┬─────────────────────────────┘
+                               │ validate + normalize
+┌──────────────────────────────▼─────────────────────────────┐
+│                      Automated Checks                      │
+│   Schema, duplicates, links, categories, types, staleness  │
+└──────────────────────────────┬─────────────────────────────┘
+                               │ generate
+┌──────────────────────────────▼─────────────────────────────┐
+│                     Generated Artifacts                    │
+│    README, site.json, CSV, RSS, sitemap, EDA report        │
+└───────────────┬──────────────────────────────┬─────────────┘
+                │                              │
+┌───────────────▼──────────────┐   ┌───────────▼─────────────┐
+│      React + Vite build      │   │   Dataset consumers     │
+│  Search, filters, sort, a11y │   │  CSV, JSON, RSS, EDA    │
+└───────────────┬──────────────┘   └─────────────────────────┘
+                │ deploy
+┌───────────────▼────────────────────────────────────────────┐
+│                 Cloudflare Pages (edge)                    │
+│      TLS, HSTS, CSP, self-hosted logos, zero third party   │
+└────────────────────────────────────────────────────────────┘
+</pre>
+</div>
+
+- **Data:** category-grouped JSON files validated against a single JSON Schema.
+- **Scripts:** validation, normalization, generation, and SSRF-hardened network checks.
+- **Generated:** every downstream artifact, rebuilt deterministically and gated on freshness in CI.
+- **Site:** a static React build with no runtime data fetching and no third-party assets.
+
+## Tech Stack
+
+| Area | Stack |
+| --- | --- |
+| Dataset | JSON, JSON Schema (Draft 7), Python 3.12 |
+| Pipeline | uv, Ruff, jsonschema, Pillow, requests, matplotlib |
+| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide |
+| Styling | Hand-written CSS, self-hosted DM Sans, no framework |
+| Testing | Playwright, axe-core, Vitest, Testing Library, pytest |
+| DevOps | GitHub Actions, Cloudflare Pages, Wrangler |
+| Security | CodeQL, OSV-Scanner, Dependabot, CSP, HSTS |
+| Analysis | pandas, JupyterLab, deterministic SVG charts |
+
+## Testing
+
+| Suite | Count | Tools |
+| --- | ---: | --- |
+| End-to-end | 218 | Playwright, axe-core |
+| Frontend unit | 105 | Vitest, Testing Library |
+| Data pipeline | 45 | pytest |
+| Total | 368 | CI-backed test coverage |
+
+End-to-end coverage runs across 5 browser targets (chromium, firefox, webkit, mobile-chrome, mobile-safari) and sweeps 22 viewport sizes from 320px phones to 2560px displays, asserting no horizontal overflow at any width. Accessibility scans run `axe-core` against desktop, mobile, and the filter drawer, so accessibility regressions fail the build. A dedicated test fails CI if the site ever requests a third-party asset again.
+
+## CI/CD
+
+| Workflow | File | Purpose |
+| --- | --- | --- |
+| Validate | `.github/workflows/validate.yml` | Schema, duplicates, categories, types, staleness |
+| Lint | `.github/workflows/lint.yml` | Ruff, JSON formatting, actionlint |
+| Frontend | `.github/workflows/frontend.yml` | Type check, unit tests, full browser suite |
+| Generated Outputs | `.github/workflows/generate.yml` | Fails when any generated file is stale |
+| CodeQL | `.github/workflows/codeql.yml` | Static analysis for Python and TypeScript |
+| Dependency Policy | `.github/workflows/dependency_policy.yml` | Lockfile integrity, npm audit, licenses, OSV-Scanner |
+| Deploy Production | `.github/workflows/deploy-production.yml` | Approval-gated Cloudflare Pages deploy and live smoke tests |
+| Production Health | `.github/workflows/production.yml` | Daily browser checks against the live site |
+| Check Links | `.github/workflows/check_links.yml` | Scheduled link health, opens an issue on dead links |
+| Refresh Logos | `.github/workflows/refresh_logos.yml` | Re-fetches self-hosted logos and opens a PR on change |
+
+<div align="center">
+  <img src="docs/ci-cd-flow.svg" alt="Validation, CodeQL, and the browser suite gate an approval-gated production deployment and live smoke tests" width="100%">
+</div>
+
+Any required gate failure blocks the release.
+
+## Production Engineering
+
+- Deployment is gated on the full browser suite passing, then on a manual approval in the `production` environment.
+- The deploy checks out the exact commit that passed CI, not whatever landed on `main` in the meantime.
+- Smoke tests run against the live site after every deployment and fail the release if production is broken.
+- Security headers are asserted in production, not just configured.
+- Resource logos are self-hosted and refreshed by a scheduled job that only opens a PR when a logo genuinely changed.
+- Link health runs on a schedule and opens a tracking issue when a resource dies.
+- Daily production health checks catch breakage that happens without a deployment.
+
+## Dataset & Exports
+
+| Artifact | Path |
+| --- | --- |
+| JSON Schema contract | [schema/resource.schema.json](./schema/resource.schema.json) |
+| Schema documentation | [docs/SCHEMA.md](./docs/SCHEMA.md) |
+| Data contract | [docs/DATA_CONTRACT.md](./docs/DATA_CONTRACT.md) |
+| Combined dataset | [generated/all_resources.json](./generated/all_resources.json) |
+| CSV export | [generated/resources.csv](./generated/resources.csv) |
+| Site data | [generated/site.json](./generated/site.json) |
+| RSS feed | [public/feed.xml](./public/feed.xml) |
+| Sitemap | [public/sitemap.xml](./public/sitemap.xml) |
+| EDA report | [generated/eda/report.md](./generated/eda/report.md) |
+| Citation | [CITATION.cff](./CITATION.cff) |
+
+## Quality Gates
+
+### Lighthouse
+
+<div align="center">
+  <img src="docs/screenshots/lighthouse.png" alt="Lighthouse 100 performance, 100 accessibility, 100 best practices, 100 SEO" width="100%">
+</div>
+
+**Production audit:** 100 across performance, accessibility, best practices, and SEO. Self-hosted logos mean the site loads zero third-party assets and sets zero third-party cookies.
+
+### SSL Labs
+
+<div align="center">
+  <img src="docs/screenshots/ssl-labs.png" alt="SSL Labs A+ across all assessed edge servers" width="100%">
+</div>
+
+**TLS configuration:** A+ across every assessed Cloudflare edge endpoint, with HSTS and a TLS 1.2 minimum.
+
+### Uptime Monitoring
+
+<div align="center">
+  <img src="docs/screenshots/uptimerobot.png" alt="UptimeRobot production availability monitor" width="100%">
+</div>
+
+**External monitoring:** UptimeRobot checks the live site every five minutes. Post-deploy smoke tests and a daily production health workflow provide additional runtime verification.
 
 ## Browse
 
@@ -63,13 +242,27 @@ View the generated [EDA report](./generated/eda/report.md) for ready-to-read cha
 
 Run `make generate` to refresh all generated outputs, including the EDA report and deterministic SVG charts. CI reruns the same pipeline and fails when generated files are stale. Use `make eda-report` for only the static report. For the notebook, install optional dependencies with `pip install -e .[eda]`, then run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.
 
-## Local Development
+<details>
+<summary><strong>Getting Started</strong></summary>
 
-Clone the repo and run validation or generation commands from the project root.
+### Prerequisites
+
+- Python 3.12
+- Node.js 22
+- [uv](https://docs.astral.sh/uv/) for locked Python dependencies
+
+### Clone
 
 ```bash
 git clone https://github.com/NicholasXydis/CSResourceHub.git
 cd CSResourceHub
+```
+
+### Dataset
+
+Validate the dataset, then rebuild every generated artifact. CI runs the same pipeline and fails when anything is stale.
+
+```bash
 make validate
 make generate
 ```
@@ -81,14 +274,47 @@ make validate PYTHON="py -3"
 make generate PYTHON="py -3"
 ```
 
-To work with the optional EDA notebook, install the EDA dependencies and launch JupyterLab:
+### Site
+
+```bash
+npm ci
+npm run dev
+```
+
+### Tests
+
+```bash
+npm run check          # type check, lint, unit tests, build
+npx playwright test    # full browser suite
+uv run pytest tests/   # data pipeline
+```
+
+### Notebook
 
 ```bash
 pip install -e .[eda]
 py -3 -m jupyterlab notebooks/resource_eda.ipynb
 ```
 
-The static EDA report is available at [generated/eda/report.md](./generated/eda/report.md).
+</details>
+
+<details>
+<summary><strong>Automation Reference</strong></summary>
+
+| Command | Purpose |
+| --- | --- |
+| `make validate` | Schema, duplicates, categories, types, locations, URLs |
+| `make generate` | Rebuild README, exports, feed, sitemap, social card, EDA report |
+| `make check-links` | Probe every resource URL and update `last_verified` |
+| `make fetch-logos` | Re-download self-hosted logos into `public/logos/` |
+| `make check-stale` | Flag resources that have not been verified recently |
+| `make eda-report` | Regenerate the static EDA report and charts |
+| `make stats` | Print dataset statistics |
+| `make add` | Interactive resource scaffolding |
+
+Generated files are never edited by hand. `make generate` is deterministic, and the `Generated Outputs` workflow fails the build if a commit leaves them stale.
+
+</details>
 
 
 ## 📚 Learning & Development

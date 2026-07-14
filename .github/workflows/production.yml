@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: "30 11 * * *"
   workflow_dispatch:
-  deployment_status:
 
 permissions:
   contents: read
@@ -15,13 +14,11 @@ concurrency:
 
 jobs:
   production-health:
-    if: >-
-      (github.event_name != 'deployment_status' || github.event.deployment_status.state == 'success') &&
-      (vars.PRODUCTION_URL != '' || github.event.deployment_status.environment_url != '')
+    if: vars.PRODUCTION_URL != ''
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
-      PRODUCTION_URL: ${{ vars.PRODUCTION_URL || github.event.deployment_status.environment_url }}
+      PRODUCTION_URL: ${{ vars.PRODUCTION_URL }}
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         with:

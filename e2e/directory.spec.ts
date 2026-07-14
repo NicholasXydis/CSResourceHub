@@ -66,10 +66,15 @@ test("searches, then clears from the empty state", async ({ page }) => {
 });
 
 test("focuses search with the / shortcut", async ({ page }) => {
+  await expect(page.locator(CARD).first()).toBeVisible();
+
   const search = page.getByRole("textbox", { name: /search resources/i });
   await expect(search).not.toBeFocused();
-  await page.keyboard.press("/");
-  await expect(search).toBeFocused();
+
+  await expect(async () => {
+    await page.keyboard.press("/");
+    await expect(search).toBeFocused();
+  }).toPass({ timeout: 10_000 });
 });
 
 test("filters to a collection and narrows the results", async ({

@@ -50,7 +50,6 @@ python3 scripts/generate_schema_docs.py
 python3 scripts/generate_citation.py
 python3 scripts/generate_sitemap.py
 python3 scripts/generate_feed.py
-python3 scripts/generate_og_image.py
 python3 scripts/generate_combined.py
 python3 scripts/generate_site_json.py
 python3 scripts/generate_stats_json.py
@@ -70,7 +69,6 @@ py -3 scripts\generate_schema_docs.py
 py -3 scripts\generate_citation.py
 py -3 scripts\generate_sitemap.py
 py -3 scripts\generate_feed.py
-py -3 scripts\generate_og_image.py
 py -3 scripts\generate_combined.py
 py -3 scripts\generate_site_json.py
 py -3 scripts\generate_stats_json.py

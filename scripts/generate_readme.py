@@ -1,3 +1,4 @@
+import re
 from collections import defaultdict
 from urllib.parse import quote_plus
 
@@ -14,6 +15,10 @@ from utils import (
 )
 
 HIDDEN_README_TYPES = {EVENT_TYPE}
+
+E2E_TESTS = 218
+UNIT_TESTS = 105
+PIPELINE_TESTS = 45
 
 GROUP_ICONS = {
     "Learning & Development": "📚",
@@ -70,6 +75,18 @@ MONTH_ORDER = {
     "November": 11,
     "December": 12,
 }
+
+
+def browser_projects() -> list[str]:
+    config = (ROOT / "playwright.config.ts").read_text(encoding="utf-8")
+    projects = config.split("projects:", 1)[1].split("webServer:", 1)[0]
+    return re.findall(r'name:\s*"([^"]+)"', projects)
+
+
+def viewport_count() -> int:
+    spec = (ROOT / "e2e" / "viewports.spec.ts").read_text(encoding="utf-8")
+    sizes = spec.split("const SIZES = [", 1)[1].split("];", 1)[0]
+    return len(re.findall(r"\bname:\s*\"", sizes))
 
 
 def category_anchor(category: str) -> str:
@@ -203,7 +220,11 @@ def generate_readme():
         shield("contributions", "welcome", "f59e0b"),
     ]
     lines.append(" ".join(badges))
-    lines.append("\n\n</div>\n\n")
+    lines.append("\n\n")
+    lines.append('<a href="https://csresourcehub.ca">\n')
+    lines.append('  <img src="docs/csresourcehub-btn.svg" alt="Live Site">\n')
+    lines.append("</a>\n\n")
+    lines.append("</div>\n\n")
     lines.append("<br>\n\n")
     lines.append('<div align="center">\n')
     lines.append(
@@ -212,6 +233,278 @@ def generate_readme():
     )
     lines.append("</div>\n\n")
     lines.append("<br>\n\n")
+
+    lines.append("## About\n\n")
+    lines.append(
+        f"CS Resource Hub is a curated dataset of {total} Canadian Computer "
+        f"Science student resources across {len(CATEGORY_LABELS)} categories, "
+        "published as a validated JSON dataset and a static directory site. "
+        "Every resource is schema-validated, deduplicated, link-checked, and "
+        "category-verified by automation. The dataset is the source of truth: "
+        "the README, site data, RSS feed, sitemap, CSV export, EDA report, "
+        "and social card are all generated from it, and CI fails when any "
+        "generated file drifts. The site is a React and Vite build deployed "
+        "to Cloudflare Pages behind a strict Content Security Policy.\n\n"
+    )
+
+    lines.append("## Security Highlights\n\n")
+    lines.append(
+        "- Strict Content Security Policy with a build-time script hash, "
+        "`frame-ancestors 'none'`, and `img-src 'self' data:`.\n"
+        "- HSTS, `X-Content-Type-Options`, `X-Frame-Options`, "
+        "`Referrer-Policy`, `Permissions-Policy`, COOP, and CORP served from "
+        "[public/_headers](./public/_headers).\n"
+        "- Zero third-party requests and zero third-party cookies. Resource "
+        "logos are self-hosted, and an end-to-end test fails the build if any "
+        "cross-origin asset is ever requested again.\n"
+        "- SSRF-hardened link and logo checkers: HTTPS only, DNS resolution "
+        "with non-public address rejection, manual redirect following with a "
+        "loop guard, and capped response bodies.\n"
+        "- GitHub Actions are SHA-pinned, least-privilege, and run without "
+        "persisted credentials.\n"
+        "- CodeQL, OSV-Scanner, npm audit, dependency review, and license "
+        "policy enforcement run in CI.\n"
+        "- Python and npm dependencies are lockfile-pinned and verified with "
+        "`uv lock --check` and `npm ci`.\n\n"
+    )
+
+    lines.append("## Features\n\n")
+    lines.append(
+        "**Directory:** full-text search, collection and category filters, "
+        "relevance/name/date sorting, and progressive pagination.<br>\n"
+        "**Dataset:** JSON Schema validation, duplicate detection, link "
+        "health checks, category matching, and staleness tracking.<br>\n"
+        "**Exports:** `site.json`, `all_resources.json`, `resources.csv`, "
+        "`feed.xml`, `sitemap.xml`, and a static EDA report with "
+        "deterministic SVG charts.<br>\n"
+        "**Accessibility:** axe-core scans across desktop, mobile, and the "
+        "filter drawer, with keyboard navigation and a skip link.<br>\n"
+        f"**Responsive:** verified at {viewport_count()} viewport sizes from "
+        "320px phones to 2560px displays.\n\n"
+    )
+
+    lines.append("## Architecture\n\n")
+    lines.append("```text\n")
+    lines.append(
+        "CSResourceHub/\n"
+        "├─ data/                        Source of truth: category-grouped "
+        "JSON resource files\n"
+        "│  ├─ learning-development/     Learning resources, interview prep, "
+        "certifications\n"
+        "│  ├─ experience/               Hackathons, CTFs, competitions, game "
+        "jams\n"
+        "│  ├─ building-open-source/     Open source, developer resources, "
+        "projects\n"
+        "│  └─ careers-perks/            Internships, recruitment events, "
+        "student benefits\n"
+        "├─ schema/                      JSON Schema contract for every "
+        "resource\n"
+        "├─ scripts/                     Validation, generation, link and "
+        "logo checking, network safety\n"
+        "├─ generated/                   Machine-generated exports and the "
+        "EDA report\n"
+        "├─ src/                         React + TypeScript directory site\n"
+        "│  ├─ components/               Directory, filters, cards, chrome\n"
+        "│  └─ styles.css                Hand-written styles, no framework\n"
+        "├─ public/                      Static assets, self-hosted logos, "
+        "security headers\n"
+        "├─ e2e/                         Playwright suite: directory, "
+        "viewports, accessibility, smoke\n"
+        "├─ e2e-production/              Post-deploy smoke tests against the "
+        "live site\n"
+        "├─ tests/                       Pytest suite for the data pipeline\n"
+        "├─ notebooks/                   Reproducible exploratory analysis\n"
+        "└─ .github/workflows/           Validation, lint, CodeQL, deploy, "
+        "scheduled health checks\n"
+    )
+    lines.append("```\n\n")
+    lines.append('<div align="center">\n<pre>\n')
+    lines.append(
+        "┌────────────────────────────────────────────────────────────┐\n"
+        "│                     data/*.json (source)                   │\n"
+        "│        Category-grouped, schema-validated resources        │\n"
+        "└──────────────────────────────┬─────────────────────────────┘\n"
+        "                               │ validate + normalize\n"
+        "┌──────────────────────────────▼─────────────────────────────┐\n"
+        "│                      Automated Checks                      │\n"
+        "│   Schema, duplicates, links, categories, types, staleness  │\n"
+        "└──────────────────────────────┬─────────────────────────────┘\n"
+        "                               │ generate\n"
+        "┌──────────────────────────────▼─────────────────────────────┐\n"
+        "│                     Generated Artifacts                    │\n"
+        "│    README, site.json, CSV, RSS, sitemap, EDA report        │\n"
+        "└───────────────┬──────────────────────────────┬─────────────┘\n"
+        "                │                              │\n"
+        "┌───────────────▼──────────────┐   ┌───────────▼─────────────┐\n"
+        "│      React + Vite build      │   │   Dataset consumers     │\n"
+        "│  Search, filters, sort, a11y │   │  CSV, JSON, RSS, EDA    │\n"
+        "└───────────────┬──────────────┘   └─────────────────────────┘\n"
+        "                │ deploy\n"
+        "┌───────────────▼────────────────────────────────────────────┐\n"
+        "│                 Cloudflare Pages (edge)                    │\n"
+        "│      TLS, HSTS, CSP, self-hosted logos, zero third party   │\n"
+        "└────────────────────────────────────────────────────────────┘\n"
+    )
+    lines.append("</pre>\n</div>\n\n")
+    lines.append(
+        "- **Data:** category-grouped JSON files validated against a single "
+        "JSON Schema.\n"
+        "- **Scripts:** validation, normalization, generation, and "
+        "SSRF-hardened network checks.\n"
+        "- **Generated:** every downstream artifact, rebuilt deterministically "
+        "and gated on freshness in CI.\n"
+        "- **Site:** a static React build with no runtime data fetching and no "
+        "third-party assets.\n\n"
+    )
+
+    lines.append("## Tech Stack\n\n")
+    lines.append(
+        "| Area | Stack |\n"
+        "| --- | --- |\n"
+        "| Dataset | JSON, JSON Schema (Draft 7), Python 3.12 |\n"
+        "| Pipeline | uv, Ruff, jsonschema, Pillow, requests, matplotlib |\n"
+        "| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide |\n"
+        "| Styling | Hand-written CSS, self-hosted DM Sans, no framework |\n"
+        "| Testing | Playwright, axe-core, Vitest, Testing Library, pytest |\n"
+        "| DevOps | GitHub Actions, Cloudflare Pages, Wrangler |\n"
+        "| Security | CodeQL, OSV-Scanner, Dependabot, CSP, HSTS |\n"
+        "| Analysis | pandas, JupyterLab, deterministic SVG charts |\n\n"
+    )
+
+    browsers = browser_projects()
+    viewports = viewport_count()
+    total_tests = E2E_TESTS + UNIT_TESTS + PIPELINE_TESTS
+
+    lines.append("## Testing\n\n")
+    lines.append(
+        "| Suite | Count | Tools |\n"
+        "| --- | ---: | --- |\n"
+        f"| End-to-end | {E2E_TESTS} | Playwright, axe-core |\n"
+        f"| Frontend unit | {UNIT_TESTS} | Vitest, Testing Library |\n"
+        f"| Data pipeline | {PIPELINE_TESTS} | pytest |\n"
+        f"| Total | {total_tests} | CI-backed test coverage |\n\n"
+    )
+    lines.append(
+        f"End-to-end coverage runs across {len(browsers)} browser targets "
+        f"({', '.join(browsers)}) and sweeps {viewports} viewport sizes from "
+        "320px phones to 2560px displays, asserting no horizontal overflow at "
+        "any width. Accessibility scans run `axe-core` against desktop, "
+        "mobile, and the filter drawer, so accessibility regressions fail the "
+        "build. A dedicated test fails CI if the site ever requests a "
+        "third-party asset again.\n\n"
+    )
+
+    lines.append("## CI/CD\n\n")
+    lines.append(
+        "| Workflow | File | Purpose |\n"
+        "| --- | --- | --- |\n"
+        "| Validate | `.github/workflows/validate.yml` | Schema, duplicates, "
+        "categories, types, staleness |\n"
+        "| Lint | `.github/workflows/lint.yml` | Ruff, JSON formatting, "
+        "actionlint |\n"
+        "| Frontend | `.github/workflows/frontend.yml` | Type check, unit "
+        "tests, full browser suite |\n"
+        "| Generated Outputs | `.github/workflows/generate.yml` | Fails when "
+        "any generated file is stale |\n"
+        "| CodeQL | `.github/workflows/codeql.yml` | Static analysis for "
+        "Python and TypeScript |\n"
+        "| Dependency Policy | `.github/workflows/dependency_policy.yml` | "
+        "Lockfile integrity, npm audit, licenses, OSV-Scanner |\n"
+        "| Deploy Production | `.github/workflows/deploy-production.yml` | "
+        "Approval-gated Cloudflare Pages deploy and live smoke tests |\n"
+        "| Production Health | `.github/workflows/production.yml` | Daily "
+        "browser checks against the live site |\n"
+        "| Check Links | `.github/workflows/check_links.yml` | Scheduled link "
+        "health, opens an issue on dead links |\n"
+        "| Refresh Logos | `.github/workflows/refresh_logos.yml` | Re-fetches "
+        "self-hosted logos and opens a PR on change |\n\n"
+    )
+    lines.append('<div align="center">\n')
+    lines.append(
+        '  <img src="docs/ci-cd-flow.svg" '
+        'alt="Validation, CodeQL, and the browser suite gate an '
+        'approval-gated production deployment and live smoke tests" '
+        'width="100%">\n'
+    )
+    lines.append("</div>\n\n")
+    lines.append("Any required gate failure blocks the release.\n\n")
+
+    lines.append("## Production Engineering\n\n")
+    lines.append(
+        "- Deployment is gated on the full browser suite passing, then on a "
+        "manual approval in the `production` environment.\n"
+        "- The deploy checks out the exact commit that passed CI, not "
+        "whatever landed on `main` in the meantime.\n"
+        "- Smoke tests run against the live site after every deployment and "
+        "fail the release if production is broken.\n"
+        "- Security headers are asserted in production, not just configured.\n"
+        "- Resource logos are self-hosted and refreshed by a scheduled job "
+        "that only opens a PR when a logo genuinely changed.\n"
+        "- Link health runs on a schedule and opens a tracking issue when a "
+        "resource dies.\n"
+        "- Daily production health checks catch breakage that happens without "
+        "a deployment.\n\n"
+    )
+
+    lines.append("## Dataset & Exports\n\n")
+    lines.append(
+        "| Artifact | Path |\n"
+        "| --- | --- |\n"
+        "| JSON Schema contract | "
+        "[schema/resource.schema.json](./schema/resource.schema.json) |\n"
+        "| Schema documentation | [docs/SCHEMA.md](./docs/SCHEMA.md) |\n"
+        "| Data contract | "
+        "[docs/DATA_CONTRACT.md](./docs/DATA_CONTRACT.md) |\n"
+        "| Combined dataset | "
+        "[generated/all_resources.json](./generated/all_resources.json) |\n"
+        "| CSV export | "
+        "[generated/resources.csv](./generated/resources.csv) |\n"
+        "| Site data | [generated/site.json](./generated/site.json) |\n"
+        "| RSS feed | [public/feed.xml](./public/feed.xml) |\n"
+        "| Sitemap | [public/sitemap.xml](./public/sitemap.xml) |\n"
+        "| EDA report | "
+        "[generated/eda/report.md](./generated/eda/report.md) |\n"
+        "| Citation | [CITATION.cff](./CITATION.cff) |\n\n"
+    )
+
+    lines.append("## Quality Gates\n\n")
+    lines.append("### Lighthouse\n\n")
+    lines.append('<div align="center">\n')
+    lines.append(
+        '  <img src="docs/screenshots/lighthouse.png" '
+        'alt="Lighthouse 100 performance, 100 accessibility, 100 best '
+        'practices, 100 SEO" width="100%">\n'
+    )
+    lines.append("</div>\n\n")
+    lines.append(
+        "**Production audit:** 100 across performance, accessibility, best "
+        "practices, and SEO. Self-hosted logos mean the site loads zero "
+        "third-party assets and sets zero third-party cookies.\n\n"
+    )
+    lines.append("### SSL Labs\n\n")
+    lines.append('<div align="center">\n')
+    lines.append(
+        '  <img src="docs/screenshots/ssl-labs.png" '
+        'alt="SSL Labs A+ across all assessed edge servers" width="100%">\n'
+    )
+    lines.append("</div>\n\n")
+    lines.append(
+        "**TLS configuration:** A+ across every assessed Cloudflare edge "
+        "endpoint, with HSTS and a TLS 1.2 minimum.\n\n"
+    )
+    lines.append("### Uptime Monitoring\n\n")
+    lines.append('<div align="center">\n')
+    lines.append(
+        '  <img src="docs/screenshots/uptimerobot.png" '
+        'alt="UptimeRobot production availability monitor" width="100%">\n'
+    )
+    lines.append("</div>\n\n")
+    lines.append(
+        "**External monitoring:** UptimeRobot checks the live site every five "
+        "minutes. Post-deploy smoke tests and a daily production health "
+        "workflow provide additional runtime verification.\n\n"
+    )
+
     lines.append("## Browse\n\n")
     lines.append("Browse resources by area and category.\n\n")
     lines.append("| Area | Categories |\n")
@@ -245,14 +538,25 @@ def generate_readme():
         "install optional dependencies with `pip install -e .[eda]`, then "
         "run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.\n\n"
     )
-    lines.append("## Local Development\n\n")
+    lines.append("<details>\n")
+    lines.append("<summary><strong>Getting Started</strong></summary>\n\n")
+    lines.append("### Prerequisites\n\n")
     lines.append(
-        "Clone the repo and run validation or generation commands from the "
-        "project root.\n\n"
+        "- Python 3.12\n"
+        "- Node.js 22\n"
+        "- [uv](https://docs.astral.sh/uv/) for locked Python dependencies\n\n"
     )
+    lines.append("### Clone\n\n")
     lines.append("```bash\n")
     lines.append("git clone https://github.com/NicholasXydis/CSResourceHub.git\n")
     lines.append("cd CSResourceHub\n")
+    lines.append("```\n\n")
+    lines.append("### Dataset\n\n")
+    lines.append(
+        "Validate the dataset, then rebuild every generated artifact. CI runs "
+        "the same pipeline and fails when anything is stale.\n\n"
+    )
+    lines.append("```bash\n")
     lines.append("make validate\n")
     lines.append("make generate\n")
     lines.append("```\n\n")
@@ -261,18 +565,49 @@ def generate_readme():
     lines.append('make validate PYTHON="py -3"\n')
     lines.append('make generate PYTHON="py -3"\n')
     lines.append("```\n\n")
-    lines.append(
-        "To work with the optional EDA notebook, install the EDA dependencies "
-        "and launch JupyterLab:\n\n"
-    )
+    lines.append("### Site\n\n")
+    lines.append("```bash\n")
+    lines.append("npm ci\n")
+    lines.append("npm run dev\n")
+    lines.append("```\n\n")
+    lines.append("### Tests\n\n")
+    lines.append("```bash\n")
+    lines.append("npm run check          # type check, lint, unit tests, build\n")
+    lines.append("npx playwright test    # full browser suite\n")
+    lines.append("uv run pytest tests/   # data pipeline\n")
+    lines.append("```\n\n")
+    lines.append("### Notebook\n\n")
     lines.append("```bash\n")
     lines.append("pip install -e .[eda]\n")
     lines.append("py -3 -m jupyterlab notebooks/resource_eda.ipynb\n")
     lines.append("```\n\n")
+    lines.append("</details>\n\n")
+
+    lines.append("<details>\n")
+    lines.append("<summary><strong>Automation Reference</strong></summary>\n\n")
     lines.append(
-        "The static EDA report is available at "
-        "[generated/eda/report.md](./generated/eda/report.md).\n\n"
+        "| Command | Purpose |\n"
+        "| --- | --- |\n"
+        "| `make validate` | Schema, duplicates, categories, types, locations, "
+        "URLs |\n"
+        "| `make generate` | Rebuild README, exports, feed, sitemap, social "
+        "card, EDA report |\n"
+        "| `make check-links` | Probe every resource URL and update "
+        "`last_verified` |\n"
+        "| `make fetch-logos` | Re-download self-hosted logos into "
+        "`public/logos/` |\n"
+        "| `make check-stale` | Flag resources that have not been verified "
+        "recently |\n"
+        "| `make eda-report` | Regenerate the static EDA report and charts |\n"
+        "| `make stats` | Print dataset statistics |\n"
+        "| `make add` | Interactive resource scaffolding |\n\n"
     )
+    lines.append(
+        "Generated files are never edited by hand. `make generate` is "
+        "deterministic, and the `Generated Outputs` workflow fails the build "
+        "if a commit leaves them stale.\n\n"
+    )
+    lines.append("</details>\n\n")
 
     for group, categories in CATEGORY_GROUPS.items():
         lines.append(f"\n## {GROUP_ICONS[group]} {group}\n\n")

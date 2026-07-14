@@ -1,11 +1,8 @@
 name: Deploy Production
 
 on:
-  workflow_run:
-    workflows:
-      - Frontend
-    types:
-      - completed
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -17,15 +14,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  verify:
+    name: Verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Type check, lint, unit tests, build
+        run: npm run check
+      - name: Install browsers
+        run: npx playwright install --with-deps chromium firefox webkit
+      - name: Run browser suite
+        run: npx playwright test
+
   deploy:
     name: Deploy Production
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      (
-        github.event.workflow_run.conclusion == 'success' &&
-        github.event.workflow_run.head_branch == 'main' &&
-        github.event.workflow_run.event == 'push'
-      )
+    needs: verify
     runs-on: ubuntu-latest
     timeout-minutes: 15
     environment:
@@ -35,7 +46,6 @@ jobs:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         with:
           persist-credentials: false
-          ref: ${{ github.event_name == 'workflow_dispatch' && github.sha || github.event.workflow_run.head_sha }}
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version: "22"
@@ -50,3 +60,18 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: "4.42.0"
           command: pages deploy dist --project-name=csresourcehub --branch=main
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+      - name: Smoke test production
+        env:
+          PRODUCTION_URL: https://csresourcehub.ca
+        run: npm run test:smoke:production
+      - name: Upload diagnostics
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: production-smoke-diagnostics
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 14

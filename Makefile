@@ -14,7 +14,6 @@ generate:
 	$(PYTHON) scripts/generate_citation.py
 	$(PYTHON) scripts/generate_sitemap.py
 	$(PYTHON) scripts/generate_feed.py
-	$(PYTHON) scripts/generate_og_image.py
 	$(PYTHON) scripts/generate_combined.py
 	$(PYTHON) scripts/generate_site_json.py
 	$(PYTHON) scripts/generate_stats_json.py
