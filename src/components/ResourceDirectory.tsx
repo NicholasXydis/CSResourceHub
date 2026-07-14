@@ -1,6 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { ChevronDown, Filter, RefreshCcw, Search, X } from "lucide-react";
+import {
+  ChevronDown,
+  RefreshCcw,
+  Search,
+  SlidersHorizontal,
+  X,
+} from "lucide-react";
 import {
   ALL_RESOURCES,
   CATEGORY_LABELS,
@@ -114,7 +120,7 @@ export default function ResourceDirectory({ query, setQuery }: SearchControls) {
         aria-haspopup="dialog"
         aria-expanded={drawer}
       >
-        <Filter /> Filters{" "}
+        <SlidersHorizontal /> Filters{" "}
         {(collection !== "all" || category !== "all") && (
           <span>
             {Number(collection !== "all") + Number(category !== "all")}

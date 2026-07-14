@@ -6,6 +6,7 @@ import {
   GraduationCap,
   Layers3,
   RefreshCcw,
+  SlidersHorizontal,
   Trophy,
 } from "lucide-react";
 import {
@@ -78,7 +79,9 @@ export default function Filters({
       aria-label="Resource filters"
     >
       <motion.div variants={RISE} className="filters-title">
-        <strong>Filters</strong>
+        <strong>
+          <SlidersHorizontal aria-hidden="true" /> Filters
+        </strong>
         <motion.button
           {...FILTER_MOTION}
           className="clear-filter"

@@ -312,6 +312,15 @@ button {
   align-items: center;
   padding: 5px 6px 13px;
 }
+.filters-title strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.filters-title strong svg {
+  width: 16px;
+  height: 16px;
+}
 .filters-title button {
   border: 0;
   background: none;
@@ -445,10 +454,7 @@ button {
   border-radius: 10px;
   display: grid;
   place-items: center;
-  color: #101622;
   background: linear-gradient(145deg, #fff, #cbd5e1);
-  font-size: 13px;
-  font-weight: 800;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .card-head > div:nth-child(2) {
@@ -664,7 +670,8 @@ footer svg {
     gap: 8px;
   }
   .mobile-filter svg {
-    width: 17px;
+    width: 16px;
+    height: 16px;
   }
   .mobile-filter span {
     width: 18px;
@@ -794,7 +801,6 @@ footer svg {
 .filter-row:hover svg,
 .mobile-filter:hover svg,
 .filter-row svg,
-.mobile-filter svg,
 .stats div:hover {
   transform: translateY(-4px) scale(1.025);
 }
@@ -834,12 +840,6 @@ footer svg {
   object-fit: contain;
   object-position: center;
   border-radius: 5px;
-}
-.resource-logo span {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  height: 100%;
 }
 .filters-title .clear-filter {
   display: inline-flex;
@@ -904,14 +904,7 @@ footer svg {
   white-space: nowrap;
 }
 .resource-logo.fallback-logo {
-  color: #fff;
-  background: linear-gradient(135deg, #376ff3, #7546e8);
   box-shadow: 0 8px 22px rgba(68, 78, 232, 0.28);
-}
-.resource-logo.fallback-logo svg {
-  width: 23px;
-  height: 23px;
-  stroke-width: 2.1;
 }
 .resource-card:hover .resource-logo.fallback-logo {
   box-shadow: 0 13px 32px rgba(82, 70, 235, 0.42);
@@ -1670,6 +1663,7 @@ footer .back-to-top:hover {
 
 footer .back-to-top {
   min-height: 52px;
+  gap: 10px;
   padding: 10px 17px;
   border: 1px solid rgba(102, 136, 222, 0.24);
   border-radius: 12px;
@@ -1696,7 +1690,12 @@ footer .back-to-top:hover {
     0 0 24px rgba(75, 83, 220, 0.1);
 }
 footer .back-to-top svg {
+  width: 27px;
+  height: 27px;
+  padding: 6px;
+  border-radius: 8px;
   color: #9ab2ff;
+  background: rgba(84, 110, 225, 0.14);
   transition: transform 0.34s cubic-bezier(0.2, 1.55, 0.35, 1);
 }
 footer .back-to-top:hover svg {
