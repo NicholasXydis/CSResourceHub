@@ -22,7 +22,7 @@ jobs:
           persist-credentials: false
       - name: Check PR size
         run: |
-          FILES=$(git diff --name-only origin/main...HEAD | grep "data/.*\.json" | wc -l)
+          FILES=$(git diff --name-only origin/main...HEAD | grep -c "data/.*\.json" || true)
           STATUS="PASS"
           if [ "$FILES" -gt 20 ]; then STATUS="FAIL"; fi
           {
