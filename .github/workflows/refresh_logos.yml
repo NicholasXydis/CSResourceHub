@@ -1,0 +1,70 @@
+name: Refresh Logos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+  schedule:
+    - cron: "0 9 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  refresh-logos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+      - name: Install locked Python dependencies
+        run: |
+          python -m pip install uv==0.11.28
+          uv sync --frozen
+      - name: Fetch resource logos
+        id: logos
+        continue-on-error: true
+        run: uv run python scripts/fetch_logos.py
+      - name: Create logo refresh PR
+        id: update_pr
+        if: steps.logos.outcome == 'success'
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
+        with:
+          commit-message: "chore: refresh self-hosted resource logos"
+          title: "chore: refresh self-hosted resource logos"
+          body: "Automated refresh of public/logos and generated/logos.json after re-probing resource domains."
+          branch: chore/refresh-logos
+          delete-branch: true
+          add-paths: |
+            public/logos/
+            generated/logos.json
+      - name: Write logo summary
+        if: always()
+        run: |
+          logos="FAIL"
+          pr="FAIL"
+          if [ "${{ steps.logos.outcome }}" = "success" ]; then logos="PASS"; fi
+          if [ "$logos" = "PASS" ] && [ "${{ steps.update_pr.outcome }}" != "failure" ]; then pr="PASS"; fi
+          {
+            echo "## Logo health"
+            echo ""
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            echo "| Resource logo fetch | $logos |"
+            echo "| Logo refresh PR | $pr |"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail if the logo fetch is not healthy
+        if: always()
+        run: |
+          if [ "${{ steps.logos.outcome }}" != "success" ]; then
+            exit 1
+          fi

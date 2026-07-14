@@ -2,9 +2,9 @@ import json
 from datetime import date, timedelta
 
 import check_duplicates
-import check_favicons
 import check_links
 import check_stale
+import fetch_logos
 import generate_combined
 import generate_feed
 import generate_site_json
@@ -13,6 +13,7 @@ import net_safety
 import pytest
 import utils
 import validate_urls_normalized
+from PIL import Image
 
 
 def test_canonical_url_normalizes_equivalent_urls():
@@ -46,21 +47,21 @@ def test_site_url_is_identical_in_python_and_vite():
 
 
 def test_curated_fallback_matches_domain_and_subdomains():
-    assert check_favicons.prefers_fallback("defcon.org")
-    assert check_favicons.prefers_fallback("blitz.codes")
-    assert check_favicons.prefers_fallback("2026.blitz.codes")
-    assert check_favicons.prefers_fallback("2027.blitz.codes")
+    assert fetch_logos.prefers_fallback("defcon.org")
+    assert fetch_logos.prefers_fallback("blitz.codes")
+    assert fetch_logos.prefers_fallback("2026.blitz.codes")
+    assert fetch_logos.prefers_fallback("2027.blitz.codes")
 
 
 def test_curated_fallback_ignores_unrelated_domains():
-    assert not check_favicons.prefers_fallback("leetcode.com")
-    assert not check_favicons.prefers_fallback("notdefcon.org")
-    assert not check_favicons.prefers_fallback("defcon.org.evil.com")
+    assert not fetch_logos.prefers_fallback("leetcode.com")
+    assert not fetch_logos.prefers_fallback("notdefcon.org")
+    assert not fetch_logos.prefers_fallback("defcon.org.evil.com")
 
 
-def test_curated_domains_skip_probing_and_land_on_the_tile(monkeypatch):
+def test_curated_domains_are_never_fetched(monkeypatch, tmp_path):
     monkeypatch.setattr(
-        check_favicons,
+        fetch_logos,
         "load_all_resources",
         lambda: [
             {"url": "https://defcon.org"},
@@ -68,34 +69,75 @@ def test_curated_domains_skip_probing_and_land_on_the_tile(monkeypatch):
             {"url": "https://example.com"},
         ],
     )
-    monkeypatch.setattr(
-        check_favicons, "google_default_icon_hash", lambda _session: "hash"
-    )
+    monkeypatch.setattr(fetch_logos, "LOGO_DIR", tmp_path)
 
-    def explode(url, _default_hash):
-        raise AssertionError(f"curated domain should not be probed: {url}")
+    fetched = []
 
-    monkeypatch.setattr(check_favicons, "probe_favicon", explode)
+    def fake_best_logo(url):
+        fetched.append(url)
+        return Image.new("RGBA", (128, 128))
+
+    monkeypatch.setattr(fetch_logos, "best_logo", fake_best_logo)
 
     saved = {}
     monkeypatch.setattr(
-        check_favicons, "save_json", lambda _path, data: saved.update(data)
+        fetch_logos, "save_json", lambda _path, data: saved.update(data)
     )
-    monkeypatch.setattr(check_favicons, "log", lambda _message: None)
+    monkeypatch.setattr(fetch_logos, "log", lambda _message: None)
 
-    with pytest.raises(AssertionError):
-        check_favicons.check_favicons()
+    fetch_logos.fetch_logos()
 
+    assert fetched == ["https://example.com"]
+    assert saved["stored"] == ["example.com"]
+    assert saved["checked"] == 3
+
+
+def test_a_network_outage_does_not_wipe_the_stored_logos(monkeypatch, tmp_path):
     monkeypatch.setattr(
-        check_favicons,
+        fetch_logos,
         "load_all_resources",
-        lambda: [{"url": "https://defcon.org"}, {"url": "https://2026.blitz.codes"}],
+        lambda: [{"url": f"https://site{n}.com"} for n in range(10)],
     )
-    check_favicons.check_favicons()
+    monkeypatch.setattr(fetch_logos, "LOGO_DIR", tmp_path)
+    monkeypatch.setattr(fetch_logos, "best_logo", lambda _url: None)
 
-    assert saved["missing"] == ["2026.blitz.codes", "defcon.org"]
-    assert saved["siteOnly"] == []
-    assert saved["checked"] == 2
+    saved = {}
+    monkeypatch.setattr(
+        fetch_logos, "save_json", lambda _path, data: saved.update(data)
+    )
+    monkeypatch.setattr(fetch_logos, "log", lambda _message: None)
+
+    with pytest.raises(SystemExit):
+        fetch_logos.fetch_logos()
+
+    assert saved == {}
+
+
+def test_stored_logos_are_written_for_fetchable_domains(monkeypatch, tmp_path):
+    monkeypatch.setattr(
+        fetch_logos,
+        "load_all_resources",
+        lambda: [{"url": "https://example.com"}, {"url": "https://other.com"}],
+    )
+    monkeypatch.setattr(fetch_logos, "LOGO_DIR", tmp_path)
+    monkeypatch.setattr(
+        fetch_logos, "best_logo", lambda _url: Image.new("RGBA", (128, 128))
+    )
+
+    saved = {}
+    monkeypatch.setattr(
+        fetch_logos, "save_json", lambda _path, data: saved.update(data)
+    )
+    monkeypatch.setattr(fetch_logos, "log", lambda _message: None)
+
+    fetch_logos.fetch_logos()
+
+    assert saved["stored"] == ["example.com", "other.com"]
+    written = sorted(p.name for p in tmp_path.glob("*.png"))
+    assert written == ["example.com.png", "other.com.png"]
+
+    with Image.open(tmp_path / "example.com.png") as image:
+        assert image.size == (fetch_logos.LOGO_SIZE, fetch_logos.LOGO_SIZE)
 
 
 def test_link_retry_requires_consistent_hard_dead_results(monkeypatch):

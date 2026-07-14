@@ -4,18 +4,26 @@ test("loads without console errors or failed page requests", async ({
   page,
 }) => {
   const errors: string[] = [];
+  const thirdParty: string[] = [];
   page.on("console", (message) => {
     if (message.type() === "error") errors.push(message.text());
   });
   page.on("pageerror", (error) => errors.push(error.message));
 
-  await page.goto("/");
-  await expect(page.locator(".resource-card").first()).toBeVisible();
+  const response = await page.goto("/");
+  const origin = new URL(response!.url()).origin;
 
-  const ownAssetErrors = errors.filter(
-    (message) => !/favicon|s2\/favicons|net::ERR/i.test(message),
+  page.on("request", (request) => {
+    if (!request.url().startsWith(origin)) thirdParty.push(request.url());
+  });
+
+  await expect(page.locator(".resource-card").first()).toBeVisible();
+  await page.locator(".resource-card img").last().scrollIntoViewIfNeeded();
+
+  expect(errors).toEqual([]);
+  expect(thirdParty, "the page must not request any third-party asset").toEqual(
+    [],
   );
-  expect(ownAssetErrors).toEqual([]);
 });
 
 test("opens and closes the mobile filter drawer", async ({ page }) => {

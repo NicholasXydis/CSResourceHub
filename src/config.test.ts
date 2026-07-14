@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 import siteJson from "../generated/site.json";
-import faviconsJson from "../generated/favicons.json";
 import {
   ALL_RESOURCES,
   CATEGORY_LABELS,
@@ -8,11 +7,11 @@ import {
   COUNTS,
   GROUP_COUNTS,
   GROUPS,
-  MISSING_FAVICON_DOMAINS,
+  LOGO_DOMAINS,
   RESOURCE_TYPES,
   SITE_DATA,
-  SITE_FAVICON_DOMAINS,
 } from "./config";
+import { localLogoUrl } from "./favicon";
 import { domainOf } from "./utils";
 import schema from "../schema/resource.schema.json";
 
@@ -121,21 +120,15 @@ describe("generated site data contract", () => {
     expect(wrong).toEqual([]);
   });
 
-  it("lists no favicon domain that the dataset no longer contains", () => {
+  it("stores a logo for the large majority of domains", () => {
     const domains = new Set(ALL_RESOURCES.map((r) => domainOf(r.url)));
-    for (const domain of MISSING_FAVICON_DOMAINS) {
-      expect(domains).toContain(domain);
-    }
-    for (const domain of SITE_FAVICON_DOMAINS) {
-      expect(domains).toContain(domain);
-    }
-    expect(faviconsJson.missing.length).toBeLessThan(domains.size);
+    const covered = [...domains].filter((domain) => LOGO_DOMAINS.has(domain));
+    expect(covered.length).toBeGreaterThan(domains.size * 0.8);
   });
 
-  it("keeps the missing and site-only favicon lists disjoint", () => {
-    const overlap = [...SITE_FAVICON_DOMAINS].filter((domain) =>
-      MISSING_FAVICON_DOMAINS.has(domain),
-    );
-    expect(overlap).toEqual([]);
+  it("serves every stored logo from a same-origin path", () => {
+    for (const domain of LOGO_DOMAINS) {
+      expect(localLogoUrl(domain).startsWith("/logos/")).toBe(true);
+    }
   });
 });

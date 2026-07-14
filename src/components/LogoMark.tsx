@@ -1,19 +1,17 @@
 import { useState } from "react";
 import {
-  googleFaviconUrl,
   initialFaviconSource,
+  localLogoUrl,
   nextFaviconSource,
 } from "../favicon";
 import type { FaviconSource } from "../favicon";
-import { domainOf, originFavicon } from "../utils";
+import { domainOf } from "../utils";
 
 export default function LogoMark({ url }: { url: string }) {
   const domain = domainOf(url);
   const [source, setSource] = useState<FaviconSource>(() =>
     initialFaviconSource(domain),
   );
-  const imageUrl =
-    source === "google" ? googleFaviconUrl(domain) : originFavicon(url);
   const handleError = () => setSource(nextFaviconSource);
   return (
     <div
@@ -26,13 +24,12 @@ export default function LogoMark({ url }: { url: string }) {
         <img src="/favicon.svg" alt="" width="28" height="28" />
       ) : (
         <img
-          src={imageUrl}
+          src={localLogoUrl(domain)}
           alt=""
           width="28"
           height="28"
           loading="lazy"
           decoding="async"
-          referrerPolicy="no-referrer"
           onError={handleError}
         />
       )}

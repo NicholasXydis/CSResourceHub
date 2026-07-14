@@ -1,5 +1,5 @@
 import siteJson from "../generated/site.json";
-import faviconsJson from "../generated/favicons.json";
+import logosJson from "../generated/logos.json";
 import type { Category, Group, GroupName, Resource, SiteData } from "./types";
 
 const siteData = siteJson as unknown as SiteData;
@@ -37,5 +37,4 @@ export const GITHUB_URL = "https://github.com/NicholasXydis/CSResourceHub";
 export const PAGE_SIZE = 18;
 export const SITE_DATA: SiteData = siteData;
 
-export const MISSING_FAVICON_DOMAINS = new Set<string>(faviconsJson.missing);
-export const SITE_FAVICON_DOMAINS = new Set<string>(faviconsJson.siteOnly);
+export const LOGO_DOMAINS = new Set<string>(logosJson.stored);

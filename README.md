@@ -606,6 +606,7 @@ Contributions keep this dataset useful and current.
 
 - Code and scripts: [MIT](./LICENSE)
 - Dataset/content: [CC BY 4.0](./LICENSE-CC-BY)
+- Resource logos in `public/logos/` are the trademarks and property of their respective owners. They are stored and displayed solely to identify the resource each entry links to, and imply no affiliation or endorsement. Owners who would prefer their logo not be shown can [open an issue](https://github.com/NicholasXydis/CSResourceHub/issues) and it will be replaced with a neutral tile.
 
 <div align="center">
 

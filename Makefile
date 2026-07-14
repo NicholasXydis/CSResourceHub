@@ -1,7 +1,7 @@
 PYTHON ?= python3
 RUFF ?= $(PYTHON) -m ruff
 
-.PHONY: validate generate lint stats add check-links check-favicons check-stale check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls eda-report help
+.PHONY: validate generate lint stats add check-links fetch-logos check-stale check-duplicates check-locations sort check-category check-descriptions stats-json export-csv check-urls eda-report help
 
 validate:
 	$(PYTHON) scripts/validate_all.py
@@ -34,8 +34,8 @@ add:
 check-links:
 	$(PYTHON) scripts/check_links.py
 
-check-favicons:
-	$(PYTHON) scripts/check_favicons.py
+fetch-logos:
+	$(PYTHON) scripts/fetch_logos.py
 
 check-stale:
 	$(PYTHON) scripts/check_stale.py
@@ -74,7 +74,7 @@ help:
 	@echo "stats           - Print resource counts per category"
 	@echo "add             - Interactive CLI to add a new resource"
 	@echo "check-links     - Check all URLs for dead links"
-	@echo "check-favicons  - Probe resource domains and regenerate favicons.json"
+	@echo "fetch-logos     - Download resource logos into public/logos and regenerate logos.json"
 	@echo "check-stale     - Flag resources not verified recently"
 	@echo "check-duplicates - Check for duplicate URLs"
 	@echo "check-locations - Validate location values"

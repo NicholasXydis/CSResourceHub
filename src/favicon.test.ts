@@ -1,60 +1,45 @@
 import { describe, expect, it } from "vitest";
 import {
-  googleFaviconUrl,
   initialFaviconSource,
+  localLogoUrl,
   nextFaviconSource,
 } from "./favicon";
-import { MISSING_FAVICON_DOMAINS, SITE_FAVICON_DOMAINS } from "./config";
+import { LOGO_DOMAINS } from "./config";
 
 describe("initialFaviconSource", () => {
-  it("uses Google for a domain it knows an icon for", () => {
-    expect(initialFaviconSource("example.com")).toBe("google");
-  });
-
-  it("uses the site's own icon when Google has none", () => {
-    const [domain] = [...SITE_FAVICON_DOMAINS];
+  it("uses the self-hosted logo for a domain that has one", () => {
+    const [domain] = [...LOGO_DOMAINS];
     expect(domain).toBeDefined();
-    expect(initialFaviconSource(domain as string)).toBe("site");
+    expect(initialFaviconSource(domain as string)).toBe("local");
   });
 
-  it("skips straight to the placeholder when no icon exists anywhere", () => {
-    const [domain] = [...MISSING_FAVICON_DOMAINS];
-    expect(domain).toBeDefined();
-    expect(initialFaviconSource(domain as string)).toBe("fallback");
+  it("uses the branded tile for a domain with no stored logo", () => {
+    expect(initialFaviconSource("no-logo.example")).toBe("fallback");
   });
 
-  it("never lists a domain as both missing and site-only", () => {
-    const overlap = [...SITE_FAVICON_DOMAINS].filter((domain) =>
-      MISSING_FAVICON_DOMAINS.has(domain),
-    );
-    expect(overlap).toEqual([]);
-  });
-
-  it("treats an empty domain as a Google lookup", () => {
-    expect(initialFaviconSource("")).toBe("google");
+  it("treats an empty domain as a tile", () => {
+    expect(initialFaviconSource("")).toBe("fallback");
   });
 });
 
 describe("nextFaviconSource", () => {
-  it("degrades from Google to the site's own icon", () => {
-    expect(nextFaviconSource("google")).toBe("site");
-  });
-
-  it("degrades from the site's icon to the placeholder", () => {
-    expect(nextFaviconSource("site")).toBe("fallback");
-  });
-
-  it("stays on the placeholder once it is reached", () => {
-    expect(nextFaviconSource("fallback")).toBe("fallback");
+  it("degrades to the branded tile", () => {
+    expect(nextFaviconSource()).toBe("fallback");
   });
 });
 
-describe("googleFaviconUrl", () => {
-  it("requests a high-resolution icon", () => {
-    expect(googleFaviconUrl("example.com")).toContain("sz=128");
+describe("localLogoUrl", () => {
+  it("points at a same-origin path", () => {
+    expect(localLogoUrl("example.com")).toBe("/logos/example.com.png");
   });
 
-  it("encodes the domain", () => {
-    expect(googleFaviconUrl("a b.com")).toContain("a%20b.com");
+  it("never produces an absolute or protocol-relative URL", () => {
+    const url = localLogoUrl("example.com");
+    expect(url.startsWith("/")).toBe(true);
+    expect(url.startsWith("//")).toBe(false);
+  });
+
+  it("encodes a domain with unsafe characters", () => {
+    expect(localLogoUrl("a b.com")).toBe("/logos/a%20b.com.png");
   });
 });

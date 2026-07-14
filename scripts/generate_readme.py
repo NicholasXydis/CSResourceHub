@@ -345,6 +345,14 @@ def generate_readme():
     lines.append("\n## License\n\n")
     lines.append("- Code and scripts: [MIT](./LICENSE)\n")
     lines.append("- Dataset/content: [CC BY 4.0](./LICENSE-CC-BY)\n")
+    lines.append(
+        "- Resource logos in `public/logos/` are the trademarks and property of "
+        "their respective owners. They are stored and displayed solely to "
+        "identify the resource each entry links to, and imply no affiliation or "
+        "endorsement. Owners who would prefer their logo not be shown can "
+        "[open an issue]("
+    )
+    lines.append(f"{REPO_URL}/issues) and it will be replaced with a neutral tile.\n")
     lines.append("\n")
     lines.append('<div align="center">\n\n')
     lines.append(

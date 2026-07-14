@@ -60,8 +60,14 @@ test("loads assets and supports search and filtering without first-party failure
   const search = page.getByRole("textbox", { name: /search resources/i });
   await search.fill("python");
   await expect(page.locator(".resource-card").first()).toBeVisible();
-  await page.getByRole("button", { name: /^Experience/ }).click();
-  await expect(page.getByText(/resources found/)).toBeVisible();
+  await expect(page.getByRole("status")).toHaveText(/\d+ resources found/);
+
+  await search.fill("");
+  const experience = page.getByRole("button", { name: /^Experience/ });
+  await expect(experience).toHaveCSS("opacity", "1");
+  await experience.click();
+  await expect(experience).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator(".resource-card").first()).toBeVisible();
 
   expect(failures).toEqual([]);
 });
