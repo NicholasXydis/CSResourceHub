@@ -61,7 +61,7 @@ def project_version() -> str:
 
 VERSION = project_version()
 REPO_URL = f"https://github.com/{REPO_SLUG}"
-SITE_URL = "https://csresourcehub.pages.dev"
+SITE_URL = "https://csresourcehub.ca"
 SITE_NAME = "CS Resource Hub"
 SITE_TAGLINE = (
     "A curated directory of resources for Canadian computer science students."

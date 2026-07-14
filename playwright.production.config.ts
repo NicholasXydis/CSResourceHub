@@ -1,6 +1,6 @@
 import { defineConfig, devices } from "@playwright/test";
 
-const baseURL = process.env.PRODUCTION_URL ?? "https://csresourcehub.pages.dev";
+const baseURL = process.env.PRODUCTION_URL ?? "https://csresourcehub.ca";
 
 export default defineConfig({
   testDir: "./e2e-production",

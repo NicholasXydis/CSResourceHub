@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CS Resource Hub</title>
-    <link>https://csresourcehub.pages.dev/</link>
+    <link>https://csresourcehub.ca/</link>
     <description>A curated directory of resources for Canadian computer science students.</description>
     <language>en-ca</language>
-    <atom:link href="https://csresourcehub.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://csresourcehub.ca/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Real-World Cryptography</title>
       <link>https://www.manning.com/books/real-world-cryptography</link>

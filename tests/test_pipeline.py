@@ -36,6 +36,15 @@ def test_duplicate_check_rejects_canonical_url_duplicates(monkeypatch):
         check_duplicates.check_duplicates()
 
 
+def test_site_url_is_identical_in_python_and_vite():
+    vite_config = (utils.ROOT / "vite.config.ts").read_text(encoding="utf-8")
+    playwright_config = (utils.ROOT / "playwright.production.config.ts").read_text(
+        encoding="utf-8"
+    )
+    assert f'const SITE_URL = "{utils.SITE_URL}";' in vite_config
+    assert f'"{utils.SITE_URL}"' in playwright_config
+
+
 def test_curated_fallback_matches_domain_and_subdomains():
     assert check_favicons.prefers_fallback("defcon.org")
     assert check_favicons.prefers_fallback("blitz.codes")

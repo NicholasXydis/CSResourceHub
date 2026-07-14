@@ -10,7 +10,7 @@ const SITE_JSON = fileURLToPath(
   new URL("./generated/site.json", import.meta.url),
 );
 
-const SITE_URL = "https://csresourcehub.pages.dev";
+const SITE_URL = "https://csresourcehub.ca";
 
 interface SiteMetadata {
   generated: string;
