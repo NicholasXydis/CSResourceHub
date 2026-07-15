@@ -4,6 +4,7 @@ from contextlib import contextmanager
 from urllib.parse import urljoin, urlparse
 
 import requests
+from urllib3.util import connection as urllib3_connection
 
 MAX_REDIRECTS = 5
 MAX_BYTES = 2 * 1024 * 1024
@@ -22,6 +23,14 @@ def resolved_addresses(hostname: str, port: int) -> list[str]:
     return [info[4][0] for info in infos]
 
 
+def assert_public_addresses(hostname: str, port: int) -> list[str]:
+    addresses = resolved_addresses(hostname, port)
+    for address in addresses:
+        if not ipaddress.ip_address(address).is_global:
+            raise UnsafeUrl(f"{hostname} resolves to non-public address {address}")
+    return addresses
+
+
 def assert_safe_url(url: str) -> None:
     try:
         parsed = urlparse(url)
@@ -35,9 +44,43 @@ def assert_safe_url(url: str) -> None:
 
     if not hostname:
         raise UnsafeUrl("missing hostname")
-    for address in resolved_addresses(hostname, port):
-        if not ipaddress.ip_address(address).is_global:
-            raise UnsafeUrl(f"{hostname} resolves to non-public address {address}")
+    assert_public_addresses(hostname, port)
+
+
+_original_create_connection = urllib3_connection.create_connection
+
+
+def _guarded_create_connection(address, *args, **kwargs):
+    host, port = address[0], address[1]
+    addresses = assert_public_addresses(host, port)
+
+    last_error: OSError | None = None
+    for ip in addresses:
+        try:
+            # ``ip`` is a literal, so no second name resolution happens here:
+            # the socket connects to the exact address we just validated.
+            return _original_create_connection((ip, port), *args, **kwargs)
+        except OSError as exc:
+            last_error = exc
+    raise last_error if last_error else UnsafeUrl(f"cannot connect to {host}")
+
+
+def _install_connection_guard() -> None:
+    if getattr(urllib3_connection.create_connection, "_ssrf_guarded", False):
+        return
+    _guarded_create_connection._ssrf_guarded = True
+    urllib3_connection.create_connection = _guarded_create_connection
+
+
+_install_connection_guard()
+
+
+def safe_session() -> requests.Session:
+    session = requests.Session()
+    # Ignore HTTP(S)_PROXY / NO_PROXY: a proxy resolves the destination itself,
+    # which would bypass the DNS-pinning guard above.
+    session.trust_env = False
+    return session
 
 
 @contextmanager

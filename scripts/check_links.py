@@ -5,7 +5,7 @@ from datetime import date
 from pathlib import Path
 
 import requests
-from net_safety import UnsafeUrl, safe_request
+from net_safety import UnsafeUrl, safe_request, safe_session
 from requests.exceptions import SSLError
 from utils import get_all_resource_files, load_json, log, save_json
 
@@ -46,7 +46,7 @@ def classify_response(response):
 
 
 def check_url_once(url):
-    session = requests.Session()
+    session = safe_session()
     session.headers.update(REQUEST_HEADERS)
     hard_dead_results = []
     inconclusive_results = []

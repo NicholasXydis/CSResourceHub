@@ -6,7 +6,7 @@ from datetime import date
 from urllib.parse import quote, urljoin, urlparse
 
 import requests
-from net_safety import UnsafeUrl, read_capped, safe_request
+from net_safety import UnsafeUrl, read_capped, safe_request, safe_session
 from PIL import Image
 from utils import GENERATED_DIR, ROOT, load_all_resources, log, save_json
 
@@ -128,7 +128,7 @@ def square(image: Image.Image) -> Image.Image:
 
 
 def best_logo(url: str) -> Image.Image | None:
-    session = requests.Session()
+    session = safe_session()
     session.headers.update(REQUEST_HEADERS)
     domain = domain_of(url)
 
