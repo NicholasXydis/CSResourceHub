@@ -183,6 +183,34 @@ def test_stale_check_rejects_future_dates(monkeypatch):
         check_stale.check_stale()
 
 
+def test_experience_resource_without_type_is_rejected(monkeypatch, tmp_path):
+    import check_types
+
+    category = sorted(check_types.EVENT_CATEGORIES)[0]
+    path = tmp_path / f"{category}.json"
+    path.write_text(
+        json.dumps({"category": category, "resources": [{"id": "no-type"}]}),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(check_types, "get_all_resource_files", lambda: [path])
+    with pytest.raises(SystemExit):
+        check_types.check_types()
+
+
+def test_non_experience_resource_without_type_is_allowed(monkeypatch, tmp_path):
+    import check_types
+
+    path = tmp_path / "learning-resources.json"
+    path.write_text(
+        json.dumps(
+            {"category": "learning-resources", "resources": [{"id": "ok"}]}
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(check_types, "get_all_resource_files", lambda: [path])
+    check_types.check_types()
+
+
 @pytest.mark.parametrize(
     "url",
     [
@@ -347,6 +375,39 @@ def test_assert_safe_url_rejects_plain_http(monkeypatch):
 def test_assert_safe_url_allows_a_public_host(monkeypatch):
     resolve_to(monkeypatch, {"example.com": "93.184.216.34"})
     net_safety.assert_safe_url("https://example.com")
+
+
+def test_guarded_connection_pins_to_the_validated_public_address(monkeypatch):
+    resolve_to(monkeypatch, {"example.com": "93.184.216.34"})
+    connected = []
+    monkeypatch.setattr(
+        net_safety,
+        "_original_create_connection",
+        lambda address, *a, **k: connected.append(address) or "socket",
+    )
+    result = net_safety._guarded_create_connection(("example.com", 443))
+    assert result == "socket"
+    # connects to the exact IP literal that was validated, not the hostname
+    assert connected == [("93.184.216.34", 443)]
+
+
+def test_guarded_connection_rejects_a_private_address(monkeypatch):
+    resolve_to(monkeypatch, {"internal.test": "10.0.0.5"})
+    attempted = False
+
+    def never(*_args, **_kwargs):
+        nonlocal attempted
+        attempted = True
+
+    monkeypatch.setattr(net_safety, "_original_create_connection", never)
+    with pytest.raises(net_safety.UnsafeUrl, match="non-public"):
+        net_safety._guarded_create_connection(("internal.test", 443))
+    assert attempted is False
+
+
+def test_safe_session_ignores_proxy_environment():
+    session = net_safety.safe_session()
+    assert session.trust_env is False
 
 
 def test_safe_request_blocks_a_redirect_into_a_private_address(monkeypatch):
