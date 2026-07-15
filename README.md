@@ -52,7 +52,7 @@
 
 ## About
 
-CS Resource Hub is a curated dataset of 334 Canadian Computer Science student resources across 14 categories, published as a validated JSON dataset and a static directory site. Every resource is schema-validated, deduplicated, link-checked, and category-verified by automation. The dataset is the source of truth: the README, site data, RSS feed, sitemap, CSV export, EDA report, and social card are all generated from it, and CI fails when any generated file drifts. The site is a React and Vite build deployed to Cloudflare Pages behind a strict Content Security Policy.
+CS Resource Hub is a curated dataset of 334 Canadian Computer Science student resources across 14 categories, published as a validated JSON dataset and a static directory site. Every resource is schema-validated, deduplicated, link-checked, and category-verified by automation. The dataset is the source of truth: the README, site data, RSS feed, sitemap, CSV export, and EDA report are all generated from it, and CI fails when any generated file drifts. The site is a React and Vite build deployed to Cloudflare Pages behind a strict Content Security Policy.
 
 ## Browse
 
@@ -65,15 +65,11 @@ Browse resources by area and category.
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (45)<br>[Project-Based Learning](#project-based-learning) (14) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (14)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (21) |
 
-## Security Highlights
+## Security & Privacy
 
-- Strict Content Security Policy with a build-time script hash, `frame-ancestors 'none'`, and `img-src 'self' data:`.
-- HSTS, `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`, COOP, and CORP served from [public/_headers](./public/_headers).
-- Zero third-party requests and zero third-party cookies. Resource logos are self-hosted, and an end-to-end test fails the build if any cross-origin asset is ever requested again.
-- SSRF-hardened link and logo checkers: HTTPS only, DNS resolution with non-public address rejection, manual redirect following with a loop guard, and capped response bodies.
-- GitHub Actions are SHA-pinned, least-privilege, and run without persisted credentials.
-- CodeQL, OSV-Scanner, npm audit, dependency review, and license policy enforcement run in CI.
-- Python and npm dependencies are lockfile-pinned and verified with `uv lock --check` and `npm ci`.
+- No third-party tracking: logos and fonts are self-hosted, and the only external traffic is Cloudflare's cookieless analytics. An end-to-end test fails the build if the packaged site requests any other cross-origin asset.
+- Strict Content Security Policy, HSTS, and hardened response headers served from [public/_headers](./public/_headers).
+- Lockfile-pinned dependencies with CodeQL, OSV-Scanner, and dependency review in CI.
 
 ## Features
 
@@ -88,10 +84,10 @@ Browse resources by area and category.
 ```text
 CSResourceHub/
 ├─ data/                        Source of truth: category-grouped JSON resource files
-│  ├─ learning-development/     Learning resources, interview prep, certifications
-│  ├─ experience/               Hackathons, CTFs, competitions, game jams
+│  ├─ learning-development/     Learning resources, interview prep, communities
+│  ├─ experience-involvement/   Hackathons, CTFs, competitions, game jams
 │  ├─ building-open-source/     Open source, developer resources, projects
-│  └─ careers-perks/            Internships, recruitment events, student benefits
+│  └─ careers-perks/            Internships, recruitment, certifications, benefits
 ├─ schema/                      JSON Schema contract for every resource
 ├─ scripts/                     Validation, generation, link and logo checking, network safety
 ├─ generated/                   Machine-generated exports and the EDA report
@@ -130,7 +126,7 @@ CSResourceHub/
                 │ deploy
 ┌───────────────▼────────────────────────────────────────────┐
 │                 Cloudflare Pages (edge)                    │
-│      TLS, HSTS, CSP, self-hosted logos, zero third party   │
+│      TLS, HSTS, CSP, self-hosted logos, no tracking cookies│
 └────────────────────────────────────────────────────────────┘
 </pre>
 </div>
@@ -138,7 +134,7 @@ CSResourceHub/
 - **Data:** category-grouped JSON files validated against a single JSON Schema.
 - **Scripts:** validation, normalization, generation, and SSRF-hardened network checks.
 - **Generated:** every downstream artifact, rebuilt deterministically and gated on freshness in CI.
-- **Site:** a static React build with no runtime data fetching and no third-party assets.
+- **Site:** a static React build with no runtime data fetching and all content assets self-hosted.
 
 ## Tech Stack
 
@@ -159,10 +155,10 @@ CSResourceHub/
 | --- | ---: | --- |
 | End-to-end | 218 | Playwright, axe-core |
 | Frontend unit | 105 | Vitest, Testing Library |
-| Data pipeline | 45 | pytest |
-| Total | 368 | CI-backed test coverage |
+| Data pipeline | 50 | pytest |
+| Total | 373 | CI-backed test coverage |
 
-End-to-end coverage runs across 5 browser targets (chromium, firefox, webkit, mobile-chrome, mobile-safari) and sweeps 22 viewport sizes from 320px phones to 2560px displays, asserting no horizontal overflow at any width. Accessibility scans run `axe-core` against desktop, mobile, and the filter drawer, so accessibility regressions fail the build. A dedicated test fails CI if the site ever requests a third-party asset again.
+End-to-end coverage runs across 5 browser targets (chromium, firefox, webkit, mobile-chrome, mobile-safari) and sweeps 22 viewport sizes from 320px phones to 2560px displays, asserting no horizontal overflow at any width. Accessibility scans run `axe-core` against desktop, mobile, and the filter drawer, so accessibility regressions fail the build. A dedicated test fails CI if the packaged site requests any third-party asset.
 
 ## CI/CD
 
@@ -214,7 +210,7 @@ Any required gate failure blocks the release.
   <img src="docs/screenshots/lighthouse.png" alt="Lighthouse 100 performance, 100 accessibility, 100 best practices, 100 SEO" width="100%">
 </div>
 
-**Production audit:** 100 across performance, accessibility, best practices, and SEO. Self-hosted logos mean the site loads zero third-party assets and sets zero third-party cookies.
+**Production audit:** 100 across performance, accessibility, best practices, and SEO. All content assets are self-hosted, and the only external traffic is Cloudflare's cookieless analytics.
 
 ### SSL Labs
 
@@ -256,18 +252,12 @@ cd CSResourceHub
 
 ### Dataset
 
-Validate the dataset, then rebuild every generated artifact. CI runs the same pipeline and fails when anything is stale.
+Install the locked Python toolchain, validate the dataset, then rebuild every generated artifact. CI runs the same pipeline and fails when anything is stale.
 
 ```bash
-make validate
-make generate
-```
-
-On Windows, use:
-
-```bash
-make validate PYTHON="py -3"
-make generate PYTHON="py -3"
+uv sync --frozen --extra dev
+make validate PYTHON="uv run python"
+make generate PYTHON="uv run python"
 ```
 
 ### Site
@@ -288,8 +278,8 @@ uv run pytest tests/   # data pipeline
 ### Notebook
 
 ```bash
-pip install -e .[eda]
-py -3 -m jupyterlab notebooks/resource_eda.ipynb
+uv sync --frozen --extra eda
+uv run jupyter lab notebooks/resource_eda.ipynb
 ```
 
 </details>
@@ -300,7 +290,7 @@ py -3 -m jupyterlab notebooks/resource_eda.ipynb
 | Command | Purpose |
 | --- | --- |
 | `make validate` | Schema, duplicates, categories, types, locations, URLs |
-| `make generate` | Rebuild README, exports, feed, sitemap, social card, EDA report |
+| `make generate` | Rebuild README, exports, feed, sitemap, EDA report |
 | `make check-links` | Probe every resource URL and update `last_verified` |
 | `make fetch-logos` | Re-download self-hosted logos into `public/logos/` |
 | `make check-stale` | Flag resources that have not been verified recently |

@@ -1,3 +1,4 @@
+import ast
 import re
 from collections import defaultdict
 from urllib.parse import quote_plus
@@ -16,9 +17,38 @@ from utils import (
 
 HIDDEN_README_TYPES = {EVENT_TYPE}
 
+# Browser suites need Node, which the generation workflow does not install, so
+# these two are verified in CI and recorded here. The pipeline suite is derived
+# from source below so it cannot drift.
 E2E_TESTS = 218
 UNIT_TESTS = 105
-PIPELINE_TESTS = 45
+
+
+def _is_parametrize(func) -> bool:
+    while isinstance(func, ast.Attribute):
+        if func.attr == "parametrize":
+            return True
+        func = func.value
+    return isinstance(func, ast.Name) and func.id == "parametrize"
+
+
+def pipeline_test_count() -> int:
+    tree = ast.parse(
+        (ROOT / "tests" / "test_pipeline.py").read_text(encoding="utf-8")
+    )
+    total = 0
+    for node in ast.walk(tree):
+        if isinstance(node, ast.FunctionDef) and node.name.startswith("test_"):
+            cases = 1
+            for decorator in node.decorator_list:
+                if isinstance(decorator, ast.Call) and _is_parametrize(
+                    decorator.func
+                ):
+                    values = decorator.args[1] if len(decorator.args) > 1 else None
+                    if isinstance(values, ast.List | ast.Tuple):
+                        cases *= len(values.elts)
+            total += cases
+    return total
 
 GROUP_ICONS = {
     "Learning & Development": "📚",
@@ -241,9 +271,9 @@ def generate_readme():
         "published as a validated JSON dataset and a static directory site. "
         "Every resource is schema-validated, deduplicated, link-checked, and "
         "category-verified by automation. The dataset is the source of truth: "
-        "the README, site data, RSS feed, sitemap, CSV export, EDA report, "
-        "and social card are all generated from it, and CI fails when any "
-        "generated file drifts. The site is a React and Vite build deployed "
+        "the README, site data, RSS feed, sitemap, CSV export, and EDA report "
+        "are all generated from it, and CI fails when any generated file "
+        "drifts. The site is a React and Vite build deployed "
         "to Cloudflare Pages behind a strict Content Security Policy.\n\n"
     )
 
@@ -263,25 +293,16 @@ def generate_readme():
         lines.append(f"| {GROUP_ICONS[group]} {group} | {joined_links} |\n")
     lines.append("\n")
 
-    lines.append("## Security Highlights\n\n")
+    lines.append("## Security & Privacy\n\n")
     lines.append(
-        "- Strict Content Security Policy with a build-time script hash, "
-        "`frame-ancestors 'none'`, and `img-src 'self' data:`.\n"
-        "- HSTS, `X-Content-Type-Options`, `X-Frame-Options`, "
-        "`Referrer-Policy`, `Permissions-Policy`, COOP, and CORP served from "
-        "[public/_headers](./public/_headers).\n"
-        "- Zero third-party requests and zero third-party cookies. Resource "
-        "logos are self-hosted, and an end-to-end test fails the build if any "
-        "cross-origin asset is ever requested again.\n"
-        "- SSRF-hardened link and logo checkers: HTTPS only, DNS resolution "
-        "with non-public address rejection, manual redirect following with a "
-        "loop guard, and capped response bodies.\n"
-        "- GitHub Actions are SHA-pinned, least-privilege, and run without "
-        "persisted credentials.\n"
-        "- CodeQL, OSV-Scanner, npm audit, dependency review, and license "
-        "policy enforcement run in CI.\n"
-        "- Python and npm dependencies are lockfile-pinned and verified with "
-        "`uv lock --check` and `npm ci`.\n\n"
+        "- No third-party tracking: logos and fonts are self-hosted, and the "
+        "only external traffic is Cloudflare's cookieless analytics. An "
+        "end-to-end test fails the build if the packaged site requests any "
+        "other cross-origin asset.\n"
+        "- Strict Content Security Policy, HSTS, and hardened response headers "
+        "served from [public/_headers](./public/_headers).\n"
+        "- Lockfile-pinned dependencies with CodeQL, OSV-Scanner, and "
+        "dependency review in CI.\n\n"
     )
 
     lines.append("## Features\n\n")
@@ -306,13 +327,13 @@ def generate_readme():
         "├─ data/                        Source of truth: category-grouped "
         "JSON resource files\n"
         "│  ├─ learning-development/     Learning resources, interview prep, "
-        "certifications\n"
-        "│  ├─ experience/               Hackathons, CTFs, competitions, game "
+        "communities\n"
+        "│  ├─ experience-involvement/   Hackathons, CTFs, competitions, game "
         "jams\n"
         "│  ├─ building-open-source/     Open source, developer resources, "
         "projects\n"
-        "│  └─ careers-perks/            Internships, recruitment events, "
-        "student benefits\n"
+        "│  └─ careers-perks/            Internships, recruitment, "
+        "certifications, benefits\n"
         "├─ schema/                      JSON Schema contract for every "
         "resource\n"
         "├─ scripts/                     Validation, generation, link and "
@@ -358,7 +379,7 @@ def generate_readme():
         "                │ deploy\n"
         "┌───────────────▼────────────────────────────────────────────┐\n"
         "│                 Cloudflare Pages (edge)                    │\n"
-        "│      TLS, HSTS, CSP, self-hosted logos, zero third party   │\n"
+        "│      TLS, HSTS, CSP, self-hosted logos, no tracking cookies│\n"
         "└────────────────────────────────────────────────────────────┘\n"
     )
     lines.append("</pre>\n</div>\n\n")
@@ -369,8 +390,8 @@ def generate_readme():
         "SSRF-hardened network checks.\n"
         "- **Generated:** every downstream artifact, rebuilt deterministically "
         "and gated on freshness in CI.\n"
-        "- **Site:** a static React build with no runtime data fetching and no "
-        "third-party assets.\n\n"
+        "- **Site:** a static React build with no runtime data fetching and "
+        "all content assets self-hosted.\n\n"
     )
 
     lines.append("## Tech Stack\n\n")
@@ -389,7 +410,8 @@ def generate_readme():
 
     browsers = browser_projects()
     viewports = viewport_count()
-    total_tests = E2E_TESTS + UNIT_TESTS + PIPELINE_TESTS
+    pipeline_tests = pipeline_test_count()
+    total_tests = E2E_TESTS + UNIT_TESTS + pipeline_tests
 
     lines.append("## Testing\n\n")
     lines.append(
@@ -397,7 +419,7 @@ def generate_readme():
         "| --- | ---: | --- |\n"
         f"| End-to-end | {E2E_TESTS} | Playwright, axe-core |\n"
         f"| Frontend unit | {UNIT_TESTS} | Vitest, Testing Library |\n"
-        f"| Data pipeline | {PIPELINE_TESTS} | pytest |\n"
+        f"| Data pipeline | {pipeline_tests} | pytest |\n"
         f"| Total | {total_tests} | CI-backed test coverage |\n\n"
     )
     lines.append(
@@ -406,8 +428,8 @@ def generate_readme():
         "320px phones to 2560px displays, asserting no horizontal overflow at "
         "any width. Accessibility scans run `axe-core` against desktop, "
         "mobile, and the filter drawer, so accessibility regressions fail the "
-        "build. A dedicated test fails CI if the site ever requests a "
-        "third-party asset again.\n\n"
+        "build. A dedicated test fails CI if the packaged site requests any "
+        "third-party asset.\n\n"
     )
 
     lines.append("## CI/CD\n\n")
@@ -486,8 +508,8 @@ def generate_readme():
     lines.append("</div>\n\n")
     lines.append(
         "**Production audit:** 100 across performance, accessibility, best "
-        "practices, and SEO. Self-hosted logos mean the site loads zero "
-        "third-party assets and sets zero third-party cookies.\n\n"
+        "practices, and SEO. All content assets are self-hosted, and the only "
+        "external traffic is Cloudflare's cookieless analytics.\n\n"
     )
     lines.append("### SSL Labs\n\n")
     lines.append('<div align="center">\n')
@@ -545,17 +567,14 @@ def generate_readme():
     lines.append("```\n\n")
     lines.append("### Dataset\n\n")
     lines.append(
-        "Validate the dataset, then rebuild every generated artifact. CI runs "
-        "the same pipeline and fails when anything is stale.\n\n"
+        "Install the locked Python toolchain, validate the dataset, then "
+        "rebuild every generated artifact. CI runs the same pipeline and "
+        "fails when anything is stale.\n\n"
     )
     lines.append("```bash\n")
-    lines.append("make validate\n")
-    lines.append("make generate\n")
-    lines.append("```\n\n")
-    lines.append("On Windows, use:\n\n")
-    lines.append("```bash\n")
-    lines.append('make validate PYTHON="py -3"\n')
-    lines.append('make generate PYTHON="py -3"\n')
+    lines.append("uv sync --frozen --extra dev\n")
+    lines.append('make validate PYTHON="uv run python"\n')
+    lines.append('make generate PYTHON="uv run python"\n')
     lines.append("```\n\n")
     lines.append("### Site\n\n")
     lines.append("```bash\n")
@@ -570,8 +589,8 @@ def generate_readme():
     lines.append("```\n\n")
     lines.append("### Notebook\n\n")
     lines.append("```bash\n")
-    lines.append("pip install -e .[eda]\n")
-    lines.append("py -3 -m jupyterlab notebooks/resource_eda.ipynb\n")
+    lines.append("uv sync --frozen --extra eda\n")
+    lines.append("uv run jupyter lab notebooks/resource_eda.ipynb\n")
     lines.append("```\n\n")
     lines.append("</details>\n\n")
 
@@ -582,8 +601,8 @@ def generate_readme():
         "| --- | --- |\n"
         "| `make validate` | Schema, duplicates, categories, types, locations, "
         "URLs |\n"
-        "| `make generate` | Rebuild README, exports, feed, sitemap, social "
-        "card, EDA report |\n"
+        "| `make generate` | Rebuild README, exports, feed, sitemap, EDA "
+        "report |\n"
         "| `make check-links` | Probe every resource URL and update "
         "`last_verified` |\n"
         "| `make fetch-logos` | Re-download self-hosted logos into "
