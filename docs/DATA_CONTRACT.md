@@ -36,7 +36,7 @@ Generated files are committed so the dataset can be consumed without running scr
 | `docs/SCHEMA.md` | Field and allowed-type reference. | Generated from the schema and the type allow-list, so it cannot drift from validation. |
 | `generated/all_resources.json` | `{ generated, total, resources }` with a flat `resources` array. | General machine-readable dataset export. |
 | `generated/site.json` | `{ generated, total, labels, types, groups, categories }` where `groups` and `categories` are keyed objects, plus the category labels and the schema's type enum. | Static frontend input. The frontend derives every category, collection, count, and type from this file. |
-| `generated/favicons.json` | `{ generated, checked, missing, siteOnly }`. `missing` lists domains with no icon anywhere; `siteOnly` lists domains Google has no icon for but which serve their own. | Tells the frontend which logo source to request first, and when to skip straight to the placeholder. Refreshed by `make check-favicons`. |
+| `generated/logos.json` | `{ generated, checked, stored }`. `stored` lists the domains that have a self-hosted logo in `public/logos/`. | Tells the frontend which resources render a self-hosted logo and which fall back to the branded tile. Refreshed by `make fetch-logos`. |
 | `generated/stats.json` | `{ generated, total, categories, groups }` summary counts. | Stats cards, dashboards, and EDA checks. |
 | `generated/resources.csv` | Flat CSV with resource fields as columns. | Excel, spreadsheets, and data analysis tools. |
 | `generated/eda/report.md` | Static Markdown report with deterministic SVG charts. | Portfolio-friendly dataset quality overview. |

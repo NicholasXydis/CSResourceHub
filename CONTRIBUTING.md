@@ -24,43 +24,32 @@ Thank you for helping make CS Resource Hub better.
 3. Add your resource to the correct JSON file in `data/`
 4. Run validation to check your entry
 5. Run duplicate checks to ensure no duplicates
-6. Regenerate derived outputs with `make generate` and commit them
+6. Regenerate derived outputs with `make generate PYTHON="uv run python"` and commit them
 7. Commit and open a PR using the PR template
 
 Step 6 matters: CI fails if the generated files do not match the data. The frontend needs no changes when you add a resource -- it reads `generated/site.json`.
 
-With Make:
+First install the locked Python toolchain with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-make validate
-make check-duplicates
-make lint
+uv sync --frozen --extra dev
+```
+
+With Make (route Python through the synced environment):
+
+```bash
+make validate PYTHON="uv run python"
+make check-duplicates PYTHON="uv run python"
+make lint PYTHON="uv run python"
 ```
 
 Without Make:
 
 ```bash
-python3 scripts/validate_all.py
-python3 scripts/check_duplicates.py
-python3 -m ruff check scripts/
-python3 scripts/lint_json.py
-```
-
-On Windows, if `python3` is not available on `PATH`, use the Python launcher:
-
-```powershell
-py -3 scripts\validate_all.py
-py -3 scripts\check_duplicates.py
-py -3 -m ruff check scripts\
-py -3 scripts\lint_json.py
-```
-
-If Make is installed on Windows, pass the launcher explicitly:
-
-```powershell
-make validate PYTHON="py -3"
-make check-duplicates PYTHON="py -3"
-make lint PYTHON="py -3"
+uv run python scripts/validate_all.py
+uv run python scripts/check_duplicates.py
+uv run ruff check scripts/
+uv run python scripts/lint_json.py
 ```
 
 ## Frontend

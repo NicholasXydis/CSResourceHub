@@ -5,7 +5,7 @@
 - One sentence only, ends with a period
 - No marketing language ("amazing", "best", "ultimate")
 - State what it is and who it is for
-- Maximum 120 characters
+- Maximum 105 characters
 
 Good: `"Annual student CTF hosted by a university cybersecurity club."`
 

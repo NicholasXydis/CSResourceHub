@@ -31,53 +31,40 @@ py -3 scripts\add_resource.py
 
 You do not need to touch the frontend. It reads `generated/site.json`, so counts, filters, categories, and collections update themselves once you regenerate. CI fails if the generated files are not committed.
 
+First install the locked Python toolchain with [uv](https://docs.astral.sh/uv/):
+
+```bash
+uv sync --frozen --extra dev
+```
+
 With Make:
 
 ```bash
-make validate
-make generate
-make check-duplicates
+make validate PYTHON="uv run python"
+make generate PYTHON="uv run python"
+make check-duplicates PYTHON="uv run python"
 ```
 
 Without Make:
 
 ```bash
-python3 scripts/validate_all.py
-python3 scripts/normalize_resources.py
-python3 scripts/sort_resources.py
-python3 scripts/generate_readme.py
-python3 scripts/generate_schema_docs.py
-python3 scripts/generate_citation.py
-python3 scripts/generate_sitemap.py
-python3 scripts/generate_feed.py
-python3 scripts/generate_combined.py
-python3 scripts/generate_site_json.py
-python3 scripts/generate_stats_json.py
-python3 scripts/export_csv.py
-python3 scripts/generate_eda_report.py
-python3 scripts/check_duplicates.py
+uv run python scripts/validate_all.py
+uv run python scripts/normalize_resources.py
+uv run python scripts/sort_resources.py
+uv run python scripts/generate_readme.py
+uv run python scripts/generate_schema_docs.py
+uv run python scripts/generate_citation.py
+uv run python scripts/generate_sitemap.py
+uv run python scripts/generate_feed.py
+uv run python scripts/generate_combined.py
+uv run python scripts/generate_site_json.py
+uv run python scripts/generate_stats_json.py
+uv run python scripts/export_csv.py
+uv run python scripts/generate_eda_report.py
+uv run python scripts/check_duplicates.py
 ```
 
-On Windows, if `python3` is not on `PATH`:
-
-```powershell
-py -3 scripts\validate_all.py
-py -3 scripts\normalize_resources.py
-py -3 scripts\sort_resources.py
-py -3 scripts\generate_readme.py
-py -3 scripts\generate_schema_docs.py
-py -3 scripts\generate_citation.py
-py -3 scripts\generate_sitemap.py
-py -3 scripts\generate_feed.py
-py -3 scripts\generate_combined.py
-py -3 scripts\generate_site_json.py
-py -3 scripts\generate_stats_json.py
-py -3 scripts\export_csv.py
-py -3 scripts\generate_eda_report.py
-py -3 scripts\check_duplicates.py
-```
-
-You can also pass the Python launcher through Make when Make is installed:
+You can also pass a different interpreter through Make when Make is installed:
 
 ```powershell
 make validate PYTHON="py -3"
