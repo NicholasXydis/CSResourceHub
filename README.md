@@ -54,6 +54,17 @@
 
 CS Resource Hub is a curated dataset of 334 Canadian Computer Science student resources across 14 categories, published as a validated JSON dataset and a static directory site. Every resource is schema-validated, deduplicated, link-checked, and category-verified by automation. The dataset is the source of truth: the README, site data, RSS feed, sitemap, CSV export, EDA report, and social card are all generated from it, and CI fails when any generated file drifts. The site is a React and Vite build deployed to Cloudflare Pages behind a strict Content Security Policy.
 
+## Browse
+
+Browse resources by area and category.
+
+| Area | Categories |
+| --- | --- |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (59)<br>[Interview Prep](#interview-prep) (25)<br>[Communities & Clubs](#communities-clubs) (24) |
+| 🏆 Experience | [Hackathons](#hackathons) (22)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
+| 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (45)<br>[Project-Based Learning](#project-based-learning) (14) |
+| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (14)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (21) |
+
 ## Security Highlights
 
 - Strict Content Security Policy with a build-time script hash, `frame-ancestors 'none'`, and `img-src 'self' data:`.
@@ -168,10 +179,6 @@ End-to-end coverage runs across 5 browser targets (chromium, firefox, webkit, mo
 | Check Links | `.github/workflows/check_links.yml` | Scheduled link health, opens an issue on dead links |
 | Refresh Logos | `.github/workflows/refresh_logos.yml` | Re-fetches self-hosted logos and opens a PR on change |
 
-<div align="center">
-  <img src="docs/ci-cd-flow.svg" alt="Validation, CodeQL, and the browser suite gate an approval-gated production deployment and live smoke tests" width="100%">
-</div>
-
 Any required gate failure blocks the release.
 
 ## Production Engineering
@@ -224,17 +231,6 @@ Any required gate failure blocks the release.
 </div>
 
 **External monitoring:** UptimeRobot checks the live site every five minutes. Post-deploy smoke tests and a daily production health workflow provide additional runtime verification.
-
-## Browse
-
-Browse resources by area and category.
-
-| Area | Categories |
-| --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (59)<br>[Interview Prep](#interview-prep) (25)<br>[Communities & Clubs](#communities-clubs) (24) |
-| 🏆 Experience | [Hackathons](#hackathons) (22)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
-| 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (45)<br>[Project-Based Learning](#project-based-learning) (14) |
-| 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (14)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (21) |
 
 ## Dataset Exploration
 

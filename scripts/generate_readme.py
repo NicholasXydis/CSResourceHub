@@ -247,6 +247,22 @@ def generate_readme():
         "to Cloudflare Pages behind a strict Content Security Policy.\n\n"
     )
 
+    lines.append("## Browse\n\n")
+    lines.append("Browse resources by area and category.\n\n")
+    lines.append("| Area | Categories |\n")
+    lines.append("| --- | --- |\n")
+    for group, categories in CATEGORY_GROUPS.items():
+        category_links = []
+        for category in categories:
+            label = CATEGORY_LABELS[category]
+            count = category_count(by_category, category)
+            category_links.append(
+                f"[{label}](#{category_anchor(category)}) {count_badge(count)}"
+            )
+        joined_links = "<br>".join(category_links)
+        lines.append(f"| {GROUP_ICONS[group]} {group} | {joined_links} |\n")
+    lines.append("\n")
+
     lines.append("## Security Highlights\n\n")
     lines.append(
         "- Strict Content Security Policy with a build-time script hash, "
@@ -419,14 +435,6 @@ def generate_readme():
         "| Refresh Logos | `.github/workflows/refresh_logos.yml` | Re-fetches "
         "self-hosted logos and opens a PR on change |\n\n"
     )
-    lines.append('<div align="center">\n')
-    lines.append(
-        '  <img src="docs/ci-cd-flow.svg" '
-        'alt="Validation, CodeQL, and the browser suite gate an '
-        'approval-gated production deployment and live smoke tests" '
-        'width="100%">\n'
-    )
-    lines.append("</div>\n\n")
     lines.append("Any required gate failure blocks the release.\n\n")
 
     lines.append("## Production Engineering\n\n")
@@ -505,22 +513,6 @@ def generate_readme():
         "workflow provide additional runtime verification.\n\n"
     )
 
-    lines.append("## Browse\n\n")
-    lines.append("Browse resources by area and category.\n\n")
-    lines.append("| Area | Categories |\n")
-    lines.append("| --- | --- |\n")
-    for group, categories in CATEGORY_GROUPS.items():
-        category_links = []
-        for category in categories:
-            label = CATEGORY_LABELS[category]
-            count = category_count(by_category, category)
-            category_links.append(
-                f"[{label}](#{category_anchor(category)}) {count_badge(count)}"
-            )
-        joined_links = "<br>".join(category_links)
-        lines.append(f"| {GROUP_ICONS[group]} {group} | {joined_links} |\n")
-
-    lines.append("\n")
     lines.append("## Dataset Exploration\n\n")
     lines.append(
         "View the generated [EDA report](./generated/eda/report.md) for "
