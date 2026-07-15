@@ -3,20 +3,19 @@ import { expect, test } from "@playwright/test";
 test("loads without console errors or failed page requests", async ({
   page,
 }) => {
+  const base = new URL(test.info().project.use.baseURL!);
   const errors: string[] = [];
   const thirdParty: string[] = [];
   page.on("console", (message) => {
     if (message.type() === "error") errors.push(message.text());
   });
   page.on("pageerror", (error) => errors.push(error.message));
-
-  const response = await page.goto("/");
-  const origin = new URL(response!.url()).origin;
-
   page.on("request", (request) => {
-    if (!request.url().startsWith(origin)) thirdParty.push(request.url());
+    if (new URL(request.url()).host !== base.host)
+      thirdParty.push(request.url());
   });
 
+  await page.goto("/");
   await expect(page.locator(".resource-card").first()).toBeVisible();
   await page.locator(".resource-card img").last().scrollIntoViewIfNeeded();
 

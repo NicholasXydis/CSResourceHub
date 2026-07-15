@@ -14,12 +14,12 @@ import {
 import { CATEGORY_LABELS, GITHUB_URL, GROUPS, SITE_DATA } from "../config";
 import { CONTAINER, RISE } from "../motion";
 
-export function Header() {
+export function Header({ notFound = false }: { notFound?: boolean }) {
   return (
     <motion.header variants={RISE} className="topbar">
       <motion.a
         className="brand"
-        href="#top"
+        href={notFound ? "/" : "#top"}
         aria-label="CS Resource Hub home"
         whileHover={{ y: -2, scale: 1.025 }}
         whileTap={{ scale: 0.975 }}

@@ -43,7 +43,7 @@ export default function App() {
         />
         <div className="noise" />
         <motion.div className="shell" variants={CONTAINER}>
-          <Header />
+          <Header notFound={notFound} />
           <main>
             {notFound ? (
               <NotFound />
