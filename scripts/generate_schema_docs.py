@@ -96,9 +96,9 @@ def generate_schema_docs() -> None:
         "## Allowed `type` values",
         "",
         (
-            "`type` is optional for every category, but when it is set it must "
-            "come from the list below. Anything else fails validation in "
-            "`scripts/check_types.py`."
+            "`type` is required for the Experience collection and optional "
+            "elsewhere. When it is set it must come from the list below. "
+            "Anything else fails validation in `scripts/check_types.py`."
         ),
         "",
     ]
@@ -113,8 +113,9 @@ def generate_schema_docs() -> None:
     experience = ", ".join(f"`{category}`" for category in sorted(EVENT_CATEGORIES))
     lines += [
         "",
-        f"`{EVENT_TYPE}` is reserved for the Experience collection ({experience}) and "
-        "is rejected in any other category. Those categories accept no other type.",
+        f"`{EVENT_TYPE}` is reserved for the Experience collection ({experience}), "
+        "where it is required, and is rejected in every other category. Those "
+        "categories accept no other type.",
         "",
         "## Example Entry",
         "",

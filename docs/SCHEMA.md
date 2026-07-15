@@ -28,7 +28,7 @@ Every resource in `data/` follows the schema defined in `schema/resource.schema.
 
 ## Allowed `type` values
 
-`type` is optional for every category, but when it is set it must come from the list below. Anything else fails validation in `scripts/check_types.py`.
+`type` is required for the Experience collection and optional elsewhere. When it is set it must come from the list below. Anything else fails validation in `scripts/check_types.py`.
 
 | Category                  | Allowed `type` values                                             |
 | ------------------------- | ----------------------------------------------------------------- |
@@ -47,7 +47,7 @@ Every resource in `data/` follows the schema defined in `schema/resource.schema.
 | `certifications`          | `cloud`, `cybersecurity`                                          |
 | `student-benefits`        | `discounts`, `free`                                               |
 
-`event` is reserved for the Experience collection (`competitions`, `ctfs`, `game-jams`, `hackathons`) and is rejected in any other category. Those categories accept no other type.
+`event` is reserved for the Experience collection (`competitions`, `ctfs`, `game-jams`, `hackathons`), where it is required, and is rejected in every other category. Those categories accept no other type.
 
 ## Example Entry
 

@@ -109,6 +109,11 @@ def check_types():
         for resource in data.get("resources", []):
             resource_type = resource.get("type")
             if resource_type is None:
+                if category in EVENT_CATEGORIES:
+                    errors.append(
+                        f"{path.name} -> {resource.get('id')}: "
+                        f"Experience resources require type '{EVENT_TYPE}'"
+                    )
                 continue
             if allowed_types is None:
                 errors.append(
