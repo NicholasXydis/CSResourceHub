@@ -389,11 +389,9 @@ def generate_readme():
     lines.append(
         "| Area | Stack |\n"
         "| --- | --- |\n"
-        "| Dataset | Python 3.12, JSON Schema (Draft 7) |\n"
-        "| Pipeline | uv, Ruff, jsonschema, requests, Pillow, matplotlib, "
-        "pandas, JupyterLab |\n"
-        "| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide, "
-        "CSS |\n"
+        "| Pipeline | Python 3.12, Pillow, matplotlib, JupyterLab, uv |\n"
+        "| Frontend | React 19, TypeScript, Vite 7, CSS, Framer Motion, "
+        "Lucide |\n"
         "| Testing | Playwright, axe-core, Vitest, Testing Library, pytest |\n"
         "| DevOps | GitHub Actions, Cloudflare Pages, UptimeRobot |\n\n"
     )

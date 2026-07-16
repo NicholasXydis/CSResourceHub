@@ -136,9 +136,8 @@ CSResourceHub/
 
 | Area | Stack |
 | --- | --- |
-| Dataset | Python 3.12, JSON Schema (Draft 7) |
-| Pipeline | uv, Ruff, jsonschema, requests, Pillow, matplotlib, pandas, JupyterLab |
-| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide, CSS |
+| Pipeline | Python 3.12, Pillow, matplotlib, JupyterLab, uv |
+| Frontend | React 19, TypeScript, Vite 7, CSS, Framer Motion, Lucide |
 | Testing | Playwright, axe-core, Vitest, Testing Library, pytest |
 | DevOps | GitHub Actions, Cloudflare Pages, UptimeRobot |
 
