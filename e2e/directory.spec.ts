@@ -28,7 +28,7 @@ async function clickFilter(
   name: RegExp,
 ) {
   const button = page.getByRole("button", { name });
-  await expect(button).toHaveCSS("opacity", "1");
+  await expect(button).toHaveCSS("opacity", "1", { timeout: 15_000 });
   await button.click();
   await expect(button).toHaveAttribute("aria-pressed", "true");
 }

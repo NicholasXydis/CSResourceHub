@@ -52,7 +52,7 @@
 
 ## About
 
-CS Resource Hub is a curated dataset of 334 Canadian Computer Science student resources across 14 categories, published as a validated JSON dataset and a static directory site. Every resource is schema-validated, deduplicated, link-checked, and category-verified by automation. The dataset is the source of truth: the README, site data, RSS feed, sitemap, CSV export, and EDA report are all generated from it, and CI fails when any generated file drifts. The site is a React and Vite build deployed to Cloudflare Pages behind a strict Content Security Policy.
+A directory of Canadian Computer Science student resources built around a single source of truth. `data/` is the only manually maintained content; the site, README, RSS feed, sitemap, CSV export, and EDA report are all generated from it, and CI rejects any drift between them. Every resource is schema-validated, deduplicated, link-checked, and category-verified before merging, so bad data fails the build instead of reaching production.
 
 ## Browse
 
@@ -65,9 +65,10 @@ Browse resources by area and category.
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (45)<br>[Project-Based Learning](#project-based-learning) (14) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (14)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (21) |
 
-## Security & Privacy
+## Quality Highlights
 
-- No third-party tracking: logos and fonts are self-hosted, and the only external traffic is Cloudflare's cookieless analytics. An end-to-end test fails the build if the packaged site requests any other cross-origin asset.
+- No third-party requests: logos and fonts are self-hosted, and the only external traffic is Cloudflare's cookieless analytics. An end-to-end test fails the build if the packaged site requests any other cross-origin asset.
+- Reduced-motion behavior for users who request it.
 - Strict Content Security Policy, HSTS, and hardened response headers served from [public/_headers](./public/_headers).
 - Lockfile-pinned dependencies with CodeQL, OSV-Scanner, and dependency review in CI.
 
@@ -89,7 +90,7 @@ CSResourceHub/
 │  ├─ building-open-source/     Open source, developer resources, projects
 │  └─ careers-perks/            Internships, recruitment, certifications, benefits
 ├─ schema/                      JSON Schema contract for every resource
-├─ scripts/                     Validation, generation, link and logo checking, network safety
+├─ scripts/                     Validation, generation, link and logo checking, SSRF-hardened networking
 ├─ generated/                   Machine-generated exports and the EDA report
 ├─ src/                         React + TypeScript directory site
 │  ├─ components/               Directory, filters, cards, chrome
@@ -131,32 +132,24 @@ CSResourceHub/
 </pre>
 </div>
 
-- **Data:** category-grouped JSON files validated against a single JSON Schema.
-- **Scripts:** validation, normalization, generation, and SSRF-hardened network checks.
-- **Generated:** every downstream artifact, rebuilt deterministically and gated on freshness in CI.
-- **Site:** a static React build with no runtime data fetching and all content assets self-hosted.
-
 ## Tech Stack
 
 | Area | Stack |
 | --- | --- |
-| Dataset | JSON, JSON Schema (Draft 7), Python 3.12 |
-| Pipeline | uv, Ruff, jsonschema, Pillow, requests, matplotlib |
-| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide |
-| Styling | Hand-written CSS, self-hosted DM Sans, no framework |
+| Dataset | Python 3.12, JSON Schema (Draft 7) |
+| Pipeline | uv, Ruff, jsonschema, requests, Pillow, matplotlib, pandas, JupyterLab |
+| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide, CSS |
 | Testing | Playwright, axe-core, Vitest, Testing Library, pytest |
-| DevOps | GitHub Actions, Cloudflare Pages, Wrangler |
-| Security | CodeQL, OSV-Scanner, Dependabot, CSP, HSTS |
-| Analysis | pandas, JupyterLab, deterministic SVG charts |
+| DevOps | GitHub Actions, Cloudflare Pages, UptimeRobot |
 
 ## Testing
 
 | Suite | Count | Tools |
 | --- | ---: | --- |
-| End-to-end | 218 | Playwright, axe-core |
+| End-to-end | 220 | Playwright, axe-core |
 | Frontend unit | 105 | Vitest, Testing Library |
 | Data pipeline | 50 | pytest |
-| Total | 373 | CI-backed test coverage |
+| Total | 375 | CI-backed test coverage |
 
 End-to-end coverage runs across 5 browser targets (chromium, firefox, webkit, mobile-chrome, mobile-safari) and sweeps 22 viewport sizes from 320px phones to 2560px displays, asserting no horizontal overflow at any width. Accessibility scans run `axe-core` against desktop, mobile, and the filter drawer, so accessibility regressions fail the build. A dedicated test fails CI if the packaged site requests any third-party asset.
 
@@ -230,13 +223,13 @@ Any required gate failure blocks the release.
   <img src="docs/screenshots/uptimerobot.png" alt="UptimeRobot production availability monitor" width="100%">
 </div>
 
-**External monitoring:** UptimeRobot checks the live site every five minutes. Post-deploy smoke tests and a daily production health workflow provide additional runtime verification.
+**External monitoring:** UptimeRobot checks the live site every five minutes.
 
 ## Dataset Exploration
 
 View the generated [EDA report](./generated/eda/report.md) for ready-to-read charts covering dataset coverage, category balance, metadata quality, duplicate candidates, and domain concentration. The optional notebook at [notebooks/resource_eda.ipynb](./notebooks/resource_eda.ipynb) contains the reproducible exploratory workflow.
 
-Run `make generate` to refresh all generated outputs, including the EDA report and deterministic SVG charts. CI reruns the same pipeline and fails when generated files are stale. Use `make eda-report` for only the static report. For the notebook, install optional dependencies with `pip install -e .[eda]`, then run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.
+Run `make generate PYTHON="uv run python"` to refresh all generated outputs, including the EDA report and deterministic SVG charts. CI reruns the same pipeline and fails when generated files are stale. Use `make eda-report PYTHON="uv run python"` for only the static report. For the notebook, install the optional dependencies with `uv sync --frozen --extra eda`, then run `uv run jupyter lab notebooks/resource_eda.ipynb`.
 
 <details>
 <summary><strong>Getting Started</strong></summary>
@@ -812,10 +805,10 @@ Generated files are never edited by hand. `make generate` is deterministic, and 
 Contributions keep this dataset useful and current.
 
 1. Read [CONTRIBUTING.md](./CONTRIBUTING.md), [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md), and [DATA_CONTRACT.md](./docs/DATA_CONTRACT.md).
-2. Run `make add` or pick the correct JSON file in `data/`.
+2. Run `make add PYTHON="uv run python"` or pick the correct JSON file in `data/`.
 3. Add one resource using [SCHEMA.md](./docs/SCHEMA.md) and [STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).
-4. Run `make validate` and `make generate`.
-   On Windows, use `make validate PYTHON="py -3"` and `make generate PYTHON="py -3"`, or see [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.
+4. Run `make validate PYTHON="uv run python"` and `make generate PYTHON="uv run python"`.
+   See [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.
 5. Commit any generated changes and open a pull request with a clear description.
 
 ## License

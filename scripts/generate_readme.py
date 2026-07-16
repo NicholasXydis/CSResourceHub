@@ -17,7 +17,7 @@ from utils import (
 
 HIDDEN_README_TYPES = {EVENT_TYPE}
 
-E2E_TESTS = 218
+E2E_TESTS = 220
 UNIT_TESTS = 105
 
 
@@ -293,15 +293,13 @@ def generate_readme():
 
     lines.append("## About\n\n")
     lines.append(
-        f"CS Resource Hub is a curated dataset of {total} Canadian Computer "
-        f"Science student resources across {len(CATEGORY_LABELS)} categories, "
-        "published as a validated JSON dataset and a static directory site. "
-        "Every resource is schema-validated, deduplicated, link-checked, and "
-        "category-verified by automation. The dataset is the source of truth: "
-        "the README, site data, RSS feed, sitemap, CSV export, and EDA report "
-        "are all generated from it, and CI fails when any generated file "
-        "drifts. The site is a React and Vite build deployed "
-        "to Cloudflare Pages behind a strict Content Security Policy.\n\n"
+        "A directory of Canadian Computer Science student resources built "
+        "around a single source of truth. `data/` is the only manually "
+        "maintained content; the site, README, RSS feed, sitemap, CSV "
+        "export, and EDA report are all generated from it, and CI rejects "
+        "any drift between them. Every resource is schema-validated, "
+        "deduplicated, link-checked, and category-verified before merging, "
+        "so bad data fails the build instead of reaching production.\n\n"
     )
 
     lines.append("## Browse\n\n")
@@ -320,12 +318,13 @@ def generate_readme():
         lines.append(f"| {GROUP_ICONS[group]} {group} | {joined_links} |\n")
     lines.append("\n")
 
-    lines.append("## Security & Privacy\n\n")
+    lines.append("## Quality Highlights\n\n")
     lines.append(
-        "- No third-party tracking: logos and fonts are self-hosted, and the "
+        "- No third-party requests: logos and fonts are self-hosted, and the "
         "only external traffic is Cloudflare's cookieless analytics. An "
         "end-to-end test fails the build if the packaged site requests any "
         "other cross-origin asset.\n"
+        "- Reduced-motion behavior for users who request it.\n"
         "- Strict Content Security Policy, HSTS, and hardened response headers "
         "served from [public/_headers](./public/_headers).\n"
         "- Lockfile-pinned dependencies with CodeQL, OSV-Scanner, and "
@@ -364,7 +363,7 @@ def generate_readme():
         "├─ schema/                      JSON Schema contract for every "
         "resource\n"
         "├─ scripts/                     Validation, generation, link and "
-        "logo checking, network safety\n"
+        "logo checking, SSRF-hardened networking\n"
         "├─ generated/                   Machine-generated exports and the "
         "EDA report\n"
         "├─ src/                         React + TypeScript directory site\n"
@@ -385,29 +384,18 @@ def generate_readme():
     lines.append('<div align="center">\n<pre>\n')
     lines.append(pipeline_diagram())
     lines.append("</pre>\n</div>\n\n")
-    lines.append(
-        "- **Data:** category-grouped JSON files validated against a single "
-        "JSON Schema.\n"
-        "- **Scripts:** validation, normalization, generation, and "
-        "SSRF-hardened network checks.\n"
-        "- **Generated:** every downstream artifact, rebuilt deterministically "
-        "and gated on freshness in CI.\n"
-        "- **Site:** a static React build with no runtime data fetching and "
-        "all content assets self-hosted.\n\n"
-    )
 
     lines.append("## Tech Stack\n\n")
     lines.append(
         "| Area | Stack |\n"
         "| --- | --- |\n"
-        "| Dataset | JSON, JSON Schema (Draft 7), Python 3.12 |\n"
-        "| Pipeline | uv, Ruff, jsonschema, Pillow, requests, matplotlib |\n"
-        "| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide |\n"
-        "| Styling | Hand-written CSS, self-hosted DM Sans, no framework |\n"
+        "| Dataset | Python 3.12, JSON Schema (Draft 7) |\n"
+        "| Pipeline | uv, Ruff, jsonschema, requests, Pillow, matplotlib, "
+        "pandas, JupyterLab |\n"
+        "| Frontend | React 19, TypeScript, Vite 7, Framer Motion, Lucide, "
+        "CSS |\n"
         "| Testing | Playwright, axe-core, Vitest, Testing Library, pytest |\n"
-        "| DevOps | GitHub Actions, Cloudflare Pages, Wrangler |\n"
-        "| Security | CodeQL, OSV-Scanner, Dependabot, CSP, HSTS |\n"
-        "| Analysis | pandas, JupyterLab, deterministic SVG charts |\n\n"
+        "| DevOps | GitHub Actions, Cloudflare Pages, UptimeRobot |\n\n"
     )
 
     browsers = browser_projects()
@@ -541,8 +529,7 @@ def generate_readme():
     lines.append("</div>\n\n")
     lines.append(
         "**External monitoring:** UptimeRobot checks the live site every five "
-        "minutes. Post-deploy smoke tests and a daily production health "
-        "workflow provide additional runtime verification.\n\n"
+        "minutes.\n\n"
     )
 
     lines.append("## Dataset Exploration\n\n")
@@ -555,12 +542,13 @@ def generate_readme():
         "contains the reproducible exploratory workflow.\n\n"
     )
     lines.append(
-        "Run `make generate` to refresh all generated outputs, including "
-        "the EDA report and deterministic SVG charts. CI reruns the same "
-        "pipeline and fails when generated files are stale. Use "
-        "`make eda-report` for only the static report. For the notebook, "
-        "install optional dependencies with `pip install -e .[eda]`, then "
-        "run `py -3 -m jupyterlab notebooks/resource_eda.ipynb`.\n\n"
+        'Run `make generate PYTHON="uv run python"` to refresh all generated '
+        "outputs, including the EDA report and deterministic SVG charts. CI "
+        "reruns the same pipeline and fails when generated files are stale. "
+        'Use `make eda-report PYTHON="uv run python"` for only the static '
+        "report. For the notebook, install the optional dependencies with "
+        "`uv sync --frozen --extra eda`, then run "
+        "`uv run jupyter lab notebooks/resource_eda.ipynb`.\n\n"
     )
     lines.append("<details>\n")
     lines.append("<summary><strong>Getting Started</strong></summary>\n\n")
@@ -683,16 +671,21 @@ def generate_readme():
         "[ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md), and "
         "[DATA_CONTRACT.md](./docs/DATA_CONTRACT.md).\n"
     )
-    lines.append("2. Run `make add` or pick the correct JSON file in `data/`.\n")
+    lines.append(
+        '2. Run `make add PYTHON="uv run python"` or pick the correct JSON '
+        "file in `data/`.\n"
+    )
     lines.append(
         "3. Add one resource using [SCHEMA.md](./docs/SCHEMA.md) and "
         "[STYLE_GUIDE.md](./docs/STYLE_GUIDE.md).\n"
     )
-    lines.append("4. Run `make validate` and `make generate`.\n")
     lines.append(
-        '   On Windows, use `make validate PYTHON="py -3"` and '
-        '`make generate PYTHON="py -3"`, or see '
-        "[ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for direct commands.\n"
+        '4. Run `make validate PYTHON="uv run python"` and '
+        '`make generate PYTHON="uv run python"`.\n'
+    )
+    lines.append(
+        "   See [ADDING_RESOURCES.md](./docs/ADDING_RESOURCES.md) for "
+        "direct commands.\n"
     )
     lines.append(
         "5. Commit any generated changes and open a pull request with "
