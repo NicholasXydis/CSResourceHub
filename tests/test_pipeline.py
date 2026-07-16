@@ -387,7 +387,6 @@ def test_guarded_connection_pins_to_the_validated_public_address(monkeypatch):
     )
     result = net_safety._guarded_create_connection(("example.com", 443))
     assert result == "socket"
-    # connects to the exact IP literal that was validated, not the hostname
     assert connected == [("93.184.216.34", 443)]
 
 

@@ -57,8 +57,6 @@ def _guarded_create_connection(address, *args, **kwargs):
     last_error: OSError | None = None
     for ip in addresses:
         try:
-            # ``ip`` is a literal, so no second name resolution happens here:
-            # the socket connects to the exact address we just validated.
             return _original_create_connection((ip, port), *args, **kwargs)
         except OSError as exc:
             last_error = exc
@@ -77,8 +75,6 @@ _install_connection_guard()
 
 def safe_session() -> requests.Session:
     session = requests.Session()
-    # Ignore HTTP(S)_PROXY / NO_PROXY: a proxy resolves the destination itself,
-    # which would bypass the DNS-pinning guard above.
     session.trust_env = False
     return session
 
