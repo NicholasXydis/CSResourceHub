@@ -285,8 +285,8 @@ def generate_readme():
     lines.append("<br>\n\n")
     lines.append('<div align="center">\n')
     lines.append(
-        '  <img src="docs/data-pipeline.svg" '
-        'alt="CS Resource Hub data pipeline" width="100%">\n'
+        '  <img src="docs/demo.gif" '
+        'alt="CS Resource Hub demo" width="92%">\n'
     )
     lines.append("</div>\n\n")
     lines.append("<br>\n\n")
@@ -459,6 +459,14 @@ def generate_readme():
         "| Refresh Logos | `.github/workflows/refresh_logos.yml` | Re-fetches "
         "self-hosted logos and opens a PR on change |\n\n"
     )
+    lines.append('<div align="center">\n')
+    lines.append(
+        '  <img src="docs/ci-cd-flow.svg" '
+        'alt="Validation, CodeQL, and the browser suite gate an '
+        'approval-gated production deployment and live smoke tests" '
+        'width="100%">\n'
+    )
+    lines.append("</div>\n\n")
     lines.append("Any required gate failure blocks the release.\n\n")
 
     lines.append("## Production Engineering\n\n")

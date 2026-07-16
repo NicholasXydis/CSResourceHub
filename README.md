@@ -45,7 +45,7 @@
 <br>
 
 <div align="center">
-  <img src="docs/data-pipeline.svg" alt="CS Resource Hub data pipeline" width="100%">
+  <img src="docs/demo.gif" alt="CS Resource Hub demo" width="92%">
 </div>
 
 <br>
@@ -174,6 +174,10 @@ End-to-end coverage runs across 5 browser targets (chromium, firefox, webkit, mo
 | Production Health | `.github/workflows/production.yml` | Daily browser checks against the live site |
 | Check Links | `.github/workflows/check_links.yml` | Scheduled link health, opens an issue on dead links |
 | Refresh Logos | `.github/workflows/refresh_logos.yml` | Re-fetches self-hosted logos and opens a PR on change |
+
+<div align="center">
+  <img src="docs/ci-cd-flow.svg" alt="Validation, CodeQL, and the browser suite gate an approval-gated production deployment and live smoke tests" width="100%">
+</div>
 
 Any required gate failure blocks the release.
 
