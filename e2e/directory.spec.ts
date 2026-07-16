@@ -46,8 +46,17 @@ test("renders the first page of resources", async ({ page }) => {
 });
 
 test("loads another page of resources", async ({ page }) => {
-  await page.getByRole("button", { name: /show \d+ more/i }).click();
-  await expect(page.locator(CARD)).toHaveCount(PAGE_SIZE * 2);
+  const cards = page.locator(CARD);
+  await expect(cards).toHaveCount(PAGE_SIZE);
+
+  const showMore = page.getByRole("button", { name: /show \d+ more/i });
+  await showMore.scrollIntoViewIfNeeded();
+  await expect(showMore).toHaveCSS("opacity", "1");
+
+  await expect(async () => {
+    if ((await cards.count()) === PAGE_SIZE) await showMore.click();
+    await expect(cards).toHaveCount(PAGE_SIZE * 2);
+  }).toPass({ timeout: 10_000 });
 });
 
 test("searches, then clears from the empty state", async ({ page }) => {
