@@ -17,9 +17,6 @@ from utils import (
 
 HIDDEN_README_TYPES = {EVENT_TYPE}
 
-# Browser suites need Node, which the generation workflow does not install, so
-# these two are verified in CI and recorded here. The pipeline suite is derived
-# from source below so it cannot drift.
 E2E_TESTS = 218
 UNIT_TESTS = 105
 
@@ -117,6 +114,36 @@ def viewport_count() -> int:
     spec = (ROOT / "e2e" / "viewports.spec.ts").read_text(encoding="utf-8")
     sizes = spec.split("const SIZES = [", 1)[1].split("];", 1)[0]
     return len(re.findall(r"\bname:\s*\"", sizes))
+
+
+def pipeline_diagram() -> str:
+    width = 60
+    center = width // 2
+    stages = [
+        ("Source Dataset", "Category-grouped JSON, schema-validated"),
+        ("Automated Checks", "Schema, duplicates, links, categories, types, dates"),
+        ("Generated Artifacts", "README, site.json, CSV, RSS, sitemap, EDA report"),
+        ("React + Vite Build", "Search, filters, sorting, and accessibility"),
+        ("Cloudflare Pages", "TLS, HSTS, CSP, self-hosted logos, no tracking cookies"),
+    ]
+    labels = ["validate + normalize", "generate", "build", "deploy"]
+
+    top = "┌" + "─" * width + "┐"
+    bottom = "└" + "─" * width + "┘"
+    bottom_tee = "└" + "─" * center + "┬" + "─" * (width - center - 1) + "┘"
+    top_arrow = "┌" + "─" * center + "▼" + "─" * (width - center - 1) + "┐"
+
+    rows = [top]
+    for index, (title, desc) in enumerate(stages):
+        rows.append("│" + title.center(width) + "│")
+        rows.append("│" + desc.center(width) + "│")
+        if index < len(stages) - 1:
+            rows.append(bottom_tee)
+            rows.append(" " * (center + 1) + "│ " + labels[index])
+            rows.append(top_arrow)
+        else:
+            rows.append(bottom)
+    return "\n".join(rows) + "\n"
 
 
 def category_anchor(category: str) -> str:
@@ -356,32 +383,7 @@ def generate_readme():
     )
     lines.append("```\n\n")
     lines.append('<div align="center">\n<pre>\n')
-    lines.append(
-        "┌────────────────────────────────────────────────────────────┐\n"
-        "│                     data/*.json (source)                   │\n"
-        "│        Category-grouped, schema-validated resources        │\n"
-        "└──────────────────────────────┬─────────────────────────────┘\n"
-        "                               │ validate + normalize\n"
-        "┌──────────────────────────────▼─────────────────────────────┐\n"
-        "│                      Automated Checks                      │\n"
-        "│   Schema, duplicates, links, categories, types, staleness  │\n"
-        "└──────────────────────────────┬─────────────────────────────┘\n"
-        "                               │ generate\n"
-        "┌──────────────────────────────▼─────────────────────────────┐\n"
-        "│                     Generated Artifacts                    │\n"
-        "│    README, site.json, CSV, RSS, sitemap, EDA report        │\n"
-        "└───────────────┬──────────────────────────────┬─────────────┘\n"
-        "                │                              │\n"
-        "┌───────────────▼──────────────┐   ┌───────────▼─────────────┐\n"
-        "│      React + Vite build      │   │   Dataset consumers     │\n"
-        "│  Search, filters, sort, a11y │   │  CSV, JSON, RSS, EDA    │\n"
-        "└───────────────┬──────────────┘   └─────────────────────────┘\n"
-        "                │ deploy\n"
-        "┌───────────────▼────────────────────────────────────────────┐\n"
-        "│                 Cloudflare Pages (edge)                    │\n"
-        "│      TLS, HSTS, CSP, self-hosted logos, no tracking cookies│\n"
-        "└────────────────────────────────────────────────────────────┘\n"
-    )
+    lines.append(pipeline_diagram())
     lines.append("</pre>\n</div>\n\n")
     lines.append(
         "- **Data:** category-grouped JSON files validated against a single "

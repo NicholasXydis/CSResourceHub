@@ -105,28 +105,28 @@ CSResourceHub/
 <div align="center">
 <pre>
 ┌────────────────────────────────────────────────────────────┐
-│                     data/*.json (source)                   │
-│        Category-grouped, schema-validated resources        │
+│                       Source Dataset                       │
+│          Category-grouped JSON, schema-validated           │
 └──────────────────────────────┬─────────────────────────────┘
                                │ validate + normalize
 ┌──────────────────────────────▼─────────────────────────────┐
 │                      Automated Checks                      │
-│   Schema, duplicates, links, categories, types, staleness  │
+│    Schema, duplicates, links, categories, types, dates     │
 └──────────────────────────────┬─────────────────────────────┘
                                │ generate
 ┌──────────────────────────────▼─────────────────────────────┐
-│                     Generated Artifacts                    │
-│    README, site.json, CSV, RSS, sitemap, EDA report        │
-└───────────────┬──────────────────────────────┬─────────────┘
-                │                              │
-┌───────────────▼──────────────┐   ┌───────────▼─────────────┐
-│      React + Vite build      │   │   Dataset consumers     │
-│  Search, filters, sort, a11y │   │  CSV, JSON, RSS, EDA    │
-└───────────────┬──────────────┘   └─────────────────────────┘
-                │ deploy
-┌───────────────▼────────────────────────────────────────────┐
-│                 Cloudflare Pages (edge)                    │
-│      TLS, HSTS, CSP, self-hosted logos, no tracking cookies│
+│                    Generated Artifacts                     │
+│      README, site.json, CSV, RSS, sitemap, EDA report      │
+└──────────────────────────────┬─────────────────────────────┘
+                               │ build
+┌──────────────────────────────▼─────────────────────────────┐
+│                     React + Vite Build                     │
+│        Search, filters, sorting, and accessibility         │
+└──────────────────────────────┬─────────────────────────────┘
+                               │ deploy
+┌──────────────────────────────▼─────────────────────────────┐
+│                      Cloudflare Pages                      │
+│   TLS, HSTS, CSP, self-hosted logos, no tracking cookies   │
 └────────────────────────────────────────────────────────────┘
 </pre>
 </div>
