@@ -1,7 +1,9 @@
 name: Deploy Production
 
 on:
-  push:
+  workflow_run:
+    workflows: [Validate]
+    types: [completed]
     branches: [main]
   workflow_dispatch:
 
@@ -16,6 +18,12 @@ concurrency:
 jobs:
   verify:
     name: Verify
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.event == 'push'
+      )
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
