@@ -8,13 +8,13 @@ requires-python = ">=3.12"
 dependencies = [
     "requests>=2.31.0",
     "jsonschema>=4.21.0",
-    "matplotlib==3.11.0",
+    "matplotlib==3.11.1",
     "pillow>=10.3.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "ruff>=0.4.0",
+    "ruff>=0.15.22",
     "pre-commit>=3.7.0",
     "pytest>=8.3.0",
     "pytest-cov>=6.0.0",
