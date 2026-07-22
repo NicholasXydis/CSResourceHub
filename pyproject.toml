@@ -20,7 +20,7 @@ dev = [
     "pytest-cov>=6.0.0",
 ]
 eda = [
-    "jupyterlab>=4.2.0",
+    "jupyterlab>=4.6.2",
     "pandas>=2.2.0",
 ]
 
