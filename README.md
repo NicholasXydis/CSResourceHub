@@ -761,7 +761,7 @@ Generated files are never edited by hand. `make generate` is deterministic, and 
 | [CompTIA](https://www.comptia.org/certifications) | Industry-standard cybersecurity certifications including Security+, CySA+, PenTest+, and SecurityX. | Cybersecurity |
 | [INE](https://ine.com/certifications) | Practical cybersecurity certifications including eJPT, eCPPT, eWPT, and eMAPT. | Cybersecurity |
 | [ISC2](https://www.isc2.org/certifications) | Globally recognized cybersecurity certifications including CC, SSCP, CISSP, and CCSP. | Cybersecurity |
-| [OffSec](https://www.offsec.com/certifications) | Highly respected hands-on offensive security certifications including OSCP, OSEP, OSWE, and OSED. | Cybersecurity |
+| [OffSec](https://www.offsec.com) | Highly respected hands-on offensive security certifications including OSCP, OSEP, OSWE, and OSED. | Cybersecurity |
 | [TCM Security](https://certifications.tcm-sec.com) | Hands-on penetration testing certifications including PNPT and PJPT. | Cybersecurity |
 
 <p align="right"><a href="#browse">Back to Browse ↑</a></p>

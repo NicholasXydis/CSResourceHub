@@ -3428,7 +3428,7 @@
       {
         "id": "offsec",
         "name": "OffSec",
-        "url": "https://www.offsec.com/certifications",
+        "url": "https://www.offsec.com",
         "description": "Highly respected hands-on offensive security certifications including OSCP, OSEP, OSWE, and OSED.",
         "category": "certifications",
         "date_added": "2026-07-02",

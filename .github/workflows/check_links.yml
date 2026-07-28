@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
@@ -70,11 +70,11 @@ jobs:
             const groups = [
               ['unsafe', report.unsafe || []],
               ['dead', report.hard_dead || []],
-              ['inconclusive', report.inconclusive || []],
             ];
             const failures = groups.flatMap(([status, items]) =>
               items.map((item) => ({ ...item, status }))
             );
+            const inconclusive = report.inconclusive || [];
             if (!failures.length) {
               if (existing) await github.rest.issues.update({
                 owner, repo, issue_number: existing.number, state: 'closed',
@@ -88,7 +88,10 @@ jobs:
               `Last checked: ${report.checked} (${report.attempts} attempts per URL).`,
               '', 'Unsafe entries were blocked before any request was made and are not dead links.',
               '', '| Status | Resource | URL | Result |', '| --- | --- | --- | --- |', rows,
-              '', 'This issue is automatically updated and closes after a healthy run.',
+              '', `${inconclusive.length} link(s) were inconclusive (bot-blocked, rate-limited, or`,
+              'temporarily unreachable). They are not actionable and are listed in the run summary',
+              'instead of here.',
+              '', 'This issue is automatically updated and closes once no unsafe or dead links remain.',
             ].join('\n');
             if (existing) {
               await github.rest.issues.update({
@@ -133,6 +136,20 @@ jobs:
             echo "| Dataset validation | $validation |"
             echo "| Verified-date PR | $pr |"
           } >> "$GITHUB_STEP_SUMMARY"
+          report="tmp/link-check-report.json"
+          if [ -f "$report" ] && [ "$(jq '.inconclusive | length' "$report")" -gt 0 ]; then
+            {
+              echo ""
+              echo "### Inconclusive links (not actionable)"
+              echo ""
+              echo "Bot-blocked, rate-limited, or temporarily unreachable. These do not fail"
+              echo "the run and do not open an issue."
+              echo ""
+              echo "| Resource | URL | Result |"
+              echo "| --- | --- | --- |"
+              jq -r '.inconclusive[] | "| \(.id) | \(.url) | \(.result | .[0:180] | split("|") | join("/")) |"' "$report"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Fail if link checks are not healthy
         if: always()
         run: |
