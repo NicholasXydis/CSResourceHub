@@ -8,20 +8,20 @@ requires-python = ">=3.12"
 dependencies = [
     "requests>=2.31.0",
     "jsonschema>=4.21.0",
-    "matplotlib==3.11.0",
+    "matplotlib==3.11.1",
     "pillow>=10.3.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "ruff>=0.4.0",
-    "pre-commit>=3.7.0",
+    "ruff>=0.16.3",
+    "pre-commit>=4.6.2",
     "pytest>=8.3.0",
     "pytest-cov>=6.0.0",
 ]
 eda = [
-    "jupyterlab>=4.2.0",
-    "pandas>=2.2.0",
+    "jupyterlab>=4.6.3",
+    "pandas>=3.0.5",
 ]
 
 [tool.ruff]
