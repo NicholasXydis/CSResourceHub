@@ -2,17 +2,17 @@
 
 A static, portfolio-friendly analysis of CS Resource Hub coverage, composition, metadata quality, duplicate candidates, and source concentration. The notebook in `notebooks/resource_eda.ipynb` keeps the exploratory workflow reproducible; this report is the polished read-only view.
 
-Generated from `generated/all_resources.json` on 2026-07-14.
+Generated from `generated/all_resources.json` on 2026-08-28.
 
 ## Snapshot
 
 | Metric | Value |
 | --- | --- |
-| Generated data date | 2026-07-09 |
-| Total resources | 334 |
+| Generated data date | 2026-08-28 |
+| Total resources | 335 |
 | Categories | 14 |
 | Groups | 4 |
-| Average description length | 85.8 chars |
+| Average description length | 85.7 chars |
 | Duplicate URL candidates | 0 |
 
 ## Coverage
@@ -32,7 +32,7 @@ The group chart gives a fast read on whether the hub is balanced across learning
 | Learning Resources | 59 |
 | Developer Resources | 45 |
 | Open Source | 36 |
-| Interview Prep | 25 |
+| Interview Prep | 26 |
 | Communities & Clubs | 24 |
 
 ### Smallest Categories
@@ -57,9 +57,9 @@ This chart shows the dominant formats in the dataset, which helps avoid over-ind
 
 | Field | Present | Missing |
 | --- | --- | --- |
-| type | 334 | 0 |
-| month | 58 | 276 |
-| location | 76 | 258 |
+| type | 335 | 0 |
+| month | 58 | 277 |
+| location | 76 | 259 |
 
 ## Quality Signals
 
@@ -79,8 +79,8 @@ Verification age buckets show how recently resource URLs were checked. They meas
 
 | Bucket | Resources | Share |
 | --- | --- | --- |
-| Verified in last 30 days | 334 | 100.0% |
-| Verified 31-90 days ago | 0 | 0.0% |
+| Verified in last 30 days | 1 | 0.3% |
+| Verified 31-90 days ago | 334 | 99.7% |
 | Verified 91-180 days ago | 0 | 0.0% |
 | Verified 180+ days ago | 0 | 0.0% |
 
@@ -114,7 +114,7 @@ Verification age buckets show how recently resource URLs were checked. They meas
 
 ## Key Takeaways
 
-- The dataset currently contains 334 resources across 14 categories.
+- The dataset currently contains 335 resources across 14 categories.
 - The largest category is Learning Resources with 59 resources.
 - The smallest category is Game Jams with 11 resources.
 - The most common domain is `github.com` with 20 resources.

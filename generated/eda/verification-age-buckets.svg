@@ -245,16 +245,16 @@ L -3.5 0
    </g>
    <g id="patch_3">
     <path d="M 139.260938 46.610384
-L 656.516325 46.610384
-L 656.516325 88.769235
+L 140.809606 46.610384
+L 140.809606 88.769235
 L 139.260938 88.769235
 z
 " clip-path="url(#p3b3e0ff6d7)" style="fill: #2563eb; opacity: 0.92"/>
    </g>
    <g id="patch_4">
     <path d="M 139.260938 99.308948
-L 139.260938 99.308948
-L 139.260938 141.4678
+L 656.516325 99.308948
+L 656.516325 141.4678
 L 139.260938 141.4678
 z
 " clip-path="url(#p3b3e0ff6d7)" style="fill: #2563eb; opacity: 0.92"/>
@@ -289,10 +289,10 @@ L 739.277188 256.877656
     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b7280" x="139.260938" y="34.394856" transform="rotate(-0 139.260938 34.394856)">Shows how recently resource URLs were confirmed active.</text>
    </g>
    <g id="text_17">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="665.826922" y="70.0277" transform="rotate(-0 665.826922 70.0277)">334</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="150.120203" y="70.0277" transform="rotate(-0 150.120203 70.0277)">1</text>
    </g>
    <g id="text_18">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="148.571534" y="122.726265" transform="rotate(-0 148.571534 122.726265)">0</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="665.826922" y="122.726265" transform="rotate(-0 665.826922 122.726265)">334</text>
    </g>
    <g id="text_19">
     <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="148.571534" y="175.424829" transform="rotate(-0 148.571534 175.424829)">0</text>
