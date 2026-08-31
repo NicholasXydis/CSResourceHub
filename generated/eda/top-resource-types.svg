@@ -244,7 +244,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_16">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="164.252658" transform="rotate(-0 69.378125 164.252658)">course</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="164.253049" transform="rotate(-0 69.378125 164.253049)">platform</text>
      </g>
     </g>
     <g id="ytick_7">
@@ -254,7 +254,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_17">
-      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="184.425255" transform="rotate(-0 69.378125 184.425255)">platform</text>
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111827" x="69.378125" y="184.424864" transform="rotate(-0 69.378125 184.424864)">course</text>
      </g>
     </g>
     <g id="ytick_8">
@@ -380,8 +380,8 @@ z
    </g>
    <g id="patch_8">
     <path d="M 76.378125 152.384948
-L 205.535522 152.384948
-L 205.535522 168.522712
+L 214.76105 152.384948
+L 214.76105 168.522712
 L 76.378125 168.522712
 z
 " clip-path="url(#paa78360435)" style="fill: #7c3aed; opacity: 0.92"/>
@@ -487,7 +487,7 @@ L 739.878125 365
     <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="225.05674" y="142.619514" transform="rotate(-0 225.05674 142.619514)">15</text>
    </g>
    <g id="text_32">
-    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="215.831212" y="162.791721" transform="rotate(-0 215.831212 162.791721)">14</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="225.05674" y="162.791721" transform="rotate(-0 225.05674 162.791721)">15</text>
    </g>
    <g id="text_33">
     <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111827" x="215.831212" y="182.963927" transform="rotate(-0 215.831212 182.963927)">14</text>

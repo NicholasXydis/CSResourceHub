@@ -212,6 +212,16 @@
       "type": "platform"
     },
     {
+      "id": "prachub",
+      "name": "PracHub",
+      "url": "https://prachub.com/questions",
+      "description": "Company- and role-filtered technical interview questions with written solutions.",
+      "category": "interview-prep",
+      "date_added": "2026-08-28",
+      "last_verified": "2026-08-28",
+      "type": "platform"
+    },
+    {
       "id": "pramp",
       "name": "Pramp",
       "url": "https://www.pramp.com",

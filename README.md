@@ -34,7 +34,7 @@
   <strong>14 CS Opportunity Categories</strong> &nbsp;|&nbsp; <strong>Automated Validation</strong> &nbsp;|&nbsp; <strong>Multi-Format Exports</strong>
 </p>
 
-![version](https://img.shields.io/static/v1?label=version&message=v1.0.0&color=7c3aed) ![resources](https://img.shields.io/static/v1?label=resources&message=334&color=2563eb) [![ci](https://img.shields.io/github/check-runs/NicholasXydis/CSResourceHub/main?label=ci)](https://github.com/NicholasXydis/CSResourceHub/actions) [![updated](https://img.shields.io/github/last-commit/NicholasXydis/CSResourceHub?label=updated&color=0891b2&display_timestamp=author)](https://github.com/NicholasXydis/CSResourceHub/commits/main) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=db2777)](https://github.com/NicholasXydis/CSResourceHub/blob/main/LICENSE) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
+![version](https://img.shields.io/static/v1?label=version&message=v1.0.0&color=7c3aed) ![resources](https://img.shields.io/static/v1?label=resources&message=335&color=2563eb) [![ci](https://img.shields.io/github/check-runs/NicholasXydis/CSResourceHub/main?label=ci)](https://github.com/NicholasXydis/CSResourceHub/actions) [![updated](https://img.shields.io/github/last-commit/NicholasXydis/CSResourceHub?label=updated&color=0891b2&display_timestamp=author)](https://github.com/NicholasXydis/CSResourceHub/commits/main) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=db2777)](https://github.com/NicholasXydis/CSResourceHub/blob/main/LICENSE) ![contributions](https://img.shields.io/static/v1?label=contributions&message=welcome&color=f59e0b)
 
 <a href="https://csresourcehub.ca">
   <img src="docs/csresourcehub-btn.svg" alt="Live Site">
@@ -60,7 +60,7 @@ Browse resources by area and category.
 
 | Area | Categories |
 | --- | --- |
-| 📚 Learning & Development | [Learning Resources](#learning-resources) (59)<br>[Interview Prep](#interview-prep) (25)<br>[Communities & Clubs](#communities-clubs) (24) |
+| 📚 Learning & Development | [Learning Resources](#learning-resources) (59)<br>[Interview Prep](#interview-prep) (26)<br>[Communities & Clubs](#communities-clubs) (24) |
 | 🏆 Experience | [Hackathons](#hackathons) (22)<br>[CTFs](#ctfs) (15)<br>[Game Jams](#game-jams) (11)<br>[Competitions](#competitions) (14) |
 | 🧩 Building & Open Source | [Open Source](#open-source) (36)<br>[Developer Resources](#developer-resources) (45)<br>[Project-Based Learning](#project-based-learning) (14) |
 | 💼 Careers & Perks | [Internships & Fellowships](#internships-fellowships) (22)<br>[Recruitment & Events](#recruitment-events) (14)<br>[Certifications](#certifications) (12)<br>[Student Benefits](#student-benefits) (21) |
@@ -375,7 +375,7 @@ Generated files are never edited by hand. `make generate` is deterministic, and 
 
 ### Interview Prep
 
-**25 resources** · `interview-prep`
+**26 resources** · `interview-prep`
 
 | Resource | Description | Type |
 | --- | --- | --- |
@@ -400,6 +400,7 @@ Generated files are never edited by hand. `make generate` is deterministic, and 
 | [interviewing.io](https://interviewing.io) | Anonymous mock technical interviews with engineers from leading technology companies. | Platform |
 | [LeetCode](https://leetcode.com) | Leading coding interview platform with algorithm, data structure, SQL, and design problems. | Platform |
 | [NeetCode](https://neetcode.io) | Coding interview platform with curated roadmaps, problem lists, and video explanations. | Platform |
+| [PracHub](https://prachub.com/questions) | Company- and role-filtered technical interview questions with written solutions. | Platform |
 | [Pramp](https://www.pramp.com) | Free peer-to-peer mock interview platform for coding and technical interview practice. | Platform |
 | [QuantGuide](https://www.quantguide.io) | Quant finance interview prep covering probability, statistics, mathematics, and trading. | Platform |
 | [Overleaf](https://www.overleaf.com) | Online LaTeX editor for creating professional resumes, CVs, and technical documents. | Tool |

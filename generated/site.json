@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09",
-  "total": 334,
+  "generated": "2026-08-28",
+  "total": 335,
   "labels": {
     "learning-resources": "Learning Resources",
     "interview-prep": "Interview Prep",
@@ -123,7 +123,7 @@
         "interview-prep",
         "communities-clubs"
       ],
-      "total": 108
+      "total": 109
     },
     "Experience": {
       "icon": "trophy",
@@ -957,6 +957,16 @@
         "category": "interview-prep",
         "date_added": "2026-07-01",
         "last_verified": "2026-08-31",
+        "type": "platform"
+      },
+      {
+        "id": "prachub",
+        "name": "PracHub",
+        "url": "https://prachub.com/questions",
+        "description": "Company- and role-filtered technical interview questions with written solutions.",
+        "category": "interview-prep",
+        "date_added": "2026-08-28",
+        "last_verified": "2026-08-28",
         "type": "platform"
       },
       {
