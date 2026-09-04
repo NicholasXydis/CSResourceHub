@@ -7,6 +7,14 @@
     <language>en-ca</language>
     <atom:link href="https://csresourcehub.ca/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ResumeAI</title>
+      <link>https://withresumeai.com</link>
+      <guid isPermaLink="false">resumeai</guid>
+      <category>Interview Prep</category>
+      <description>Free ATS checker and AI resume builder with the open State of ATS 2026 dataset covering 738 employers.</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>PracHub</title>
       <link>https://prachub.com/questions</link>
       <guid isPermaLink="false">prachub</guid>
@@ -316,14 +324,6 @@
       <guid isPermaLink="false">zed-student</guid>
       <category>Student Benefits</category>
       <description>Student access to Zed with collaborative editing, AI features, and usage credits.</description>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wolfram Student</title>
-      <link>https://www.wolframalpha.com/pro/pricing/students</link>
-      <guid isPermaLink="false">wolfram-student</guid>
-      <category>Student Benefits</category>
-      <description>Student pricing for Wolfram tools used in math, computation, visualization, and engineering.</description>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

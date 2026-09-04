@@ -260,6 +260,16 @@
       "date_added": "2026-07-01",
       "last_verified": "2026-08-31",
       "type": "tool"
+    },
+    {
+      "id": "resumeai",
+      "name": "ResumeAI",
+      "url": "https://withresumeai.com",
+      "description": "Free ATS checker and AI resume builder with the open State of ATS 2026 dataset covering 738 employers.",
+      "category": "interview-prep",
+      "date_added": "2026-09-04",
+      "last_verified": "2026-09-04",
+      "type": "tool"
     }
   ]
 }
