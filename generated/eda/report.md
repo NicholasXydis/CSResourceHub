@@ -2,7 +2,7 @@
 
 A static, portfolio-friendly analysis of CS Resource Hub coverage, composition, metadata quality, duplicate candidates, and source concentration. The notebook in `notebooks/resource_eda.ipynb` keeps the exploratory workflow reproducible; this report is the polished read-only view.
 
-Generated from `generated/all_resources.json` on 2026-09-07.
+Generated from `generated/all_resources.json` on 2026-09-28.
 
 ## Snapshot
 
@@ -79,9 +79,9 @@ Verification age buckets show how recently resource URLs were checked. They meas
 
 | Bucket | Resources | Share |
 | --- | --- | --- |
-| Verified in last 30 days | 297 | 88.7% |
-| Verified 31-90 days ago | 38 | 11.3% |
-| Verified 91-180 days ago | 0 | 0.0% |
+| Verified in last 30 days | 296 | 88.4% |
+| Verified 31-90 days ago | 37 | 11.0% |
+| Verified 91-180 days ago | 2 | 0.6% |
 | Verified 180+ days ago | 0 | 0.0% |
 
 | Check | Count |
