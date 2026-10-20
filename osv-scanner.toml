@@ -1,0 +1,4 @@
+[[PackageOverrides]]
+group = "dev"
+vulnerability.ignore = true
+reason = "Dev-only tooling is not shipped with the site; matches npm audit --omit=dev."

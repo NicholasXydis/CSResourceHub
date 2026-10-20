@@ -20,7 +20,7 @@ export function Header({ notFound = false }: { notFound?: boolean }) {
       <motion.a
         className="brand"
         href={notFound ? "/" : "#top"}
-        aria-label="CS Resource Hub home"
+        aria-label="CSResourceHub home"
         whileHover={{ y: -2, scale: 1.025 }}
         whileTap={{ scale: 0.975 }}
       >

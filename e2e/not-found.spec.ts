@@ -19,7 +19,7 @@ test("keeps the site chrome and ambient design on the 404 page", async ({
   await page.goto("/nope");
 
   await expect(
-    page.getByRole("link", { name: /cs resource hub home/i }),
+    page.getByRole("link", { name: /csresourcehub home/i }),
   ).toBeVisible();
   await expect(page.getByRole("link", { name: /back to top/i })).toHaveCount(0);
   await expect(page.locator("footer")).toHaveCount(0);
