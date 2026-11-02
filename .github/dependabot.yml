@@ -12,7 +12,6 @@ updates:
     directory: "/"
     patterns: ["*"]
     multi-ecosystem-group: "monthly-dependencies"
-    open-pull-requests-limit: 5
     groups:
       security-updates:
         applies-to: "security-updates"
@@ -27,7 +26,6 @@ updates:
     directory: "/"
     patterns: ["*"]
     multi-ecosystem-group: "monthly-dependencies"
-    open-pull-requests-limit: 5
     groups:
       security-updates:
         applies-to: "security-updates"
@@ -42,7 +40,6 @@ updates:
     directory: "/"
     patterns: ["*"]
     multi-ecosystem-group: "monthly-dependencies"
-    open-pull-requests-limit: 5
     ignore:
       - dependency-name: "*"
         update-types:
@@ -52,7 +49,6 @@ updates:
     directory: "/"
     patterns: ["*"]
     multi-ecosystem-group: "monthly-dependencies"
-    open-pull-requests-limit: 5
     ignore:
       - dependency-name: "*"
         update-types:
