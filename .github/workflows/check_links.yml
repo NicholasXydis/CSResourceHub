@@ -50,6 +50,15 @@ jobs:
         id: validate_resources
         continue-on-error: true
         run: uv run python scripts/validate_all.py
+      - name: Fetch resource logos
+        id: logos
+        continue-on-error: true
+        run: uv run python scripts/fetch_logos.py
+      - name: Discard partial logo changes
+        if: steps.logos.outcome == 'failure'
+        run: |
+          git checkout -- public/logos generated/logos.json
+          git clean -fdq -- public/logos
       - name: Open, update, or close persistent link issue
         if: always() && hashFiles('tmp/link-check-report.json') != ''
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
@@ -107,29 +116,32 @@ jobs:
                 owner, repo, title, body, labels: [label],
               });
             }
-      - name: Create last_verified update PR
+      - name: Create monthly maintenance PR
         id: update_pr
         if: steps.links.outcome == 'success' && steps.exports.outcome == 'success' && steps.validate_resources.outcome == 'success'
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
         with:
-          commit-message: "chore: update verified link dates"
-          title: "chore: update verified link dates"
-          body: "Automated update of last_verified dates after successful link checks."
+          commit-message: "chore: update verified link dates and logos"
+          title: "chore: update verified link dates and logos"
+          body: "Automated update of last_verified dates after successful link checks, plus a refresh of public/logos and generated/logos.json."
           branch: chore/update-verified-link-dates
           delete-branch: true
           add-paths: |
             data/
             generated/
+            public/logos/
       - name: Write link check summary
         if: always()
         run: |
           links="FAIL"
           exports="FAIL"
           validation="FAIL"
+          logos="FAIL"
           pr="FAIL"
           if [ "${{ steps.links.outcome }}" = "success" ]; then links="PASS"; fi
           if [ "${{ steps.exports.outcome }}" = "success" ]; then exports="PASS"; fi
           if [ "${{ steps.validate_resources.outcome }}" = "success" ]; then validation="PASS"; fi
+          if [ "${{ steps.logos.outcome }}" = "success" ]; then logos="PASS"; fi
           if [ "$links" = "PASS" ] && [ "$exports" = "PASS" ] && [ "$validation" = "PASS" ] && [ "${{ steps.update_pr.outcome }}" != "failure" ]; then pr="PASS"; fi
           {
             echo "## Link health"
@@ -139,7 +151,8 @@ jobs:
             echo "| Resource links | $links |"
             echo "| Generated exports | $exports |"
             echo "| Dataset validation | $validation |"
-            echo "| Verified-date PR | $pr |"
+            echo "| Resource logo fetch | $logos |"
+            echo "| Maintenance PR | $pr |"
           } >> "$GITHUB_STEP_SUMMARY"
           report="tmp/link-check-report.json"
           if [ -f "$report" ] && [ "$(jq '.inconclusive | length' "$report")" -gt 0 ]; then
@@ -158,6 +171,6 @@ jobs:
       - name: Fail if link checks are not healthy
         if: always()
         run: |
-          if [ "${{ steps.links.outcome }}" != "success" ] || [ "${{ steps.exports.outcome }}" != "success" ] || [ "${{ steps.validate_resources.outcome }}" != "success" ]; then
+          if [ "${{ steps.links.outcome }}" != "success" ] || [ "${{ steps.exports.outcome }}" != "success" ] || [ "${{ steps.validate_resources.outcome }}" != "success" ] || [ "${{ steps.logos.outcome }}" != "success" ]; then
             exit 1
           fi
