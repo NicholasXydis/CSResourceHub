@@ -1,20 +1,18 @@
 version: 2
-updates:
-  - package-ecosystem: "uv"
-    directory: "/"
+
+multi-ecosystem-groups:
+  monthly-dependencies:
     schedule:
       interval: "monthly"
       time: "09:00"
       timezone: "America/Toronto"
-    open-pull-requests-limit: 5
+
+updates:
+  - package-ecosystem: "uv"
+    directory: "/"
+    patterns: ["*"]
+    multi-ecosystem-group: "monthly-dependencies"
     groups:
-      routine-updates:
-        applies-to: "version-updates"
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
       security-updates:
         applies-to: "security-updates"
         patterns:
@@ -26,19 +24,9 @@ updates:
 
   - package-ecosystem: "npm"
     directory: "/"
-    schedule:
-      interval: "monthly"
-      time: "09:00"
-      timezone: "America/Toronto"
-    open-pull-requests-limit: 5
+    patterns: ["*"]
+    multi-ecosystem-group: "monthly-dependencies"
     groups:
-      routine-updates:
-        applies-to: "version-updates"
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
       security-updates:
         applies-to: "security-updates"
         patterns:
@@ -50,19 +38,8 @@ updates:
 
   - package-ecosystem: "pre-commit"
     directory: "/"
-    schedule:
-      interval: "monthly"
-      time: "09:00"
-      timezone: "America/Toronto"
-    open-pull-requests-limit: 5
-    groups:
-      routine-updates:
-        applies-to: "version-updates"
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
+    patterns: ["*"]
+    multi-ecosystem-group: "monthly-dependencies"
     ignore:
       - dependency-name: "*"
         update-types:
@@ -70,19 +47,8 @@ updates:
 
   - package-ecosystem: "github-actions"
     directory: "/"
-    schedule:
-      interval: "monthly"
-      time: "09:00"
-      timezone: "America/Toronto"
-    open-pull-requests-limit: 5
-    groups:
-      routine-updates:
-        applies-to: "version-updates"
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
+    patterns: ["*"]
+    multi-ecosystem-group: "monthly-dependencies"
     ignore:
       - dependency-name: "*"
         update-types:
